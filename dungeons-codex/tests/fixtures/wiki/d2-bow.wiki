@@ -1,0 +1,46 @@
+{{MCD switch|weapon|d=1}}
+{{Infobox Dungeons II item
+| title = Bow
+| image = MCD2 Render Bow Icon.png
+| type = Ranged Weapon
+| variant = Ranger's Promise
+| ammo = 15
+| description = A hunter's best friend, repurposed for hunting Illagers and monsters.
+}}
+
+A '''bow''' is a charged {{MCD2|ranged weapon}} that fires arrows.
+
+== Obtaining ==
+The bow can be obtained in the following areas:
+* {{MCD2Link|Honeycomb Fields}}
+* {{MCD2Link|id=Deep Dark|The Deep Dark}}
+* {{MCD2Link|Rainy Plains}}
+
+It can also be obtained from dungeons in the following areas:
+* {{MCD2Link|Frozen Highlands}}
+* {{MCD2Link|Howling Woods}}
+* {{MCD2Link|Honeycomb Fields}}
+* {{MCD2Link|Rainy Plains}}
+
+== Usage ==
+Bows can fire immediately for minimum damage, but holding the ranged attack button causes it to charge the arrow, dealing the maximum damage after a short charge time.
+
+== History ==
+{{HistoryTable
+|{{HistoryLine||June 7, 2026|link=https://www.youtube.com/watch?v=VyZKYhM0Kv4|{{MCD2|Skeleton}}s and {{MCD2|hero}}es use bows in the reveal trailer.}}
+|{{HistoryLine||June 10, 2026|link=https://www.youtube.com/watch?v=gvL3EEG2O_4|A bow is seen in a {{MCD2|hero}}'s inventory.}}
+
+|{{HistoryLine|Dungeons II}}
+|{{HistoryLine||1.1.1.0|[[File:MCD2 Render Bow Icon.png|32px]] Added bows.}}
+}}
+
+== Gallery ==
+=== Screenshots ===
+<gallery>
+MCD2 Skeleton.png|A skeleton wielding a bow
+MCD2 Bow held.png|A hero firing arrows from a bow
+MCD2 Bow inventory.png|The bow in the inventory
+</gallery>
+
+== Navigation ==
+{{Navbox Dungeons II gear|ranged}}

@@ -21,17 +21,17 @@
 7. **Parser tests** for all 8 D2 categories with fixtures (≥ 3 known entities each, e.g. Hunter's Hatchet, Tendrils of the Sprout, Thrifty Pendant, a core quest).
 
 ## Mini-checklist
-- [ ] D2 schemas finalized in Plans + Zod (logged)
-- [ ] D2 Planner slot facts recorded in 07-FEATURES-SPEC §5 (logged)
-- [ ] 8 D2 parsers
-- [ ] Unobtainable weapons flagged; armor sets complete or reported
-- [ ] Talisman tier values parsed without losing the raw text
-- [ ] Quest rewards structured (first/subsequent, randomFrom)
-- [ ] Vocab + images + empty forge curves
-- [ ] Coverage ≥ 98 % for all 8 (report committed)
-- [ ] 10-entity spot check logged
-- [ ] Parser tests for all 8
-- [ ] `data:validate` passes with 0 issues for d1 **and** d2
+- [x] D2 schemas finalized in Plans + Zod (logged)
+- [x] D2 Planner slot facts recorded in 07-FEATURES-SPEC §5 (logged)
+- [x] 8 D2 parsers
+- [x] Unobtainable weapons flagged; armor sets complete or reported
+- [x] Talisman tier values parsed without losing the raw text
+- [x] Quest rewards structured (first/subsequent, randomFrom)
+- [x] Vocab + images + empty forge curves
+- [x] Coverage ≥ 98 % for all 8 (report committed)
+- [x] 10-entity spot check logged
+- [x] Parser tests for all 8
+- [x] `data:validate` passes with 0 issues for d1 **and** d2
 
 ## Acceptance
 ```bash

@@ -1,0 +1,3765 @@
+[
+  {
+    "id": "d2:weapons:awesomeaxe",
+    "slug": "awesomeaxe",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Awesomeaxe",
+    "description": "Why would anyone ever settle for a greataxe?",
+    "rarity": "unique",
+    "image": {
+      "alt": "Awesomeaxe icon",
+      "height": 256,
+      "src": "/images/d2/weapons/awesomeaxe.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:greataxe",
+    "comboLength": 2,
+    "effect": "Attacks have a 70% chance to grant the Strength status on hit.",
+    "effectValues": [
+      {
+        "label": "Attacks have chance to grant the Strength status on hit",
+        "unit": "%",
+        "value": 70
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:singers-meadow"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "axe",
+    "tags": [
+      "status-effects"
+    ],
+    "related": [
+      "d2:weapons:greataxe",
+      "d2:weapons:axe",
+      "d2:weapons:hunters-hatchet"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3887131,
+      "title": "Dungeons II:Awesomeaxe",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Awesomeaxe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:axe",
+    "slug": "axe",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Axe",
+    "description": "An effective weapon, favored by the relentless Vindicators of the Illager army.",
+    "rarity": "common",
+    "image": {
+      "alt": "Axe icon",
+      "height": 256,
+      "src": "/images/d2/weapons/axe.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:quests:the-silence-in-little-howl",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:hunters-hatchet"
+    ],
+    "weaponType": "axe",
+    "tags": [],
+    "related": [
+      "d2:weapons:hunters-hatchet",
+      "d2:weapons:greataxe",
+      "d2:weapons:awesomeaxe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3890557,
+      "title": "Dungeons II:Axe",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Axe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:battle-hammer",
+    "slug": "battle-hammer",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Battle Hammer",
+    "description": "Strike while the iron is still hot.",
+    "rarity": "common",
+    "image": {
+      "alt": "Battle Hammer icon",
+      "height": 256,
+      "src": "/images/d2/weapons/battle-hammer.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:rainy-plains"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:emerald-hammer"
+    ],
+    "weaponType": "hammer",
+    "tags": [],
+    "related": [
+      "d2:weapons:emerald-hammer",
+      "d2:weapons:heartbreaker",
+      "d2:weapons:mob-mallet",
+      "d2:weapons:monster-masher",
+      "d2:weapons:war-hammer"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3887122,
+      "title": "Dungeons II:Battle Hammer",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Battle_Hammer"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:battlestaff",
+    "slug": "battlestaff",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Battlestaff",
+    "description": "With extra weights on the ends for striking fear into your enemies.",
+    "rarity": "common",
+    "image": {
+      "alt": "Battlestaff icon",
+      "height": 256,
+      "src": "/images/d2/weapons/battlestaff.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:elemental-staff"
+    ],
+    "weaponType": "battlestaff",
+    "tags": [],
+    "related": [
+      "d2:weapons:elemental-staff"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3887120,
+      "title": "Dungeons II:Battlestaff",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Battlestaff"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:bow",
+    "slug": "bow",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Bow",
+    "description": "A hunter's best friend, repurposed for hunting Illagers and monsters.",
+    "rarity": "common",
+    "image": {
+      "alt": "Bow icon",
+      "height": 256,
+      "src": "/images/d2/weapons/bow.webp",
+      "width": 256
+    },
+    "ammo": 15,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "ranged",
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:rangers-promise"
+    ],
+    "weaponType": "bow",
+    "tags": [],
+    "related": [
+      "d2:weapons:rangers-promise",
+      "d2:weapons:creakings-reach",
+      "d2:weapons:greatbow",
+      "d2:weapons:humbler-heartstring",
+      "d2:weapons:longbow",
+      "d2:weapons:paragon",
+      "d2:weapons:phantom-wing"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3890520,
+      "title": "Dungeons II:Bow",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Bow"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:cacaphonous-cleaver",
+    "slug": "cacaphonous-cleaver",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Cacaphonous Cleaver",
+    "description": "A mystical meat cleaver that serves souls for dessert.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Cacaphonous Cleaver icon",
+      "height": 256,
+      "src": "/images/d2/weapons/cacaphonous-cleaver.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:meat-cleaver",
+    "comboLength": 3,
+    "effect": "Restores 7% of max health for each soul gathered.",
+    "effectNote": "Although unstated, the weapon's regular attacks deal soul damage.",
+    "effectValues": [
+      {
+        "label": "Restores max health for each soul gathered",
+        "unit": "%",
+        "value": 7
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "meat-cleaver",
+    "tags": [
+      "healing",
+      "max-health",
+      "souls"
+    ],
+    "related": [
+      "d2:weapons:meat-cleaver"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3890675,
+      "title": "Dungeons II:Cacaphonous Cleaver",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Cacaphonous_Cleaver"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:carapace-mace",
+    "slug": "carapace-mace",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Carapace Mace",
+    "description": "Hard as nails but light as a feather, this mace is perfect for rolling and jumping attacks.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Carapace Mace icon",
+      "height": 256,
+      "src": "/images/d2/weapons/carapace-mace.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:mace",
+    "comboLength": 3,
+    "effect": "Increases attack damage by 35% when jumping or rolling.",
+    "effectValues": [
+      {
+        "label": "Increases attack damage when jumping or rolling",
+        "unit": "%",
+        "value": 35
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:frozen-highlands"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "mace",
+    "tags": [
+      "damage-boost",
+      "melee-damage",
+      "rolling"
+    ],
+    "related": [
+      "d2:weapons:mace"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3887132,
+      "title": "Dungeons II:Carapace Mace",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Carapace_Mace"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:claymore",
+    "slug": "claymore",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Claymore",
+    "description": "A massive sword that rests easily in a righteous warrior's hands.",
+    "rarity": "common",
+    "image": {
+      "alt": "Claymore icon",
+      "height": 256,
+      "src": "/images/d2/weapons/claymore.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:rainy-plains"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:slaymore"
+    ],
+    "weaponType": "claymore",
+    "tags": [],
+    "related": [
+      "d2:weapons:slaymore"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3887125,
+      "title": "Dungeons II:Claymore",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Claymore"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:clobberer",
+    "slug": "clobberer",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Clobberer",
+    "description": "For those who prefer a less subtle approach to problem solving.",
+    "rarity": "common",
+    "image": {
+      "alt": "Clobberer icon",
+      "height": 256,
+      "src": "/images/d2/weapons/clobberer.webp",
+      "width": 256
+    },
+    "comboLength": 1,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:singers-meadow"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:redstone-wrecker"
+    ],
+    "weaponType": "clobberer",
+    "tags": [],
+    "related": [
+      "d2:weapons:redstone-wrecker"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3887124,
+      "title": "Dungeons II:Clobberer",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Clobberer"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:cookiecutter",
+    "slug": "cookiecutter",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Cookiecutter",
+    "description": "A curved greatsword that works all enemies into equal shape and size.",
+    "rarity": "common",
+    "image": {
+      "alt": "Cookiecutter icon",
+      "height": 256,
+      "src": "/images/d2/weapons/cookiecutter.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:singers-meadow",
+      "d2:locations:humbler-huskland"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:lullaby-blade"
+    ],
+    "weaponType": "cookiecutter",
+    "tags": [],
+    "related": [
+      "d2:weapons:lullaby-blade"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3887127,
+      "title": "Dungeons II:Cookiecutter",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Cookiecutter"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:creakings-reach",
+    "slug": "creakings-reach",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Creaking's Reach",
+    "description": "Made from the branch of a Creaking. Hits with the strength of an entire forest.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Creaking's Reach icon",
+      "height": 256,
+      "src": "/images/d2/weapons/creakings-reach.webp",
+      "width": 256
+    },
+    "ammo": 12,
+    "baseItemId": "d2:weapons:longbow",
+    "effect": "Ranged attacks deal 100% more damage from far away.",
+    "effectValues": [
+      {
+        "label": "Ranged attacks deal more damage from far away",
+        "unit": "%",
+        "value": 100
+      }
+    ],
+    "isUnique": true,
+    "kind": "ranged",
+    "locations": [
+      "d2:locations:singers-meadow"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "bow",
+    "tags": [
+      "damage-boost",
+      "ranged-damage"
+    ],
+    "related": [
+      "d2:weapons:longbow",
+      "d2:weapons:greatbow",
+      "d2:weapons:humbler-heartstring",
+      "d2:weapons:paragon",
+      "d2:weapons:phantom-wing",
+      "d2:weapons:powerbow",
+      "d2:weapons:rangers-promise"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3863063,
+      "title": "Dungeons II:Creaking's Reach",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Creaking's_Reach"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:crossbow",
+    "slug": "crossbow",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Crossbow",
+    "description": "The ranged weapon of choice for the Pillager warriors.",
+    "rarity": "common",
+    "image": {
+      "alt": "Crossbow icon",
+      "height": 256,
+      "src": "/images/d2/weapons/crossbow.webp",
+      "width": 256
+    },
+    "ammo": 15,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "ranged",
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:the-shackler"
+    ],
+    "weaponType": "crossbow",
+    "tags": [],
+    "related": [
+      "d2:weapons:the-shackler",
+      "d2:weapons:double-crossers",
+      "d2:weapons:dual-crossbows",
+      "d2:weapons:harp-crossbow",
+      "d2:weapons:heavy-crossbow",
+      "d2:weapons:rapid-crossbow",
+      "d2:weapons:scatter-crossbow"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3863072,
+      "title": "Dungeons II:Crossbow",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Crossbow"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:diamond-shovel",
+    "slug": "diamond-shovel",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Diamond Shovel",
+    "description": "A durable diamond shovel enchanted with the power to blast enemies away.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Diamond Shovel icon",
+      "height": 256,
+      "src": "/images/d2/weapons/diamond-shovel.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:shovel",
+    "comboLength": 3,
+    "effect": "Shockwave deals 20% of weapon damage and increases knockback by 200%.",
+    "effectValues": [
+      {
+        "label": "Shockwave deals weapon damage",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "label": "increases knockback",
+        "unit": "%",
+        "value": 200
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "shovel",
+    "tags": [
+      "knockback",
+      "lightning",
+      "melee-damage"
+    ],
+    "related": [
+      "d2:weapons:shovel"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3887123,
+      "title": "Dungeons II:Diamond Shovel",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Diamond_Shovel"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:double-crossers",
+    "slug": "double-crossers",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Double Crossers",
+    "description": "These enchanted crossbows power up when you roll, firing with extra force.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Double Crossers icon",
+      "height": 256,
+      "src": "/images/d2/weapons/double-crossers.webp",
+      "width": 256
+    },
+    "ammo": 20,
+    "baseItemId": "d2:weapons:dual-crossbows",
+    "effect": "Rolling increases next attack damage by 20%, stacking.",
+    "effectValues": [
+      {
+        "label": "Rolling increases next attack damage",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "isUnique": true,
+    "kind": "ranged",
+    "locations": [
+      "d2:locations:rainy-plains"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "crossbow",
+    "tags": [
+      "melee-damage",
+      "rolling"
+    ],
+    "related": [
+      "d2:weapons:dual-crossbows",
+      "d2:weapons:harp-crossbow",
+      "d2:weapons:heavy-crossbow",
+      "d2:weapons:rapid-crossbow",
+      "d2:weapons:scatter-crossbow",
+      "d2:weapons:the-close-ranger",
+      "d2:weapons:the-cross-pollinator"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3888225,
+      "title": "Dungeons II:Double Crossers",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Double_Crossers"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:double-daggers",
+    "slug": "double-daggers",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Double Daggers",
+    "description": "When one dagger just isn't fast enough.",
+    "rarity": "common",
+    "image": {
+      "alt": "Double Daggers icon",
+      "height": 256,
+      "src": "/images/d2/weapons/double-daggers.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:venomous-fangs"
+    ],
+    "weaponType": "dagger",
+    "tags": [],
+    "related": [
+      "d2:weapons:venomous-fangs",
+      "d2:weapons:sculkers-bane",
+      "d2:weapons:twilight-dagger"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3862796,
+      "title": "Dungeons II:Double Daggers",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Double_Daggers"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:double-sickles",
+    "slug": "double-sickles",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Double Sickles",
+    "description": "Harvest tools from Honeycomb Fields, repurposed for reaping illagers and monsters.",
+    "rarity": "common",
+    "image": {
+      "alt": "Double Sickles icon",
+      "height": 256,
+      "src": "/images/d2/weapons/double-sickles.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:sift-sickles"
+    ],
+    "weaponType": "sickle",
+    "tags": [],
+    "related": [
+      "d2:weapons:sift-sickles",
+      "d2:weapons:lunar-sickle",
+      "d2:weapons:tidal-sickle"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3862926,
+      "title": "Dungeons II:Double Sickles",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Double_Sickles"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:dual-crossbows",
+    "slug": "dual-crossbows",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Dual Crossbows",
+    "description": "When one crossbow just isn't enough.",
+    "rarity": "common",
+    "image": {
+      "alt": "Dual Crossbows icon",
+      "height": 256,
+      "src": "/images/d2/weapons/dual-crossbows.webp",
+      "width": 256
+    },
+    "ammo": 20,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "ranged",
+    "locations": [
+      "d2:locations:rainy-plains"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:double-crossers"
+    ],
+    "weaponType": "crossbow",
+    "tags": [],
+    "related": [
+      "d2:weapons:double-crossers",
+      "d2:weapons:harp-crossbow",
+      "d2:weapons:heavy-crossbow",
+      "d2:weapons:rapid-crossbow",
+      "d2:weapons:scatter-crossbow",
+      "d2:weapons:the-close-ranger",
+      "d2:weapons:the-cross-pollinator"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3863074,
+      "title": "Dungeons II:Dual Crossbows",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Dual_Crossbows"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:elemental-staff",
+    "slug": "elemental-staff",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Elemental Staff",
+    "description": "A powerful staff that unleashes the elements of fire, ice, poison and electricity on your enemies.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Elemental Staff icon",
+      "height": 256,
+      "src": "/images/d2/weapons/elemental-staff.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:battlestaff",
+    "comboLength": 3,
+    "effect": "Chance to grant random elemental melee buff when defeating an enemy.",
+    "effectValues": [],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "battlestaff",
+    "tags": [
+      "melee-damage"
+    ],
+    "related": [
+      "d2:weapons:battlestaff"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3887128,
+      "title": "Dungeons II:Elemental Staff",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Elemental_Staff"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:emerald-hammer",
+    "slug": "emerald-hammer",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Emerald Hammer",
+    "description": "This steel hammer with emerald alloy is said to bring extraordinary luck to its wielder.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Emerald Hammer icon",
+      "height": 256,
+      "src": "/images/d2/weapons/emerald-hammer.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:battle-hammer",
+    "comboLength": 3,
+    "effect": "Grants a 5% chance of higher rarity loot drops.",
+    "effectValues": [
+      {
+        "label": "Grants chance of higher rarity loot drops",
+        "unit": "%",
+        "value": 5
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:quests:the-final-souldown",
+      "d2:locations:howling-woods",
+      "d2:locations:rainy-plains"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "hammer",
+    "tags": [
+      "loot"
+    ],
+    "related": [
+      "d2:weapons:battle-hammer",
+      "d2:weapons:heartbreaker",
+      "d2:weapons:mob-mallet",
+      "d2:weapons:monster-masher",
+      "d2:weapons:war-hammer"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3887130,
+      "title": "Dungeons II:Emerald Hammer",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Emerald_Hammer"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:frostbiter",
+    "slug": "frostbiter",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Frostbiter",
+    "rarity": "unique",
+    "image": {
+      "alt": "Frostbiter icon",
+      "height": 256,
+      "src": "/images/d2/weapons/frostbiter.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:longsword",
+    "comboLength": 3,
+    "effect": "Frost attacks deal 30% more damage.",
+    "effectNote": "Although unstated, the weapon's regular attacks deal frost damage and apply frozen.",
+    "effectValues": [
+      {
+        "label": "Frost attacks deal more damage",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "sword",
+    "tags": [
+      "damage-boost",
+      "freeze"
+    ],
+    "related": [
+      "d2:weapons:longsword",
+      "d2:weapons:greatsword",
+      "d2:weapons:sword",
+      "d2:weapons:the-burning-blade",
+      "d2:weapons:the-darkshard"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3881245,
+      "title": "Dungeons II:Frostbiter",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Frostbiter"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:weapons:gauntlets",
+    "slug": "gauntlets",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Gauntlets",
+    "description": "Powerful steel gauntlets for when the defenseless need a pair of helping hands.",
+    "rarity": "common",
+    "image": {
+      "alt": "Gauntlets icon",
+      "height": 256,
+      "src": "/images/d2/weapons/gauntlets.webp",
+      "width": 256
+    },
+    "comboLength": 4,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:frozen-highlands",
+      "d2:locations:lullaby-hills"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:prime-enchanters-gauntlets"
+    ],
+    "weaponType": "gauntlets",
+    "tags": [],
+    "related": [
+      "d2:weapons:prime-enchanters-gauntlets"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3874807,
+      "title": "Dungeons II:Gauntlets",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Gauntlets"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:glaive",
+    "slug": "glaive",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Glaive",
+    "description": "A wise blacksmith once stuck a sword on top of a staff and the world has never been the same.",
+    "rarity": "common",
+    "image": {
+      "alt": "Glaive icon",
+      "height": 256,
+      "src": "/images/d2/weapons/glaive.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:golden-glaive"
+    ],
+    "weaponType": "glaive",
+    "tags": [],
+    "related": [
+      "d2:weapons:golden-glaive"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3862932,
+      "title": "Dungeons II:Glaive",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Glaive"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:golden-glaive",
+    "slug": "golden-glaive",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Golden Glaive",
+    "description": "A glaive of pure gold for the brave warrior who leads the charge.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Golden Glaive icon",
+      "height": 256,
+      "src": "/images/d2/weapons/golden-glaive.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:glaive",
+    "comboLength": 3,
+    "effect": "Deal 60% more damage to enemies who are at full health.",
+    "effectValues": [
+      {
+        "label": "Deal more damage to enemies who are at full health",
+        "unit": "%",
+        "value": 60
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "glaive",
+    "tags": [
+      "damage-boost",
+      "healing"
+    ],
+    "related": [
+      "d2:weapons:glaive"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3874464,
+      "title": "Dungeons II:Golden Glaive",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Golden_Glaive"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:greataxe",
+    "slug": "greataxe",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Greataxe",
+    "description": "A good axe settles for having one blade on one side. This is no goodaxe.",
+    "rarity": "common",
+    "image": {
+      "alt": "Greataxe icon",
+      "height": 256,
+      "src": "/images/d2/weapons/greataxe.webp",
+      "width": 256
+    },
+    "comboLength": 2,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:singers-meadow"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:awesomeaxe"
+    ],
+    "weaponType": "axe",
+    "tags": [],
+    "related": [
+      "d2:weapons:awesomeaxe",
+      "d2:weapons:hunters-hatchet",
+      "d2:weapons:axe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3862958,
+      "title": "Dungeons II:Greataxe",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Greataxe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:greatbow",
+    "slug": "greatbow",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Greatbow",
+    "description": "A powerful bow that fires with such force your arrows pierce even the toughest of enemies.",
+    "rarity": "common",
+    "image": {
+      "alt": "Greatbow icon",
+      "height": 256,
+      "src": "/images/d2/weapons/greatbow.webp",
+      "width": 256
+    },
+    "ammo": 10,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "ranged",
+    "locations": [],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:humbler-heartstring"
+    ],
+    "weaponType": "bow",
+    "tags": [],
+    "related": [
+      "d2:weapons:humbler-heartstring",
+      "d2:weapons:longbow",
+      "d2:weapons:paragon",
+      "d2:weapons:phantom-wing",
+      "d2:weapons:powerbow",
+      "d2:weapons:rangers-promise",
+      "d2:weapons:shooting-star"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3863060,
+      "title": "Dungeons II:Greatbow",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Greatbow"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:greatsword",
+    "slug": "greatsword",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Greatsword",
+    "description": "If your heart is just, even the greatest sword will feel as light as a feather.",
+    "rarity": "common",
+    "image": {
+      "alt": "Greatsword icon",
+      "height": 256,
+      "src": "/images/d2/weapons/greatsword.webp",
+      "width": 256
+    },
+    "comboLength": 1,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:the-darkshard"
+    ],
+    "weaponType": "sword",
+    "tags": [],
+    "related": [
+      "d2:weapons:the-darkshard",
+      "d2:weapons:longsword",
+      "d2:weapons:sword",
+      "d2:weapons:the-burning-blade",
+      "d2:weapons:frostbiter"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3893343,
+      "title": "Dungeons II:Greatsword",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Greatsword"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:harp-crossbow",
+    "slug": "harp-crossbow",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Harp Crossbow",
+    "description": "Half musical instrument, fully deadly weapon. The Harp Crossbow always hits the right note.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Harp Crossbow icon",
+      "height": 256,
+      "src": "/images/d2/weapons/harp-crossbow.webp",
+      "width": 256
+    },
+    "ammo": 12,
+    "baseItemId": "d2:weapons:scatter-crossbow",
+    "effect": "Grants a 60% chance to fire additional projectiles.",
+    "effectValues": [
+      {
+        "label": "Grants chance to fire additional projectiles",
+        "unit": "%",
+        "value": 60
+      }
+    ],
+    "isUnique": true,
+    "kind": "ranged",
+    "locations": [
+      "d2:quests:the-final-souldown-encore",
+      "d2:locations:rainy-plains"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "crossbow",
+    "tags": [
+      "burn",
+      "ranged-damage"
+    ],
+    "related": [
+      "d2:weapons:scatter-crossbow",
+      "d2:weapons:heavy-crossbow",
+      "d2:weapons:rapid-crossbow",
+      "d2:weapons:the-close-ranger",
+      "d2:weapons:the-cross-pollinator",
+      "d2:weapons:the-shackler",
+      "d2:weapons:crossbow"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3874378,
+      "title": "Dungeons II:Harp Crossbow",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Harp_Crossbow"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:heartbreaker",
+    "slug": "heartbreaker",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Heartbreaker",
+    "description": "A netherite war hammer imbued with ghastly fire magic that explodes on impact.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Heartbreaker icon",
+      "height": 256,
+      "src": "/images/d2/weapons/heartbreaker.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:war-hammer",
+    "comboLength": 1,
+    "effect": "Hits with this weapon explode on impact!",
+    "effectNote": "Although unstated, the weapon's regular attacks deal blast damage.",
+    "effectValues": [],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:frozen-highlands"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "hammer",
+    "tags": [
+      "explosive"
+    ],
+    "related": [
+      "d2:weapons:war-hammer",
+      "d2:weapons:mob-mallet",
+      "d2:weapons:monster-masher",
+      "d2:weapons:battle-hammer",
+      "d2:weapons:emerald-hammer"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3886699,
+      "title": "Dungeons II:Heartbreaker",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Heartbreaker"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:heavy-crossbow",
+    "slug": "heavy-crossbow",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Heavy Crossbow",
+    "description": "A slow but deadly menace and a real threat from a distance.",
+    "rarity": "common",
+    "image": {
+      "alt": "Heavy Crossbow icon",
+      "height": 256,
+      "src": "/images/d2/weapons/heavy-crossbow.webp",
+      "width": 256
+    },
+    "ammo": 8,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "ranged",
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:the-close-ranger"
+    ],
+    "weaponType": "crossbow",
+    "tags": [],
+    "related": [
+      "d2:weapons:the-close-ranger",
+      "d2:weapons:rapid-crossbow",
+      "d2:weapons:scatter-crossbow",
+      "d2:weapons:the-cross-pollinator",
+      "d2:weapons:the-shackler",
+      "d2:weapons:crossbow",
+      "d2:weapons:double-crossers"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3863741,
+      "title": "Dungeons II:Heavy Crossbow",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Heavy_Crossbow"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:humbler-heartstring",
+    "slug": "humbler-heartstring",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Humbler Heartstring",
+    "description": "This greatbow beats like the heart of a Humbler and pierces through the toughest husks.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Humbler Heartstring icon",
+      "height": 256,
+      "src": "/images/d2/weapons/humbler-heartstring.webp",
+      "width": 256
+    },
+    "ammo": 10,
+    "baseItemId": "d2:weapons:greatbow",
+    "effect": "Projectiles can pierce up to 10 enemies",
+    "effectValues": [
+      {
+        "label": "Projectiles can pierce up to enemies",
+        "unit": "flat",
+        "value": 10
+      }
+    ],
+    "isUnique": true,
+    "kind": "ranged",
+    "locations": [],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "bow",
+    "tags": [
+      "piercing"
+    ],
+    "related": [
+      "d2:weapons:greatbow",
+      "d2:weapons:longbow",
+      "d2:weapons:paragon",
+      "d2:weapons:phantom-wing",
+      "d2:weapons:powerbow",
+      "d2:weapons:rangers-promise",
+      "d2:weapons:shooting-star"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3888232,
+      "title": "Dungeons II:Humbler Heartstring",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Humbler_Heartstring"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:hunters-hatchet",
+    "slug": "hunters-hatchet",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Hunter's Hatchet",
+    "description": "For the experienced hunter who knows how to fletch their own arrows.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Hunter's Hatchet icon",
+      "height": 256,
+      "src": "/images/d2/weapons/hunters-hatchet.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:axe",
+    "comboLength": 3,
+    "effect": "Reduces ranged ammo cooldown time by 35%.",
+    "effectValues": [
+      {
+        "label": "Reduces ranged ammo cooldown time",
+        "unit": "%",
+        "value": -35
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "axe",
+    "tags": [
+      "ammo",
+      "cooldown"
+    ],
+    "related": [
+      "d2:weapons:axe",
+      "d2:weapons:awesomeaxe",
+      "d2:weapons:greataxe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3892577,
+      "title": "Dungeons II:Hunter's Hatchet",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Hunter's_Hatchet"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:longbow",
+    "slug": "longbow",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Longbow",
+    "description": "Crafted for hunting but extremely effective at long range.",
+    "rarity": "common",
+    "image": {
+      "alt": "Longbow icon",
+      "height": 256,
+      "src": "/images/d2/weapons/longbow.webp",
+      "width": 256
+    },
+    "ammo": 12,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "ranged",
+    "locations": [
+      "d2:locations:singers-meadow"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:creakings-reach"
+    ],
+    "weaponType": "bow",
+    "tags": [],
+    "related": [
+      "d2:weapons:creakings-reach",
+      "d2:weapons:paragon",
+      "d2:weapons:phantom-wing",
+      "d2:weapons:powerbow",
+      "d2:weapons:rangers-promise",
+      "d2:weapons:shooting-star",
+      "d2:weapons:shortbow"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3863062,
+      "title": "Dungeons II:Longbow",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Longbow"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:longsword",
+    "slug": "longsword",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Longsword",
+    "description": "A mighty longsword with a razor-sharp edge.",
+    "rarity": "common",
+    "image": {
+      "alt": "Longsword icon",
+      "height": 256,
+      "src": "/images/d2/weapons/longsword.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:frostbiter"
+    ],
+    "weaponType": "sword",
+    "tags": [],
+    "related": [
+      "d2:weapons:frostbiter",
+      "d2:weapons:sword",
+      "d2:weapons:the-burning-blade",
+      "d2:weapons:the-darkshard",
+      "d2:weapons:greatsword"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3862965,
+      "title": "Dungeons II:Longsword",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Longsword"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:lullaby-blade",
+    "slug": "lullaby-blade",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Lullaby Blade",
+    "rarity": "unique",
+    "image": {
+      "alt": "Lullaby Blade icon",
+      "height": 256,
+      "src": "/images/d2/weapons/lullaby-blade.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:cookiecutter",
+    "comboLength": 3,
+    "effect": "Applies Soulsick status to enemies on hit.",
+    "effectNote": "Although unstated, the weapon's regular attacks deal soul damage in addition to Soulsick.",
+    "effectValues": [],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:quests:lonesome-in-lullaby-hills",
+      "d2:locations:singers-meadow",
+      "d2:locations:humbler-huskland"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "cookiecutter",
+    "tags": [
+      "souls",
+      "status-effects"
+    ],
+    "related": [
+      "d2:weapons:cookiecutter"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3887134,
+      "title": "Dungeons II:Lullaby Blade",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Lullaby_Blade"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:weapons:lunar-sickle",
+    "slug": "lunar-sickle",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Lunar Sickle",
+    "description": "Leave your enemies reeling and ripe for the reaping.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Lunar Sickle icon",
+      "height": 256,
+      "src": "/images/d2/weapons/lunar-sickle.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:tidal-sickle",
+    "comboLength": 3,
+    "effect": "Increases chance to stagger enemies on hit by 60%.",
+    "effectValues": [
+      {
+        "label": "Increases chance to stagger enemies on hit",
+        "unit": "%",
+        "value": 60
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:frozen-highlands",
+      "d2:locations:lullaby-hills"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "sickle",
+    "tags": [
+      "knockback"
+    ],
+    "related": [
+      "d2:weapons:tidal-sickle",
+      "d2:weapons:sift-sickles",
+      "d2:weapons:double-sickles"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3881217,
+      "title": "Dungeons II:Lunar Sickle",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Lunar_Sickle"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:mace",
+    "slug": "mace",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Mace",
+    "description": "A brutal tool of war, but what it lacks in finesse it makes up for in power.",
+    "rarity": "common",
+    "image": {
+      "alt": "Mace icon",
+      "height": 256,
+      "src": "/images/d2/weapons/mace.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:carapace-mace"
+    ],
+    "weaponType": "mace",
+    "tags": [],
+    "related": [
+      "d2:weapons:carapace-mace"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3863012,
+      "title": "Dungeons II:Mace",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mace"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:meat-cleaver",
+    "slug": "meat-cleaver",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Meat Cleaver",
+    "description": "A reliable kitchen cleaver repurposed for serving up justice.",
+    "rarity": "common",
+    "image": {
+      "alt": "Meat Cleaver icon",
+      "height": 256,
+      "src": "/images/d2/weapons/meat-cleaver.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:cacaphonous-cleaver"
+    ],
+    "weaponType": "meat-cleaver",
+    "tags": [],
+    "related": [
+      "d2:weapons:cacaphonous-cleaver"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3890659,
+      "title": "Dungeons II:Meat Cleaver",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Meat_Cleaver"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:mob-mallet",
+    "slug": "mob-mallet",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Mob Mallet",
+    "description": "Let's play a good old game of whack-a-mob!",
+    "rarity": "common",
+    "image": {
+      "alt": "Mob Mallet icon",
+      "height": 256,
+      "src": "/images/d2/weapons/mob-mallet.webp",
+      "width": 256
+    },
+    "comboLength": 6,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:singers-meadow"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:monster-masher"
+    ],
+    "weaponType": "hammer",
+    "tags": [],
+    "related": [
+      "d2:weapons:monster-masher",
+      "d2:weapons:war-hammer",
+      "d2:weapons:battle-hammer",
+      "d2:weapons:emerald-hammer",
+      "d2:weapons:heartbreaker"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3863019,
+      "title": "Dungeons II:Mob Mallet",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mob_Mallet"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:monster-masher",
+    "slug": "monster-masher",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Monster Masher",
+    "description": "A mallet made from humbler husk that guards as hard as it hits.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Monster Masher icon",
+      "height": 256,
+      "src": "/images/d2/weapons/monster-masher.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:mob-mallet",
+    "comboLength": 6,
+    "effect": "Take 25% less damage.",
+    "effectValues": [
+      {
+        "label": "Take less damage",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:singers-meadow"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "hammer",
+    "tags": [
+      "defense"
+    ],
+    "related": [
+      "d2:weapons:mob-mallet",
+      "d2:weapons:war-hammer",
+      "d2:weapons:battle-hammer",
+      "d2:weapons:emerald-hammer",
+      "d2:weapons:heartbreaker"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3883053,
+      "title": "Dungeons II:Monster Masher",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Monster_Masher"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:paragon",
+    "slug": "paragon",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Paragon",
+    "description": "Hold the bowstring patiently to show the arrow that you are a fighter of virtue.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Paragon icon",
+      "height": 256,
+      "src": "/images/d2/weapons/paragon.webp",
+      "width": 256
+    },
+    "ammo": 12,
+    "baseItemId": "d2:weapons:powerbow",
+    "effect": "Ranged attacks deal 30% more damage",
+    "effectValues": [
+      {
+        "label": "Ranged attacks deal more damage",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isUnique": true,
+    "kind": "ranged",
+    "locations": [
+      "d2:quests:breaking-camps",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:frozen-highlands"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "bow",
+    "tags": [
+      "damage-boost",
+      "ranged-damage"
+    ],
+    "related": [
+      "d2:weapons:powerbow",
+      "d2:weapons:phantom-wing",
+      "d2:weapons:rangers-promise",
+      "d2:weapons:shooting-star",
+      "d2:weapons:shortbow",
+      "d2:weapons:trickbow",
+      "d2:weapons:bow"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3874801,
+      "title": "Dungeons II:Paragon",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Paragon"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:phantom-wing",
+    "slug": "phantom-wing",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Phantom Wing",
+    "description": "Fly like a phantom and become your enemy's worst nightmare.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Phantom Wing icon",
+      "height": 256,
+      "src": "/images/d2/weapons/phantom-wing.webp",
+      "width": 256
+    },
+    "ammo": 15,
+    "baseItemId": "d2:weapons:trickbow",
+    "effect": "Increases jump shot damage dealt by 6%",
+    "effectValues": [
+      {
+        "label": "Increases jump shot damage dealt",
+        "unit": "%",
+        "value": 6
+      }
+    ],
+    "isUnique": true,
+    "kind": "ranged",
+    "locations": [
+      "d2:quests:the-sculk-monstrosity-revived"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "bow",
+    "tags": [
+      "ranged-damage"
+    ],
+    "related": [
+      "d2:weapons:trickbow",
+      "d2:weapons:powerbow",
+      "d2:weapons:rangers-promise",
+      "d2:weapons:shooting-star",
+      "d2:weapons:shortbow",
+      "d2:weapons:bow",
+      "d2:weapons:creakings-reach"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3863071,
+      "title": "Dungeons II:Phantom Wing",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Phantom_Wing"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:pickaxe",
+    "slug": "pickaxe",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Pickaxe",
+    "description": "The iconic tool for adventurers and heroes for as longs as anyone can remember.",
+    "rarity": "common",
+    "image": {
+      "alt": "Pickaxe icon",
+      "height": 256,
+      "src": "/images/d2/weapons/pickaxe.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:the-prospectors-pick"
+    ],
+    "weaponType": "pickaxe",
+    "tags": [],
+    "related": [
+      "d2:weapons:the-prospectors-pick"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3863022,
+      "title": "Dungeons II:Pickaxe",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Pickaxe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:pike",
+    "slug": "pike",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Pike",
+    "description": "Enemies won't want to get the wrong end of the stick when they run into you.",
+    "rarity": "common",
+    "image": {
+      "alt": "Pike icon",
+      "height": 256,
+      "src": "/images/d2/weapons/pike.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:stormcaller"
+    ],
+    "weaponType": "pike",
+    "tags": [],
+    "related": [
+      "d2:weapons:stormcaller"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3863025,
+      "title": "Dungeons II:Pike",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Pike"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:powerbow",
+    "slug": "powerbow",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Powerbow",
+    "description": "For the patient ranger who doesn't like to waste arrows.",
+    "rarity": "common",
+    "image": {
+      "alt": "Powerbow icon",
+      "height": 256,
+      "src": "/images/d2/weapons/powerbow.webp",
+      "width": 256
+    },
+    "ammo": 12,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "ranged",
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:paragon"
+    ],
+    "weaponType": "bow",
+    "tags": [],
+    "related": [
+      "d2:weapons:paragon",
+      "d2:weapons:rangers-promise",
+      "d2:weapons:shooting-star",
+      "d2:weapons:shortbow",
+      "d2:weapons:trickbow",
+      "d2:weapons:bow",
+      "d2:weapons:creakings-reach"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3871853,
+      "title": "Dungeons II:Powerbow",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Powerbow"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:pride-of-the-plains",
+    "slug": "pride-of-the-plains",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Pride of the Plains",
+    "description": "A sharp copper sword forged as a gift to a noble protector of the plains.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Pride of the Plains icon",
+      "height": 256,
+      "src": "/images/d2/weapons/pride-of-the-plains.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:riftslasher",
+    "comboLength": 4,
+    "effect": "Melee attacks deal 40% more damage to primary targets.",
+    "effectValues": [
+      {
+        "label": "Melee attacks deal more damage to primary targets",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:quests:recycling-your-monstrosity",
+      "d2:locations:rainy-plains"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "riftslasher",
+    "tags": [
+      "damage-boost",
+      "melee-damage"
+    ],
+    "related": [
+      "d2:weapons:riftslasher"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3881215,
+      "title": "Dungeons II:Pride of the Plains",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Pride_of_the_Plains"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:prime-enchanters-gauntlets",
+    "slug": "prime-enchanters-gauntlets",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Prime Enchanter's Gauntlets",
+    "description": "One is crackling with electricity. The other is enchanted with ice. Both are primed for punching.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Prime Enchanter's Gauntlets icon",
+      "height": 256,
+      "src": "/images/d2/weapons/prime-enchanters-gauntlets.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:gauntlets",
+    "comboLength": 4,
+    "effect": "Jump attacks create waves of lightning and ice that damage enemies.",
+    "effectNote": "Although unstated, the weapon's regular attacks deal both lightning and frost damage as well as applying shocked and frozen.",
+    "effectValues": [],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:frozen-highlands",
+      "d2:locations:lullaby-hills"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "gauntlets",
+    "tags": [
+      "freeze",
+      "lightning",
+      "melee-damage"
+    ],
+    "related": [
+      "d2:weapons:gauntlets"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3887190,
+      "title": "Dungeons II:Prime Enchanter's Gauntlets",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Prime_Enchanter's_Gauntlets"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:rangers-promise",
+    "slug": "rangers-promise",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Ranger's Promise",
+    "description": "A ranger never breaks a promise. This bow never misses its mark.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Ranger's Promise icon",
+      "height": 256,
+      "src": "/images/d2/weapons/rangers-promise.webp",
+      "width": 256
+    },
+    "ammo": 15,
+    "baseItemId": "d2:weapons:bow",
+    "effect": "Increase chance of critical hits from ranged attacks by 25%",
+    "effectValues": [
+      {
+        "label": "Increase chance of critical hits from ranged attacks",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "isUnique": true,
+    "kind": "ranged",
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "bow",
+    "tags": [
+      "crit",
+      "ranged-damage"
+    ],
+    "related": [
+      "d2:weapons:bow",
+      "d2:weapons:shooting-star",
+      "d2:weapons:shortbow",
+      "d2:weapons:trickbow",
+      "d2:weapons:creakings-reach",
+      "d2:weapons:greatbow",
+      "d2:weapons:humbler-heartstring"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3892575,
+      "title": "Dungeons II:Ranger's Promise",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Ranger's_Promise"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:rapid-crossbow",
+    "slug": "rapid-crossbow",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Rapid Crossbow",
+    "description": "For the hair-trigger hunter who likes firing rapid bursts of arrows.",
+    "rarity": "common",
+    "image": {
+      "alt": "Rapid Crossbow icon",
+      "height": 256,
+      "src": "/images/d2/weapons/rapid-crossbow.webp",
+      "width": 256
+    },
+    "ammo": 25,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "ranged",
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:frozen-highlands"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:the-cross-pollinator"
+    ],
+    "weaponType": "crossbow",
+    "tags": [],
+    "related": [
+      "d2:weapons:the-cross-pollinator",
+      "d2:weapons:scatter-crossbow",
+      "d2:weapons:the-close-ranger",
+      "d2:weapons:the-shackler",
+      "d2:weapons:crossbow",
+      "d2:weapons:double-crossers",
+      "d2:weapons:dual-crossbows"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3863078,
+      "title": "Dungeons II:Rapid Crossbow",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Rapid_Crossbow"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:rapier",
+    "slug": "rapier",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Rapier",
+    "description": "A nimble and narrow blade that strikes with fierce ferocity",
+    "rarity": "common",
+    "image": {
+      "alt": "Rapier icon",
+      "height": 256,
+      "src": "/images/d2/weapons/rapier.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:frozen-highlands"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:the-thousand-cuts"
+    ],
+    "weaponType": "rapier",
+    "tags": [],
+    "related": [
+      "d2:weapons:the-thousand-cuts"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3863027,
+      "title": "Dungeons II:Rapier",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Rapier"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:rascals-razor",
+    "slug": "rascals-razor",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Rascal's Razor",
+    "description": "For mischieveous warriors who like rolling around in the mud.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Rascal's Razor icon",
+      "height": 256,
+      "src": "/images/d2/weapons/rascals-razor.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:sabre",
+    "comboLength": 3,
+    "effect": "Reduces rolling cooldown time by 40%.",
+    "effectValues": [
+      {
+        "label": "Reduces rolling cooldown time",
+        "unit": "%",
+        "value": -40
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:frozen-highlands"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "sabre",
+    "tags": [
+      "cooldown",
+      "rolling"
+    ],
+    "related": [
+      "d2:weapons:sabre"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3881244,
+      "title": "Dungeons II:Rascal's Razor",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Rascal's_Razor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:redstone-wrecker",
+    "slug": "redstone-wrecker",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Redstone Wrecker",
+    "description": "A piece of a Monstrosity repurposed for wrecking with some resourceful fire engineering",
+    "rarity": "unique",
+    "image": {
+      "alt": "Redstone Wrecker icon",
+      "height": 256,
+      "src": "/images/d2/weapons/redstone-wrecker.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:clobberer",
+    "comboLength": 1,
+    "effect": "Wave deals 80% of weapon damage and sets mobs on fire for a short time.",
+    "effectNote": "Although unstated, the weapon's regular attacks deal fire damage.",
+    "effectValues": [
+      {
+        "label": "Wave deals weapon damage and sets mobs on fire for a short time",
+        "unit": "%",
+        "value": 80
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:quests:the-redstone-monstrosity-revived",
+      "d2:locations:singers-meadow"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "clobberer",
+    "tags": [
+      "burn",
+      "melee-damage"
+    ],
+    "related": [
+      "d2:weapons:clobberer"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3887349,
+      "title": "Dungeons II:Redstone Wrecker",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Redstone_Wrecker"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:riftslasher",
+    "slug": "riftslasher",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Riftslasher",
+    "description": "A curved longsword with an edge so sharp it could open rifts of its own... It doesn't, though.",
+    "rarity": "common",
+    "image": {
+      "alt": "Riftslasher icon",
+      "height": 256,
+      "src": "/images/d2/weapons/riftslasher.webp",
+      "width": 256
+    },
+    "comboLength": 4,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:pride-of-the-plains"
+    ],
+    "weaponType": "riftslasher",
+    "tags": [],
+    "related": [
+      "d2:weapons:pride-of-the-plains"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3878961,
+      "title": "Dungeons II:Riftslasher",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Riftslasher"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:sabre",
+    "slug": "sabre",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Sabre",
+    "description": "A slightly curved sword for when you want to paint with broad strokes.",
+    "rarity": "common",
+    "image": {
+      "alt": "Sabre icon",
+      "height": 256,
+      "src": "/images/d2/weapons/sabre.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:frozen-highlands"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:rascals-razor"
+    ],
+    "weaponType": "sabre",
+    "tags": [],
+    "related": [
+      "d2:weapons:rascals-razor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3863032,
+      "title": "Dungeons II:Sabre",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sabre"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:scatter-crossbow",
+    "slug": "scatter-crossbow",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Scatter Crossbow",
+    "description": "The ultimate weapon for when you have enemies coming from every direction.",
+    "rarity": "common",
+    "image": {
+      "alt": "Scatter Crossbow icon",
+      "height": 256,
+      "src": "/images/d2/weapons/scatter-crossbow.webp",
+      "width": 256
+    },
+    "ammo": 12,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "ranged",
+    "locations": [
+      "d2:locations:rainy-plains"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:harp-crossbow"
+    ],
+    "weaponType": "crossbow",
+    "tags": [],
+    "related": [
+      "d2:weapons:harp-crossbow",
+      "d2:weapons:the-close-ranger",
+      "d2:weapons:the-cross-pollinator",
+      "d2:weapons:the-shackler",
+      "d2:weapons:crossbow",
+      "d2:weapons:double-crossers",
+      "d2:weapons:dual-crossbows"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3863080,
+      "title": "Dungeons II:Scatter Crossbow",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Scatter_Crossbow"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:sculker-claws",
+    "slug": "sculker-claws",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Sculker Claws",
+    "description": "A pair of sharp claws attached to gloves that let you sculk in the shadows.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Sculker Claws icon",
+      "height": 256,
+      "src": "/images/d2/weapons/sculker-claws.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:wolf-claws",
+    "comboLength": 3,
+    "effect": "Grants a 15% chance to enter Shadowcloaking when attacking enemies.",
+    "effectValues": [
+      {
+        "label": "Grants chance to enter Shadowcloaking when attacking enemies",
+        "unit": "%",
+        "value": 15
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:quests:the-witch-revived",
+      "d2:quests:a-monstrosity-in-the-meadow",
+      "d2:locations:howling-woods",
+      "d2:locations:frozen-highlands"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "wolf-claws",
+    "tags": [
+      "status-effects"
+    ],
+    "related": [
+      "d2:weapons:wolf-claws"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3872749,
+      "title": "Dungeons II:Sculker Claws",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sculker_Claws"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:sculkers-bane",
+    "slug": "sculkers-bane",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Sculker's Bane",
+    "description": "A deadly dagger with a soul-infused edge.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Sculker's Bane icon",
+      "height": 256,
+      "src": "/images/d2/weapons/sculkers-bane.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:twilight-dagger",
+    "effect": "Soul attacks deal 20% more damage.",
+    "effectNote": "Although unstated, the weapon's regular attacks deal soul damage.",
+    "effectValues": [
+      {
+        "label": "Soul attacks deal more damage",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:quests:the-sculk-monstrosity-revived",
+      "d2:locations:howling-woods",
+      "d2:locations:rainy-plains"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "dagger",
+    "tags": [
+      "damage-boost",
+      "souls"
+    ],
+    "related": [
+      "d2:weapons:twilight-dagger",
+      "d2:weapons:venomous-fangs",
+      "d2:weapons:double-daggers"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3881216,
+      "title": "Dungeons II:Sculker's Bane",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sculker's_Bane"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:scythe",
+    "slug": "scythe",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Scythe",
+    "description": "Fit only for toiling warriors, the scythe truly separates the wheat from the chaff.",
+    "rarity": "common",
+    "image": {
+      "alt": "Scythe icon",
+      "height": 256,
+      "src": "/images/d2/weapons/scythe.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:quests:wading-rainy-plains"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:soul-reaper"
+    ],
+    "weaponType": "scythe",
+    "tags": [],
+    "related": [
+      "d2:weapons:soul-reaper"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3863035,
+      "title": "Dungeons II:Scythe",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Scythe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:shooting-star",
+    "slug": "shooting-star",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Shooting Star",
+    "description": "When you wish upon this star, you will evade enemy projectiles and shoot back.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Shooting Star icon",
+      "height": 256,
+      "src": "/images/d2/weapons/shooting-star.webp",
+      "width": 256
+    },
+    "ammo": 18,
+    "baseItemId": "d2:weapons:shortbow",
+    "effect": "Grants a 20% chance to evade melee damage.",
+    "effectValues": [
+      {
+        "label": "Grants chance to evade melee damage",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "isUnique": true,
+    "kind": "ranged",
+    "locations": [],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "bow",
+    "tags": [
+      "melee-damage"
+    ],
+    "related": [
+      "d2:weapons:shortbow",
+      "d2:weapons:trickbow",
+      "d2:weapons:bow",
+      "d2:weapons:creakings-reach",
+      "d2:weapons:greatbow",
+      "d2:weapons:humbler-heartstring",
+      "d2:weapons:longbow"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3874840,
+      "title": "Dungeons II:Shooting Star",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Shooting_Star"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:short-spear",
+    "slug": "short-spear",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Short Spear",
+    "description": "With the right wielder, even a short spear can reach across dimensions",
+    "rarity": "common",
+    "image": {
+      "alt": "Short Spear icon",
+      "height": 256,
+      "src": "/images/d2/weapons/short-spear.webp",
+      "width": 256
+    },
+    "comboLength": 6,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:spectral-spear"
+    ],
+    "weaponType": "spear",
+    "tags": [],
+    "related": [
+      "d2:weapons:spectral-spear"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3863043,
+      "title": "Dungeons II:Short Spear",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Short_Spear"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:shortbow",
+    "slug": "shortbow",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Shortbow",
+    "description": "A shorter, weaker bow with a faster fire rate and quicker charge time.",
+    "rarity": "common",
+    "image": {
+      "alt": "Shortbow icon",
+      "height": 256,
+      "src": "/images/d2/weapons/shortbow.webp",
+      "width": 256
+    },
+    "ammo": 18,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "ranged",
+    "locations": [],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:shooting-star"
+    ],
+    "weaponType": "bow",
+    "tags": [],
+    "related": [
+      "d2:weapons:shooting-star",
+      "d2:weapons:trickbow",
+      "d2:weapons:bow",
+      "d2:weapons:creakings-reach",
+      "d2:weapons:greatbow",
+      "d2:weapons:humbler-heartstring",
+      "d2:weapons:longbow"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3863068,
+      "title": "Dungeons II:Shortbow",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Shortbow"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:shovel",
+    "slug": "shovel",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Shovel",
+    "description": "When planning for revenge, you must dig two graves: one for your enemy. And one... for your other enemy.",
+    "rarity": "common",
+    "image": {
+      "alt": "Shovel icon",
+      "height": 256,
+      "src": "/images/d2/weapons/shovel.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:diamond-shovel"
+    ],
+    "weaponType": "shovel",
+    "tags": [],
+    "related": [
+      "d2:weapons:diamond-shovel"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3863045,
+      "title": "Dungeons II:Shovel",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Shovel"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:sift-sickles",
+    "slug": "sift-sickles",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Sift Sickles",
+    "description": "A pair of humbler husk sickles with the power to both harm and heal.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Sift Sickles icon",
+      "height": 256,
+      "src": "/images/d2/weapons/sift-sickles.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:double-sickles",
+    "comboLength": 3,
+    "effect": "Increases healing given to yourself and allies by 50%.",
+    "effectValues": [
+      {
+        "label": "Increases healing given to yourself and allies",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:quests:the-final-souldown-encore",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:lullaby-hills"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "sickle",
+    "tags": [
+      "healing"
+    ],
+    "related": [
+      "d2:weapons:double-sickles",
+      "d2:weapons:tidal-sickle",
+      "d2:weapons:lunar-sickle"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3862928,
+      "title": "Dungeons II:Sift Sickles",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sift_Sickles"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:sift-socks",
+    "slug": "sift-socks",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Sift Socks",
+    "description": "A comfy pair of socks made from Sift materials, for kicking the wits out of Illagers.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Sift Socks icon",
+      "height": 99,
+      "src": "/images/d2/weapons/sift-socks.webp",
+      "width": 98
+    },
+    "baseItemId": "d2:weapons:wit-wraps",
+    "effect": "Deals 40% more damage to wounded enemies.",
+    "effectValues": [
+      {
+        "label": "Deals more damage to wounded enemies",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [],
+    "obtainable": false,
+    "variantIds": [],
+    "weaponType": "wit-wraps",
+    "tags": [
+      "damage-boost"
+    ],
+    "related": [
+      "d2:weapons:wit-wraps"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3886849,
+      "title": "Dungeons II:Sift Socks",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sift_Socks"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:slaymore",
+    "slug": "slaymore",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Slaymore",
+    "description": "A claymore that lets you slay more... No need to say more.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Slaymore icon",
+      "height": 256,
+      "src": "/images/d2/weapons/slaymore.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:claymore",
+    "effect": "Melee attacks deal 50% more damage to secondary targets.",
+    "effectValues": [
+      {
+        "label": "Melee attacks deal more damage to secondary targets",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:frozen-highlands",
+      "d2:locations:lullaby-hills"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "claymore",
+    "tags": [
+      "area",
+      "damage-boost",
+      "melee-damage"
+    ],
+    "related": [
+      "d2:weapons:claymore"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3887135,
+      "title": "Dungeons II:Slaymore",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Slaymore"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:soul-reaper",
+    "slug": "soul-reaper",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Soul Reaper",
+    "description": "A scythe with a shard of a soul block for a blade, that draws all souls towards you.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Soul Reaper icon",
+      "height": 256,
+      "src": "/images/d2/weapons/soul-reaper.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:scythe",
+    "comboLength": 3,
+    "effect": "Increases souls gained by 60%.",
+    "effectNote": "Although unstated, the weapon's regular attacks deal soul damage.",
+    "effectValues": [
+      {
+        "label": "Increases souls gained",
+        "unit": "%",
+        "value": 60
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "scythe",
+    "tags": [
+      "souls"
+    ],
+    "related": [
+      "d2:weapons:scythe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3863036,
+      "title": "Dungeons II:Soul Reaper",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Soul_Reaper"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:spectral-spear",
+    "slug": "spectral-spear",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Spectral Spear",
+    "description": "A spear forged in ichor and possessed by souls that will burn all enemies you point at.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Spectral Spear icon",
+      "height": 256,
+      "src": "/images/d2/weapons/spectral-spear.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:short-spear",
+    "comboLength": 6,
+    "effect": "Wave deals 90% of weapon damage and deals additional soul damage for a short time.",
+    "effectNote": "Although unstated, the weapon's regular attacks deal soul damage.",
+    "effectValues": [
+      {
+        "label": "Wave deals weapon damage and deals additional soul damage for a short time",
+        "unit": "%",
+        "value": 90
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "spear",
+    "tags": [
+      "melee-damage",
+      "souls"
+    ],
+    "related": [
+      "d2:weapons:short-spear"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3887224,
+      "title": "Dungeons II:Spectral Spear",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Spectral_Spear"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:stormcaller",
+    "slug": "stormcaller",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Stormcaller",
+    "description": "A magic lightning rod attached to a copper pike that can strike your enemies in more ways than one.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Stormcaller icon",
+      "height": 256,
+      "src": "/images/d2/weapons/stormcaller.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:pike",
+    "comboLength": 3,
+    "effect": "Lightning attacks deal 25% more damage.",
+    "effectNote": "Although unstated, the weapon's regular attacks deal lightning damage and apply shocked.",
+    "effectValues": [
+      {
+        "label": "Lightning attacks deal more damage",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:quests:the-copper-monstrosity-revived",
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "pike",
+    "tags": [
+      "damage-boost",
+      "lightning"
+    ],
+    "related": [
+      "d2:weapons:pike"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3881203,
+      "title": "Dungeons II:Stormcaller",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Stormcaller"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:sword",
+    "slug": "sword",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Sword",
+    "description": "A classic sword used by heroes and survivors since the dawn of the Overworld.",
+    "rarity": "common",
+    "image": {
+      "alt": "Sword icon",
+      "height": 256,
+      "src": "/images/d2/weapons/sword.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:rainy-plains"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:the-burning-blade"
+    ],
+    "weaponType": "sword",
+    "tags": [],
+    "related": [
+      "d2:weapons:the-burning-blade",
+      "d2:weapons:the-darkshard",
+      "d2:weapons:frostbiter",
+      "d2:weapons:greatsword",
+      "d2:weapons:longsword"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3886709,
+      "title": "Dungeons II:Sword",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sword"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:the-burning-blade",
+    "slug": "the-burning-blade",
+    "game": "d2",
+    "category": "weapons",
+    "name": "The Burning Blade",
+    "description": "A flame frozen into steel that erupts when you swing it.",
+    "rarity": "unique",
+    "image": {
+      "alt": "The Burning Blade icon",
+      "height": 256,
+      "src": "/images/d2/weapons/the-burning-blade.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:sword",
+    "comboLength": 3,
+    "effect": "Fire attacks deal 20% more damage",
+    "effectNote": "Although unstated, this weapon's regular attacks deal fire damage.",
+    "effectValues": [
+      {
+        "label": "Fire attacks deal more damage",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:rainy-plains"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "sword",
+    "tags": [
+      "burn",
+      "damage-boost"
+    ],
+    "related": [
+      "d2:weapons:sword",
+      "d2:weapons:the-darkshard",
+      "d2:weapons:frostbiter",
+      "d2:weapons:greatsword",
+      "d2:weapons:longsword"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3886694,
+      "title": "Dungeons II:The Burning Blade",
+      "url": "https://minecraft.wiki/w/Dungeons_II:The_Burning_Blade"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:the-close-ranger",
+    "slug": "the-close-ranger",
+    "game": "d2",
+    "category": "weapons",
+    "name": "The Close Ranger",
+    "description": "Judge your enemies up close and personal.",
+    "rarity": "unique",
+    "image": {
+      "alt": "The Close Ranger icon",
+      "height": 256,
+      "src": "/images/d2/weapons/the-close-ranger.webp",
+      "width": 256
+    },
+    "ammo": 8,
+    "baseItemId": "d2:weapons:heavy-crossbow",
+    "effect": "Ranged attacks deal 100% more damage at close range.",
+    "effectValues": [
+      {
+        "label": "Ranged attacks deal more damage at close range",
+        "unit": "%",
+        "value": 100
+      }
+    ],
+    "isUnique": true,
+    "kind": "ranged",
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "crossbow",
+    "tags": [
+      "damage-boost",
+      "ranged-damage"
+    ],
+    "related": [
+      "d2:weapons:heavy-crossbow",
+      "d2:weapons:the-cross-pollinator",
+      "d2:weapons:the-shackler",
+      "d2:weapons:crossbow",
+      "d2:weapons:double-crossers",
+      "d2:weapons:dual-crossbows",
+      "d2:weapons:harp-crossbow"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3885936,
+      "title": "Dungeons II:The Close Ranger",
+      "url": "https://minecraft.wiki/w/Dungeons_II:The_Close_Ranger"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:the-cross-pollinator",
+    "slug": "the-cross-pollinator",
+    "game": "d2",
+    "category": "weapons",
+    "name": "The Cross Pollinator",
+    "description": "Cross-pollinate mobs with sharpened twigs and see what grows from their remains.",
+    "rarity": "unique",
+    "image": {
+      "alt": "The Cross Pollinator icon",
+      "height": 256,
+      "src": "/images/d2/weapons/the-cross-pollinator.webp",
+      "width": 256
+    },
+    "ammo": 25,
+    "baseItemId": "d2:weapons:rapid-crossbow",
+    "effect": "Reduces time between shots with ranged weapons by 40%.",
+    "effectValues": [
+      {
+        "label": "Reduces time between shots with ranged weapons",
+        "unit": "%",
+        "value": -40
+      }
+    ],
+    "isUnique": true,
+    "kind": "ranged",
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:frozen-highlands"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "crossbow",
+    "tags": [
+      "ranged-damage"
+    ],
+    "related": [
+      "d2:weapons:rapid-crossbow",
+      "d2:weapons:the-shackler",
+      "d2:weapons:crossbow",
+      "d2:weapons:double-crossers",
+      "d2:weapons:dual-crossbows",
+      "d2:weapons:harp-crossbow",
+      "d2:weapons:heavy-crossbow"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3886401,
+      "title": "Dungeons II:The Cross Pollinator",
+      "url": "https://minecraft.wiki/w/Dungeons_II:The_Cross_Pollinator"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:the-darkshard",
+    "slug": "the-darkshard",
+    "game": "d2",
+    "category": "weapons",
+    "name": "The Darkshard",
+    "description": "A legendary sword forged in the Deep Dark with amethyst alloy in the blade.",
+    "rarity": "unique",
+    "image": {
+      "alt": "The Darkshard icon",
+      "height": 256,
+      "src": "/images/d2/weapons/the-darkshard.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:greatsword",
+    "comboLength": 1,
+    "effect": "Attacks have a chance to pull all enemies within 10 blocks toward you.",
+    "effectValues": [
+      {
+        "label": "Attacks have a chance to pull all enemies within blocks toward you",
+        "unit": "flat",
+        "value": 10
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "sword",
+    "tags": [
+      "area"
+    ],
+    "related": [
+      "d2:weapons:greatsword",
+      "d2:weapons:frostbiter",
+      "d2:weapons:longsword",
+      "d2:weapons:sword",
+      "d2:weapons:the-burning-blade"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3887331,
+      "title": "Dungeons II:The Darkshard",
+      "url": "https://minecraft.wiki/w/Dungeons_II:The_Darkshard"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:the-prospectors-pick",
+    "slug": "the-prospectors-pick",
+    "game": "d2",
+    "category": "weapons",
+    "name": "The Prospector's Pick",
+    "description": "The chosen weapon for those who miss the good old days of simple emerald mining",
+    "rarity": "unique",
+    "image": {
+      "alt": "The Prospector's Pick icon",
+      "height": 256,
+      "src": "/images/d2/weapons/the-prospectors-pick.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:pickaxe",
+    "comboLength": 3,
+    "effect": "Grants a 20% chance to receive additional emeralds.",
+    "effectValues": [
+      {
+        "label": "Grants chance to receive additional emeralds",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "pickaxe",
+    "tags": [
+      "loot"
+    ],
+    "related": [
+      "d2:weapons:pickaxe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3869032,
+      "title": "Dungeons II:The Prospector's Pick",
+      "url": "https://minecraft.wiki/w/Dungeons_II:The_Prospector's_Pick"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:the-shackler",
+    "slug": "the-shackler",
+    "game": "d2",
+    "category": "weapons",
+    "name": "The Shackler",
+    "description": "Shoot chains at enemies to pin them to the ground. Nobody escapes the Shackler!",
+    "rarity": "unique",
+    "image": {
+      "alt": "The Shackler icon",
+      "height": 256,
+      "src": "/images/d2/weapons/the-shackler.webp",
+      "width": 256
+    },
+    "ammo": 15,
+    "baseItemId": "d2:weapons:crossbow",
+    "effect": "Attacks have a 30% chance to inflict the Chained status on hits.",
+    "effectValues": [
+      {
+        "label": "Attacks have chance to inflict the Chained status on hits",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isUnique": true,
+    "kind": "ranged",
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "crossbow",
+    "tags": [
+      "status-effects"
+    ],
+    "related": [
+      "d2:weapons:crossbow",
+      "d2:weapons:double-crossers",
+      "d2:weapons:dual-crossbows",
+      "d2:weapons:harp-crossbow",
+      "d2:weapons:heavy-crossbow",
+      "d2:weapons:rapid-crossbow",
+      "d2:weapons:scatter-crossbow"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3863073,
+      "title": "Dungeons II:The Shackler",
+      "url": "https://minecraft.wiki/w/Dungeons_II:The_Shackler"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:the-thousand-cuts",
+    "slug": "the-thousand-cuts",
+    "game": "d2",
+    "category": "weapons",
+    "name": "The Thousand Cuts",
+    "description": "A nimble sword for the fencing virtuoso that strikes faster than other blades.",
+    "rarity": "unique",
+    "image": {
+      "alt": "The Thousand Cuts icon",
+      "height": 256,
+      "src": "/images/d2/weapons/the-thousand-cuts.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:rapier",
+    "comboLength": 3,
+    "effect": "Increase melee attack speed by 30%.",
+    "effectValues": [
+      {
+        "label": "Increase melee attack speed",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:frozen-highlands"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "rapier",
+    "tags": [
+      "attack-speed",
+      "melee-damage"
+    ],
+    "related": [
+      "d2:weapons:rapier"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3874405,
+      "title": "Dungeons II:The Thousand Cuts",
+      "url": "https://minecraft.wiki/w/Dungeons_II:The_Thousand_Cuts"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:tidal-sickle",
+    "slug": "tidal-sickle",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Tidal Sickle",
+    "description": "A harvest tool for the new dimension, perfect for reaping souls.",
+    "rarity": "common",
+    "image": {
+      "alt": "Tidal Sickle icon",
+      "height": 256,
+      "src": "/images/d2/weapons/tidal-sickle.webp",
+      "width": 256
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:frozen-highlands",
+      "d2:locations:lullaby-hills"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:lunar-sickle"
+    ],
+    "weaponType": "sickle",
+    "tags": [],
+    "related": [
+      "d2:weapons:lunar-sickle",
+      "d2:weapons:double-sickles",
+      "d2:weapons:sift-sickles"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3863049,
+      "title": "Dungeons II:Tidal Sickle",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Tidal_Sickle"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:tornado-blade",
+    "slug": "tornado-blade",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Tornado Blade",
+    "description": "There's a storm coming. You are the eye of the tornado.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Tornado Blade icon",
+      "height": 196,
+      "src": "/images/d2/weapons/tornado-blade.webp",
+      "width": 196
+    },
+    "baseItemId": "d2:weapons:twinblade",
+    "effect": "Swirling does 60% of weapon damage on every swing.",
+    "effectValues": [
+      {
+        "label": "Swirling does weapon damage on every swing",
+        "unit": "%",
+        "value": 60
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [],
+    "obtainable": false,
+    "variantIds": [],
+    "weaponType": "twinblade",
+    "tags": [
+      "melee-damage"
+    ],
+    "related": [
+      "d2:weapons:twinblade"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3886841,
+      "title": "Dungeons II:Tornado Blade",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Tornado_Blade"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:trickbow",
+    "slug": "trickbow",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Trickbow",
+    "description": "For the trick shooter who likes to roll, jump, and shoot ricocheting arrows.",
+    "rarity": "common",
+    "image": {
+      "alt": "Trickbow icon",
+      "height": 256,
+      "src": "/images/d2/weapons/trickbow.webp",
+      "width": 256
+    },
+    "ammo": 15,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "ranged",
+    "locations": [],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:phantom-wing"
+    ],
+    "weaponType": "bow",
+    "tags": [],
+    "related": [
+      "d2:weapons:phantom-wing",
+      "d2:weapons:bow",
+      "d2:weapons:creakings-reach",
+      "d2:weapons:greatbow",
+      "d2:weapons:humbler-heartstring",
+      "d2:weapons:longbow",
+      "d2:weapons:paragon"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3863070,
+      "title": "Dungeons II:Trickbow",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Trickbow"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:twilight-dagger",
+    "slug": "twilight-dagger",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Twilight Dagger",
+    "description": "A must-have in any rogue's inventory.",
+    "rarity": "common",
+    "image": {
+      "alt": "Twilight Dagger icon",
+      "height": 256,
+      "src": "/images/d2/weapons/twilight-dagger.webp",
+      "width": 256
+    },
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:rainy-plains"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:sculkers-bane"
+    ],
+    "weaponType": "dagger",
+    "tags": [],
+    "related": [
+      "d2:weapons:sculkers-bane",
+      "d2:weapons:venomous-fangs",
+      "d2:weapons:double-daggers"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3863051,
+      "title": "Dungeons II:Twilight Dagger",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Twilight_Dagger"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:twinblade",
+    "slug": "twinblade",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Twinblade",
+    "description": "What could be better than a sword? Two swords stuck together of course!",
+    "rarity": "common",
+    "image": {
+      "alt": "Twinblade icon",
+      "height": 512,
+      "src": "/images/d2/weapons/twinblade.webp",
+      "width": 512
+    },
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [],
+    "obtainable": false,
+    "variantIds": [
+      "d2:weapons:tornado-blade"
+    ],
+    "weaponType": "twinblade",
+    "tags": [],
+    "related": [
+      "d2:weapons:tornado-blade"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3886823,
+      "title": "Dungeons II:Twinblade",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Twinblade"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:venomous-fangs",
+    "slug": "venomous-fangs",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Venomous Fangs",
+    "description": "A pair of poisoned daggers that make your strikes as deadly as a spider’s bite.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Venomous Fangs icon",
+      "height": 256,
+      "src": "/images/d2/weapons/venomous-fangs.webp",
+      "width": 256
+    },
+    "baseItemId": "d2:weapons:double-daggers",
+    "comboLength": 3,
+    "effect": "Poison attacks deal 20% more damage.",
+    "effectNote": "Although unstated, the weapon's regular attacks deal poison damage and additionally inflict poison.",
+    "effectValues": [
+      {
+        "label": "Poison attacks deal more damage",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "isUnique": true,
+    "kind": "melee",
+    "locations": [
+      "d2:quests:the-twisted-warden-revived",
+      "d2:locations:howling-woods"
+    ],
+    "obtainable": true,
+    "variantIds": [],
+    "weaponType": "dagger",
+    "tags": [
+      "damage-boost",
+      "poison"
+    ],
+    "related": [
+      "d2:weapons:double-daggers",
+      "d2:weapons:sculkers-bane",
+      "d2:weapons:twilight-dagger"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:54.176Z",
+      "revisionId": 3881202,
+      "title": "Dungeons II:Venomous Fangs",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Venomous_Fangs"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:war-hammer",
+    "slug": "war-hammer",
+    "game": "d2",
+    "category": "weapons",
+    "name": "War Hammer",
+    "description": "Its strikes send tremors through the earth and through your enemies' hearts.",
+    "rarity": "common",
+    "image": {
+      "alt": "War Hammer icon",
+      "height": 256,
+      "src": "/images/d2/weapons/war-hammer.webp",
+      "width": 256
+    },
+    "comboLength": 1,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:frozen-highlands"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:heartbreaker"
+    ],
+    "weaponType": "hammer",
+    "tags": [],
+    "related": [
+      "d2:weapons:heartbreaker",
+      "d2:weapons:battle-hammer",
+      "d2:weapons:emerald-hammer",
+      "d2:weapons:mob-mallet",
+      "d2:weapons:monster-masher"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3863053,
+      "title": "Dungeons II:War Hammer",
+      "url": "https://minecraft.wiki/w/Dungeons_II:War_Hammer"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:wit-wraps",
+    "slug": "wit-wraps",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Wit Wraps",
+    "description": "Foot wraps from a forgotten art of defense, knitted for kicking the wits out of Illagers.",
+    "rarity": "common",
+    "image": {
+      "alt": "Wit Wraps icon",
+      "height": 512,
+      "src": "/images/d2/weapons/wit-wraps.webp",
+      "width": 512
+    },
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [],
+    "obtainable": false,
+    "variantIds": [
+      "d2:weapons:sift-socks"
+    ],
+    "weaponType": "wit-wraps",
+    "tags": [],
+    "related": [
+      "d2:weapons:sift-socks"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3886846,
+      "title": "Dungeons II:Wit Wraps",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Wit_Wraps"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:weapons:wolf-claws",
+    "slug": "wolf-claws",
+    "game": "d2",
+    "category": "weapons",
+    "name": "Wolf Claws",
+    "description": "A respectful offering from your wolf friends, for close combat beneath the full moon.",
+    "rarity": "common",
+    "image": {
+      "alt": "Wolf Claws icon",
+      "height": 128,
+      "src": "/images/d2/weapons/wolf-claws.webp",
+      "width": 128
+    },
+    "comboLength": 3,
+    "effectValues": [],
+    "isUnique": false,
+    "kind": "melee",
+    "locations": [
+      "d2:quests:part-of-the-pack",
+      "d2:locations:howling-woods",
+      "d2:locations:frozen-highlands"
+    ],
+    "obtainable": true,
+    "variantIds": [
+      "d2:weapons:sculker-claws"
+    ],
+    "weaponType": "wolf-claws",
+    "tags": [],
+    "related": [
+      "d2:weapons:sculker-claws"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:55.066Z",
+      "revisionId": 3863056,
+      "title": "Dungeons II:Wolf Claws",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Wolf_Claws"
+    },
+    "quality": "verified"
+  }
+]

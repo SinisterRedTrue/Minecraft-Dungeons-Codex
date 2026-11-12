@@ -76,7 +76,8 @@ export const VALID: Record<string, (name: string, extra?: Json) => Json> = {
     base('d2', 'weapons', n, {
       kind: 'melee',
       weaponType: 'staff',
-      effect: 'None',
+      isUnique: false,
+      variantIds: [],
       effectValues: [],
       locations: [],
       obtainable: true,
@@ -86,14 +87,22 @@ export const VALID: Record<string, (name: string, extra?: Json) => Json> = {
     base('d2', 'armor', n, {
       slot: 'helmet',
       armorSet: 'Iron',
+      isUnique: false,
+      variantIds: [],
       effects: [],
       effectValues: [],
       locations: [],
       ...e,
     }),
-  'd2/enchantments': (n, e) => base('d2', 'enchantments', n, { ...enchantment, ...e }),
+  'd2/enchantments': (n, e) =>
+    base('d2', 'enchantments', n, {
+      appliesTo: ['melee'],
+      levels: [{ level: 1, text: '10% chance', value: 10, unit: '%' }],
+      obtaining: [],
+      ...e,
+    }),
   'd2/artifacts': (n, e) =>
-    base('d2', 'artifacts', n, { ...artifact, artifactType: 'damaging', ...e }),
+    base('d2', 'artifacts', n, { soulCost: 20, requiresSouls: true, locations: [], ...e }),
   'd2/talismans': (n, e) =>
     base('d2', 'talismans', n, {
       passiveBonus: 'Increases ranged damage',
@@ -112,11 +121,19 @@ export const VALID: Record<string, (name: string, extra?: Json) => Json> = {
     base('d2', 'quests', n, {
       questType: 'core',
       locationIds: [],
+      areas: [],
       rewards: [{ when: 'first', xp: 100, items: [] }],
       dlcExclusive: false,
       ...e,
     }),
   'd2/mobs': (n, e) => base('d2', 'mobs', n, { ...mob, ...e }),
   'd2/locations': (n, e) =>
-    base('d2', 'locations', n, { ...location, locationType: 'region', ...e }),
+    base('d2', 'locations', n, {
+      ...location,
+      locationType: 'overworld',
+      stations: [],
+      subAreas: [],
+      questIds: [],
+      ...e,
+    }),
 };

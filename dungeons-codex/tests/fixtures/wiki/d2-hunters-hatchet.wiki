@@ -1,0 +1,77 @@
+{{Infobox Dungeons II item
+| image = MCD2 Render Hunter's Hatchet Icon.png
+| type = Melee Weapon
+| variant = Axe
+| rarity = Unique
+| property = Reduces ranged ammo cooldown time by 35%.
+| description = For the experienced hunter who knows how to fletch their own arrows.
+}}
+
+The '''hunter's hatchet''' is a {{MCD2|unique}} {{MCD2|melee weapon}}.
+
+== Obtaining ==
+
+* {{MCD2Link|Howling Woods}}
+* {{MCD2Link|id=Deep Dark|The Deep Dark}}
+* {{MCD2Link|Humbler Huskland}}
+
+== Usage ==
+The hunter's hatchet can be swung to deal minimum damage to nearby {{MCD2|mob}}s, but swinging continuously off cooldown causes it to combo, with the final attack dealing increased damage.
+
+=== Stats ===
+{| class="wikitable sortable"
+!Hit number
+! class="unsortable" |Base damage
+! class="unsortable" |Duration of the attack check
+! class="unsortable" |Area
+! class="unsortable" |Knockback
+|-
+|Hit 1
+|14
+|0.091s
+|70°
+|500
+|-
+|Hit 2
+|14
+|0.078s
+|70°
+|500
+|-
+|Hit 3
+|21
+|0.165s
+|180°
+|700
+|-
+|Jump
+|22
+|0.026s
+| -
+|1200
+|-
+|}
+
+== Unique effect ==
+The fixed effect of the hunter's hatchet is {{MCD2|Effect#Fletcher|Fletcher}}, which cannot be rerolled.
+: ''Reduces ranged ammo cooldown time by 35%.''
+
+== Compatible effects ==
+The following {{MCD2|effect}}s can be obtained on the hunter's hatchet, either when found or when rerolled at the {{MCD2|blacksmith}}.{{MCD2 Effects|gear=melee|role=ranger|role2=summoner}}
+
+== History ==
+{{HistoryTable
+|{{HistoryLine|Dungeons II}}
+|{{HistoryLine||1.1.1.0|[[File:MCD2 Render Hunter's Hatchet Icon.png|32px]] Added the hunter's hatchet.}}
+}}
+
+== Gallery ==
+=== In other media ===
+<gallery>
+File:Minecraft Dungeons II Surprise Showcase thumbnail.jpg|A hunter’s hatchet being used on the thumbnail for {{MCD2|Surprise Showcase}}
+</gallery>
+
+== Navigation ==
+{{Navbox Dungeons II gear|melee}}
+
+[[fr:MCD2:Hachette de chasseur]]

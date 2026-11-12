@@ -1,0 +1,27 @@
+{{Infobox Dungeons II item
+| image = MCD2 Render Beekeeper Veil Icon.png
+| type = Armor
+| slot = Helmet
+| set = Beekeeper
+| variant = Hivemind Hardhat
+| description = Keeps enemies out of your face without compromising your vision.
+}}
+A '''beekeeper veil''' is a {{MCD2|helmet}}.
+
+== History ==
+{{HistoryTable
+|{{HistoryLine||September 10, 2026|link=https://x.com/harristic_/status/2095620227555868719|The beekeeper veil is revealed.}}
+
+|{{HistoryLine|Dungeons II}}
+|{{HistoryLine||1.1.1.0|[[File:MCD2 Render Beekeeper Veil Icon.png|32px]] Added beekeeper veils.}}
+}}
+
+== Gallery ==
+=== Screenshots ===
+<gallery>
+MCD2 Beekeeper Veil inventory.png|Beekeeper veil in the inventory
+MCD2 Beekeeper Veil inventory render.png|Beekeeper veil inventory render
+</gallery>
+
+== Navigation ==
+{{Navbox Dungeons II gear|armor}}

@@ -1,0 +1,63 @@
+{
+  "ammo": ["ammo", "arrow", "quiver"],
+  "area": ["area", "nearby", "radius", "within \\d+ blocks", "secondary targets", "surrounding"],
+  "artifact": ["artifacts?"],
+  "attack-speed": ["attack speed"],
+  "burn": ["fire\\b", "burn", "flame", "blaz", "ember"],
+  "cooldown": ["cooldown"],
+  "crit": ["critical"],
+  "damage-boost": [
+    "\\d+% more damage",
+    "\\d+% damage",
+    "increases? (?:attack )?damage",
+    "damage increase",
+    "damage bonus",
+    "extra damage",
+    "amplif"
+  ],
+  "defense": [
+    "less damage",
+    "damage taken",
+    "received damage",
+    "deflect",
+    "fortif",
+    "protect",
+    "barrier",
+    "shield"
+  ],
+  "experience": ["experience"],
+  "explosive": ["explod", "explosi", "blast\\b"],
+  "freeze": ["frost", "freez", "frozen", "ice\\b", "blizzard"],
+  "healing": ["heal", "regenerat", "potion", "restor", "recover"],
+  "knockback": ["knockback", "knocks?\\b", "stagger"],
+  "lightning": ["lightning", "thunder", "shock", "electric", "conduct"],
+  "loot": ["additional emeralds", "loot", "item drops?", "additional drops", "drops?\\b"],
+  "max-health": ["maximum health", "max health"],
+  "melee-damage": [
+    "melee",
+    "jump attacks?",
+    "final hits?",
+    "weapon attacks?",
+    "weapon damage",
+    "attack damage",
+    "primary targets?"
+  ],
+  "movement-speed": ["movement", "hurrying", "sprint"],
+  "piercing": ["pierc"],
+  "poison": ["poison", "venom", "toxic"],
+  "ranged-damage": [
+    "ranged attacks?",
+    "ranged damage",
+    "ranged weapon",
+    "from far away",
+    "additional projectiles",
+    "jump shot",
+    "bow\\b",
+    "crossbow"
+  ],
+  "rolling": ["rolls?\\b", "rolling"],
+  "souls": ["souls?\\b", "soul-"],
+  "status-effects": ["status", "statuses", "shadowcloak", "chained", "soulsick", "weaken", "trap"],
+  "stealth": ["shadows", "sneak", "cloak", "invisible"],
+  "summoning": ["summon", "companions?", "pets?\\b", "wolf", "llama", "golem"]
+}

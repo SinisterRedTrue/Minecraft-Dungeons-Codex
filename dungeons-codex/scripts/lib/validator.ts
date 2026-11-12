@@ -48,7 +48,9 @@ function idRefs(entity: Json): { field: string; id: string }[] {
     const value = entity[field];
     if (typeof value === 'string') refs.push({ field, id: value });
   };
-  ['related', 'variantIds', 'builtInto', 'locationIds', 'mobIds', 'itemIds'].forEach(list);
+  ['related', 'variantIds', 'builtInto', 'locationIds', 'mobIds', 'itemIds', 'questIds'].forEach(
+    list,
+  );
   ['baseItemId', 'secretOf'].forEach(single);
   const built = entity.builtInEnchantments;
   if (Array.isArray(built)) {
@@ -64,7 +66,7 @@ function idRefs(entity: Json): { field: string; id: string }[] {
 /** Fields that hold an id *or* raw text; raw text must be listed as unresolved. */
 function mixedRefs(entity: Json): { field: string; value: string }[] {
   const refs: { field: string; value: string }[] = [];
-  for (const field of ['locations', 'drops']) {
+  for (const field of ['locations', 'drops', 'obtaining']) {
     const value = entity[field];
     if (Array.isArray(value)) {
       value.forEach(
@@ -74,15 +76,19 @@ function mixedRefs(entity: Json): { field: string; value: string }[] {
   }
   const rewards = entity.rewards;
   if (Array.isArray(rewards)) {
+    const push = (field: string, value: unknown) =>
+      typeof value === 'string' && refs.push({ field, value });
     rewards.forEach((reward: Json, r) => {
-      for (const field of ['items', 'randomFrom']) {
-        const value = reward?.[field];
-        if (Array.isArray(value)) {
-          value.forEach(
-            (v, i) =>
-              typeof v === 'string' && refs.push({ field: `rewards.${r}.${field}.${i}`, value: v }),
-          );
-        }
+      const items = reward?.items;
+      if (Array.isArray(items)) items.forEach((v, i) => push(`rewards.${r}.items.${i}`, v));
+      const pools = reward?.randomFrom;
+      if (Array.isArray(pools)) {
+        pools.forEach((pool: Json, p) => {
+          const from = pool?.from;
+          if (Array.isArray(from)) {
+            from.forEach((v, i) => push(`rewards.${r}.randomFrom.${p}.from.${i}`, v));
+          }
+        });
       }
     });
   }

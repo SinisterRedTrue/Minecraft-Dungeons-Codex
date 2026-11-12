@@ -1,0 +1,175 @@
+{{Infobox Dungeons II location
+|image=MCD2_gameplay_reveal_5.jpg
+| subarea = The Deep Dark
+| subarea2 = Little Howl Hamlet
+| subarea3 = Woodcutter's Outpost
+| station = *Little Howl Hamlet
+*Hidden Grove
+*Woodcutter's Outpost
+| boss = Soul Corrupted Witch
+| codename = Forest<ref><code>"SW_Area_Forest_A1": "Howling Woods"</code></ref>
+}}
+
+'''Howling Woods''' is a {{MCD2|location}} in the {{MCD2|Overworld}} containing {{MCD2|Little Howl Hamlet}} and the cave that leads to {{MCD2|the Deep Dark}}. It is an [[old growth taiga]] biome infected with {{MCD2|sculk}}.
+
+== Quests ==
+
+=== Core quests ===
+* {{MCD2|The Silence in Little Howl}}
+* {{MCD2|Training with the Enchantsmith}}
+* {{MCD2|Corruption in the Woods}}
+* {{MCD2|Down into the Deep Dark}}
+
+=== Side quests ===
+* {{MCD2|Part of the Pack}}
+* {{MCD2|The Cleric's Apprentice}}
+
+== Mobs ==
+
+=== Friendlies ===
+The following friendlies can be encountered here:
+
+* {{MCD2Link|Woods Wolf}}
+* {{MCD2Link|Villager}}
+
+=== Hostiles ===
+The following hostile mobs can be encountered here:
+
+* {{MCD2Link|Bogged}}
+* {{MCD2Link|Chicken Jockey}}
+* {{MCD2Link|Creeper}}
+* {{MCD2Link|Enchanter}}
+* {{MCD2Link|Enderman}}
+* {{MCD2Link|Mucked}}
+* {{MCD2Link|Pillager}}
+* {{MCD2Link|Spider}}
+* {{MCD2Link|Skeleton}}
+* {{MCD2Link|Vindicator}}
+* {{MCD2Link|Witch}}
+* {{MCD2Link|Zombie}}
+* {{MCD2Link|Evoker}}
+==== Soul corrupted ====
+The following {{MCD2|soul corrupted}} mobs can be encountered here:
+
+* {{MCD2Link|Creeper}}
+* {{MCD2Link|Mucked}}
+* {{MCD2Link|Skeleton}}
+* {{MCD2Link|Zombie}}
+
+=== Characters ===
+The following characters are found here:
+* {{MCD2Link|Cleric}}
+* {{MCD2Link|Cleric Apprentice}}
+
+=== Bosses ===
+The following bosses are battled here:
+* {{MCD2Link|Soul Corrupted Witch}}
+
+== Gear ==
+
+=== Melee ===
+{{Columns-list|{{columns-list|colwidth=20em|
+* {{MCD2Link|Axe}}
+* {{MCD2Link|Battlestaff}}
+* {{MCD2Link|Diamond Shovel}}
+* {{MCD2Link|Double Daggers}}
+* {{MCD2Link|Elemental Staff}}
+* {{MCD2Link|Glaive}}
+* {{MCD2Link|Golden Glaive}}
+* {{MCD2Link|Hunter's Hatchet}}
+* {{MCD2Link|Lunar Sickle}}
+* {{MCD2Link|Pickaxe}}
+* {{MCD2Link|Pride of the Plains}}
+* {{MCD2Link|The Prospector's Pick}}
+* {{MCD2Link|Rascal's Razor}}
+* {{MCD2Link|Riftslasher}}
+* {{MCD2Link|Sabre}}
+* {{MCD2Link|Sculker Claws}}
+* {{MCD2Link|Sculker's Bane}}
+* {{MCD2Link|Short Spear}}
+* {{MCD2Link|Shovel}}
+* {{MCD2Link|Spectral Spear}}
+* {{MCD2Link|Tidal Sickle}}
+* {{MCD2Link|Twilight Dagger}}
+* {{MCD2Link|Venomous Fangs}}
+* {{MCD2Link|Wolf Claws}}
+}}}}
+
+=== Ranged ===
+{{Columns-list|{{columns-list|colwidth=20em|
+* {{MCD2Link|Longbow}}
+* {{MCD2Link|Creaking's Reach}}
+* {{MCD2Link|Scatter Crossbow}}
+* {{MCD2Link|Harp Crossbow}}
+* {{MCD2Link|Heavy Crossbow}}
+* {{MCD2Link|The Close Ranger}}
+* {{MCD2Link|Greatbow}}
+* {{MCD2Link|Humbler Heartstring}}
+* {{MCD2Link|Rapid Crossbow}}
+* {{MCD2Link|The Cross Pollinator}}
+}}}}
+
+=== Armor ===
+{{Columns-list|{{columns-list|colwidth=20em|
+* {{MCD2Link|}}
+}}}}
+
+=== Artifacts ===
+{{Columns-list|{{columns-list|colwidth=20em|
+* {{MCD2Link|Corrupted Seeds}}
+* {{MCD2Link|Pouch of Thunder}}
+* {{MCD2Link|Turtle Master's Mandolin}}
+* {{MCD2Link|Totem of Shielding}}
+* {{MCD2Link|Winter Staff}}
+* {{MCD2Link|Death Cap Mushroom}}
+* {{MCD2Link|Ender Fog}}
+* {{MCD2Link|Witch Brew}}
+* {{MCD2Link|Venomous Quiver}}
+}}}}
+
+=== Talismans ===
+
+* {{MCD2Link|Wonderful Wheat}}
+* {{MCD2Link|Tasty Bone}}
+
+== History ==
+{{HistoryTable
+|{{HistoryLine||June 7, 2026|link=https://www.youtube.com/watch?v=VyZKYhM0Kv4|Howling Woods is first shown in the reveal trailer.}}
+|{{HistoryLine||June 10, 2026|link=https://www.youtube.com/watch?v=gvL3EEG2O_4|Howling Woods is displayed in development footage.}}
+|{{HistoryLine||June 11, 2026|link= https://www.youtube.com/watch?v=z9fujISgzM8|Gameplay footage briefly explores Howling Woods.}}
+|{{HistoryLine||August 26, 2026|link=https://www.youtube.com/watch?v=YAZPH5VPilE|Howling Woods' name is revealed at a gameplay showcase.}}
+}}
+
+== Gallery ==
+=== Concept artwork ===
+<gallery>
+File:MCD2 Credits artwork Stone Golems.png|Stone Golems
+</gallery>
+
+=== Mojang screenshots ===
+<gallery>
+File:MCD2 gameplay reveal 5.jpg|Little Howl Hamlet, a sculk-infested village
+File:MCD2 Night forest village.jpg|Little Howl Hamlet at night
+File:MCD2 Players in the infected taiga village.png|Heroes exploring Little Howl Hamlet
+File:MCD2 gameplay reveal 9.jpg|Soul corrupted mobs in Howling Woods
+File:MCD2 Soul Corrupted wave.png|Heroes fighting mobs in Howling Woods outside the Deep Dark
+File:MCD2 gameplay reveal 1.jpg|Souls moving in a spiral
+File:MCD2 The Deep Dark screenshot 3.jpg|The cave entrance that leads to the Deep Dark
+</gallery>
+
+=== In other media ===
+==== Promotional ====
+<gallery>
+File:MCD2 Heroes overlooking the taiga.png|{{MCD2|Valorie}} and company in Howling Woods
+File:MCD2 Twisted Warden in reveal trailer.jpg|The {{MCD2|Twisted Warden}} threatening heroes in the woods
+File:MCD2 Rift reveal trailer.png|A {{MCD2|dimensional rift}} opening in Howling Woods
+File:MCD2 Pre-Order Now Taiga With RIft.png|A dimensional rift visible in a clearing in Howling Woods
+</gallery>
+
+== References ==
+{{Reflist}}
+
+== Navigation ==
+{{Navbox Dungeons II locations}}
+
+[[Category:Minecraft Dungeons II biomes]]

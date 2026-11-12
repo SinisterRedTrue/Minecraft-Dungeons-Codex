@@ -1,0 +1,1275 @@
+[
+  {
+    "id": "d2:artifacts:battle-banner",
+    "slug": "battle-banner",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Battle Banner",
+    "description": "Raise the banner of war and grant strength to you and all nearby allies.",
+    "image": {
+      "alt": "Battle Banner icon",
+      "height": 128,
+      "src": "/images/d2/artifacts/battle-banner.webp",
+      "width": 128
+    },
+    "cooldownSeconds": 10,
+    "locations": [
+      "d2:locations:singers-meadow",
+      "d2:locations:humbler-huskland"
+    ],
+    "requiresSouls": true,
+    "soulCost": 45,
+    "tags": [
+      "area"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:blaze-bangle",
+    "slug": "blaze-bangle",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Blaze Bangle",
+    "description": "Imbues your attacks with the power of a blazing inferno and looks radiant on your wrist!",
+    "image": {
+      "alt": "Blaze Bangle icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/blaze-bangle.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 6,
+    "locations": [
+      "d2:locations:rainy-plains"
+    ],
+    "requiresSouls": true,
+    "soulCost": 35,
+    "tags": [
+      "burn"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:blight-bangle",
+    "slug": "blight-bangle",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Blight Bangle",
+    "description": "Imbues your attacks with poisonous power and looks stunning on your wrist!",
+    "image": {
+      "alt": "Blight Bangle icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/blight-bangle.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 6,
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:frozen-highlands"
+    ],
+    "requiresSouls": true,
+    "soulCost": 35,
+    "tags": [
+      "poison"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:blizzard-bangle",
+    "slug": "blizzard-bangle",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Blizzard Bangle",
+    "description": "Imbues your attacks with the power of freezing blizzards and looks really cool on your wrist!",
+    "image": {
+      "alt": "Blizzard Bangle icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/blizzard-bangle.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 6,
+    "locations": [
+      "d2:locations:singers-meadow",
+      "d2:locations:humbler-huskland"
+    ],
+    "requiresSouls": true,
+    "soulCost": 35,
+    "tags": [
+      "freeze"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:cinder-scepter",
+    "slug": "cinder-scepter",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Cinder Scepter",
+    "description": "Hold the scepter to charge it up with souls, then release soul-powered fire on your enemies.",
+    "image": {
+      "alt": "Cinder Scepter icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/cinder-scepter.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "requiresSouls": true,
+    "soulCost": 25,
+    "tags": [
+      "burn",
+      "souls"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:conductive-quiver",
+    "slug": "conductive-quiver",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Conductive Quiver",
+    "description": "These arrows will strike your enemies like lightning from the skies.",
+    "image": {
+      "alt": "Conductive Quiver icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/conductive-quiver.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "requiresSouls": true,
+    "soulCost": 20,
+    "tags": [
+      "ammo",
+      "lightning"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:corrupted-beacon",
+    "slug": "corrupted-beacon",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Corrupted Beacon",
+    "description": "Turns souls into raw power as you fire it in short bursts or in one long, soul-draining blast of ultimate power.",
+    "image": {
+      "alt": "Corrupted Beacon icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/corrupted-beacon.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 6,
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:lullaby-hills"
+    ],
+    "requiresSouls": true,
+    "soulCost": 20,
+    "tags": [
+      "burn",
+      "explosive",
+      "souls"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:corrupted-seeds",
+    "slug": "corrupted-seeds",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Corrupted Seeds",
+    "description": "Instantly sprout into deadly vines, poisoning and binding your enemies while you reap what you’ve sown.",
+    "image": {
+      "alt": "Corrupted Seeds icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/corrupted-seeds.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "requiresSouls": true,
+    "soulCost": 20,
+    "tags": [
+      "poison"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:creeper-candle",
+    "slug": "creeper-candle",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Creeper Candle",
+    "description": "Just a completely normal candle, apart from that ominous hss coming from the burning wick... Wait, that’s a fuse!",
+    "image": {
+      "alt": "Creeper Candle icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/creeper-candle.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:lullaby-hills"
+    ],
+    "requiresSouls": true,
+    "soulCost": 25,
+    "tags": [
+      "burn"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:death-cap-mushroom",
+    "slug": "death-cap-mushroom",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Death Cap Mushroom",
+    "description": "Eaten by daring warriors before battle to enter a berserker state, increasing both movement and attack speed.",
+    "image": {
+      "alt": "Death Cap Mushroom icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/death-cap-mushroom.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "requiresSouls": true,
+    "soulCost": 25,
+    "tags": [
+      "attack-speed",
+      "movement-speed"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:echo-ocarina",
+    "slug": "echo-ocarina",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Echo Ocarina",
+    "description": "The music of this hollowed husk protects against ranged attacks.",
+    "image": {
+      "alt": "Echo Ocarina icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/echo-ocarina.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 10,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:humbler-huskland"
+    ],
+    "requiresSouls": true,
+    "soulCost": 40,
+    "tags": [
+      "defense",
+      "ranged-damage"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:electric-bangle",
+    "slug": "electric-bangle",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Electric Bangle",
+    "description": "Imbues your attacks with the power of crackling electricity and looks striking on your wrist!",
+    "image": {
+      "alt": "Electric Bangle icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/electric-bangle.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 6,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "requiresSouls": true,
+    "soulCost": 35,
+    "tags": [
+      "lightning"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:ender-fog",
+    "slug": "ender-fog",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Ender Fog",
+    "description": "The Ender Fog smoke bomb lets you sneak up on enemies, cloaked by shadows.",
+    "image": {
+      "alt": "Ender Fog icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/ender-fog.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "requiresSouls": true,
+    "soulCost": 20,
+    "tags": [
+      "stealth"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:fighters-flute",
+    "slug": "fighters-flute",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Fighter's Flute",
+    "description": "The music of the flute grants critical striking powers to any fighter of note.",
+    "image": {
+      "alt": "Fighter's Flute icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/fighters-flute.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:frozen-highlands"
+    ],
+    "requiresSouls": true,
+    "soulCost": 45,
+    "tags": [
+      "crit"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:fighting-fungus",
+    "slug": "fighting-fungus",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Fighting Fungus",
+    "description": "Eaten by daring warriors before battle, unleashing their rage and increasing their attack speed.",
+    "image": {
+      "alt": "Fighting Fungus icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/fighting-fungus.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:humbler-huskland"
+    ],
+    "requiresSouls": true,
+    "soulCost": 20,
+    "tags": [
+      "attack-speed"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:firework-arrow",
+    "slug": "firework-arrow",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Firework Arrow",
+    "description": "The explosive power of the TNT combined with the high velocity movement of an arrow, what could possibly go wrong?",
+    "image": {
+      "alt": "Firework Arrow icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/firework-arrow.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:humbler-huskland"
+    ],
+    "requiresSouls": true,
+    "soulCost": 20,
+    "tags": [
+      "ammo",
+      "explosive",
+      "movement-speed"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:flaming-quiver",
+    "slug": "flaming-quiver",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Flaming Quiver",
+    "description": "Light your arrows with the flame of your righteous rage.",
+    "image": {
+      "alt": "Flaming Quiver icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/flaming-quiver.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:humbler-huskland"
+    ],
+    "requiresSouls": true,
+    "soulCost": 20,
+    "tags": [
+      "ammo",
+      "burn"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:freezing-quiver",
+    "slug": "freezing-quiver",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Freezing Quiver",
+    "description": "These arrows will have your enemies quivering from both fear and cold.",
+    "image": {
+      "alt": "Freezing Quiver icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/freezing-quiver.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:lullaby-hills"
+    ],
+    "requiresSouls": true,
+    "soulCost": 20,
+    "tags": [
+      "ammo"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:grindstone",
+    "slug": "grindstone",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Grindstone",
+    "description": "Sharpen your weapons on the grindstone to make enemies feel the sting of your steel and cause extra damage.",
+    "image": {
+      "alt": "Grindstone icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/grindstone.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 4,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "requiresSouls": true,
+    "soulCost": 30,
+    "tags": [
+      "damage-boost"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:honey-dipper",
+    "slug": "honey-dipper",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Honey Dipper",
+    "description": "A sticky treat to trap your enemies as your buzzing friends join the battle! Victory never tasted so sweet.",
+    "image": {
+      "alt": "Honey Dipper icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/honey-dipper.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 15,
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:lullaby-hills"
+    ],
+    "requiresSouls": true,
+    "soulCost": 45,
+    "tags": [
+      "status-effects"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:humbling-horn",
+    "slug": "humbling-horn",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Humbling Horn",
+    "description": "The music from this mystical horn will knock enemies over and leave their ears ringing. You may need some practice.",
+    "image": {
+      "alt": "Humbling Horn icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/humbling-horn.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 4,
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:frozen-highlands"
+    ],
+    "requiresSouls": true,
+    "soulCost": 25,
+    "tags": [
+      "knockback"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:lightning-rod",
+    "slug": "lightning-rod",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Lightning Rod",
+    "description": "Channels soul-powered lightning, zapping your enemies silly for as long as you hold it.",
+    "image": {
+      "alt": "Lightning Rod icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/lightning-rod.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 6,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:humbler-huskland"
+    ],
+    "requiresSouls": true,
+    "soulCost": 20,
+    "tags": [
+      "lightning",
+      "souls"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:picnic-basket",
+    "slug": "picnic-basket",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Picnic Basket",
+    "description": "Great day for a picnic! Share healthy treats with your friends. Hangry friends make for bad allies in battle.",
+    "image": {
+      "alt": "Picnic Basket icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/picnic-basket.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 15,
+    "locations": [
+      "d2:locations:rainy-plains"
+    ],
+    "requiresSouls": true,
+    "soulCost": 15,
+    "tags": [
+      "healing"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:pouch-of-ember",
+    "slug": "pouch-of-ember",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Pouch of Ember",
+    "description": "Throw it on the ground to spread a fierce fire around yourself. You’ll be too hot to handle!",
+    "image": {
+      "alt": "Pouch of Ember icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/pouch-of-ember.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:singers-meadow",
+      "d2:locations:humbler-huskland"
+    ],
+    "requiresSouls": true,
+    "soulCost": 40,
+    "tags": [
+      "burn"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:pouch-of-frost",
+    "slug": "pouch-of-frost",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Pouch of Frost",
+    "description": "Throw it on the ground to spread a blistering blizzard around yourself. One of the coolest artifacts there is!",
+    "image": {
+      "alt": "Pouch of Frost icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/pouch-of-frost.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:lullaby-hills"
+    ],
+    "requiresSouls": true,
+    "soulCost": 40,
+    "tags": [
+      "artifact",
+      "freeze"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:pouch-of-poison",
+    "slug": "pouch-of-poison",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Pouch of Poison",
+    "description": "Throw it on the ground to spread toxic terror around yourself. Don’t worry, this mob repellent is completely eco-friendly.",
+    "image": {
+      "alt": "Pouch of Poison icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/pouch-of-poison.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:rainy-plains"
+    ],
+    "requiresSouls": true,
+    "soulCost": 40,
+    "tags": [
+      "poison"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:pouch-of-thunder",
+    "slug": "pouch-of-thunder",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Pouch of Thunder",
+    "description": "Throw it on the ground to spread conductive chaos around yourself. It’s a real power trip!",
+    "image": {
+      "alt": "Pouch of Thunder icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/pouch-of-thunder.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "requiresSouls": true,
+    "soulCost": 40,
+    "tags": [
+      "lightning"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:powershaker",
+    "slug": "powershaker",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Powershaker",
+    "description": "Let’s shake things up! The Powershaker is a smashing good time and will blow your enemies’ minds!",
+    "image": {
+      "alt": "Powershaker icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/powershaker.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 16,
+    "locations": [
+      "d2:locations:singers-meadow",
+      "d2:locations:humbler-huskland"
+    ],
+    "requiresSouls": true,
+    "soulCost": 35,
+    "tags": [],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:redstone-mine-launcher",
+    "slug": "redstone-mine-launcher",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Redstone Mine Launcher",
+    "description": "This state-of-the-craft mine launcher will fire a volley of explosive Redstone mines.",
+    "image": {
+      "alt": "Redstone Mine Launcher icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/redstone-mine-launcher.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "requiresSouls": true,
+    "soulCost": 40,
+    "tags": [
+      "burn",
+      "explosive"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:soul-harvester",
+    "slug": "soul-harvester",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Soul Harvester",
+    "description": "Charge it up with the souls you have collected before releasing them into a cluster hex of power.",
+    "image": {
+      "alt": "Soul Harvester icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/soul-harvester.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "requiresSouls": true,
+    "soulCost": 15,
+    "tags": [
+      "souls"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:tempo-truffle",
+    "slug": "tempo-truffle",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Tempo Truffle",
+    "description": "Eaten by daring warriors before battle, sending them charging into battle with increased movement speed.",
+    "image": {
+      "alt": "Tempo Truffle icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/tempo-truffle.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 16,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "requiresSouls": true,
+    "soulCost": 35,
+    "tags": [
+      "movement-speed"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:totem-of-casting",
+    "slug": "totem-of-casting",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Totem of Casting",
+    "description": "Place the totem on the ground to spread artificing energy to your allies, reducing their artifact cooldown time.",
+    "image": {
+      "alt": "Totem of Casting icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/totem-of-casting.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 15,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "requiresSouls": true,
+    "soulCost": 30,
+    "tags": [
+      "artifact",
+      "cooldown"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:totem-of-regeneration",
+    "slug": "totem-of-regeneration",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Totem of Regeneration",
+    "description": "This wooden figurine radiates a warmth like that of a crackling campfire and heals all friends who gather around it.",
+    "image": {
+      "alt": "Totem of Regeneration icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/totem-of-regeneration.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 27,
+    "locations": [
+      "d2:locations:rainy-plains"
+    ],
+    "requiresSouls": true,
+    "soulCost": 65,
+    "tags": [
+      "healing"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:totem-of-shielding",
+    "slug": "totem-of-shielding",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Totem of Shielding",
+    "description": "This solid gold totem radiates a protective barrier, shielding all inside it from projectiles.",
+    "image": {
+      "alt": "Totem of Shielding icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/totem-of-shielding.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 15,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "requiresSouls": true,
+    "soulCost": 30,
+    "tags": [
+      "defense"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:turtle-masters-mandolin",
+    "slug": "turtle-masters-mandolin",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Turtle Master's Mandolin",
+    "description": "A beautiful instrument varnished with Potion of the Turtle Master, granting resistance to all friends who catch your groove.",
+    "image": {
+      "alt": "Turtle Master's Mandolin icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/turtle-masters-mandolin.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "requiresSouls": true,
+    "soulCost": 20,
+    "tags": [
+      "healing"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:venomous-quiver",
+    "slug": "venomous-quiver",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Venomous Quiver",
+    "description": "A quiver soaked in venom for that extra sting when your arrows bite.",
+    "image": {
+      "alt": "Venomous Quiver icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/venomous-quiver.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "requiresSouls": true,
+    "soulCost": 20,
+    "tags": [
+      "ammo",
+      "poison"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:warding-chimes",
+    "slug": "warding-chimes",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Warding Chimes",
+    "description": "Chimes crafted from humbler husk. Their music turns your skin as thick as carapace.",
+    "image": {
+      "alt": "Warding Chimes icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/warding-chimes.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 15,
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:frozen-highlands"
+    ],
+    "requiresSouls": true,
+    "soulCost": 40,
+    "tags": [],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:warrior-drums",
+    "slug": "warrior-drums",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Warrior Drums",
+    "description": "Let the sound of drums fill your warrior heart with the power to do double damage on all critical hits.",
+    "image": {
+      "alt": "Warrior Drums icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/warrior-drums.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "requiresSouls": true,
+    "soulCost": 45,
+    "tags": [
+      "crit"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:winter-staff",
+    "slug": "winter-staff",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Winter Staff",
+    "description": "Blasts a soul-powered blizzard at your enemies and creates a cozy winter wonderland.",
+    "image": {
+      "alt": "Winter Staff icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/winter-staff.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "requiresSouls": true,
+    "soulCost": 15,
+    "tags": [
+      "freeze",
+      "souls"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:artifacts:witch-brew",
+    "slug": "witch-brew",
+    "game": "d2",
+    "category": "artifacts",
+    "name": "Witch Brew",
+    "description": "A witch's secret formula to throw at your enemies and spread a cloud of weakening vapor. What do they put in this stuff?",
+    "image": {
+      "alt": "Witch Brew icon",
+      "height": 256,
+      "src": "/images/d2/artifacts/witch-brew.webp",
+      "width": 256
+    },
+    "cooldownSeconds": 5,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "requiresSouls": true,
+    "soulCost": 20,
+    "tags": [
+      "status-effects"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:53.723Z",
+      "revisionId": 3875491,
+      "title": "Dungeons II:Artifact",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Artifact"
+    },
+    "quality": "verified"
+  }
+]

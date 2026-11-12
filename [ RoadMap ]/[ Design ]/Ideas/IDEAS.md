@@ -35,3 +35,12 @@
 - [ ] Gilded enchantment costs (`[2,3,4]` / `[3,4,5]`) and the four built-in exclusives whose cost the wiki lists as Unknown (D-041).
 - [ ] Cosmetics: a flair-kind filter (healing / level up / mob) and hero skins grouped by where they come from.
 - [ ] A short "upstream mistakes" note the sync prints (wrong intro counts, mis-categorised pages) that could be reported to wiki editors.
+
+## Data (from Prompt 05)
+- [ ] D2 weapon hit tables: the item pages have a per-hit "Base damage / duration / area / knockback" table (Hunter's Hatchet hit 1 = 14 base damage). Not scaled by power, so it was left out; it could feed a simple "damage per combo" row.
+- [ ] D2 zones as locations: `The Deep Dark`, `Ravines`, `Dungeon` and `Rift` are used by quests and mob spawn lists but are sub-areas, not main locations (D-058/D-059), so 59 mob spawn references and the quest areas are only text.
+- [ ] D2 quest pages: objectives, quest giver, previous/next quest (the infobox has them) for a quest chain view.
+- [ ] D2 armor set pages as a "Set" view (base set + its unique set, four pieces each) using `armorSet`.
+- [ ] D2 mob pages: per-tier health and soul values as numbers, attacks and drops (D2 pages have no such lists yet).
+- [ ] D2 artifact types: the wiki gives none (D-054); a derived "damaging / support / summoning" grouping would need a documented source.
+- [ ] D2 tag keyword list: review the 27 tags against the real filter UI in Prompt 07 and merge or split them (D-056).

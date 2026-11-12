@@ -12,11 +12,18 @@ import { listOf, type GameData } from './types';
 export const PROPERTY_CATEGORIES = ['weapons', 'armor', 'artifacts'] as const;
 
 /** Open enum fields per category (`schemaFor` checks them against `enums.json`). */
-export const OPEN_ENUMS: Record<string, string[]> = {
-  weapons: ['weaponType'],
-  armor: ['armorGroup'],
-  cosmetics: ['obtainedFrom'],
-  mobs: ['mobType'],
+export const OPEN_ENUMS: Record<string, Record<string, string[]>> = {
+  d1: {
+    weapons: ['weaponType'],
+    armor: ['armorGroup'],
+    cosmetics: ['obtainedFrom'],
+    mobs: ['mobType'],
+  },
+  d2: {
+    weapons: ['weaponType'],
+    mobs: ['mobType'],
+    locations: ['locationType'],
+  },
 };
 
 /** A first-draft tag: the property with its numbers removed, as a slug. */
@@ -103,7 +110,7 @@ export function syncEnums(
   const existing = readJson<Record<string, string[]>>(file) ?? {};
   const enums: Record<string, string[]> = { ...existing };
   const added: Record<string, string[]> = {};
-  for (const [category, fields] of Object.entries(OPEN_ENUMS)) {
+  for (const [category, fields] of Object.entries(OPEN_ENUMS[game] ?? {})) {
     for (const field of fields) {
       const found = new Set<string>();
       for (const entity of data[category] ?? []) {

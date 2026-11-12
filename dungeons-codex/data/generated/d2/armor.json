@@ -1,0 +1,6899 @@
+[
+  {
+    "id": "d2:armor:alchemist-loafers",
+    "slug": "alchemist-loafers",
+    "game": "d2",
+    "category": "armor",
+    "name": "Alchemist Loafers",
+    "description": "An alchemist's old loafers with stacked soles AND stacked with souls!",
+    "rarity": "unique",
+    "image": {
+      "alt": "Alchemist Loafers icon",
+      "height": 128,
+      "src": "/images/d2/armor/alchemist-loafers.webp",
+      "width": 128
+    },
+    "armorSet": "Alchemist Armor",
+    "baseItemId": "d2:armor:sorcerer-boots",
+    "effectValues": [
+      {
+        "label": "Increases Soul capacity",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "effects": [
+      "Increases Soul capacity by 50%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:frozen-highlands"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "souls"
+    ],
+    "related": [
+      "d2:armor:sorcerer-boots",
+      "d2:armor:alchemist-overcoat",
+      "d2:armor:alchemist-top-hat",
+      "d2:armor:alchemist-trousers"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875056,
+      "title": "Dungeons II:Alchemist Loafers",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Alchemist_Loafers"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:alchemist-overcoat",
+    "slug": "alchemist-overcoat",
+    "game": "d2",
+    "category": "armor",
+    "name": "Alchemist Overcoat",
+    "description": "An alchemist’s old overcoat that grants extra power to all artifacts.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Alchemist Overcoat icon",
+      "height": 128,
+      "src": "/images/d2/armor/alchemist-overcoat.webp",
+      "width": 128
+    },
+    "armorSet": "Alchemist Armor",
+    "baseItemId": "d2:armor:sorcerer-robe",
+    "effectValues": [
+      {
+        "label": "Artifact attacks deal more damage",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "effects": [
+      "Artifact attacks deal 25% more damage"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:frozen-highlands"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "artifact",
+      "damage-boost"
+    ],
+    "related": [
+      "d2:armor:sorcerer-robe",
+      "d2:armor:alchemist-top-hat",
+      "d2:armor:alchemist-trousers",
+      "d2:armor:alchemist-loafers"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874941,
+      "title": "Dungeons II:Alchemist Overcoat",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Alchemist_Overcoat"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:alchemist-top-hat",
+    "slug": "alchemist-top-hat",
+    "game": "d2",
+    "category": "armor",
+    "name": "Alchemist Top Hat",
+    "description": "An alchemist's old top hat that casts a tall shadow when healing and shielding allies.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Alchemist Top Hat icon",
+      "height": 128,
+      "src": "/images/d2/armor/alchemist-top-hat.webp",
+      "width": 128
+    },
+    "armorSet": "Alchemist Armor",
+    "baseItemId": "d2:armor:sorcerer-hat",
+    "effectValues": [
+      {
+        "label": "Increases the area of all positive status effects",
+        "unit": "%",
+        "value": 55
+      }
+    ],
+    "effects": [
+      "Increases the area of all positive status effects by 55%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:frozen-highlands"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "area",
+      "status-effects"
+    ],
+    "related": [
+      "d2:armor:sorcerer-hat",
+      "d2:armor:alchemist-trousers",
+      "d2:armor:alchemist-loafers",
+      "d2:armor:alchemist-overcoat"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874877,
+      "title": "Dungeons II:Alchemist Top Hat",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Alchemist_Top_Hat"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:alchemist-trousers",
+    "slug": "alchemist-trousers",
+    "game": "d2",
+    "category": "armor",
+    "name": "Alchemist Trousers",
+    "description": "An alchemist’s old trousers that generate health from all artifacts.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Alchemist Trousers icon",
+      "height": 128,
+      "src": "/images/d2/armor/alchemist-trousers.webp",
+      "width": 128
+    },
+    "armorSet": "Alchemist Armor",
+    "baseItemId": "d2:armor:sorcerer-leggings",
+    "effectValues": [
+      {
+        "label": "Restores max health when activating an artifact",
+        "unit": "%",
+        "value": 6
+      }
+    ],
+    "effects": [
+      "Restores 6% of max health when activating an artifact"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:frozen-highlands"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "artifact",
+      "healing",
+      "max-health"
+    ],
+    "related": [
+      "d2:armor:sorcerer-leggings",
+      "d2:armor:alchemist-loafers",
+      "d2:armor:alchemist-overcoat",
+      "d2:armor:alchemist-top-hat"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3875000,
+      "title": "Dungeons II:Alchemist Trousers",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Alchemist_Trousers"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:beekeeper-boots",
+    "slug": "beekeeper-boots",
+    "game": "d2",
+    "category": "armor",
+    "name": "Beekeeper Boots",
+    "description": "Adds a buzz to your step and a sting to your kicks",
+    "rarity": "common",
+    "image": {
+      "alt": "Beekeeper Boots icon",
+      "height": 128,
+      "src": "/images/d2/armor/beekeeper-boots.webp",
+      "width": 128
+    },
+    "armorSet": "Beekeeper Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:hivemind-stingers"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:hivemind-stingers",
+      "d2:armor:beekeeper-leggings",
+      "d2:armor:beekeeper-suit",
+      "d2:armor:beekeeper-veil"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875011,
+      "title": "Dungeons II:Beekeeper Boots",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Beekeeper_Boots"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:beekeeper-leggings",
+    "slug": "beekeeper-leggings",
+    "game": "d2",
+    "category": "armor",
+    "name": "Beekeeper Leggings",
+    "description": "As far as leggings go, these truly are the bee’s knees.",
+    "rarity": "common",
+    "image": {
+      "alt": "Beekeeper Leggings icon",
+      "height": 128,
+      "src": "/images/d2/armor/beekeeper-leggings.webp",
+      "width": 128
+    },
+    "armorSet": "Beekeeper Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:hivemind-trousers"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:hivemind-trousers",
+      "d2:armor:beekeeper-suit",
+      "d2:armor:beekeeper-veil",
+      "d2:armor:beekeeper-boots"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874952,
+      "title": "Dungeons II:Beekeeper Leggings",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Beekeeper_Leggings"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:beekeeper-suit",
+    "slug": "beekeeper-suit",
+    "game": "d2",
+    "category": "armor",
+    "name": "Beekeeper Suit",
+    "description": "Shields you from the swarms as you reach for their golden treasures.",
+    "rarity": "common",
+    "image": {
+      "alt": "Beekeeper Suit icon",
+      "height": 128,
+      "src": "/images/d2/armor/beekeeper-suit.webp",
+      "width": 128
+    },
+    "armorSet": "Beekeeper Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:hivemind-thorax"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:hivemind-thorax",
+      "d2:armor:beekeeper-veil",
+      "d2:armor:beekeeper-boots",
+      "d2:armor:beekeeper-leggings"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874886,
+      "title": "Dungeons II:Beekeeper Suit",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Beekeeper_Suit"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:beekeeper-veil",
+    "slug": "beekeeper-veil",
+    "game": "d2",
+    "category": "armor",
+    "name": "Beekeeper Veil",
+    "description": "Keeps enemies out of your face without compromising your vision.",
+    "rarity": "common",
+    "image": {
+      "alt": "Beekeeper Veil icon",
+      "height": 128,
+      "src": "/images/d2/armor/beekeeper-veil.webp",
+      "width": 128
+    },
+    "armorSet": "Beekeeper Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:hivemind-hardhat"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:hivemind-hardhat",
+      "d2:armor:beekeeper-boots",
+      "d2:armor:beekeeper-leggings",
+      "d2:armor:beekeeper-suit"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874808,
+      "title": "Dungeons II:Beekeeper Veil",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Beekeeper_Veil"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:bounty-hunter-boots",
+    "slug": "bounty-hunter-boots",
+    "game": "d2",
+    "category": "armor",
+    "name": "Bounty Hunter Boots",
+    "description": "Made from dark metal and bone, fit for the unwavering bounty hunter.",
+    "rarity": "common",
+    "image": {
+      "alt": "Bounty Hunter Boots icon",
+      "height": 128,
+      "src": "/images/d2/armor/bounty-hunter-boots.webp",
+      "width": 128
+    },
+    "armorSet": "Bounty Hunter Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:dauntless-sabatons"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:dauntless-sabatons",
+      "d2:armor:bounty-hunter-chestplate",
+      "d2:armor:bounty-hunter-helmet",
+      "d2:armor:bounty-hunter-shinguards"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875573,
+      "title": "Dungeons II:Bounty Hunter Boots",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Bounty_Hunter_Boots"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:bounty-hunter-chestplate",
+    "slug": "bounty-hunter-chestplate",
+    "game": "d2",
+    "category": "armor",
+    "name": "Bounty Hunter Chestplate",
+    "description": "Made from dark metal and bone, fit for the tireless bounty hunter.",
+    "rarity": "common",
+    "image": {
+      "alt": "Bounty Hunter Chestplate icon",
+      "height": 128,
+      "src": "/images/d2/armor/bounty-hunter-chestplate.webp",
+      "width": 128
+    },
+    "armorSet": "Bounty Hunter Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:dauntless-pauldrons"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:dauntless-pauldrons",
+      "d2:armor:bounty-hunter-helmet",
+      "d2:armor:bounty-hunter-shinguards",
+      "d2:armor:bounty-hunter-boots"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874888,
+      "title": "Dungeons II:Bounty Hunter Chestplate",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Bounty_Hunter_Chestplate"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:bounty-hunter-helmet",
+    "slug": "bounty-hunter-helmet",
+    "game": "d2",
+    "category": "armor",
+    "name": "Bounty Hunter Helmet",
+    "description": "Made from dark metal and bone, fit for the enduring bounty hunter.",
+    "rarity": "common",
+    "image": {
+      "alt": "Bounty Hunter Helmet icon",
+      "height": 128,
+      "src": "/images/d2/armor/bounty-hunter-helmet.webp",
+      "width": 128
+    },
+    "armorSet": "Bounty Hunter Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:dauntless-horns"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:dauntless-horns",
+      "d2:armor:bounty-hunter-shinguards",
+      "d2:armor:bounty-hunter-boots",
+      "d2:armor:bounty-hunter-chestplate"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874813,
+      "title": "Dungeons II:Bounty Hunter Helmet",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Bounty_Hunter_Helmet"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:bounty-hunter-shinguards",
+    "slug": "bounty-hunter-shinguards",
+    "game": "d2",
+    "category": "armor",
+    "name": "Bounty Hunter Shinguards",
+    "description": "Made from dark metal and bone, fit for the relentless bounty hunter.",
+    "rarity": "common",
+    "image": {
+      "alt": "Bounty Hunter Shinguards icon",
+      "height": 128,
+      "src": "/images/d2/armor/bounty-hunter-shinguards.webp",
+      "width": 128
+    },
+    "armorSet": "Bounty Hunter Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:dauntless-greaves"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:dauntless-greaves",
+      "d2:armor:bounty-hunter-boots",
+      "d2:armor:bounty-hunter-chestplate",
+      "d2:armor:bounty-hunter-helmet"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874955,
+      "title": "Dungeons II:Bounty Hunter Shinguards",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Bounty_Hunter_Shinguards"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:dauntless-greaves",
+    "slug": "dauntless-greaves",
+    "game": "d2",
+    "category": "armor",
+    "name": "Dauntless Greaves",
+    "description": "To stand on the frontline.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Dauntless Greaves icon",
+      "height": 128,
+      "src": "/images/d2/armor/dauntless-greaves.webp",
+      "width": 128
+    },
+    "armorSet": "Dauntless Armor",
+    "baseItemId": "d2:armor:bounty-hunter-shinguards",
+    "effectValues": [
+      {
+        "label": "Deal more damage to enemies who are at full health",
+        "unit": "%",
+        "value": 60
+      }
+    ],
+    "effects": [
+      "Deal 60% more damage to enemies who are at full health"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "damage-boost",
+      "healing"
+    ],
+    "related": [
+      "d2:armor:bounty-hunter-shinguards",
+      "d2:armor:dauntless-horns",
+      "d2:armor:dauntless-pauldrons",
+      "d2:armor:dauntless-sabatons"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3886707,
+      "title": "Dungeons II:Dauntless Greaves",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Dauntless_Greaves"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:dauntless-horns",
+    "slug": "dauntless-horns",
+    "game": "d2",
+    "category": "armor",
+    "name": "Dauntless Horns",
+    "description": "Ram into your enemies with this horned helmet to knock them down a peg.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Dauntless Horns icon",
+      "height": 128,
+      "src": "/images/d2/armor/dauntless-horns.webp",
+      "width": 128
+    },
+    "armorSet": "Dauntless Armor",
+    "baseItemId": "d2:armor:bounty-hunter-helmet",
+    "effectValues": [
+      {
+        "label": "Attacks do more knockback",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "effects": [
+      "Attacks do 40% more knockback"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "knockback"
+    ],
+    "related": [
+      "d2:armor:bounty-hunter-helmet",
+      "d2:armor:dauntless-pauldrons",
+      "d2:armor:dauntless-sabatons",
+      "d2:armor:dauntless-greaves"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3886705,
+      "title": "Dungeons II:Dauntless Horns",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Dauntless_Horns"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:dauntless-pauldrons",
+    "slug": "dauntless-pauldrons",
+    "game": "d2",
+    "category": "armor",
+    "name": "Dauntless Pauldrons",
+    "description": "For the dauntless warrior who isn't afraid to face a hail of arrows.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Dauntless Pauldrons icon",
+      "height": 128,
+      "src": "/images/d2/armor/dauntless-pauldrons.webp",
+      "width": 128
+    },
+    "armorSet": "Dauntless Armor",
+    "baseItemId": "d2:armor:bounty-hunter-chestplate",
+    "effectValues": [
+      {
+        "label": "Take less damage from ranged attacks",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "effects": [
+      "Take 25% less damage from ranged attacks"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "ranged-damage"
+    ],
+    "related": [
+      "d2:armor:bounty-hunter-chestplate",
+      "d2:armor:dauntless-sabatons",
+      "d2:armor:dauntless-greaves",
+      "d2:armor:dauntless-horns"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3886706,
+      "title": "Dungeons II:Dauntless Pauldrons",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Dauntless_Pauldrons"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:dauntless-sabatons",
+    "slug": "dauntless-sabatons",
+    "game": "d2",
+    "category": "armor",
+    "name": "Dauntless Sabatons",
+    "description": "For the dauntless warrior who has a lot of heart but needs a lot of souls.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Dauntless Sabatons icon",
+      "height": 128,
+      "src": "/images/d2/armor/dauntless-sabatons.webp",
+      "width": 128
+    },
+    "armorSet": "Dauntless Armor",
+    "baseItemId": "d2:armor:bounty-hunter-boots",
+    "effectValues": [
+      {
+        "label": "Increases Soul capacity",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "effects": [
+      "Increases Soul capacity by 50%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "souls"
+    ],
+    "related": [
+      "d2:armor:bounty-hunter-boots",
+      "d2:armor:dauntless-greaves",
+      "d2:armor:dauntless-horns",
+      "d2:armor:dauntless-pauldrons"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3886708,
+      "title": "Dungeons II:Dauntless Sabatons",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Dauntless_Sabatons"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:disciple-leggings",
+    "slug": "disciple-leggings",
+    "game": "d2",
+    "category": "armor",
+    "name": "Disciple Leggings",
+    "description": "A true warrior wears leggings. Even warriors need to be comfy.",
+    "rarity": "common",
+    "image": {
+      "alt": "Disciple Leggings icon",
+      "height": 128,
+      "src": "/images/d2/armor/disciple-leggings.webp",
+      "width": 128
+    },
+    "armorSet": "Disciple Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:sage-belt"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:sage-belt",
+      "d2:armor:disciple-mask",
+      "d2:armor:disciple-robe",
+      "d2:armor:disciple-wraps"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874958,
+      "title": "Dungeons II:Disciple Leggings",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Disciple_Leggings"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:disciple-mask",
+    "slug": "disciple-mask",
+    "game": "d2",
+    "category": "armor",
+    "name": "Disciple Mask",
+    "description": "A true warrior isn't scared to show their face but hides it so as not to scare the world.",
+    "rarity": "common",
+    "image": {
+      "alt": "Disciple Mask icon",
+      "height": 128,
+      "src": "/images/d2/armor/disciple-mask.webp",
+      "width": 128
+    },
+    "armorSet": "Disciple Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:sage-headband"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:sage-headband",
+      "d2:armor:disciple-robe",
+      "d2:armor:disciple-wraps",
+      "d2:armor:disciple-leggings"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874820,
+      "title": "Dungeons II:Disciple Mask",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Disciple_Mask"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:disciple-robe",
+    "slug": "disciple-robe",
+    "game": "d2",
+    "category": "armor",
+    "name": "Disciple Robe",
+    "description": "A true warrior must cover their heart, or its beating will wake the Wardens.",
+    "rarity": "common",
+    "image": {
+      "alt": "Disciple Robe icon",
+      "height": 128,
+      "src": "/images/d2/armor/disciple-robe.webp",
+      "width": 128
+    },
+    "armorSet": "Disciple Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:sage-tunic"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:sage-tunic",
+      "d2:armor:disciple-wraps",
+      "d2:armor:disciple-leggings",
+      "d2:armor:disciple-mask"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874890,
+      "title": "Dungeons II:Disciple Robe",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Disciple_Robe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:disciple-wraps",
+    "slug": "disciple-wraps",
+    "game": "d2",
+    "category": "armor",
+    "name": "Disciple Wraps",
+    "description": "A true warrior wears soundproof foot wraps to spare the ground from trembling.",
+    "rarity": "common",
+    "image": {
+      "alt": "Disciple Wraps icon",
+      "height": 128,
+      "src": "/images/d2/armor/disciple-wraps.webp",
+      "width": 128
+    },
+    "armorSet": "Disciple Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:sage-wraps"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:sage-wraps",
+      "d2:armor:disciple-leggings",
+      "d2:armor:disciple-mask",
+      "d2:armor:disciple-robe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875018,
+      "title": "Dungeons II:Disciple Wraps",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Disciple_Wraps"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:dreamruler-cover",
+    "slug": "dreamruler-cover",
+    "game": "d2",
+    "category": "armor",
+    "name": "Dreamruler Cover",
+    "description": "A chestplate as comfy as a bedcover, helping you focus on your targets.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Dreamruler Cover icon",
+      "height": 128,
+      "src": "/images/d2/armor/dreamruler-cover.webp",
+      "width": 128
+    },
+    "armorSet": "Dreamruler Armor",
+    "baseItemId": "d2:armor:phantom-chestplate",
+    "effectValues": [
+      {
+        "label": "Melee attacks deal more damage to primary targets",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "effects": [
+      "Melee attacks deal 40% more damage to primary targets"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "damage-boost",
+      "melee-damage"
+    ],
+    "related": [
+      "d2:armor:phantom-chestplate",
+      "d2:armor:dreamruler-crown",
+      "d2:armor:dreamruler-pyjamas",
+      "d2:armor:dreamruler-slippers"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874919,
+      "title": "Dungeons II:Dreamruler Cover",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Dreamruler_Cover"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:dreamruler-crown",
+    "slug": "dreamruler-crown",
+    "game": "d2",
+    "category": "armor",
+    "name": "Dreamruler Crown",
+    "description": "A crown as soft as a pillow for tranquil dreams of soul gathering.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Dreamruler Crown icon",
+      "height": 128,
+      "src": "/images/d2/armor/dreamruler-crown.webp",
+      "width": 128
+    },
+    "armorSet": "Dreamruler Armor",
+    "baseItemId": "d2:armor:phantom-helmet",
+    "effectValues": [
+      {
+        "label": "Increases souls gained",
+        "unit": "%",
+        "value": 60
+      }
+    ],
+    "effects": [
+      "Increases souls gained by 60%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "souls"
+    ],
+    "related": [
+      "d2:armor:phantom-helmet",
+      "d2:armor:dreamruler-pyjamas",
+      "d2:armor:dreamruler-slippers",
+      "d2:armor:dreamruler-cover"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874827,
+      "title": "Dungeons II:Dreamruler Crown",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Dreamruler_Crown"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:dreamruler-pyjamas",
+    "slug": "dreamruler-pyjamas",
+    "game": "d2",
+    "category": "armor",
+    "name": "Dreamruler Pyjamas",
+    "description": "A pair of pyjama pants as light as shadows, helping you sneak through your enemy's nightmares.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Dreamruler Pyjamas icon",
+      "height": 128,
+      "src": "/images/d2/armor/dreamruler-pyjamas.webp",
+      "width": 128
+    },
+    "armorSet": "Dreamruler Armor",
+    "baseItemId": "d2:armor:phantom-pants",
+    "effectValues": [
+      {
+        "label": "Increases movement speed while Shadowcloaking",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "effects": [
+      "Increases movement speed by 40% while Shadowcloaking"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "movement-speed",
+      "status-effects"
+    ],
+    "related": [
+      "d2:armor:phantom-pants",
+      "d2:armor:dreamruler-slippers",
+      "d2:armor:dreamruler-cover",
+      "d2:armor:dreamruler-crown"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874972,
+      "title": "Dungeons II:Dreamruler Pyjamas",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Dreamruler_Pyjamas"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:dreamruler-slippers",
+    "slug": "dreamruler-slippers",
+    "game": "d2",
+    "category": "armor",
+    "name": "Dreamruler Slippers",
+    "description": "A pair of slippers so cozy, you'll roll out of bed and jump into battle!",
+    "rarity": "unique",
+    "image": {
+      "alt": "Dreamruler Slippers icon",
+      "height": 128,
+      "src": "/images/d2/armor/dreamruler-slippers.webp",
+      "width": 128
+    },
+    "armorSet": "Dreamruler Armor",
+    "baseItemId": "d2:armor:phantom-boots",
+    "effectValues": [
+      {
+        "label": "Increases attack damage when jumping or rolling",
+        "unit": "%",
+        "value": 35
+      }
+    ],
+    "effects": [
+      "Increases attack damage by 35% when jumping or rolling"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "damage-boost",
+      "melee-damage",
+      "rolling"
+    ],
+    "related": [
+      "d2:armor:phantom-boots",
+      "d2:armor:dreamruler-cover",
+      "d2:armor:dreamruler-crown",
+      "d2:armor:dreamruler-pyjamas"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875030,
+      "title": "Dungeons II:Dreamruler Slippers",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Dreamruler_Slippers"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:fly-agaric-cap",
+    "slug": "fly-agaric-cap",
+    "game": "d2",
+    "category": "armor",
+    "name": "Fly Agaric Cap",
+    "description": "An enchanted mushroom cap for poisoned punches and toxic terror.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Fly Agaric Cap icon",
+      "height": 128,
+      "src": "/images/d2/armor/fly-agaric-cap.webp",
+      "width": 128
+    },
+    "armorSet": "Fly Agaric Armor",
+    "baseItemId": "d2:armor:mushroom-cap",
+    "effectValues": [
+      {
+        "label": "Poison attacks deal more damage",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "effects": [
+      "Poison attacks deal 20% more damage"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "damage-boost",
+      "poison"
+    ],
+    "related": [
+      "d2:armor:mushroom-cap",
+      "d2:armor:fly-agaric-coat",
+      "d2:armor:fly-agaric-galoshes",
+      "d2:armor:fly-agaric-trousers"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874822,
+      "title": "Dungeons II:Fly Agaric Cap",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Fly_Agaric_Cap"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:fly-agaric-coat",
+    "slug": "fly-agaric-coat",
+    "game": "d2",
+    "category": "armor",
+    "name": "Fly Agaric Coat",
+    "description": "A cute coat made of mycelium with natural healing properties.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Fly Agaric Coat icon",
+      "height": 128,
+      "src": "/images/d2/armor/fly-agaric-coat.webp",
+      "width": 128
+    },
+    "armorSet": "Fly Agaric Armor",
+    "baseItemId": "d2:armor:mushroom-robe",
+    "effectValues": [
+      {
+        "label": "Restores health per second after 5 seconds out of combat",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "label": "Restores health by 30% per second after out of combat",
+        "unit": "s",
+        "value": 5
+      }
+    ],
+    "effects": [
+      "Restores health by 30% per second after 5 seconds out of combat"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "healing"
+    ],
+    "related": [
+      "d2:armor:mushroom-robe",
+      "d2:armor:fly-agaric-galoshes",
+      "d2:armor:fly-agaric-trousers",
+      "d2:armor:fly-agaric-cap"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874895,
+      "title": "Dungeons II:Fly Agaric Coat",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Fly_Agaric_Coat"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:fly-agaric-galoshes",
+    "slug": "fly-agaric-galoshes",
+    "game": "d2",
+    "category": "armor",
+    "name": "Fly Agaric Galoshes",
+    "description": "Give your pet companions a nibble of these galoshes and it will grant them natural resistance.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Fly Agaric Galoshes icon",
+      "height": 128,
+      "src": "/images/d2/armor/fly-agaric-galoshes.webp",
+      "width": 128
+    },
+    "armorSet": "Fly Agaric Armor",
+    "baseItemId": "d2:armor:mushroom-boots",
+    "effectValues": [
+      {
+        "label": "Companions take less damage",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "effects": [
+      "Companions take 20% less damage"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "summoning"
+    ],
+    "related": [
+      "d2:armor:mushroom-boots",
+      "d2:armor:fly-agaric-trousers",
+      "d2:armor:fly-agaric-cap",
+      "d2:armor:fly-agaric-coat"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875023,
+      "title": "Dungeons II:Fly Agaric Galoshes",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Fly_Agaric_Galoshes"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:fly-agaric-trousers",
+    "slug": "fly-agaric-trousers",
+    "game": "d2",
+    "category": "armor",
+    "name": "Fly Agaric Trousers",
+    "description": "Don't eat the trousers! They are poisonous to humans but grant extra strength to your pets.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Fly Agaric Trousers icon",
+      "height": 128,
+      "src": "/images/d2/armor/fly-agaric-trousers.webp",
+      "width": 128
+    },
+    "armorSet": "Fly Agaric Armor",
+    "baseItemId": "d2:armor:mushroom-leggings",
+    "effectValues": [
+      {
+        "label": "Companions deal more damage",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "effects": [
+      "Companions deal 40% more damage"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "damage-boost",
+      "summoning"
+    ],
+    "related": [
+      "d2:armor:mushroom-leggings",
+      "d2:armor:fly-agaric-cap",
+      "d2:armor:fly-agaric-coat",
+      "d2:armor:fly-agaric-galoshes"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874963,
+      "title": "Dungeons II:Fly Agaric Trousers",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Fly_Agaric_Trousers"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:hivemind-hardhat",
+    "slug": "hivemind-hardhat",
+    "game": "d2",
+    "category": "armor",
+    "name": "Hivemind Hardhat",
+    "description": "A hardhat imbued with magical beeswax to make positive statuses stick like honey.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Hivemind Hardhat icon",
+      "height": 128,
+      "src": "/images/d2/armor/hivemind-hardhat.webp",
+      "width": 128
+    },
+    "armorSet": "Hivemind Armor",
+    "baseItemId": "d2:armor:beekeeper-veil",
+    "effectValues": [
+      {
+        "label": "Positive statuses the player applies to themselves and allies last longer",
+        "unit": "%",
+        "value": 70
+      }
+    ],
+    "effects": [
+      "Positive statuses the player applies to themselves and allies last 70% longer"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:quests:keeper-of-the-bees"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "status-effects"
+    ],
+    "related": [
+      "d2:armor:beekeeper-veil",
+      "d2:armor:hivemind-stingers",
+      "d2:armor:hivemind-thorax",
+      "d2:armor:hivemind-trousers"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874810,
+      "title": "Dungeons II:Hivemind Hardhat",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Hivemind_Hardhat"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:hivemind-stingers",
+    "slug": "hivemind-stingers",
+    "game": "d2",
+    "category": "armor",
+    "name": "Hivemind Stingers",
+    "description": "Boots greased with magical beeswax to make your artifacts run as smooth as honey.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Hivemind Stingers icon",
+      "height": 128,
+      "src": "/images/d2/armor/hivemind-stingers.webp",
+      "width": 128
+    },
+    "armorSet": "Hivemind Armor",
+    "baseItemId": "d2:armor:beekeeper-boots",
+    "effectValues": [
+      {
+        "label": "Reduces artifact cooldown time",
+        "unit": "%",
+        "value": -30
+      }
+    ],
+    "effects": [
+      "Reduces artifact cooldown time by 30%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "artifact",
+      "cooldown"
+    ],
+    "related": [
+      "d2:armor:beekeeper-boots",
+      "d2:armor:hivemind-thorax",
+      "d2:armor:hivemind-trousers",
+      "d2:armor:hivemind-hardhat"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875013,
+      "title": "Dungeons II:Hivemind Stingers",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Hivemind_Stingers"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:hivemind-thorax",
+    "slug": "hivemind-thorax",
+    "game": "d2",
+    "category": "armor",
+    "name": "Hivemind Thorax",
+    "description": "A chestplate forged with magical honey for healing your whole hive.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Hivemind Thorax icon",
+      "height": 128,
+      "src": "/images/d2/armor/hivemind-thorax.webp",
+      "width": 128
+    },
+    "armorSet": "Hivemind Armor",
+    "baseItemId": "d2:armor:beekeeper-suit",
+    "effectValues": [
+      {
+        "label": "Increases healing given to the player and allies",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "effects": [
+      "Increases healing given to the player and allies by 50%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "healing"
+    ],
+    "related": [
+      "d2:armor:beekeeper-suit",
+      "d2:armor:hivemind-trousers",
+      "d2:armor:hivemind-hardhat",
+      "d2:armor:hivemind-stingers"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874887,
+      "title": "Dungeons II:Hivemind Thorax",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Hivemind_Thorax"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:hivemind-trousers",
+    "slug": "hivemind-trousers",
+    "game": "d2",
+    "category": "armor",
+    "name": "Hivemind Trousers",
+    "description": "Trousers coated with magical honey for quicker recovery from diseases and blights.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Hivemind Trousers icon",
+      "height": 128,
+      "src": "/images/d2/armor/hivemind-trousers.webp",
+      "width": 128
+    },
+    "armorSet": "Hivemind Armor",
+    "baseItemId": "d2:armor:beekeeper-leggings",
+    "effectValues": [
+      {
+        "label": "Recover from negative statuses faster",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "effects": [
+      "Recover from negative statuses 50% faster."
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "healing",
+      "status-effects"
+    ],
+    "related": [
+      "d2:armor:beekeeper-leggings",
+      "d2:armor:hivemind-hardhat",
+      "d2:armor:hivemind-stingers",
+      "d2:armor:hivemind-thorax"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874954,
+      "title": "Dungeons II:Hivemind Trousers",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Hivemind_Trousers"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:humbler-antenna",
+    "slug": "humbler-antenna",
+    "game": "d2",
+    "category": "armor",
+    "name": "Humbler Antenna",
+    "description": "A helmet almost as impenetrable as the humbler husk it was made from.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Humbler Antenna icon",
+      "height": 128,
+      "src": "/images/d2/armor/humbler-antenna.webp",
+      "width": 128
+    },
+    "armorSet": "Humbler Armor",
+    "baseItemId": "d2:armor:protector-helmet",
+    "effectValues": [
+      {
+        "label": "Take less damage",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "effects": [
+      "Take 25% less damage"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "defense"
+    ],
+    "related": [
+      "d2:armor:protector-helmet",
+      "d2:armor:humbler-carapace",
+      "d2:armor:humbler-greaves",
+      "d2:armor:humbler-tarsi"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3890783,
+      "title": "Dungeons II:Humbler Antenna",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Humbler_Antenna"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:humbler-carapace",
+    "slug": "humbler-carapace",
+    "game": "d2",
+    "category": "armor",
+    "name": "Humbler Carapace",
+    "description": "A carapace chestplate imbued with the healing properties of humbler husk.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Humbler Carapace icon",
+      "height": 128,
+      "src": "/images/d2/armor/humbler-carapace.webp",
+      "width": 128
+    },
+    "armorSet": "Humbler Armor",
+    "baseItemId": "d2:armor:protector-chestplate",
+    "effectValues": [
+      {
+        "label": "Increases all healing received",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "effects": [
+      "Increases all healing received by 40%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "healing"
+    ],
+    "related": [
+      "d2:armor:protector-chestplate",
+      "d2:armor:humbler-greaves",
+      "d2:armor:humbler-tarsi",
+      "d2:armor:humbler-antenna"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3890720,
+      "title": "Dungeons II:Humbler Carapace",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Humbler_Carapace"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:humbler-greaves",
+    "slug": "humbler-greaves",
+    "game": "d2",
+    "category": "armor",
+    "name": "Humbler Greaves",
+    "description": "A pair of flexible humbler husk greaves that give extra reach to your attacks.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Humbler Greaves icon",
+      "height": 128,
+      "src": "/images/d2/armor/humbler-greaves.webp",
+      "width": 128
+    },
+    "armorSet": "Humbler Armor",
+    "baseItemId": "d2:armor:protector-shinguards",
+    "effectValues": [
+      {
+        "label": "Melee attacks deal more damage to secondary targets",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "effects": [
+      "Melee attacks deal 50% more damage to secondary targets"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "area",
+      "damage-boost",
+      "melee-damage"
+    ],
+    "related": [
+      "d2:armor:protector-shinguards",
+      "d2:armor:humbler-tarsi",
+      "d2:armor:humbler-antenna",
+      "d2:armor:humbler-carapace"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3890722,
+      "title": "Dungeons II:Humbler Greaves",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Humbler_Greaves"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:humbler-tarsi",
+    "slug": "humbler-tarsi",
+    "game": "d2",
+    "category": "armor",
+    "name": "Humbler Tarsi",
+    "description": "These boots are quick to dodge attacks, yet as hard as the humbler husk they were made from.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Humbler Tarsi icon",
+      "height": 128,
+      "src": "/images/d2/armor/humbler-tarsi.webp",
+      "width": 128
+    },
+    "armorSet": "Humbler Armor",
+    "baseItemId": "d2:armor:protector-boots",
+    "effectValues": [
+      {
+        "label": "Grants chance to evade melee damage",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "effects": [
+      "Grants an 20% chance to evade melee damage"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "melee-damage"
+    ],
+    "related": [
+      "d2:armor:protector-boots",
+      "d2:armor:humbler-antenna",
+      "d2:armor:humbler-carapace",
+      "d2:armor:humbler-greaves"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3890791,
+      "title": "Dungeons II:Humbler Tarsi",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Humbler_Tarsi"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:mad-sifter-mask",
+    "slug": "mad-sifter-mask",
+    "game": "d2",
+    "category": "armor",
+    "name": "Mad Sifter Mask",
+    "description": "A tainted mask fashioned like an enraged Sifter, designed to scare your enemies to their core.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Mad Sifter Mask icon",
+      "height": 128,
+      "src": "/images/d2/armor/mad-sifter-mask.webp",
+      "width": 128
+    },
+    "armorSet": "Mad Sifter Armor",
+    "baseItemId": "d2:armor:sifter-hood",
+    "effectValues": [
+      {
+        "label": "Increases duration of negative statuses on enemies",
+        "unit": "%",
+        "value": 100
+      }
+    ],
+    "effects": [
+      "Increases duration of negative statuses on enemies by 100%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:singers-meadow",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "status-effects"
+    ],
+    "related": [
+      "d2:armor:sifter-hood",
+      "d2:armor:mad-sifter-paws",
+      "d2:armor:mad-sifter-slacks",
+      "d2:armor:mad-sifter-vest"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874875,
+      "title": "Dungeons II:Mad Sifter Mask",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mad_Sifter_Mask"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:mad-sifter-paws",
+    "slug": "mad-sifter-paws",
+    "game": "d2",
+    "category": "armor",
+    "name": "Mad Sifter Paws",
+    "description": "A pair of boots fashioned like Sifter paws, just as quick to deflect ranged attacks.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Mad Sifter Paws icon",
+      "height": 128,
+      "src": "/images/d2/armor/mad-sifter-paws.webp",
+      "width": 128
+    },
+    "armorSet": "Mad Sifter Armor",
+    "baseItemId": "d2:armor:sifter-boots",
+    "effectValues": [
+      {
+        "label": "Grants chance to deflect enemy projectiles",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "effects": [
+      "Grants an 25% chance to deflect enemy projectiles"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:singers-meadow",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "defense"
+    ],
+    "related": [
+      "d2:armor:sifter-boots",
+      "d2:armor:mad-sifter-slacks",
+      "d2:armor:mad-sifter-vest",
+      "d2:armor:mad-sifter-mask"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875053,
+      "title": "Dungeons II:Mad Sifter Paws",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mad_Sifter_Paws"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:mad-sifter-slacks",
+    "slug": "mad-sifter-slacks",
+    "game": "d2",
+    "category": "armor",
+    "name": "Mad Sifter Slacks",
+    "description": "A pair of slacks fashioned like Sifter legs, imbued with boosting powers.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Mad Sifter Slacks icon",
+      "height": 128,
+      "src": "/images/d2/armor/mad-sifter-slacks.webp",
+      "width": 128
+    },
+    "armorSet": "Mad Sifter Armor",
+    "baseItemId": "d2:armor:sifter-leggings",
+    "effectValues": [
+      {
+        "label": "Increases the duration of positive statuses applied to the player",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "effects": [
+      "Increases the duration of positive statuses applied to the player by 20%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:singers-meadow",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "status-effects"
+    ],
+    "related": [
+      "d2:armor:sifter-leggings",
+      "d2:armor:mad-sifter-vest",
+      "d2:armor:mad-sifter-mask",
+      "d2:armor:mad-sifter-paws"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3874995,
+      "title": "Dungeons II:Mad Sifter Slacks",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mad_Sifter_Slacks"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:mad-sifter-vest",
+    "slug": "mad-sifter-vest",
+    "game": "d2",
+    "category": "armor",
+    "name": "Mad Sifter Vest",
+    "description": "An enchanted vest fashioned like an enraged Sifter that grants enraged power to all artifacts.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Mad Sifter Vest icon",
+      "height": 128,
+      "src": "/images/d2/armor/mad-sifter-vest.webp",
+      "width": 128
+    },
+    "armorSet": "Mad Sifter Armor",
+    "baseItemId": "d2:armor:sifter-robe",
+    "effectValues": [
+      {
+        "label": "Artifact attacks deal more damage",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "effects": [
+      "Artifact attacks deal 25% more damage"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:singers-meadow",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "artifact",
+      "damage-boost"
+    ],
+    "related": [
+      "d2:armor:sifter-robe",
+      "d2:armor:mad-sifter-mask",
+      "d2:armor:mad-sifter-paws",
+      "d2:armor:mad-sifter-slacks"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874938,
+      "title": "Dungeons II:Mad Sifter Vest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mad_Sifter_Vest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:monarch-crown",
+    "slug": "monarch-crown",
+    "game": "d2",
+    "category": "armor",
+    "name": "Monarch Crown",
+    "description": "A worthy crown of ichor crust that will have your enemies throw gifts at your feet.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Monarch Crown icon",
+      "height": 128,
+      "src": "/images/d2/armor/monarch-crown.webp",
+      "width": 128
+    },
+    "armorSet": "Monarch Armor",
+    "baseItemId": "d2:armor:sculker-mask",
+    "effectValues": [
+      {
+        "label": "Grants chance to get additional loot drops",
+        "unit": "%",
+        "value": 80
+      }
+    ],
+    "effects": [
+      "Grants an 80% chance to get additional loot drops"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "loot"
+    ],
+    "related": [
+      "d2:armor:sculker-mask",
+      "d2:armor:monarch-mantle",
+      "d2:armor:monarch-sash",
+      "d2:armor:monarch-talons"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874866,
+      "title": "Dungeons II:Monarch Crown",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Monarch_Crown"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:monarch-mantle",
+    "slug": "monarch-mantle",
+    "game": "d2",
+    "category": "armor",
+    "name": "Monarch Mantle",
+    "description": "A majestic mantle worthy of a Monarch with extra resilience against the elements.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Monarch Mantle icon",
+      "height": 128,
+      "src": "/images/d2/armor/monarch-mantle.webp",
+      "width": 128
+    },
+    "armorSet": "Monarch Armor",
+    "baseItemId": "d2:armor:sculker-robe",
+    "effectValues": [
+      {
+        "label": "Recover from negative statuses faster",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "effects": [
+      "Recover from negative statuses 50% faster"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "healing",
+      "status-effects"
+    ],
+    "related": [
+      "d2:armor:sculker-robe",
+      "d2:armor:monarch-sash",
+      "d2:armor:monarch-talons",
+      "d2:armor:monarch-crown"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874934,
+      "title": "Dungeons II:Monarch Mantle",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Monarch_Mantle"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:monarch-sash",
+    "slug": "monarch-sash",
+    "game": "d2",
+    "category": "armor",
+    "name": "Monarch Sash",
+    "description": "A noble sash made from Monarch plumes, with extra space for hoarding souls.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Monarch Sash icon",
+      "height": 128,
+      "src": "/images/d2/armor/monarch-sash.webp",
+      "width": 128
+    },
+    "armorSet": "Monarch Armor",
+    "baseItemId": "d2:armor:sculker-slacks",
+    "effectValues": [
+      {
+        "label": "Increases Soul capacity",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "effects": [
+      "Increases Soul capacity by 50%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "souls"
+    ],
+    "related": [
+      "d2:armor:sculker-slacks",
+      "d2:armor:monarch-talons",
+      "d2:armor:monarch-crown",
+      "d2:armor:monarch-mantle"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3874991,
+      "title": "Dungeons II:Monarch Sash",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Monarch_Sash"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:monarch-talons",
+    "slug": "monarch-talons",
+    "game": "d2",
+    "category": "armor",
+    "name": "Monarch Talons",
+    "description": "A pair of regal boots with sharp talons. Be the top of the ecosystem in every dimension.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Monarch Talons icon",
+      "height": 128,
+      "src": "/images/d2/armor/monarch-talons.webp",
+      "width": 128
+    },
+    "armorSet": "Monarch Armor",
+    "baseItemId": "d2:armor:sculker-boots",
+    "effectValues": [
+      {
+        "label": "Deal more damage to enemies affected by a negative status",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "effects": [
+      "Deal 50% more damage to enemies affected by a negative status"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "damage-boost",
+      "status-effects"
+    ],
+    "related": [
+      "d2:armor:sculker-boots",
+      "d2:armor:monarch-crown",
+      "d2:armor:monarch-mantle",
+      "d2:armor:monarch-sash"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875049,
+      "title": "Dungeons II:Monarch Talons",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Monarch_Talons"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:monstrosity-armor-chestplate",
+    "slug": "monstrosity-armor-chestplate",
+    "game": "d2",
+    "category": "armor",
+    "name": "Monstrosity Armor (Chestplate)",
+    "description": "A monstrous chestplate that links your heart to your artifacts via ingenious redstone circuits.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Monstrosity Armor (Chestplate) icon",
+      "height": 128,
+      "src": "/images/d2/armor/monstrosity-armor-chestplate.webp",
+      "width": 128
+    },
+    "armorSet": "Monstrosity Armor",
+    "baseItemId": "d2:armor:redstone-chestplate",
+    "effectValues": [
+      {
+        "label": "Restores health per second after 5 seconds out of combat",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "label": "Restores health by 30% per second after out of combat",
+        "unit": "s",
+        "value": 5
+      }
+    ],
+    "effects": [
+      "Restores health by 30% per second after 5 seconds out of combat"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "healing"
+    ],
+    "related": [
+      "d2:armor:redstone-chestplate",
+      "d2:armor:monstrosity-greaves",
+      "d2:armor:monstrosity-horns",
+      "d2:armor:monstrosity-stompers"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3890787,
+      "title": "Dungeons II:Monstrosity Armor (Chestplate)",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Monstrosity_Armor_(Chestplate)"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:monstrosity-greaves",
+    "slug": "monstrosity-greaves",
+    "game": "d2",
+    "category": "armor",
+    "name": "Monstrosity Greaves",
+    "description": "A pair of monstrous greaves that protect your knees from the elements.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Monstrosity Greaves icon",
+      "height": 128,
+      "src": "/images/d2/armor/monstrosity-greaves.webp",
+      "width": 128
+    },
+    "armorSet": "Monstrosity Armor",
+    "baseItemId": "d2:armor:redstone-shinguards",
+    "effectValues": [
+      {
+        "label": "Reduces damage taken from elemental attacks",
+        "unit": "%",
+        "value": -25
+      }
+    ],
+    "effects": [
+      "Reduces damage taken from elemental attacks by 25%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "defense"
+    ],
+    "related": [
+      "d2:armor:redstone-shinguards",
+      "d2:armor:monstrosity-horns",
+      "d2:armor:monstrosity-stompers",
+      "d2:armor:monstrosity-armor-chestplate"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3890698,
+      "title": "Dungeons II:Monstrosity Greaves",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Monstrosity_Greaves"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:monstrosity-horns",
+    "slug": "monstrosity-horns",
+    "game": "d2",
+    "category": "armor",
+    "name": "Monstrosity Horns",
+    "description": "A monstrous mask for the hardheaded warrior with a fiery temper.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Monstrosity Horns icon",
+      "height": 128,
+      "src": "/images/d2/armor/monstrosity-horns.webp",
+      "width": 128
+    },
+    "armorSet": "Monstrosity Armor",
+    "baseItemId": "d2:armor:redstone-helmet",
+    "effectValues": [
+      {
+        "label": "Fire attacks deal more damage",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "effects": [
+      "Fire attacks deal 20% more damage"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "burn",
+      "damage-boost"
+    ],
+    "related": [
+      "d2:armor:redstone-helmet",
+      "d2:armor:monstrosity-stompers",
+      "d2:armor:monstrosity-armor-chestplate",
+      "d2:armor:monstrosity-greaves"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3890694,
+      "title": "Dungeons II:Monstrosity Horns",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Monstrosity_Horns"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:monstrosity-stompers",
+    "slug": "monstrosity-stompers",
+    "game": "d2",
+    "category": "armor",
+    "name": "Monstrosity Stompers",
+    "description": "A pair of monstrous boots for when you need to kick up some redstone dust",
+    "rarity": "unique",
+    "image": {
+      "alt": "Monstrosity Stompers icon",
+      "height": 128,
+      "src": "/images/d2/armor/monstrosity-stompers.webp",
+      "width": 128
+    },
+    "armorSet": "Monstrosity Armor",
+    "baseItemId": "d2:armor:redstone-boots",
+    "effectValues": [
+      {
+        "label": "Critical hits with melee weapons deal more damage",
+        "unit": "%",
+        "value": 45
+      }
+    ],
+    "effects": [
+      "Critical hits with melee weapons deal 45% more damage"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "crit",
+      "damage-boost",
+      "melee-damage"
+    ],
+    "related": [
+      "d2:armor:redstone-boots",
+      "d2:armor:monstrosity-armor-chestplate",
+      "d2:armor:monstrosity-greaves",
+      "d2:armor:monstrosity-horns"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3890784,
+      "title": "Dungeons II:Monstrosity Stompers",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Monstrosity_Stompers"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:mushroom-boots",
+    "slug": "mushroom-boots",
+    "game": "d2",
+    "category": "armor",
+    "name": "Mushroom Boots",
+    "description": "Eating the boots is not advised. Side effects may include suspicious behaviour and cold feet.",
+    "rarity": "common",
+    "image": {
+      "alt": "Mushroom Boots icon",
+      "height": 128,
+      "src": "/images/d2/armor/mushroom-boots.webp",
+      "width": 128
+    },
+    "armorSet": "Mushroom Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:fly-agaric-galoshes"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:fly-agaric-galoshes",
+      "d2:armor:mushroom-cap",
+      "d2:armor:mushroom-leggings",
+      "d2:armor:mushroom-robe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3886442,
+      "title": "Dungeons II:Mushroom Boots",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mushroom_Boots"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:mushroom-cap",
+    "slug": "mushroom-cap",
+    "game": "d2",
+    "category": "armor",
+    "name": "Mushroom Cap",
+    "description": "Eating the boots is not advised. Side effects may include suspicious behaviour and cold ears.",
+    "rarity": "common",
+    "image": {
+      "alt": "Mushroom Cap icon",
+      "height": 128,
+      "src": "/images/d2/armor/mushroom-cap.webp",
+      "width": 128
+    },
+    "armorSet": "Mushroom Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:fly-agaric-cap"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:fly-agaric-cap",
+      "d2:armor:mushroom-leggings",
+      "d2:armor:mushroom-robe",
+      "d2:armor:mushroom-boots"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874821,
+      "title": "Dungeons II:Mushroom Cap",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mushroom_Cap"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:mushroom-leggings",
+    "slug": "mushroom-leggings",
+    "game": "d2",
+    "category": "armor",
+    "name": "Mushroom Leggings",
+    "description": "Eating the leggings is not advised. Side effects may include suspicious behavior and cold thighs.",
+    "rarity": "common",
+    "image": {
+      "alt": "Mushroom Leggings icon",
+      "height": 128,
+      "src": "/images/d2/armor/mushroom-leggings.webp",
+      "width": 128
+    },
+    "armorSet": "Mushroom Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:fly-agaric-trousers"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:fly-agaric-trousers",
+      "d2:armor:mushroom-robe",
+      "d2:armor:mushroom-boots",
+      "d2:armor:mushroom-cap"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3886448,
+      "title": "Dungeons II:Mushroom Leggings",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mushroom_Leggings"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:mushroom-robe",
+    "slug": "mushroom-robe",
+    "game": "d2",
+    "category": "armor",
+    "name": "Mushroom Robe",
+    "description": "Eating the robe is not advised. Side effects may include suspicious behavior and cold shoulders.",
+    "rarity": "common",
+    "image": {
+      "alt": "Mushroom Robe icon",
+      "height": 128,
+      "src": "/images/d2/armor/mushroom-robe.webp",
+      "width": 128
+    },
+    "armorSet": "Mushroom Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:fly-agaric-coat"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:fly-agaric-coat",
+      "d2:armor:mushroom-boots",
+      "d2:armor:mushroom-cap",
+      "d2:armor:mushroom-leggings"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3886446,
+      "title": "Dungeons II:Mushroom Robe",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mushroom_Robe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:mystic-boots",
+    "slug": "mystic-boots",
+    "game": "d2",
+    "category": "armor",
+    "name": "Mystic Boots",
+    "description": "An Evoker's boots repurposed for kicking Illager butt with an iron toe to boot.",
+    "rarity": "common",
+    "image": {
+      "alt": "Mystic Boots icon",
+      "height": 128,
+      "src": "/images/d2/armor/mystic-boots.webp",
+      "width": 128
+    },
+    "armorSet": "Mystic Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:oracle-sandals"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:oracle-sandals",
+      "d2:armor:mystic-circlet",
+      "d2:armor:mystic-leggings",
+      "d2:armor:mystic-robe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3890725,
+      "title": "Dungeons II:Mystic Boots",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mystic_Boots"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:mystic-circlet",
+    "slug": "mystic-circlet",
+    "game": "d2",
+    "category": "armor",
+    "name": "Mystic Circlet",
+    "description": "A Magician's circlet with an obsidian stone scavenged from a broken portal.",
+    "rarity": "common",
+    "image": {
+      "alt": "Mystic Circlet icon",
+      "height": 128,
+      "src": "/images/d2/armor/mystic-circlet.webp",
+      "width": 128
+    },
+    "armorSet": "Mystic Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:oracle-crown"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:oracle-crown",
+      "d2:armor:mystic-leggings",
+      "d2:armor:mystic-robe",
+      "d2:armor:mystic-boots"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3890560,
+      "title": "Dungeons II:Mystic Circlet",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mystic_Circlet"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:mystic-leggings",
+    "slug": "mystic-leggings",
+    "game": "d2",
+    "category": "armor",
+    "name": "Mystic Leggings",
+    "description": "An Evoker's leggings repurposed for a hero. Let's hope somebody washed them first!",
+    "rarity": "common",
+    "image": {
+      "alt": "Mystic Leggings icon",
+      "height": 128,
+      "src": "/images/d2/armor/mystic-leggings.webp",
+      "width": 128
+    },
+    "armorSet": "Mystic Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:oracle-tights"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:oracle-tights",
+      "d2:armor:mystic-robe",
+      "d2:armor:mystic-boots",
+      "d2:armor:mystic-circlet"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3890559,
+      "title": "Dungeons II:Mystic Leggings",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mystic_Leggings"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:mystic-robe",
+    "slug": "mystic-robe",
+    "game": "d2",
+    "category": "armor",
+    "name": "Mystic Robe",
+    "description": "An Evoker's robe retailored to suit a far more handsome wearer.",
+    "rarity": "common",
+    "image": {
+      "alt": "Mystic Robe icon",
+      "height": 128,
+      "src": "/images/d2/armor/mystic-robe.webp",
+      "width": 128
+    },
+    "armorSet": "Mystic Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:oracle-mantle"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:oracle-mantle",
+      "d2:armor:mystic-boots",
+      "d2:armor:mystic-circlet",
+      "d2:armor:mystic-leggings"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3890561,
+      "title": "Dungeons II:Mystic Robe",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mystic_Robe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:nomad-boots",
+    "slug": "nomad-boots",
+    "game": "d2",
+    "category": "armor",
+    "name": "Nomad Boots",
+    "description": "A pair of reliable boots for traversing the Overworld in search of adventure.",
+    "rarity": "common",
+    "image": {
+      "alt": "Nomad Boots icon",
+      "height": 256,
+      "src": "/images/d2/armor/nomad-boots.webp",
+      "width": 256
+    },
+    "armorSet": "Nomad Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:rover-sabatons"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:rover-sabatons",
+      "d2:armor:nomad-chestplate",
+      "d2:armor:nomad-hood",
+      "d2:armor:nomad-leggings"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875026,
+      "title": "Dungeons II:Nomad Boots",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Nomad_Boots"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:nomad-chestplate",
+    "slug": "nomad-chestplate",
+    "game": "d2",
+    "category": "armor",
+    "name": "Nomad Chestplate",
+    "description": "A sturdy chestplate for roaming the Overworld in search of justice.",
+    "rarity": "common",
+    "image": {
+      "alt": "Nomad Chestplate icon",
+      "height": 256,
+      "src": "/images/d2/armor/nomad-chestplate.webp",
+      "width": 256
+    },
+    "armorSet": "Nomad Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:rover-pauldrons"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:rover-pauldrons",
+      "d2:armor:nomad-hood",
+      "d2:armor:nomad-leggings",
+      "d2:armor:nomad-boots"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874908,
+      "title": "Dungeons II:Nomad Chestplate",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Nomad_Chestplate"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:nomad-hood",
+    "slug": "nomad-hood",
+    "game": "d2",
+    "category": "armor",
+    "name": "Nomad Hood",
+    "description": "A rainproof hood for wandering the Overworld in search of danger.",
+    "rarity": "common",
+    "image": {
+      "alt": "Nomad Hood icon",
+      "height": 256,
+      "src": "/images/d2/armor/nomad-hood.webp",
+      "width": 256
+    },
+    "armorSet": "Nomad Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:rover-visor"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:rover-visor",
+      "d2:armor:nomad-leggings",
+      "d2:armor:nomad-boots",
+      "d2:armor:nomad-chestplate"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874851,
+      "title": "Dungeons II:Nomad Hood",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Nomad_Hood"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:nomad-leggings",
+    "slug": "nomad-leggings",
+    "game": "d2",
+    "category": "armor",
+    "name": "Nomad Leggings",
+    "description": "A pair of durable leggings for trekking the Overworld in search of purpose.",
+    "rarity": "common",
+    "image": {
+      "alt": "Nomad Leggings icon",
+      "height": 256,
+      "src": "/images/d2/armor/nomad-leggings.webp",
+      "width": 256
+    },
+    "armorSet": "Nomad Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:rover-gaiters"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:rover-gaiters",
+      "d2:armor:nomad-boots",
+      "d2:armor:nomad-chestplate",
+      "d2:armor:nomad-hood"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874968,
+      "title": "Dungeons II:Nomad Leggings",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Nomad_Leggings"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:oracle-crown",
+    "slug": "oracle-crown",
+    "game": "d2",
+    "category": "armor",
+    "name": "Oracle Crown",
+    "description": "A striking crown forged in a thunderstorm for a fighter with bright ideas.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Oracle Crown icon",
+      "height": 128,
+      "src": "/images/d2/armor/oracle-crown.webp",
+      "width": 128
+    },
+    "armorSet": "Oracle Armor",
+    "baseItemId": "d2:armor:mystic-circlet",
+    "effectValues": [
+      {
+        "label": "Lightning attacks deal more damage",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "effects": [
+      "Lightning attacks deal 25% more damage"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "damage-boost",
+      "lightning"
+    ],
+    "related": [
+      "d2:armor:mystic-circlet",
+      "d2:armor:oracle-mantle",
+      "d2:armor:oracle-sandals",
+      "d2:armor:oracle-tights"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874826,
+      "title": "Dungeons II:Oracle Crown",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Oracle_Crown"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:oracle-mantle",
+    "slug": "oracle-mantle",
+    "game": "d2",
+    "category": "armor",
+    "name": "Oracle Mantle",
+    "description": "A tainted mantle that leaves your enemies worse for wear but looks great on you.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Oracle Mantle icon",
+      "height": 128,
+      "src": "/images/d2/armor/oracle-mantle.webp",
+      "width": 128
+    },
+    "armorSet": "Oracle Armor",
+    "baseItemId": "d2:armor:mystic-robe",
+    "effectValues": [
+      {
+        "label": "Increases duration of negative statuses on enemies",
+        "unit": "%",
+        "value": 100
+      }
+    ],
+    "effects": [
+      "Increases duration of negative statuses on enemies by 100%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "status-effects"
+    ],
+    "related": [
+      "d2:armor:mystic-robe",
+      "d2:armor:oracle-sandals",
+      "d2:armor:oracle-tights",
+      "d2:armor:oracle-crown"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3877433,
+      "title": "Dungeons II:Oracle Mantle",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Oracle_Mantle"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:oracle-sandals",
+    "slug": "oracle-sandals",
+    "game": "d2",
+    "category": "armor",
+    "name": "Oracle Sandals",
+    "description": "A pair of enchanted sandals that guide your feet to the best rewards.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Oracle Sandals icon",
+      "height": 128,
+      "src": "/images/d2/armor/oracle-sandals.webp",
+      "width": 128
+    },
+    "armorSet": "Oracle Armor",
+    "baseItemId": "d2:armor:mystic-boots",
+    "effectValues": [
+      {
+        "label": "Grants chance of higher rarity loot drops",
+        "unit": "%",
+        "value": 5
+      }
+    ],
+    "effects": [
+      "Grants an 5% chance of higher rarity loot drops"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "loot"
+    ],
+    "related": [
+      "d2:armor:mystic-boots",
+      "d2:armor:oracle-tights",
+      "d2:armor:oracle-crown",
+      "d2:armor:oracle-mantle"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3884582,
+      "title": "Dungeons II:Oracle Sandals",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Oracle_Sandals"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:oracle-tights",
+    "slug": "oracle-tights",
+    "game": "d2",
+    "category": "armor",
+    "name": "Oracle Tights",
+    "description": "A pair of flexible tights for fast access to artifacts.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Oracle Tights icon",
+      "height": 128,
+      "src": "/images/d2/armor/oracle-tights.webp",
+      "width": 128
+    },
+    "armorSet": "Oracle Armor",
+    "baseItemId": "d2:armor:mystic-leggings",
+    "effectValues": [
+      {
+        "label": "Reduces artifact cooldown time",
+        "unit": "%",
+        "value": -30
+      }
+    ],
+    "effects": [
+      "Reduces artifact cooldown time by 30%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "artifact",
+      "cooldown"
+    ],
+    "related": [
+      "d2:armor:mystic-leggings",
+      "d2:armor:oracle-crown",
+      "d2:armor:oracle-mantle",
+      "d2:armor:oracle-sandals"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874966,
+      "title": "Dungeons II:Oracle Tights",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Oracle_Tights"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:packleader-fur-chaps",
+    "slug": "packleader-fur-chaps",
+    "game": "d2",
+    "category": "armor",
+    "name": "Packleader Fur Chaps",
+    "description": "A pair of leggings of magically imprinted fur that guide your pack back to your side.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Packleader Fur Chaps icon",
+      "height": 128,
+      "src": "/images/d2/armor/packleader-fur-chaps.webp",
+      "width": 128
+    },
+    "armorSet": "Packleader Armor",
+    "baseItemId": "d2:armor:wolfpack-leggings",
+    "effectValues": [
+      {
+        "label": "Defeated companions come back faster",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "effects": [
+      "Defeated companions come back 20% faster"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "summoning"
+    ],
+    "related": [
+      "d2:armor:wolfpack-leggings",
+      "d2:armor:packleader-hide",
+      "d2:armor:packleader-muzzle",
+      "d2:armor:packleader-paws"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875008,
+      "title": "Dungeons II:Packleader Fur Chaps",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Packleader_Fur_Chaps"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:packleader-hide",
+    "slug": "packleader-hide",
+    "game": "d2",
+    "category": "armor",
+    "name": "Packleader Hide",
+    "description": "Lead with your heart and show your pack who they are fighting for.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Packleader Hide icon",
+      "height": 128,
+      "src": "/images/d2/armor/packleader-hide.webp",
+      "width": 128
+    },
+    "armorSet": "Packleader Armor",
+    "baseItemId": "d2:armor:wolfpack-jacket",
+    "effectValues": [
+      {
+        "label": "Companions deal more damage",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "effects": [
+      "Companions deal 40% more damage"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "damage-boost",
+      "summoning"
+    ],
+    "related": [
+      "d2:armor:wolfpack-jacket",
+      "d2:armor:packleader-muzzle",
+      "d2:armor:packleader-paws",
+      "d2:armor:packleader-fur-chaps"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874948,
+      "title": "Dungeons II:Packleader Hide",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Packleader_Hide"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:packleader-muzzle",
+    "slug": "packleader-muzzle",
+    "game": "d2",
+    "category": "armor",
+    "name": "Packleader Muzzle",
+    "description": "See through the eyes of a wolf and spot enemies at far distances.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Packleader Muzzle icon",
+      "height": 128,
+      "src": "/images/d2/armor/packleader-muzzle.webp",
+      "width": 128
+    },
+    "armorSet": "Packleader Armor",
+    "baseItemId": "d2:armor:wolfpack-hood",
+    "effectValues": [
+      {
+        "label": "Ranged attacks deal more damage from far away",
+        "unit": "%",
+        "value": 100
+      }
+    ],
+    "effects": [
+      "Ranged attacks deal 100% more damage from far away"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "damage-boost",
+      "ranged-damage"
+    ],
+    "related": [
+      "d2:armor:wolfpack-hood",
+      "d2:armor:packleader-paws",
+      "d2:armor:packleader-fur-chaps",
+      "d2:armor:packleader-hide"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874882,
+      "title": "Dungeons II:Packleader Muzzle",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Packleader_Muzzle"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:packleader-paws",
+    "slug": "packleader-paws",
+    "game": "d2",
+    "category": "armor",
+    "name": "Packleader Paws",
+    "description": "A pair of wolf fur boots with razor-sharp claws, perfect for fletching extra arrows.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Packleader Paws icon",
+      "height": 128,
+      "src": "/images/d2/armor/packleader-paws.webp",
+      "width": 128
+    },
+    "armorSet": "Packleader Armor",
+    "baseItemId": "d2:armor:wolfpack-boots",
+    "effectValues": [
+      {
+        "label": "Grants chance to gain an additional arrow when ammo is regained",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "effects": [
+      "Grants an 50% chance to gain an additional arrow when ammo is regained."
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "ammo"
+    ],
+    "related": [
+      "d2:armor:wolfpack-boots",
+      "d2:armor:packleader-fur-chaps",
+      "d2:armor:packleader-hide",
+      "d2:armor:packleader-muzzle"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:59.058Z",
+      "revisionId": 3875063,
+      "title": "Dungeons II:Packleader Paws",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Packleader_Paws"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:phantom-boots",
+    "slug": "phantom-boots",
+    "game": "d2",
+    "category": "armor",
+    "name": "Phantom Boots",
+    "description": "Leather boots crafted during a sleepless night long ago.",
+    "rarity": "common",
+    "image": {
+      "alt": "Phantom Boots icon",
+      "height": 128,
+      "src": "/images/d2/armor/phantom-boots.webp",
+      "width": 128
+    },
+    "armorSet": "Phantom Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:dreamruler-slippers"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:dreamruler-slippers",
+      "d2:armor:phantom-chestplate",
+      "d2:armor:phantom-helmet",
+      "d2:armor:phantom-pants"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875028,
+      "title": "Dungeons II:Phantom Boots",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Phantom_Boots"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:phantom-chestplate",
+    "slug": "phantom-chestplate",
+    "game": "d2",
+    "category": "armor",
+    "name": "Phantom Chestplate",
+    "description": "Reinforced chestplate forged during a sleepless night long ago.",
+    "rarity": "common",
+    "image": {
+      "alt": "Phantom Chestplate icon",
+      "height": 128,
+      "src": "/images/d2/armor/phantom-chestplate.webp",
+      "width": 128
+    },
+    "armorSet": "Phantom Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:dreamruler-cover"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:dreamruler-cover",
+      "d2:armor:phantom-helmet",
+      "d2:armor:phantom-pants",
+      "d2:armor:phantom-boots"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874918,
+      "title": "Dungeons II:Phantom Chestplate",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Phantom_Chestplate"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:phantom-helmet",
+    "slug": "phantom-helmet",
+    "game": "d2",
+    "category": "armor",
+    "name": "Phantom Helmet",
+    "description": "Sturdy helmet forged into the sleepless night long ago.",
+    "rarity": "common",
+    "image": {
+      "alt": "Phantom Helmet icon",
+      "height": 128,
+      "src": "/images/d2/armor/phantom-helmet.webp",
+      "width": 128
+    },
+    "armorSet": "Phantom Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:dreamruler-crown"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:dreamruler-crown",
+      "d2:armor:phantom-pants",
+      "d2:armor:phantom-boots",
+      "d2:armor:phantom-chestplate"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874848,
+      "title": "Dungeons II:Phantom Helmet",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Phantom_Helmet"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:phantom-pants",
+    "slug": "phantom-pants",
+    "game": "d2",
+    "category": "armor",
+    "name": "Phantom Pants",
+    "description": "Durable pants threaded during a sleepless night long ago.",
+    "rarity": "common",
+    "image": {
+      "alt": "Phantom Pants icon",
+      "height": 128,
+      "src": "/images/d2/armor/phantom-pants.webp",
+      "width": 128
+    },
+    "armorSet": "Phantom Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:dreamruler-pyjamas"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:dreamruler-pyjamas",
+      "d2:armor:phantom-boots",
+      "d2:armor:phantom-chestplate",
+      "d2:armor:phantom-helmet"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874970,
+      "title": "Dungeons II:Phantom Pants",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Phantom_Pants"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:protector-boots",
+    "slug": "protector-boots",
+    "game": "d2",
+    "category": "armor",
+    "name": "Protector Boots",
+    "description": "Passed down for generations to serve a chosen protector. Big shoes to fill!",
+    "rarity": "common",
+    "image": {
+      "alt": "Protector Boots icon",
+      "height": 128,
+      "src": "/images/d2/armor/protector-boots.webp",
+      "width": 128
+    },
+    "armorSet": "Protector Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:humbler-tarsi"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:humbler-tarsi",
+      "d2:armor:protector-chestplate",
+      "d2:armor:protector-helmet",
+      "d2:armor:protector-shinguards"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875031,
+      "title": "Dungeons II:Protector Boots",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Protector_Boots"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:protector-chestplate",
+    "slug": "protector-chestplate",
+    "game": "d2",
+    "category": "armor",
+    "name": "Protector Chestplate",
+    "description": "Passed down for generations to serve a chosen protector. A heavy burden!",
+    "rarity": "common",
+    "image": {
+      "alt": "Protector Chestplate icon",
+      "height": 128,
+      "src": "/images/d2/armor/protector-chestplate.webp",
+      "width": 128
+    },
+    "armorSet": "Protector Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:humbler-carapace"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:humbler-carapace",
+      "d2:armor:protector-helmet",
+      "d2:armor:protector-shinguards",
+      "d2:armor:protector-boots"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874920,
+      "title": "Dungeons II:Protector Chestplate",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Protector_Chestplate"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:protector-helmet",
+    "slug": "protector-helmet",
+    "game": "d2",
+    "category": "armor",
+    "name": "Protector Helmet",
+    "description": "Passed down for generations to serve a chosen protector. Don't let it get to your head.",
+    "rarity": "common",
+    "image": {
+      "alt": "Protector Helmet icon",
+      "height": 128,
+      "src": "/images/d2/armor/protector-helmet.webp",
+      "width": 128
+    },
+    "armorSet": "Protector Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:humbler-antenna"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:humbler-antenna",
+      "d2:armor:protector-shinguards",
+      "d2:armor:protector-boots",
+      "d2:armor:protector-chestplate"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874849,
+      "title": "Dungeons II:Protector Helmet",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Protector_Helmet"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:protector-shinguards",
+    "slug": "protector-shinguards",
+    "game": "d2",
+    "category": "armor",
+    "name": "Protector Shinguards",
+    "description": "Your legs won't turn to jelly wearing these.",
+    "rarity": "common",
+    "image": {
+      "alt": "Protector Shinguards icon",
+      "height": 128,
+      "src": "/images/d2/armor/protector-shinguards.webp",
+      "width": 128
+    },
+    "armorSet": "Protector Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:humbler-greaves"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:humbler-greaves",
+      "d2:armor:protector-boots",
+      "d2:armor:protector-chestplate",
+      "d2:armor:protector-helmet"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874974,
+      "title": "Dungeons II:Protector Shinguards",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Protector_Shinguards"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:ranger-boots",
+    "slug": "ranger-boots",
+    "game": "d2",
+    "category": "armor",
+    "name": "Ranger Boots",
+    "description": "For tracking down wild prey or unsuspecting enemies.",
+    "rarity": "common",
+    "image": {
+      "alt": "Ranger Boots icon",
+      "height": 128,
+      "src": "/images/d2/armor/ranger-boots.webp",
+      "width": 128
+    },
+    "armorSet": "Ranger Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:rainy-plains"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:sharpshooter-spurs"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:sharpshooter-spurs",
+      "d2:armor:ranger-cap",
+      "d2:armor:ranger-jacket",
+      "d2:armor:ranger-leggings"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875035,
+      "title": "Dungeons II:Ranger Boots",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Ranger_Boots"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:ranger-cap",
+    "slug": "ranger-cap",
+    "game": "d2",
+    "category": "armor",
+    "name": "Ranger Cap",
+    "description": "Aim is the name of the game. That chicken jockey double shot is the feather in your cap.",
+    "rarity": "common",
+    "image": {
+      "alt": "Ranger Cap icon",
+      "height": 128,
+      "src": "/images/d2/armor/ranger-cap.webp",
+      "width": 128
+    },
+    "armorSet": "Ranger Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:rainy-plains"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:sharpshooter-fedora"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:sharpshooter-fedora",
+      "d2:armor:ranger-jacket",
+      "d2:armor:ranger-leggings",
+      "d2:armor:ranger-boots"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874853,
+      "title": "Dungeons II:Ranger Cap",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Ranger_Cap"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:ranger-jacket",
+    "slug": "ranger-jacket",
+    "game": "d2",
+    "category": "armor",
+    "name": "Ranger Jacket",
+    "description": "A ranger's jacket must look cool both at close range and at a distance.",
+    "rarity": "common",
+    "image": {
+      "alt": "Ranger Jacket icon",
+      "height": 128,
+      "src": "/images/d2/armor/ranger-jacket.webp",
+      "width": 128
+    },
+    "armorSet": "Ranger Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:rainy-plains"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:sharpshooter-duster"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:sharpshooter-duster",
+      "d2:armor:ranger-leggings",
+      "d2:armor:ranger-boots",
+      "d2:armor:ranger-cap"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874922,
+      "title": "Dungeons II:Ranger Jacket",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Ranger_Jacket"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:ranger-leggings",
+    "slug": "ranger-leggings",
+    "game": "d2",
+    "category": "armor",
+    "name": "Ranger Leggings",
+    "description": "You could sit in these comfy leggings for days, just waiting for the perfect shot.",
+    "rarity": "common",
+    "image": {
+      "alt": "Ranger Leggings icon",
+      "height": 128,
+      "src": "/images/d2/armor/ranger-leggings.webp",
+      "width": 128
+    },
+    "armorSet": "Ranger Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:rainy-plains"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:sharpshooter-chaps"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:sharpshooter-chaps",
+      "d2:armor:ranger-boots",
+      "d2:armor:ranger-cap",
+      "d2:armor:ranger-jacket"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874976,
+      "title": "Dungeons II:Ranger Leggings",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Ranger_Leggings"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:realmreacher-boots",
+    "slug": "realmreacher-boots",
+    "game": "d2",
+    "category": "armor",
+    "name": "Realmreacher Boots",
+    "description": "A pair of delicious boots crafted from bouncy blocks only found in the new dimension.",
+    "rarity": "common",
+    "image": {
+      "alt": "Realmreacher Boots icon",
+      "height": 128,
+      "src": "/images/d2/armor/realmreacher-boots.webp",
+      "width": 128
+    },
+    "armorSet": "Realmreacher Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:rainy-plains"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:soul-corruptor-sandals"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:soul-corruptor-sandals",
+      "d2:armor:realmreacher-hat",
+      "d2:armor:realmreacher-leggings",
+      "d2:armor:realmreacher-robe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3886693,
+      "title": "Dungeons II:Realmreacher Boots",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Realmreacher_Boots"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:realmreacher-hat",
+    "slug": "realmreacher-hat",
+    "game": "d2",
+    "category": "armor",
+    "name": "Realmreacher Hat",
+    "description": "A fancy hat made from sticky substances only found in the new dimension.",
+    "rarity": "common",
+    "image": {
+      "alt": "Realmreacher Hat icon",
+      "height": 128,
+      "src": "/images/d2/armor/realmreacher-hat.webp",
+      "width": 128
+    },
+    "armorSet": "Realmreacher Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:rainy-plains"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:soul-corruptor-mask"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:soul-corruptor-mask",
+      "d2:armor:realmreacher-leggings",
+      "d2:armor:realmreacher-robe",
+      "d2:armor:realmreacher-boots"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3886688,
+      "title": "Dungeons II:Realmreacher Hat",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Realmreacher_Hat"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:realmreacher-leggings",
+    "slug": "realmreacher-leggings",
+    "game": "d2",
+    "category": "armor",
+    "name": "Realmreacher Leggings",
+    "description": "A pair of lush leggings woven from moist materials only found in the new dimension.",
+    "rarity": "common",
+    "image": {
+      "alt": "Realmreacher Leggings icon",
+      "height": 128,
+      "src": "/images/d2/armor/realmreacher-leggings.webp",
+      "width": 128
+    },
+    "armorSet": "Realmreacher Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:rainy-plains"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:soul-corruptor-sash"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:soul-corruptor-sash",
+      "d2:armor:realmreacher-robe",
+      "d2:armor:realmreacher-boots",
+      "d2:armor:realmreacher-hat"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3886692,
+      "title": "Dungeons II:Realmreacher Leggings",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Realmreacher_Leggings"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:realmreacher-robe",
+    "slug": "realmreacher-robe",
+    "game": "d2",
+    "category": "armor",
+    "name": "Realmreacher Robe",
+    "description": "A dazzling robe forged from sturdy stuff only found in the new dimension.",
+    "rarity": "common",
+    "image": {
+      "alt": "Realmreacher Robe icon",
+      "height": 128,
+      "src": "/images/d2/armor/realmreacher-robe.webp",
+      "width": 128
+    },
+    "armorSet": "Realmreacher Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:rainy-plains"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:soul-corruptor-duster"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:soul-corruptor-duster",
+      "d2:armor:realmreacher-boots",
+      "d2:armor:realmreacher-hat",
+      "d2:armor:realmreacher-leggings"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3886689,
+      "title": "Dungeons II:Realmreacher Robe",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Realmreacher_Robe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:redstone-boots",
+    "slug": "redstone-boots",
+    "game": "d2",
+    "category": "armor",
+    "name": "Redstone Boots",
+    "description": "Cobbled from the rubble of a Redstone Monstrosity.",
+    "rarity": "common",
+    "image": {
+      "alt": "Redstone Boots icon",
+      "height": 128,
+      "src": "/images/d2/armor/redstone-boots.webp",
+      "width": 128
+    },
+    "armorSet": "Redstone Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:monstrosity-stompers"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:monstrosity-stompers",
+      "d2:armor:redstone-chestplate",
+      "d2:armor:redstone-helmet",
+      "d2:armor:redstone-shinguards"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875041,
+      "title": "Dungeons II:Redstone Boots",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Redstone_Boots"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:redstone-chestplate",
+    "slug": "redstone-chestplate",
+    "game": "d2",
+    "category": "armor",
+    "name": "Redstone Chestplate",
+    "description": "Your victory is already set in redstone.",
+    "rarity": "common",
+    "image": {
+      "alt": "Redstone Chestplate icon",
+      "height": 128,
+      "src": "/images/d2/armor/redstone-chestplate.webp",
+      "width": 128
+    },
+    "armorSet": "Redstone Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:monstrosity-armor-chestplate"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:monstrosity-armor-chestplate",
+      "d2:armor:redstone-helmet",
+      "d2:armor:redstone-shinguards",
+      "d2:armor:redstone-boots"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874926,
+      "title": "Dungeons II:Redstone Chestplate",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Redstone_Chestplate"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:redstone-helmet",
+    "slug": "redstone-helmet",
+    "game": "d2",
+    "category": "armor",
+    "name": "Redstone Helmet",
+    "description": "Crafted from the skull of a Redstone Monstrosity.",
+    "rarity": "common",
+    "image": {
+      "alt": "Redstone Helmet icon",
+      "height": 128,
+      "src": "/images/d2/armor/redstone-helmet.webp",
+      "width": 128
+    },
+    "armorSet": "Redstone Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:monstrosity-horns"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:monstrosity-horns",
+      "d2:armor:redstone-shinguards",
+      "d2:armor:redstone-boots",
+      "d2:armor:redstone-chestplate"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874861,
+      "title": "Dungeons II:Redstone Helmet",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Redstone_Helmet"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:redstone-shinguards",
+    "slug": "redstone-shinguards",
+    "game": "d2",
+    "category": "armor",
+    "name": "Redstone Shinguards",
+    "description": "For kicking two birds with one redstone.",
+    "rarity": "common",
+    "image": {
+      "alt": "Redstone Shinguards icon",
+      "height": 128,
+      "src": "/images/d2/armor/redstone-shinguards.webp",
+      "width": 128
+    },
+    "armorSet": "Redstone Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:monstrosity-greaves"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:monstrosity-greaves",
+      "d2:armor:redstone-boots",
+      "d2:armor:redstone-chestplate",
+      "d2:armor:redstone-helmet"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874981,
+      "title": "Dungeons II:Redstone Shinguards",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Redstone_Shinguards"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:rimefrost-armor-chestplate",
+    "slug": "rimefrost-armor-chestplate",
+    "game": "d2",
+    "category": "armor",
+    "name": "Rimefrost Armor (Chestplate)",
+    "description": "Frost-forged armor for the loyal ally who never gives friends the cold shoulder.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Rimefrost Armor (Chestplate) icon",
+      "height": 128,
+      "src": "/images/d2/armor/rimefrost-armor-chestplate.webp",
+      "width": 128
+    },
+    "armorSet": "Rimefrost Armor",
+    "baseItemId": "d2:armor:steel-wool-sweater",
+    "effectValues": [
+      {
+        "label": "Reduces damage taken from elemental attacks",
+        "unit": "%",
+        "value": -25
+      }
+    ],
+    "effects": [
+      "Reduces damage taken from elemental attacks by 25%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "defense"
+    ],
+    "related": [
+      "d2:armor:steel-wool-sweater",
+      "d2:armor:rimefrost-icecap",
+      "d2:armor:rimefrost-longjohns",
+      "d2:armor:rimefrost-plodders"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3893385,
+      "title": "Dungeons II:Rimefrost Armor (Chestplate)",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Rimefrost_Armor_(Chestplate)"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:rimefrost-icecap",
+    "slug": "rimefrost-icecap",
+    "game": "d2",
+    "category": "armor",
+    "name": "Rimefrost Icecap",
+    "description": "An ice-cold cap to keep your head cool in dangerous situations.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Rimefrost Icecap icon",
+      "height": 128,
+      "src": "/images/d2/armor/rimefrost-icecap.webp",
+      "width": 128
+    },
+    "armorSet": "Rimefrost Armor",
+    "baseItemId": "d2:armor:steel-wool-cap",
+    "effectValues": [
+      {
+        "label": "Frost attacks deal more damage",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "effects": [
+      "Frost attacks deal 30% more damage"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "damage-boost",
+      "freeze"
+    ],
+    "related": [
+      "d2:armor:steel-wool-cap",
+      "d2:armor:rimefrost-longjohns",
+      "d2:armor:rimefrost-plodders",
+      "d2:armor:rimefrost-armor-chestplate"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3886455,
+      "title": "Dungeons II:Rimefrost Icecap",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Rimefrost_Icecap"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:rimefrost-longjohns",
+    "slug": "rimefrost-longjohns",
+    "game": "d2",
+    "category": "armor",
+    "name": "Rimefrost Longjohns",
+    "description": "A pair of breezy longjohns for keeping chill when running into enemy hordes.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Rimefrost Longjohns icon",
+      "height": 128,
+      "src": "/images/d2/armor/rimefrost-longjohns.webp",
+      "width": 128
+    },
+    "armorSet": "Rimefrost Armor",
+    "baseItemId": "d2:armor:steel-wool-leggings",
+    "effectValues": [
+      {
+        "label": "Melee attacks deal more damage to secondary targets",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "effects": [
+      "Melee attacks deal 50% more damage to secondary targets"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "area",
+      "damage-boost",
+      "melee-damage"
+    ],
+    "related": [
+      "d2:armor:steel-wool-leggings",
+      "d2:armor:rimefrost-plodders",
+      "d2:armor:rimefrost-armor-chestplate",
+      "d2:armor:rimefrost-icecap"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3886456,
+      "title": "Dungeons II:Rimefrost Longjohns",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Rimefrost_Longjohns"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:rimefrost-plodders",
+    "slug": "rimefrost-plodders",
+    "game": "d2",
+    "category": "armor",
+    "name": "Rimefrost Plodders",
+    "description": "A pair of snow-plodding boots for the warrior who never gets cold feet.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Rimefrost Plodders icon",
+      "height": 128,
+      "src": "/images/d2/armor/rimefrost-plodders.webp",
+      "width": 128
+    },
+    "armorSet": "Rimefrost Armor",
+    "baseItemId": "d2:armor:steel-wool-boots",
+    "effectValues": [
+      {
+        "label": "Increases duration of negative statuses on enemies",
+        "unit": "%",
+        "value": 100
+      }
+    ],
+    "effects": [
+      "Increases duration of negative statuses on enemies by 100%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "status-effects"
+    ],
+    "related": [
+      "d2:armor:steel-wool-boots",
+      "d2:armor:rimefrost-armor-chestplate",
+      "d2:armor:rimefrost-icecap",
+      "d2:armor:rimefrost-longjohns"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3886457,
+      "title": "Dungeons II:Rimefrost Plodders",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Rimefrost_Plodders"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:rover-gaiters",
+    "slug": "rover-gaiters",
+    "game": "d2",
+    "category": "armor",
+    "name": "Rover Gaiters",
+    "description": "A pair of limber iron gaiters for extra attack momentum.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Rover Gaiters icon",
+      "height": 128,
+      "src": "/images/d2/armor/rover-gaiters.webp",
+      "width": 128
+    },
+    "armorSet": "Rover Armor",
+    "baseItemId": "d2:armor:nomad-leggings",
+    "effectValues": [
+      {
+        "label": "Increases chance to stagger enemies on hit",
+        "unit": "%",
+        "value": 60
+      }
+    ],
+    "effects": [
+      "Increases chance to stagger enemies on hit by 60%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "knockback"
+    ],
+    "related": [
+      "d2:armor:nomad-leggings",
+      "d2:armor:rover-pauldrons",
+      "d2:armor:rover-sabatons",
+      "d2:armor:rover-visor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874969,
+      "title": "Dungeons II:Rover Gaiters",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Rover_Gaiters"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:rover-pauldrons",
+    "slug": "rover-pauldrons",
+    "game": "d2",
+    "category": "armor",
+    "name": "Rover Pauldrons",
+    "description": "A protective chestplate with thick pauldrons to deflect ranged attacks.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Rover Pauldrons icon",
+      "height": 128,
+      "src": "/images/d2/armor/rover-pauldrons.webp",
+      "width": 128
+    },
+    "armorSet": "Rover Armor",
+    "baseItemId": "d2:armor:nomad-chestplate",
+    "effectValues": [
+      {
+        "label": "Grants chance to deflect enemy projectiles",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "effects": [
+      "Grants an 25% chance to deflect enemy projectiles"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "defense"
+    ],
+    "related": [
+      "d2:armor:nomad-chestplate",
+      "d2:armor:rover-sabatons",
+      "d2:armor:rover-visor",
+      "d2:armor:rover-gaiters"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874900,
+      "title": "Dungeons II:Rover Pauldrons",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Rover_Pauldrons"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:rover-sabatons",
+    "slug": "rover-sabatons",
+    "game": "d2",
+    "category": "armor",
+    "name": "Rover Sabatons",
+    "description": "A pair of durable iron boots that keep you on your toes when in danger.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Rover Sabatons icon",
+      "height": 128,
+      "src": "/images/d2/armor/rover-sabatons.webp",
+      "width": 128
+    },
+    "armorSet": "Rover Armor",
+    "baseItemId": "d2:armor:nomad-boots",
+    "effectValues": [
+      {
+        "label": "Increases damage dealt player's total missing health",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "effects": [
+      "Increases damage dealt by 25% of player's total missing health"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "damage-boost",
+      "healing"
+    ],
+    "related": [
+      "d2:armor:nomad-boots",
+      "d2:armor:rover-visor",
+      "d2:armor:rover-gaiters",
+      "d2:armor:rover-pauldrons"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875027,
+      "title": "Dungeons II:Rover Sabatons",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Rover_Sabatons"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:rover-visor",
+    "slug": "rover-visor",
+    "game": "d2",
+    "category": "armor",
+    "name": "Rover Visor",
+    "description": "A reliable helmet with an enhanced visor for critical precision.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Rover Visor icon",
+      "height": 128,
+      "src": "/images/d2/armor/rover-visor.webp",
+      "width": 128
+    },
+    "armorSet": "Rover Armor",
+    "baseItemId": "d2:armor:nomad-hood",
+    "effectValues": [
+      {
+        "label": "Increases chance of critical hits with melee attacks",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "effects": [
+      "Increases chance of critical hits with melee attacks by 25%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "crit",
+      "melee-damage"
+    ],
+    "related": [
+      "d2:armor:nomad-hood",
+      "d2:armor:rover-gaiters",
+      "d2:armor:rover-pauldrons",
+      "d2:armor:rover-sabatons"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874834,
+      "title": "Dungeons II:Rover Visor",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Rover_Visor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sage-belt",
+    "slug": "sage-belt",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sage Belt",
+    "description": "A warrior worthy of this belt will roll a hundred times without getting dizzy.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Sage Belt icon",
+      "height": 128,
+      "src": "/images/d2/armor/sage-belt.webp",
+      "width": 128
+    },
+    "armorSet": "Sage Armor",
+    "baseItemId": "d2:armor:disciple-leggings",
+    "effectValues": [
+      {
+        "label": "Reduces rolling cooldown time",
+        "unit": "%",
+        "value": -40
+      }
+    ],
+    "effects": [
+      "Reduces rolling cooldown time by 40%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "cooldown",
+      "rolling"
+    ],
+    "related": [
+      "d2:armor:disciple-leggings",
+      "d2:armor:sage-headband",
+      "d2:armor:sage-tunic",
+      "d2:armor:sage-wraps"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874959,
+      "title": "Dungeons II:Sage Belt",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sage_Belt"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sage-headband",
+    "slug": "sage-headband",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sage Headband",
+    "description": "A warrior worthy of this headband will walk with their eyes closed into a hail of arrows.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Sage Headband icon",
+      "height": 128,
+      "src": "/images/d2/armor/sage-headband.webp",
+      "width": 128
+    },
+    "armorSet": "Sage Armor",
+    "baseItemId": "d2:armor:disciple-mask",
+    "effectValues": [
+      {
+        "label": "Take less damage from ranged attacks",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "effects": [
+      "Take 25% less damage from ranged attacks."
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "ranged-damage"
+    ],
+    "related": [
+      "d2:armor:disciple-mask",
+      "d2:armor:sage-tunic",
+      "d2:armor:sage-wraps",
+      "d2:armor:sage-belt"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3890789,
+      "title": "Dungeons II:Sage Headband",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sage_Headband"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sage-tunic",
+    "slug": "sage-tunic",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sage Tunic",
+    "description": "A true sage is brave enough to fight the strongest enemy, yet smart enough to start with the weaker ones.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Sage Tunic icon",
+      "height": 128,
+      "src": "/images/d2/armor/sage-tunic.webp",
+      "width": 128
+    },
+    "armorSet": "Sage Armor",
+    "baseItemId": "d2:armor:disciple-robe",
+    "effectValues": [
+      {
+        "label": "Deal more damage to wounded enemies",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "effects": [
+      "Deal 40% more damage to wounded enemies."
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "damage-boost"
+    ],
+    "related": [
+      "d2:armor:disciple-robe",
+      "d2:armor:sage-wraps",
+      "d2:armor:sage-belt",
+      "d2:armor:sage-headband"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874891,
+      "title": "Dungeons II:Sage Tunic",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sage_Tunic"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sage-wraps",
+    "slug": "sage-wraps",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sage Wraps",
+    "description": "A warrior worthy of these foot wraps will strike as swiftly as an axolotl.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Sage Wraps icon",
+      "height": 128,
+      "src": "/images/d2/armor/sage-wraps.webp",
+      "width": 128
+    },
+    "armorSet": "Sage Armor",
+    "baseItemId": "d2:armor:disciple-wraps",
+    "effectValues": [
+      {
+        "label": "Increases melee attack speed",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "effects": [
+      "Increases melee attack speed by 30%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "attack-speed",
+      "melee-damage"
+    ],
+    "related": [
+      "d2:armor:disciple-wraps",
+      "d2:armor:sage-belt",
+      "d2:armor:sage-headband",
+      "d2:armor:sage-tunic"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875019,
+      "title": "Dungeons II:Sage Wraps",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sage_Wraps"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:scamp-hood",
+    "slug": "scamp-hood",
+    "game": "d2",
+    "category": "armor",
+    "name": "Scamp Hood",
+    "description": "For blending into dark corners and sneaking through the night.",
+    "rarity": "common",
+    "image": {
+      "alt": "Scamp Hood icon",
+      "height": 128,
+      "src": "/images/d2/armor/scamp-hood.webp",
+      "width": 128
+    },
+    "armorSet": "Scamp Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:scoundrel-cowl"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:scoundrel-cowl",
+      "d2:armor:scamp-jacket",
+      "d2:armor:scamp-leggings",
+      "d2:armor:scamp-sneakers"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874863,
+      "title": "Dungeons II:Scamp Hood",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Scamp_Hood"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:scamp-jacket",
+    "slug": "scamp-jacket",
+    "game": "d2",
+    "category": "armor",
+    "name": "Scamp Jacket",
+    "description": "Hold extra space for keeping tricks up your sleeves.",
+    "rarity": "common",
+    "image": {
+      "alt": "Scamp Jacket icon",
+      "height": 128,
+      "src": "/images/d2/armor/scamp-jacket.webp",
+      "width": 128
+    },
+    "armorSet": "Scamp Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:scoundrel-blazer"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:scoundrel-blazer",
+      "d2:armor:scamp-leggings",
+      "d2:armor:scamp-sneakers",
+      "d2:armor:scamp-hood"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874929,
+      "title": "Dungeons II:Scamp Jacket",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Scamp_Jacket"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:scamp-leggings",
+    "slug": "scamp-leggings",
+    "game": "d2",
+    "category": "armor",
+    "name": "Scamp Leggings",
+    "description": "For when you need to leg it fast.",
+    "rarity": "common",
+    "image": {
+      "alt": "Scamp Leggings icon",
+      "height": 128,
+      "src": "/images/d2/armor/scamp-leggings.webp",
+      "width": 128
+    },
+    "armorSet": "Scamp Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:scoundrel-chaps"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:scoundrel-chaps",
+      "d2:armor:scamp-sneakers",
+      "d2:armor:scamp-hood",
+      "d2:armor:scamp-jacket"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3874986,
+      "title": "Dungeons II:Scamp Leggings",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Scamp_Leggings"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:scamp-sneakers",
+    "slug": "scamp-sneakers",
+    "game": "d2",
+    "category": "armor",
+    "name": "Scamp Sneakers",
+    "description": "For sneaking up on enemies and taking their loot.",
+    "rarity": "common",
+    "image": {
+      "alt": "Scamp Sneakers icon",
+      "height": 128,
+      "src": "/images/d2/armor/scamp-sneakers.webp",
+      "width": 128
+    },
+    "armorSet": "Scamp Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:scoundrel-sneakers"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:scoundrel-sneakers",
+      "d2:armor:scamp-hood",
+      "d2:armor:scamp-jacket",
+      "d2:armor:scamp-leggings"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875047,
+      "title": "Dungeons II:Scamp Sneakers",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Scamp_Sneakers"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:scoundrel-blazer",
+    "slug": "scoundrel-blazer",
+    "game": "d2",
+    "category": "armor",
+    "name": "Scoundrel Blazer",
+    "description": "A bold blazer with stabilized shoulders for close-range archery.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Scoundrel Blazer icon",
+      "height": 128,
+      "src": "/images/d2/armor/scoundrel-blazer.webp",
+      "width": 128
+    },
+    "armorSet": "Scoundrel Armor",
+    "baseItemId": "d2:armor:scamp-jacket",
+    "effectValues": [
+      {
+        "label": "Ranged attacks deal more damage at close range",
+        "unit": "%",
+        "value": 100
+      }
+    ],
+    "effects": [
+      "Ranged attacks deal 100% more damage at close range"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "damage-boost",
+      "ranged-damage"
+    ],
+    "related": [
+      "d2:armor:scamp-jacket",
+      "d2:armor:scoundrel-chaps",
+      "d2:armor:scoundrel-cowl",
+      "d2:armor:scoundrel-sneakers"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874930,
+      "title": "Dungeons II:Scoundrel Blazer",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Scoundrel_Blazer"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:scoundrel-chaps",
+    "slug": "scoundrel-chaps",
+    "game": "d2",
+    "category": "armor",
+    "name": "Scoundrel Chaps",
+    "description": "A pair of lethal leggings with thigh guards designed for one-handed reloads.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Scoundrel Chaps icon",
+      "height": 128,
+      "src": "/images/d2/armor/scoundrel-chaps.webp",
+      "width": 128
+    },
+    "armorSet": "Scoundrel Armor",
+    "baseItemId": "d2:armor:scamp-leggings",
+    "effectValues": [
+      {
+        "label": "Reduces time between shots with ranged weapons",
+        "unit": "%",
+        "value": -40
+      }
+    ],
+    "effects": [
+      "Reduces time between shots with ranged weapons by 40%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "ranged-damage"
+    ],
+    "related": [
+      "d2:armor:scamp-leggings",
+      "d2:armor:scoundrel-cowl",
+      "d2:armor:scoundrel-sneakers",
+      "d2:armor:scoundrel-blazer"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3874987,
+      "title": "Dungeons II:Scoundrel Chaps",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Scoundrel_Chaps"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:scoundrel-cowl",
+    "slug": "scoundrel-cowl",
+    "game": "d2",
+    "category": "armor",
+    "name": "Scoundrel Cowl",
+    "description": "A killer-looking cowl infused with shadows for sneaking up on enemies.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Scoundrel Cowl icon",
+      "height": 128,
+      "src": "/images/d2/armor/scoundrel-cowl.webp",
+      "width": 128
+    },
+    "armorSet": "Scoundrel Armor",
+    "baseItemId": "d2:armor:scamp-hood",
+    "effectValues": [
+      {
+        "label": "Grants chance to stay in Shadowcloaking when attacking",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "effects": [
+      "Grants an 25% chance to stay in Shadowcloaking when attacking"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "status-effects"
+    ],
+    "related": [
+      "d2:armor:scamp-hood",
+      "d2:armor:scoundrel-sneakers",
+      "d2:armor:scoundrel-blazer",
+      "d2:armor:scoundrel-chaps"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874864,
+      "title": "Dungeons II:Scoundrel Cowl",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Scoundrel_Cowl"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:scoundrel-sneakers",
+    "slug": "scoundrel-sneakers",
+    "game": "d2",
+    "category": "armor",
+    "name": "Scoundrel Sneakers",
+    "description": "A pair of slick sneakers that let you prowl through the shadows on light feet.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Scoundrel Sneakers icon",
+      "height": 128,
+      "src": "/images/d2/armor/scoundrel-sneakers.webp",
+      "width": 128
+    },
+    "armorSet": "Scoundrel Armor",
+    "baseItemId": "d2:armor:scamp-sneakers",
+    "effectValues": [
+      {
+        "label": "Increases movement speed while Shadowcloaking",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "effects": [
+      "Increases movement speed by 40% while Shadowcloaking"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "movement-speed",
+      "status-effects"
+    ],
+    "related": [
+      "d2:armor:scamp-sneakers",
+      "d2:armor:scoundrel-blazer",
+      "d2:armor:scoundrel-chaps",
+      "d2:armor:scoundrel-cowl"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875044,
+      "title": "Dungeons II:Scoundrel Sneakers",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Scoundrel_Sneakers"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sculk-digger-boots",
+    "slug": "sculk-digger-boots",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sculk Digger Boots",
+    "description": "Sculk-infused boots, cobbled by the dim glow of Warden horns.",
+    "rarity": "common",
+    "image": {
+      "alt": "Sculk Digger Boots icon",
+      "height": 128,
+      "src": "/images/d2/armor/sculk-digger-boots.webp",
+      "width": 128
+    },
+    "armorSet": "Sculk Digger Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:twisted-warden-sneakers"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:twisted-warden-sneakers",
+      "d2:armor:sculk-digger-hood",
+      "d2:armor:sculk-digger-leggings",
+      "d2:armor:sculk-digger-robe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875050,
+      "title": "Dungeons II:Sculk Digger Boots",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sculk_Digger_Boots"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sculk-digger-hood",
+    "slug": "sculk-digger-hood",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sculk Digger Hood",
+    "description": "Sculk-infused hood, tailored by the dim glow of Warden horns.",
+    "rarity": "common",
+    "image": {
+      "alt": "Sculk Digger Hood icon",
+      "height": 128,
+      "src": "/images/d2/armor/sculk-digger-hood.webp",
+      "width": 128
+    },
+    "armorSet": "Sculk Digger Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:twisted-warden-blindfold"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:twisted-warden-blindfold",
+      "d2:armor:sculk-digger-leggings",
+      "d2:armor:sculk-digger-robe",
+      "d2:armor:sculk-digger-boots"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874867,
+      "title": "Dungeons II:Sculk Digger Hood",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sculk_Digger_Hood"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sculk-digger-leggings",
+    "slug": "sculk-digger-leggings",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sculk Digger Leggings",
+    "description": "Sculk-infused leggings, threaded by the dim glow of Warden horns.",
+    "rarity": "common",
+    "image": {
+      "alt": "Sculk Digger Leggings icon",
+      "height": 128,
+      "src": "/images/d2/armor/sculk-digger-leggings.webp",
+      "width": 128
+    },
+    "armorSet": "Sculk Digger Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:twisted-warden-tights"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:twisted-warden-tights",
+      "d2:armor:sculk-digger-robe",
+      "d2:armor:sculk-digger-boots",
+      "d2:armor:sculk-digger-hood"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3874992,
+      "title": "Dungeons II:Sculk Digger Leggings",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sculk_Digger_Leggings"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sculk-digger-robe",
+    "slug": "sculk-digger-robe",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sculk Digger Robe",
+    "description": "Sculk-infused robe, woven by the dim glow of Warden horns.",
+    "rarity": "common",
+    "image": {
+      "alt": "Sculk Digger Robe icon",
+      "height": 128,
+      "src": "/images/d2/armor/sculk-digger-robe.webp",
+      "width": 128
+    },
+    "armorSet": "Sculk Digger Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:twisted-warden-vest"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:twisted-warden-vest",
+      "d2:armor:sculk-digger-boots",
+      "d2:armor:sculk-digger-hood",
+      "d2:armor:sculk-digger-leggings"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874935,
+      "title": "Dungeons II:Sculk Digger Robe",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sculk_Digger_Robe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sculker-boots",
+    "slug": "sculker-boots",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sculker Boots",
+    "description": "These boots have sculked across the sift for more tides than you can imagine.",
+    "rarity": "common",
+    "image": {
+      "alt": "Sculker Boots icon",
+      "height": 128,
+      "src": "/images/d2/armor/sculker-boots.webp",
+      "width": 128
+    },
+    "armorSet": "Sculker Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:monarch-talons"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:monarch-talons",
+      "d2:armor:sculker-mask",
+      "d2:armor:sculker-robe",
+      "d2:armor:sculker-slacks"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875048,
+      "title": "Dungeons II:Sculker Boots",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sculker_Boots"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sculker-mask",
+    "slug": "sculker-mask",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sculker Mask",
+    "description": "See through the eyes of a Sculker, just ignore the sounds of souls howling in your ears.",
+    "rarity": "common",
+    "image": {
+      "alt": "Sculker Mask icon",
+      "height": 128,
+      "src": "/images/d2/armor/sculker-mask.webp",
+      "width": 128
+    },
+    "armorSet": "Sculker Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:monarch-crown"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:monarch-crown",
+      "d2:armor:sculker-robe",
+      "d2:armor:sculker-slacks",
+      "d2:armor:sculker-boots"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874865,
+      "title": "Dungeons II:Sculker Mask",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sculker_Mask"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sculker-robe",
+    "slug": "sculker-robe",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sculker Robe",
+    "description": "A ferocious robe as durable as sculker hide.",
+    "rarity": "common",
+    "image": {
+      "alt": "Sculker Robe icon",
+      "height": 128,
+      "src": "/images/d2/armor/sculker-robe.webp",
+      "width": 128
+    },
+    "armorSet": "Sculker Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:monarch-mantle"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:monarch-mantle",
+      "d2:armor:sculker-slacks",
+      "d2:armor:sculker-boots",
+      "d2:armor:sculker-mask"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874932,
+      "title": "Dungeons II:Sculker Robe",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sculker_Robe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sculker-slacks",
+    "slug": "sculker-slacks",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sculker Slacks",
+    "description": "Don't slack around. Get busy sculking!",
+    "rarity": "common",
+    "image": {
+      "alt": "Sculker Slacks icon",
+      "height": 128,
+      "src": "/images/d2/armor/sculker-slacks.webp",
+      "width": 128
+    },
+    "armorSet": "Sculker Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:monarch-sash"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:monarch-sash",
+      "d2:armor:sculker-boots",
+      "d2:armor:sculker-mask",
+      "d2:armor:sculker-robe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3874989,
+      "title": "Dungeons II:Sculker Slacks",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sculker_Slacks"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sharpshooter-chaps",
+    "slug": "sharpshooter-chaps",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sharpshooter Chaps",
+    "description": "A pair of sharp leather chaps for fletching arrows in the wild.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Sharpshooter Chaps icon",
+      "height": 128,
+      "src": "/images/d2/armor/sharpshooter-chaps.webp",
+      "width": 128
+    },
+    "armorSet": "Sharpshooter Armor",
+    "baseItemId": "d2:armor:ranger-leggings",
+    "effectValues": [
+      {
+        "label": "Reduces ranged ammo cooldown time",
+        "unit": "%",
+        "value": -35
+      }
+    ],
+    "effects": [
+      "Reduces ranged ammo cooldown time by 35%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:rainy-plains"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "ammo",
+      "cooldown"
+    ],
+    "related": [
+      "d2:armor:ranger-leggings",
+      "d2:armor:sharpshooter-duster",
+      "d2:armor:sharpshooter-fedora",
+      "d2:armor:sharpshooter-spurs"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874977,
+      "title": "Dungeons II:Sharpshooter Chaps",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sharpshooter_Chaps"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sharpshooter-duster",
+    "slug": "sharpshooter-duster",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sharpshooter Duster",
+    "description": "A delicious-looking duster with stabilizing arm guards for powerful ranged attacks.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Sharpshooter Duster icon",
+      "height": 128,
+      "src": "/images/d2/armor/sharpshooter-duster.webp",
+      "width": 128
+    },
+    "armorSet": "Sharpshooter Armor",
+    "baseItemId": "d2:armor:ranger-jacket",
+    "effectValues": [
+      {
+        "label": "Ranged attacks deal more damage",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "effects": [
+      "Ranged attacks deal 30% more damage"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:rainy-plains"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "damage-boost",
+      "ranged-damage"
+    ],
+    "related": [
+      "d2:armor:ranger-jacket",
+      "d2:armor:sharpshooter-fedora",
+      "d2:armor:sharpshooter-spurs",
+      "d2:armor:sharpshooter-chaps"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874923,
+      "title": "Dungeons II:Sharpshooter Duster",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sharpshooter_Duster"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sharpshooter-fedora",
+    "slug": "sharpshooter-fedora",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sharpshooter Fedora",
+    "description": "A flashy fedora with an attached monocle scope for aiming multiple arrows at once.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Sharpshooter Fedora icon",
+      "height": 128,
+      "src": "/images/d2/armor/sharpshooter-fedora.webp",
+      "width": 128
+    },
+    "armorSet": "Sharpshooter Armor",
+    "baseItemId": "d2:armor:ranger-cap",
+    "effectValues": [
+      {
+        "label": "Grants chance to fire additional projectiles",
+        "unit": "%",
+        "value": 60
+      }
+    ],
+    "effects": [
+      "Grants an 60% chance to fire additional projectiles"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:rainy-plains"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "burn",
+      "ranged-damage"
+    ],
+    "related": [
+      "d2:armor:ranger-cap",
+      "d2:armor:sharpshooter-spurs",
+      "d2:armor:sharpshooter-chaps",
+      "d2:armor:sharpshooter-duster"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874856,
+      "title": "Dungeons II:Sharpshooter Fedora",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sharpshooter_Fedora"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sharpshooter-spurs",
+    "slug": "sharpshooter-spurs",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sharpshooter Spurs",
+    "description": "A pair of spurred shoes with ankle space for extra arrows.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Sharpshooter Spurs icon",
+      "height": 128,
+      "src": "/images/d2/armor/sharpshooter-spurs.webp",
+      "width": 128
+    },
+    "armorSet": "Sharpshooter Armor",
+    "baseItemId": "d2:armor:ranger-boots",
+    "effectValues": [
+      {
+        "label": "Carry more ammo",
+        "unit": "%",
+        "value": 45
+      }
+    ],
+    "effects": [
+      "Carry 45% more ammo"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:rainy-plains"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "ammo"
+    ],
+    "related": [
+      "d2:armor:ranger-boots",
+      "d2:armor:sharpshooter-chaps",
+      "d2:armor:sharpshooter-duster",
+      "d2:armor:sharpshooter-fedora"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875036,
+      "title": "Dungeons II:Sharpshooter Spurs",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sharpshooter_Spurs"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sifter-boots",
+    "slug": "sifter-boots",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sifter Boots",
+    "description": "Soft boots for running home to warn your nest of predators.",
+    "rarity": "common",
+    "image": {
+      "alt": "Sifter Boots icon",
+      "height": 128,
+      "src": "/images/d2/armor/sifter-boots.webp",
+      "width": 128
+    },
+    "armorSet": "Sifter Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:singers-meadow",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:mad-sifter-paws"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:mad-sifter-paws",
+      "d2:armor:sifter-hood",
+      "d2:armor:sifter-leggings",
+      "d2:armor:sifter-robe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3886396,
+      "title": "Dungeons II:Sifter Boots",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sifter_Boots"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sifter-hood",
+    "slug": "sifter-hood",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sifter Hood",
+    "description": "A cute hood with adorable ears to listen for sculking predators.",
+    "rarity": "common",
+    "image": {
+      "alt": "Sifter Hood icon",
+      "height": 115,
+      "src": "/images/d2/armor/sifter-hood.webp",
+      "width": 115
+    },
+    "armorSet": "Sifter Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:singers-meadow",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:mad-sifter-mask"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:mad-sifter-mask",
+      "d2:armor:sifter-leggings",
+      "d2:armor:sifter-robe",
+      "d2:armor:sifter-boots"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3886394,
+      "title": "Dungeons II:Sifter Hood",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sifter_Hood"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sifter-leggings",
+    "slug": "sifter-leggings",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sifter Leggings",
+    "description": "These will help you survive the unforgiving tides of the new dimension.",
+    "rarity": "common",
+    "image": {
+      "alt": "Sifter Leggings icon",
+      "height": 128,
+      "src": "/images/d2/armor/sifter-leggings.webp",
+      "width": 128
+    },
+    "armorSet": "Sifter Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:singers-meadow",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:mad-sifter-slacks"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:mad-sifter-slacks",
+      "d2:armor:sifter-robe",
+      "d2:armor:sifter-boots",
+      "d2:armor:sifter-hood"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3886392,
+      "title": "Dungeons II:Sifter Leggings",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sifter_Leggings"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sifter-robe",
+    "slug": "sifter-robe",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sifter Robe",
+    "description": "For looking fabulous as you defend your nest against predators.",
+    "rarity": "common",
+    "image": {
+      "alt": "Sifter Robe icon",
+      "height": 128,
+      "src": "/images/d2/armor/sifter-robe.webp",
+      "width": 128
+    },
+    "armorSet": "Sifter Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:singers-meadow",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:mad-sifter-vest"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:mad-sifter-vest",
+      "d2:armor:sifter-boots",
+      "d2:armor:sifter-hood",
+      "d2:armor:sifter-leggings"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3886395,
+      "title": "Dungeons II:Sifter Robe",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sifter_Robe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sorcerer-boots",
+    "slug": "sorcerer-boots",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sorcerer Boots",
+    "description": "The soles are etched with powerful runes that stop your socks from stinking.",
+    "rarity": "common",
+    "image": {
+      "alt": "Sorcerer Boots icon",
+      "height": 128,
+      "src": "/images/d2/armor/sorcerer-boots.webp",
+      "width": 128
+    },
+    "armorSet": "Sorcerer Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:frozen-highlands"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:alchemist-loafers"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:alchemist-loafers",
+      "d2:armor:sorcerer-hat",
+      "d2:armor:sorcerer-leggings",
+      "d2:armor:sorcerer-robe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875055,
+      "title": "Dungeons II:Sorcerer Boots",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sorcerer_Boots"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sorcerer-hat",
+    "slug": "sorcerer-hat",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sorcerer Hat",
+    "description": "Its brim is inscribed with powerful runes that prevent dandruff.",
+    "rarity": "common",
+    "image": {
+      "alt": "Sorcerer Hat icon",
+      "height": 128,
+      "src": "/images/d2/armor/sorcerer-hat.webp",
+      "width": 128
+    },
+    "armorSet": "Sorcerer Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:frozen-highlands"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:alchemist-top-hat"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:alchemist-top-hat",
+      "d2:armor:sorcerer-leggings",
+      "d2:armor:sorcerer-robe",
+      "d2:armor:sorcerer-boots"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874876,
+      "title": "Dungeons II:Sorcerer Hat",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sorcerer_Hat"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sorcerer-leggings",
+    "slug": "sorcerer-leggings",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sorcerer Leggings",
+    "description": "The seams are imbued with powerful runes that keep the crotch from ripping when you bend.",
+    "rarity": "common",
+    "image": {
+      "alt": "Sorcerer Leggings icon",
+      "height": 128,
+      "src": "/images/d2/armor/sorcerer-leggings.webp",
+      "width": 128
+    },
+    "armorSet": "Sorcerer Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:frozen-highlands"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:alchemist-trousers"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:alchemist-trousers",
+      "d2:armor:sorcerer-robe",
+      "d2:armor:sorcerer-boots",
+      "d2:armor:sorcerer-hat"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874999,
+      "title": "Dungeons II:Sorcerer Leggings",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sorcerer_Leggings"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:sorcerer-robe",
+    "slug": "sorcerer-robe",
+    "game": "d2",
+    "category": "armor",
+    "name": "Sorcerer Robe",
+    "description": "Its hems are stitched with powerful runes that stop your armpits from staining.",
+    "rarity": "common",
+    "image": {
+      "alt": "Sorcerer Robe icon",
+      "height": 128,
+      "src": "/images/d2/armor/sorcerer-robe.webp",
+      "width": 128
+    },
+    "armorSet": "Sorcerer Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:frozen-highlands"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:alchemist-overcoat"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:alchemist-overcoat",
+      "d2:armor:sorcerer-boots",
+      "d2:armor:sorcerer-hat",
+      "d2:armor:sorcerer-leggings"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874939,
+      "title": "Dungeons II:Sorcerer Robe",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sorcerer_Robe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:soul-corruptor-duster",
+    "slug": "soul-corruptor-duster",
+    "game": "d2",
+    "category": "armor",
+    "name": "Soul Corruptor Duster",
+    "rarity": "unique",
+    "image": {
+      "alt": "Soul Corruptor Duster icon",
+      "height": 128,
+      "src": "/images/d2/armor/soul-corruptor-duster.webp",
+      "width": 128
+    },
+    "armorSet": "Soul Corruptor Armor",
+    "baseItemId": "d2:armor:realmreacher-robe",
+    "effectValues": [
+      {
+        "label": "Increases the area of all positive status effects",
+        "unit": "%",
+        "value": 55
+      }
+    ],
+    "effects": [
+      "Increases the area of all positive status effects by 55%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:rainy-plains"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "area",
+      "status-effects"
+    ],
+    "related": [
+      "d2:armor:realmreacher-robe",
+      "d2:armor:soul-corruptor-mask",
+      "d2:armor:soul-corruptor-sandals",
+      "d2:armor:soul-corruptor-sash"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874925,
+      "title": "Dungeons II:Soul Corruptor Duster",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Soul_Corruptor_Duster"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:armor:soul-corruptor-mask",
+    "slug": "soul-corruptor-mask",
+    "game": "d2",
+    "category": "armor",
+    "name": "Soul Corruptor Mask",
+    "description": "A Soul Corrupted mask that charges your arrows the longer you pull.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Soul Corruptor Mask icon",
+      "height": 128,
+      "src": "/images/d2/armor/soul-corruptor-mask.webp",
+      "width": 128
+    },
+    "armorSet": "Soul Corruptor Armor",
+    "baseItemId": "d2:armor:realmreacher-hat",
+    "effectValues": [
+      {
+        "label": "Charged ranged attacks deal more damage",
+        "unit": "%",
+        "value": 60
+      }
+    ],
+    "effects": [
+      "Charged ranged attacks deal 60% more damage"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:rainy-plains"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "damage-boost",
+      "ranged-damage"
+    ],
+    "related": [
+      "d2:armor:realmreacher-hat",
+      "d2:armor:soul-corruptor-sandals",
+      "d2:armor:soul-corruptor-sash",
+      "d2:armor:soul-corruptor-duster"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874859,
+      "title": "Dungeons II:Soul Corruptor Mask",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Soul_Corruptor_Mask"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:soul-corruptor-sandals",
+    "slug": "soul-corruptor-sandals",
+    "game": "d2",
+    "category": "armor",
+    "name": "Soul Corruptor Sandals",
+    "description": "A pair of Soul Corrupted sandals that help guide your arrows to their targets.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Soul Corruptor Sandals icon",
+      "height": 128,
+      "src": "/images/d2/armor/soul-corruptor-sandals.webp",
+      "width": 128
+    },
+    "armorSet": "Soul Corruptor Armor",
+    "baseItemId": "d2:armor:realmreacher-boots",
+    "effectValues": [
+      {
+        "label": "Increases chance of critical hits from ranged attacks",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "effects": [
+      "Increases chance of critical hits from ranged attacks by 25%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:rainy-plains"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "crit",
+      "ranged-damage"
+    ],
+    "related": [
+      "d2:armor:realmreacher-boots",
+      "d2:armor:soul-corruptor-sash",
+      "d2:armor:soul-corruptor-duster",
+      "d2:armor:soul-corruptor-mask"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875039,
+      "title": "Dungeons II:Soul Corruptor Sandals",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Soul_Corruptor_Sandals"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:soul-corruptor-sash",
+    "slug": "soul-corruptor-sash",
+    "game": "d2",
+    "category": "armor",
+    "name": "Soul Corruptor Sash",
+    "description": "A Soul Corrupted sash that grants extra force to your arrows.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Soul Corruptor Sash icon",
+      "height": 128,
+      "src": "/images/d2/armor/soul-corruptor-sash.webp",
+      "width": 128
+    },
+    "armorSet": "Soul Corruptor Armor",
+    "baseItemId": "d2:armor:realmreacher-leggings",
+    "effectValues": [
+      {
+        "label": "Critical hits with ranged weapons deal more damage",
+        "unit": "%",
+        "value": 45
+      }
+    ],
+    "effects": [
+      "Critical hits with ranged weapons deal 45% more damage"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:rainy-plains"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "crit",
+      "damage-boost",
+      "ranged-damage"
+    ],
+    "related": [
+      "d2:armor:realmreacher-leggings",
+      "d2:armor:soul-corruptor-duster",
+      "d2:armor:soul-corruptor-mask",
+      "d2:armor:soul-corruptor-sandals"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874980,
+      "title": "Dungeons II:Soul Corruptor Sash",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Soul_Corruptor_Sash"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:steel-wool-boots",
+    "slug": "steel-wool-boots",
+    "game": "d2",
+    "category": "armor",
+    "name": "Steel Wool Boots",
+    "description": "A snuggly pair of boots, infused with the warmth of wool and the strength of steel.",
+    "rarity": "common",
+    "image": {
+      "alt": "Steel Wool Boots icon",
+      "height": 128,
+      "src": "/images/d2/armor/steel-wool-boots.webp",
+      "width": 128
+    },
+    "armorSet": "Steel Wool Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:rimefrost-plodders"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:rimefrost-plodders",
+      "d2:armor:steel-wool-cap",
+      "d2:armor:steel-wool-leggings",
+      "d2:armor:steel-wool-sweater"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875057,
+      "title": "Dungeons II:Steel Wool Boots",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Steel_Wool_Boots"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:steel-wool-cap",
+    "slug": "steel-wool-cap",
+    "game": "d2",
+    "category": "armor",
+    "name": "Steel Wool Cap",
+    "description": "A comfy cap, infused with the warmth of wool and the strength of steel.",
+    "rarity": "common",
+    "image": {
+      "alt": "Steel Wool Cap icon",
+      "height": 128,
+      "src": "/images/d2/armor/steel-wool-cap.webp",
+      "width": 128
+    },
+    "armorSet": "Steel Wool Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:rimefrost-icecap"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:rimefrost-icecap",
+      "d2:armor:steel-wool-leggings",
+      "d2:armor:steel-wool-sweater",
+      "d2:armor:steel-wool-boots"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874878,
+      "title": "Dungeons II:Steel Wool Cap",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Steel_Wool_Cap"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:steel-wool-leggings",
+    "slug": "steel-wool-leggings",
+    "game": "d2",
+    "category": "armor",
+    "name": "Steel Wool Leggings",
+    "description": "A toasty pair of leggings, infused with the warmth of wool and the strength of steel.",
+    "rarity": "common",
+    "image": {
+      "alt": "Steel Wool Leggings icon",
+      "height": 128,
+      "src": "/images/d2/armor/steel-wool-leggings.webp",
+      "width": 128
+    },
+    "armorSet": "Steel Wool Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:rimefrost-longjohns"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:rimefrost-longjohns",
+      "d2:armor:steel-wool-sweater",
+      "d2:armor:steel-wool-boots",
+      "d2:armor:steel-wool-cap"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875002,
+      "title": "Dungeons II:Steel Wool Leggings",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Steel_Wool_Leggings"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:steel-wool-sweater",
+    "slug": "steel-wool-sweater",
+    "game": "d2",
+    "category": "armor",
+    "name": "Steel Wool Sweater",
+    "description": "A cozy sweater, infused with the warmth of wool and the strength of steel.",
+    "rarity": "common",
+    "image": {
+      "alt": "Steel Wool Sweater icon",
+      "height": 128,
+      "src": "/images/d2/armor/steel-wool-sweater.webp",
+      "width": 128
+    },
+    "armorSet": "Steel Wool Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:humbler-huskland"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:rimefrost-armor-chestplate"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:rimefrost-armor-chestplate",
+      "d2:armor:steel-wool-boots",
+      "d2:armor:steel-wool-cap",
+      "d2:armor:steel-wool-leggings"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874942,
+      "title": "Dungeons II:Steel Wool Sweater",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Steel_Wool_Sweater"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:treehugger-chestplate",
+    "slug": "treehugger-chestplate",
+    "game": "d2",
+    "category": "armor",
+    "name": "Treehugger Chestplate",
+    "description": "Your enemes will soon realize they're barking up the wrong tree.",
+    "rarity": "common",
+    "image": {
+      "alt": "Treehugger Chestplate icon",
+      "height": 128,
+      "src": "/images/d2/armor/treehugger-chestplate.webp",
+      "width": 128
+    },
+    "armorSet": "Treehugger Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:woodsprite-barkpiece"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:woodsprite-barkpiece",
+      "d2:armor:treehugger-clogs",
+      "d2:armor:treehugger-leggings",
+      "d2:armor:treehugger-mask"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3886461,
+      "title": "Dungeons II:Treehugger Chestplate",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Treehugger_Chestplate"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:treehugger-clogs",
+    "slug": "treehugger-clogs",
+    "game": "d2",
+    "category": "armor",
+    "name": "Treehugger Clogs",
+    "description": "For a traveler who loves walking in the woods.",
+    "rarity": "common",
+    "image": {
+      "alt": "Treehugger Clogs icon",
+      "height": 128,
+      "src": "/images/d2/armor/treehugger-clogs.webp",
+      "width": 128
+    },
+    "armorSet": "Treehugger Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:woodsprite-root-boots"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:woodsprite-root-boots",
+      "d2:armor:treehugger-leggings",
+      "d2:armor:treehugger-mask",
+      "d2:armor:treehugger-chestplate"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3886458,
+      "title": "Dungeons II:Treehugger Clogs",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Treehugger_Clogs"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:treehugger-leggings",
+    "slug": "treehugger-leggings",
+    "game": "d2",
+    "category": "armor",
+    "name": "Treehugger Leggings",
+    "description": "For when you need to make like a tree and leave.",
+    "rarity": "common",
+    "image": {
+      "alt": "Treehugger Leggings icon",
+      "height": 128,
+      "src": "/images/d2/armor/treehugger-leggings.webp",
+      "width": 128
+    },
+    "armorSet": "Treehugger Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:woodsprite-trunks"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:woodsprite-trunks",
+      "d2:armor:treehugger-mask",
+      "d2:armor:treehugger-chestplate",
+      "d2:armor:treehugger-clogs"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3886462,
+      "title": "Dungeons II:Treehugger Leggings",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Treehugger_Leggings"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:treehugger-mask",
+    "slug": "treehugger-mask",
+    "game": "d2",
+    "category": "armor",
+    "name": "Treehugger Mask",
+    "description": "If you can't see the forest for the trees, you're probably wearing it the wrong way.",
+    "rarity": "common",
+    "image": {
+      "alt": "Treehugger Mask icon",
+      "height": 128,
+      "src": "/images/d2/armor/treehugger-mask.webp",
+      "width": 128
+    },
+    "armorSet": "Treehugger Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:woodsprite-crown"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:woodsprite-crown",
+      "d2:armor:treehugger-chestplate",
+      "d2:armor:treehugger-clogs",
+      "d2:armor:treehugger-leggings"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3886460,
+      "title": "Dungeons II:Treehugger Mask",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Treehugger_Mask"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:twisted-warden-blindfold",
+    "slug": "twisted-warden-blindfold",
+    "game": "d2",
+    "category": "armor",
+    "name": "Twisted Warden Blindfold",
+    "description": "A true master of the Deep Dark doesn't need their vision to make a critical hit.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Twisted Warden Blindfold icon",
+      "height": 128,
+      "src": "/images/d2/armor/twisted-warden-blindfold.webp",
+      "width": 128
+    },
+    "armorSet": "Twisted Warden Armor",
+    "baseItemId": "d2:armor:sculk-digger-hood",
+    "effectValues": [
+      {
+        "label": "Critical hits with melee weapons deal more damage",
+        "unit": "%",
+        "value": 45
+      }
+    ],
+    "effects": [
+      "Critical hits with melee weapons deal 45% more damage"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "crit",
+      "damage-boost",
+      "melee-damage"
+    ],
+    "related": [
+      "d2:armor:sculk-digger-hood",
+      "d2:armor:twisted-warden-sneakers",
+      "d2:armor:twisted-warden-tights",
+      "d2:armor:twisted-warden-vest"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3890781,
+      "title": "Dungeons II:Twisted Warden Blindfold",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Twisted_Warden_Blindfold"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:twisted-warden-sneakers",
+    "slug": "twisted-warden-sneakers",
+    "game": "d2",
+    "category": "armor",
+    "name": "Twisted Warden Sneakers",
+    "description": "A true master of the Deep Dark can sneak in and hit their enemy where it hurts.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Twisted Warden Sneakers icon",
+      "height": 128,
+      "src": "/images/d2/armor/twisted-warden-sneakers.webp",
+      "width": 128
+    },
+    "armorSet": "Twisted Warden Armor",
+    "baseItemId": "d2:armor:sculk-digger-boots",
+    "effectValues": [
+      {
+        "label": "Increases chance of critical hits with melee attacks",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "effects": [
+      "Increases chance of critical hits with melee attacks by 25%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "crit",
+      "melee-damage"
+    ],
+    "related": [
+      "d2:armor:sculk-digger-boots",
+      "d2:armor:twisted-warden-tights",
+      "d2:armor:twisted-warden-vest",
+      "d2:armor:twisted-warden-blindfold"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3890782,
+      "title": "Dungeons II:Twisted Warden Sneakers",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Twisted_Warden_Sneakers"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:twisted-warden-tights",
+    "slug": "twisted-warden-tights",
+    "game": "d2",
+    "category": "armor",
+    "name": "Twisted Warden Tights",
+    "description": "A true master of the Deep Dark doesn't need to wear anything but shadows... and perhaps a pair of tights.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Twisted Warden Tights icon",
+      "height": 128,
+      "src": "/images/d2/armor/twisted-warden-tights.webp",
+      "width": 128
+    },
+    "armorSet": "Twisted Warden Armor",
+    "baseItemId": "d2:armor:sculk-digger-leggings",
+    "effectValues": [
+      {
+        "label": "Shadowcloaking lasts longer",
+        "unit": "%",
+        "value": 45
+      }
+    ],
+    "effects": [
+      "Shadowcloaking lasts 45% longer"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "status-effects"
+    ],
+    "related": [
+      "d2:armor:sculk-digger-leggings",
+      "d2:armor:twisted-warden-vest",
+      "d2:armor:twisted-warden-blindfold",
+      "d2:armor:twisted-warden-sneakers"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3890678,
+      "title": "Dungeons II:Twisted Warden Tights",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Twisted_Warden_Tights"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:twisted-warden-vest",
+    "slug": "twisted-warden-vest",
+    "game": "d2",
+    "category": "armor",
+    "name": "Twisted Warden Vest",
+    "description": "A true master of the Deep Dark can dodge and duck without thinking.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Twisted Warden Vest icon",
+      "height": 256,
+      "src": "/images/d2/armor/twisted-warden-vest.webp",
+      "width": 256
+    },
+    "armorSet": "Twisted Warden Armor",
+    "baseItemId": "d2:armor:sculk-digger-robe",
+    "effectValues": [
+      {
+        "label": "Grants chance to evade melee damage",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "effects": [
+      "Grants an 20% chance to evade melee damage"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "melee-damage"
+    ],
+    "related": [
+      "d2:armor:sculk-digger-robe",
+      "d2:armor:twisted-warden-blindfold",
+      "d2:armor:twisted-warden-sneakers",
+      "d2:armor:twisted-warden-tights"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3890679,
+      "title": "Dungeons II:Twisted Warden Vest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Twisted_Warden_Vest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:wolfpack-boots",
+    "slug": "wolfpack-boots",
+    "game": "d2",
+    "category": "armor",
+    "name": "Wolfpack Boots",
+    "description": "A respectful offering from your wolf pack so you can run with them at midnight.",
+    "rarity": "common",
+    "image": {
+      "alt": "Wolfpack Boots icon",
+      "height": 128,
+      "src": "/images/d2/armor/wolfpack-boots.webp",
+      "width": 128
+    },
+    "armorSet": "Wolfpack Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "slot": "boots",
+    "variantIds": [
+      "d2:armor:packleader-paws"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:packleader-paws",
+      "d2:armor:wolfpack-hood",
+      "d2:armor:wolfpack-jacket",
+      "d2:armor:wolfpack-leggings"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:59.058Z",
+      "revisionId": 3875062,
+      "title": "Dungeons II:Wolfpack Boots",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Wolfpack_Boots"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:wolfpack-hood",
+    "slug": "wolfpack-hood",
+    "game": "d2",
+    "category": "armor",
+    "name": "Wolfpack Hood",
+    "description": "A respectful offering from your wolf pack so you can join their howling at night.",
+    "rarity": "common",
+    "image": {
+      "alt": "Wolfpack Hood icon",
+      "height": 128,
+      "src": "/images/d2/armor/wolfpack-hood.webp",
+      "width": 128
+    },
+    "armorSet": "Wolfpack Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "slot": "helmet",
+    "variantIds": [
+      "d2:armor:packleader-muzzle"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:packleader-muzzle",
+      "d2:armor:wolfpack-jacket",
+      "d2:armor:wolfpack-leggings",
+      "d2:armor:wolfpack-boots"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874881,
+      "title": "Dungeons II:Wolfpack Hood",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Wolfpack_Hood"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:wolfpack-jacket",
+    "slug": "wolfpack-jacket",
+    "game": "d2",
+    "category": "armor",
+    "name": "Wolfpack Jacket",
+    "description": "A respectful offering from your wolf pack to keep warm in the cold of night.",
+    "rarity": "common",
+    "image": {
+      "alt": "Wolfpack Jacket icon",
+      "height": 128,
+      "src": "/images/d2/armor/wolfpack-jacket.webp",
+      "width": 128
+    },
+    "armorSet": "Wolfpack Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "slot": "chestplate",
+    "variantIds": [
+      "d2:armor:packleader-hide"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:packleader-hide",
+      "d2:armor:wolfpack-leggings",
+      "d2:armor:wolfpack-boots",
+      "d2:armor:wolfpack-hood"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874947,
+      "title": "Dungeons II:Wolfpack Jacket",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Wolfpack_Jacket"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:wolfpack-leggings",
+    "slug": "wolfpack-leggings",
+    "game": "d2",
+    "category": "armor",
+    "name": "Wolfpack Leggings",
+    "description": "A respectful offering from your wolf pack so you can chase your tail under the full moon.",
+    "rarity": "common",
+    "image": {
+      "alt": "Wolfpack Leggings icon",
+      "height": 128,
+      "src": "/images/d2/armor/wolfpack-leggings.webp",
+      "width": 128
+    },
+    "armorSet": "Wolfpack Armor",
+    "effectValues": [],
+    "effects": [],
+    "isUnique": false,
+    "locations": [
+      "d2:locations:howling-woods"
+    ],
+    "slot": "leggings",
+    "variantIds": [
+      "d2:armor:packleader-fur-chaps"
+    ],
+    "tags": [],
+    "related": [
+      "d2:armor:packleader-fur-chaps",
+      "d2:armor:wolfpack-boots",
+      "d2:armor:wolfpack-hood",
+      "d2:armor:wolfpack-jacket"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875007,
+      "title": "Dungeons II:Wolfpack Leggings",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Wolfpack_Leggings"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:woodsprite-barkpiece",
+    "slug": "woodsprite-barkpiece",
+    "game": "d2",
+    "category": "armor",
+    "name": "Woodsprite Barkpiece",
+    "description": "This bark chestplate is imbued with the natural healing properties of the forest.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Woodsprite Barkpiece icon",
+      "height": 128,
+      "src": "/images/d2/armor/woodsprite-barkpiece.webp",
+      "width": 128
+    },
+    "armorSet": "Woodsprite Armor",
+    "baseItemId": "d2:armor:treehugger-chestplate",
+    "effectValues": [
+      {
+        "label": "Increases the player's maximum health",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "effects": [
+      "Increases the player's maximum health by 30%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "chestplate",
+    "variantIds": [],
+    "tags": [
+      "healing",
+      "max-health"
+    ],
+    "related": [
+      "d2:armor:treehugger-chestplate",
+      "d2:armor:woodsprite-crown",
+      "d2:armor:woodsprite-root-boots",
+      "d2:armor:woodsprite-trunks"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:57.087Z",
+      "revisionId": 3874946,
+      "title": "Dungeons II:Woodsprite Barkpiece",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Woodsprite_Barkpiece"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:woodsprite-crown",
+    "slug": "woodsprite-crown",
+    "game": "d2",
+    "category": "armor",
+    "name": "Woodsprite Crown",
+    "description": "A dark oak mask crowned with enchanted flowers that grant natural resistance to your pets.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Woodsprite Crown icon",
+      "height": 128,
+      "src": "/images/d2/armor/woodsprite-crown.webp",
+      "width": 128
+    },
+    "armorSet": "Woodsprite Armor",
+    "baseItemId": "d2:armor:treehugger-mask",
+    "effectValues": [
+      {
+        "label": "Companions take less damage",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "effects": [
+      "Companions take 20% less damage"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "helmet",
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "summoning"
+    ],
+    "related": [
+      "d2:armor:treehugger-mask",
+      "d2:armor:woodsprite-root-boots",
+      "d2:armor:woodsprite-trunks",
+      "d2:armor:woodsprite-barkpiece"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:56.086Z",
+      "revisionId": 3874880,
+      "title": "Dungeons II:Woodsprite Crown",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Woodsprite_Crown"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:woodsprite-root-boots",
+    "slug": "woodsprite-root-boots",
+    "game": "d2",
+    "category": "armor",
+    "name": "Woodsprite Root Boots",
+    "description": "A pair of root boots to keep you grounded with endlessly springing twigs to fletch arrows.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Woodsprite Root Boots icon",
+      "height": 128,
+      "src": "/images/d2/armor/woodsprite-root-boots.webp",
+      "width": 128
+    },
+    "armorSet": "Woodsprite Armor",
+    "baseItemId": "d2:armor:treehugger-clogs",
+    "effectValues": [
+      {
+        "label": "Reduces ranged ammo cooldown time",
+        "unit": "%",
+        "value": -35
+      }
+    ],
+    "effects": [
+      "Reduces ranged ammo cooldown time by 35%"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "boots",
+    "variantIds": [],
+    "tags": [
+      "ammo",
+      "cooldown"
+    ],
+    "related": [
+      "d2:armor:treehugger-clogs",
+      "d2:armor:woodsprite-trunks",
+      "d2:armor:woodsprite-barkpiece",
+      "d2:armor:woodsprite-crown"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875060,
+      "title": "Dungeons II:Woodsprite Root Boots",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Woodsprite_Root_Boots"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:armor:woodsprite-trunks",
+    "slug": "woodsprite-trunks",
+    "game": "d2",
+    "category": "armor",
+    "name": "Woodsprite Trunks",
+    "description": "A pair of thorned treetrunk leggings for prickly kicking back when under attack.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Woodsprite Trunks icon",
+      "height": 128,
+      "src": "/images/d2/armor/woodsprite-trunks.webp",
+      "width": 128
+    },
+    "armorSet": "Woodsprite Armor",
+    "baseItemId": "d2:armor:treehugger-leggings",
+    "effectValues": [
+      {
+        "label": "Deals received damage back to the attacker",
+        "unit": "%",
+        "value": 100
+      }
+    ],
+    "effects": [
+      "Deals 100% of received damage back to the attacker"
+    ],
+    "isUnique": true,
+    "locations": [
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "slot": "leggings",
+    "variantIds": [],
+    "tags": [
+      "defense"
+    ],
+    "related": [
+      "d2:armor:treehugger-leggings",
+      "d2:armor:woodsprite-barkpiece",
+      "d2:armor:woodsprite-crown",
+      "d2:armor:woodsprite-root-boots"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:23:58.094Z",
+      "revisionId": 3875006,
+      "title": "Dungeons II:Woodsprite Trunks",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Woodsprite_Trunks"
+    },
+    "quality": "verified"
+  }
+]

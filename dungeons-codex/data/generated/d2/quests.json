@@ -1,0 +1,2088 @@
+[
+  {
+    "id": "d2:quests:a-dip-in-ichor-springs",
+    "slug": "a-dip-in-ichor-springs",
+    "game": "d2",
+    "category": "quests",
+    "name": "A Dip in Ichor Springs",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:humbler-huskland"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:armor:oracle-crown",
+              "d2:armor:oracle-mantle",
+              "d2:armor:oracle-tights",
+              "d2:armor:oracle-sandals"
+            ],
+            "text": "Random piece of Oracle Armor"
+          }
+        ],
+        "when": "always",
+        "xp": 550
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:a-friend-till-the-end",
+      "d2:quests:breaking-camps",
+      "d2:quests:gone-fishing",
+      "d2:quests:illager-intelligence",
+      "d2:quests:illegal-illager-trials",
+      "d2:quests:keeper-of-the-bees"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:a-friend-till-the-end",
+    "slug": "a-friend-till-the-end",
+    "game": "d2",
+    "category": "quests",
+    "name": "A Friend till the End",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:lullaby-hills"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:talismans:prickles-mark"
+        ],
+        "when": "always",
+        "xp": 550
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:breaking-camps",
+      "d2:quests:gone-fishing",
+      "d2:quests:illager-intelligence",
+      "d2:quests:illegal-illager-trials",
+      "d2:quests:keeper-of-the-bees",
+      "d2:quests:lonesome-in-lullaby-hills"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:a-monstrosity-in-the-meadow",
+    "slug": "a-monstrosity-in-the-meadow",
+    "game": "d2",
+    "category": "quests",
+    "name": "A Monstrosity in the Meadow",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:singers-meadow"
+    ],
+    "order": 13,
+    "questType": "core",
+    "rewards": [
+      {
+        "items": [
+          "d2:weapons:sculker-claws"
+        ],
+        "randomFrom": [
+          {
+            "count": 2,
+            "from": [
+              "d2:armor:realmreacher-hat",
+              "d2:armor:realmreacher-robe",
+              "d2:armor:realmreacher-leggings",
+              "d2:armor:realmreacher-boots"
+            ],
+            "text": "2 random pieces of Realmreacher Armor"
+          },
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:singers-meadow"
+            ],
+            "text": "Random gear from Singer's Meadow"
+          }
+        ],
+        "when": "always",
+        "xp": 2750
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:corruption-in-the-woods",
+      "d2:quests:down-into-the-deep-dark",
+      "d2:quests:escape-from-squid-coast",
+      "d2:quests:hiking-frozen-highlands",
+      "d2:quests:lost-harmonies",
+      "d2:quests:returning-the-note-blocks"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:breaking-camps",
+    "slug": "breaking-camps",
+    "game": "d2",
+    "category": "quests",
+    "name": "Breaking Camps",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:humbler-huskland"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:talismans:essence-of-efficiency",
+          "d2:weapons:paragon"
+        ],
+        "when": "always",
+        "xp": 2750
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:gone-fishing",
+      "d2:quests:illager-intelligence",
+      "d2:quests:illegal-illager-trials",
+      "d2:quests:keeper-of-the-bees",
+      "d2:quests:lonesome-in-lullaby-hills",
+      "d2:quests:part-of-the-pack"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:corruption-in-the-woods",
+    "slug": "corruption-in-the-woods",
+    "game": "d2",
+    "category": "quests",
+    "name": "Corruption in the Woods",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "order": 6,
+    "questType": "core",
+    "rewards": [
+      {
+        "items": [
+          "d2:weapons:heavy-crossbow"
+        ],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:howling-woods"
+            ],
+            "text": "Random gear from Howling Woods"
+          }
+        ],
+        "when": "always",
+        "xp": 2750
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:down-into-the-deep-dark",
+      "d2:quests:escape-from-squid-coast",
+      "d2:quests:hiking-frozen-highlands",
+      "d2:quests:lost-harmonies",
+      "d2:quests:returning-the-note-blocks",
+      "d2:quests:the-final-souldown"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:down-into-the-deep-dark",
+    "slug": "down-into-the-deep-dark",
+    "game": "d2",
+    "category": "quests",
+    "name": "Down into the Deep Dark",
+    "areas": [
+      "The Deep Dark"
+    ],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "order": 7,
+    "questType": "core",
+    "rewards": [
+      {
+        "items": [
+          "d2:talismans:twisted-tooth",
+          "d2:armor:twisted-warden-vest"
+        ],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "The Deep Dark"
+            ],
+            "text": "Random gear from The Deep Dark"
+          }
+        ],
+        "when": "always",
+        "xp": 4180
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:escape-from-squid-coast",
+      "d2:quests:hiking-frozen-highlands",
+      "d2:quests:lost-harmonies",
+      "d2:quests:returning-the-note-blocks",
+      "d2:quests:the-final-souldown",
+      "d2:quests:the-illagers-from-the-rift"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:escape-from-squid-coast",
+    "slug": "escape-from-squid-coast",
+    "game": "d2",
+    "category": "quests",
+    "name": "Escape from Squid Coast",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:squid-coast"
+    ],
+    "order": 1,
+    "questType": "core",
+    "rewards": [
+      {
+        "items": [],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:armor:mystic-circlet",
+              "d2:armor:mystic-robe",
+              "d2:armor:mystic-leggings",
+              "d2:armor:mystic-boots"
+            ],
+            "text": "Random piece of Mystic Armor"
+          },
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:honeycomb-fields"
+            ],
+            "text": "Random gear from Honeycomb Fields"
+          }
+        ],
+        "when": "always",
+        "xp": 550
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:hiking-frozen-highlands",
+      "d2:quests:lost-harmonies",
+      "d2:quests:returning-the-note-blocks",
+      "d2:quests:the-final-souldown",
+      "d2:quests:the-illagers-from-the-rift",
+      "d2:quests:the-lost-merchant"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:gone-fishing",
+    "slug": "gone-fishing",
+    "game": "d2",
+    "category": "quests",
+    "name": "Gone Fishing",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:frozen-highlands"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:talismans:looters-charm"
+        ],
+        "when": "always",
+        "xp": 550
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:illager-intelligence",
+      "d2:quests:illegal-illager-trials",
+      "d2:quests:keeper-of-the-bees",
+      "d2:quests:lonesome-in-lullaby-hills",
+      "d2:quests:part-of-the-pack",
+      "d2:quests:rage-of-the-sifters"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:hiking-frozen-highlands",
+    "slug": "hiking-frozen-highlands",
+    "game": "d2",
+    "category": "quests",
+    "name": "Hiking Frozen Highlands",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:frozen-highlands"
+    ],
+    "order": 10,
+    "questType": "core",
+    "rewards": [
+      {
+        "items": [
+          "d2:weapons:mob-mallet"
+        ],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:frozen-highlands"
+            ],
+            "text": "Random gear from Frozen Fortress"
+          }
+        ],
+        "when": "always",
+        "xp": 4180
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:lost-harmonies",
+      "d2:quests:returning-the-note-blocks",
+      "d2:quests:the-final-souldown",
+      "d2:quests:the-illagers-from-the-rift",
+      "d2:quests:the-lost-merchant",
+      "d2:quests:the-missing-note-blocks"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:illager-intelligence",
+    "slug": "illager-intelligence",
+    "game": "d2",
+    "category": "quests",
+    "name": "Illager Intelligence",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:frozen-highlands"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:enchantments:soul-blast",
+          "d2:talismans:sculk-badge"
+        ],
+        "when": "always",
+        "xp": 2750
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:illegal-illager-trials",
+      "d2:quests:keeper-of-the-bees",
+      "d2:quests:lonesome-in-lullaby-hills",
+      "d2:quests:part-of-the-pack",
+      "d2:quests:rage-of-the-sifters",
+      "d2:quests:recycling-your-monstrosity"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:illegal-illager-trials",
+    "slug": "illegal-illager-trials",
+    "game": "d2",
+    "category": "quests",
+    "name": "Illegal Illager Trials",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:rainy-plains"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:talismans:armadillo-amulet",
+          "d2:artifacts:corrupted-seeds"
+        ],
+        "when": "always",
+        "xp": 550
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:keeper-of-the-bees",
+      "d2:quests:lonesome-in-lullaby-hills",
+      "d2:quests:part-of-the-pack",
+      "d2:quests:rage-of-the-sifters",
+      "d2:quests:recycling-your-monstrosity",
+      "d2:quests:the-clerics-apprentice"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:keeper-of-the-bees",
+    "slug": "keeper-of-the-bees",
+    "game": "d2",
+    "category": "quests",
+    "name": "Keeper of the Bees",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:armor:hivemind-hardhat"
+        ],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:honeycomb-fields"
+            ],
+            "text": "Random gear from Honeycomb Fields"
+          }
+        ],
+        "when": "always",
+        "xp": 550
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:lonesome-in-lullaby-hills",
+      "d2:quests:part-of-the-pack",
+      "d2:quests:rage-of-the-sifters",
+      "d2:quests:recycling-your-monstrosity",
+      "d2:quests:the-clerics-apprentice",
+      "d2:quests:the-copper-monstrosity-revived"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:lonesome-in-lullaby-hills",
+    "slug": "lonesome-in-lullaby-hills",
+    "game": "d2",
+    "category": "quests",
+    "name": "Lonesome in Lullaby Hills",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:lullaby-hills"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:weapons:lullaby-blade"
+        ],
+        "when": "always",
+        "xp": 550
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:part-of-the-pack",
+      "d2:quests:rage-of-the-sifters",
+      "d2:quests:recycling-your-monstrosity",
+      "d2:quests:the-clerics-apprentice",
+      "d2:quests:the-copper-monstrosity-revived",
+      "d2:quests:the-creeper-candle-conspiracy"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:lost-harmonies",
+    "slug": "lost-harmonies",
+    "game": "d2",
+    "category": "quests",
+    "name": "Lost Harmonies",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:singers-meadow"
+    ],
+    "order": 12,
+    "questType": "core",
+    "rewards": [
+      {
+        "items": [],
+        "randomFrom": [
+          {
+            "count": 2,
+            "from": [
+              "d2:armor:nomad-hood",
+              "d2:armor:nomad-chestplate",
+              "d2:armor:nomad-leggings",
+              "d2:armor:nomad-boots"
+            ],
+            "text": "2 random pieces of Nomad Armor"
+          },
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:singers-meadow"
+            ],
+            "text": "Random gear from Singer's Meadow"
+          }
+        ],
+        "when": "always",
+        "xp": 2750
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:returning-the-note-blocks",
+      "d2:quests:the-final-souldown",
+      "d2:quests:the-illagers-from-the-rift",
+      "d2:quests:the-lost-merchant",
+      "d2:quests:the-missing-note-blocks",
+      "d2:quests:the-silence-in-little-howl"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:part-of-the-pack",
+    "slug": "part-of-the-pack",
+    "game": "d2",
+    "category": "quests",
+    "name": "Part of the Pack",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:weapons:wolf-claws"
+        ],
+        "when": "always",
+        "xp": 550
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:rage-of-the-sifters",
+      "d2:quests:recycling-your-monstrosity",
+      "d2:quests:the-clerics-apprentice",
+      "d2:quests:the-copper-monstrosity-revived",
+      "d2:quests:the-creeper-candle-conspiracy",
+      "d2:quests:the-fight-at-the-end-of-the-tunnel"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:rage-of-the-sifters",
+    "slug": "rage-of-the-sifters",
+    "game": "d2",
+    "category": "quests",
+    "name": "Rage of the Sifters",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:singers-meadow"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [],
+        "randomFrom": [
+          {
+            "count": 2,
+            "from": [
+              "d2:armor:sifter-hood",
+              "d2:armor:sifter-robe",
+              "d2:armor:sifter-leggings",
+              "d2:armor:sifter-boots"
+            ],
+            "text": "2 random pieces of Sifter Armor"
+          }
+        ],
+        "when": "always",
+        "xp": 550
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:recycling-your-monstrosity",
+      "d2:quests:the-clerics-apprentice",
+      "d2:quests:the-copper-monstrosity-revived",
+      "d2:quests:the-creeper-candle-conspiracy",
+      "d2:quests:the-fight-at-the-end-of-the-tunnel",
+      "d2:quests:the-final-souldown-encore"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:recycling-your-monstrosity",
+    "slug": "recycling-your-monstrosity",
+    "game": "d2",
+    "category": "quests",
+    "name": "Recycling Your Monstrosity",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:rainy-plains"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:weapons:pride-of-the-plains"
+        ],
+        "when": "always",
+        "xp": 550
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-clerics-apprentice",
+      "d2:quests:the-copper-monstrosity-revived",
+      "d2:quests:the-creeper-candle-conspiracy",
+      "d2:quests:the-fight-at-the-end-of-the-tunnel",
+      "d2:quests:the-final-souldown-encore",
+      "d2:quests:the-freezing-golem"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:returning-the-note-blocks",
+    "slug": "returning-the-note-blocks",
+    "game": "d2",
+    "category": "quests",
+    "name": "Returning the Note Blocks",
+    "areas": [
+      "The Deep Dark"
+    ],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:singers-meadow"
+    ],
+    "order": 11,
+    "questType": "core",
+    "rewards": [
+      {
+        "items": [
+          "d2:talismans:tendrils-of-the-sprout"
+        ],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "The Deep Dark"
+            ],
+            "text": "Random gear from The Deep Dark"
+          }
+        ],
+        "when": "always",
+        "xp": 2750
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-final-souldown",
+      "d2:quests:the-illagers-from-the-rift",
+      "d2:quests:the-lost-merchant",
+      "d2:quests:the-missing-note-blocks",
+      "d2:quests:the-silence-in-little-howl",
+      "d2:quests:training-with-the-enchantsmith"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-clerics-apprentice",
+    "slug": "the-clerics-apprentice",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Cleric's Apprentice",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [],
+        "randomFrom": [
+          {
+            "count": 2,
+            "from": [
+              "d2:armor:mushroom-cap",
+              "d2:armor:mushroom-robe",
+              "d2:armor:mushroom-leggings",
+              "d2:armor:mushroom-boots"
+            ],
+            "text": "2 random pieces of Mushroom Armor"
+          }
+        ],
+        "when": "always",
+        "xp": 550
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-copper-monstrosity-revived",
+      "d2:quests:the-creeper-candle-conspiracy",
+      "d2:quests:the-fight-at-the-end-of-the-tunnel",
+      "d2:quests:the-final-souldown-encore",
+      "d2:quests:the-freezing-golem",
+      "d2:quests:the-prime-enchanter-revived"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-copper-monstrosity-revived",
+    "slug": "the-copper-monstrosity-revived",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Copper Monstrosity Revived",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:rainy-plains"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:weapons:stormcaller"
+        ],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:rainy-plains"
+            ],
+            "text": "Random gear from Rainy Plains"
+          }
+        ],
+        "when": "first",
+        "xp": 1100
+      },
+      {
+        "items": [],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:rainy-plains"
+            ],
+            "text": "Random gear from Rainy Plains"
+          }
+        ],
+        "when": "subsequent",
+        "xp": 1000
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-creeper-candle-conspiracy",
+      "d2:quests:the-fight-at-the-end-of-the-tunnel",
+      "d2:quests:the-final-souldown-encore",
+      "d2:quests:the-freezing-golem",
+      "d2:quests:the-prime-enchanter-revived",
+      "d2:quests:the-redstone-monstrosity-revived"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-creeper-candle-conspiracy",
+    "slug": "the-creeper-candle-conspiracy",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Creeper Candle Conspiracy",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:artifacts:creeper-candle"
+        ],
+        "when": "always",
+        "xp": 550
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-fight-at-the-end-of-the-tunnel",
+      "d2:quests:the-final-souldown-encore",
+      "d2:quests:the-freezing-golem",
+      "d2:quests:the-prime-enchanter-revived",
+      "d2:quests:the-redstone-monstrosity-revived",
+      "d2:quests:the-rusting-golem"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-fight-at-the-end-of-the-tunnel",
+    "slug": "the-fight-at-the-end-of-the-tunnel",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Fight at the End of the Tunnel",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:frozen-highlands"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:weapons:pickaxe"
+        ],
+        "randomFrom": [
+          {
+            "count": 2,
+            "from": [
+              "d2:armor:steel-wool-cap",
+              "d2:armor:steel-wool-sweater",
+              "d2:armor:steel-wool-leggings",
+              "d2:armor:steel-wool-boots"
+            ],
+            "text": "2 random pieces of Steel Wool Armor"
+          }
+        ],
+        "when": "always",
+        "xp": 2750
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-final-souldown-encore",
+      "d2:quests:the-freezing-golem",
+      "d2:quests:the-prime-enchanter-revived",
+      "d2:quests:the-redstone-monstrosity-revived",
+      "d2:quests:the-rusting-golem",
+      "d2:quests:the-sculk-monstrosity-revived"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-final-souldown",
+    "slug": "the-final-souldown",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Final Souldown",
+    "areas": [
+      "The Deep Dark"
+    ],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:lullaby-hills"
+    ],
+    "order": 15,
+    "questType": "core",
+    "rewards": [
+      {
+        "items": [
+          "d2:talismans:golem-kit",
+          "d2:weapons:emerald-hammer"
+        ],
+        "randomFrom": [
+          {
+            "count": 2,
+            "from": [
+              "d2:armor:humbler-antenna",
+              "d2:armor:humbler-carapace",
+              "d2:armor:humbler-greaves",
+              "d2:armor:humbler-tarsi"
+            ],
+            "text": "2 random pieces of Humbler Armor"
+          },
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:humbler-huskland"
+            ],
+            "text": "Random gear from Humbler Huskland"
+          }
+        ],
+        "when": "always",
+        "xp": 4180
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-illagers-from-the-rift",
+      "d2:quests:the-lost-merchant",
+      "d2:quests:the-missing-note-blocks",
+      "d2:quests:the-silence-in-little-howl",
+      "d2:quests:training-with-the-enchantsmith",
+      "d2:quests:wading-rainy-plains"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-final-souldown-encore",
+    "slug": "the-final-souldown-encore",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Final Souldown Encore",
+    "areas": [
+      "The Deep Dark"
+    ],
+    "dlcExclusive": false,
+    "locationIds": [],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:weapons:sift-sickles",
+          "d2:weapons:harp-crossbow",
+          "d2:artifacts:soul-harvester"
+        ],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:armor:soul-corruptor-mask",
+              "d2:armor:soul-corruptor-duster",
+              "d2:armor:soul-corruptor-sash",
+              "d2:armor:soul-corruptor-sandals"
+            ],
+            "text": "Random piece of Soul Corruptor Armor"
+          },
+          {
+            "count": 3,
+            "from": [
+              "d2:locations:lullaby-hills"
+            ],
+            "text": "3 random gears from Lullaby Hills"
+          }
+        ],
+        "when": "first",
+        "xp": 2750
+      },
+      {
+        "items": [],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:lullaby-hills"
+            ],
+            "text": "Random gear from Lullaby Hills"
+          }
+        ],
+        "when": "subsequent",
+        "xp": 2500
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-freezing-golem",
+      "d2:quests:the-prime-enchanter-revived",
+      "d2:quests:the-redstone-monstrosity-revived",
+      "d2:quests:the-rusting-golem",
+      "d2:quests:the-sculk-monstrosity-revived",
+      "d2:quests:the-sneezing-golem"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-freezing-golem",
+    "slug": "the-freezing-golem",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Freezing Golem",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:frozen-highlands"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [],
+        "when": "always",
+        "xp": 550
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-prime-enchanter-revived",
+      "d2:quests:the-redstone-monstrosity-revived",
+      "d2:quests:the-rusting-golem",
+      "d2:quests:the-sculk-monstrosity-revived",
+      "d2:quests:the-sneezing-golem",
+      "d2:quests:the-trembling-golem"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-illagers-from-the-rift",
+    "slug": "the-illagers-from-the-rift",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Illagers from the Rift",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "order": 2,
+    "questType": "core",
+    "rewards": [
+      {
+        "items": [
+          "d2:talismans:sigil-of-beeswax",
+          "d2:artifacts:honey-dipper"
+        ],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:honeycomb-fields"
+            ],
+            "text": "Random gear from Honeycomb Fields"
+          }
+        ],
+        "when": "always",
+        "xp": 1100
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-lost-merchant",
+      "d2:quests:the-missing-note-blocks",
+      "d2:quests:the-silence-in-little-howl",
+      "d2:quests:training-with-the-enchantsmith",
+      "d2:quests:wading-rainy-plains",
+      "d2:quests:wrath-of-the-sculkers"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-lost-merchant",
+    "slug": "the-lost-merchant",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Lost Merchant",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "order": 3,
+    "questType": "core",
+    "rewards": [
+      {
+        "items": [],
+        "randomFrom": [
+          {
+            "count": 2,
+            "from": [
+              "d2:armor:beekeeper-veil",
+              "d2:armor:beekeeper-suit",
+              "d2:armor:beekeeper-leggings",
+              "d2:armor:beekeeper-boots"
+            ],
+            "text": "2 random pieces of Beekeeper Armor"
+          },
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:honeycomb-fields"
+            ],
+            "text": "Random gear from Honeycomb Fields"
+          }
+        ],
+        "when": "always",
+        "xp": 1100
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-missing-note-blocks",
+      "d2:quests:the-silence-in-little-howl",
+      "d2:quests:training-with-the-enchantsmith",
+      "d2:quests:wading-rainy-plains",
+      "d2:quests:wrath-of-the-sculkers",
+      "d2:quests:a-monstrosity-in-the-meadow"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-missing-note-blocks",
+    "slug": "the-missing-note-blocks",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Missing Note Blocks",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "order": 8,
+    "questType": "core",
+    "rewards": [
+      {
+        "items": [
+          "d2:talismans:fist-of-iron",
+          "d2:talismans:twig-of-dark-oak"
+        ],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:armor:phantom-helmet",
+              "d2:armor:phantom-chestplate",
+              "d2:armor:phantom-pants",
+              "d2:armor:phantom-boots"
+            ],
+            "text": "Random piece of Phantom Armor"
+          },
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:howling-woods"
+            ],
+            "text": "Random gear from Howling Woods"
+          }
+        ],
+        "when": "always",
+        "xp": 1100
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-silence-in-little-howl",
+      "d2:quests:training-with-the-enchantsmith",
+      "d2:quests:wading-rainy-plains",
+      "d2:quests:wrath-of-the-sculkers",
+      "d2:quests:a-monstrosity-in-the-meadow",
+      "d2:quests:corruption-in-the-woods"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-prime-enchanter-revived",
+    "slug": "the-prime-enchanter-revived",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Prime Enchanter Revived",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:frozen-highlands"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:talismans:amethyst-lens"
+        ],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:frozen-highlands"
+            ],
+            "text": "Random gear from Frozen Fortress"
+          }
+        ],
+        "when": "first",
+        "xp": 550
+      },
+      {
+        "items": [],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:frozen-highlands"
+            ],
+            "text": "Random gear from Frozen Fortress"
+          }
+        ],
+        "when": "subsequent",
+        "xp": 500
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-redstone-monstrosity-revived",
+      "d2:quests:the-rusting-golem",
+      "d2:quests:the-sculk-monstrosity-revived",
+      "d2:quests:the-sneezing-golem",
+      "d2:quests:the-trembling-golem",
+      "d2:quests:the-twisted-warden-revived"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-redstone-monstrosity-revived",
+    "slug": "the-redstone-monstrosity-revived",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Redstone Monstrosity Revived",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:lullaby-hills"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:weapons:redstone-wrecker"
+        ],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:armor:monstrosity-horns",
+              "d2:armor:monstrosity-armor-chestplate",
+              "d2:armor:monstrosity-greaves",
+              "d2:armor:monstrosity-stompers"
+            ],
+            "text": "Random piece of Monstrosity Armor"
+          },
+          {
+            "count": 1,
+            "from": [
+              "d2:artifacts:redstone-mine-launcher",
+              "d2:artifacts:flaming-quiver",
+              "d2:artifacts:cinder-scepter",
+              "d2:artifacts:pouch-of-ember",
+              "d2:artifacts:firework-arrow",
+              "d2:artifacts:blaze-bangle",
+              "d2:artifacts:creeper-candle"
+            ],
+            "text": "Random artifact between"
+          },
+          {
+            "count": 3,
+            "from": [
+              "d2:locations:lullaby-hills"
+            ],
+            "text": "3 random gears from Lullaby Hills"
+          }
+        ],
+        "when": "first",
+        "xp": 1100
+      },
+      {
+        "items": [],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:lullaby-hills"
+            ],
+            "text": "Random gear from Lullaby Hills"
+          }
+        ],
+        "when": "subsequent",
+        "xp": 1000
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-rusting-golem",
+      "d2:quests:the-sculk-monstrosity-revived",
+      "d2:quests:the-sneezing-golem",
+      "d2:quests:the-trembling-golem",
+      "d2:quests:the-twisted-warden-revived",
+      "d2:quests:the-witch-revived"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-rusting-golem",
+    "slug": "the-rusting-golem",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Rusting Golem",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:rainy-plains"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [],
+        "when": "always",
+        "xp": 550
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-sculk-monstrosity-revived",
+      "d2:quests:the-sneezing-golem",
+      "d2:quests:the-trembling-golem",
+      "d2:quests:the-twisted-warden-revived",
+      "d2:quests:the-witch-revived",
+      "d2:quests:wildflower-warrior"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-sculk-monstrosity-revived",
+    "slug": "the-sculk-monstrosity-revived",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Sculk Monstrosity Revived",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:singers-meadow"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:weapons:phantom-wing",
+          "d2:weapons:sculkers-bane"
+        ],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:artifacts:soul-harvester",
+              "d2:artifacts:warrior-drums",
+              "d2:artifacts:humbling-horn",
+              "d2:artifacts:echo-ocarina",
+              "d2:artifacts:turtle-masters-mandolin",
+              "d2:artifacts:fighters-flute"
+            ],
+            "text": "Random artifact between"
+          },
+          {
+            "count": 3,
+            "from": [
+              "d2:locations:singers-meadow"
+            ],
+            "text": "3 random gears from Singer's Meadow"
+          }
+        ],
+        "when": "first",
+        "xp": 1100
+      },
+      {
+        "items": [],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:singers-meadow"
+            ],
+            "text": "Random gear from Singer's Meadow"
+          }
+        ],
+        "when": "subsequent",
+        "xp": 1000
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-sneezing-golem",
+      "d2:quests:the-trembling-golem",
+      "d2:quests:the-twisted-warden-revived",
+      "d2:quests:the-witch-revived",
+      "d2:quests:wildflower-warrior",
+      "d2:quests:wobble-run"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-silence-in-little-howl",
+    "slug": "the-silence-in-little-howl",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Silence in Little Howl",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "order": 4,
+    "questType": "core",
+    "rewards": [
+      {
+        "items": [
+          "d2:talismans:tasty-bone",
+          "d2:weapons:axe"
+        ],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:howling-woods"
+            ],
+            "text": "Random gear from Howling Woods"
+          }
+        ],
+        "when": "always",
+        "xp": 2750
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:training-with-the-enchantsmith",
+      "d2:quests:wading-rainy-plains",
+      "d2:quests:wrath-of-the-sculkers",
+      "d2:quests:a-monstrosity-in-the-meadow",
+      "d2:quests:corruption-in-the-woods",
+      "d2:quests:down-into-the-deep-dark"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-sneezing-golem",
+    "slug": "the-sneezing-golem",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Sneezing Golem",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [],
+        "when": "always",
+        "xp": 550
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-trembling-golem",
+      "d2:quests:the-twisted-warden-revived",
+      "d2:quests:the-witch-revived",
+      "d2:quests:wildflower-warrior",
+      "d2:quests:wobble-run",
+      "d2:quests:a-dip-in-ichor-springs"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-trembling-golem",
+    "slug": "the-trembling-golem",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Trembling Golem",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [],
+        "when": "first",
+        "xp": 550
+      },
+      {
+        "items": [],
+        "when": "subsequent",
+        "xp": 500
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-twisted-warden-revived",
+      "d2:quests:the-witch-revived",
+      "d2:quests:wildflower-warrior",
+      "d2:quests:wobble-run",
+      "d2:quests:a-dip-in-ichor-springs",
+      "d2:quests:a-friend-till-the-end"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-twisted-warden-revived",
+    "slug": "the-twisted-warden-revived",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Twisted Warden Revived",
+    "areas": [
+      "The Deep Dark"
+    ],
+    "dlcExclusive": false,
+    "locationIds": [],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:weapons:venomous-fangs"
+        ],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:armor:sculk-digger-hood",
+              "d2:armor:sculk-digger-robe",
+              "d2:armor:sculk-digger-leggings",
+              "d2:armor:sculk-digger-boots"
+            ],
+            "text": "Random piece of Sculk Digger Armor"
+          },
+          {
+            "count": 1,
+            "from": [
+              "The Deep Dark"
+            ],
+            "text": "Random gear from The Deep Dark"
+          }
+        ],
+        "when": "first",
+        "xp": 550
+      },
+      {
+        "items": [],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "The Deep Dark"
+            ],
+            "text": "Random gear from The Deep Dark"
+          }
+        ],
+        "when": "subsequent",
+        "xp": 500
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:the-witch-revived",
+      "d2:quests:wildflower-warrior",
+      "d2:quests:wobble-run",
+      "d2:quests:a-dip-in-ichor-springs",
+      "d2:quests:a-friend-till-the-end",
+      "d2:quests:breaking-camps"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:the-witch-revived",
+    "slug": "the-witch-revived",
+    "game": "d2",
+    "category": "quests",
+    "name": "The Witch Revived",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:weapons:sculker-claws"
+        ],
+        "randomFrom": [
+          {
+            "count": 2,
+            "from": [
+              "d2:armor:realmreacher-hat",
+              "d2:armor:realmreacher-robe",
+              "d2:armor:realmreacher-leggings",
+              "d2:armor:realmreacher-boots"
+            ],
+            "text": "2 random pieces of Realmreacher Armor"
+          },
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:howling-woods"
+            ],
+            "text": "Random gear from Howling Woods"
+          }
+        ],
+        "when": "first",
+        "xp": 550
+      },
+      {
+        "items": [],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:howling-woods"
+            ],
+            "text": "Random gear from Howling Woods"
+          }
+        ],
+        "when": "subsequent",
+        "xp": 500
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:wildflower-warrior",
+      "d2:quests:wobble-run",
+      "d2:quests:a-dip-in-ichor-springs",
+      "d2:quests:a-friend-till-the-end",
+      "d2:quests:breaking-camps",
+      "d2:quests:gone-fishing"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:training-with-the-enchantsmith",
+    "slug": "training-with-the-enchantsmith",
+    "game": "d2",
+    "category": "quests",
+    "name": "Training with the Enchantsmith",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "order": 5,
+    "questType": "core",
+    "rewards": [
+      {
+        "items": [
+          "d2:enchantments:piercing",
+          "d2:enchantments:healing-smite",
+          "d2:enchantments:ancient-alchemy"
+        ],
+        "when": "always",
+        "xp": 2750
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:wading-rainy-plains",
+      "d2:quests:wrath-of-the-sculkers",
+      "d2:quests:a-monstrosity-in-the-meadow",
+      "d2:quests:corruption-in-the-woods",
+      "d2:quests:down-into-the-deep-dark",
+      "d2:quests:escape-from-squid-coast"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:wading-rainy-plains",
+    "slug": "wading-rainy-plains",
+    "game": "d2",
+    "category": "quests",
+    "name": "Wading Rainy Plains",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:rainy-plains"
+    ],
+    "order": 9,
+    "questType": "core",
+    "rewards": [
+      {
+        "items": [
+          "d2:weapons:scythe"
+        ],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:rainy-plains"
+            ],
+            "text": "Random gear from Rainy Plains"
+          }
+        ],
+        "when": "always",
+        "xp": 2750
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:wrath-of-the-sculkers",
+      "d2:quests:a-monstrosity-in-the-meadow",
+      "d2:quests:corruption-in-the-woods",
+      "d2:quests:down-into-the-deep-dark",
+      "d2:quests:escape-from-squid-coast",
+      "d2:quests:hiking-frozen-highlands"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:wildflower-warrior",
+    "slug": "wildflower-warrior",
+    "game": "d2",
+    "category": "quests",
+    "name": "Wildflower Warrior",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:rainy-plains"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:talismans:healing-heart"
+        ],
+        "when": "always",
+        "xp": 550
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:wobble-run",
+      "d2:quests:a-dip-in-ichor-springs",
+      "d2:quests:a-friend-till-the-end",
+      "d2:quests:breaking-camps",
+      "d2:quests:gone-fishing",
+      "d2:quests:illager-intelligence"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:wobble-run",
+    "slug": "wobble-run",
+    "game": "d2",
+    "category": "quests",
+    "name": "Wobble Run",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:singers-meadow"
+    ],
+    "questType": "side",
+    "rewards": [
+      {
+        "items": [
+          "d2:talismans:wobblestone"
+        ],
+        "when": "always",
+        "xp": 1100
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:a-dip-in-ichor-springs",
+      "d2:quests:a-friend-till-the-end",
+      "d2:quests:breaking-camps",
+      "d2:quests:gone-fishing",
+      "d2:quests:illager-intelligence",
+      "d2:quests:illegal-illager-trials"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:quests:wrath-of-the-sculkers",
+    "slug": "wrath-of-the-sculkers",
+    "game": "d2",
+    "category": "quests",
+    "name": "Wrath of the Sculkers",
+    "areas": [],
+    "dlcExclusive": false,
+    "locationIds": [
+      "d2:locations:humbler-huskland"
+    ],
+    "order": 14,
+    "questType": "core",
+    "rewards": [
+      {
+        "items": [
+          "d2:talismans:the-eye-of-experience",
+          "d2:artifacts:echo-ocarina",
+          "d2:weapons:shortbow"
+        ],
+        "randomFrom": [
+          {
+            "count": 1,
+            "from": [
+              "d2:locations:humbler-huskland"
+            ],
+            "text": "Random gear from Humbler Huskland"
+          }
+        ],
+        "when": "always",
+        "xp": 4180
+      }
+    ],
+    "tags": [],
+    "related": [
+      "d2:quests:a-monstrosity-in-the-meadow",
+      "d2:quests:corruption-in-the-woods",
+      "d2:quests:down-into-the-deep-dark",
+      "d2:quests:escape-from-squid-coast",
+      "d2:quests:hiking-frozen-highlands",
+      "d2:quests:lost-harmonies"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:00.485Z",
+      "revisionId": 3890614,
+      "title": "Dungeons II:Quest",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Quest"
+    },
+    "quality": "verified"
+  }
+]

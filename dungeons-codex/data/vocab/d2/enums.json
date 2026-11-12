@@ -1,0 +1,47 @@
+{
+  "locationType": [
+    "overworld",
+    "rift",
+    "sift"
+  ],
+  "mobType": [
+    "boss",
+    "character",
+    "common",
+    "companion",
+    "hazard",
+    "merchant",
+    "mini-boss",
+    "non-attackable",
+    "passive",
+    "pet"
+  ],
+  "weaponType": [
+    "axe",
+    "battlestaff",
+    "bow",
+    "claymore",
+    "clobberer",
+    "cookiecutter",
+    "crossbow",
+    "dagger",
+    "gauntlets",
+    "glaive",
+    "hammer",
+    "mace",
+    "meat-cleaver",
+    "pickaxe",
+    "pike",
+    "rapier",
+    "riftslasher",
+    "sabre",
+    "scythe",
+    "shovel",
+    "sickle",
+    "spear",
+    "sword",
+    "twinblade",
+    "wit-wraps",
+    "wolf-claws"
+  ]
+}

@@ -29,14 +29,14 @@ Confirmed in research (2026-11-12): the API returns JSON. D1 item pages use `{{I
 | d1 | cosmetics | `Dungeons:Cosmetic` is an overview; its "Main article" hatnotes lead to the lists: `Dungeons:Cape`, `Emote`, `Flair`, `Hero` (skins), `Pet (cosmetic)` (found by following the hatnotes, D-045) | none |
 | d1 | mobs | `Dungeons:Mob` (skip Arcade sections) | Mob pages: health, locations, drops |
 | d1 | locations | `Dungeons:Location` → the "Minecraft Dungeons locations" navbox (Missions, Secret missions, Sub-missions; D-044) | Location pages: story, mobs table, unlock |
-| d2 | weapons | `Dungeons_II:Weapon` | none (no infobox), image only |
-| d2 | armor | `Dungeons_II:Armor` (Helmets/Chestplates/Leggings/Boots) | image only |
-| d2 | enchantments | `Dungeons_II:Enchantment` | as needed |
-| d2 | artifacts | `Dungeons_II:Artifact` | as needed |
-| d2 | talismans | `Dungeons_II:Talisman` | image only |
-| d2 | quests | `Dungeons_II:Quest` (core + side; skip unused) | none |
-| d2 | mobs | `Dungeons_II:Mob` | as needed |
-| d2 | locations | `Dungeons_II:Location` | as needed |
+| d2 | weapons | `Dungeons II:Weapon` (melee, bows, crossbows, Unobtainable tables) | Item pages: infobox flavor `description` (batched); icon from the table |
+| d2 | armor | `Dungeons II:Armor` (Helmets/Chestplates/Leggings/Boots) | Item pages: infobox flavor `description`; icon from the table |
+| d2 | enchantments | `Dungeons II:Enchantment` (one table; tiers I–III) | none |
+| d2 | artifacts | `Dungeons II:Artifact` (one table: cost, cooldown, description) | none |
+| d2 | talismans | `Dungeons II:Talisman` | none |
+| d2 | quests | `Dungeons II:Quest` (core + side tables) | none |
+| d2 | mobs | `Dungeons II:Mob` (icon lists under "List of mobs") | Mob pages: infobox health, Spawning list, tier groups |
+| d2 | locations | `Dungeons II:Location` (Overworld + Sift tables, Rift DLC list) | Location pages: lead paragraph, mobs found |
 
 **Title resolution:** if a list page title 404s, the parser must (a) query `?action=query&list=search&srsearch={term}&srnamespace=*`, and (b) look at the `Dungeons:Wiki` hub links, then use the matching hub link and log it. It must **not** guess titles in a loop.
 
@@ -45,10 +45,10 @@ Confirmed in research (2026-11-12): the API returns JSON. D1 item pages use `{{I
 |---|---|
 | d1 armor | 71 (unused excluded) |
 | d1 artifacts | 46 listed, minus 8 unused = 38 (verify) |
-| d2 weapons | 58 melee + 12 bows + 10 crossbows active, + 4 unobtainable melee |
-| d2 armor | 38 sets × 4 slots (verify) |
-| d2 talismans | 24 |
-| d2 quests | 15 core + 27 side = 42 |
+| d2 weapons | 58 melee + 12 bows + 10 crossbows active, + 4 unobtainable melee (confirmed: 84 rows) |
+| d2 armor | 38 sets × 4 slots (confirmed: 152 rows, all sets complete) |
+| d2 talismans | 24 (confirmed) |
+| d2 quests | 15 core + 27 side = 42 (confirmed) |
 
 Counts stated on a list page's intro text (re-read at sync time) **override** this table. The coverage report compares them. If a page's own number is wrong, `data/overrides/{game}/expected.json` (`[{ category, count, reason, sourceUrl }]`) corrects it with a source, like any other override (D-039): D1 weapons are **153** (the intro counts the unused Monkey Motivator and Spider Crossbow) and D1 artifacts **45** (the intro counts the unused consumable Icon Map). Categories whose pages state no total use the number of candidate rows found.
 
@@ -66,7 +66,7 @@ scripts/sync.ts            for each category: parse → normalize → apply over
                            → compute derived fields → zod → write JSON → images → coverage
 ```
 - **Normalization:** slugify names (`'Hunter's Hatchet'` → `hunters-hatchet`), trim, collapse whitespace, strip footnote markers (`[1]`), turn `✔/✖` into booleans, and map rarity text to the enum.
-- **Property tags:** collect every distinct property string per game and category, then map each to a kebab-case tag in `data/vocab/{game}/properties.json` (`{ "Dual wield": "dual-wield", … }`). The first sync generates this file automatically; later syncs fail if a new unmapped property appears, so new properties are reviewed and added. This vocab drives the "Properties" filters.
+- **Property tags:** collect every distinct property string per game and category, then map each to a kebab-case tag in `data/vocab/{game}/properties.json` (`{ "Dual wield": "dual-wield", … }`). The first sync generates this file automatically; later syncs fail if a new unmapped property appears, so new properties are reviewed and added. This vocab drives the "Properties" filters. **D2 (D-056):** `data/vocab/d2/properties.json` is a reviewed keyword list `{ tag: [regex fragment, …] }` applied to the effect texts instead (D2 effects are sentences); entities whose text matches nothing stay untagged.
 - **Linking:** after every category of a game is parsed, a linking pass resolves location/item/mob/enchantment names to ids by exact name, then by case-insensitive name, then by a redirect map (`?action=query&redirects&titles=…`). Unresolved names stay as raw text and are reported.
 
 ## Overrides

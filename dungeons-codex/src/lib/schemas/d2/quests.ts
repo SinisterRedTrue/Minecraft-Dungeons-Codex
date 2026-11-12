@@ -8,12 +8,21 @@ export const d2QuestSchema = () =>
     questType: z.enum(['core', 'side']),
     order: z.number().int().positive().optional(),
     locationIds: z.array(entityIdSchema('d2')),
+    areas: z.array(text),
     rewards: z.array(
       z.strictObject({
         when: z.enum(['first', 'subsequent', 'always']),
         xp: z.number().nonnegative().optional(),
         items: z.array(text),
-        randomFrom: z.array(text).optional(),
+        randomFrom: z
+          .array(
+            z.strictObject({
+              text,
+              count: z.number().int().positive(),
+              from: z.array(text),
+            }),
+          )
+          .optional(),
       }),
     ),
     dlcExclusive: z.boolean(),

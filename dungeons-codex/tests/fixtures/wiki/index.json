@@ -126,6 +126,33 @@
     "bytes": 66684
   },
   {
+    "file": "d2-armor-list.html",
+    "title": "Dungeons II:Armor",
+    "url": "https://minecraft.wiki/w/Dungeons_II:Armor",
+    "revisionId": 3891206,
+    "fetchedAt": "2026-11-12T10:09:51.727Z",
+    "kind": "html",
+    "bytes": 146996
+  },
+  {
+    "file": "d2-enchantment-list.html",
+    "title": "Dungeons II:Enchantment",
+    "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment",
+    "revisionId": 3893268,
+    "fetchedAt": "2026-11-12T10:09:52.641Z",
+    "kind": "html",
+    "bytes": 35184
+  },
+  {
+    "file": "d2-artifact-list.html",
+    "title": "Dungeons II:Artifact",
+    "url": "https://minecraft.wiki/w/Dungeons_II:Artifact",
+    "revisionId": 3875491,
+    "fetchedAt": "2026-11-12T10:09:53.723Z",
+    "kind": "html",
+    "bytes": 55574
+  },
+  {
     "file": "d2-talisman-list.html",
     "title": "Dungeons II:Talisman",
     "url": "https://minecraft.wiki/w/Dungeons_II:Talisman",
@@ -133,6 +160,33 @@
     "fetchedAt": "2026-11-12T03:05:12.953Z",
     "kind": "html",
     "bytes": 22865
+  },
+  {
+    "file": "d2-quest-list.html",
+    "title": "Dungeons II:Quest",
+    "url": "https://minecraft.wiki/w/Dungeons_II:Quest",
+    "revisionId": 3890614,
+    "fetchedAt": "2026-11-12T10:10:00.485Z",
+    "kind": "html",
+    "bytes": 81602
+  },
+  {
+    "file": "d2-mob-list.html",
+    "title": "Dungeons II:Mob",
+    "url": "https://minecraft.wiki/w/Dungeons_II:Mob",
+    "revisionId": 3893478,
+    "fetchedAt": "2026-11-12T10:10:01.388Z",
+    "kind": "html",
+    "bytes": 11535
+  },
+  {
+    "file": "d2-location-list.html",
+    "title": "Dungeons II:Location",
+    "url": "https://minecraft.wiki/w/Dungeons_II:Location",
+    "revisionId": 3892194,
+    "fetchedAt": "2026-11-12T10:10:02.373Z",
+    "kind": "html",
+    "bytes": 27750
   },
   {
     "file": "d1-claymore.html",
@@ -175,7 +229,7 @@
     "title": "Dungeons:Corrupted Beacon",
     "url": "https://minecraft.wiki/w/Dungeons:Corrupted_Beacon",
     "revisionId": 3891414,
-    "fetchedAt": "2026-11-12T04:14:53.260Z",
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
     "kind": "wikitext",
     "bytes": 8193
   },
@@ -184,7 +238,7 @@
     "title": "Dungeons:Updraft Tome",
     "url": "https://minecraft.wiki/w/Dungeons:Updraft_Tome",
     "revisionId": 3891449,
-    "fetchedAt": "2026-11-12T04:14:53.260Z",
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
     "kind": "wikitext",
     "bytes": 4388
   },
@@ -193,7 +247,7 @@
     "title": "Dungeons:Arch-Illager",
     "url": "https://minecraft.wiki/w/Dungeons:Arch-Illager",
     "revisionId": 3888695,
-    "fetchedAt": "2026-11-12T04:14:53.260Z",
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
     "kind": "wikitext",
     "bytes": 28676
   },
@@ -202,7 +256,7 @@
     "title": "Dungeons:Zombie",
     "url": "https://minecraft.wiki/w/Dungeons:Zombie",
     "revisionId": 3852342,
-    "fetchedAt": "2026-11-12T04:14:53.260Z",
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
     "kind": "wikitext",
     "bytes": 20142
   },
@@ -211,7 +265,7 @@
     "title": "Dungeons:Abominable Weaver",
     "url": "https://minecraft.wiki/w/Dungeons:Abominable_Weaver",
     "revisionId": 3843343,
-    "fetchedAt": "2026-11-12T04:14:53.260Z",
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
     "kind": "wikitext",
     "bytes": 2408
   },
@@ -220,7 +274,7 @@
     "title": "Dungeons:Redstone Golem",
     "url": "https://minecraft.wiki/w/Dungeons:Redstone_Golem",
     "revisionId": 3851333,
-    "fetchedAt": "2026-11-12T04:14:53.260Z",
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
     "kind": "wikitext",
     "bytes": 15255
   },
@@ -229,7 +283,7 @@
     "title": "Dungeons:Jungle Awakens",
     "url": "https://minecraft.wiki/w/Dungeons:Jungle_Awakens",
     "revisionId": 3847910,
-    "fetchedAt": "2026-11-12T04:14:53.260Z",
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
     "kind": "wikitext",
     "bytes": 9673
   },
@@ -238,7 +292,7 @@
     "title": "Dungeons:Creeper",
     "url": "https://minecraft.wiki/w/Dungeons:Creeper",
     "revisionId": 3842273,
-    "fetchedAt": "2026-11-12T04:14:53.260Z",
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
     "kind": "wikitext",
     "bytes": 5530
   },
@@ -247,7 +301,7 @@
     "title": "Dungeons:Creeper Woods",
     "url": "https://minecraft.wiki/w/Dungeons:Creeper_Woods",
     "revisionId": 3873219,
-    "fetchedAt": "2026-11-12T04:14:53.260Z",
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
     "kind": "wikitext",
     "bytes": 19551
   },
@@ -256,7 +310,7 @@
     "title": "Dungeons:Arch Haven",
     "url": "https://minecraft.wiki/w/Dungeons:Arch_Haven",
     "revisionId": 3837142,
-    "fetchedAt": "2026-11-12T04:14:53.260Z",
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
     "kind": "wikitext",
     "bytes": 10610
   },
@@ -265,7 +319,7 @@
     "title": "Template:Infobox Dungeons item",
     "url": "https://minecraft.wiki/w/Template:Infobox_Dungeons_item",
     "revisionId": 3751922,
-    "fetchedAt": "2026-11-12T04:14:53.260Z",
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
     "kind": "wikitext",
     "bytes": 3682
   },
@@ -274,7 +328,7 @@
     "title": "Template:Infobox Dungeons item/doc",
     "url": "https://minecraft.wiki/w/Template:Infobox_Dungeons_item/doc",
     "revisionId": 3843761,
-    "fetchedAt": "2026-11-12T04:14:53.260Z",
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
     "kind": "wikitext",
     "bytes": 3368
   },
@@ -283,7 +337,7 @@
     "title": "Dungeons:Claymore",
     "url": "https://minecraft.wiki/w/Dungeons:Claymore",
     "revisionId": 3882923,
-    "fetchedAt": "2026-11-12T04:14:53.260Z",
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
     "kind": "wikitext",
     "bytes": 5659
   },
@@ -292,7 +346,7 @@
     "title": "Dungeons:Katana",
     "url": "https://minecraft.wiki/w/Dungeons:Katana",
     "revisionId": 3883027,
-    "fetchedAt": "2026-11-12T04:14:53.260Z",
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
     "kind": "wikitext",
     "bytes": 6771
   },
@@ -301,7 +355,7 @@
     "title": "Dungeons:Hunting Bow",
     "url": "https://minecraft.wiki/w/Dungeons:Hunting_Bow",
     "revisionId": 3834697,
-    "fetchedAt": "2026-11-12T04:14:53.260Z",
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
     "kind": "wikitext",
     "bytes": 4390
   },
@@ -310,7 +364,7 @@
     "title": "Dungeons:Champion's Armor",
     "url": "https://minecraft.wiki/w/Dungeons:Champion's_Armor",
     "revisionId": 3883120,
-    "fetchedAt": "2026-11-12T04:14:53.260Z",
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
     "kind": "wikitext",
     "bytes": 4059
   },
@@ -319,8 +373,62 @@
     "title": "Dungeons:Heartstealer",
     "url": "https://minecraft.wiki/w/Dungeons:Heartstealer",
     "revisionId": 3882929,
-    "fetchedAt": "2026-11-12T04:14:53.260Z",
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
     "kind": "wikitext",
     "bytes": 6824
+  },
+  {
+    "file": "d2-hunters-hatchet.wiki",
+    "title": "Dungeons II:Hunter's Hatchet",
+    "url": "https://minecraft.wiki/w/Dungeons_II:Hunter's_Hatchet",
+    "revisionId": 3892577,
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
+    "kind": "wikitext",
+    "bytes": 1847
+  },
+  {
+    "file": "d2-bow.wiki",
+    "title": "Dungeons II:Bow",
+    "url": "https://minecraft.wiki/w/Dungeons_II:Bow",
+    "revisionId": 3890520,
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
+    "kind": "wikitext",
+    "bytes": 1523
+  },
+  {
+    "file": "d2-beekeeper-veil.wiki",
+    "title": "Dungeons II:Beekeeper Veil",
+    "url": "https://minecraft.wiki/w/Dungeons_II:Beekeeper_Veil",
+    "revisionId": 3874808,
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
+    "kind": "wikitext",
+    "bytes": 814
+  },
+  {
+    "file": "d2-zombie.wiki",
+    "title": "Dungeons II:Zombie",
+    "url": "https://minecraft.wiki/w/Dungeons_II:Zombie",
+    "revisionId": 3890519,
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
+    "kind": "wikitext",
+    "bytes": 3764
+  },
+  {
+    "file": "d2-echo-golem.wiki",
+    "title": "Dungeons II:Echo Golem",
+    "url": "https://minecraft.wiki/w/Dungeons_II:Echo_Golem",
+    "revisionId": 3889001,
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
+    "kind": "wikitext",
+    "bytes": 10135
+  },
+  {
+    "file": "d2-howling-woods.wiki",
+    "title": "Dungeons II:Howling Woods",
+    "url": "https://minecraft.wiki/w/Dungeons_II:Howling_Woods",
+    "revisionId": 3893088,
+    "fetchedAt": "2026-11-12T10:35:19.466Z",
+    "kind": "wikitext",
+    "bytes": 5206
   }
 ]

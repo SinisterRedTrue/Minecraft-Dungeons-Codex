@@ -17,10 +17,12 @@ import { buildForgeCurves } from './forge';
 import { syncImages, type ImageJob, type MissingImage } from './images';
 import { deriveGame } from './derive';
 import { keyOf, linkGame } from './link';
+import { linkGameD2 } from './link-d2';
 import { ensureUniqueSlugs } from './normalize';
 import { applyQuality } from './quality';
 import { coverageRatio, loadReport, meetsGate, saveReport, type CategoryReport } from './report';
 import { emptyFindings, type Ent, type Findings, type GameData } from './types';
+import { applyD2Tags, loadD2TagVocab } from './tags-d2';
 import { applyPropertyTags, syncEnums, syncPropertyVocab } from './vocab';
 
 export interface SyncOptions {
@@ -39,7 +41,15 @@ export interface SyncOutcome {
   problems: string[];
 }
 
-const ID_FIELDS_LIST = ['related', 'variantIds', 'builtInto', 'locationIds', 'mobIds', 'itemIds'];
+const ID_FIELDS_LIST = [
+  'related',
+  'variantIds',
+  'builtInto',
+  'locationIds',
+  'mobIds',
+  'itemIds',
+  'questIds',
+];
 const ID_FIELDS_ONE = ['baseItemId', 'secretOf'];
 const ENTITY_ID = /^d[12]:[a-z]+:[a-z0-9-]+$/;
 const KEY_PRIORITY = [
@@ -114,9 +124,20 @@ function pruneDangling(data: GameData): void {
           entity.builtInEnchantments as { enchantmentId: string }[]
         ).filter((b) => alive(b.enchantmentId));
       }
-      for (const field of ['locations', 'drops']) {
+      for (const field of ['locations', 'drops', 'obtaining']) {
         if (Array.isArray(entity[field]))
           entity[field] = (entity[field] as unknown[]).filter(alive);
+      }
+      if (Array.isArray(entity.rewards)) {
+        for (const reward of entity.rewards as {
+          items?: unknown[];
+          randomFrom?: { from?: unknown[] }[];
+        }[]) {
+          if (reward.items) reward.items = reward.items.filter(alive);
+          for (const pool of reward.randomFrom ?? []) {
+            if (pool.from) pool.from = pool.from.filter(alive);
+          }
+        }
       }
     }
   }
@@ -207,16 +228,18 @@ async function syncGame(
   for (const category of selected) ensureUniqueSlugs(category, data[category] ?? [], findings);
 
   // 3. Link (a dry run first collects names to look up through redirects).
+  const link = game === 'd1' ? linkGame : linkGameD2;
+  const wikiPrefix = game === 'd1' ? 'Dungeons:' : 'Dungeons II:';
   const misses = new Set<string>();
-  linkGame(structuredClone(data), emptyFindings(), { misses });
+  link(structuredClone(data), emptyFindings(), { misses });
   const aliases = new Map<string, string>();
   if (misses.size) {
     try {
-      const titles = [...misses].map((name) => `Dungeons:${name}`);
+      const titles = [...misses].map((name) => `${wikiPrefix}${name}`);
       const resolved = await resolveRedirects(titles, client);
       for (const name of misses) {
-        const final = resolved.get(`Dungeons:${name}`);
-        const bare = final?.replace(/^Dungeons:/i, '');
+        const final = resolved.get(`${wikiPrefix}${name}`);
+        const bare = final?.startsWith(wikiPrefix) ? final.slice(wikiPrefix.length) : undefined;
         if (bare && keyOf(bare) !== keyOf(name)) aliases.set(keyOf(name), bare);
       }
       if (aliases.size) log(`${game}: ${aliases.size} name(s) resolved through redirects`);
@@ -224,10 +247,10 @@ async function syncGame(
       log(`${game}: redirect lookup skipped (${(error as Error).message})`);
     }
   }
-  linkGame(data, findings, { aliases });
+  link(data, findings, { aliases });
 
   // 4. Derive.
-  deriveGame(data);
+  deriveGame(data, game);
 
   // 5. Overrides (after linking and deriving, before validation).
   const overrideReport = new Map<
@@ -250,8 +273,16 @@ async function syncGame(
     });
   }
 
-  // 6. Property vocabulary (fails on unmapped properties) and tags.
-  const properties = syncPropertyVocab(paths.vocab, game, data);
+  // 6. Property vocabulary (fails on unmapped properties) and tags. D2 tags come from a reviewed
+  // keyword list over the effect texts instead (D-056).
+  if (game === 'd2') {
+    const untagged = applyD2Tags(data, loadD2TagVocab(paths.vocab));
+    if (untagged.length) log(`d2: ${untagged.length} text(s) matched no tag keyword`);
+  }
+  const properties =
+    game === 'd1'
+      ? syncPropertyVocab(paths.vocab, game, data)
+      : { generated: false, unmapped: [] as string[], vocab: {} as Record<string, string> };
   if (properties.generated) {
     log(
       `${game}: generated data/vocab/${game}/properties.json (${Object.keys(properties.vocab).length} properties) — review it`,
@@ -343,6 +374,9 @@ async function syncGame(
       path.join(paths.generated, '..', 'forge', 'd1', 'curves.json'),
       `${JSON.stringify(curves, null, 2)}\n`,
     );
+  } else {
+    // The wiki documents no D2 power scaling (as of 2026-11-12), so the Forge has no curves.
+    writeText(path.join(paths.generated, '..', 'forge', 'd2', 'curves.json'), '{}\n');
   }
 
   // 11. Coverage report.

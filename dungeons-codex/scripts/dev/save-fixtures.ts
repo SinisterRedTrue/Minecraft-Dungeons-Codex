@@ -74,7 +74,45 @@ const HTML_FIXTURES: HtmlFixture[] = [
   },
   { file: 'd1-location-list.html', title: 'Dungeons:Location', navbox: /locations/i },
   { file: 'd2-weapon-list.html', title: 'Dungeons II:Weapon' },
+  {
+    file: 'd2-armor-list.html',
+    title: 'Dungeons II:Armor',
+    keep: ['Beekeeper', 'Hivemind', 'Mystic Circlet', 'Oracle'],
+  },
+  { file: 'd2-enchantment-list.html', title: 'Dungeons II:Enchantment' },
+  {
+    file: 'd2-artifact-list.html',
+    title: 'Dungeons II:Artifact',
+    keep: ['Battle Banner', 'Totem of Regeneration', 'Powershaker'],
+  },
   { file: 'd2-talisman-list.html', title: 'Dungeons II:Talisman' },
+  {
+    file: 'd2-quest-list.html',
+    title: 'Dungeons II:Quest',
+    keep: [
+      'The Silence in Little Howl',
+      'The Illagers from the Rift',
+      'The Trembling Golem',
+      'The Sculk Monstrosity Revived',
+      'The Final Souldown Encore',
+    ],
+  },
+  {
+    file: 'd2-mob-list.html',
+    title: 'Dungeons II:Mob',
+    mobs: [
+      'Dungeons II:Echo Golem',
+      'Dungeons II:Cartographer',
+      'Dungeons II:Blacksmith',
+      'Dungeons II:Bee',
+      'Dungeons II:Zombie',
+      'Dungeons II:Evoker',
+      'Dungeons II:Copper Monstrosity',
+      'Dungeons II:Trill',
+      'Dungeons II:Armadillo',
+    ],
+  },
+  { file: 'd2-location-list.html', title: 'Dungeons II:Location' },
   { file: 'd1-claymore.html', title: 'Dungeons:Claymore' },
   { file: 'd1-katana.html', title: 'Dungeons:Katana' },
   { file: 'd1-hunting-bow.html', title: 'Dungeons:Hunting Bow' },
@@ -99,6 +137,12 @@ const WIKITEXT_FIXTURES: { file: string; title: string }[] = [
   { file: 'd1-hunting-bow.wiki', title: 'Dungeons:Hunting Bow' },
   { file: 'd1-champions-armor.wiki', title: "Dungeons:Champion's Armor" },
   { file: 'd1-heartstealer.wiki', title: 'Dungeons:Heartstealer' },
+  { file: 'd2-hunters-hatchet.wiki', title: "Dungeons II:Hunter's Hatchet" },
+  { file: 'd2-bow.wiki', title: 'Dungeons II:Bow' },
+  { file: 'd2-beekeeper-veil.wiki', title: 'Dungeons II:Beekeeper Veil' },
+  { file: 'd2-zombie.wiki', title: 'Dungeons II:Zombie' },
+  { file: 'd2-echo-golem.wiki', title: 'Dungeons II:Echo Golem' },
+  { file: 'd2-howling-woods.wiki', title: 'Dungeons II:Howling Woods' },
 ];
 
 const REMOVE_SELECTORS = [
@@ -137,7 +181,11 @@ function stripPage($: cheerio.CheerioAPI, fx: HtmlFixture): void {
   if (fx.mobs) {
     const keep = new Set(fx.mobs);
     $('.mob-icon').each((_, el) => {
-      const title = $(el).find('.mob-name a').first().attr('title') ?? '';
+      // Red links are titled "Name (page does not exist)"; match them by their page name.
+      const title = ($(el).find('.mob-name a').first().attr('title') ?? '').replace(
+        / \(page does not exist\)$/,
+        '',
+      );
       if (!keep.has(title)) $(el).remove();
     });
   }

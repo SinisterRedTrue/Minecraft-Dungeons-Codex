@@ -1,0 +1,1565 @@
+[
+  {
+    "id": "d2:enchantments:ancient-alchemy",
+    "slug": "ancient-alchemy",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Ancient Alchemy",
+    "description": "Using health potion also grants additional souls. Allows potion to be used even at full health.",
+    "image": {
+      "alt": "Ancient Alchemy icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/ancient-alchemy.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "Grants 30 souls",
+        "value": 30
+      },
+      {
+        "level": 2,
+        "text": "Grants 45 souls",
+        "value": 45
+      },
+      {
+        "level": 3,
+        "text": "Grants 60 souls",
+        "value": 60
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "healing",
+      "souls"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:artifact-amplifier",
+    "slug": "artifact-amplifier",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Artifact Amplifier",
+    "description": "Using an artifact grants the Artificing status, decreasing artifact cooldown while increasing artifact damage and soul gathering.",
+    "image": {
+      "alt": "Artifact Amplifier icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/artifact-amplifier.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "6 second duration",
+        "unit": "s",
+        "value": 6
+      },
+      {
+        "level": 2,
+        "text": "7.5 second duration",
+        "unit": "s",
+        "value": 7.5
+      },
+      {
+        "level": 3,
+        "text": "9 second duration",
+        "unit": "s",
+        "value": 9
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "artifact",
+      "cooldown",
+      "souls",
+      "status-effects"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:barrier-brew",
+    "slug": "barrier-brew",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Barrier Brew",
+    "description": "Using health potion creates a well that grants you and your allies the Fortifying status, protecting you from enemies by 70%. Allows potions to be used even at full health.",
+    "image": {
+      "alt": "Barrier Brew icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/barrier-brew.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "2 second duration",
+        "unit": "s",
+        "value": 2
+      },
+      {
+        "level": 2,
+        "text": "4 second duration",
+        "unit": "s",
+        "value": 4
+      },
+      {
+        "level": 3,
+        "text": "6 second duration",
+        "unit": "s",
+        "value": 6
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "defense",
+      "healing",
+      "status-effects"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:bottomless-brew",
+    "slug": "bottomless-brew",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Bottomless Brew",
+    "description": "Grants additional uses of health potion.",
+    "image": {
+      "alt": "Bottomless Brew icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/bottomless-brew.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "1 additional potion",
+        "value": 1
+      },
+      {
+        "level": 2,
+        "text": "2 additional potions",
+        "value": 2
+      },
+      {
+        "level": 3,
+        "text": "3 additional potions",
+        "value": 3
+      }
+    ],
+    "obtaining": [],
+    "restriction": "Chestplate exclusive",
+    "tags": [
+      "healing"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:buddy-brew",
+    "slug": "buddy-brew",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Buddy Brew",
+    "description": "Using health potion creates a well that grants you and your allies the Regenerating status, restoring your health. Allows potions to be used even at full health.",
+    "image": {
+      "alt": "Buddy Brew icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/buddy-brew.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "2 second duration",
+        "unit": "s",
+        "value": 2
+      },
+      {
+        "level": 2,
+        "text": "4 second duration",
+        "unit": "s",
+        "value": 4
+      },
+      {
+        "level": 3,
+        "text": "6 second duration",
+        "unit": "s",
+        "value": 6
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "healing",
+      "status-effects"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:chain-reaction",
+    "slug": "chain-reaction",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Chain Reaction",
+    "description": "Successful ranged hits have a chance to fire off additional projectiles at nearby enemies.",
+    "image": {
+      "alt": "Chain Reaction icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/chain-reaction.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "20% chance to spawn 4 additional projectiles"
+      },
+      {
+        "level": 2,
+        "text": "30% chance to spawn 6 additional projectiles"
+      },
+      {
+        "level": 3,
+        "text": "40% chance to spawn 8 additional projectiles"
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "area",
+      "burn",
+      "ranged-damage"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:cow-stampede",
+    "slug": "cow-stampede",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Cow Stampede",
+    "description": "After sprinting at full speed for a short time, slamming into enemies deals damage and knocks them out of your way.",
+    "image": {
+      "alt": "Cow Stampede icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/cow-stampede.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "Slamming into enemies deals damage and knocks them back."
+      },
+      {
+        "level": 2,
+        "text": "Slamming into enemies deals damage and knocks them back."
+      },
+      {
+        "level": 3,
+        "text": "Slamming into enemies deals damage and knocks them back."
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "knockback",
+      "movement-speed"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:crash-landing",
+    "slug": "crash-landing",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Crash Landing",
+    "description": "Jump attacks cause an impact that deals additional damage to nearby enemies and knocks them back.",
+    "image": {
+      "alt": "Crash Landing icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/crash-landing.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "Deals 5% of weapon damage and increases knockback by 125%"
+      },
+      {
+        "level": 2,
+        "text": "Deals 5% of weapon damage and increases knockback by 175%"
+      },
+      {
+        "level": 3,
+        "text": "Deals 5% of weapon damage and increases knockback by 200%"
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "area",
+      "knockback",
+      "melee-damage"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:critical-quiver",
+    "slug": "critical-quiver",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Critical Quiver",
+    "description": "Critical hits restore arrows to your quiver.",
+    "image": {
+      "alt": "Critical Quiver icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/critical-quiver.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "1 arrow restored",
+        "value": 1
+      },
+      {
+        "level": 2,
+        "text": "3 arrows restored",
+        "value": 3
+      },
+      {
+        "level": 3,
+        "text": "5 arrows restored",
+        "value": 5
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "ammo",
+      "crit",
+      "healing"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:dynamo",
+    "slug": "dynamo",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Dynamo",
+    "description": "Rolling amplifies the damage of your next melee or ranged attack, stacking with each use.",
+    "image": {
+      "alt": "Dynamo icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/dynamo.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "20% damage increase",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 2,
+        "text": "30% damage increase",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "level": 3,
+        "text": "40% damage increase",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "damage-boost",
+      "melee-damage",
+      "ranged-damage",
+      "rolling"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:ender-mines",
+    "slug": "ender-mines",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Ender Mines",
+    "description": "Weapon attacks deploy End crystals that explode in proximity to enemies or after a short time.",
+    "image": {
+      "alt": "Ender Mines icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/ender-mines.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "Deploys 2 mines",
+        "value": 2
+      },
+      {
+        "level": 2,
+        "text": "Deploys 3 mines",
+        "value": 3
+      },
+      {
+        "level": 3,
+        "text": "Deploys 4 mines",
+        "value": 4
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "explosive",
+      "melee-damage"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:ender-quiver",
+    "slug": "ender-quiver",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Ender Quiver",
+    "description": "Increases your maximum arrow capacity",
+    "image": {
+      "alt": "Ender Quiver icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/ender-quiver.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "Grants 2 additional arrows",
+        "value": 2
+      },
+      {
+        "level": 2,
+        "text": "Grants 3 additional arrows",
+        "value": 3
+      },
+      {
+        "level": 3,
+        "text": "Grants 4 additional arrows",
+        "value": 4
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "ammo"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:fire-aspect",
+    "slug": "fire-aspect",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Fire Aspect",
+    "description": "Jump attacks and final hits create a wave of fire that damages enemies and sets them on fire for a short time.",
+    "image": {
+      "alt": "Fire Aspect icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/fire-aspect.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "Deals 35% of weapon damage",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "level": 2,
+        "text": "Deals 45% of weapon damage",
+        "unit": "%",
+        "value": 45
+      },
+      {
+        "level": 3,
+        "text": "Deals 50% of weapon damage",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "burn",
+      "melee-damage"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:frost-crescent",
+    "slug": "frost-crescent",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Frost Crescent",
+    "description": "Jump attacks and final hits create a wave of ice that damages enemies and freezes them for a short time, slowing their attacks and movement.",
+    "image": {
+      "alt": "Frost Crescent icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/frost-crescent.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "Deals 10% of weapon damage",
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "level": 2,
+        "text": "Deals 15% of weapon damage",
+        "unit": "%",
+        "value": 15
+      },
+      {
+        "level": 3,
+        "text": "Deals 20% of weapon damage",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "freeze",
+      "melee-damage",
+      "movement-speed"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:gravity-pulse",
+    "slug": "gravity-pulse",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Gravity Pulse",
+    "description": "Using an artifact pulls all nearby enemies toward you.",
+    "image": {
+      "alt": "Gravity Pulse icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/gravity-pulse.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "4 block range",
+        "value": 4
+      },
+      {
+        "level": 2,
+        "text": "8 block range",
+        "value": 8
+      },
+      {
+        "level": 3,
+        "text": "10 block range",
+        "value": 10
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "area",
+      "artifact"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:healing-smite",
+    "slug": "healing-smite",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Healing Smite",
+    "description": "Defeating an enemy has a chance to create a well that grants allies the Regenerating status, restoring their health.",
+    "image": {
+      "alt": "Healing Smite icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/healing-smite.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "20% chance",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 2,
+        "text": "35% chance",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "level": 3,
+        "text": "50% chance",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "healing",
+      "status-effects"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:health-synergy",
+    "slug": "health-synergy",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Health Synergy",
+    "description": "Artifact usage regenerates health.",
+    "image": {
+      "alt": "Health Synergy icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/health-synergy.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "Heals 15% of maximum health",
+        "unit": "%",
+        "value": 15
+      },
+      {
+        "level": 2,
+        "text": "Heals 25% of maximum health",
+        "unit": "%",
+        "value": 25
+      },
+      {
+        "level": 3,
+        "text": "Heals 35% of maximum health",
+        "unit": "%",
+        "value": 35
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "artifact",
+      "healing"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:lightning-surge",
+    "slug": "lightning-surge",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Lightning Surge",
+    "description": "Jump attacks and final hits create a wave of lightning that damages enemies and zaps them for a short time, making them weaker but faster.",
+    "image": {
+      "alt": "Lightning Surge icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/lightning-surge.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "Deals 60% of weapon damage",
+        "unit": "%",
+        "value": 60
+      },
+      {
+        "level": 2,
+        "text": "Deals 75% of weapon damage",
+        "unit": "%",
+        "value": 75
+      },
+      {
+        "level": 3,
+        "text": "Deals 90% of weapon damage",
+        "unit": "%",
+        "value": 90
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "lightning",
+      "melee-damage"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:piercing",
+    "slug": "piercing",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Piercing",
+    "description": "Allows fired arrows and projectiles to pierce through multiple targets.",
+    "image": {
+      "alt": "Piercing icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/piercing.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "Pierces 1 enemy",
+        "value": 1
+      },
+      {
+        "level": 2,
+        "text": "Pierces 3 enemies",
+        "value": 3
+      },
+      {
+        "level": 3,
+        "text": "Pierces 5 enemies",
+        "value": 5
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "ammo",
+      "piercing"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:poison-fog",
+    "slug": "poison-fog",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Poison Fog",
+    "description": "Jump attacks and final hits create a wave of poison that damages enemies and poisons them for a time.",
+    "image": {
+      "alt": "Poison Fog icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/poison-fog.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "Deals 10% of weapon damage",
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "level": 2,
+        "text": "Deals 20% of weapon damage",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 3,
+        "text": "Deals 30% of weapon damage",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "melee-damage",
+      "poison"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:power-amplifier",
+    "slug": "power-amplifier",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Power Amplifier",
+    "description": "Using an artifact amplifies the damage of your next melee or ranged attack, stacking with each use",
+    "image": {
+      "alt": "Power Amplifier icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/power-amplifier.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "Artifact usage applies 20% damage amplifaction",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 2,
+        "text": "Artifact usage applies 30% damage amplification",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "level": 3,
+        "text": "Artifact usage applies 40% damage amplification",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "artifact",
+      "damage-boost",
+      "melee-damage",
+      "ranged-damage"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:ricochet",
+    "slug": "ricochet",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Ricochet",
+    "description": "Allows fired arrows and projectiles to bounce between multiple targets",
+    "image": {
+      "alt": "Ricochet icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/ricochet.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "Projectiles can bounce up to 1 times",
+        "value": 1
+      },
+      {
+        "level": 2,
+        "text": "Projectiles can bounce up to 2 times",
+        "value": 2
+      },
+      {
+        "level": 3,
+        "text": "Projectiles can bounce up to 3 times",
+        "value": 3
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "ammo"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:shadowcloak",
+    "slug": "shadowcloak",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Shadowcloak",
+    "description": "Defeating an enemy has a chance to grant Shadowcloaking, making you invisible to enemies.",
+    "image": {
+      "alt": "Shadowcloak icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/shadowcloak.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "15% chance",
+        "unit": "%",
+        "value": 15
+      },
+      {
+        "level": 2,
+        "text": "20% chance",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 3,
+        "text": "35% chance",
+        "unit": "%",
+        "value": 35
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "status-effects",
+      "stealth"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:shielding-smite",
+    "slug": "shielding-smite",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Shielding Smite",
+    "description": "Defeating an enemy has a chance to create a well that grants you and your allies the Fortifying status, protecting you from enemies",
+    "image": {
+      "alt": "Shielding Smite icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/shielding-smite.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "10% chance",
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "level": 2,
+        "text": "20% chance",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 3,
+        "text": "40% chance",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "defense",
+      "status-effects"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:shockwave",
+    "slug": "shockwave",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Shockwave",
+    "description": "Jump attacks and final hits create a shockwave that damages enemies and knocks them back.",
+    "image": {
+      "alt": "Shockwave icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/shockwave.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "Deals 20% of weapon damage",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 2,
+        "text": "Deals 35% of weapon damage",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "level": 3,
+        "text": "Deals 50% of weapon damage",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "knockback",
+      "lightning",
+      "melee-damage"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:somersault",
+    "slug": "somersault",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Somersault",
+    "description": "Grants the ability to perform multiple rolls in a row.",
+    "image": {
+      "alt": "Somersault icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/somersault.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "1 additional roll",
+        "value": 1
+      },
+      {
+        "level": 2,
+        "text": "2 additional rolls",
+        "value": 2
+      },
+      {
+        "level": 3,
+        "text": "3 additional rolls",
+        "value": 3
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "rolling"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:soul-blast",
+    "slug": "soul-blast",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Soul Blast",
+    "description": "Jump attack wave deals damage and deals additional soul damage over time.",
+    "image": {
+      "alt": "Soul Blast icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/soul-blast.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "50% chance",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "level": 2,
+        "text": "60% chance",
+        "unit": "%",
+        "value": 60
+      },
+      {
+        "level": 3,
+        "text": "75% chance",
+        "unit": "%",
+        "value": 75
+      }
+    ],
+    "obtaining": [
+      "d2:quests:illager-intelligence"
+    ],
+    "tags": [
+      "melee-damage",
+      "souls"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:springload",
+    "slug": "springload",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Springload",
+    "description": "Using an artifact grants the Hurrying status, increasing movement speed.",
+    "image": {
+      "alt": "Springload icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/springload.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "4 second duration",
+        "unit": "s",
+        "value": 4
+      },
+      {
+        "level": 2,
+        "text": "5 second duration",
+        "unit": "s",
+        "value": 5
+      },
+      {
+        "level": 3,
+        "text": "6 second duration",
+        "unit": "s",
+        "value": 6
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "artifact",
+      "movement-speed",
+      "status-effects"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:swirling",
+    "slug": "swirling",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Swirling",
+    "description": "Weapon attacks unleash a swirl of air which deals additional damage to nearby enemies.",
+    "image": {
+      "alt": "Swirling icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/swirling.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "Deals 50% of weapon damage",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "level": 2,
+        "text": "Deals 75% of weapon damage",
+        "unit": "%",
+        "value": 75
+      },
+      {
+        "level": 3,
+        "text": "Deals 100% of weapon damage",
+        "unit": "%",
+        "value": 100
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "area",
+      "melee-damage"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:tempo-theft",
+    "slug": "tempo-theft",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Tempo Theft",
+    "description": "Defeating an enemy has a chance to grant the Hurrying status, increasing movement speed for a short time",
+    "image": {
+      "alt": "Tempo Theft icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/tempo-theft.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "Grants 30% chance to increase movement speed",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "level": 2,
+        "text": "Grants 40% chance to increase movement speed",
+        "unit": "%",
+        "value": 40
+      },
+      {
+        "level": 3,
+        "text": "Grants 50% chance to increase movement speed",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "movement-speed",
+      "status-effects"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:thundering",
+    "slug": "thundering",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Thundering",
+    "description": "Attacks have a chance to spread lightning damage to nearby enemies.",
+    "image": {
+      "alt": "Thundering icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/thundering.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "25% chance of activation, dealing 15% of weapon damage"
+      },
+      {
+        "level": 2,
+        "text": "33% chance of activation, dealing 30% of weapon damage"
+      },
+      {
+        "level": 3,
+        "text": "50% chance of activation, dealing 50 of weapon damage"
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "area",
+      "lightning"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:enchantments:tumbleshot",
+    "slug": "tumbleshot",
+    "game": "d2",
+    "category": "enchantments",
+    "name": "Tumbleshot",
+    "description": "Rolling fires a barrage of arrows targeting nearby enemies.",
+    "image": {
+      "alt": "Tumbleshot icon",
+      "height": 256,
+      "src": "/images/d2/enchantments/tumbleshot.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "text": "Fires 1 arrow deals 110% of weapon damage"
+      },
+      {
+        "level": 2,
+        "text": "Fires 1 arrow deals 120% of weapon damage"
+      },
+      {
+        "level": 3,
+        "text": "Fires 2 arrows deals 130% of weapon damage"
+      }
+    ],
+    "obtaining": [],
+    "tags": [
+      "ammo",
+      "area",
+      "rolling"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:09:52.641Z",
+      "revisionId": 3893268,
+      "title": "Dungeons II:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantment"
+    },
+    "quality": "verified"
+  }
+]

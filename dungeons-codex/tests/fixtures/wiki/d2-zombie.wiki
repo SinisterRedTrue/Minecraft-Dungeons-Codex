@@ -1,0 +1,115 @@
+{{MCD switch|mob|d=1}}
+{{Infobox Dungeons II entity
+| group = Tier 1
+| 1-1 = MCD2_Zombie.png
+| group2 = Tier 2
+| 2-1 = MCD2_Zombie_Tier2.png
+| group3 = Tier 3
+| 3-1 = MCD2_Zombie_Tier3.png
+| imagesize = 300px
+| health =
+* Regular (tier 1): 8
+* Regular (tier 2): 36
+* Regular (tier 3): 52
+* Soul corrupted (tier 1): 200
+* Soul corrupted (tier 2): 233
+* Soul corrupted (tier 3): 266
+| behavior = Hostile
+| spawn = {{MCD2Link|id=Deep Dark|The Deep Dark}}<br>{{MCD2Link|Howling Woods}}
+| soul =
+* Regular (tier 1): 4
+* Regular (tier 2): 8
+* Regular (tier 3): 12
+* Soul corrupted: 50
+| classification = Enemies
+| mob category = {{MCD2|Undead}}
+}}
+
+A '''zombie''' is a common undead {{MCD2|mob}} found throughout the {{MCD2|Overworld}}.
+
+== Spawning ==
+* {{MCD2Link|id=Deep Dark|The Deep Dark}}
+* {{MCD2Link|Frozen Highlands}}
+* {{MCD2Link|Howling Woods}}
+
+== Behavior ==
+Zombies slowly walk toward {{MCD2|hero}}es and swing at them.
+
+Zombies come in three tiers, with the first tier lacking any equipment. The second tier wields a dagger and rusted iron armor, while the third tier has oxidized copper armor and a {{MCD2|sword}}. Higher tier zombies deal more damage, have more health, and are physically larger.
+
+== Data values ==
+=== ID ===
+{{LevelActorTable|type=entity|game=dungeons2
+| {{LevelActorLine
+| displayname = Zombie
+| variant = Tier 1
+| variant2 = Tier 2
+| variant3 = Tier 3
+| blueprint = BP_Zombie_C
+| blueprint2 = BP_Zombie_Variant1_C
+| blueprint3 = BP_Zombie_Variant2_C
+| levelmobtype = -
+| translationkey = SW_Mob_Creeper_SW_TextEntry_Name
+}}
+| {{LevelActorLine
+| displayname = Soul Corrupted Zombie
+| spritename = Zombie
+| variant = Tier 1
+| variant2 = Tier 2
+| variant3 = Tier 3
+| blueprint = BP_Zombie_SoulStated_C
+| blueprint2 = BP_Zombie_Variant1_SoulStated_C
+| blueprint3 = BP_Zombie_Variant2_SoulStated_C
+| levelmobtype = -
+| translationkey = SW_Mob_Creeper_SoulStated_SW_TextEntry_Name
+}}
+}}
+
+== History ==
+{{HistoryTable
+|{{HistoryLine||May 29, 2026|link=https://twitter.com/xbox/status/2060398425686888546|Zombies appear in the key art for {{MCD2}}.}}
+|{{HistoryLine||June 7, 2026|link=https://www.youtube.com/watch?v=VyZKYhM0Kv4|In the reveal trailer, zombies are seen frequently.}}
+|{{HistoryLine||June 11, 2026|link=https://www.youtube.com/watch?v=z9fujISgzM8|Zombies appear in the Deep Dark during gameplay footage.}}
+|{{HistoryLine|dungeons ii}}|{{HistoryLine||1.1.1.0|[[File:MCD2 Zombie.png|32px]] [[File:MCD2 Zombie Tier2.png|32px]] [[File:MCD2 Zombie Tier3.png|32px]] Added zombies.}}}}
+
+== Gallery ==
+=== Renders ===
+<gallery>
+File:MCD2 Zombie.png|A zombie without equipment
+File:MCD2 Zombie Tier2.png|A tier 2 zombie wearing rusted armor and bearing a dagger
+File:MCD2 Zombie Tier3.png|A tier 3 zombie wearing oxidized armor and bearing a sword
+</gallery>
+
+=== Animations ===
+<gallery>
+File:MCD2 Zombie Idle.gif|Zombie idle
+File:MCD2 Zombie Variant 1 Idle.gif|Zombie Tier 1 idle
+File:MCD2 Zombie Variant 2 Idle.gif|Zombie Tier 2 idle
+File:MCD2 Zombie Novelty.gif|Zombie novelty
+File:MCD2 Zombie Walk.gif|Zombie walk
+File:MCD2 Zombie BasicAttack.gif|Zombie attack
+File:MCD2 Zombie Staggered.gif|Zombie staggered
+</gallery>
+
+=== Textures ===
+<gallery>
+File:MCD2 T Zombie.png|Tier 1
+File:MCD2 T Zombie Variant1.png|Tier 2
+File:MCD2 T Zombie Variant2.png|Tier 3
+</gallery>
+
+=== In other media ===
+<gallery>
+File:MCD2 Key Art 16 9.jpg|Zombies as seen in the key art
+File:MCD2 Explore Defend Survive Mousepad Mouse.jpg|Mousepad featuring zombies
+File:MCD2 Domino's Collectible Box Zombie.webp|Domino's collectible box teaser
+File:MCD2 Domino toppings ad 3.webp
+</gallery>
+
+== Navigation ==
+{{Navbox Dungeons II entities}}
+{{Navbox Caleb Zane Huett novels|dungeons}}
+
+[[Category:Minecraft Dungeons II entities]]
+
+[[zh:Dungeons II:僵尸]]

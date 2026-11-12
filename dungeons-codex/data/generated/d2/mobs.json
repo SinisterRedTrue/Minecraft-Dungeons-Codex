@@ -1,0 +1,4269 @@
+[
+  {
+    "id": "d2:mobs:baby-zombie",
+    "slug": "baby-zombie",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Baby Zombie",
+    "image": {
+      "alt": "Baby Zombie icon",
+      "height": 256,
+      "src": "/images/d2/mobs/baby-zombie.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "health": "Regular: 8, Soul corrupted: 133",
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland",
+      "d2:locations:rainy-plains",
+      "d2:locations:squid-coast"
+    ],
+    "mobType": "common",
+    "variants": [
+      "Regular",
+      "Soul Corrupted"
+    ],
+    "tags": [
+      "undead"
+    ],
+    "related": [
+      "d2:mobs:bloombud",
+      "d2:mobs:bogged",
+      "d2:mobs:cave-spider",
+      "d2:mobs:charged-creeper",
+      "d2:mobs:chicken-jockey",
+      "d2:mobs:copper-cube"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3890562,
+      "title": "Dungeons II:Baby Zombie",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Baby_Zombie"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:bee",
+    "slug": "bee",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Bee",
+    "image": {
+      "alt": "Bee icon",
+      "height": 224,
+      "src": "/images/d2/mobs/bee.webp",
+      "width": 224
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "companion",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:iron-golem",
+      "d2:mobs:llama",
+      "d2:mobs:prickle",
+      "d2:mobs:wobble-companion",
+      "d2:mobs:wolf"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3886673,
+      "title": "Dungeons II:Bee",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Bee"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:beekeeper",
+    "slug": "beekeeper",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Beekeeper",
+    "image": {
+      "alt": "Beekeeper icon",
+      "height": 72,
+      "src": "/images/d2/mobs/beekeeper.webp",
+      "width": 84
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "mobType": "character",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:candlemaker",
+      "d2:mobs:cartographer",
+      "d2:mobs:cleric",
+      "d2:mobs:farmer",
+      "d2:mobs:inventor",
+      "d2:mobs:singer"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3856014,
+      "title": "Dungeons II:Beekeeper",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Beekeeper"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:blacksmith",
+    "slug": "blacksmith",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Blacksmith",
+    "image": {
+      "alt": "Blacksmith icon",
+      "height": 66,
+      "src": "/images/d2/mobs/blacksmith.webp",
+      "width": 66
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:brave-haven"
+    ],
+    "mobType": "merchant",
+    "variants": [
+      "Level I",
+      "Level II",
+      "Level III"
+    ],
+    "tags": [],
+    "related": [
+      "d2:mobs:enchantsmith",
+      "d2:mobs:town-merchant"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3886675,
+      "title": "Dungeons II:Blacksmith",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Blacksmith"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:bloombud",
+    "slug": "bloombud",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Bloombud",
+    "image": {
+      "alt": "Bloombud icon",
+      "height": 256,
+      "src": "/images/d2/mobs/bloombud.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:humbler-huskland",
+      "d2:locations:lullaby-hills",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:bogged",
+      "d2:mobs:cave-spider",
+      "d2:mobs:charged-creeper",
+      "d2:mobs:chicken-jockey",
+      "d2:mobs:copper-cube",
+      "d2:mobs:creeper"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3882293,
+      "title": "Dungeons II:Bloombud",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Bloombud"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:blub",
+    "slug": "blub",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Blub",
+    "image": {
+      "alt": "Blub icon",
+      "height": 66,
+      "src": "/images/d2/mobs/blub.webp",
+      "width": 66
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "non-attackable",
+    "variants": [
+      "Soul engorged",
+      "Carapace",
+      "Meadows",
+      "Ravines",
+      "Fungal"
+    ],
+    "tags": [],
+    "related": [
+      "d2:mobs:cat",
+      "d2:mobs:chicken",
+      "d2:mobs:cow",
+      "d2:mobs:duck",
+      "d2:mobs:fox",
+      "d2:mobs:frog"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3890887,
+      "title": "Dungeons II:Blub",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Blub"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:blub-pet",
+    "slug": "blub-pet",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Blub Pet",
+    "image": {
+      "alt": "Blub Pet icon",
+      "height": 66,
+      "src": "/images/d2/mobs/blub-pet.webp",
+      "width": 66
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "pet",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:cheesy-cube-pet",
+      "d2:mobs:twisted-chicken"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3886668,
+      "title": "Dungeons II:Blub Pet",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Blub_Pet"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:bogged",
+    "slug": "bogged",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Bogged",
+    "image": {
+      "alt": "Bogged icon",
+      "height": 256,
+      "src": "/images/d2/mobs/bogged.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "health": 25,
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [
+      "undead"
+    ],
+    "related": [
+      "d2:mobs:cave-spider",
+      "d2:mobs:charged-creeper",
+      "d2:mobs:chicken-jockey",
+      "d2:mobs:copper-cube",
+      "d2:mobs:creeper",
+      "d2:mobs:enchanter"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3886913,
+      "title": "Dungeons II:Bogged",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Bogged"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:candlemaker",
+    "slug": "candlemaker",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Candlemaker",
+    "image": {
+      "alt": "Candlemaker icon",
+      "height": 126,
+      "src": "/images/d2/mobs/candlemaker.webp",
+      "width": 60
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:honeycomb-fields"
+    ],
+    "mobType": "character",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:cartographer",
+      "d2:mobs:cleric",
+      "d2:mobs:farmer",
+      "d2:mobs:inventor",
+      "d2:mobs:singer",
+      "d2:mobs:the-clerics-apprentice"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3858441,
+      "title": "Dungeons II:Candlemaker",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Candlemaker"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:cartographer",
+    "slug": "cartographer",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Cartographer",
+    "image": {
+      "alt": "Cartographer icon",
+      "height": 72,
+      "src": "/images/d2/mobs/cartographer.webp",
+      "width": 60
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "character",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:cleric",
+      "d2:mobs:farmer",
+      "d2:mobs:inventor",
+      "d2:mobs:singer",
+      "d2:mobs:the-clerics-apprentice",
+      "d2:mobs:villager"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:01.388Z",
+      "revisionId": 3893478,
+      "title": "Dungeons II:Mob",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mob"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:cat",
+    "slug": "cat",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Cat",
+    "image": {
+      "alt": "Cat icon",
+      "height": 240,
+      "src": "/images/d2/mobs/cat.webp",
+      "width": 240
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:brave-haven"
+    ],
+    "mobType": "non-attackable",
+    "variants": [
+      "Brown Tabby",
+      "Grey Tabby",
+      "Calico Cat",
+      "Red Cat",
+      "Mia",
+      "Pogo"
+    ],
+    "tags": [],
+    "related": [
+      "d2:mobs:chicken",
+      "d2:mobs:cow",
+      "d2:mobs:duck",
+      "d2:mobs:fox",
+      "d2:mobs:frog",
+      "d2:mobs:glow-squid"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3890254,
+      "title": "Dungeons II:Cat",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Cat"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:cave-spider",
+    "slug": "cave-spider",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Cave Spider",
+    "image": {
+      "alt": "Cave Spider icon",
+      "height": 256,
+      "src": "/images/d2/mobs/cave-spider.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "health": 15,
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:howling-woods"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:charged-creeper",
+      "d2:mobs:chicken-jockey",
+      "d2:mobs:copper-cube",
+      "d2:mobs:creeper",
+      "d2:mobs:enchanter",
+      "d2:mobs:excavator"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3890567,
+      "title": "Dungeons II:Cave Spider",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Cave_Spider"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:charged-creeper",
+    "slug": "charged-creeper",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Charged Creeper",
+    "image": {
+      "alt": "Charged Creeper icon",
+      "height": 256,
+      "src": "/images/d2/mobs/charged-creeper.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "health": 30,
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland",
+      "d2:locations:rainy-plains"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:chicken-jockey",
+      "d2:mobs:copper-cube",
+      "d2:mobs:creeper",
+      "d2:mobs:enchanter",
+      "d2:mobs:excavator",
+      "d2:mobs:flame-construct"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3890809,
+      "title": "Dungeons II:Charged Creeper",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Charged_Creeper"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:cheesy-cube-pet",
+    "slug": "cheesy-cube-pet",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Cheesy Cube Pet",
+    "image": {
+      "alt": "Cheesy Cube Pet icon",
+      "height": 256,
+      "src": "/images/d2/mobs/cheesy-cube-pet.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "pet",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:twisted-chicken",
+      "d2:mobs:blub-pet"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3893773,
+      "title": "Dungeons II:Cheesy Cube Pet",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Cheesy_Cube_Pet"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:chicken",
+    "slug": "chicken",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Chicken",
+    "image": {
+      "alt": "Chicken icon",
+      "height": 256,
+      "src": "/images/d2/mobs/chicken.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:brave-haven",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods"
+    ],
+    "mobType": "non-attackable",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:cow",
+      "d2:mobs:duck",
+      "d2:mobs:fox",
+      "d2:mobs:frog",
+      "d2:mobs:glow-squid",
+      "d2:mobs:goat"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3886659,
+      "title": "Dungeons II:Chicken",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Chicken"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:chicken-jockey",
+    "slug": "chicken-jockey",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Chicken Jockey",
+    "image": {
+      "alt": "Chicken Jockey icon",
+      "height": 256,
+      "src": "/images/d2/mobs/chicken-jockey.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "health": "Regular: 25, Soul corrupted: 200",
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods",
+      "d2:locations:rainy-plains"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [
+      "undead"
+    ],
+    "related": [
+      "d2:mobs:copper-cube",
+      "d2:mobs:creeper",
+      "d2:mobs:enchanter",
+      "d2:mobs:excavator",
+      "d2:mobs:flame-construct",
+      "d2:mobs:frozen"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3890566,
+      "title": "Dungeons II:Chicken Jockey",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Chicken_Jockey"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:cleric",
+    "slug": "cleric",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Cleric",
+    "image": {
+      "alt": "Cleric icon",
+      "height": 72,
+      "src": "/images/d2/mobs/cleric.webp",
+      "width": 60
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "mobType": "character",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:farmer",
+      "d2:mobs:inventor",
+      "d2:mobs:singer",
+      "d2:mobs:the-clerics-apprentice",
+      "d2:mobs:villager",
+      "d2:mobs:woodcutter"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3880253,
+      "title": "Dungeons II:Cleric",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Cleric"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:copper-cube",
+    "slug": "copper-cube",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Copper Cube",
+    "image": {
+      "alt": "Copper Cube icon",
+      "height": 64,
+      "src": "/images/d2/mobs/copper-cube.webp",
+      "width": 64
+    },
+    "attacks": [
+      "Basic attack"
+    ],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland",
+      "d2:locations:lullaby-hills",
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:creeper",
+      "d2:mobs:enchanter",
+      "d2:mobs:excavator",
+      "d2:mobs:flame-construct",
+      "d2:mobs:frozen",
+      "d2:mobs:fusefly"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3874406,
+      "title": "Dungeons II:Copper Cube",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Copper_Cube"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:copper-monstrosity",
+    "slug": "copper-monstrosity",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Copper Monstrosity",
+    "image": {
+      "alt": "Copper Monstrosity icon",
+      "height": 192,
+      "src": "/images/d2/mobs/copper-monstrosity.webp",
+      "width": 256
+    },
+    "attacks": [
+      "Melee combo",
+      "Charge & headbutt",
+      "Electric rings",
+      "Electric blast",
+      "Lightning summoning"
+    ],
+    "drops": [],
+    "health": "2400, 700 (soul storm)",
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland",
+      "d2:locations:lullaby-hills",
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "boss",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:monarch",
+      "d2:mobs:monstrous-opus",
+      "d2:mobs:mosstrosity",
+      "d2:mobs:redstone-monstrosity",
+      "d2:mobs:sculk-monstrosity",
+      "d2:mobs:soul-corrupted-witch"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:02.151Z",
+      "revisionId": 3892708,
+      "title": "Dungeons II:Copper Monstrosity",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Copper_Monstrosity"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:cow",
+    "slug": "cow",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Cow",
+    "image": {
+      "alt": "Cow icon",
+      "height": 240,
+      "src": "/images/d2/mobs/cow.webp",
+      "width": 240
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "non-attackable",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:duck",
+      "d2:mobs:fox",
+      "d2:mobs:frog",
+      "d2:mobs:glow-squid",
+      "d2:mobs:goat",
+      "d2:mobs:nuzzle"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3880061,
+      "title": "Dungeons II:Cow",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Cow"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:creeper",
+    "slug": "creeper",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Creeper",
+    "image": {
+      "alt": "Creeper icon",
+      "height": 256,
+      "src": "/images/d2/mobs/creeper.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland",
+      "d2:locations:rainy-plains"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:enchanter",
+      "d2:mobs:excavator",
+      "d2:mobs:flame-construct",
+      "d2:mobs:frozen",
+      "d2:mobs:fusefly",
+      "d2:mobs:grand-illusioner"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3890532,
+      "title": "Dungeons II:Creeper",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Creeper"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:dartback",
+    "slug": "dartback",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Dartback",
+    "image": {
+      "alt": "Dartback icon",
+      "height": 102,
+      "src": "/images/d2/mobs/dartback.webp",
+      "width": 102
+    },
+    "attacks": [
+      "Head swing",
+      "Dart volley",
+      "Charge"
+    ],
+    "drops": [],
+    "health": "700, 1400 (Soul corrupted)",
+    "locationIds": [
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "mini-boss",
+    "variants": [
+      "Regular",
+      "Soul Corrupted"
+    ],
+    "tags": [],
+    "related": [
+      "d2:mobs:enderman",
+      "d2:mobs:evoker",
+      "d2:mobs:harmonizer",
+      "d2:mobs:warden",
+      "d2:mobs:witch"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3891761,
+      "title": "Dungeons II:Dartback",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Dartback"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:duck",
+    "slug": "duck",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Duck",
+    "image": {
+      "alt": "Duck icon",
+      "height": 256,
+      "src": "/images/d2/mobs/duck.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "health": "0 (has no health)",
+    "locationIds": [
+      "d2:locations:brave-haven"
+    ],
+    "mobType": "non-attackable",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:fox",
+      "d2:mobs:frog",
+      "d2:mobs:glow-squid",
+      "d2:mobs:goat",
+      "d2:mobs:nuzzle",
+      "d2:mobs:parrot"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3879322,
+      "title": "Dungeons II:Duck",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Duck"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:echo-golem",
+    "slug": "echo-golem",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Echo Golem",
+    "image": {
+      "alt": "Echo Golem icon",
+      "height": 87,
+      "src": "/images/d2/mobs/echo-golem.webp",
+      "width": 87
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:ancient-city",
+      "d2:locations:humbler-huskland",
+      "d2:locations:lullaby-hills",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "passive",
+    "variants": [
+      "Blue",
+      "Red"
+    ],
+    "tags": [],
+    "related": [
+      "d2:mobs:key-golem",
+      "d2:mobs:lootkin",
+      "d2:mobs:piggy-bank",
+      "d2:mobs:tuner"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3889001,
+      "title": "Dungeons II:Echo Golem",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Echo_Golem"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:enchanter",
+    "slug": "enchanter",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Enchanter",
+    "image": {
+      "alt": "Enchanter icon",
+      "height": 240,
+      "src": "/images/d2/mobs/enchanter.webp",
+      "width": 240
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland",
+      "d2:locations:lullaby-hills",
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [
+      "illager"
+    ],
+    "related": [
+      "d2:mobs:excavator",
+      "d2:mobs:flame-construct",
+      "d2:mobs:frozen",
+      "d2:mobs:fusefly",
+      "d2:mobs:grand-illusioner",
+      "d2:mobs:hunter"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3890546,
+      "title": "Dungeons II:Enchanter",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchanter"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:enchantsmith",
+    "slug": "enchantsmith",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Enchantsmith",
+    "image": {
+      "alt": "Enchantsmith icon",
+      "height": 66,
+      "src": "/images/d2/mobs/enchantsmith.webp",
+      "width": 66
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:brave-haven"
+    ],
+    "mobType": "merchant",
+    "variants": [
+      "Level I",
+      "Level II",
+      "Level III"
+    ],
+    "tags": [],
+    "related": [
+      "d2:mobs:town-merchant",
+      "d2:mobs:blacksmith"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3860842,
+      "title": "Dungeons II:Enchantsmith",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enchantsmith"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:enderman",
+    "slug": "enderman",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Enderman",
+    "image": {
+      "alt": "Enderman icon",
+      "height": 256,
+      "src": "/images/d2/mobs/enderman.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "health": "480, 800 (Soul corrupted)",
+    "locationIds": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland",
+      "d2:locations:lullaby-hills",
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "mini-boss",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:evoker",
+      "d2:mobs:harmonizer",
+      "d2:mobs:warden",
+      "d2:mobs:witch",
+      "d2:mobs:dartback"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3888763,
+      "title": "Dungeons II:Enderman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Enderman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:evoker",
+    "slug": "evoker",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Evoker",
+    "image": {
+      "alt": "Evoker icon",
+      "height": 66,
+      "src": "/images/d2/mobs/evoker.webp",
+      "width": 66
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods",
+      "d2:locations:rainy-plains"
+    ],
+    "mobType": "mini-boss",
+    "variants": [],
+    "tags": [
+      "illager"
+    ],
+    "related": [
+      "d2:mobs:harmonizer",
+      "d2:mobs:warden",
+      "d2:mobs:witch",
+      "d2:mobs:dartback",
+      "d2:mobs:enderman"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3893153,
+      "title": "Dungeons II:Evoker",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Evoker"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:excavator",
+    "slug": "excavator",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Excavator",
+    "image": {
+      "alt": "Excavator icon",
+      "height": 84,
+      "src": "/images/d2/mobs/excavator.webp",
+      "width": 84
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "common",
+    "variants": [
+      "Regular",
+      "With backpack"
+    ],
+    "tags": [
+      "illager"
+    ],
+    "related": [
+      "d2:mobs:flame-construct",
+      "d2:mobs:frozen",
+      "d2:mobs:fusefly",
+      "d2:mobs:grand-illusioner",
+      "d2:mobs:hunter",
+      "d2:mobs:hurler"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3890548,
+      "title": "Dungeons II:Excavator",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Excavator"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:farmer",
+    "slug": "farmer",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Farmer",
+    "image": {
+      "alt": "Farmer icon",
+      "height": 72,
+      "src": "/images/d2/mobs/farmer.webp",
+      "width": 84
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "character",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:inventor",
+      "d2:mobs:singer",
+      "d2:mobs:the-clerics-apprentice",
+      "d2:mobs:villager",
+      "d2:mobs:woodcutter",
+      "d2:mobs:beekeeper"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:01.388Z",
+      "revisionId": 3893478,
+      "title": "Dungeons II:Mob",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mob"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:flame-construct",
+    "slug": "flame-construct",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Flame Construct",
+    "image": {
+      "alt": "Flame Construct icon",
+      "height": 72,
+      "src": "/images/d2/mobs/flame-construct.webp",
+      "width": 72
+    },
+    "attacks": [
+      "Explosion",
+      "Fire breath"
+    ],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "common",
+    "variants": [
+      "Standing",
+      "Hunkered"
+    ],
+    "tags": [],
+    "related": [
+      "d2:mobs:frozen",
+      "d2:mobs:fusefly",
+      "d2:mobs:grand-illusioner",
+      "d2:mobs:hunter",
+      "d2:mobs:hurler",
+      "d2:mobs:husk"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3890565,
+      "title": "Dungeons II:Flame Construct",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Flame_Construct"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:fox",
+    "slug": "fox",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Fox",
+    "image": {
+      "alt": "Fox icon",
+      "height": 256,
+      "src": "/images/d2/mobs/fox.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "non-attackable",
+    "variants": [
+      "Red",
+      "Arctic"
+    ],
+    "tags": [],
+    "related": [
+      "d2:mobs:frog",
+      "d2:mobs:glow-squid",
+      "d2:mobs:goat",
+      "d2:mobs:nuzzle",
+      "d2:mobs:parrot",
+      "d2:mobs:pig"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3872684,
+      "title": "Dungeons II:Fox",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Fox"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:frog",
+    "slug": "frog",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Frog",
+    "image": {
+      "alt": "Frog icon",
+      "height": 252,
+      "src": "/images/d2/mobs/frog.webp",
+      "width": 252
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "non-attackable",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:glow-squid",
+      "d2:mobs:goat",
+      "d2:mobs:nuzzle",
+      "d2:mobs:parrot",
+      "d2:mobs:pig",
+      "d2:mobs:pigeon"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3885737,
+      "title": "Dungeons II:Frog",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Frog"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:frozen",
+    "slug": "frozen",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Frozen",
+    "image": {
+      "alt": "Frozen icon",
+      "height": 256,
+      "src": "/images/d2/mobs/frozen.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "health": 35,
+    "locationIds": [
+      "d2:locations:frozen-highlands"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [
+      "undead"
+    ],
+    "related": [
+      "d2:mobs:fusefly",
+      "d2:mobs:grand-illusioner",
+      "d2:mobs:hunter",
+      "d2:mobs:hurler",
+      "d2:mobs:husk",
+      "d2:mobs:moss-cube"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3885245,
+      "title": "Dungeons II:Frozen",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Frozen"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:fusefly",
+    "slug": "fusefly",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Fusefly",
+    "image": {
+      "alt": "Fusefly icon",
+      "height": 256,
+      "src": "/images/d2/mobs/fusefly.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:humbler-huskland",
+      "d2:locations:lullaby-hills",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [
+      "Normal",
+      "Hostile",
+      "Exploding",
+      "Soul Corrupted"
+    ],
+    "tags": [],
+    "related": [
+      "d2:mobs:grand-illusioner",
+      "d2:mobs:hunter",
+      "d2:mobs:hurler",
+      "d2:mobs:husk",
+      "d2:mobs:moss-cube",
+      "d2:mobs:mucked"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3857344,
+      "title": "Dungeons II:Fusefly",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Fusefly"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:geomancer",
+    "slug": "geomancer",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Geomancer",
+    "image": {
+      "alt": "Geomancer icon",
+      "height": 65,
+      "src": "/images/d2/mobs/geomancer.webp",
+      "width": 65
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland",
+      "d2:locations:lullaby-hills",
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "hazard",
+    "variants": [],
+    "tags": [
+      "illager"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3890534,
+      "title": "Dungeons II:Geomancer",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Geomancer"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:glow-squid",
+    "slug": "glow-squid",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Glow Squid",
+    "image": {
+      "alt": "Glow Squid icon",
+      "height": 80,
+      "src": "/images/d2/mobs/glow-squid.webp",
+      "width": 80
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "non-attackable",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:goat",
+      "d2:mobs:nuzzle",
+      "d2:mobs:parrot",
+      "d2:mobs:pig",
+      "d2:mobs:pigeon",
+      "d2:mobs:sheep"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3890569,
+      "title": "Dungeons II:Glow Squid",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Glow_Squid"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:goat",
+    "slug": "goat",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Goat",
+    "image": {
+      "alt": "Goat icon",
+      "height": 400,
+      "src": "/images/d2/mobs/goat.webp",
+      "width": 400
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:frozen-highlands"
+    ],
+    "mobType": "non-attackable",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:nuzzle",
+      "d2:mobs:parrot",
+      "d2:mobs:pig",
+      "d2:mobs:pigeon",
+      "d2:mobs:sheep",
+      "d2:mobs:slabber"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3855182,
+      "title": "Dungeons II:Goat",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Goat"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:grand-illusioner",
+    "slug": "grand-illusioner",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Grand Illusioner",
+    "image": {
+      "alt": "Grand Illusioner icon",
+      "height": 104,
+      "src": "/images/d2/mobs/grand-illusioner.webp",
+      "width": 104
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "common",
+    "variants": [],
+    "tags": [
+      "illager"
+    ],
+    "related": [
+      "d2:mobs:hunter",
+      "d2:mobs:hurler",
+      "d2:mobs:husk",
+      "d2:mobs:moss-cube",
+      "d2:mobs:mucked",
+      "d2:mobs:nester"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3892901,
+      "title": "Dungeons II:Grand Illusioner",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Grand_Illusioner"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:harmonizer",
+    "slug": "harmonizer",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Harmonizer",
+    "image": {
+      "alt": "Harmonizer icon",
+      "height": 100,
+      "src": "/images/d2/mobs/harmonizer.webp",
+      "width": 100
+    },
+    "attacks": [
+      "Roar",
+      "Beam",
+      "Tentacle",
+      "Enrage",
+      "Vortex"
+    ],
+    "drops": [],
+    "health": "Regular: 620, Soul corrupted: 1300",
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland",
+      "d2:locations:lullaby-hills",
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "mini-boss",
+    "variants": [
+      "Regular",
+      "Soul Corrupted"
+    ],
+    "tags": [
+      "sifter"
+    ],
+    "related": [
+      "d2:mobs:warden",
+      "d2:mobs:witch",
+      "d2:mobs:dartback",
+      "d2:mobs:enderman",
+      "d2:mobs:evoker"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3889479,
+      "title": "Dungeons II:Harmonizer",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Harmonizer"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:hunter",
+    "slug": "hunter",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Hunter",
+    "image": {
+      "alt": "Hunter icon",
+      "height": 70,
+      "src": "/images/d2/mobs/hunter.webp",
+      "width": 70
+    },
+    "attacks": [
+      "Soul Wave",
+      "Chain & Pull"
+    ],
+    "drops": [],
+    "health": "Regular: 100, Soul corrupted: 300",
+    "locationIds": [
+      "d2:locations:humbler-huskland",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [
+      "Regular",
+      "Soul Corrupted"
+    ],
+    "tags": [
+      "sculker"
+    ],
+    "related": [
+      "d2:mobs:hurler",
+      "d2:mobs:husk",
+      "d2:mobs:moss-cube",
+      "d2:mobs:mucked",
+      "d2:mobs:nester",
+      "d2:mobs:pillager"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3892682,
+      "title": "Dungeons II:Hunter",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Hunter"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:hurler",
+    "slug": "hurler",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Hurler",
+    "image": {
+      "alt": "Hurler icon",
+      "height": 66,
+      "src": "/images/d2/mobs/hurler.webp",
+      "width": 66
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "common",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:husk",
+      "d2:mobs:moss-cube",
+      "d2:mobs:mucked",
+      "d2:mobs:nester",
+      "d2:mobs:pillager",
+      "d2:mobs:pollinator"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3855801,
+      "title": "Dungeons II:Hurler",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Hurler"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:husk",
+    "slug": "husk",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Husk",
+    "image": {
+      "alt": "Husk icon",
+      "height": 256,
+      "src": "/images/d2/mobs/husk.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "health": "Regular: 42, Soul corrupted: 250",
+    "locationIds": [
+      "d2:locations:frozen-highlands"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [
+      "undead"
+    ],
+    "related": [
+      "d2:mobs:moss-cube",
+      "d2:mobs:mucked",
+      "d2:mobs:nester",
+      "d2:mobs:pillager",
+      "d2:mobs:pollinator",
+      "d2:mobs:ravager"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3889440,
+      "title": "Dungeons II:Husk",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Husk"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:inventor",
+    "slug": "inventor",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Inventor",
+    "image": {
+      "alt": "Inventor icon",
+      "height": 102,
+      "src": "/images/d2/mobs/inventor.webp",
+      "width": 60
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:rainy-plains"
+    ],
+    "mobType": "character",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:singer",
+      "d2:mobs:the-clerics-apprentice",
+      "d2:mobs:villager",
+      "d2:mobs:woodcutter",
+      "d2:mobs:beekeeper",
+      "d2:mobs:candlemaker"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3861019,
+      "title": "Dungeons II:Inventor",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Inventor"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:iron-golem",
+    "slug": "iron-golem",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Iron Golem",
+    "image": {
+      "alt": "Iron Golem icon",
+      "height": 66,
+      "src": "/images/d2/mobs/iron-golem.webp",
+      "width": 66
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "companion",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:llama",
+      "d2:mobs:prickle",
+      "d2:mobs:wobble-companion",
+      "d2:mobs:wolf",
+      "d2:mobs:bee"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3886655,
+      "title": "Dungeons II:Iron Golem",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Iron_Golem"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:key-golem",
+    "slug": "key-golem",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Key Golem",
+    "image": {
+      "alt": "Key Golem icon",
+      "height": 256,
+      "src": "/images/d2/mobs/key-golem.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "passive",
+    "variants": [
+      "Golden",
+      "Diamond"
+    ],
+    "tags": [],
+    "related": [
+      "d2:mobs:lootkin",
+      "d2:mobs:piggy-bank",
+      "d2:mobs:tuner",
+      "d2:mobs:echo-golem"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3886678,
+      "title": "Dungeons II:Key Golem",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Key_Golem"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:llama",
+    "slug": "llama",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Llama",
+    "image": {
+      "alt": "Llama icon",
+      "height": 256,
+      "src": "/images/d2/mobs/llama.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "companion",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:prickle",
+      "d2:mobs:wobble-companion",
+      "d2:mobs:wolf",
+      "d2:mobs:bee",
+      "d2:mobs:iron-golem"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3835047,
+      "title": "Dungeons II:Llama",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Llama"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:lootkin",
+    "slug": "lootkin",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Lootkin",
+    "image": {
+      "alt": "Lootkin icon",
+      "height": 228,
+      "src": "/images/d2/mobs/lootkin.webp",
+      "width": 228
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "passive",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:piggy-bank",
+      "d2:mobs:tuner",
+      "d2:mobs:echo-golem",
+      "d2:mobs:key-golem"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3880739,
+      "title": "Dungeons II:Lootkin",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Lootkin"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:monarch",
+    "slug": "monarch",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Monarch",
+    "image": {
+      "alt": "Monarch icon",
+      "height": 72,
+      "src": "/images/d2/mobs/monarch.webp",
+      "width": 72
+    },
+    "attacks": [
+      "Heel stomp",
+      "Summon",
+      "Dash strike",
+      "Hover loop",
+      "Calamity combo"
+    ],
+    "drops": [],
+    "health": 1400,
+    "locationIds": [
+      "d2:locations:humbler-huskland"
+    ],
+    "mobType": "boss",
+    "variants": [],
+    "tags": [
+      "sculker"
+    ],
+    "related": [
+      "d2:mobs:monstrous-opus",
+      "d2:mobs:mosstrosity",
+      "d2:mobs:redstone-monstrosity",
+      "d2:mobs:sculk-monstrosity",
+      "d2:mobs:soul-corrupted-witch",
+      "d2:mobs:storm-generator"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3889489,
+      "title": "Dungeons II:Monarch",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Monarch"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:monstrous-opus",
+    "slug": "monstrous-opus",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Monstrous Opus",
+    "image": {
+      "alt": "Monstrous Opus icon",
+      "height": 128,
+      "src": "/images/d2/mobs/monstrous-opus.webp",
+      "width": 128
+    },
+    "attacks": [
+      "Spawn",
+      "Run",
+      "Horn strike",
+      "Earth outbreak",
+      "Bombs scatter",
+      "Fire wave",
+      "Deconstructed",
+      "Soul harvester",
+      "Ground blast",
+      "Soul cannon"
+    ],
+    "drops": [],
+    "health": 2000,
+    "locationIds": [],
+    "mobType": "boss",
+    "variants": [
+      "Active",
+      "Inactive"
+    ],
+    "tags": [],
+    "related": [
+      "d2:mobs:mosstrosity",
+      "d2:mobs:redstone-monstrosity",
+      "d2:mobs:sculk-monstrosity",
+      "d2:mobs:soul-corrupted-witch",
+      "d2:mobs:storm-generator",
+      "d2:mobs:the-prime-enchanter"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:02.151Z",
+      "revisionId": 3890682,
+      "title": "Dungeons II:Monstrous Opus",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Monstrous_Opus"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:moss-cube",
+    "slug": "moss-cube",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Moss Cube",
+    "image": {
+      "alt": "Moss Cube icon",
+      "height": 256,
+      "src": "/images/d2/mobs/moss-cube.webp",
+      "width": 256
+    },
+    "attacks": [
+      "Basic attack"
+    ],
+    "drops": [],
+    "health": 22,
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:mucked",
+      "d2:mobs:nester",
+      "d2:mobs:pillager",
+      "d2:mobs:pollinator",
+      "d2:mobs:ravager",
+      "d2:mobs:redstone-cube"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3888116,
+      "title": "Dungeons II:Moss Cube",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Moss_Cube"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:mosstrosity",
+    "slug": "mosstrosity",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Mosstrosity",
+    "image": {
+      "alt": "Mosstrosity icon",
+      "height": 108,
+      "src": "/images/d2/mobs/mosstrosity.webp",
+      "width": 138
+    },
+    "attacks": [
+      "Attack 1",
+      "Attack 2",
+      "Attack 3",
+      "Charge",
+      "Cube summon",
+      "Plant projectile"
+    ],
+    "drops": [],
+    "health": 2400,
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "mobType": "boss",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:redstone-monstrosity",
+      "d2:mobs:sculk-monstrosity",
+      "d2:mobs:soul-corrupted-witch",
+      "d2:mobs:storm-generator",
+      "d2:mobs:the-prime-enchanter",
+      "d2:mobs:the-supreme-evoker"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:02.151Z",
+      "revisionId": 3880969,
+      "title": "Dungeons II:Mosstrosity",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mosstrosity"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:mucked",
+    "slug": "mucked",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Mucked",
+    "image": {
+      "alt": "Mucked icon",
+      "height": 88,
+      "src": "/images/d2/mobs/mucked.webp",
+      "width": 64
+    },
+    "attacks": [],
+    "drops": [],
+    "health": 30,
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [
+      "undead"
+    ],
+    "related": [
+      "d2:mobs:nester",
+      "d2:mobs:pillager",
+      "d2:mobs:pollinator",
+      "d2:mobs:ravager",
+      "d2:mobs:redstone-cube",
+      "d2:mobs:roamroot"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3875569,
+      "title": "Dungeons II:Mucked",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mucked"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:nester",
+    "slug": "nester",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Nester",
+    "image": {
+      "alt": "Nester icon",
+      "height": 66,
+      "src": "/images/d2/mobs/nester.webp",
+      "width": 66
+    },
+    "attacks": [],
+    "drops": [],
+    "health": "Regular: 55, Soul corrupted: 233",
+    "locationIds": [
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [
+      "Regular",
+      "Soul Corrupted"
+    ],
+    "tags": [
+      "sifter"
+    ],
+    "related": [
+      "d2:mobs:pillager",
+      "d2:mobs:pollinator",
+      "d2:mobs:ravager",
+      "d2:mobs:redstone-cube",
+      "d2:mobs:roamroot",
+      "d2:mobs:royal-guard"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3892940,
+      "title": "Dungeons II:Nester",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Nester"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:nuzzle",
+    "slug": "nuzzle",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Nuzzle",
+    "image": {
+      "alt": "Nuzzle icon",
+      "height": 200,
+      "src": "/images/d2/mobs/nuzzle.webp",
+      "width": 200
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "non-attackable",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:parrot",
+      "d2:mobs:pig",
+      "d2:mobs:pigeon",
+      "d2:mobs:sheep",
+      "d2:mobs:slabber",
+      "d2:mobs:spotted-pig"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3879953,
+      "title": "Dungeons II:Nuzzle",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Nuzzle"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:parrot",
+    "slug": "parrot",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Parrot",
+    "image": {
+      "alt": "Parrot icon",
+      "height": 324,
+      "src": "/images/d2/mobs/parrot.webp",
+      "width": 324
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "non-attackable",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:pig",
+      "d2:mobs:pigeon",
+      "d2:mobs:sheep",
+      "d2:mobs:slabber",
+      "d2:mobs:spotted-pig",
+      "d2:mobs:squid"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:10:01.388Z",
+      "revisionId": 3893478,
+      "title": "Dungeons II:Mob",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Mob"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:pig",
+    "slug": "pig",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Pig",
+    "image": {
+      "alt": "Pig icon",
+      "height": 256,
+      "src": "/images/d2/mobs/pig.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "non-attackable",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:pigeon",
+      "d2:mobs:sheep",
+      "d2:mobs:slabber",
+      "d2:mobs:spotted-pig",
+      "d2:mobs:squid",
+      "d2:mobs:trill"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3880054,
+      "title": "Dungeons II:Pig",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Pig"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:pigeon",
+    "slug": "pigeon",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Pigeon",
+    "image": {
+      "alt": "Pigeon icon",
+      "height": 240,
+      "src": "/images/d2/mobs/pigeon.webp",
+      "width": 240
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "non-attackable",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:sheep",
+      "d2:mobs:slabber",
+      "d2:mobs:spotted-pig",
+      "d2:mobs:squid",
+      "d2:mobs:trill",
+      "d2:mobs:wobble"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3880387,
+      "title": "Dungeons II:Pigeon",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Pigeon"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:piggy-bank",
+    "slug": "piggy-bank",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Piggy Bank",
+    "image": {
+      "alt": "Piggy Bank icon",
+      "height": 256,
+      "src": "/images/d2/mobs/piggy-bank.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "health": 80,
+    "locationIds": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods"
+    ],
+    "mobType": "passive",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:tuner",
+      "d2:mobs:echo-golem",
+      "d2:mobs:key-golem",
+      "d2:mobs:lootkin"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3886677,
+      "title": "Dungeons II:Piggy Bank",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Piggy_Bank"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:pillager",
+    "slug": "pillager",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Pillager",
+    "image": {
+      "alt": "Pillager icon",
+      "height": 65,
+      "src": "/images/d2/mobs/pillager.webp",
+      "width": 60
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:howling-woods",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3"
+    ],
+    "tags": [
+      "illager"
+    ],
+    "related": [
+      "d2:mobs:pollinator",
+      "d2:mobs:ravager",
+      "d2:mobs:redstone-cube",
+      "d2:mobs:roamroot",
+      "d2:mobs:royal-guard",
+      "d2:mobs:scavenger"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3890529,
+      "title": "Dungeons II:Pillager",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Pillager"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:pollinator",
+    "slug": "pollinator",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Pollinator",
+    "image": {
+      "alt": "Pollinator icon",
+      "height": 232,
+      "src": "/images/d2/mobs/pollinator.webp",
+      "width": 192
+    },
+    "attacks": [
+      "Seed spit",
+      "Strike"
+    ],
+    "drops": [],
+    "health": "Regular: 40, Soul corrupted: 233",
+    "locationIds": [
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [
+      "Regular",
+      "Soul Corrupted"
+    ],
+    "tags": [
+      "sifter"
+    ],
+    "related": [
+      "d2:mobs:ravager",
+      "d2:mobs:redstone-cube",
+      "d2:mobs:roamroot",
+      "d2:mobs:royal-guard",
+      "d2:mobs:scavenger",
+      "d2:mobs:sculk-cube"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3892924,
+      "title": "Dungeons II:Pollinator",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Pollinator"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:prickle",
+    "slug": "prickle",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Prickle",
+    "image": {
+      "alt": "Prickle icon",
+      "height": 72,
+      "src": "/images/d2/mobs/prickle.webp",
+      "width": 72
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "companion",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:wobble-companion",
+      "d2:mobs:wolf",
+      "d2:mobs:bee",
+      "d2:mobs:iron-golem",
+      "d2:mobs:llama"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3886672,
+      "title": "Dungeons II:Prickle",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Prickle"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:ravager",
+    "slug": "ravager",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Ravager",
+    "image": {
+      "alt": "Ravager icon",
+      "height": 360,
+      "src": "/images/d2/mobs/ravager.webp",
+      "width": 293
+    },
+    "attacks": [
+      "Bite",
+      "Charge",
+      "Roar",
+      "Pillager rider"
+    ],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:humbler-huskland",
+      "d2:locations:lullaby-hills",
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [
+      "Default",
+      "Jockey"
+    ],
+    "tags": [],
+    "related": [
+      "d2:mobs:redstone-cube",
+      "d2:mobs:roamroot",
+      "d2:mobs:royal-guard",
+      "d2:mobs:scavenger",
+      "d2:mobs:sculk-cube",
+      "d2:mobs:seedling"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3888209,
+      "title": "Dungeons II:Ravager",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Ravager"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:redstone-cube",
+    "slug": "redstone-cube",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Redstone Cube",
+    "image": {
+      "alt": "Redstone Cube icon",
+      "height": 64,
+      "src": "/images/d2/mobs/redstone-cube.webp",
+      "width": 64
+    },
+    "attacks": [
+      "Basic attack"
+    ],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland",
+      "d2:locations:lullaby-hills",
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:roamroot",
+      "d2:mobs:royal-guard",
+      "d2:mobs:scavenger",
+      "d2:mobs:sculk-cube",
+      "d2:mobs:seedling",
+      "d2:mobs:sentinel"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3888118,
+      "title": "Dungeons II:Redstone Cube",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Redstone_Cube"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:redstone-monstrosity",
+    "slug": "redstone-monstrosity",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Redstone Monstrosity",
+    "image": {
+      "alt": "Redstone Monstrosity icon",
+      "height": 108,
+      "src": "/images/d2/mobs/redstone-monstrosity.webp",
+      "width": 128
+    },
+    "attacks": [
+      "Basic combo",
+      "Fire charge",
+      "Molten bombs spit",
+      "Fire summonning",
+      "Redstone sentries"
+    ],
+    "drops": [],
+    "health": "2400, 700 (soul storm)",
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland",
+      "d2:locations:lullaby-hills",
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "boss",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:sculk-monstrosity",
+      "d2:mobs:soul-corrupted-witch",
+      "d2:mobs:storm-generator",
+      "d2:mobs:the-prime-enchanter",
+      "d2:mobs:the-supreme-evoker",
+      "d2:mobs:twisted-warden"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:02.151Z",
+      "revisionId": 3889498,
+      "title": "Dungeons II:Redstone Monstrosity",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Redstone_Monstrosity"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:roamroot",
+    "slug": "roamroot",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Roamroot",
+    "image": {
+      "alt": "Roamroot icon",
+      "height": 92,
+      "src": "/images/d2/mobs/roamroot.webp",
+      "width": 92
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:humbler-huskland",
+      "d2:locations:lullaby-hills",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:royal-guard",
+      "d2:mobs:scavenger",
+      "d2:mobs:sculk-cube",
+      "d2:mobs:seedling",
+      "d2:mobs:sentinel",
+      "d2:mobs:shield-generator"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3886420,
+      "title": "Dungeons II:Roamroot",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Roamroot"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:royal-guard",
+    "slug": "royal-guard",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Royal Guard",
+    "image": {
+      "alt": "Royal Guard icon",
+      "height": 256,
+      "src": "/images/d2/mobs/royal-guard.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [
+      "illager"
+    ],
+    "related": [
+      "d2:mobs:scavenger",
+      "d2:mobs:sculk-cube",
+      "d2:mobs:seedling",
+      "d2:mobs:sentinel",
+      "d2:mobs:shield-generator",
+      "d2:mobs:skeleton"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3887988,
+      "title": "Dungeons II:Royal Guard",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Royal_Guard"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:scavenger",
+    "slug": "scavenger",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Scavenger",
+    "image": {
+      "alt": "Scavenger icon",
+      "height": 192,
+      "src": "/images/d2/mobs/scavenger.webp",
+      "width": 240
+    },
+    "attacks": [
+      "Soul Projectiles",
+      "Dodge"
+    ],
+    "drops": [],
+    "health": "Regular: 50, Soul corrupted: 266",
+    "locationIds": [
+      "d2:locations:humbler-huskland",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [
+      "Regular",
+      "Soul Corrupted"
+    ],
+    "tags": [
+      "sculker"
+    ],
+    "related": [
+      "d2:mobs:sculk-cube",
+      "d2:mobs:seedling",
+      "d2:mobs:sentinel",
+      "d2:mobs:shield-generator",
+      "d2:mobs:skeleton",
+      "d2:mobs:slime"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3892681,
+      "title": "Dungeons II:Scavenger",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Scavenger"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:sculk-cube",
+    "slug": "sculk-cube",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Sculk Cube",
+    "image": {
+      "alt": "Sculk Cube icon",
+      "height": 64,
+      "src": "/images/d2/mobs/sculk-cube.webp",
+      "width": 64
+    },
+    "attacks": [
+      "Basic attack",
+      "Death"
+    ],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland",
+      "d2:locations:lullaby-hills",
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:seedling",
+      "d2:mobs:sentinel",
+      "d2:mobs:shield-generator",
+      "d2:mobs:skeleton",
+      "d2:mobs:slime",
+      "d2:mobs:spider"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3869105,
+      "title": "Dungeons II:Sculk Cube",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sculk_Cube"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:sculk-monstrosity",
+    "slug": "sculk-monstrosity",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Sculk Monstrosity",
+    "image": {
+      "alt": "Sculk Monstrosity icon",
+      "height": 108,
+      "src": "/images/d2/mobs/sculk-monstrosity.webp",
+      "width": 128
+    },
+    "attacks": [
+      "Combo attack",
+      "Swipe attack",
+      "Charge",
+      "Mega punch",
+      "Projectile",
+      "Recovery attack",
+      "Catalyst summon"
+    ],
+    "drops": [],
+    "health": "2000, 700 (soul storm)",
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods",
+      "d2:locations:humbler-huskland",
+      "d2:locations:lullaby-hills",
+      "d2:locations:rainy-plains",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "boss",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:soul-corrupted-witch",
+      "d2:mobs:storm-generator",
+      "d2:mobs:the-prime-enchanter",
+      "d2:mobs:the-supreme-evoker",
+      "d2:mobs:twisted-warden",
+      "d2:mobs:copper-monstrosity"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:02.151Z",
+      "revisionId": 3889501,
+      "title": "Dungeons II:Sculk Monstrosity",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sculk_Monstrosity"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:seedling",
+    "slug": "seedling",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Seedling",
+    "image": {
+      "alt": "Seedling icon",
+      "height": 84,
+      "src": "/images/d2/mobs/seedling.webp",
+      "width": 84
+    },
+    "attacks": [],
+    "drops": [],
+    "health": "Regular: 30, Soul corrupted: 200",
+    "locationIds": [
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [
+      "Regular",
+      "Soul Corrupted"
+    ],
+    "tags": [
+      "sifter"
+    ],
+    "related": [
+      "d2:mobs:sentinel",
+      "d2:mobs:shield-generator",
+      "d2:mobs:skeleton",
+      "d2:mobs:slime",
+      "d2:mobs:spider",
+      "d2:mobs:spider-jockey"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3892930,
+      "title": "Dungeons II:Seedling",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Seedling"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:sentinel",
+    "slug": "sentinel",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Sentinel",
+    "image": {
+      "alt": "Sentinel icon",
+      "height": 84,
+      "src": "/images/d2/mobs/sentinel.webp",
+      "width": 84
+    },
+    "attacks": [],
+    "drops": [],
+    "health": "Regular: 37, Soul corrupted: 233",
+    "locationIds": [],
+    "mobType": "common",
+    "variants": [
+      "Regular",
+      "Soul Corrupted"
+    ],
+    "tags": [
+      "sifter"
+    ],
+    "related": [
+      "d2:mobs:shield-generator",
+      "d2:mobs:skeleton",
+      "d2:mobs:slime",
+      "d2:mobs:spider",
+      "d2:mobs:spider-jockey",
+      "d2:mobs:sprout"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3886501,
+      "title": "Dungeons II:Sentinel",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sentinel"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:sheep",
+    "slug": "sheep",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Sheep",
+    "image": {
+      "alt": "Sheep icon",
+      "height": 224,
+      "src": "/images/d2/mobs/sheep.webp",
+      "width": 224
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "non-attackable",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:slabber",
+      "d2:mobs:spotted-pig",
+      "d2:mobs:squid",
+      "d2:mobs:trill",
+      "d2:mobs:wobble",
+      "d2:mobs:blub"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3874733,
+      "title": "Dungeons II:Sheep",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sheep"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:shield-generator",
+    "slug": "shield-generator",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Shield Generator",
+    "image": {
+      "alt": "Shield Generator icon",
+      "height": 256,
+      "src": "/images/d2/mobs/shield-generator.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "health": 55,
+    "locationIds": [],
+    "mobType": "common",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:skeleton",
+      "d2:mobs:slime",
+      "d2:mobs:spider",
+      "d2:mobs:spider-jockey",
+      "d2:mobs:sprout",
+      "d2:mobs:stalker"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3865783,
+      "title": "Dungeons II:Shield Generator",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Shield_Generator"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:singer",
+    "slug": "singer",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Singer",
+    "image": {
+      "alt": "Singer icon",
+      "height": 84,
+      "src": "/images/d2/mobs/singer.webp",
+      "width": 84
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "character",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:the-clerics-apprentice",
+      "d2:mobs:villager",
+      "d2:mobs:woodcutter",
+      "d2:mobs:beekeeper",
+      "d2:mobs:candlemaker",
+      "d2:mobs:cartographer"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3893869,
+      "title": "Dungeons II:Singer",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Singer"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:skeleton",
+    "slug": "skeleton",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Skeleton",
+    "image": {
+      "alt": "Skeleton icon",
+      "height": 256,
+      "src": "/images/d2/mobs/skeleton.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "health": "Regular (tier 1): 7, Regular (tier 2): 23, Regular (tier 3): 37, Soul corrupted (tier 1): 200, Soul corrupted (tier 2): 233, Soul corrupted (tier 3): 266",
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "mobType": "common",
+    "variants": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3"
+    ],
+    "tags": [
+      "undead"
+    ],
+    "related": [
+      "d2:mobs:slime",
+      "d2:mobs:spider",
+      "d2:mobs:spider-jockey",
+      "d2:mobs:sprout",
+      "d2:mobs:stalker",
+      "d2:mobs:stray"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3890530,
+      "title": "Dungeons II:Skeleton",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Skeleton"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:slabber",
+    "slug": "slabber",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Slabber",
+    "image": {
+      "alt": "Slabber icon",
+      "height": 232,
+      "src": "/images/d2/mobs/slabber.webp",
+      "width": 192
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "non-attackable",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:spotted-pig",
+      "d2:mobs:squid",
+      "d2:mobs:trill",
+      "d2:mobs:wobble",
+      "d2:mobs:blub",
+      "d2:mobs:cat"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3868421,
+      "title": "Dungeons II:Slabber",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Slabber"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:slime",
+    "slug": "slime",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Slime",
+    "image": {
+      "alt": "Slime icon",
+      "height": 256,
+      "src": "/images/d2/mobs/slime.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:rainy-plains"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:spider",
+      "d2:mobs:spider-jockey",
+      "d2:mobs:sprout",
+      "d2:mobs:stalker",
+      "d2:mobs:stray",
+      "d2:mobs:target-dummy"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3890528,
+      "title": "Dungeons II:Slime",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Slime"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:soul-corrupted-witch",
+    "slug": "soul-corrupted-witch",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Soul Corrupted Witch",
+    "image": {
+      "alt": "Soul Corrupted Witch icon",
+      "height": 114,
+      "src": "/images/d2/mobs/soul-corrupted-witch.webp",
+      "width": 84
+    },
+    "attacks": [
+      "Walk",
+      "Invisibility brew",
+      "Basic throw",
+      "Strong throw",
+      "Bucket throw",
+      "Drink heath potion"
+    ],
+    "drops": [],
+    "health": 1200,
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "mobType": "boss",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:storm-generator",
+      "d2:mobs:the-prime-enchanter",
+      "d2:mobs:the-supreme-evoker",
+      "d2:mobs:twisted-warden",
+      "d2:mobs:copper-monstrosity",
+      "d2:mobs:monarch"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:02.151Z",
+      "revisionId": 3891496,
+      "title": "Dungeons II:Soul Corrupted Witch",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Soul_Corrupted_Witch"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:spider",
+    "slug": "spider",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Spider",
+    "image": {
+      "alt": "Spider icon",
+      "height": 256,
+      "src": "/images/d2/mobs/spider.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:spider-jockey",
+      "d2:mobs:sprout",
+      "d2:mobs:stalker",
+      "d2:mobs:stray",
+      "d2:mobs:target-dummy",
+      "d2:mobs:trapper"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3890550,
+      "title": "Dungeons II:Spider",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Spider"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:spider-jockey",
+    "slug": "spider-jockey",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Spider Jockey",
+    "image": {
+      "alt": "Spider Jockey icon",
+      "height": 256,
+      "src": "/images/d2/mobs/spider-jockey.webp",
+      "width": 256
+    },
+    "attacks": [
+      "Ranged attack",
+      "Melee attack"
+    ],
+    "drops": [],
+    "health": "Regular: 32, Soul corrupted: 233",
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [
+      "undead"
+    ],
+    "related": [
+      "d2:mobs:sprout",
+      "d2:mobs:stalker",
+      "d2:mobs:stray",
+      "d2:mobs:target-dummy",
+      "d2:mobs:trapper",
+      "d2:mobs:vanguard"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3890568,
+      "title": "Dungeons II:Spider Jockey",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Spider_Jockey"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:spotted-pig",
+    "slug": "spotted-pig",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Spotted Pig",
+    "image": {
+      "alt": "Spotted Pig icon",
+      "height": 256,
+      "src": "/images/d2/mobs/spotted-pig.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "non-attackable",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:squid",
+      "d2:mobs:trill",
+      "d2:mobs:wobble",
+      "d2:mobs:blub",
+      "d2:mobs:cat",
+      "d2:mobs:chicken"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3881825,
+      "title": "Dungeons II:Spotted Pig",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Spotted_Pig"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:sprout",
+    "slug": "sprout",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Sprout",
+    "image": {
+      "alt": "Sprout icon",
+      "height": 256,
+      "src": "/images/d2/mobs/sprout.webp",
+      "width": 256
+    },
+    "attacks": [
+      "Life Link",
+      "Whip",
+      "Enrage"
+    ],
+    "drops": [],
+    "health": "Regular: 32, Soul corrupted: 166",
+    "locationIds": [
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [
+      "Regular",
+      "Soul Corrupted"
+    ],
+    "tags": [
+      "sifter"
+    ],
+    "related": [
+      "d2:mobs:stalker",
+      "d2:mobs:stray",
+      "d2:mobs:target-dummy",
+      "d2:mobs:trapper",
+      "d2:mobs:vanguard",
+      "d2:mobs:vex"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3892937,
+      "title": "Dungeons II:Sprout",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Sprout"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:squid",
+    "slug": "squid",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Squid",
+    "image": {
+      "alt": "Squid icon",
+      "height": 80,
+      "src": "/images/d2/mobs/squid.webp",
+      "width": 80
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "mobType": "non-attackable",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:trill",
+      "d2:mobs:wobble",
+      "d2:mobs:blub",
+      "d2:mobs:cat",
+      "d2:mobs:chicken",
+      "d2:mobs:cow"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3890577,
+      "title": "Dungeons II:Squid",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Squid"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:stalker",
+    "slug": "stalker",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Stalker",
+    "image": {
+      "alt": "Stalker icon",
+      "height": 65,
+      "src": "/images/d2/mobs/stalker.webp",
+      "width": 65
+    },
+    "attacks": [
+      "Slash",
+      "Dash"
+    ],
+    "drops": [],
+    "health": "Regular: 60, Soul corrupted: 266",
+    "locationIds": [
+      "d2:locations:humbler-huskland",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [
+      "Regular",
+      "Soul Corrupted"
+    ],
+    "tags": [
+      "sculker"
+    ],
+    "related": [
+      "d2:mobs:stray",
+      "d2:mobs:target-dummy",
+      "d2:mobs:trapper",
+      "d2:mobs:vanguard",
+      "d2:mobs:vex",
+      "d2:mobs:vindicator"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3892678,
+      "title": "Dungeons II:Stalker",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Stalker"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:storm-generator",
+    "slug": "storm-generator",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Storm Generator",
+    "image": {
+      "alt": "Storm Generator icon",
+      "height": 256,
+      "src": "/images/d2/mobs/storm-generator.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "health": "800 (Easy), 1000 (Medium), 1200 (Hard)",
+    "locationIds": [],
+    "mobType": "boss",
+    "variants": [
+      "Easy",
+      "Medium",
+      "Hard"
+    ],
+    "tags": [],
+    "related": [
+      "d2:mobs:the-prime-enchanter",
+      "d2:mobs:the-supreme-evoker",
+      "d2:mobs:twisted-warden",
+      "d2:mobs:copper-monstrosity",
+      "d2:mobs:monarch",
+      "d2:mobs:monstrous-opus"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:02.151Z",
+      "revisionId": 3870810,
+      "title": "Dungeons II:Storm Generator",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Storm_Generator"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:stray",
+    "slug": "stray",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Stray",
+    "image": {
+      "alt": "Stray icon",
+      "height": 256,
+      "src": "/images/d2/mobs/stray.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "health": 28,
+    "locationIds": [
+      "d2:locations:frozen-highlands"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [
+      "undead"
+    ],
+    "related": [
+      "d2:mobs:target-dummy",
+      "d2:mobs:trapper",
+      "d2:mobs:vanguard",
+      "d2:mobs:vex",
+      "d2:mobs:vindicator",
+      "d2:mobs:witch-slime"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3884722,
+      "title": "Dungeons II:Stray",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Stray"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:target-dummy",
+    "slug": "target-dummy",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Target Dummy",
+    "image": {
+      "alt": "Target Dummy icon",
+      "height": 256,
+      "src": "/images/d2/mobs/target-dummy.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "common",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:trapper",
+      "d2:mobs:vanguard",
+      "d2:mobs:vex",
+      "d2:mobs:vindicator",
+      "d2:mobs:witch-slime",
+      "d2:mobs:zombie"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3893026,
+      "title": "Dungeons II:Target Dummy",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Target_Dummy"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:the-clerics-apprentice",
+    "slug": "the-clerics-apprentice",
+    "game": "d2",
+    "category": "mobs",
+    "name": "The Cleric's Apprentice",
+    "image": {
+      "alt": "The Cleric's Apprentice icon",
+      "height": 72,
+      "src": "/images/d2/mobs/the-clerics-apprentice.webp",
+      "width": 60
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "mobType": "character",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:villager",
+      "d2:mobs:woodcutter",
+      "d2:mobs:beekeeper",
+      "d2:mobs:candlemaker",
+      "d2:mobs:cartographer",
+      "d2:mobs:cleric"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3890276,
+      "title": "Dungeons II:The Cleric's Apprentice",
+      "url": "https://minecraft.wiki/w/Dungeons_II:The_Cleric's_Apprentice"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:the-prime-enchanter",
+    "slug": "the-prime-enchanter",
+    "game": "d2",
+    "category": "mobs",
+    "name": "The Prime Enchanter",
+    "image": {
+      "alt": "The Prime Enchanter icon",
+      "height": 104,
+      "src": "/images/d2/mobs/the-prime-enchanter.webp",
+      "width": 104
+    },
+    "attacks": [
+      "Launch",
+      "Fury fist",
+      "Forward strike",
+      "Lightning slam",
+      "Overcharge",
+      "Summon"
+    ],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "boss",
+    "variants": [],
+    "tags": [
+      "illager"
+    ],
+    "related": [
+      "d2:mobs:the-supreme-evoker",
+      "d2:mobs:twisted-warden",
+      "d2:mobs:copper-monstrosity",
+      "d2:mobs:monarch",
+      "d2:mobs:monstrous-opus",
+      "d2:mobs:mosstrosity"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3890691,
+      "title": "Dungeons II:The Prime Enchanter",
+      "url": "https://minecraft.wiki/w/Dungeons_II:The_Prime_Enchanter"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:the-supreme-evoker",
+    "slug": "the-supreme-evoker",
+    "game": "d2",
+    "category": "mobs",
+    "name": "The Supreme Evoker",
+    "image": {
+      "alt": "The Supreme Evoker icon",
+      "height": 240,
+      "src": "/images/d2/mobs/the-supreme-evoker.webp",
+      "width": 240
+    },
+    "attacks": [
+      "Strong attack",
+      "Enchanted projectiles",
+      "Protection bubble",
+      "Illager summon",
+      "Teleport reposition"
+    ],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "boss",
+    "variants": [],
+    "tags": [
+      "illager"
+    ],
+    "related": [
+      "d2:mobs:twisted-warden",
+      "d2:mobs:copper-monstrosity",
+      "d2:mobs:monarch",
+      "d2:mobs:monstrous-opus",
+      "d2:mobs:mosstrosity",
+      "d2:mobs:redstone-monstrosity"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3890651,
+      "title": "Dungeons II:The Supreme Evoker",
+      "url": "https://minecraft.wiki/w/Dungeons_II:The_Supreme_Evoker"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:town-merchant",
+    "slug": "town-merchant",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Town Merchant",
+    "image": {
+      "alt": "Town Merchant icon",
+      "height": 66,
+      "src": "/images/d2/mobs/town-merchant.webp",
+      "width": 66
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:brave-haven"
+    ],
+    "mobType": "merchant",
+    "variants": [
+      "Level I",
+      "Level II",
+      "Level III"
+    ],
+    "tags": [],
+    "related": [
+      "d2:mobs:blacksmith",
+      "d2:mobs:enchantsmith"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3860290,
+      "title": "Dungeons II:Town Merchant",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Town_Merchant"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:trapper",
+    "slug": "trapper",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Trapper",
+    "image": {
+      "alt": "Trapper icon",
+      "height": 240,
+      "src": "/images/d2/mobs/trapper.webp",
+      "width": 240
+    },
+    "attacks": [
+      "Swipe Escape",
+      "Pillar Summon"
+    ],
+    "drops": [],
+    "health": "Regular: 45, Soul corrupted: 266",
+    "locationIds": [
+      "d2:locations:humbler-huskland",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [
+      "Regular",
+      "Soul Corrupted"
+    ],
+    "tags": [
+      "sculker"
+    ],
+    "related": [
+      "d2:mobs:vanguard",
+      "d2:mobs:vex",
+      "d2:mobs:vindicator",
+      "d2:mobs:witch-slime",
+      "d2:mobs:zombie",
+      "d2:mobs:baby-zombie"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3892676,
+      "title": "Dungeons II:Trapper",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Trapper"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:trill",
+    "slug": "trill",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Trill",
+    "image": {
+      "alt": "Trill icon",
+      "height": 256,
+      "src": "/images/d2/mobs/trill.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "non-attackable",
+    "variants": [
+      "Blue",
+      "Yellow",
+      "Purple"
+    ],
+    "tags": [],
+    "related": [
+      "d2:mobs:wobble",
+      "d2:mobs:blub",
+      "d2:mobs:cat",
+      "d2:mobs:chicken",
+      "d2:mobs:cow",
+      "d2:mobs:duck"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3889038,
+      "title": "Dungeons II:Trill",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Trill"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:tuner",
+    "slug": "tuner",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Tuner",
+    "image": {
+      "alt": "Tuner icon",
+      "height": 256,
+      "src": "/images/d2/mobs/tuner.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "passive",
+    "variants": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "tags": [],
+    "related": [
+      "d2:mobs:echo-golem",
+      "d2:mobs:key-golem",
+      "d2:mobs:lootkin",
+      "d2:mobs:piggy-bank"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3876537,
+      "title": "Dungeons II:Tuner",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Tuner"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:twisted-chicken",
+    "slug": "twisted-chicken",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Twisted Chicken",
+    "image": {
+      "alt": "Twisted Chicken icon",
+      "height": 256,
+      "src": "/images/d2/mobs/twisted-chicken.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "pet",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:blub-pet",
+      "d2:mobs:cheesy-cube-pet"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3886665,
+      "title": "Dungeons II:Twisted Chicken",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Twisted_Chicken"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:twisted-warden",
+    "slug": "twisted-warden",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Twisted Warden",
+    "image": {
+      "alt": "Twisted Warden icon",
+      "height": 300,
+      "src": "/images/d2/mobs/twisted-warden.webp",
+      "width": 368
+    },
+    "attacks": [
+      "Basic attack",
+      "Sonic boom",
+      "Soul puke",
+      "Summon",
+      "Spin attack"
+    ],
+    "drops": [],
+    "health": 1750,
+    "locationIds": [],
+    "mobType": "boss",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:copper-monstrosity",
+      "d2:mobs:monarch",
+      "d2:mobs:monstrous-opus",
+      "d2:mobs:mosstrosity",
+      "d2:mobs:redstone-monstrosity",
+      "d2:mobs:sculk-monstrosity"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:02.151Z",
+      "revisionId": 3890518,
+      "title": "Dungeons II:Twisted Warden",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Twisted_Warden"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:vanguard",
+    "slug": "vanguard",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Vanguard",
+    "image": {
+      "alt": "Vanguard icon",
+      "height": 88,
+      "src": "/images/d2/mobs/vanguard.webp",
+      "width": 80
+    },
+    "attacks": [
+      "Walk",
+      "Basic attack",
+      "Shield break flinch",
+      "Attack combo"
+    ],
+    "drops": [],
+    "health": "Regular: 72, Soul corrupted: 400",
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:rainy-plains"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [
+      "undead"
+    ],
+    "related": [
+      "d2:mobs:vex",
+      "d2:mobs:vindicator",
+      "d2:mobs:witch-slime",
+      "d2:mobs:zombie",
+      "d2:mobs:baby-zombie",
+      "d2:mobs:bloombud"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3875583,
+      "title": "Dungeons II:Vanguard",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Vanguard"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:vex",
+    "slug": "vex",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Vex",
+    "image": {
+      "alt": "Vex icon",
+      "height": 256,
+      "src": "/images/d2/mobs/vex.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "common",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:vindicator",
+      "d2:mobs:witch-slime",
+      "d2:mobs:zombie",
+      "d2:mobs:baby-zombie",
+      "d2:mobs:bloombud",
+      "d2:mobs:bogged"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3864944,
+      "title": "Dungeons II:Vex",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Vex"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:villager",
+    "slug": "villager",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Villager",
+    "image": {
+      "alt": "Villager icon",
+      "height": 72,
+      "src": "/images/d2/mobs/villager.webp",
+      "width": 60
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "mobType": "character",
+    "variants": [
+      "Squid Coast",
+      "Brave Haven",
+      "Little Howl Hamlet",
+      "Wood Cutter's Outpost",
+      "Puddle Pond Village",
+      "Frostrime"
+    ],
+    "tags": [],
+    "related": [
+      "d2:mobs:woodcutter",
+      "d2:mobs:beekeeper",
+      "d2:mobs:candlemaker",
+      "d2:mobs:cartographer",
+      "d2:mobs:cleric",
+      "d2:mobs:farmer"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3887643,
+      "title": "Dungeons II:Villager",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Villager"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:vindicator",
+    "slug": "vindicator",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Vindicator",
+    "image": {
+      "alt": "Vindicator icon",
+      "height": 72,
+      "src": "/images/d2/mobs/vindicator.webp",
+      "width": 75
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:howling-woods",
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "common",
+    "variants": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3"
+    ],
+    "tags": [
+      "illager"
+    ],
+    "related": [
+      "d2:mobs:witch-slime",
+      "d2:mobs:zombie",
+      "d2:mobs:baby-zombie",
+      "d2:mobs:bloombud",
+      "d2:mobs:bogged",
+      "d2:mobs:cave-spider"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3890539,
+      "title": "Dungeons II:Vindicator",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Vindicator"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:warden",
+    "slug": "warden",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Warden",
+    "image": {
+      "alt": "Warden icon",
+      "height": 72,
+      "src": "/images/d2/mobs/warden.webp",
+      "width": 72
+    },
+    "attacks": [
+      "Overhead swing",
+      "Sonic boom",
+      "Roar",
+      "Burrowing"
+    ],
+    "drops": [],
+    "health": "760, 1500 (Soul Corrupted)",
+    "locationIds": [
+      "d2:locations:frozen-highlands"
+    ],
+    "mobType": "mini-boss",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:witch",
+      "d2:mobs:dartback",
+      "d2:mobs:enderman",
+      "d2:mobs:evoker",
+      "d2:mobs:harmonizer"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:02.151Z",
+      "revisionId": 3893131,
+      "title": "Dungeons II:Warden",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Warden"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:witch",
+    "slug": "witch",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Witch",
+    "image": {
+      "alt": "Witch icon",
+      "height": 114,
+      "src": "/images/d2/mobs/witch.webp",
+      "width": 84
+    },
+    "attacks": [
+      "Walk",
+      "Basic throw",
+      "Strong throw",
+      "Bucket throw",
+      "Drink heath potion",
+      "Witch potion"
+    ],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods",
+      "d2:locations:rainy-plains"
+    ],
+    "mobType": "mini-boss",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:dartback",
+      "d2:mobs:enderman",
+      "d2:mobs:evoker",
+      "d2:mobs:harmonizer",
+      "d2:mobs:warden"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:02.151Z",
+      "revisionId": 3893156,
+      "title": "Dungeons II:Witch",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Witch"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:witch-slime",
+    "slug": "witch-slime",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Witch Slime",
+    "image": {
+      "alt": "Witch Slime icon",
+      "height": 256,
+      "src": "/images/d2/mobs/witch-slime.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "health": 35,
+    "locationIds": [
+      "d2:locations:honeycomb-fields",
+      "d2:locations:howling-woods"
+    ],
+    "mobType": "common",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:zombie",
+      "d2:mobs:baby-zombie",
+      "d2:mobs:bloombud",
+      "d2:mobs:bogged",
+      "d2:mobs:cave-spider",
+      "d2:mobs:charged-creeper"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3890719,
+      "title": "Dungeons II:Witch Slime",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Witch_Slime"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:mobs:wobble",
+    "slug": "wobble",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Wobble",
+    "image": {
+      "alt": "Wobble icon",
+      "height": 224,
+      "src": "/images/d2/mobs/wobble.webp",
+      "width": 224
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:singers-meadow"
+    ],
+    "mobType": "non-attackable",
+    "variants": [
+      "Blue",
+      "Red"
+    ],
+    "tags": [],
+    "related": [
+      "d2:mobs:blub",
+      "d2:mobs:cat",
+      "d2:mobs:chicken",
+      "d2:mobs:cow",
+      "d2:mobs:duck",
+      "d2:mobs:fox"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3869125,
+      "title": "Dungeons II:Wobble",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Wobble"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:wobble-companion",
+    "slug": "wobble-companion",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Wobble (companion)",
+    "image": {
+      "alt": "Wobble (companion) icon",
+      "height": 224,
+      "src": "/images/d2/mobs/wobble-companion.webp",
+      "width": 224
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "companion",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:wolf",
+      "d2:mobs:bee",
+      "d2:mobs:iron-golem",
+      "d2:mobs:llama",
+      "d2:mobs:prickle"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3824665,
+      "title": "Dungeons II:Wobble (companion)",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Wobble_(companion)"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:wolf",
+    "slug": "wolf",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Wolf",
+    "image": {
+      "alt": "Wolf icon",
+      "height": 256,
+      "src": "/images/d2/mobs/wolf.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [
+      "d2:locations:howling-woods"
+    ],
+    "mobType": "companion",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:bee",
+      "d2:mobs:iron-golem",
+      "d2:mobs:llama",
+      "d2:mobs:prickle",
+      "d2:mobs:wobble-companion"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3886671,
+      "title": "Dungeons II:Wolf",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Wolf"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:woodcutter",
+    "slug": "woodcutter",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Woodcutter",
+    "image": {
+      "alt": "Woodcutter icon",
+      "height": 72,
+      "src": "/images/d2/mobs/woodcutter.webp",
+      "width": 60
+    },
+    "attacks": [],
+    "drops": [],
+    "locationIds": [],
+    "mobType": "character",
+    "variants": [],
+    "tags": [],
+    "related": [
+      "d2:mobs:beekeeper",
+      "d2:mobs:candlemaker",
+      "d2:mobs:cartographer",
+      "d2:mobs:cleric",
+      "d2:mobs:farmer",
+      "d2:mobs:inventor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:26:12.670Z",
+      "revisionId": 3884818,
+      "title": "Dungeons II:Woodcutter",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Woodcutter"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d2:mobs:zombie",
+    "slug": "zombie",
+    "game": "d2",
+    "category": "mobs",
+    "name": "Zombie",
+    "image": {
+      "alt": "Zombie icon",
+      "height": 256,
+      "src": "/images/d2/mobs/zombie.webp",
+      "width": 256
+    },
+    "attacks": [],
+    "drops": [],
+    "health": "Regular (tier 1): 8, Regular (tier 2): 36, Regular (tier 3): 52, Soul corrupted (tier 1): 200, Soul corrupted (tier 2): 233, Soul corrupted (tier 3): 266",
+    "locationIds": [
+      "d2:locations:frozen-highlands",
+      "d2:locations:howling-woods"
+    ],
+    "mobType": "common",
+    "variants": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3"
+    ],
+    "tags": [
+      "undead"
+    ],
+    "related": [
+      "d2:mobs:baby-zombie",
+      "d2:mobs:bloombud",
+      "d2:mobs:bogged",
+      "d2:mobs:cave-spider",
+      "d2:mobs:charged-creeper",
+      "d2:mobs:chicken-jockey"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T10:24:01.161Z",
+      "revisionId": 3890519,
+      "title": "Dungeons II:Zombie",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Zombie"
+    },
+    "quality": "verified"
+  }
+]

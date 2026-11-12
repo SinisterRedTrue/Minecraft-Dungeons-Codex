@@ -107,6 +107,6 @@ export function fakeClient(pages: FakePage[], files: FakeFile[] = []): WikiClien
   });
 }
 
-export function fakeContext(pages: FakePage[]): ParseContext {
-  return { game: 'd1', client: fakeClient(pages), log: () => {} };
+export function fakeContext(pages: FakePage[], game: ParseContext['game'] = 'd1'): ParseContext {
+  return { game, client: fakeClient(pages), log: () => {} };
 }

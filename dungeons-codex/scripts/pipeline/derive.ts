@@ -3,6 +3,7 @@
  * one entity. Safe to run on freshly linked drafts and on finished entities read from disk.
  */
 import { GROUP_FIELD } from '@/config/categories';
+import type { GameId } from '@/config/games';
 import { compareByName } from '../lib/data-files';
 import { listOf, type Ent, type GameData } from './types';
 
@@ -126,9 +127,9 @@ function neighbours(members: Ent[], self: Ent, limit: number, skip: Set<string>)
 }
 
 /** `related`: base ↔ variants, then up to 6 more of the same group (alphabetical neighbours). */
-function deriveRelated(data: GameData): void {
+function deriveRelated(data: GameData, game: GameId): void {
   for (const [category, entities] of Object.entries(data)) {
-    const groupField = (GROUP_FIELD.d1 as Record<string, string | undefined>)[category];
+    const groupField = (GROUP_FIELD[game] as Record<string, string | undefined>)[category];
     const groups = new Map<string, Ent[]>();
     if (groupField) {
       for (const entity of entities) {
@@ -151,8 +152,65 @@ function deriveRelated(data: GameData): void {
   }
 }
 
-export function deriveGame(data: GameData): void {
-  deriveBuiltIn(data);
-  deriveLinks(data);
-  deriveRelated(data);
+/** D2 links: `itemIds` / `questIds` on locations and the mob <-> location symmetry. */
+function deriveLinksD2(data: GameData): void {
+  const locations = data.locations ?? [];
+  const locationIds = new Set(locations.map((l) => l.id));
+  const mobIds = new Set((data.mobs ?? []).map((m) => m.id));
+
+  const itemsAt = new Map<string, Set<string>>();
+  for (const category of ['weapons', 'armor', 'artifacts', 'talismans']) {
+    for (const item of data[category] ?? []) {
+      for (const where of listOf(item.locations)) {
+        if (!locationIds.has(where)) continue;
+        const set = itemsAt.get(where) ?? new Set<string>();
+        set.add(item.id);
+        itemsAt.set(where, set);
+      }
+    }
+  }
+  const questsAt = new Map<string, Set<string>>();
+  for (const quest of data.quests ?? []) {
+    for (const where of listOf(quest.locationIds)) {
+      const set = questsAt.get(where) ?? new Set<string>();
+      set.add(quest.id);
+      questsAt.set(where, set);
+    }
+  }
+
+  const mobsAt = new Map<string, Set<string>>();
+  for (const mob of data.mobs ?? []) {
+    mob.locationIds = sorted(listOf(mob.locationIds).filter((id) => locationIds.has(id)));
+  }
+  for (const location of locations) {
+    for (const id of listOf(location.mobIds)) {
+      const mob = (data.mobs ?? []).find((m) => m.id === id);
+      if (mob) mob.locationIds = sorted([...listOf(mob.locationIds), location.id]);
+    }
+  }
+  for (const mob of data.mobs ?? []) {
+    for (const id of listOf(mob.locationIds)) {
+      const set = mobsAt.get(id) ?? new Set<string>();
+      set.add(mob.id);
+      mobsAt.set(id, set);
+    }
+  }
+  for (const location of locations) {
+    location.itemIds = sorted(itemsAt.get(location.id) ?? []);
+    location.questIds = sorted(questsAt.get(location.id) ?? []);
+    location.mobIds = sorted([
+      ...listOf(location.mobIds).filter((id) => mobIds.has(id)),
+      ...(mobsAt.get(location.id) ?? []),
+    ]);
+  }
+}
+
+export function deriveGame(data: GameData, game: GameId = 'd1'): void {
+  if (game === 'd1') {
+    deriveBuiltIn(data);
+    deriveLinks(data);
+  } else {
+    deriveLinksD2(data);
+  }
+  deriveRelated(data, game);
 }

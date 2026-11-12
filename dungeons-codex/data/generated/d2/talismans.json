@@ -1,0 +1,1276 @@
+[
+  {
+    "id": "d2:talismans:amethyst-lens",
+    "slug": "amethyst-lens",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Amethyst Lens",
+    "image": {
+      "alt": "Amethyst Lens icon",
+      "height": 128,
+      "src": "/images/d2/talismans/amethyst-lens.webp",
+      "width": 128
+    },
+    "boostType": "ranged",
+    "isSecret": true,
+    "locations": [
+      "d2:quests:the-prime-enchanter-revived",
+      "d2:locations:howling-woods"
+    ],
+    "passiveBonus": "Increases ranged damage",
+    "sourceType": "quest-reward",
+    "tiers": [
+      {
+        "text": "10%",
+        "tier": 1,
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "text": "15%",
+        "tier": 2,
+        "unit": "%",
+        "value": 15
+      },
+      {
+        "text": "25%",
+        "tier": 3,
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "tags": [
+      "ranged-damage"
+    ],
+    "related": [
+      "d2:talismans:twig-of-dark-oak"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:armadillo-amulet",
+    "slug": "armadillo-amulet",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Armadillo Amulet",
+    "image": {
+      "alt": "Armadillo Amulet icon",
+      "height": 128,
+      "src": "/images/d2/talismans/armadillo-amulet.webp",
+      "width": 128
+    },
+    "boostType": "movement",
+    "isSecret": false,
+    "locations": [
+      "d2:quests:illegal-illager-trials"
+    ],
+    "passiveBonus": "Decreases roll cooldown",
+    "sourceType": "quest-reward",
+    "tiers": [
+      {
+        "text": "20%",
+        "tier": 1,
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "text": "25%",
+        "tier": 2,
+        "unit": "%",
+        "value": 25
+      },
+      {
+        "text": "45%",
+        "tier": 3,
+        "unit": "%",
+        "value": 45
+      }
+    ],
+    "tags": [
+      "cooldown",
+      "movement-speed",
+      "rolling"
+    ],
+    "related": [
+      "d2:talismans:medallion-of-momentum"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:emerald-of-good-fortune",
+    "slug": "emerald-of-good-fortune",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Emerald of Good Fortune",
+    "image": {
+      "alt": "Emerald of Good Fortune icon",
+      "height": 128,
+      "src": "/images/d2/talismans/emerald-of-good-fortune.webp",
+      "width": 128
+    },
+    "boostType": "drops",
+    "isSecret": true,
+    "locations": [
+      "d2:locations:lullaby-hills"
+    ],
+    "passiveBonus": "Increases % for additional emeralds",
+    "sourceType": "secret-chest",
+    "tiers": [
+      {
+        "text": "10%",
+        "tier": 1,
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "text": "20%",
+        "tier": 2,
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "text": "25%",
+        "tier": 3,
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "tags": [
+      "loot"
+    ],
+    "related": [
+      "d2:talismans:looters-charm",
+      "d2:talismans:lucky-clover"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:essence-of-efficiency",
+    "slug": "essence-of-efficiency",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Essence of Efficiency",
+    "image": {
+      "alt": "Essence of Efficiency icon",
+      "height": 128,
+      "src": "/images/d2/talismans/essence-of-efficiency.webp",
+      "width": 128
+    },
+    "boostType": "artifact",
+    "isSecret": false,
+    "locations": [
+      "d2:quests:breaking-camps"
+    ],
+    "passiveBonus": "Decreases artifact cooldown",
+    "sourceType": "quest-reward",
+    "tiers": [
+      {
+        "text": "4%",
+        "tier": 1,
+        "unit": "%",
+        "value": 4
+      },
+      {
+        "text": "8%",
+        "tier": 2,
+        "unit": "%",
+        "value": 8
+      },
+      {
+        "text": "14%",
+        "tier": 3,
+        "unit": "%",
+        "value": 14
+      }
+    ],
+    "tags": [
+      "artifact",
+      "cooldown"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:fist-of-iron",
+    "slug": "fist-of-iron",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Fist of Iron",
+    "image": {
+      "alt": "Fist of Iron icon",
+      "height": 128,
+      "src": "/images/d2/talismans/fist-of-iron.webp",
+      "width": 128
+    },
+    "boostType": "melee",
+    "isSecret": false,
+    "locations": [
+      "d2:quests:the-missing-note-blocks"
+    ],
+    "passiveBonus": "Increases melee damage",
+    "sourceType": "quest-reward",
+    "tiers": [
+      {
+        "text": "10%",
+        "tier": 1,
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "text": "20%",
+        "tier": 2,
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "text": "35%",
+        "tier": 3,
+        "unit": "%",
+        "value": 35
+      }
+    ],
+    "tags": [
+      "melee-damage"
+    ],
+    "related": [
+      "d2:talismans:tendrils-of-the-sprout",
+      "d2:talismans:thrifty-pendant"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:glowstone-flask",
+    "slug": "glowstone-flask",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Glowstone Flask",
+    "image": {
+      "alt": "Glowstone Flask icon",
+      "height": 128,
+      "src": "/images/d2/talismans/glowstone-flask.webp",
+      "width": 128
+    },
+    "boostType": "health",
+    "isSecret": true,
+    "locations": [
+      "Secret Chest in Deep Dark dungeons"
+    ],
+    "passiveBonus": "Decreases potion cooldown",
+    "sourceType": "secret-chest",
+    "tiers": [
+      {
+        "text": "10%",
+        "tier": 1,
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "text": "15%",
+        "tier": 2,
+        "unit": "%",
+        "value": 15
+      },
+      {
+        "text": "25%",
+        "tier": 3,
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "tags": [
+      "cooldown",
+      "healing"
+    ],
+    "related": [
+      "d2:talismans:healing-heart",
+      "d2:talismans:sculk-badge",
+      "d2:talismans:sigil-of-beeswax"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:golem-kit",
+    "slug": "golem-kit",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Golem Kit",
+    "image": {
+      "alt": "Golem Kit icon",
+      "height": 128,
+      "src": "/images/d2/talismans/golem-kit.webp",
+      "width": 128
+    },
+    "boostType": "pet",
+    "isSecret": false,
+    "locations": [
+      "d2:quests:the-final-souldown"
+    ],
+    "passiveBonus": "Summons an iron golem",
+    "sourceType": "quest-reward",
+    "tiers": [
+      {
+        "text": "N/A",
+        "tier": 1
+      },
+      {
+        "text": "N/A",
+        "tier": 2
+      },
+      {
+        "text": "N/A",
+        "tier": 3
+      }
+    ],
+    "tags": [
+      "summoning"
+    ],
+    "related": [
+      "d2:talismans:prickles-mark",
+      "d2:talismans:tasty-bone",
+      "d2:talismans:wobblestone",
+      "d2:talismans:wonderful-wheat"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:healing-heart",
+    "slug": "healing-heart",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Healing Heart",
+    "image": {
+      "alt": "Healing Heart icon",
+      "height": 128,
+      "src": "/images/d2/talismans/healing-heart.webp",
+      "width": 128
+    },
+    "boostType": "health",
+    "isSecret": false,
+    "locations": [
+      "d2:quests:wildflower-warrior"
+    ],
+    "passiveBonus": "Recover health when out of combat for 5s",
+    "sourceType": "quest-reward",
+    "tiers": [
+      {
+        "text": "2%",
+        "tier": 1,
+        "unit": "%",
+        "value": 2
+      },
+      {
+        "text": "6%",
+        "tier": 2,
+        "unit": "%",
+        "value": 6
+      },
+      {
+        "text": "10%",
+        "tier": 3,
+        "unit": "%",
+        "value": 10
+      }
+    ],
+    "tags": [
+      "healing"
+    ],
+    "related": [
+      "d2:talismans:sculk-badge",
+      "d2:talismans:sigil-of-beeswax",
+      "d2:talismans:glowstone-flask"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:looters-charm",
+    "slug": "looters-charm",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Looter's Charm",
+    "image": {
+      "alt": "Looter's Charm icon",
+      "height": 128,
+      "src": "/images/d2/talismans/looters-charm.webp",
+      "width": 128
+    },
+    "boostType": "drops",
+    "isSecret": false,
+    "locations": [
+      "d2:quests:gone-fishing"
+    ],
+    "passiveBonus": "Increases % that mobs drop items",
+    "sourceType": "quest-reward",
+    "tiers": [
+      {
+        "text": "1%",
+        "tier": 1,
+        "unit": "%",
+        "value": 1
+      },
+      {
+        "text": "2%",
+        "tier": 2,
+        "unit": "%",
+        "value": 2
+      },
+      {
+        "text": "4%",
+        "tier": 3,
+        "unit": "%",
+        "value": 4
+      }
+    ],
+    "tags": [
+      "loot"
+    ],
+    "related": [
+      "d2:talismans:lucky-clover",
+      "d2:talismans:emerald-of-good-fortune"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:lucky-clover",
+    "slug": "lucky-clover",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Lucky Clover",
+    "image": {
+      "alt": "Lucky Clover icon",
+      "height": 128,
+      "src": "/images/d2/talismans/lucky-clover.webp",
+      "width": 128
+    },
+    "boostType": "drops",
+    "isSecret": true,
+    "locations": [
+      "d2:locations:frozen-highlands"
+    ],
+    "passiveBonus": "Increases % for additional loot drops",
+    "sourceType": "secret-chest",
+    "tiers": [
+      {
+        "text": "2%",
+        "tier": 1,
+        "unit": "%",
+        "value": 2
+      },
+      {
+        "text": "4%",
+        "tier": 2,
+        "unit": "%",
+        "value": 4
+      },
+      {
+        "text": "7%",
+        "tier": 3,
+        "unit": "%",
+        "value": 7
+      }
+    ],
+    "tags": [
+      "loot"
+    ],
+    "related": [
+      "d2:talismans:emerald-of-good-fortune",
+      "d2:talismans:looters-charm"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:medallion-of-momentum",
+    "slug": "medallion-of-momentum",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Medallion of Momentum",
+    "image": {
+      "alt": "Medallion of Momentum icon",
+      "height": 128,
+      "src": "/images/d2/talismans/medallion-of-momentum.webp",
+      "width": 128
+    },
+    "boostType": "movement",
+    "isSecret": true,
+    "locations": [
+      "d2:locations:humbler-huskland"
+    ],
+    "passiveBonus": "Increases movement speed after 3s",
+    "sourceType": "secret-chest",
+    "tiers": [
+      {
+        "text": "10%",
+        "tier": 1,
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "text": "20%",
+        "tier": 2,
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "text": "30%",
+        "tier": 3,
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "tags": [
+      "movement-speed"
+    ],
+    "related": [
+      "d2:talismans:armadillo-amulet"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:ocelots-paw",
+    "slug": "ocelots-paw",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Ocelot's Paw",
+    "image": {
+      "alt": "Ocelot's Paw icon",
+      "height": 128,
+      "src": "/images/d2/talismans/ocelots-paw.webp",
+      "width": 128
+    },
+    "boostType": "damage",
+    "isSecret": true,
+    "locations": [
+      "Secret Chest in Rifts"
+    ],
+    "passiveBonus": "Increases jump attack damage",
+    "sourceType": "secret-chest",
+    "tiers": [
+      {
+        "text": "10%",
+        "tier": 1,
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "text": "20%",
+        "tier": 2,
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "text": "35%",
+        "tier": 3,
+        "unit": "%",
+        "value": 35
+      }
+    ],
+    "tags": [
+      "melee-damage"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:prickles-mark",
+    "slug": "prickles-mark",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Prickle's Mark",
+    "image": {
+      "alt": "Prickle's Mark icon",
+      "height": 128,
+      "src": "/images/d2/talismans/prickles-mark.webp",
+      "width": 128
+    },
+    "boostType": "pet",
+    "isSecret": false,
+    "locations": [
+      "d2:quests:a-friend-till-the-end"
+    ],
+    "passiveBonus": "Summon a prickle",
+    "sourceType": "quest-reward",
+    "tiers": [
+      {
+        "text": "N/A",
+        "tier": 1
+      },
+      {
+        "text": "N/A",
+        "tier": 2
+      },
+      {
+        "text": "N/A",
+        "tier": 3
+      }
+    ],
+    "tags": [
+      "summoning"
+    ],
+    "related": [
+      "d2:talismans:tasty-bone",
+      "d2:talismans:wobblestone",
+      "d2:talismans:wonderful-wheat",
+      "d2:talismans:golem-kit"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:sculk-badge",
+    "slug": "sculk-badge",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Sculk Badge",
+    "image": {
+      "alt": "Sculk Badge icon",
+      "height": 128,
+      "src": "/images/d2/talismans/sculk-badge.webp",
+      "width": 128
+    },
+    "boostType": "health",
+    "isSecret": false,
+    "locations": [
+      "d2:quests:illager-intelligence"
+    ],
+    "passiveBonus": "Increases positive effect durations",
+    "sourceType": "quest-reward",
+    "tiers": [
+      {
+        "text": "10%",
+        "tier": 1,
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "text": "15%",
+        "tier": 2,
+        "unit": "%",
+        "value": 15
+      },
+      {
+        "text": "25%",
+        "tier": 3,
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "tags": [
+      "healing"
+    ],
+    "related": [
+      "d2:talismans:sigil-of-beeswax",
+      "d2:talismans:glowstone-flask",
+      "d2:talismans:healing-heart"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:sigil-of-beeswax",
+    "slug": "sigil-of-beeswax",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Sigil of Beeswax",
+    "image": {
+      "alt": "Sigil of Beeswax icon",
+      "height": 128,
+      "src": "/images/d2/talismans/sigil-of-beeswax.webp",
+      "width": 128
+    },
+    "boostType": "health",
+    "isSecret": false,
+    "locations": [
+      "d2:quests:the-illagers-from-the-rift"
+    ],
+    "passiveBonus": "Increases maximum health",
+    "sourceType": "quest-reward",
+    "tiers": [
+      {
+        "text": "20%",
+        "tier": 1,
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "text": "25%",
+        "tier": 2,
+        "unit": "%",
+        "value": 25
+      },
+      {
+        "text": "35%",
+        "tier": 3,
+        "unit": "%",
+        "value": 35
+      }
+    ],
+    "tags": [
+      "healing",
+      "max-health"
+    ],
+    "related": [
+      "d2:talismans:glowstone-flask",
+      "d2:talismans:healing-heart",
+      "d2:talismans:sculk-badge"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:soul-chip",
+    "slug": "soul-chip",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Soul Chip",
+    "image": {
+      "alt": "Soul Chip icon",
+      "height": 128,
+      "src": "/images/d2/talismans/soul-chip.webp",
+      "width": 128
+    },
+    "boostType": "souls",
+    "isSecret": true,
+    "locations": [
+      "Secret Chest in Ravine dungeons"
+    ],
+    "passiveBonus": "Increases soul capacity",
+    "sourceType": "secret-chest",
+    "tiers": [
+      {
+        "text": "15%",
+        "tier": 1,
+        "unit": "%",
+        "value": 15
+      },
+      {
+        "text": "20%",
+        "tier": 2,
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "text": "35%",
+        "tier": 3,
+        "unit": "%",
+        "value": 35
+      }
+    ],
+    "tags": [
+      "souls"
+    ],
+    "related": [
+      "d2:talismans:twisted-tooth"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:tasty-bone",
+    "slug": "tasty-bone",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Tasty Bone",
+    "image": {
+      "alt": "Tasty Bone icon",
+      "height": 128,
+      "src": "/images/d2/talismans/tasty-bone.webp",
+      "width": 128
+    },
+    "boostType": "pet",
+    "isSecret": false,
+    "locations": [
+      "d2:quests:the-silence-in-little-howl"
+    ],
+    "passiveBonus": "Summons a wolf",
+    "sourceType": "quest-reward",
+    "tiers": [
+      {
+        "text": "N/A",
+        "tier": 1
+      },
+      {
+        "text": "N/A",
+        "tier": 2
+      },
+      {
+        "text": "N/A",
+        "tier": 3
+      }
+    ],
+    "tags": [
+      "summoning"
+    ],
+    "related": [
+      "d2:talismans:wobblestone",
+      "d2:talismans:wonderful-wheat",
+      "d2:talismans:golem-kit",
+      "d2:talismans:prickles-mark"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:tendrils-of-the-sprout",
+    "slug": "tendrils-of-the-sprout",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Tendrils of the Sprout",
+    "image": {
+      "alt": "Tendrils of the Sprout icon",
+      "height": 128,
+      "src": "/images/d2/talismans/tendrils-of-the-sprout.webp",
+      "width": 128
+    },
+    "boostType": "melee",
+    "isSecret": false,
+    "locations": [
+      "d2:quests:returning-the-note-blocks"
+    ],
+    "passiveBonus": "Increases damage when above health threshold",
+    "sourceType": "quest-reward",
+    "tiers": [
+      {
+        "text": "10% while health is above 95%",
+        "tier": 1,
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "text": "20% while health is above 85%",
+        "tier": 2,
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "text": "40% while health is above 75%",
+        "tier": 3,
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "tags": [
+      "damage-boost",
+      "healing",
+      "melee-damage"
+    ],
+    "related": [
+      "d2:talismans:thrifty-pendant",
+      "d2:talismans:fist-of-iron"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:the-eye-of-experience",
+    "slug": "the-eye-of-experience",
+    "game": "d2",
+    "category": "talismans",
+    "name": "The Eye of Experience",
+    "image": {
+      "alt": "The Eye of Experience icon",
+      "height": 128,
+      "src": "/images/d2/talismans/the-eye-of-experience.webp",
+      "width": 128
+    },
+    "boostType": "experience",
+    "isSecret": false,
+    "locations": [
+      "d2:quests:wrath-of-the-sculkers"
+    ],
+    "passiveBonus": "Increases experience gained",
+    "sourceType": "quest-reward",
+    "tiers": [
+      {
+        "text": "4%",
+        "tier": 1,
+        "unit": "%",
+        "value": 4
+      },
+      {
+        "text": "6%",
+        "tier": 2,
+        "unit": "%",
+        "value": 6
+      },
+      {
+        "text": "10%",
+        "tier": 3,
+        "unit": "%",
+        "value": 10
+      }
+    ],
+    "tags": [
+      "experience"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:thrifty-pendant",
+    "slug": "thrifty-pendant",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Thrifty Pendant",
+    "image": {
+      "alt": "Thrifty Pendant icon",
+      "height": 128,
+      "src": "/images/d2/talismans/thrifty-pendant.webp",
+      "width": 128
+    },
+    "boostType": "melee",
+    "isSecret": true,
+    "locations": [
+      "d2:locations:rainy-plains"
+    ],
+    "passiveBonus": "Increases damage based on emerald amounts",
+    "sourceType": "secret-chest",
+    "tiers": [
+      {
+        "text": "25%/7000",
+        "tier": 1,
+        "unit": "%",
+        "value": 25
+      },
+      {
+        "text": "40%/8000",
+        "tier": 2,
+        "unit": "%",
+        "value": 40
+      },
+      {
+        "text": "50%/9000",
+        "tier": 3,
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "tags": [
+      "damage-boost",
+      "melee-damage"
+    ],
+    "related": [
+      "d2:talismans:fist-of-iron",
+      "d2:talismans:tendrils-of-the-sprout"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:twig-of-dark-oak",
+    "slug": "twig-of-dark-oak",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Twig of Dark Oak",
+    "image": {
+      "alt": "Twig of Dark Oak icon",
+      "height": 111,
+      "src": "/images/d2/talismans/twig-of-dark-oak.webp",
+      "width": 111
+    },
+    "boostType": "ranged",
+    "isSecret": false,
+    "locations": [
+      "d2:quests:the-missing-note-blocks"
+    ],
+    "passiveBonus": "Increases ammo count",
+    "sourceType": "quest-reward",
+    "tiers": [
+      {
+        "text": "20%",
+        "tier": 1,
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "text": "40%",
+        "tier": 2,
+        "unit": "%",
+        "value": 40
+      },
+      {
+        "text": "60%",
+        "tier": 3,
+        "unit": "%",
+        "value": 60
+      }
+    ],
+    "tags": [
+      "ammo"
+    ],
+    "related": [
+      "d2:talismans:amethyst-lens"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:twisted-tooth",
+    "slug": "twisted-tooth",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Twisted Tooth",
+    "image": {
+      "alt": "Twisted Tooth icon",
+      "height": 128,
+      "src": "/images/d2/talismans/twisted-tooth.webp",
+      "width": 128
+    },
+    "boostType": "souls",
+    "isSecret": false,
+    "locations": [
+      "d2:quests:down-into-the-deep-dark"
+    ],
+    "passiveBonus": "Increases soul gain",
+    "sourceType": "quest-reward",
+    "tiers": [
+      {
+        "text": "40%",
+        "tier": 1,
+        "unit": "%",
+        "value": 40
+      },
+      {
+        "text": "80%",
+        "tier": 2,
+        "unit": "%",
+        "value": 80
+      },
+      {
+        "text": "140%",
+        "tier": 3,
+        "unit": "%",
+        "value": 140
+      }
+    ],
+    "tags": [
+      "souls"
+    ],
+    "related": [
+      "d2:talismans:soul-chip"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:wobblestone",
+    "slug": "wobblestone",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Wobblestone",
+    "image": {
+      "alt": "Wobblestone icon",
+      "height": 128,
+      "src": "/images/d2/talismans/wobblestone.webp",
+      "width": 128
+    },
+    "boostType": "pet",
+    "isSecret": false,
+    "locations": [
+      "d2:quests:wobble-run"
+    ],
+    "passiveBonus": "Summons a wobble",
+    "sourceType": "quest-reward",
+    "tiers": [
+      {
+        "text": "N/A",
+        "tier": 1
+      },
+      {
+        "text": "N/A",
+        "tier": 2
+      },
+      {
+        "text": "N/A",
+        "tier": 3
+      }
+    ],
+    "tags": [
+      "summoning"
+    ],
+    "related": [
+      "d2:talismans:wonderful-wheat",
+      "d2:talismans:golem-kit",
+      "d2:talismans:prickles-mark",
+      "d2:talismans:tasty-bone"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d2:talismans:wonderful-wheat",
+    "slug": "wonderful-wheat",
+    "game": "d2",
+    "category": "talismans",
+    "name": "Wonderful Wheat",
+    "image": {
+      "alt": "Wonderful Wheat icon",
+      "height": 234,
+      "src": "/images/d2/talismans/wonderful-wheat.webp",
+      "width": 234
+    },
+    "boostType": "pet",
+    "isSecret": true,
+    "locations": [
+      "d2:mobs:mosstrosity"
+    ],
+    "passiveBonus": "Summons a llama",
+    "sourceType": "boss-drop",
+    "tiers": [
+      {
+        "text": "N/A",
+        "tier": 1
+      },
+      {
+        "text": "N/A",
+        "tier": 2
+      },
+      {
+        "text": "N/A",
+        "tier": 3
+      }
+    ],
+    "tags": [
+      "summoning"
+    ],
+    "related": [
+      "d2:talismans:golem-kit",
+      "d2:talismans:prickles-mark",
+      "d2:talismans:tasty-bone",
+      "d2:talismans:wobblestone"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:05:12.953Z",
+      "revisionId": 3892219,
+      "title": "Dungeons II:Talisman",
+      "url": "https://minecraft.wiki/w/Dungeons_II:Talisman"
+    },
+    "quality": "verified"
+  }
+]

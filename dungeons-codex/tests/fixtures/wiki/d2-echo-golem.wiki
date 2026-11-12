@@ -1,0 +1,244 @@
+{{Infobox Dungeons entity
+| group1 = Blue
+| 1-1 = MCD2 Echo Golem.png
+| group2 = Red
+| 2-1caption = Normal 
+| 2-1 = MCD2 Echo Golem (Variant).png
+| 2-2caption = Damaged
+| 2-2 = MCD2 Echo Golem (Damaged).png
+| behavior =  Passive
+| spawn = *{{MCD2Link|Overworld}}
+**{{MCD2Link|Ancient City}}
+*{{MCD2Link|The Sift}}
+**{{MCD2Link|The Echo Den}}
+**{{MCD2Link|Lullaby Hills}}
+**{{MCD2Link|Singer's Meadow}}
+|codename=Caretaker Golem<br>Wellspring Golem
+}}
+
+An '''echo golem''' is a {{MCD2|golem}} {{MCD2|mob}} found in {{MCD2|the Sift}}, and first encountered in the {{MCD2|Down into the Deep Dark}} {{MCD2|quest}}. They are powered by {{MCD2|soul block}}s and were created by the {{MCD2|Singer}}s with the purpose to "assist everyone".<ref name=rift>{{Cite Rift}}</ref> They also possess a red variant, which appears in {{MCD2|The Final Souldown}} quest. 
+== Lore ==
+The echo golems are {{MCD2|golem}}s created by {{MCD2|singer}}s as caretakers of the {{MCD2|the Sift}} and with the purpose to "assist everyone". They are made of a gray-green substance squishier than stone, and are powered up by a {{MCD2|soul block}}, which contains its memories and melodies within.
+
+As any golem, echo golems do not need to eat, but still need to recharge their soul blocks with {{MCD2|soul}}s, which they do so by bathing in {{MCD2|ichor}}. They communicate through chirps and whirrs, however, the sounds are somehow translated into words directly into {{MCD2|hero}}es' minds. They can also understand the singer's notes, using that ability to translate it to heroes.
+
+The Singer puts them in charge to be the guardians of The  Sift. The echo golems welcome  the {{MCD2|High Council}} when they open the portal to the Sift. The golems offer to share the souls' boundless power, but the Illagers do not want to share the power and kill the echo golems for the soul blocks on their heads.
+
+== Sounds ==
+{{SoundTable
+| type = dungeons2
+| {{SoundLine
+| sound = sfx_mob_caretakerBroken_idle_01 (SFX).wav
+| sound2 = sfx_mob_caretakerBroken_idle_02 (SFX).wav
+| sound3 = sfx_mob_caretakerBroken_idle_03 (SFX).wav
+| sound4 = sfx_mob_caretakerBroken_idle_04 (SFX).wav
+| description = 
+| id = sfx_mob_caretakerBroken_idle
+}}
+| {{SoundLine
+| sound = sfx_mob_caretaker_activate (SFX).wav
+| description = 
+| id = sfx_mob_caretaker_activate
+}}
+| {{SoundLine
+| sound = sfx_mob_caretaker_clonks-001 (SFX).wav
+| sound2 = sfx_mob_caretaker_clonks-002 (SFX).wav
+| sound3 = sfx_mob_caretaker_clonks-003 (SFX).wav
+| sound4 = sfx_mob_caretaker_clonks-004 (SFX).wav
+| sound5 = sfx_mob_caretaker_clonks-005 (SFX).wav
+| sound6 = sfx_mob_caretaker_clonks-006 (SFX).wav
+| sound7 = sfx_mob_caretaker_clonks-007 (SFX).wav
+| description = 
+| id = sfx_mob_caretaker_clonks
+}}
+| {{SoundLine
+| sound = sfx_mob_caretaker_deactivate (SFX).wav
+| description = 
+| id = sfx_mob_caretaker_deactivate
+}}
+| {{SoundLine
+| sound = sfx_mob_caretaker_noveltyVoice-001 (SFX).wav
+| sound2 = sfx_mob_caretaker_noveltyVoice-002 (SFX).wav
+| sound3 = sfx_mob_caretaker_noveltyVoice-003 (SFX).wav
+| sound4 = sfx_mob_caretaker_noveltyVoice-004 (SFX).wav
+| description = 
+| id = sfx_mob_caretaker_noveltyVoice
+}}
+| {{SoundLine
+| sound = sfx_mob_caretaker_noveltyVoice_LOOP_stop (1045026450).wav
+| sound2 = sfx_mob_caretaker_noveltyVoice_LOOP_stop (260734237).wav
+| sound3 = sfx_mob_caretaker_noveltyVoice_LOOP_stop (622408629).wav
+| sound4 = sfx_mob_caretaker_noveltyVoice_LOOP_stop (955800720).wav
+| description = 
+| id = sfx_mob_caretaker_noveltyVoice_LOOP_stop
+}}
+| {{SoundLine
+| sound = sfx_mob_caretaker_panic_LOOP_stop (907095625).wav
+| description = 
+| id = sfx_mob_caretaker_panic_LOOP_stop
+}}
+| {{SoundLine
+| sound = sfx_mob_caretaker_panicked (SFX).wav
+| description = 
+| id = sfx_mob_caretaker_panicked
+}}
+| {{SoundLine
+| sound = sfx_mob_caretaker_scaredKlonk-001 (SFX).wav
+| sound2 = sfx_mob_caretaker_scaredKlonk-002 (SFX).wav
+| sound3 = sfx_mob_caretaker_scaredKlonk-003 (SFX).wav
+| sound4 = sfx_mob_caretaker_scaredKlonk-004 (SFX).wav
+| sound5 = sfx_mob_caretaker_scaredKlonk-005 (SFX).wav
+| sound6 = sfx_mob_caretaker_scaredKlonk-006 (SFX).wav
+| description = 
+| id = sfx_mob_caretaker_scaredKlonk
+}}
+| {{SoundLine
+| sound = sfx_mob_caretaker_scaredVoice-001 (SFX).wav
+| sound2 = sfx_mob_caretaker_scaredVoice-002 (SFX).wav
+| description = 
+| id = sfx_mob_caretaker_scaredVoice
+}}
+| {{SoundLine
+| sound = sfx_mob_caretaker_scared_LOOP_stop (208758342).wav
+| sound2 = sfx_mob_caretaker_scared_LOOP_stop (344388477).wav
+| sound3 = sfx_mob_caretaker_scared_LOOP_stop (345844269).wav
+| sound4 = sfx_mob_caretaker_scared_LOOP_stop (552131688).wav
+| sound5 = sfx_mob_caretaker_scared_LOOP_stop (623194667).wav
+| sound6 = sfx_mob_caretaker_scared_LOOP_stop (62918661).wav
+| sound7 = sfx_mob_caretaker_scared_LOOP_stop (709180639).wav
+| sound8 = sfx_mob_caretaker_scared_LOOP_stop (981396460).wav
+| description = 
+| id = sfx_mob_caretaker_scared_LOOP_stop
+}}
+| {{SoundLine
+| sound = sfx_mob_caretaker_sleep-001 (SFX).wav
+| sound2 = sfx_mob_caretaker_sleep-002 (SFX).wav
+| sound3 = sfx_mob_caretaker_sleep-003 (SFX).wav
+| sound4 = sfx_mob_caretaker_sleep-004 (SFX).wav
+| description = 
+| id = sfx_mob_caretaker_sleep
+}}
+| {{SoundLine
+| sound = sfx_mob_caretaker_sleep_LOOP_stop (299833432).wav
+| sound2 = sfx_mob_caretaker_sleep_LOOP_stop (507229879).wav
+| sound3 = sfx_mob_caretaker_sleep_LOOP_stop (764204150).wav
+| sound4 = sfx_mob_caretaker_sleep_LOOP_stop (780105897).wav
+| description = 
+| id = sfx_mob_caretaker_sleep_LOOP_stop
+}}
+| {{SoundLine
+| sound = sfx_mob_caretaker_voice-001 (SFX).wav
+| sound2 = sfx_mob_caretaker_voice-002 (SFX).wav
+| sound3 = sfx_mob_caretaker_voice-003 (SFX).wav
+| sound4 = sfx_mob_caretaker_voice-004 (SFX).wav
+| sound5 = sfx_mob_caretaker_voice-005 (SFX).wav
+| sound6 = sfx_mob_caretaker_voice-006 (SFX).wav
+| description = 
+| id = sfx_mob_caretaker_voice
+}}
+| {{SoundLine
+| sound = sfx_mob_caretaker_voice_LOOP_stop (18348725).wav
+| sound2 = sfx_mob_caretaker_voice_LOOP_stop (525934476).wav
+| sound3 = sfx_mob_caretaker_voice_LOOP_stop (537049104).wav
+| sound4 = sfx_mob_caretaker_voice_LOOP_stop (566685600).wav
+| sound5 = sfx_mob_caretaker_voice_LOOP_stop (802684295).wav
+| sound6 = sfx_mob_caretaker_voice_LOOP_stop (85906349).wav
+| description = 
+| id = sfx_mob_caretaker_voice_LOOP_stop
+}}
+}}
+
+== Data values ==
+=== ID ===
+{{LevelActorTable
+| type= entity
+| {{LevelActorLine
+| displayname = Echo Golem
+| variant = -
+| blueprint = BP_CaretakerGolem_C
+| levelmobtype = -
+| translationkey = SW_Mob_CaretakerGolem_SW_TextEntry_Name
+}}
+| {{LevelActorLine
+| displayname = Echo Golem<ref group="a">Red variant</ref>
+| variant = Normal
+| variant2 = Damaged
+| blueprint = BP_CaretakerGolem_C
+| blueprint2 = BP_CaretakerGolem_Variant1_Damaged_C
+| levelmobtype = -
+| translationkey = SW_Mob_CaretakerGolem_SW_TextEntry_Name
+}}
+}}
+{{notelist|a}}
+
+== Achievements ==
+{{LoadDungeons2Achievements|Choir Conductor}}
+
+== History ==
+{{HistoryTable
+|{{HistoryLine||May 30, 2026|link=https://minecraft.wiki/w/TwitchCon_Rotterdam_2026|Statues of echo golems appear at TwitchCon Rotterdam 2026.}}
+|{{HistoryLine||June 11, 2026|link=https://www.youtube.com/watch?v=z9fujISgzM8|Echo golems are mentioned in a quest and are briefly visible after the players defeat the Twisted Warden.}}
+|{{HistoryLine||August 20, 2026|link=https://www.youtube.com/watch?v=ypJN_cWKFo0|An echo golem can be spotted in the Sift.{{Note|The video was published on August 15, 2026, but was made public later following the formal announcement of {{MCD2|the Sift}}.}}}}
+|{{HistoryLine||September 8, 2026|link=https://megalodon.jp/2026-0909-1214-03/https://www.exophase.com:443/game/minecraft-dungeons-ii-steam/achievements/|The name of echo golems is revealed.}}
+|{{HistoryLine|Dungeons II}}
+|{{HistoryLine||1.1.1.0|[[File:MCD2 Echo Golem.png|32px]] Added echo golems.}}
+}}
+
+== Trivia ==
+* The face of an echo golem can be seen melded into the {{MCD2|Monstrous Opus}}' shoulder piece, revealing that at least one of them was used in the creation of the soul construct.
+
+== Gallery ==
+
+=== Animations ===
+<gallery>
+File:MCD2 Echo Golem Idle.gif|Echo golem idle
+File:MCD2 Echo Golem Novelty.gif|Echo golem novelty
+File:MCD2 Echo Golem Happy.gif|Echo golem happy
+File:MCD2 Echo Golem Walk.gif|Echo golem walk
+File:MCD2 Echo Golem Run.gif|Echo golem run
+</gallery>
+
+=== Textures ===
+<gallery class=pixel-image>
+File:T caretakerGolem.png|<code>T_caretakerGolem</code>
+File:T CaretakerGolem Variant1.png|<code>T_CaretakerGolem_Variant1</code>
+File:T CaretakerGolem Variant1 Damaged.png|<code>T_CaretakerGolem_Variant1_Damaged</code>
+</gallery>
+
+=== Screenshots ===
+<gallery>
+File:MCD2 Sift portal and echo golems.jpg|Echo golems in the Sift
+File:MCD2 Deep Dark Portal party.jpeg|Echo golems dancing in front of the Deep Dark portal
+File:MCD2 Meadows blub singer and echo golem.jpg|A {{MCD2|meadows blub}}, a {{MCD2|singer}}, and an echo golem
+File:Dungeons2AchievementSprite choir-conductor.jpg|An echo golem in the {{MCD2|Choir Conductor}} {{MCD2|achievement}} icon
+File:Dungeons2AchievementSprite guardian-of-the-golems.jpg|Echo golems in the {{MCD2|Guardian of the Golems}} achievement icon
+File:Dungeons2AchievementSprite wobble-watcher.jpg|An echo golem in the {{MCD2|Wobble Watcher}} achievement icon
+</gallery>
+
+=== Official artwork ===
+<gallery>
+File:MCD2 Credits artwork Wellspring Golem.png|Echo golem in the {{MCD2|Book of Builders}}
+</gallery>
+
+=== In other media ===
+<gallery>
+File:TwitchCon Minecraft Dungeons II full section.jpg|The section at TwitchCon featuring echo golems
+File:TwitchCon Minecraft Dungeons II section.jpg|An echo golem at TwitchCon
+File:MCD2 Echo golems in front of the portal.png|Echo golems dancing in front of the {{MCD2|Deep Dark Portal}} while four heroes watch
+File:MCD2 who is THIS.webp|An officially created meme asking who echo golems are
+</gallery>
+
+== Notes ==
+{{notelist}}
+
+== References ==
+{{reflist}}
+
+== Navigation ==
+{{Navbox Dungeons II entities}}{{Navbox Caleb Zane Huett novels|Dungeons}}
+[[Category:Sift mobs]]
+[[Category:Minecraft Dungeons II golems]]
+
+[[fr:Dungeons II:Golem d'écho]]
+[[uk:Dungeons II:Ехо-голем]]
+[[zh:Dungeons II:回响傀儡]]

@@ -123,56 +123,82 @@ Unused artifacts are **excluded**.
 | `recommendedPower` | `string` | O | |
 
 ## 4. Dungeons 2 schemas
-Dungeons II pages are plain wikitables (no infobox). Rarity enum: `common | rare | special | unique`.
+Dungeons II list pages are plain wikitables; the item, enchantment, mob and location pages carry a small `{{Infobox Dungeons II …}}` (flavor `description`, `variant`, mob `health`, location `subarea`/`station`). Rarity enum: `common | rare | special | unique`. **Finalized in Prompt 05 against the live pages (revisions in the coverage report); logged as D-051…D-061.**
+
+Weapons and armor come in **pairs**: a base item (rarity cell "COMMON / RARE / SPECIAL") immediately followed by its unique variant (rarity "UNIQUE"). As in D1, the base gets `rarity: common` (its lowest tier, D-040) and the pair is linked with `baseItemId` / `variantIds`.
 
 ### 4.1 `D2Weapon`
 | Field | Type | R/O | Notes |
 |---|---|---|---|
 | `kind` | `'melee' \| 'ranged'` | R | |
-| `weaponType` | `string` *(open)* | R | Melee: from section/combo grouping; ranged: `bow \| crossbow` |
-| `effect` | `string` | R | "Effect" column |
+| `weaponType` | `string` *(open)* | R | Melee: a family derived from the **base** item's name with a keyword table (`axe`, `hammer`, `sickle`, `dagger`, `sword`, `spear`; any other base is its own family, e.g. `claymore`, `glaive`); its unique variant shares it (D-052). Ranged: `bow \| crossbow` from the page section |
+| `isUnique` | `boolean` | R | |
+| `baseItemId` | `string` | O | Unique variants: the base item |
+| `variantIds` | `string[]` | R | Base items: their unique variant (may be empty) |
+| `effect` | `string` | O | "Effect" column; absent for the "None" of base items (they roll a random effect in game) |
+| `effectNote` | `string` | O | The wiki's editorial "(Although unstated, …)" remarks after the effect |
 | `effectValues` | `{ label: string; value: number; unit: '%' \| 's' \| 'flat' }[]` | R | Numbers parsed from `effect` (may be empty) |
-| `comboLength` | `number` | O | Melee |
-| `ammo` | `string` | O | Ranged |
-| `locations` | `string[]` | R | "Drop location" |
-| `obtainable` | `boolean` | R | `false` for the "Unobtainable" list. These are **shown**, with a badge, and hidden by default through a filter |
+| `comboLength` | `number` | O | Melee; "?" and blank mean unknown |
+| `ammo` | `number` | O | Ranged: the "Ammo" column is the maximum arrow count (D-053; D1's `ammo` is text) |
+| `locations` | `string[]` | R | "Drop location": location ids, quest ids ("(quest reward)") or raw text |
+| `obtainable` | `boolean` | R | `false` for the "Unobtainable" table. These are **shown**, with a badge, and hidden by default through a filter |
 
 ### 4.2 `D2Armor`
 | Field | Type | R/O | Notes |
 |---|---|---|---|
-| `slot` | `'helmet' \| 'chestplate' \| 'leggings' \| 'boots'` | R | |
-| `armorSet` | `string` | R | "Armor Set" column (set slug + display name) |
-| `effects` | `string[]` | R | |
+| `slot` | `'helmet' \| 'chestplate' \| 'leggings' \| 'boots'` | R | From the table's heading |
+| `armorSet` | `string` | R | "Armor Set" column, display name (`Beekeeper Armor`); its slug is `slugify(armorSet)`. A base set and its unique set are separate sets (`Beekeeper Armor` / `Hivemind Armor`) |
+| `isUnique`, `baseItemId`, `variantIds` | as D2Weapon | | A base piece and its unique piece (`Beekeeper Veil` ↔ `Hivemind Hardhat`) |
+| `effects` | `string[]` | R | Lines of the "Effects" column ("None" dropped) |
 | `effectValues` | as above | R | |
-| `locations` | `string[]` | R | |
+| `locations` | `string[]` | R | Ids or raw text |
 
 ### 4.3 `D2Enchantment`
-Same shape as `D1Enchantment`. **Prompt 05 must check this against `Dungeons_II:Enchantment`** and update this section (log it) where D2 differs.
+The D2 list has no tier/cost/gilded/stackable/mob columns. Fields:
+| Field | Type | R/O | Notes |
+|---|---|---|---|
+| `appliesTo` | `('melee' \| 'ranged' \| 'armor')[]` | R | "Applied to": Melee Weapon / Ranged Weapon / Armor |
+| `restriction` | `string` | O | "(chestplate exclusive)" → `chestplate exclusive` |
+| `levels` | `{ level: 1\|2\|3; text: string; value?: number; unit?: string }[]` | R | Tier I–III text; `value` only when the text holds exactly one number (`%` or `s` as unit) |
+| `obtaining` | `string[]` | R | "Obtaining" column: quest ids / raw text; "?" (unknown) is dropped, so most are empty |
+
+The wiki says each enchantable item holds **one** enchantment, which can be upgraded to tier III (two upgrades).
 
 ### 4.4 `D2Artifact`
-Same shape as `D1Artifact`, with `artifactType` *(open)*. Prompt 05 checks it against `Dungeons_II:Artifact`.
+| Field | Type | R/O | Notes |
+|---|---|---|---|
+| `soulCost` | `number` | R | "Soul cost" |
+| `requiresSouls` | `boolean` | R | `soulCost > 0` |
+| `cooldownSeconds` | `number` | O | "Cooldown" (seconds) |
+| `locations` | `string[]` | R | "Obtainable location" (ids or raw text) |
+
+The wiki gives no artifact types (one table) and no property bullets, so there is no `artifactType` or `properties`; `description` is the in-game text and `tags` come from the keyword vocabulary (D-056). The "DLC exclusive" column sets `dlc` (free text).
 
 ### 4.5 `D2Talisman`
 | Field | Type | R/O | Notes |
 |---|---|---|---|
 | `passiveBonus` | `string` | R | |
-| `boostType` | `'ranged' \| 'movement' \| 'drops' \| 'artifact' \| 'melee' \| 'health' \| 'pet' \| 'damage' \| 'souls' \| 'experience'` *(extend via the log if needed)* | R | |
-| `isSecret` | `boolean` | R | |
-| `tiers` | `[{tier:1;text:string;value?:number;unit?:string},{tier:2;…},{tier:3;…}]` | R | T1–T3 (bronze/silver/gold frames) |
-| `sourceType` | `'quest-reward' \| 'secret-chest' \| 'boss-drop' \| 'other'` | R | |
-| `locations` | `string[]` | R | |
+| `boostType` | `'ranged' \| 'movement' \| 'drops' \| 'artifact' \| 'melee' \| 'health' \| 'pet' \| 'damage' \| 'souls' \| 'experience'` | R | Exactly the ten values the wiki uses |
+| `isSecret` | `boolean` | R | "Secret" ✔ |
+| `tiers` | `[{tier:1;text:string;value?:number;unit?:string},{tier:2;…},{tier:3;…}]` | R | T1–T3 (bronze/silver/gold frames). `text` keeps the raw cell ("10%", "25%/7000", "10% while health is above 95%", "N/A"); `value` is its leading number and `unit` is `%` when it has one |
+| `sourceType` | `'quest-reward' \| 'secret-chest' \| 'boss-drop' \| 'other'` | R | From the first source line ("Reward from…", "Secret Chest in…", "Dropped by…") |
+| `locations` | `string[]` | R | Every source: quest ids, location ids or raw text |
 
 ### 4.6 `D2Quest`
 | Field | Type | R/O | Notes |
 |---|---|---|---|
 | `questType` | `'core' \| 'side'` | R | Unused quests are **excluded** |
-| `order` | `number` | O | Core quest order |
-| `locationIds` | `string[]` | R | |
-| `rewards` | `{ when: 'first' \| 'subsequent' \| 'always'; xp?: number; items: string[] /* ids or text */; randomFrom?: string[] }[]` | R | |
-| `dlcExclusive` | `boolean` | R | |
+| `order` | `number` | O | Core quest order = table order |
+| `locationIds` | `string[]` | R | "Location(s)" column; a station or sub-area name resolves to the main location that lists it, when exactly one does |
+| `areas` | `string[]` | R | Names from "Location(s)" that are not a main location (stations, sub-areas such as `The Deep Dark`) |
+| `rewards` | `{ when: 'first' \| 'subsequent' \| 'always'; xp?: number; items: string[]; randomFrom?: { text: string; count: number; from: string[] }[] }[]` | R | One entry per "First completion" / "Subsequent completions" block, or a single `always` entry. `items` are ids or raw text. Each "Random gear from X", "2 random pieces of Y Armor", "Random artifact between: …" line is one `randomFrom` entry: `text` verbatim, `count` the number drawn (default 1), `from` the pool as ids / raw text (D-055) |
+| `dlcExclusive` | `boolean` | R | "Is DLC exclusive" |
 
-### 4.7 `D2Mob`, 4.8 `D2Location`
-Same shapes as `D1Mob` / `D1Location`, with `*Type` fields *(open)*. Prompt 05 checks them against `Dungeons_II:Mob` and `Dungeons_II:Location` and records the normalized enums here.
+### 4.7 `D2Mob`
+Same shape as `D1Mob`; `mobType` *(open)*: `boss`, `mini-boss`, `hazard`, `merchant`, `character`, `companion`, `pet`, `non-attackable`, `common`, `passive` (D-058). `health` is the infobox text (tiers and soul-corrupted values) when it has a number. `attacks` come from the Behavior sub-headings when the page has them (usually none); `drops` from a Drops list.
+
+### 4.8 `D2Location`
+`D1Location` fields (`region`, `mobIds`, `itemIds`) plus: `locationType` *(open)*: `overworld`, `sift`, `rift`; `region` = the list's heading; `stations: string[]` and `subAreas: string[]` (text: minecart stations and sub-areas); `questIds: string[]` (**computed** from quests whose `locationIds` include this location). `secretOf` and `recommendedPower` do not exist for D2 (D-059).
 
 ## 5. Cross-reference rules (`npm run data:validate` enforces them)
 - Every id in `related`, `baseItemId`, `variantIds`, `builtInEnchantments[].enchantmentId`, `builtInto`, `locationIds`, `mobIds`, `itemIds`, `secretOf` and `dlc` (D1 only; D2 `dlc` is free text) must resolve to an existing entity in the **same game**. Values in `locations`/`drops` (and D2 quest `rewards[].items`/`randomFrom`, which are also "ids or text") may be raw text **only if** they're listed in the coverage report under an "Unresolved references" heading, one bullet each, value in backticks: ``- `Gift Wrapper` — used by d1:weapons:claymore`` (D-037).

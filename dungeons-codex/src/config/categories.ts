@@ -37,14 +37,22 @@ export const LIST_FIELDS: ListFields = {
     locations: ['locationType', 'region', 'recommendedPower'],
   },
   d2: {
-    weapons: ['kind', 'weaponType', 'comboLength', 'ammo', 'obtainable', 'effectValues'],
-    armor: ['slot', 'armorSet', 'effectValues'],
-    enchantments: ['appliesTo', 'tier', 'isGilded', 'stackable', 'mobObtainable', 'section'],
-    artifacts: ['artifactType', 'cooldownSeconds', 'requiresSouls'],
+    weapons: [
+      'kind',
+      'weaponType',
+      'isUnique',
+      'comboLength',
+      'ammo',
+      'obtainable',
+      'effectValues',
+    ],
+    armor: ['slot', 'armorSet', 'isUnique', 'effectValues'],
+    enchantments: ['appliesTo', 'restriction'],
+    artifacts: ['soulCost', 'cooldownSeconds', 'requiresSouls'],
     talismans: ['boostType', 'isSecret', 'sourceType', 'passiveBonus'],
     quests: ['questType', 'order', 'dlcExclusive'],
     mobs: ['mobType', 'health'],
-    locations: ['locationType', 'region', 'recommendedPower'],
+    locations: ['locationType', 'region'],
   },
 };
 
@@ -62,8 +70,6 @@ export const GROUP_FIELD: { [G in GameId]: Partial<Record<CategorySlug<G>, strin
   d2: {
     weapons: 'weaponType',
     armor: 'armorSet',
-    enchantments: 'tier',
-    artifacts: 'artifactType',
     talismans: 'boostType',
     quests: 'questType',
     mobs: 'mobType',

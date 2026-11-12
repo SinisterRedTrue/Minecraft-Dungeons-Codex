@@ -165,14 +165,38 @@ describe('validateData', () => {
     ]);
     put('data/generated/d2/quests.json', [
       VALID['d2/quests']!('Start', {
-        rewards: [{ when: 'always', items: ['Mystery'], randomFrom: ['d2:weapons:x'] }],
+        rewards: [
+          {
+            when: 'always',
+            items: ['Mystery'],
+            randomFrom: [{ text: 'Random gear', count: 1, from: ['d2:weapons:x', 'Nowhere'] }],
+          },
+        ],
       }),
     ]);
+    put(
+      'data/reports/coverage-d2.md',
+      '# Coverage\n\n## Unresolved references\n- `Nowhere` — d2:quests:start\n',
+    );
     const out = messages();
     expect(out).toEqual([
       'd1/mobs.json › d1:mobs:zombie › drops.1: raw text "Gold" is not listed under "Unresolved references" in coverage-d1.md',
       'd2/quests.json › d2:quests:start › rewards.0.items.0: raw text "Mystery" is not listed under "Unresolved references" in coverage-d2.md',
-      'd2/quests.json › d2:quests:start › rewards.0.randomFrom.0: unknown d2 id "d2:weapons:x"',
+      'd2/quests.json › d2:quests:start › rewards.0.randomFrom.0.from.0: unknown d2 id "d2:weapons:x"',
+    ]);
+  });
+
+  it('checks the d2 id lists (questIds) and the mixed obtaining field', () => {
+    put('data/generated/d2/locations.json', [
+      VALID['d2/locations']!('Howling Woods', { questIds: ['d2:quests:ghost'] }),
+    ]);
+    put('data/generated/d2/enchantments.json', [
+      VALID['d2/enchantments']!('Piercing', { obtaining: ['d2:quests:ghost', 'Somewhere'] }),
+    ]);
+    expect(messages()).toEqual([
+      'd2/enchantments.json › d2:enchantments:piercing › obtaining.0: unknown d2 id "d2:quests:ghost"',
+      'd2/enchantments.json › d2:enchantments:piercing › obtaining.1: raw text "Somewhere" is not listed under "Unresolved references" in coverage-d2.md',
+      'd2/locations.json › d2:locations:howling-woods › questIds.0: unknown d2 id "d2:quests:ghost"',
     ]);
   });
 

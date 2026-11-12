@@ -1,0 +1,886 @@
+{
+  "game": "d2",
+  "categories": {
+    "weapons": {
+      "category": "weapons",
+      "expected": 84,
+      "expectedNote": "84 rows in the melee, bow and crossbow tables (58 melee + 22 ranged obtainable, 4 unobtainable); the page states no total",
+      "parsed": 84,
+      "valid": 84,
+      "dropped": [],
+      "partial": [
+        {
+          "id": "d2:weapons:lullaby-blade",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d2:weapons:frostbiter",
+          "missing": [
+            "description"
+          ]
+        }
+      ],
+      "missingImages": [],
+      "slugCollisions": [],
+      "overridesApplied": [],
+      "overridesUnmatched": [],
+      "unresolved": [],
+      "droppedRefs": [],
+      "notes": [
+        "list page revision 3890175",
+        "4 unobtainable weapons flagged"
+      ]
+    },
+    "armor": {
+      "category": "armor",
+      "expected": 152,
+      "expectedNote": "38 armor sets × 4 slots (rows per slot table: 38/38/38/38); the page states no total",
+      "parsed": 152,
+      "valid": 152,
+      "dropped": [],
+      "partial": [
+        {
+          "id": "d2:armor:soul-corruptor-duster",
+          "missing": [
+            "description"
+          ]
+        }
+      ],
+      "missingImages": [],
+      "slugCollisions": [],
+      "overridesApplied": [],
+      "overridesUnmatched": [],
+      "unresolved": [],
+      "droppedRefs": [],
+      "notes": [
+        "list page revision 3891206",
+        "all 38 sets have four pieces"
+      ]
+    },
+    "enchantments": {
+      "category": "enchantments",
+      "expected": 32,
+      "expectedNote": "page intro: 32 obtainable enchantments (the unobtainable ones are only listed as bullets)",
+      "parsed": 32,
+      "valid": 32,
+      "dropped": [],
+      "partial": [],
+      "missingImages": [],
+      "slugCollisions": [],
+      "overridesApplied": [],
+      "overridesUnmatched": [],
+      "unresolved": [],
+      "droppedRefs": [],
+      "notes": [
+        "list page revision 3893268"
+      ]
+    },
+    "artifacts": {
+      "category": "artifacts",
+      "expected": 40,
+      "expectedNote": "40 rows in the artifact table; the page states no total",
+      "parsed": 40,
+      "valid": 40,
+      "dropped": [],
+      "partial": [],
+      "missingImages": [],
+      "slugCollisions": [],
+      "overridesApplied": [],
+      "overridesUnmatched": [],
+      "unresolved": [],
+      "droppedRefs": [],
+      "notes": [
+        "list page revision 3875491"
+      ]
+    },
+    "talismans": {
+      "category": "talismans",
+      "expected": 24,
+      "expectedNote": "24 rows in the talisman table; the page states no total (it says 8 are secret, the table marks 9)",
+      "parsed": 24,
+      "valid": 24,
+      "dropped": [],
+      "partial": [],
+      "missingImages": [],
+      "slugCollisions": [],
+      "overridesApplied": [],
+      "overridesUnmatched": [],
+      "unresolved": [
+        {
+          "value": "Secret Chest in Deep Dark dungeons",
+          "usedBy": [
+            "d2:talismans:glowstone-flask"
+          ]
+        },
+        {
+          "value": "Secret Chest in Ravine dungeons",
+          "usedBy": [
+            "d2:talismans:soul-chip"
+          ]
+        },
+        {
+          "value": "Secret Chest in Rifts",
+          "usedBy": [
+            "d2:talismans:ocelots-paw"
+          ]
+        }
+      ],
+      "droppedRefs": [],
+      "notes": [
+        "list page revision 3892219"
+      ]
+    },
+    "quests": {
+      "category": "quests",
+      "expected": 42,
+      "expectedNote": "15 core + 27 side quests in the two tables; the page states no total",
+      "parsed": 42,
+      "valid": 42,
+      "dropped": [],
+      "partial": [],
+      "missingImages": [],
+      "slugCollisions": [],
+      "overridesApplied": [],
+      "overridesUnmatched": [],
+      "unresolved": [
+        {
+          "value": "The Deep Dark",
+          "usedBy": [
+            "d2:quests:down-into-the-deep-dark",
+            "d2:quests:returning-the-note-blocks",
+            "d2:quests:the-twisted-warden-revived"
+          ]
+        }
+      ],
+      "droppedRefs": [],
+      "notes": [
+        "list page revision 3890614"
+      ]
+    },
+    "mobs": {
+      "category": "mobs",
+      "expected": 109,
+      "expectedNote": "109 distinct mobs in the \"List of mobs\" icon lists; 26 icons under Cinematics/Unused/Supplementary skipped",
+      "parsed": 109,
+      "valid": 109,
+      "dropped": [],
+      "partial": [
+        {
+          "id": "d2:mobs:echo-golem",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:key-golem",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:lootkin",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:tuner",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:beekeeper",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:candlemaker",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:cartographer",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:cleric",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:the-clerics-apprentice",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:farmer",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:inventor",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:singer",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:villager",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:woodcutter",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:blacksmith",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:enchantsmith",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:town-merchant",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:bee",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:iron-golem",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:llama",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:prickle",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:wobble-companion",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:wolf",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:blub-pet",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:cheesy-cube-pet",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:twisted-chicken",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:blub",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:cat",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:chicken",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:cow",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:fox",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:frog",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:glow-squid",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:goat",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:nuzzle",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:slabber",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:parrot",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:pig",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:pigeon",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:sheep",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:spotted-pig",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:squid",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:wobble",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:trill",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:bloombud",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:copper-cube",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:creeper",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:flame-construct",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:fusefly",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:hurler",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:ravager",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:redstone-cube",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:roamroot",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:sculk-cube",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:slime",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:spider",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:target-dummy",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:vex",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:enchanter",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:evoker",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:excavator",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:geomancer",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:grand-illusioner",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:pillager",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:the-prime-enchanter",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:royal-guard",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:the-supreme-evoker",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:vindicator",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d2:mobs:witch",
+          "missing": [
+            "health"
+          ]
+        }
+      ],
+      "missingImages": [],
+      "slugCollisions": [],
+      "overridesApplied": [],
+      "overridesUnmatched": [],
+      "unresolved": [],
+      "droppedRefs": [
+        {
+          "entity": "Glow Squid",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Squid",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Bloombud",
+          "message": "spawn area \"Rift\" is not a single main location"
+        },
+        {
+          "entity": "Cave Spider",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Cave Spider",
+          "message": "spawn area \"Dungeon\" is not a single main location"
+        },
+        {
+          "entity": "Charged Creeper",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Charged Creeper",
+          "message": "spawn area \"Dungeon\" is not a single main location"
+        },
+        {
+          "entity": "Charged Creeper",
+          "message": "spawn area \"Deadleaf Forest\" is not a single main location"
+        },
+        {
+          "entity": "Creeper",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Creeper",
+          "message": "spawn area \"Dungeon\" is not a single main location"
+        },
+        {
+          "entity": "Creeper",
+          "message": "spawn area \"Deadleaf Forest\" is not a single main location"
+        },
+        {
+          "entity": "Flame Construct",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Flame Construct",
+          "message": "spawn area \"Deep Dark dungeon\" is not a single main location"
+        },
+        {
+          "entity": "Fusefly",
+          "message": "spawn area \"Rift\" is not a single main location"
+        },
+        {
+          "entity": "Slime",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Spider",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Vex",
+          "message": "spawn area \"Evoker\" is not a single main location"
+        },
+        {
+          "entity": "Witch Slime",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Baby Zombie",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Baby Zombie",
+          "message": "spawn area \"Dungeon\" is not a single main location"
+        },
+        {
+          "entity": "Chicken Jockey",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Chicken Jockey",
+          "message": "spawn area \"Dungeon\" is not a single main location"
+        },
+        {
+          "entity": "Skeleton",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Spider Jockey",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Zombie",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Enchanter",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Enchanter",
+          "message": "spawn area \"Dungeon\" is not a single main location"
+        },
+        {
+          "entity": "Enchanter",
+          "message": "spawn area \"Rift\" is not a single main location"
+        },
+        {
+          "entity": "Enchanter",
+          "message": "spawn area \"Deadleaf Forest\" is not a single main location"
+        },
+        {
+          "entity": "Enchanter",
+          "message": "spawn area \"Mudgloom Manor\" is not a single main location"
+        },
+        {
+          "entity": "Evoker",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Evoker",
+          "message": "spawn area \"Storm Generator\" is not a single main location"
+        },
+        {
+          "entity": "Excavator",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Excavator",
+          "message": "spawn area \"Dungeon\" is not a single main location"
+        },
+        {
+          "entity": "Excavator",
+          "message": "spawn area \"Cinder Crags\" is not a single main location"
+        },
+        {
+          "entity": "Excavator",
+          "message": "spawn area \"Plains - Peaks Link\" is not a single main location"
+        },
+        {
+          "entity": "Geomancer",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Geomancer",
+          "message": "spawn area \"Dungeon\" is not a single main location"
+        },
+        {
+          "entity": "Geomancer",
+          "message": "spawn area \"Rift\" is not a single main location"
+        },
+        {
+          "entity": "Geomancer",
+          "message": "spawn area \"Deadleaf Forest\" is not a single main location"
+        },
+        {
+          "entity": "Geomancer",
+          "message": "spawn area \"Mudgloom Manor\" is not a single main location"
+        },
+        {
+          "entity": "Pillager",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Vindicator",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Hunter",
+          "message": "spawn area \"Monarch\" is not a single main location"
+        },
+        {
+          "entity": "Scavenger",
+          "message": "spawn area \"Monarch\" is not a single main location"
+        },
+        {
+          "entity": "Scavenger",
+          "message": "spawn area \"Dartback\" is not a single main location"
+        },
+        {
+          "entity": "Stalker",
+          "message": "spawn area \"Monarch\" is not a single main location"
+        },
+        {
+          "entity": "Stalker",
+          "message": "spawn area \"Dartback\" is not a single main location"
+        },
+        {
+          "entity": "Trapper",
+          "message": "spawn area \"Monarch\" is not a single main location"
+        },
+        {
+          "entity": "Enderman",
+          "message": "spawn area \"Storm Generator\" is not a single main location"
+        },
+        {
+          "entity": "Warden",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Warden",
+          "message": "spawn area \"Dungeon\" is not a single main location"
+        },
+        {
+          "entity": "Warden",
+          "message": "spawn area \"Storm Generator\" is not a single main location"
+        },
+        {
+          "entity": "Witch",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Witch",
+          "message": "spawn area \"Storm Generator\" is not a single main location"
+        },
+        {
+          "entity": "Monstrous Opus",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        },
+        {
+          "entity": "Redstone Monstrosity",
+          "message": "spawn area \"Deep Dark dungeon\" is not a single main location"
+        },
+        {
+          "entity": "Sculk Monstrosity",
+          "message": "spawn area \"Rift\" is not a single main location"
+        },
+        {
+          "entity": "Twisted Warden",
+          "message": "spawn area \"Deep Dark\" is not a single main location"
+        }
+      ],
+      "notes": [
+        "list page revision 3893478"
+      ]
+    },
+    "locations": {
+      "category": "locations",
+      "expected": 16,
+      "expectedNote": "16 locations (9 in the Overworld and Sift tables, 7 Rift areas); the page states no total",
+      "parsed": 16,
+      "valid": 16,
+      "dropped": [],
+      "partial": [
+        {
+          "id": "d2:locations:badlands",
+          "missing": [
+            "image",
+            "description"
+          ]
+        },
+        {
+          "id": "d2:locations:cherry-grove",
+          "missing": [
+            "image",
+            "description"
+          ]
+        },
+        {
+          "id": "d2:locations:harlows-village",
+          "missing": [
+            "image"
+          ]
+        },
+        {
+          "id": "d2:locations:savanna",
+          "missing": [
+            "image",
+            "description"
+          ]
+        },
+        {
+          "id": "d2:locations:swampland",
+          "missing": [
+            "image",
+            "description"
+          ]
+        }
+      ],
+      "missingImages": [],
+      "slugCollisions": [],
+      "overridesApplied": [],
+      "overridesUnmatched": [],
+      "unresolved": [],
+      "droppedRefs": [],
+      "notes": [
+        "list page revision 3892194"
+      ]
+    }
+  }
+}

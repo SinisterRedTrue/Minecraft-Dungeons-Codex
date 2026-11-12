@@ -1,7 +1,7 @@
 /**
- * Prints 10 randomly chosen D1 entities (seeded, so the pick is repeatable) next to the text of
- * their live wiki page, for the field-by-field spot check of Prompt 04 task 9.
- * Run: `npx tsx scripts/dev/spotcheck.ts [seed]`
+ * Prints 10 randomly chosen entities of one game (seeded, so the pick is repeatable) next to the
+ * text of their live wiki page, for the field-by-field spot checks of Prompts 04 and 05.
+ * Run: `npx tsx scripts/dev/spotcheck.ts [seed] [d1|d2]`
  */
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
@@ -18,26 +18,41 @@ function mulberry32(seed: number) {
   };
 }
 
-const CATEGORIES = [
-  'weapons',
-  'weapons',
-  'armor',
-  'enchantments',
-  'artifacts',
-  'dlcs',
-  'cosmetics',
-  'mobs',
-  'mobs',
-  'locations',
-];
+const CATEGORIES: Record<string, string[]> = {
+  d1: [
+    'weapons',
+    'weapons',
+    'armor',
+    'enchantments',
+    'artifacts',
+    'dlcs',
+    'cosmetics',
+    'mobs',
+    'mobs',
+    'locations',
+  ],
+  d2: [
+    'weapons',
+    'weapons',
+    'armor',
+    'armor',
+    'enchantments',
+    'artifacts',
+    'talismans',
+    'quests',
+    'mobs',
+    'locations',
+  ],
+};
 
 const HIDE = ['source', 'related', 'image', 'powerTable', 'tags', 'id', 'game', 'quality'];
 
 async function main() {
   const random = mulberry32(Number(process.argv[2] ?? 20261112));
+  const game = process.argv[3] === 'd2' ? 'd2' : 'd1';
   const client = getClient();
-  for (const category of CATEGORIES) {
-    const file = path.join(process.cwd(), 'data', 'generated', 'd1', `${category}.json`);
+  for (const category of CATEGORIES[game] ?? []) {
+    const file = path.join(process.cwd(), 'data', 'generated', game, `${category}.json`);
     const list = JSON.parse(readFileSync(file, 'utf8')) as Record<string, unknown>[];
     const entity = list[Math.floor(random() * list.length)];
     if (!entity) continue;
