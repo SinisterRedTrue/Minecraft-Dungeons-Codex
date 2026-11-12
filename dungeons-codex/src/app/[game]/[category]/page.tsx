@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { NuqsAdapter } from 'nuqs/adapters/next/app';
 import { Suspense } from 'react';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { BrowserFallback } from '@/components/filters/BrowserFallback';
@@ -105,17 +106,19 @@ export default async function CategoryPage({ params }: { params: Params }) {
           />
         }
       >
-        <CategoryBrowser
-          label={config.label}
-          items={items}
-          defs={filters.defs}
-          sort={filters.sort}
-          grid={grid}
-          columns={config.tableColumns}
-          groupBy={config.groupBy}
-          labels={labels}
-          compare={{ game, category }}
-        />
+        <NuqsAdapter>
+          <CategoryBrowser
+            label={config.label}
+            items={items}
+            defs={filters.defs}
+            sort={filters.sort}
+            grid={grid}
+            columns={config.tableColumns}
+            groupBy={config.groupBy}
+            labels={labels}
+            compare={{ game, category }}
+          />
+        </NuqsAdapter>
       </Suspense>
     </div>
   );

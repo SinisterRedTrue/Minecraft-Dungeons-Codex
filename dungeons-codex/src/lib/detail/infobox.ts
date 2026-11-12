@@ -86,7 +86,7 @@ export function buildChips(specs: readonly ChipSpec[], source: Source, ctx: Ctx)
   return chips;
 }
 
-export type HeaderBadgeVariant = 'seasonal' | 'unobtainable' | 'soul' | 'dlc' | 'special';
+type HeaderBadgeVariant = 'seasonal' | 'unobtainable' | 'soul' | 'dlc' | 'special';
 
 export interface HeaderBadge {
   label: string;

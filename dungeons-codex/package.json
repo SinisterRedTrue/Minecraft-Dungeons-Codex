@@ -17,7 +17,9 @@
     "data:index": "tsx scripts/index.ts",
     "prebuild": "npm run data:index",
     "data:coverage": "tsx scripts/coverage.ts",
-    "verify": "npm run typecheck && npm run lint && npm run format:check && npm run test && npm run data:validate && npm run build"
+    "check:hex": "tsx scripts/check-no-hex.ts",
+    "verify": "npm run typecheck && npm run lint && npm run format:check && npm run check:hex && npm run test && npm run data:validate && npm run build",
+    "knip": "knip"
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "1.4.1",
@@ -58,9 +60,11 @@
     "@vitejs/plugin-react": "6.3.0",
     "@vitest/coverage-v8": "5.1.0",
     "cheerio": "1.2.0",
+    "domhandler": "5.0.3",
     "eslint": "9.39.5",
     "eslint-config-next": "16.4.6",
     "jsdom": "31.0.0",
+    "knip": "6.45.1",
     "prettier": "3.10.0",
     "prettier-plugin-tailwindcss": "0.8.1",
     "sharp": "0.35.5",

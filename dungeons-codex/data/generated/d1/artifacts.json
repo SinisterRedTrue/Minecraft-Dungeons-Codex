@@ -1365,8 +1365,7 @@
       "d1:locations:crimson-forest"
     ],
     "properties": [
-      "Heals the most",
-      "injured nearby, including the user, at the cost of souls.",
+      "Heals the most injured nearby, including the user, at the cost of souls.",
       "+1 Soul Gathering."
     ],
     "requiresSouls": true,

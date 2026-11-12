@@ -5,7 +5,7 @@ import { CircleAlert, CircleCheck, X } from 'lucide-react';
 import { createContext, useCallback, useContext, useMemo, useState, type ReactNode } from 'react';
 import { cn } from '@/lib/utils/cn';
 
-export type ToastVariant = 'default' | 'success' | 'error';
+type ToastVariant = 'default' | 'success' | 'error';
 
 export type ToastOptions = {
   title: string;

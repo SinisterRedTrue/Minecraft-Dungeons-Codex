@@ -43,7 +43,7 @@ export const toggleDef = (
 export const opts = (...pairs: [value: string, label: string][]): Option[] =>
   pairs.map(([value, label]) => ({ value, label }));
 
-export const RARITY_ORDER = ['common', 'rare', 'special', 'unique'] as const;
+const RARITY_ORDER = ['common', 'rare', 'special', 'unique'] as const;
 
 export const sortOption = (
   value: string,

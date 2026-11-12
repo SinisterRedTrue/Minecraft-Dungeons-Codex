@@ -16,7 +16,7 @@
 export const STAT_SCALE_MAX = 14;
 
 export type StatKind = 'melee' | 'ranged';
-export type StatKey = 'damage' | 'speed' | 'area' | 'ammo';
+type StatKey = 'damage' | 'speed' | 'area' | 'ammo';
 
 export interface StatDef {
   key: StatKey;

@@ -9,10 +9,10 @@ import path from 'node:path';
 import { slugify } from '@/lib/utils/slugify';
 import { listOf, type GameData } from './types';
 
-export const PROPERTY_CATEGORIES = ['weapons', 'armor', 'artifacts'] as const;
+const PROPERTY_CATEGORIES = ['weapons', 'armor', 'artifacts'] as const;
 
 /** Open enum fields per category (`schemaFor` checks them against `enums.json`). */
-export const OPEN_ENUMS: Record<string, Record<string, string[]>> = {
+const OPEN_ENUMS: Record<string, Record<string, string[]>> = {
   d1: {
     weapons: ['weaponType'],
     armor: ['armorGroup'],

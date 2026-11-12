@@ -8,7 +8,7 @@ export type Ent = Draft & { id: string; slug: string; category: string };
 export type GameData = Record<string, Ent[]>;
 
 /** A problem the coverage report lists (never fatal on its own). */
-export interface Finding {
+interface Finding {
   category: string;
   entity: string;
   message: string;

@@ -16,7 +16,7 @@ import { fromWire, toWire, wireSchema, type Build, type SlotChoice } from './sch
 
 /** Longest link text accepted, and the largest JSON it may inflate to (a decompression guard). */
 export const MAX_CODE_LENGTH = 4000;
-export const MAX_JSON_BYTES = 16 * 1024;
+const MAX_JSON_BYTES = 16 * 1024;
 /** What a share URL must stay under (`/d2/planner?b=…`). */
 export const MAX_URL_LENGTH = 2000;
 

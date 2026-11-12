@@ -3,7 +3,7 @@
 import * as SliderPrimitive from '@radix-ui/react-slider';
 import { cn } from '@/lib/utils/cn';
 
-export type SliderTick = { value: number; label?: string };
+type SliderTick = { value: number; label?: string };
 
 /** Round 22px thumb with a 3D bottom edge, shared by Slider and RangeSlider. */
 export const THUMB_CLASS =

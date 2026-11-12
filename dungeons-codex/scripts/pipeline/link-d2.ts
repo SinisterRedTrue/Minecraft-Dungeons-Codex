@@ -4,7 +4,7 @@
  * punctuation insensitive), then a redirect alias. Raw text stays only where the schema allows it
  * (`locations`, `obtaining`, quest reward `items` / `randomFrom.from`) and is reported.
  */
-import { listOf, refsOf, type Ent, type Findings, type GameData } from './types';
+import { listOf, refsOf, type Findings, type GameData } from './types';
 import { keyOf, type LinkOptions } from './link';
 
 interface SourceRef {
@@ -211,5 +211,3 @@ export function linkGameD2(data: GameData, findings: Findings, opts: LinkOptions
     });
   }
 }
-
-export type { Ent };

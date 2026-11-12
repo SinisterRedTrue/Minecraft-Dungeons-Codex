@@ -18,9 +18,9 @@ import {
   type ItemRow,
 } from './items';
 
-export const WEAPON_LIST_PAGE = 'Dungeons:Weapon';
+const WEAPON_LIST_PAGE = 'Dungeons:Weapon';
 
-export function weaponDraft(
+function weaponDraft(
   item: ItemRow,
   page: ItemPage,
   listPage: { title: string; revisionId: number; fetchedAt: string },

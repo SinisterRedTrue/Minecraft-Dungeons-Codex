@@ -1,5 +1,6 @@
 'use client';
 
+import { useLayoutEffect, useRef } from 'react';
 import { Button3D } from '@/components/ui/Button3D';
 import { Dialog, DialogClose, DialogContent } from '@/components/ui/Dialog';
 
@@ -19,9 +20,22 @@ export function ConfirmDialog({
   confirmLabel: string;
   onConfirm: () => void;
 }) {
+  // The button that opened this dialog is not a Radix trigger, so remember it and return focus.
+  const opener = useRef<HTMLElement | null>(null);
+  useLayoutEffect(() => {
+    if (open) opener.current = document.activeElement as HTMLElement | null;
+  }, [open]);
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent title={title} description={description} className="max-w-md">
+      <DialogContent
+        title={title}
+        description={description}
+        className="max-w-md"
+        onCloseAutoFocus={(event) => {
+          event.preventDefault();
+          opener.current?.focus();
+        }}
+      >
         <div className="flex flex-wrap justify-end gap-3">
           <DialogClose asChild>
             <Button3D variant="stone">Cancel</Button3D>

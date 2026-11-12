@@ -4,7 +4,7 @@ import * as SelectPrimitive from '@radix-ui/react-select';
 import { Check, ChevronDown } from 'lucide-react';
 import { cn } from '@/lib/utils/cn';
 
-export type SelectOption = { value: string; label: string; disabled?: boolean };
+type SelectOption = { value: string; label: string; disabled?: boolean };
 
 export type SelectProps = {
   value?: string;

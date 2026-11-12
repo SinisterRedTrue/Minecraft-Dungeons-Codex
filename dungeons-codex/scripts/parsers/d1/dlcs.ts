@@ -20,7 +20,7 @@ import {
 } from '../common';
 import type { Draft, DroppedRecord, ParseContext, ParseResult } from '../types';
 
-export const DLC_PAGE = 'Dungeons:DLC';
+const DLC_PAGE = 'Dungeons:DLC';
 
 /** A bullet line → the name it links (`{{DuLevelLink|X}} (Secret Mission)` → `X`). */
 function bulletName(line: string): string | undefined {

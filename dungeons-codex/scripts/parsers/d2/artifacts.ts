@@ -8,7 +8,7 @@ import { cellAt, col, firstImage, flag } from '../common';
 import type { Draft, ParseContext, ParseResult } from '../types';
 import { d2Draft, d2First, sourceFor, sourcesOf, tidy } from './common';
 
-export const ARTIFACT_LIST_PAGE = 'Dungeons II:Artifact';
+const ARTIFACT_LIST_PAGE = 'Dungeons II:Artifact';
 
 function isArtifactTable(table: ParsedTable): boolean {
   return col(table.headers, /^soul cost/i) >= 0 && col(table.headers, /^name/i) >= 0;
@@ -19,7 +19,7 @@ const numberOrUndefined = (text: string | undefined): number | undefined => {
   return /^\d+(?:\.\d+)?$/.test(t) ? Number(t) : undefined;
 };
 
-export function readArtifactDrafts(
+function readArtifactDrafts(
   html: string,
   list: { title: string; revisionId: number; fetchedAt: string },
 ): Draft[] {

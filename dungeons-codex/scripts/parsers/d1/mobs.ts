@@ -14,7 +14,7 @@ import { normalizeName } from '../../wiki/text';
 import { bareTitle, makeSource, wikiSections } from '../common';
 import type { Draft, DroppedRecord, ParseContext, ParseResult } from '../types';
 
-export const MOB_PAGE = 'Dungeons:Mob';
+const MOB_PAGE = 'Dungeons:Mob';
 
 /** Heading (lower-case, within "Minecraft Dungeons") → mob type or tag. */
 const SECTION_TYPES: Record<string, { type?: string; tag?: string }> = {

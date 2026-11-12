@@ -22,7 +22,7 @@ import {
   sourcesOf,
 } from './common';
 
-export const WEAPON_LIST_PAGE = 'Dungeons II:Weapon';
+const WEAPON_LIST_PAGE = 'Dungeons II:Weapon';
 
 /** Keyword families for melee base weapons; any other base weapon is its own family. */
 const MELEE_FAMILIES: [RegExp, string][] = [

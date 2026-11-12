@@ -5,7 +5,7 @@
  */
 import type { Ent } from './types';
 
-export const RECOMMENDED: Record<string, string[]> = {
+const RECOMMENDED: Record<string, string[]> = {
   // Dungeons II pages have no stat bars; talismans and quests have no description to expect.
   'd2:weapons': ['description', 'image'],
   'd2:armor': ['description', 'image'],
@@ -26,7 +26,7 @@ export const RECOMMENDED: Record<string, string[]> = {
 };
 
 /** Missing recommended fields of an entity (empty when it is complete). */
-export function missingFields(entity: Ent): string[] {
+function missingFields(entity: Ent): string[] {
   return (
     RECOMMENDED[`${entity.game}:${entity.category}`] ??
     RECOMMENDED[entity.category] ??

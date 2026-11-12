@@ -151,7 +151,7 @@ function infoRarities(infobox: Record<string, string> | undefined): string[] {
  * Rarity: unique items are `unique`. A base item the wiki lists as Common and Rare (the usual
  * case) gets `common`, its lowest tier; one listed only as Rare gets `rare` (D-040).
  */
-export function itemRarity(item: ItemRow, infobox: Record<string, string> | undefined) {
+function itemRarity(item: ItemRow, infobox: Record<string, string> | undefined) {
   if (item.isUnique) return 'unique';
   const found = infoRarities(infobox);
   return found.includes('rare') && !found.includes('common') ? 'rare' : 'common';

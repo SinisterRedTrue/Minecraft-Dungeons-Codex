@@ -27,7 +27,10 @@ export function Switch({ checked, onCheckedChange, label, disabled, id, classNam
       >
         <SwitchPrimitive.Thumb className="block size-5 translate-x-0.5 rounded-full bg-control transition-transform duration-200 data-[state=checked]:translate-x-[22px] data-[state=checked]:bg-accent-ink motion-reduce:transition-none" />
       </SwitchPrimitive.Root>
-      <label htmlFor={inputId} className="flex-1 cursor-pointer text-sm font-medium text-text">
+      <label
+        htmlFor={inputId}
+        className="flex min-h-11 flex-1 cursor-pointer items-center text-sm font-medium text-text"
+      >
         {label}
       </label>
     </div>

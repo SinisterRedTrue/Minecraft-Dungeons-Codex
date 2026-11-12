@@ -18,9 +18,9 @@ import {
   type RefSource,
 } from './common';
 
-export const TALISMAN_LIST_PAGE = 'Dungeons II:Talisman';
+const TALISMAN_LIST_PAGE = 'Dungeons II:Talisman';
 
-export const BOOST_TYPES = [
+const BOOST_TYPES = [
   'ranged',
   'movement',
   'drops',
@@ -48,7 +48,7 @@ function isTalismanTable(table: ParsedTable): boolean {
   return col(table.headers, /^boost type/i) >= 0 && col(table.headers, /^name/i) >= 0;
 }
 
-export function readTalismanDrafts(
+function readTalismanDrafts(
   html: string,
   list: { title: string; revisionId: number; fetchedAt: string },
 ): { drafts: Draft[]; problems: string[] } {

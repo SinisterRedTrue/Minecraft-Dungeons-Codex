@@ -5,7 +5,7 @@
 import * as cheerio from 'cheerio';
 import type { AnyNode, Element } from 'domhandler';
 
-export interface CellLink {
+interface CellLink {
   /** Target page title, e.g. `Dungeons:Claymore`. */
   title: string;
   /** Visible link text (may be empty for icon-only links). */
@@ -88,7 +88,7 @@ function titleFromHref(href: string): string | undefined {
   return decodeURIComponent(match[1]).replace(/_/g, ' ');
 }
 
-export function parseCell($: cheerio.CheerioAPI, el: Element): Cell {
+function parseCell($: cheerio.CheerioAPI, el: Element): Cell {
   const raw = el.children.map((child) => nodeText($, child)).join('');
   const lines = raw.split('\n').map(squash).filter(Boolean);
 
@@ -162,7 +162,7 @@ function uniqueHeaders(names: string[]): string[] {
 }
 
 /** Parses one `<table>` element. */
-export function parseTableElement(
+function parseTableElement(
   $: cheerio.CheerioAPI,
   table: Element,
   headingPath: string[] = [],

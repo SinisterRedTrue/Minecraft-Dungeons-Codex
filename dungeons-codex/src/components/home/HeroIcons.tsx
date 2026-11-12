@@ -47,7 +47,7 @@ export function HeroIcons({ items }: { items: readonly ShowcaseItem[] }) {
                 width={slot.size}
                 height={slot.size}
                 unoptimized
-                className="opacity-90 [filter:drop-shadow(0_0_16px_var(--torch))] [image-rendering:pixelated] max-sm:size-14"
+                className="max-w-none opacity-90 [filter:drop-shadow(0_0_16px_var(--torch))] [image-rendering:pixelated] max-sm:size-14"
               />
             </span>
           </span>

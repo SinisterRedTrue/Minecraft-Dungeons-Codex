@@ -102,3 +102,10 @@
 - [ ] Undo and redo for build edits; an undo toast after Clear.
 - [ ] Export and import of My builds as a file, like the favorites backup.
 - [ ] Remember the last picker sort and keep the search box visible on phones without opening Filters.
+
+## Quality pass (from Prompt 13)
+- [ ] Lazy-load the mobile menu sheet and the "Sections" popover (Radix Dialog and Popper are about 25 kB gzip of the shell, only needed on interaction): the largest remaining first-load JS saving.
+- [ ] Merge the two sources of a D2 location's sub-areas: the list page (Illager Tower, Orange Tower, …) and the page's own infobox (Puddle Pond Village, The Supreme Evoker's Tower) differ for Rainy Plains.
+- [ ] Prefer the item page's tier text over the list page's wording for D1 enchantment tiers ("Deals X damage" vs "X damage dealt by wind"; "3 emeralds spawned" vs "3 emerald spawned").
+- [ ] A scheduled "wiki drift" check: re-run `scripts/dev/audit.ts` and list entities whose live revision moved since the sync (Soul Healer had).
+- [ ] Real-device Lighthouse run on a throttled phone, and a field-data (CrUX) check once the site is live.

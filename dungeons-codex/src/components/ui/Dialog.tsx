@@ -19,15 +19,24 @@ export type DialogContentProps = {
   description?: string;
   children?: ReactNode;
   className?: string;
+  /** Called when the dialog has closed; one without a Radix trigger returns focus here. */
+  onCloseAutoFocus?: (event: Event) => void;
 };
 
-export function DialogContent({ title, description, children, className }: DialogContentProps) {
+export function DialogContent({
+  title,
+  description,
+  children,
+  className,
+  onCloseAutoFocus,
+}: DialogContentProps) {
   return (
     <DialogPrimitive.Portal>
       <DialogPrimitive.Overlay className={OVERLAY_CLASS} />
       <DialogPrimitive.Content
         // Radix warns without a Description; opting out explicitly is its documented escape hatch.
         {...(description ? {} : { 'aria-describedby': undefined })}
+        onCloseAutoFocus={onCloseAutoFocus}
         className={cn(
           'dc-pop fixed top-1/2 left-1/2 z-50 max-h-[85dvh] w-[calc(100%-2rem)] max-w-lg -translate-x-1/2 -translate-y-1/2 overflow-y-auto rounded-panel border-[1.5px] border-line bg-surface-1 p-6 shadow-card sm:p-8',
           className,

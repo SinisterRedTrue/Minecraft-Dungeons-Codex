@@ -10,7 +10,7 @@ import { z } from 'zod';
 import type { GameId } from '@/config/games';
 import { slugSchema } from '@/lib/schemas';
 
-export const overrideSchema = z.strictObject({
+const overrideSchema = z.strictObject({
   slug: slugSchema,
   set: z.record(z.string().min(1), z.unknown()).refine((s) => Object.keys(s).length > 0, {
     message: 'must set at least one field',
@@ -108,7 +108,7 @@ export function applyOverrides<T extends { slug: string }>(
  * `data/overrides/{game}/expected.json`: corrections to the expected counts the list pages state,
  * for when a page's own number is wrong. Like every override it must cite a source.
  */
-export const expectedOverrideSchema = z.strictObject({
+const expectedOverrideSchema = z.strictObject({
   category: z.string().min(1),
   count: z.number().int().positive(),
   reason: z.string().trim().min(1),

@@ -20,7 +20,7 @@ export function SourceCredit({
         <a
           href={source.url}
           rel="noopener"
-          className="inline-flex min-h-6 items-center gap-1 underline underline-offset-4 hover:text-text"
+          className="inline-flex min-h-6 items-center gap-1 underline underline-offset-4 hover:text-text pointer-coarse:min-h-11"
         >
           Minecraft Wiki
           <ExternalLink size={13} aria-hidden="true" />

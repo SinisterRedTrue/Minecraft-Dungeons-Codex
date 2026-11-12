@@ -19,7 +19,7 @@ export function withinOneEdit(a: string, b: string): boolean {
 }
 
 /** Shortest query token that may contain a typo; below it a one-letter slip is too ambiguous. */
-export const MIN_TYPO_LENGTH = 4;
+const MIN_TYPO_LENGTH = 4;
 
 /**
  * Does the query token `token` match `word` as a prefix with at most one typo? Tries the whole

@@ -52,7 +52,7 @@ export const TEXT_DEF: TextDef = {
   fields: ['name', 'tags'],
 };
 
-export const NAME_SORTS: readonly SortOption[] = [
+const NAME_SORTS: readonly SortOption[] = [
   { value: 'name-asc', label: 'Name (A to Z)', field: 'name', dir: 'asc' },
   { value: 'name-desc', label: 'Name (Z to A)', field: 'name', dir: 'desc' },
 ];

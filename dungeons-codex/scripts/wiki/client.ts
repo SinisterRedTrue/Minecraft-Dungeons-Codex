@@ -13,13 +13,13 @@ import path from 'node:path';
 
 export const API_URL = 'https://minecraft.wiki/api.php';
 export const USER_AGENT = 'DungeonsCodexBot/1.0 (fan wiki data sync; non-commercial)';
-export const DEFAULT_RETRY_DELAYS_MS = [2000, 4000, 8000, 16000, 32000] as const;
+const DEFAULT_RETRY_DELAYS_MS = [2000, 4000, 8000, 16000, 32000] as const;
 /** The API accepts at most 50 titles per query for normal clients. */
-export const BATCH_SIZE = 50;
+const BATCH_SIZE = 50;
 
 export type WikiParams = Record<string, string | number | boolean | undefined>;
 
-export interface CacheEntry {
+interface CacheEntry {
   url: string;
   fetchedAt: string;
   revisionId?: number;

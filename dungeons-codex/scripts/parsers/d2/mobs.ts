@@ -16,7 +16,7 @@ import { wikiSections } from '../common';
 import type { Draft, DroppedRecord, ParseContext, ParseResult } from '../types';
 import { bareD2Title, d2Draft, sourceFor, stripRedlink, tidy } from './common';
 
-export const MOB_LIST_PAGE = 'Dungeons II:Mob';
+const MOB_LIST_PAGE = 'Dungeons II:Mob';
 
 /** Heading (lower-case) → mob type or tag. */
 const SECTION_TYPES: Record<string, { type?: string; tag?: string }> = {

@@ -22,7 +22,7 @@ import {
   sourcesOf,
 } from './common';
 
-export const ARMOR_LIST_PAGE = 'Dungeons II:Armor';
+const ARMOR_LIST_PAGE = 'Dungeons II:Armor';
 
 const SLOTS: Record<string, 'helmet' | 'chestplate' | 'leggings' | 'boots'> = {
   helmets: 'helmet',

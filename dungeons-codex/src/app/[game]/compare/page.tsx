@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { NuqsAdapter } from 'nuqs/adapters/next/app';
 import { Suspense } from 'react';
 import { CompareSkeleton, CompareView } from '@/components/features/compare/CompareView';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
@@ -59,7 +60,9 @@ export default async function ComparePage({ params }: { params: Promise<{ game: 
         </p>
       </div>
       <Suspense fallback={<CompareSkeleton />}>
-        <CompareView game={game} categories={categories} />
+        <NuqsAdapter>
+          <CompareView game={game} categories={categories} />
+        </NuqsAdapter>
       </Suspense>
     </div>
   );

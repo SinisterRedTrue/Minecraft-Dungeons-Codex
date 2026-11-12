@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { NuqsAdapter } from 'nuqs/adapters/next/app';
 import { Suspense } from 'react';
 import { BuildPlanner, PlannerSkeleton } from '@/components/features/planner/BuildPlanner';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
@@ -55,7 +56,9 @@ export default async function PlannerPage({ params }: { params: Promise<{ game: 
         </p>
       </div>
       <Suspense fallback={<PlannerSkeleton />}>
-        <BuildPlanner game={game} />
+        <NuqsAdapter>
+          <BuildPlanner game={game} />
+        </NuqsAdapter>
       </Suspense>
     </div>
   );

@@ -1,21 +1,15 @@
 /**
- * `?forge=` share links: base64url( JSON `{ p?, e: [[slug, tier], …] }` ), validated with Zod.
+ * `?forge=` share links: base64url( JSON `{ p?, e: [[slug, tier], …] }` ), checked by hand.
  * `p` is the power level (D1 only), `e` the picked enchantments in slot order. Anything that does
- * not parse is rejected as a whole, so a mangled link never half-applies.
+ * not parse is rejected as a whole, so a mangled link never half-applies. Plain checks, not Zod:
+ * the detail pages carry this module and Zod would add about 30 kB gzip to them.
  */
-import { z } from 'zod';
-import { slugSchema } from '@/lib/schemas/base';
-import type { Pick } from './enchantments';
+import type { Pick, Tier } from './enchantments';
 
 export const MAX_POWER = 263;
 export const MAX_PICKS = 3;
 
-const stateSchema = z.strictObject({
-  p: z.number().int().min(1).max(MAX_POWER).optional(),
-  e: z
-    .array(z.tuple([slugSchema, z.union([z.literal(1), z.literal(2), z.literal(3)])]))
-    .max(MAX_PICKS),
-});
+const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
 export interface ForgeState {
   power?: number | undefined;
@@ -32,23 +26,42 @@ function fromBase64Url(text: string): string {
 }
 
 export function encodeForge(state: ForgeState): string {
-  const payload: z.infer<typeof stateSchema> = {
+  const payload = {
     ...(state.power === undefined ? {} : { p: state.power }),
     e: state.picks.map((pick) => [pick.slug, pick.tier]),
   };
   return toBase64Url(JSON.stringify(payload));
 }
 
+const isTier = (value: unknown): value is Tier => value === 1 || value === 2 || value === 3;
+
+/** The state a decoded JSON value holds, or `undefined` when it is not exactly the link shape. */
+function toState(value: unknown): ForgeState | undefined {
+  if (typeof value !== 'object' || value === null || Array.isArray(value)) return undefined;
+  const { p, e, ...rest } = value as Record<string, unknown>;
+  if (Object.keys(rest).length > 0) return undefined;
+  if (
+    p !== undefined &&
+    !(Number.isInteger(p) && (p as number) >= 1 && (p as number) <= MAX_POWER)
+  ) {
+    return undefined;
+  }
+  if (!Array.isArray(e) || e.length > MAX_PICKS) return undefined;
+  const picks: Pick[] = [];
+  for (const entry of e) {
+    if (!Array.isArray(entry) || entry.length !== 2) return undefined;
+    const [slug, tier] = entry as unknown[];
+    if (typeof slug !== 'string' || !SLUG.test(slug) || !isTier(tier)) return undefined;
+    picks.push({ slug, tier });
+  }
+  return { power: p as number | undefined, picks };
+}
+
 /** The state a `?forge=` value holds, or `undefined` when it is not a valid link. */
 export function decodeForge(value: string | null | undefined): ForgeState | undefined {
   if (!value) return undefined;
   try {
-    const parsed = stateSchema.safeParse(JSON.parse(fromBase64Url(value)));
-    if (!parsed.success) return undefined;
-    return {
-      power: parsed.data.p,
-      picks: parsed.data.e.map(([slug, tier]) => ({ slug, tier })),
-    };
+    return toState(JSON.parse(fromBase64Url(value)));
   } catch {
     return undefined;
   }

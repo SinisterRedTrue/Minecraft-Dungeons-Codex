@@ -14,9 +14,9 @@ import { slugSchema } from '@/lib/schemas/base';
 export const MAX_NAME = 40;
 export const MAX_NOTES = 280;
 /** Most slots a build can fill (Dungeons II: 12). */
-export const MAX_SLOTS = 12;
+const MAX_SLOTS = 12;
 /** Most enchantments one slot holds (Dungeons: 3). */
-export const MAX_SLOT_PICKS = 3;
+const MAX_SLOT_PICKS = 3;
 
 const tierSchema = z.union([z.literal(1), z.literal(2), z.literal(3)]);
 

@@ -30,7 +30,7 @@ export function aliasesFor(
   });
 }
 
-export function toSearchEntry(entity: IndexableEntity, vocab: AliasVocab = {}): SearchEntry {
+function toSearchEntry(entity: IndexableEntity, vocab: AliasVocab = {}): SearchEntry {
   const entry: SearchEntry = {
     id: entity.id,
     g: entity.game,

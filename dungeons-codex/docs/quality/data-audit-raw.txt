@@ -1,0 +1,167 @@
+
+######## d1 ########
+
+[1] d1/weapons/d1:weapons:shortbow "Shortbow"  checked 12, missing 0  (synced rev 3879772, live 3879772)
+
+[2] d1/armor/d1:armor:living-vines-armor "Living Vines Armor"  checked 12, missing 1  (synced rev 3883251, live 3883251)
+    - entity.baseHealth: 200
+
+[3] d1/enchantments/d1:enchantments:swirling "Swirling"  checked 15, missing 3  (synced rev 3873258, live 3873258)
+    - entity.levels.text: "X damage dealt by wind"
+    - entity.levels.text: "1.5X damage dealt by wind"
+    - entity.levels.text: "2X damage dealt by wind"
+
+[4] d1/artifacts/d1:artifacts:soul-healer "Soul Healer"  checked 13, missing 2  (synced rev 3834520, live 3894102 CHANGED)
+    - entity.properties: "injured nearby, including the user, at the cost of souls."
+    - entity.properties: "+1 Soul Gathering."
+
+[5] d1/dlcs/d1:dlcs:howling-peaks "Howling Peaks"  checked 4, missing 0  (synced rev 3848359, live 3848359)
+
+[6] d1/cosmetics/d1:cosmetics:baby-goat "Baby Goat"  checked 6, missing 0  (synced rev 3752260, live 3752260)
+
+[7] d1/mobs/d1:mobs:the-swarm "The Swarm"  checked 14, missing 1  (synced rev 3841968, live 3841968)
+    - entity.dlc: "echoing-void"
+
+[8] d1/locations/d1:locations:panda-plateau "Panda Plateau"  checked 20, missing 3  (synced rev 3873211, live 3873211)
+    - entity.mobIds: "d1:mobs:pillager-raid-captain"
+    - entity.mobIds: "d1:mobs:poison-quill-vine"
+    - entity.mobIds: "d1:mobs:vindicator-raid-captain"
+
+[9] d1/weapons/d1:weapons:spellbound-crossbows "Spellbound Crossbows"  checked 13, missing 0  (synced rev 3880528, live 3880528)
+
+[10] d1/armor/d1:armor:wolf-armor "Wolf Armor"  checked 14, missing 1  (synced rev 3883263, live 3883263)
+    - entity.baseHealth: 200
+
+[11] d1/enchantments/d1:enchantments:lucky-explorer "Lucky Explorer"  checked 18, missing 3  (synced rev 3873258, live 3873258)
+    - entity.levels.text: "1 emerald spawned"
+    - entity.levels.text: "3 emerald spawned"
+    - entity.levels.text: "5 emerald spawned"
+
+[12] d1/artifacts/d1:artifacts:scatter-mines "Scatter Mines"  checked 10, missing 3  (synced rev 3891441, live 3891441)
+    - entity.locations: "d1:locations:redstone-mines"
+    - entity.locations: "d1:locations:fiery-forge"
+    - entity.properties: "Summons three mines, which denotate upon contact. Similar to Redstone Golem's Mines. Allies no longer take damage from this artifact."
+
+[13] d1/dlcs/d1:dlcs:fauna-faire "Fauna Faire"  checked 4, missing 0  (synced rev 3805136, live 3805136)
+
+[14] d1/cosmetics/d1:cosmetics:llama "Llama"  checked 5, missing 0  (synced rev 3787289, live 3787289)
+
+[15] d1/mobs/d1:mobs:cave-spider "Cave Spider"  checked 4, missing 1  (synced rev 3880640, live 3880640)
+    - entity.mobType: "common"
+
+[16] d1/locations/d1:locations:basalt-deltas "Basalt Deltas"  checked 14, missing 3  (synced rev 3883936, live 3883936)
+    - entity.locationType: "dlc-mission"
+    - entity.mobIds: "d1:mobs:pillager-raid-captain"
+    - entity.mobIds: "d1:mobs:vindicator-raid-captain"
+
+[17] d1/weapons/d1:weapons:sinister-sword "Sinister Sword"  checked 13, missing 0  (synced rev 3883088, live 3883088)
+
+[18] d1/armor/d1:armor:climbing-gear "Climbing Gear"  checked 16, missing 3  (synced rev 3844934, live 3844934)
+    - entity.baseHealth: 200
+    - entity.effects.label: "Pushback Resistance"
+    - entity.properties: "75% Pushback Resistance"
+
+[19] d1/enchantments/d1:enchantments:protection "Protection"  checked 21, missing 3  (synced rev 3873258, live 3873258)
+    - entity.levels.text: "-6% damage taken"
+    - entity.levels.text: "-11% damage taken"
+    - entity.levels.text: "-15% damage taken"
+
+[20] d1/artifacts/d1:artifacts:fishing-rod "Fishing Rod"  checked 11, missing 2  (synced rev 3854850, live 3854850)
+    - entity.artifactType: "status"
+    - entity.properties: "Applies Stunned"
+
+######## d2 ########
+
+[1] d2/weapons/d2:weapons:the-close-ranger "The Close Ranger"  checked 10, missing 2  (synced rev 3885936, live 3885936)
+    - entity.effectValues.label: "Ranged attacks deal more damage at close range"
+    - entity.locations: "d2:locations:howling-woods"
+
+[2] d2/armor/d2:armor:mad-sifter-vest "Mad Sifter Vest"  checked 11, missing 3  (synced rev 3874938, live 3874938)
+    - entity.effectValues.label: "Artifact attacks deal more damage"
+    - entity.locations: "d2:locations:singers-meadow"
+    - entity.locations: "d2:locations:humbler-huskland"
+
+[3] d2/enchantments/d2:enchantments:piercing "Piercing"  checked 12, missing 0  (synced rev 3893268, live 3893268)
+
+[4] d2/artifacts/d2:artifacts:picnic-basket "Picnic Basket"  checked 5, missing 0  (synced rev 3875491, live 3875491)
+
+[5] d2/talismans/d2:talismans:glowstone-flask "Glowstone Flask"  checked 17, missing 0  (synced rev 3892219, live 3892219)
+
+[6] d2/quests/d2:quests:breaking-camps "Breaking Camps"  checked 6, missing 2  (synced rev 3890614, live 3890614)
+    - entity.rewards.when: "always"
+    - entity.rewards.xp: 2750
+
+[7] d2/mobs/d2:mobs:spotted-pig "Spotted Pig"  checked 2, missing 1  (synced rev 3881825, live 3881825)
+    - entity.mobType: "non-attackable"
+
+[8] d2/locations/d2:locations:lullaby-hills "Lullaby Hills"  checked 26, missing 14  (synced rev 3893699, live 3893699)
+    - entity.mobIds: "d2:mobs:bloombud"
+    - entity.mobIds: "d2:mobs:copper-cube"
+    - entity.mobIds: "d2:mobs:copper-monstrosity"
+    - entity.mobIds: "d2:mobs:enchanter"
+    - entity.mobIds: "d2:mobs:enderman"
+    - entity.mobIds: "d2:mobs:fusefly"
+    - entity.mobIds: "d2:mobs:geomancer"
+    - entity.mobIds: "d2:mobs:harmonizer"
+    - entity.mobIds: "d2:mobs:ravager"
+    - entity.mobIds: "d2:mobs:redstone-cube"
+    - entity.mobIds: "d2:mobs:roamroot"
+    - entity.mobIds: "d2:mobs:sculk-cube"
+    - entity.mobIds: "d2:mobs:sculk-monstrosity"
+    - entity.subAreas: "Illager Keep"
+
+[9] d2/weapons/d2:weapons:emerald-hammer "Emerald Hammer"  checked 12, missing 3  (synced rev 3887130, live 3887130)
+    - entity.effectValues.label: "Grants chance of higher rarity loot drops"
+    - entity.locations: "d2:quests:the-final-souldown"
+    - entity.locations: "d2:locations:howling-woods"
+
+[10] d2/armor/d2:armor:wolfpack-jacket "Wolfpack Jacket"  checked 6, missing 1  (synced rev 3874947, live 3874947)
+    - entity.locations: "d2:locations:howling-woods"
+
+[11] d2/enchantments/d2:enchantments:ender-mines "Ender Mines"  checked 13, missing 0  (synced rev 3893268, live 3893268)
+
+[12] d2/artifacts/d2:artifacts:totem-of-casting "Totem of Casting"  checked 6, missing 1  (synced rev 3875491, live 3875491)
+    - entity.locations: "d2:locations:singers-meadow"
+
+[13] d2/talismans/d2:talismans:emerald-of-good-fortune "Emerald of Good Fortune"  checked 17, missing 0  (synced rev 3892219, live 3892219)
+
+[14] d2/quests/d2:quests:escape-from-squid-coast "Escape from Squid Coast"  checked 14, missing 5  (synced rev 3890614, live 3890614)
+    - entity.rewards.randomFrom.from: "d2:armor:mystic-circlet"
+    - entity.rewards.randomFrom.from: "d2:armor:mystic-robe"
+    - entity.rewards.randomFrom.from: "d2:armor:mystic-leggings"
+    - entity.rewards.randomFrom.from: "d2:armor:mystic-boots"
+    - entity.rewards.when: "always"
+
+[15] d2/mobs/d2:mobs:vindicator "Vindicator"  checked 5, missing 4  (synced rev 3890539, live 3890539)
+    - entity.mobType: "common"
+    - entity.variants: "Tier 1"
+    - entity.variants: "Tier 2"
+    - entity.variants: "Tier 3"
+
+[16] d2/locations/d2:locations:rainy-plains "Rainy Plains"  checked 41, missing 14  (synced rev 3888920, live 3888920)
+    - entity.mobIds: "d2:mobs:geomancer"
+    - entity.mobIds: "d2:mobs:harmonizer"
+    - entity.mobIds: "d2:mobs:inventor"
+    - entity.mobIds: "d2:mobs:redstone-cube"
+    - entity.mobIds: "d2:mobs:redstone-monstrosity"
+    - entity.mobIds: "d2:mobs:sculk-cube"
+    - entity.mobIds: "d2:mobs:sculk-monstrosity"
+    - entity.questIds: "d2:quests:illegal-illager-trials"
+    - entity.questIds: "d2:quests:recycling-your-monstrosity"
+    - entity.questIds: "d2:quests:the-copper-monstrosity-revived"
+    - entity.questIds: "d2:quests:the-rusting-golem"
+    - entity.questIds: "d2:quests:wading-rainy-plains"
+    - entity.questIds: "d2:quests:wildflower-warrior"
+    - entity.subAreas: "Illager Tower"
+
+[17] d2/weapons/d2:weapons:scythe "Scythe"  checked 6, missing 1  (synced rev 3863035, live 3863035)
+    - entity.locations: "d2:quests:wading-rainy-plains"
+
+[18] d2/armor/d2:armor:protector-chestplate "Protector Chestplate"  checked 6, missing 1  (synced rev 3874920, live 3874920)
+    - entity.locations: "d2:locations:humbler-huskland"
+
+[19] d2/enchantments/d2:enchantments:lightning-surge "Lightning Surge"  checked 15, missing 0  (synced rev 3893268, live 3893268)
+
+[20] d2/artifacts/d2:artifacts:freezing-quiver "Freezing Quiver"  checked 6, missing 0  (synced rev 3875491, live 3875491)
+
+14/40 entities had every field present on the live page

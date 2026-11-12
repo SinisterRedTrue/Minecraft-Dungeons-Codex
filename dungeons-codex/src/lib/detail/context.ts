@@ -14,7 +14,7 @@ import {
   STAT_ROWS,
 } from '@/config/detail';
 import { getCategoryConfig } from '@/config/categories';
-import type { CategorySlug, GameId } from '@/config/games';
+import type { GameId } from '@/config/games';
 import type { Loaders } from '@/lib/data/loaders';
 import { deriveListFields } from '@/lib/filters/derive';
 import { buildLabels, labelFields } from '@/lib/filters/labels';
@@ -227,5 +227,3 @@ export function buildDetailData(loaders: Loaders, entity: Entity): DetailData {
     related,
   };
 }
-
-export type { CategorySlug };

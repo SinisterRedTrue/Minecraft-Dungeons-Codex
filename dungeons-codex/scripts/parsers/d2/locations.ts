@@ -13,7 +13,7 @@ import type { Draft, ParseContext, ParseResult } from '../types';
 import { D2_PREFIX, d2Draft, d2First, d2Lines, sourceFor, tidy } from './common';
 import { linkedNames } from './mobs';
 
-export const LOCATION_LIST_PAGE = 'Dungeons II:Location';
+const LOCATION_LIST_PAGE = 'Dungeons II:Location';
 
 export interface LocationRow {
   name: string;

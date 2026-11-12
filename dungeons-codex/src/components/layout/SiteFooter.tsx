@@ -5,7 +5,7 @@ import { DISCLAIMER, LICENSE_URL, WIKI_URL } from '@/lib/site';
 import { Wordmark } from './Wordmark';
 
 const LINK =
-  'inline-flex min-h-8 items-center text-muted underline-offset-4 hover:text-text hover:underline';
+  'inline-flex min-h-8 items-center text-muted underline-offset-4 hover:text-text hover:underline pointer-coarse:min-h-11';
 
 /**
  * Footer per `[ Plans ]/09-LEGAL-AND-ATTRIBUTION.md`: the license line (with the last data sync),
@@ -14,9 +14,13 @@ const LINK =
 export function SiteFooter({ syncDate }: { syncDate?: string }) {
   return (
     <footer className="border-t border-line bg-surface-1 py-10">
-      <div className="mx-auto grid max-w-site gap-8 px-[var(--gutter)] md:grid-cols-[auto_1fr] md:gap-16">
+      <div className="mx-auto grid max-w-site gap-8 px-[var(--gutter)] lg:grid-cols-[auto_1fr] lg:gap-16">
         <div className="flex flex-col items-start gap-3">
-          <Link href="/" className="flex items-center gap-2" aria-label="Dungeons Codex, home">
+          <Link
+            href="/"
+            className="flex min-h-11 items-center gap-2"
+            aria-label="Dungeons Codex, home"
+          >
             <Image src="/brand/logo.svg" alt="" width={34} height={34} unoptimized />
             <Wordmark size="sm" />
           </Link>

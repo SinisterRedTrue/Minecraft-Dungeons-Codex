@@ -5,7 +5,7 @@ import { getCategoryConfig } from '@/config/categories';
 import { GAMES, allGameCategories, isValidCategory, isValidGame } from '@/config/games';
 import { defaultLoaders, getAll, getBySlug } from '@/lib/data';
 import { buildDetailData } from '@/lib/detail/context';
-import { detailDescription } from '@/lib/detail/meta';
+import { detailMetaDescription, detailTitleName } from '@/lib/detail/meta';
 import type { Entity } from '@/lib/schemas';
 import { pageMetadata } from '@/lib/seo';
 
@@ -36,9 +36,12 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const found = await resolve(params);
   if (!found) return {};
   const { game, category, entity, config } = found;
+  const sameName = (getAll(game, category as never) as unknown as Entity[]).filter(
+    (other) => other.name === entity.name,
+  ).length;
   return pageMetadata({
-    title: `${entity.name} · ${config.label} · ${GAMES[game].name}`,
-    description: detailDescription(entity, config.label, GAMES[game].name),
+    title: `${detailTitleName(entity, sameName)} · ${config.label} · ${GAMES[game].name}`,
+    description: detailMetaDescription(entity, config.label, GAMES[game].name),
     path: `/${game}/${category}/${entity.slug}`,
     // The segment's opengraph-image.tsx supplies the card.
     image: null,

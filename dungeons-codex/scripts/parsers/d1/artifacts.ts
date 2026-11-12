@@ -12,6 +12,7 @@ import {
   firstImage,
   firstLine,
   flag,
+  joinWrappedLines,
   lines,
   makeSource,
   pageTitleOf,
@@ -20,9 +21,9 @@ import {
 import type { Draft, ParseContext, ParseResult } from '../types';
 import { infoText, introNumber, loadItemPages } from './items';
 
-export const ARTIFACT_PAGE = 'Dungeons:Artifact';
+const ARTIFACT_PAGE = 'Dungeons:Artifact';
 
-export const ARTIFACT_TYPES: [RegExp, string][] = [
+const ARTIFACT_TYPES: [RegExp, string][] = [
   [/^damaging/i, 'damaging'],
   [/^status/i, 'status'],
   [/^quiver/i, 'quiver'],
@@ -86,7 +87,7 @@ export async function parse(ctx: ParseContext): Promise<ParseResult> {
         quality: 'verified',
         artifactType: type,
         requiresSouls: flag(cellAt(row, idx.soul)) === true,
-        properties: realLines(cellAt(row, idx.props)),
+        properties: joinWrappedLines(realLines(cellAt(row, idx.props))),
         locations: [],
       };
       if (cooldown !== undefined) draft.cooldownSeconds = cooldown;

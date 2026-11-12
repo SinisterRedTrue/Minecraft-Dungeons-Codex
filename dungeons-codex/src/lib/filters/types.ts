@@ -14,7 +14,7 @@ export interface Option {
 }
 
 /** Show a filter only while the param `param` holds one of `equals`. */
-export interface Cond {
+interface Cond {
   param: string;
   equals: string | string[];
 }
@@ -101,7 +101,7 @@ export interface SortDef {
   default: string;
 }
 
-export type RangeValue = readonly [number, number];
+type RangeValue = readonly [number, number];
 export type FilterValue = string | boolean | readonly string[] | RangeValue;
 /** Active filters keyed by URL param; a missing key means "not filtered". */
 export type FilterState = Readonly<Record<string, FilterValue>>;

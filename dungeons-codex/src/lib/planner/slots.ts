@@ -13,7 +13,7 @@ import type { EnchantmentTarget } from '@/lib/forge/enchantments';
 
 export type SlotCategory = 'weapons' | 'armor' | 'artifacts' | 'talismans';
 
-export interface SlotScope {
+interface SlotScope {
   /** List-item field the slot is restricted on (`kind`, `slot`). */
   field: string;
   value: string;

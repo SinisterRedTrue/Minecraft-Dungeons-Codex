@@ -37,7 +37,13 @@ export function EntityGrid({
   return (
     <ul aria-label={label} className={GRID}>
       {items.map((item) => (
-        <li key={item.id}>
+        // Off-screen cards skip layout and paint until scrolled near (about 150 cards per page).
+        // content-visibility clips to the box, so the padding (cancelled by the negative margin)
+        // keeps the card edge, hover lift and focus ring inside it.
+        <li
+          key={item.id}
+          className="-m-3 p-3 [contain-intrinsic-size:auto_13rem] [content-visibility:auto]"
+        >
           <EntityCard
             item={item}
             model={cardModel(item, config.cardStats, config.cardMeta, config.labels)}

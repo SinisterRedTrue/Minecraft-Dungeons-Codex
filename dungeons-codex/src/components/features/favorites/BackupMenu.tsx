@@ -7,10 +7,11 @@ import { Dialog, DialogClose, DialogContent } from '@/components/ui/Dialog';
 import { Popover, PopoverClose, PopoverContent, PopoverTrigger } from '@/components/ui/Popover';
 import { useToast } from '@/components/ui/Toast';
 import { GAME_IDS } from '@/config/games';
-import { backupSchema, importFavorites, useFavorites } from '@/lib/favorites/store';
+import { backupSchema } from '@/lib/favorites/backup';
+import { importFavorites, useFavorites } from '@/lib/favorites/store';
 import { loadIndex } from '@/lib/search/loadIndex';
 
-export const BACKUP_FILE_NAME = 'dungeons-codex-favorites.json';
+const BACKUP_FILE_NAME = 'dungeons-codex-favorites.json';
 
 /** The ids in `ids` that exist in the current data; all of them when the index cannot be loaded. */
 async function knownIds(ids: readonly string[]): Promise<{ known: string[]; skipped: number }> {

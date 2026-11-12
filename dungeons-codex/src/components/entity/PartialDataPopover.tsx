@@ -29,7 +29,7 @@ export function PartialDataPopover({ source }: { source: { title: string; url: s
         <a
           href={source.url}
           rel="noopener"
-          className="mt-3 inline-flex min-h-9 items-center gap-1.5 font-semibold text-accent-text underline underline-offset-4"
+          className="mt-3 inline-flex min-h-9 items-center gap-1.5 font-semibold text-accent-text underline underline-offset-4 pointer-coarse:min-h-11"
         >
           Minecraft Wiki: {source.title}
           <ExternalLink size={14} aria-hidden="true" />

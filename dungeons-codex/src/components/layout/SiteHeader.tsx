@@ -8,7 +8,8 @@ import type { GameId } from '@/config/games';
 import { FavoritesLink } from './FavoritesLink';
 import { GameSwitcher } from './GameSwitcher';
 import { MobileMenu } from './MobileMenu';
-import { SectionLinks, SectionsMenu } from './SectionLinks';
+import { SectionLinks } from './SectionLinks';
+import { SectionsMenu } from './SectionsMenu';
 import { ThemeToggle } from './ThemeToggle';
 import { Wordmark } from './Wordmark';
 
@@ -46,7 +47,7 @@ export function SiteHeader({ game }: { game?: GameId }) {
 
           <Link
             href="/"
-            className="flex shrink-0 items-center gap-2"
+            className="flex min-h-11 min-w-11 shrink-0 items-center gap-2"
             aria-label="Dungeons Codex, home"
           >
             <Image src="/brand/logo.svg" alt="" width={34} height={34} unoptimized priority />

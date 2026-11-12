@@ -19,6 +19,8 @@ export type RarityFrameProps = Omit<ComponentProps<'div'>, 'children'> & {
   /** Self-hosted item image. Without it (or `children`) a neutral placeholder is shown. */
   src?: string;
   alt?: string;
+  /** Preload the image: for the one above-the-fold image that is the largest paint of a page. */
+  priority?: boolean;
   children?: ReactNode;
 };
 
@@ -31,6 +33,7 @@ export function RarityFrame({
   size = 72,
   src,
   alt = '',
+  priority,
   className,
   children,
   ...rest
@@ -41,7 +44,7 @@ export function RarityFrame({
       {children ??
         (src ? (
           // Already self-hosted WebP at the right size (D-005); the optimizer would only blur pixel art.
-          <Image src={src} alt={alt} width={inner} height={inner} unoptimized />
+          <Image src={src} alt={alt} width={inner} height={inner} priority={priority} unoptimized />
         ) : (
           <Box aria-hidden="true" className="text-faint" strokeWidth={1.5} />
         ))}

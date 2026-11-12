@@ -1,6 +1,6 @@
 /** Helpers every D1 parser uses. */
 import { pageUrl } from '../wiki/client';
-import type { Cell, ParsedRow, ParsedTable } from '../wiki/tables';
+import type { Cell, ParsedRow } from '../wiki/tables';
 import { normalizeName, toBool } from '../wiki/text';
 import { stripWikiMarkup } from '../wiki/templates';
 
@@ -50,16 +50,29 @@ export function firstImage(cell: Cell | undefined): string | undefined {
   return cell?.images[0];
 }
 
-/** Heading path as lower-case text, for section matching. */
-export function pathHas(table: ParsedTable, pattern: RegExp): boolean {
-  return table.headingPath.some((h) => pattern.test(h));
-}
-
 const WORDS_TO_DROP = /^(?:none|unknown|n\/a|—|-|\?+)$/i;
 
 /** Property-like lines: real text only (no "None"/"Unknown" placeholders). */
 export function realLines(cell: Cell | undefined): string[] {
   return lines(cell).filter((l) => !WORDS_TO_DROP.test(l));
+}
+
+/**
+ * Joins a sentence that the wiki's HTML broke across lines (a stray `<p>` in the middle of a
+ * table cell, as in the Soul Healer row): a line that starts in lower case continues the line
+ * before it, unless that one already ended a sentence or a value.
+ */
+export function joinWrappedLines(items: readonly string[]): string[] {
+  const out: string[] = [];
+  for (const line of items) {
+    const previous = out.at(-1);
+    if (previous !== undefined && /^[a-z]/.test(line) && !/[.!?:%)]$/.test(previous)) {
+      out[out.length - 1] = `${previous} ${line}`;
+    } else {
+      out.push(line);
+    }
+  }
+  return out;
 }
 
 /**
@@ -107,7 +120,7 @@ export function leadParagraph(wikitext: string): string | undefined {
 }
 
 /** Removes templates that start a line and span several lines, or are infobox/hatnote-like. */
-export function removeBlockTemplates(wikitext: string): string {
+function removeBlockTemplates(wikitext: string): string {
   let out = '';
   let i = 0;
   while (i < wikitext.length) {

@@ -3,8 +3,7 @@ import type { CompareEntry } from './types';
 
 const files = new Map<string, Promise<CompareEntry[]>>();
 
-export const compareFileUrl = (game: GameId, category: string) =>
-  `/compare/${game}/${category}.json`;
+const compareFileUrl = (game: GameId, category: string) => `/compare/${game}/${category}.json`;
 
 /**
  * Fetches `/compare/{game}/{category}.json` once per page view. A failed fetch is not cached,
@@ -34,11 +33,6 @@ export function loadCompare(
     promise = fresh;
   }
   return promise;
-}
-
-/** The entries when they were already loaded in this page view. */
-export function peekCompare(game: GameId, category: string): Promise<CompareEntry[]> | undefined {
-  return files.get(`${game}/${category}`);
 }
 
 /** Forgets everything loaded (tests). */

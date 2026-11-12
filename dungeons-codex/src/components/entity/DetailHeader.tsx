@@ -35,7 +35,14 @@ export function DetailHeader({
   const frameRarity = RARITIES.find((r) => r === rarity);
   return (
     <header className="flex flex-col gap-5 sm:flex-row sm:items-center">
-      <RarityFrame size={128} rarity={frameRarity} src={imageSrc} alt="" className="shrink-0" />
+      <RarityFrame
+        size={128}
+        rarity={frameRarity}
+        src={imageSrc}
+        alt=""
+        priority
+        className="shrink-0"
+      />
       <div className="min-w-0 flex-1">
         <h1 className="font-display text-h1 leading-tight font-black tracking-display [overflow-wrap:anywhere] text-text uppercase">
           {name}
@@ -49,7 +56,10 @@ export function DetailHeader({
           {badges.map((badge) => (
             <li key={`${badge.variant}-${badge.label}`}>
               {badge.href ? (
-                <Link href={badge.href} className="rounded-xs">
+                <Link
+                  href={badge.href}
+                  className="inline-flex items-center rounded-xs pointer-coarse:min-h-11"
+                >
                   <Badge variant={badge.variant === 'special' ? 'special' : badge.variant}>
                     {badge.label}
                   </Badge>
@@ -62,7 +72,10 @@ export function DetailHeader({
           {chips.map((chip) => (
             <li key={`chip-${chip.label}`}>
               {chip.href ? (
-                <Link href={chip.href} className="rounded-xs">
+                <Link
+                  href={chip.href}
+                  className="inline-flex items-center rounded-xs pointer-coarse:min-h-11"
+                >
                   <Badge variant="partial">{chip.label}</Badge>
                 </Link>
               ) : (

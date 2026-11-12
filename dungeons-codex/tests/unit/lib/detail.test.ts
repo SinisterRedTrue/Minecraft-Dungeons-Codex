@@ -11,7 +11,12 @@ import { allGameCategories } from '@/config/games';
 import { createLoaders } from '@/lib/data/loaders';
 import { buildDetailData } from '@/lib/detail/context';
 import { buildChips, buildInfobox, buildStatusBadges } from '@/lib/detail/infobox';
-import { detailDescription } from '@/lib/detail/meta';
+import {
+  MIN_META_DESCRIPTION,
+  detailDescription,
+  detailMetaDescription,
+  detailTitleName,
+} from '@/lib/detail/meta';
 import { collectIds, refOf, slugIds, slugLink, slugToId, toLink } from '@/lib/detail/refs';
 import { buildStats, computeMaxima } from '@/lib/detail/stats';
 import { formatEffectValue, nonEmpty, roman } from '@/lib/detail/text';
@@ -289,5 +294,50 @@ describe('sitemap with details', () => {
     expect(urls).toHaveLength(1467 + 20);
     expect(new Set(urls.map((u) => u.url)).size).toBe(urls.length);
     expect(urls.some((u) => u.url === `https://x.test/d1/weapons/${details[0]?.slug}`)).toBe(true);
+  });
+});
+
+describe('meta for short or shared text', () => {
+  const entity = (over: object) => ({ name: 'Bee Bestie', slug: 'bee-bestie', ...over }) as Entity;
+
+  it('leads with the name, so entries sharing a sentence stay distinct', () => {
+    const text = detailMetaDescription(
+      entity({ description: 'Requires Fauna Faire Adventure Pass.' }),
+      'Cosmetics',
+      'Minecraft Dungeons',
+    );
+    expect(text).toBe('Bee Bestie: Requires Fauna Faire Adventure Pass.');
+    const other = detailMetaDescription(
+      entity({ name: 'Cow Onesie', description: 'Requires Fauna Faire Adventure Pass.' }),
+      'Cosmetics',
+      'Minecraft Dungeons',
+    );
+    expect(other).not.toBe(text);
+  });
+
+  it('adds the category and game when even that is too short', () => {
+    const text = detailMetaDescription(
+      entity({ name: 'Ivy', description: 'Short.' }),
+      'Cosmetics',
+      'Minecraft Dungeons',
+    );
+    expect(text).toBe('Ivy (Cosmetics, Minecraft Dungeons): Short.');
+    expect(text.length).toBeGreaterThanOrEqual(MIN_META_DESCRIPTION);
+  });
+
+  it('does not repeat a name the text already starts with, and stays within 155 characters', () => {
+    const own = 'Bee Bestie is a pet that follows you around and buzzes happily.';
+    expect(detailMetaDescription(entity({ description: own }), 'Cosmetics', 'x')).toBe(own);
+    const long = 'x'.repeat(300);
+    expect(
+      detailMetaDescription(entity({ description: long }), 'Cosmetics', 'x').length,
+    ).toBeLessThanOrEqual(155);
+  });
+
+  it('tells same-named entries apart in the title, and only those', () => {
+    expect(detailTitleName(entity({ name: 'Confetti', slug: 'confetti-2' }), 2)).toBe(
+      'Confetti (confetti-2)',
+    );
+    expect(detailTitleName(entity({ name: 'Claymore', slug: 'claymore' }), 1)).toBe('Claymore');
   });
 });

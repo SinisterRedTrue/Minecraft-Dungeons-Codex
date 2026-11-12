@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { Rubik, Silkscreen } from 'next/font/google';
-import { NuqsAdapter } from 'nuqs/adapters/next/app';
 import '@/styles/globals.css';
 import { ThemeProvider } from '@/components/layout/ThemeProvider';
 import { ToastProvider } from '@/components/ui/Toast';
@@ -45,9 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <ThemeProvider>
-          <ToastProvider>
-            <NuqsAdapter>{children}</NuqsAdapter>
-          </ToastProvider>
+          <ToastProvider>{children}</ToastProvider>
         </ThemeProvider>
       </body>
     </html>

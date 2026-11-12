@@ -26,7 +26,7 @@ import type {
   RangeDef,
 } from '@/lib/filters/types';
 
-export type PanelChange = (patch: StatePatch, history: 'push' | 'replace') => void;
+type PanelChange = (patch: StatePatch, history: 'push' | 'replace') => void;
 
 export type FilterPanelProps = {
   items: readonly Item[];

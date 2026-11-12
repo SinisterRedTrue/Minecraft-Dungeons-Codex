@@ -15,7 +15,7 @@ import { slotsFor, type SlotDef } from './slots';
 /** Power of a D1 build that names none. */
 export const DEFAULT_POWER = 100;
 
-export interface GroupedEffect {
+interface GroupedEffect {
   label: string;
   unit?: string | undefined;
   /** The sum. */
@@ -36,7 +36,7 @@ export interface DamageLine {
   multiplier?: number;
 }
 
-export interface Warning {
+interface Warning {
   kind: 'duplicate-artifact';
   slug: string;
   name: string;

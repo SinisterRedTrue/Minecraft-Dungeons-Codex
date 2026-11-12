@@ -12,7 +12,7 @@
 import { multiplierAt, pickCurve, type ItemCurves } from './curves';
 import { interpolate, nearestPoint, type PowerPoint, type Range } from './interpolate';
 
-export type Reason = 'off-table' | 'curve' | 'baseline';
+type Reason = 'off-table' | 'curve' | 'baseline';
 
 /** What the Forge knows about one weapon or armor piece. */
 export interface ForgeItem {

@@ -12,7 +12,7 @@ const root = process.cwd();
 const read = <T>(...parts: string[]): T =>
   JSON.parse(readFileSync(path.join(root, ...parts), 'utf8')) as T;
 
-export function realPlanner(game: GameId) {
+function realPlanner(game: GameId) {
   const names = new Map<string, string>();
   for (const category of GAMES[game].categories) {
     const file = path.join(root, 'data', 'generated', game, `${category}.json`);

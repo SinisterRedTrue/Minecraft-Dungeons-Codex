@@ -22,6 +22,8 @@ export type SheetContentProps = {
    * text field, which would pop the on-screen keyboard on phones.
    */
   focusSheet?: boolean;
+  /** Called when the sheet has closed; a sheet without a Radix trigger returns focus here. */
+  onCloseAutoFocus?: (event: Event) => void;
 };
 
 /** Bottom sheet (mobile filters, pickers): top corners rounded, drag handle, same focus trap as Dialog. */
@@ -31,6 +33,7 @@ export function SheetContent({
   children,
   className,
   focusSheet,
+  onCloseAutoFocus,
 }: SheetContentProps) {
   const closeRef = useRef<HTMLButtonElement>(null);
   const dragStart = useRef<number | null>(null);
@@ -51,6 +54,7 @@ export function SheetContent({
       <DialogPrimitive.Overlay className={OVERLAY_CLASS} />
       <DialogPrimitive.Content
         {...(description ? {} : { 'aria-describedby': undefined })}
+        onCloseAutoFocus={onCloseAutoFocus}
         onOpenAutoFocus={
           focusSheet
             ? (event) => {

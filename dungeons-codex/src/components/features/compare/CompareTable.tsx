@@ -88,7 +88,7 @@ export function CompareTable({
                   />
                   <Link
                     href={`/${game}/${category}/${entry.s}`}
-                    className="font-bold [overflow-wrap:anywhere] text-text underline-offset-4 hover:text-accent-text hover:underline"
+                    className="inline-flex min-h-6 items-center font-bold [overflow-wrap:anywhere] text-text underline-offset-4 hover:text-accent-text hover:underline pointer-coarse:min-h-11"
                   >
                     {entry.n}
                   </Link>

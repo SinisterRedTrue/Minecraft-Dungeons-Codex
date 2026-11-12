@@ -21,7 +21,7 @@ export function HeaderSearchButton({ className }: { className?: string }) {
       onFocus={preload}
       aria-keyshortcuts="Control+K Meta+K"
       className={cn(
-        "inline-flex h-11 cursor-pointer items-center gap-2 rounded-chip border border-line bg-surface-2 px-3 text-sm font-semibold text-text transition-colors hover:border-accent md:h-10 md:px-4 lg:after:rounded-xs lg:after:bg-surface-3 lg:after:px-1.5 lg:after:font-pixel lg:after:text-micro lg:after:text-muted lg:after:content-['⌘K']",
+        "inline-flex h-11 cursor-pointer items-center gap-2 rounded-chip border border-line bg-surface-2 px-3 text-sm font-semibold text-text transition-colors hover:border-accent md:h-10 md:px-4 lg:after:rounded-xs lg:after:bg-surface-3 lg:after:px-1.5 lg:after:font-pixel lg:after:text-micro lg:after:text-muted lg:after:content-['⌘K'] pointer-coarse:h-11",
         className,
       )}
     >

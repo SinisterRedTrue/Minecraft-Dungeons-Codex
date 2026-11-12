@@ -23,7 +23,7 @@ export interface ImageJob {
   file: string;
 }
 
-export interface ImageResult {
+interface ImageResult {
   src: string;
   width: number;
   height: number;
@@ -43,9 +43,9 @@ export interface ImageSyncResult {
   unchanged: number;
 }
 
-export const PIXEL_MAX = 64;
-export const PIXEL_SCALE = 4;
-export const PHOTO_MAX_WIDTH = 640;
+const PIXEL_MAX = 64;
+const PIXEL_SCALE = 4;
+const PHOTO_MAX_WIDTH = 640;
 
 /** Converts one source image to the stored WebP. */
 export async function toWebp(
@@ -74,7 +74,7 @@ function readManifest(file: string): Record<string, string> {
   return JSON.parse(readFileSync(file, 'utf8')) as Record<string, string>;
 }
 
-export function writeManifest(file: string, manifest: Record<string, string>): void {
+function writeManifest(file: string, manifest: Record<string, string>): void {
   const sorted = Object.fromEntries(Object.entries(manifest).sort(([a], [b]) => (a < b ? -1 : 1)));
   mkdirSync(path.dirname(file), { recursive: true });
   writeFileSync(file, `${JSON.stringify(sorted, null, 2)}\n`, 'utf8');

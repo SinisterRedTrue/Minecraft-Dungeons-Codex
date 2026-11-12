@@ -15,7 +15,7 @@ export interface Curve {
 }
 
 /** Power-1 damage per point of the wiki's 0–14 damage rating (median over weapons with tables). */
-export interface Baseline {
+interface Baseline {
   min: number;
   max: number;
   samples: number;

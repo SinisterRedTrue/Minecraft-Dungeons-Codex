@@ -18,7 +18,7 @@ export function loadD2TagVocab(vocabDir: string): TagKeywords {
 }
 
 /** The text of an entity that its tags are read from. */
-export function tagText(entity: Ent): string {
+function tagText(entity: Ent): string {
   switch (entity.category) {
     case 'weapons':
       return [entity.effect, entity.effectNote].filter(Boolean).join(' ');

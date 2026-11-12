@@ -142,7 +142,7 @@
   "Greatly increase attack and movement speed.": "attack-speed",
   "Heals Allies in the Area": "healing",
   "Heals allies in the area": "healing",
-  "Heals the most": "healing",
+  "Heals the most injured nearby, including the user, at the cost of souls.": "healing",
   "Health potions heal nearby allies": "potion",
   "High Firerate": "fire-rate",
   "Hit Multiple Targets": "multishot",
@@ -236,6 +236,5 @@
   "Very powerful combo": "combo",
   "Void Arrows": "arrow-supply",
   "Weakens enemy attacks": "crowd-control",
-  "Wind-up attack": "heavy-attack",
-  "injured nearby, including the user, at the cost of souls.": "healing"
+  "Wind-up attack": "heavy-attack"
 }

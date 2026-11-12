@@ -5,125 +5,41 @@
  * A def is *shown* when its `showWhen` holds (and, for a dependent range, exactly one value of
  * the controlling multi is chosen). Hidden defs never filter, whatever the URL says.
  */
-import { getNumbers, getValues } from './path';
+import { isShown, rangeField, stateList, stateRange, stateString } from './access';
+import { boundsFor, isNarrowed } from './bounds';
+import { memo, numbersOf, textCache, tokensOf } from './cache';
+import { getValues } from './path';
+import { sortItems } from './sort';
 import { toToken } from './tokens';
 import type {
   Bounds,
   FacetCounts,
   FilterDef,
   FilterState,
-  FilterValue,
   Item,
   MultiDef,
   RangeDef,
-  SortDef,
   TextDef,
   ToggleDef,
   TypeDef,
 } from './types';
 
+export {
+  boundsFor,
+  isNarrowed,
+  isShown,
+  rangeField,
+  sortItems,
+  stateList,
+  stateRange,
+  stateString,
+  tokensOf,
+};
+
 /** Key under each filter in {@link facetCounts} that holds "all results without this filter". */
 export const FACET_ALL = '*';
 
 type Matcher = (item: Item) => boolean;
-
-const tokenCache = new WeakMap<object, Map<string, string[]>>();
-const numberCache = new WeakMap<object, Map<string, number[]>>();
-const textCache = new WeakMap<object, Map<string, string>>();
-const boundsCache = new WeakMap<readonly Item[], Map<string, Bounds | null>>();
-
-function memo<T>(
-  store: WeakMap<object, Map<string, T>>,
-  item: object,
-  key: string,
-  compute: () => T,
-): T {
-  let perItem = store.get(item);
-  if (!perItem) {
-    perItem = new Map();
-    store.set(item, perItem);
-  }
-  const hit = perItem.get(key);
-  if (hit !== undefined) return hit;
-  const value = compute();
-  perItem.set(key, value);
-  return value;
-}
-
-/** The tokens of every value at `field` (cached per item). */
-export function tokensOf(item: Item, field: string): string[] {
-  return memo(tokenCache, item, field, () => getValues(item, field).map(toToken));
-}
-
-function numbersOf(item: Item, field: string): number[] {
-  return memo(numberCache, item, field, () => getNumbers(item, field));
-}
-
-// --- state accessors: the state is ours, but a URL-derived value may still have the wrong type ---
-
-export const stateString = (v: FilterValue | undefined): string | undefined =>
-  typeof v === 'string' && v !== '' ? v : undefined;
-export const stateList = (v: FilterValue | undefined): readonly string[] =>
-  Array.isArray(v) ? (v as readonly string[]) : [];
-export const stateRange = (v: FilterValue | undefined): readonly [number, number] | undefined => {
-  if (!Array.isArray(v) || v.length !== 2) return undefined;
-  const [lo, hi] = v as readonly unknown[];
-  return typeof lo === 'number' && typeof hi === 'number' ? ([lo, hi] as const) : undefined;
-};
-
-/** Whether `def` takes part in filtering and is visible, given the other filters' state. */
-export function isShown(def: FilterDef, state: FilterState): boolean {
-  if (def.showWhen) {
-    const current = stateString(state[def.showWhen.param]);
-    const allowed = [def.showWhen.equals].flat();
-    if (current === undefined || !allowed.includes(current)) return false;
-  }
-  if (def.kind === 'range' && def.dependsOn) return stateList(state[def.dependsOn]).length === 1;
-  return true;
-}
-
-/** The concrete field of a range def: `{value}` is filled from the controlling multi. */
-export function rangeField(def: RangeDef, state: FilterState): string {
-  if (!def.dependsOn) return def.field;
-  return def.field.replace('{value}', stateList(state[def.dependsOn])[0] ?? '');
-}
-
-// --- range bounds ---
-
-const decimalsOf = (step: number): number => (String(step).split('.')[1] ?? '').length;
-const roundTo = (n: number, decimals: number): number => Number(n.toFixed(decimals));
-
-/**
- * Min/max of the numbers at `field`, widened to the slider step so every item is reachable.
- * `null` when no item has the field.
- */
-export function boundsFor(items: readonly Item[], field: string, step: number): Bounds | null {
-  let perList = boundsCache.get(items);
-  if (!perList) {
-    perList = new Map();
-    boundsCache.set(items, perList);
-  }
-  const key = `${field}|${step}`;
-  if (perList.has(key)) return perList.get(key) ?? null;
-  let min = Infinity;
-  let max = -Infinity;
-  for (const item of items) {
-    for (const n of numbersOf(item, field)) {
-      if (n < min) min = n;
-      if (n > max) max = n;
-    }
-  }
-  const digits = decimalsOf(step);
-  const bounds =
-    min === Infinity
-      ? null
-      : {
-          min: roundTo(Math.floor(roundTo(min / step, 6)) * step, digits),
-          max: roundTo(Math.ceil(roundTo(max / step, 6)) * step, digits),
-        };
-  perList.set(key, bounds);
-  return bounds;
-}
 
 /** Bounds for a range def in the current state; `null` when it has no data (or no field yet). */
 export function rangeBounds(
@@ -132,11 +48,6 @@ export function rangeBounds(
   state: FilterState,
 ): Bounds | null {
   return isShown(def, state) ? boundsFor(items, rangeField(def, state), def.step) : null;
-}
-
-/** True when the range value narrows the full bounds. */
-export function isNarrowed(value: readonly [number, number], bounds: Bounds): boolean {
-  return value[0] > bounds.min || value[1] < bounds.max;
 }
 
 // --- matchers ---
@@ -294,45 +205,6 @@ export function countMissing(
   return items.filter(
     (item) => numbersOf(item, field).length === 0 && others.every((match) => match(item)),
   ).length;
-}
-
-// --- sorting ---
-
-const collator = new Intl.Collator('en', { sensitivity: 'base', numeric: true });
-
-/** Sorted copy. Items missing the sort field go last in either direction; ties fall back to name. */
-export function sortItems<T extends Item>(
-  items: readonly T[],
-  sort: SortDef,
-  value: string | undefined,
-): T[] {
-  const option =
-    sort.options.find((o) => o.value === value) ??
-    sort.options.find((o) => o.value === sort.default);
-  const byName = (a: T, b: T): number =>
-    collator.compare(String(a.name), String(b.name)) ||
-    collator.compare(String(a.id), String(b.id));
-  if (!option) return [...items].sort(byName);
-  const sign = option.dir === 'asc' ? 1 : -1;
-  const keyOf = (item: T): number | string | undefined => {
-    const v = getValues(item, option.field)[0];
-    if (v === undefined) return undefined;
-    if (option.rank) return option.rank.indexOf(String(v));
-    return typeof v === 'number' ? v : String(v);
-  };
-  return [...items].sort((a, b) => {
-    const ka = keyOf(a);
-    const kb = keyOf(b);
-    if (ka === undefined || kb === undefined) {
-      if (ka === kb) return byName(a, b);
-      return ka === undefined ? 1 : -1;
-    }
-    const diff =
-      typeof ka === 'number' && typeof kb === 'number'
-        ? ka - kb
-        : collator.compare(`${ka}`, `${kb}`);
-    return diff === 0 ? byName(a, b) : sign * diff;
-  });
 }
 
 // --- state summaries ---

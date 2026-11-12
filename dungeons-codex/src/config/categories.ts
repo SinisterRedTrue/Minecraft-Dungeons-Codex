@@ -10,7 +10,7 @@ import { D1_DISPLAY } from './display/d1';
 import { D2_DISPLAY } from './display/d2';
 import type { DisplayConfig } from './display/types';
 
-export type { ColumnSpec, CompareRow, DisplayConfig, FieldFormat, StatSpec } from './display/types';
+export type { ColumnSpec, CompareRow, FieldFormat, StatSpec } from './display/types';
 
 type ListFields = {
   [G in GameId]: { [C in CategorySlug<G>]: readonly (keyof EntityOf<G, C> & string)[] };

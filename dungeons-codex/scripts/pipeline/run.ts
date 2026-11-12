@@ -88,7 +88,7 @@ function canonical(value: unknown, top = false): unknown {
   return Object.fromEntries(entries.map(([k, v]) => [k, canonical(v)]));
 }
 
-export const stringify = (entities: unknown[]) =>
+const stringify = (entities: unknown[]) =>
   `${JSON.stringify(
     entities.map((e) => canonical(e, true)),
     null,

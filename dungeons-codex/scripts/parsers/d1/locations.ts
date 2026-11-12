@@ -13,7 +13,7 @@ import { normalizeName } from '../../wiki/text';
 import { bareTitle, makeSource, wikiSections } from '../common';
 import type { Draft, ParseContext, ParseResult } from '../types';
 
-export const LOCATION_PAGE = 'Dungeons:Location';
+const LOCATION_PAGE = 'Dungeons:Location';
 
 export interface NavLocation {
   title: string;

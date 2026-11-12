@@ -212,7 +212,7 @@ function GameFavorites({
   );
 }
 
-export function FavoritesSkeleton() {
+function FavoritesSkeleton() {
   return (
     <div aria-busy="true" role="status" className="flex flex-col gap-4">
       <span className="sr-only">Loading your favorites…</span>

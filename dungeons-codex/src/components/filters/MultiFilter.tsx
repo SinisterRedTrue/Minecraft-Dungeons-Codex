@@ -6,7 +6,7 @@ import { Checkbox } from '@/components/ui/Checkbox';
 import type { MultiDef, Option } from '@/lib/filters/types';
 
 /** Lists longer than this get a search box (Prompt 07 task 4). */
-export const SEARCHABLE_FROM = 8;
+const SEARCHABLE_FROM = 8;
 
 export type MultiFilterProps = {
   def: MultiDef;

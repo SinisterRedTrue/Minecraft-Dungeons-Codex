@@ -7,6 +7,7 @@ import { GAMES, allGameCategories, isValidCategory, isValidGame } from '@/config
 import { getAll, getBySlug } from '@/lib/data';
 import { humanize } from '@/lib/filters/tokens';
 import type { Entity } from '@/lib/schemas';
+import { OG_PALETTE } from '@/styles/ogPalette';
 
 export const dynamicParams = false;
 
@@ -25,13 +26,7 @@ export const alt = 'Dungeons Codex entry';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
-/** Frame colours: the rarity tokens of `styles/tokens.css` (dark theme; satori cannot read CSS variables). */
-const RARITY: Record<string, string> = {
-  common: '#b8b8b8',
-  rare: '#45b5ff',
-  special: '#c07bff',
-  unique: '#ff9f1c',
-};
+const { rarity: RARITY } = OG_PALETTE;
 
 /** The icon as a PNG data URI, scaled up without smoothing (satori cannot read WebP). */
 async function iconDataUri(src: string | undefined): Promise<string | undefined> {
@@ -65,7 +60,7 @@ export default async function Image({
   const label = isValidGame(game) ? getCategoryConfig(game, category)?.label : undefined;
   const gameName = isValidGame(game) ? GAMES[game].name : 'Dungeons Codex';
   const name = entity?.name ?? 'Dungeons Codex';
-  const color = RARITY[entity?.rarity ?? 'common'] ?? '#b8b8b8';
+  const color = RARITY[entity?.rarity ?? 'common'] ?? OG_PALETTE.rarity.common;
   const icon = await iconDataUri(entity?.image?.src);
 
   return new ImageResponse(
@@ -77,8 +72,8 @@ export default async function Image({
         alignItems: 'center',
         gap: 64,
         padding: '0 80px',
-        background: 'linear-gradient(160deg, #1a1206 0%, #0f0d0b 70%)',
-        color: '#f4ebdd',
+        background: `linear-gradient(160deg, ${OG_PALETTE.bgGlow} 0%, ${OG_PALETTE.bg} 70%)`,
+        color: OG_PALETTE.text,
       }}
     >
       <div
@@ -90,7 +85,7 @@ export default async function Image({
           justifyContent: 'center',
           border: `8px solid ${color}`,
           borderRadius: 36,
-          background: '#17120d',
+          background: OG_PALETTE.slot,
           boxShadow: `0 0 80px ${color}55`,
           flexShrink: 0,
         }}
@@ -99,7 +94,7 @@ export default async function Image({
         {icon && <img src={icon} width={300} height={300} alt="" />}
       </div>
       <div style={{ display: 'flex', flexDirection: 'column', gap: 16, minWidth: 0 }}>
-        <div style={{ display: 'flex', fontSize: 28, color: '#cdbfa6' }}>
+        <div style={{ display: 'flex', fontSize: 28, color: OG_PALETTE.textMuted }}>
           {`${label ?? ''}${label ? ' · ' : ''}${gameName}`}
         </div>
         <div
@@ -121,7 +116,7 @@ export default async function Image({
             marginTop: 24,
             fontSize: 30,
             fontWeight: 900,
-            color: '#3bd16f',
+            color: OG_PALETTE.brand,
           }}
         >
           DUNGEONS CODEX

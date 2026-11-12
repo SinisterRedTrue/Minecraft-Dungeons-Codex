@@ -1,21 +1,11 @@
 import { useCallback, useSyncExternalStore } from 'react';
-import { z } from 'zod';
 import { createPersistentStore, type PersistentStore } from '@/lib/storage/persistentStore';
 
 /** `[ Plans ]/07-FEATURES-SPEC.md` §4: a JSON `string[]` of entity ids (`game:category:slug`). */
 export const FAVORITES_KEY = 'dc:favorites:v1';
 
-/** An entity id such as `d1:weapons:claymore`. */
-export const entityIdSchema = z.string().regex(/^d[12]:[a-z]+:[a-z0-9]+(?:-[a-z0-9]+)*$/);
-
-/** The v1 stored shape. */
-export const favoritesSchema = z.array(entityIdSchema);
-
-/** The file written by Export and read by Import. A bare `string[]` is accepted too. */
-export const backupSchema = z.union([
-  favoritesSchema,
-  z.object({ version: z.literal(1), favorites: favoritesSchema }),
-]);
+/** An entity id such as `d1:weapons:claymore`. Plain checks, not Zod: this module is in every page's JS. */
+export const ENTITY_ID = /^d[12]:[a-z]+:[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
 export type FavoriteIds = readonly string[];
 
@@ -38,8 +28,7 @@ export function migrateFavorites(raw: unknown): FavoriteIds {
       : [];
   const ids: string[] = [];
   for (const item of list) {
-    const parsed = entityIdSchema.safeParse(item);
-    if (parsed.success && !ids.includes(parsed.data)) ids.push(parsed.data);
+    if (typeof item === 'string' && ENTITY_ID.test(item) && !ids.includes(item)) ids.push(item);
   }
   return ids.length === 0 ? EMPTY : ids;
 }

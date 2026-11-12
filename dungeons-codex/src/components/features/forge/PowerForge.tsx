@@ -1,62 +1,25 @@
 'use client';
 
 import { Gem, RotateCcw, Share2 } from 'lucide-react';
-import { useCallback, useEffect, useId, useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { Button3D } from '@/components/ui/Button3D';
-import { Chip } from '@/components/ui/Chip';
 import { Panel } from '@/components/ui/Panel';
 import { Skeleton } from '@/components/ui/Skeleton';
-import { Slider } from '@/components/ui/Slider';
 import { useToast } from '@/components/ui/Toast';
 import { SectionBlock } from '@/components/entity/SectionBlock';
-import { catalogMap, loadCatalog } from '@/lib/forge/catalog';
-import { MAX_POWER, decodeForge, encodeForge } from '@/lib/forge/codec';
+import { catalogMap } from '@/lib/forge/catalog';
+import { decodeForge, encodeForge } from '@/lib/forge/codec';
 import { damageAt, healthAt } from '@/lib/forge/damage';
-import {
-  applyEnchantments,
-  enchantmentsFor,
-  type ForgeEnchantment,
-  type Pick,
-  type Tier,
-} from '@/lib/forge/enchantments';
+import { applyEnchantments, enchantmentsFor, type Pick, type Tier } from '@/lib/forge/enchantments';
 import { pointsUsed } from '@/lib/forge/points';
 import type { ForgeProps } from '@/lib/forge/types';
 import { BuiltInRowView, EnchantmentSlot } from './EnchantmentSlot';
 import { ForgeResult } from './ForgeResult';
 import { NumberTicker } from './NumberTicker';
+import { PowerLevelControl } from './PowerLevelControl';
+import { useCatalog } from './useCatalog';
 
 const DEFAULT_POWER = 100;
-
-/** The wiki's documented power caps (Plans §07 §2). */
-const CAPS = [
-  { value: 250, label: '250', note: 'Normal cap' },
-  { value: 256, label: '256', note: 'Daily trial and raid captain' },
-  { value: 263, label: '263', note: 'Tower and raid chest' },
-] as const;
-
-type CatalogState =
-  { status: 'loading' } | { status: 'error' } | { status: 'ready'; list: ForgeEnchantment[] };
-
-/** Fetches the enchantment catalog of the game once; `retry` tries again after a failure. */
-function useCatalog(game: ForgeProps['game']): { state: CatalogState; retry: () => void } {
-  const [state, setState] = useState<CatalogState>({ status: 'loading' });
-  const [attempt, setAttempt] = useState(0);
-  useEffect(() => {
-    let live = true;
-    loadCatalog(game).then(
-      (list) => live && setState({ status: 'ready', list }),
-      () => live && setState({ status: 'error' }),
-    );
-    return () => {
-      live = false;
-    };
-  }, [game, attempt]);
-  const retry = useCallback(() => {
-    setState({ status: 'loading' });
-    setAttempt((n) => n + 1);
-  }, []);
-  return { state, retry };
-}
 
 /** The state a `?forge=` link on the current page holds (the component only renders in a browser). */
 function initialState(slots: number, hasPower: boolean) {
@@ -76,12 +39,11 @@ export default function PowerForge({ props }: { props: ForgeProps }) {
   const { game, category, target, slots, item } = props;
   const hasPower = item !== undefined;
   const { toast } = useToast();
-  const powerId = useId();
   const { state: catalogState, retry } = useCatalog(game);
 
   const [initial] = useState(() => initialState(slots, hasPower));
   const [power, setPower] = useState(initial.power);
-  const [draft, setDraft] = useState<string | null>(null);
+  const [resetKey, setResetKey] = useState(0);
   const [picks, setPicks] = useState<Pick[]>(initial.picks);
 
   const catalog = catalogState.status === 'ready' ? catalogState.list : undefined;
@@ -122,11 +84,9 @@ export default function PowerForge({ props }: { props: ForgeProps }) {
     setPicks(valid.map((p, i) => (i === index ? { ...p, tier } : p)));
   const remove = (index: number) => setPicks(valid.filter((_, i) => i !== index));
 
-  const commitPower = (value: number) => setPower(Math.min(MAX_POWER, Math.max(1, value)));
-
   const reset = () => {
     setPower(DEFAULT_POWER);
-    setDraft(null);
+    setResetKey((n) => n + 1);
     setPicks([]);
     const url = new URL(window.location.href);
     url.searchParams.delete('forge');
@@ -164,63 +124,7 @@ export default function PowerForge({ props }: { props: ForgeProps }) {
         <div className="grid gap-6 @2xl:grid-cols-2 @2xl:gap-8">
           {/* ── controls ───────────────────────────────────────────────────────────── */}
           <div className="@container flex min-w-0 flex-col gap-5">
-            {hasPower && (
-              <div className="flex flex-col gap-2">
-                <div className="flex items-center justify-between gap-3">
-                  <label htmlFor={powerId} className="text-sm font-semibold text-text">
-                    Power level
-                  </label>
-                  <input
-                    id={powerId}
-                    type="number"
-                    inputMode="numeric"
-                    min={1}
-                    max={MAX_POWER}
-                    value={draft ?? String(power)}
-                    onChange={(e) => {
-                      setDraft(e.target.value);
-                      const n = Number(e.target.value);
-                      if (Number.isInteger(n) && n >= 1 && n <= MAX_POWER) setPower(n);
-                    }}
-                    onBlur={() => setDraft(null)}
-                    className="h-11 w-24 rounded-sm border border-control bg-surface-2 px-3 text-right font-pixel text-base tracking-pixel text-text"
-                  />
-                </div>
-                <Slider
-                  aria-label="Power level slider"
-                  value={power}
-                  onValueChange={(v) => {
-                    setDraft(null);
-                    commitPower(v);
-                  }}
-                  min={1}
-                  max={MAX_POWER}
-                  ticks={CAPS.map((cap) => ({ value: cap.value }))}
-                />
-                <div
-                  className="flex flex-wrap gap-2"
-                  role="group"
-                  aria-label="Documented power caps"
-                >
-                  {CAPS.map((cap) => (
-                    <Chip
-                      key={cap.value}
-                      selected={power === cap.value}
-                      onClick={() => {
-                        setDraft(null);
-                        commitPower(cap.value);
-                      }}
-                      title={cap.note}
-                    >
-                      {cap.label}
-                    </Chip>
-                  ))}
-                </div>
-                <p className="m-0 text-xs text-muted">
-                  Caps: 250 normal, 256 daily trial and raid captain, 263 Tower and raid chest.
-                </p>
-              </div>
-            )}
+            {hasPower && <PowerLevelControl key={resetKey} power={power} onChange={setPower} />}
 
             <div className="flex flex-col gap-2">
               <div className="flex items-center justify-between gap-3">

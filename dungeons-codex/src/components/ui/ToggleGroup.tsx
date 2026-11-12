@@ -3,7 +3,7 @@
 import * as ToggleGroupPrimitive from '@radix-ui/react-toggle-group';
 import { cn } from '@/lib/utils/cn';
 
-export type ToggleGroupOption = {
+type ToggleGroupOption = {
   value: string;
   /** Visible text, e.g. "II". */
   label: string;

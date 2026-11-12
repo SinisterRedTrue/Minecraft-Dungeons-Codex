@@ -5,7 +5,6 @@ import { useRouter } from 'next/navigation';
 import { Button3D } from '@/components/ui/Button3D';
 import type { GameId } from '@/config/games';
 import { isPlannable } from '@/lib/planner/slots';
-import { addToDraft, draftStore } from '@/lib/planner/store';
 
 /**
  * "Open in Planner" on a detail page (Plans §07 §5): puts the item into its slot of this game's
@@ -28,7 +27,9 @@ export function PlannerButton({
 }) {
   const router = useRouter();
   if (!isPlannable(game, category)) return null;
-  const open = () => {
+  const open = async () => {
+    // Loaded on click: the planner store pulls in Zod, which no detail page needs to download.
+    const { addToDraft, draftStore } = await import('@/lib/planner/store');
     addToDraft(draftStore(game), game, category, slug, fields);
     router.push(`/${game}/planner`);
   };

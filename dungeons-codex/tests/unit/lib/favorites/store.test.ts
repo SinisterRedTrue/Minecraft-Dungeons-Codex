@@ -1,13 +1,13 @@
 import { describe, expect, it } from 'vitest';
 import {
   FAVORITES_KEY,
-  backupSchema,
   clearFavorites,
   createFavoritesStore,
   importFavorites,
   migrateFavorites,
   toggleFavorite,
 } from '@/lib/favorites/store';
+import { backupSchema } from '@/lib/favorites/backup';
 
 describe('migrateFavorites', () => {
   it('keeps valid ids in order and drops duplicates', () => {

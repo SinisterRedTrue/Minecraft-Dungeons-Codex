@@ -17,9 +17,9 @@ import {
   type ItemRow,
 } from './items';
 
-export const ARMOR_LIST_PAGE = 'Dungeons:Armor';
+const ARMOR_LIST_PAGE = 'Dungeons:Armor';
 
-export function armorDraft(
+function armorDraft(
   item: ItemRow,
   page: ItemPage,
   listPage: { title: string; revisionId: number; fetchedAt: string },

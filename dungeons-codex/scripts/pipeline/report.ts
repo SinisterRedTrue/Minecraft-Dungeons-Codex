@@ -8,7 +8,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { GAMES, type GameId } from '@/config/games';
 
-export const COVERAGE_GATE = 0.98;
+const COVERAGE_GATE = 0.98;
 
 export interface CategoryReport {
   category: string;

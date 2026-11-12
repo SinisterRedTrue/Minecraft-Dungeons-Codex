@@ -8,7 +8,7 @@ import { cellAt, col, firstImage, makeSource } from '../common';
 import type { Draft, ParseContext, ParseResult } from '../types';
 import { d2Draft, d2First, d2Lines, introCount, singleValue, sourcesOf, tidy } from './common';
 
-export const ENCHANTMENT_LIST_PAGE = 'Dungeons II:Enchantment';
+const ENCHANTMENT_LIST_PAGE = 'Dungeons II:Enchantment';
 
 type AppliesTo = 'melee' | 'ranged' | 'armor';
 
@@ -34,7 +34,7 @@ export function readAppliesTo(lines: readonly string[]): {
   return { appliesTo, restriction };
 }
 
-export interface EnchantmentRow {
+interface EnchantmentRow {
   name: string;
   description?: string;
   levels: { level: 1 | 2 | 3; text: string; value?: number; unit?: string }[];
@@ -70,7 +70,7 @@ function readRow(row: ParsedRow, table: ParsedTable): EnchantmentRow | undefined
   };
 }
 
-export function readEnchantmentRows(html: string): EnchantmentRow[] {
+function readEnchantmentRows(html: string): EnchantmentRow[] {
   return parseWikitables(html)
     .filter(isEnchantmentTable)
     .flatMap((table) =>

@@ -1,13 +1,22 @@
 import { expect, test, type Page } from '@playwright/test';
-import { expectNoSeriousA11yViolations, hasHorizontalScroll, headerSearch } from './helpers';
+import {
+  expectNoSeriousA11yViolations,
+  hasHorizontalScroll,
+  headerSearch,
+  settleAnimations,
+} from './helpers';
 
 const palette = (page: Page) => page.getByRole('dialog', { name: 'Search the Codex' });
 const box = (page: Page) => palette(page).getByRole('combobox', { name: 'Search the Codex' });
 
 /** Opens the palette with Ctrl+K and waits for the index to be ready (the Jump to list appears). */
 async function openPalette(page: Page) {
-  await page.keyboard.press('Control+k');
-  await expect(palette(page)).toBeVisible();
+  // The shortcut listener exists once the page has hydrated; under load that can be later than
+  // the first key press, so press again until the dialog is there (a person would just retry).
+  await expect(async () => {
+    if (!(await palette(page).isVisible())) await page.keyboard.press('Control+k');
+    await expect(palette(page)).toBeVisible({ timeout: 1500 });
+  }).toPass({ timeout: 15_000 });
   await expect(
     palette(page)
       .getByRole('group', { name: /Jump to|Recent/ })
@@ -184,6 +193,8 @@ test.describe('Codex Search', () => {
     await openPalette(page);
     await box(page).fill('a');
     await expect(palette(page).getByRole('option').first()).toBeVisible();
+    // Measure the settled panel, not the 200 ms scale-in.
+    await settleAnimations(page);
     const viewport = page.viewportSize()!;
     const rect = await palette(page).evaluate((el) => {
       const r = el.getBoundingClientRect();

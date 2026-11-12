@@ -174,7 +174,7 @@ function Header({
         <button
           type="button"
           onClick={onClick}
-          className="inline-flex min-h-9 cursor-pointer items-center gap-1 uppercase hover:text-text"
+          className="inline-flex min-h-9 cursor-pointer items-center gap-1 uppercase hover:text-text pointer-coarse:min-h-11"
         >
           {label}
           <Icon size={14} aria-hidden="true" className={state === 'none' ? 'opacity-50' : ''} />

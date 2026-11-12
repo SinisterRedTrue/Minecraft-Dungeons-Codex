@@ -11,9 +11,9 @@ import { normalizeName } from '../../wiki/text';
 import { cellAt, col, firstImage, firstLine, makeSource } from '../common';
 import type { Draft, DroppedRecord, ParseContext, ParseResult } from '../types';
 
-export const COSMETIC_PAGE = 'Dungeons:Cosmetic';
+const COSMETIC_PAGE = 'Dungeons:Cosmetic';
 
-export type CosmeticType = 'cape' | 'pet' | 'emote' | 'flare' | 'skin';
+type CosmeticType = 'cape' | 'pet' | 'emote' | 'flare' | 'skin';
 
 const HEADING_TYPES: [RegExp, CosmeticType][] = [
   [/^capes?$/i, 'cape'],

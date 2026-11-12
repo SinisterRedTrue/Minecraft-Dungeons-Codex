@@ -3,7 +3,7 @@ import { slugify } from '@/lib/utils/slugify';
 
 type Json = Record<string, unknown>;
 
-export function base(game: 'd1' | 'd2', category: string, name: string, extra: Json = {}): Json {
+function base(game: 'd1' | 'd2', category: string, name: string, extra: Json = {}): Json {
   const slug = slugify(name);
   return {
     id: `${game}:${category}:${slug}`,

@@ -10,7 +10,7 @@ import { normalizeName } from '../../wiki/text';
 import { cellAt, col, firstImage, firstLine, flag, makeSource, namesOf } from '../common';
 import type { Draft, ParseContext, ParseResult } from '../types';
 
-export const ENCHANTMENT_PAGE = 'Dungeons:Enchantment';
+const ENCHANTMENT_PAGE = 'Dungeons:Enchantment';
 
 type AppliesTo = 'melee' | 'ranged' | 'armor';
 type Costs = Record<'common' | 'powerful', [number, number, number]>;

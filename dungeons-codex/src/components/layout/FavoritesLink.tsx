@@ -17,10 +17,12 @@ export function FavoritesLink({
   return (
     <Link
       href="/favorites"
+      // The Favorites page carries Zod for its import check; do not fetch it on every page view.
+      prefetch={false}
       onClick={onNavigate}
       aria-label={`Favorites, ${count} saved`}
       className={cn(
-        'relative inline-flex h-11 min-w-11 items-center justify-center gap-1.5 rounded-chip px-2 text-text transition-colors hover:bg-accent/20 md:h-10',
+        'relative inline-flex h-11 min-w-11 items-center justify-center gap-1.5 rounded-chip px-2 text-text transition-colors hover:bg-accent/20 md:h-10 pointer-coarse:h-11',
         className,
       )}
     >

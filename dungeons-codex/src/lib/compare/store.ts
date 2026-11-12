@@ -1,5 +1,4 @@
 import { useCallback, useSyncExternalStore } from 'react';
-import { z } from 'zod';
 import { GAME_IDS, type GameId } from '@/config/games';
 import { createPersistentStore, type PersistentStore } from '@/lib/storage/persistentStore';
 
@@ -15,19 +14,21 @@ export interface CompareState {
 }
 
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
-const compareSchema = z.object({
-  category: z.string().regex(SLUG),
-  slugs: z.array(z.string().regex(SLUG)),
-});
+const isSlug = (v: unknown): v is string => typeof v === 'string' && SLUG.test(v);
 
 export const EMPTY_COMPARE: CompareState = Object.freeze({ category: null, slugs: [] });
 
-/** Whatever is stored → a valid state: bad entries are dropped, at most {@link MAX_COMPARE} kept. */
+/**
+ * Whatever is stored → a valid state: anything that is not `{ category, slugs[] }` of slugs is
+ * empty, at most {@link MAX_COMPARE} are kept. Plain checks, not Zod: this module is in every
+ * page's JS (the cards' Compare buttons).
+ */
 export function parseCompare(raw: unknown): CompareState {
-  const parsed = compareSchema.safeParse(raw);
-  if (!parsed.success) return EMPTY_COMPARE;
-  const slugs = [...new Set(parsed.data.slugs)].slice(0, MAX_COMPARE);
-  return slugs.length === 0 ? EMPTY_COMPARE : { category: parsed.data.category, slugs };
+  if (typeof raw !== 'object' || raw === null) return EMPTY_COMPARE;
+  const { category, slugs: stored } = raw as { category?: unknown; slugs?: unknown };
+  if (!isSlug(category) || !Array.isArray(stored) || !stored.every(isSlug)) return EMPTY_COMPARE;
+  const slugs = [...new Set(stored)].slice(0, MAX_COMPARE);
+  return slugs.length === 0 ? EMPTY_COMPARE : { category, slugs };
 }
 
 const equals = (a: CompareState, b: CompareState) =>

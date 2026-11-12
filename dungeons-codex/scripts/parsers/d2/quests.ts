@@ -9,12 +9,12 @@ import { cellAt, col, flag } from '../common';
 import type { Draft, ParseContext, ParseResult } from '../types';
 import { d2Draft, d2First, d2Lines, sourceFor } from './common';
 
-export const QUEST_LIST_PAGE = 'Dungeons II:Quest';
+const QUEST_LIST_PAGE = 'Dungeons II:Quest';
 
 /** What a `randomFrom` pool names, so the linking pass knows which index to look in. */
-export type PoolKind = 'gear' | 'armor' | 'artifact';
+type PoolKind = 'gear' | 'armor' | 'artifact';
 
-export interface RawRandom {
+interface RawRandom {
   text: string;
   count: number;
   kind: PoolKind;

@@ -13,7 +13,7 @@ import { cn } from '@/lib/utils/cn';
  * More options than this turn the chip row into a searchable list. Weapon types (up to 26 under
  * one kind) stay chips so every one is a click away; armor groups (31) and sets (38) do not.
  */
-export const MAX_CHIPS = 30;
+const MAX_CHIPS = 30;
 
 export type TypeSelectorProps = {
   def: TypeDef;
@@ -166,7 +166,7 @@ function OptionPicker({
           type="button"
           aria-label={`${def.label}: ${selected?.label ?? allLabel}`}
           className={cn(
-            'inline-flex h-11 cursor-pointer items-center gap-2 rounded-chip border px-4 text-sm font-semibold sm:h-9',
+            'inline-flex h-11 cursor-pointer items-center gap-2 rounded-chip border px-4 text-sm font-semibold sm:h-9 pointer-coarse:h-11',
             selected
               ? 'border-accent-edge bg-accent text-accent-ink shadow-[0_3px_0_var(--accent-edge)]'
               : 'border-line bg-surface-2 text-text hover:border-accent',
