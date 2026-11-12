@@ -29,3 +29,16 @@ npx lighthouse http://localhost:3100/ --only-categories=performance,accessibilit
 ```
 
 (The Chromium that Playwright installs cannot be launched by Lighthouse's launcher on this machine, so Edge is used.)
+
+## Second look after v1.0.0 (2026-11-12)
+
+Re-measured the production build on the two pages that were under 90 (Lighthouse 13.6, simulated mobile, Edge):
+
+| Page                            | Perf (this run) | LCP (simulated) | Observed FCP = LCP | Notes                                                                                                     |
+| ------------------------------- | --------------- | --------------- | ------------------ | --------------------------------------------------------------------------------------------------------- |
+| Category (`/d1/weapons`)        | 96 (earlier 85) | 0.9 s           | 0.57 s             | Score swings 85–96 between runs on this machine; the LCP is text, so it equals FCP when the run is quiet. |
+| Detail (`/d1/weapons/claymore`) | 83–86 (4 runs)  | 4.0–4.1 s       | 0.49 s             | Stable. The LCP element is the 87 px item icon.                                                           |
+
+What the detail page shows: the icon is already preloaded (`priority`), loads in 33 ms and is painted together with the first paint; the only render-blocking resource is the 16 kB stylesheet (156 ms simulated). The simulated 4.0 s therefore comes from how Lighthouse's simulator estimates an _image_ LCP (it averages an optimistic and a pessimistic graph, and the pessimistic one includes the 15 shell scripts, about 190 kB gzip, that finish before the paint), not from anything the visitor waits for. Tried and rejected: `decoding="sync"` on the priority image (83–84, no gain, reverted). Not tried on purpose: enlarging the heading so a text block becomes the LCP element, which would change the design only to move a lab score.
+
+What would move it for real is less script in the shell: the framework is about 129 kB of the 190 kB, so even removing every app-level dependency of the shell (providers, Radix toast and tooltip, header) would not reach the 3.0 s that a score of 90 needs. Recorded in D-102; nothing in the product changed.
