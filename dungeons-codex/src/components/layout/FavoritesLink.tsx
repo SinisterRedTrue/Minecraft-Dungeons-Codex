@@ -3,7 +3,7 @@
 import { Star } from 'lucide-react';
 import Link from 'next/link';
 import { cn } from '@/lib/utils/cn';
-import { useFavoritesCount } from './useFavoritesCount';
+import { useFavoritesCount } from '@/lib/favorites/store';
 
 /** Header shortcut to `/favorites` with a live count badge (0 → no badge). */
 export function FavoritesLink({

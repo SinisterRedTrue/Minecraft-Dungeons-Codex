@@ -82,3 +82,13 @@
 - [ ] Per-tier tooltips on the enchantment picker (full effect text of tiers I to III) and an Approximate-range display (min and max of the baseline spread) instead of one estimate.
 - [ ] Gilded variants of enchantments (the wiki lists Gilded costs 2/3/4 and 3/4/5, not stored: D-041).
 - [ ] Armor-set view: all four D2 pieces in one Forge with their combined effects.
+
+## Compare & Favorites (from Prompt 11)
+- [ ] ★ and ⇄ buttons in the table view of the Category Browser (a trailing actions column), not only on cards.
+- [ ] A Share button on the compare page that copies the URL, and a "compare with a sibling" shortcut on unique variant pages (base vs unique).
+- [ ] A "wins 3 of 5 rows" count per item and a "Best overall" sort, clearly labelled as a simple count.
+- [ ] Compare enchantments by tier: expand "Effect by level" into three aligned rows.
+- [ ] Favorites: custom lists, notes per item and sorting inside a group.
+- [ ] Move favorites between devices without an account (a short code or a QR of the backup file).
+- [ ] Remember "Differences only" and the last compared category per game.
+- [ ] An undo toast after Clear on the tray and after un-starring on the Favorites page.

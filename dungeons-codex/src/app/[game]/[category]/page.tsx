@@ -114,6 +114,7 @@ export default async function CategoryPage({ params }: { params: Params }) {
           columns={config.tableColumns}
           groupBy={config.groupBy}
           labels={labels}
+          compare={{ game, category }}
         />
       </Suspense>
     </div>

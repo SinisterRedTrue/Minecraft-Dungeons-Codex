@@ -15,7 +15,13 @@ const date = new Intl.DateTimeFormat('en-US', {
   timeZone: 'UTC',
 });
 
-function formatOne(value: unknown, format: FieldFormat, field: string, labels?: LabelMap): string {
+/** One value as text. Exported for the Compare table, which formats cells it holds directly. */
+export function formatOne(
+  value: unknown,
+  format: FieldFormat,
+  field: string,
+  labels?: LabelMap,
+): string {
   switch (format) {
     case 'label':
       return labelForValue(field, value, labels);
@@ -35,6 +41,7 @@ function formatOne(value: unknown, format: FieldFormat, field: string, labels?: 
     case 'bool':
       return value === true ? 'Yes' : 'No';
     case 'count':
+    case 'list':
     case 'text':
       return String(value);
   }

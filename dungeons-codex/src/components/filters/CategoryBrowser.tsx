@@ -4,6 +4,7 @@ import { useMemo } from 'react';
 import type { GridConfig } from '@/components/entity/EntityGrid';
 import { ActiveFilterChips } from '@/components/filters/ActiveFilterChips';
 import { BrowserResults, type ResultsGroupBy } from '@/components/filters/BrowserResults';
+import { CompareTray } from '@/components/features/compare/CompareTray';
 import { BrowserTypeRows } from '@/components/filters/BrowserTypeRows';
 import { FilterPanel } from '@/components/filters/FilterPanel';
 import { FiltersSheet } from '@/components/filters/FiltersSheet';
@@ -13,6 +14,7 @@ import { useBrowserState } from '@/components/filters/useBrowserState';
 import { ViewToggle } from '@/components/filters/ViewToggle';
 import { Button3D } from '@/components/ui/Button3D';
 import type { ColumnSpec } from '@/config/categories';
+import type { GameId } from '@/config/games';
 import { applyFilters, countActive, facetCounts, sortItems } from '@/lib/filters/engine';
 import { resolveOptions, type LabelMap } from '@/lib/filters/options';
 import { clearPatch, describeActive } from '@/lib/filters/state';
@@ -29,6 +31,8 @@ export interface CategoryBrowserProps {
   columns: ColumnSpec[];
   groupBy?: ResultsGroupBy & { param: string; label: string };
   labels: LabelMap;
+  /** Which comparison the ⇄ tray at the bottom belongs to; omitted, no tray is shown. */
+  compare?: { game: GameId; category: string };
 }
 
 /**
@@ -44,6 +48,7 @@ export function CategoryBrowser({
   columns,
   groupBy,
   labels,
+  compare,
 }: CategoryBrowserProps) {
   const { state, sortValue, view, grouped, update, setSort, setView, setGrouped } = useBrowserState(
     items,
@@ -166,6 +171,7 @@ export function CategoryBrowser({
           />
         </section>
       </div>
+      {compare && <CompareTray game={compare.game} category={compare.category} items={items} />}
     </div>
   );
 }

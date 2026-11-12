@@ -9,7 +9,8 @@ export type FieldFormat =
   | 'date'
   | 'bool'
   | 'rarity'
-  | 'count'; // the length of a list
+  | 'count' // the length of a list
+  | 'list'; // a list of lines (Compare only: properties, effects, level texts)
 
 export interface StatSpec {
   label: string;
@@ -38,7 +39,11 @@ export interface DisplayConfig {
   cardMeta: string[];
   /** Table columns after the icon + name column. */
   tableColumns: ColumnSpec[];
-  /** Rows of the Compare page (Prompt 11). */
+  /**
+   * Rows of the Compare page, in order. A category is comparable when it has any (the D1 DLCs
+   * have none). Values come from the full entity plus the derived list fields, not from the card
+   * projection, so a row may name fields that `LIST_FIELDS` does not copy.
+   */
   compareRows: CompareRow[];
   /** Detail page sections in order (Prompt 08). */
   detailSections: string[];

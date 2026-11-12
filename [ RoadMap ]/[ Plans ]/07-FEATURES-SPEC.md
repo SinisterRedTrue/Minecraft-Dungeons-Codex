@@ -4,7 +4,7 @@
 - Opens with `Ctrl+K` / `⌘K`, `/`, or the header Search button. It's a cmdk dialog.
 - Scope chips: **This game** (default when inside `/d1` or `/d2`) or **Both games**.
 - The index has one entry per entity, with short keys: `{ id, g, c, s, n, a, t, r?, i? }` (id, game, category, slug, name, aliases, tags, rarity, image). FlexSearch uses a forward tokenizer on `n`, `a` and `t`; our scorer applies the field weights (name > aliases > tags, 3 : 2 : 1 in spirit) because FlexSearch 0.8 has no per-field boost. Typos are tolerated by an edit-distance-1 pass over names and aliases (tokens of 4+ letters) that runs when fewer than 3 exact hits exist. See D-082 to D-084.
-- Results are grouped by category, with up to 8 per group, showing icon, name, category and game badge. `Enter` opens the item; `Ctrl+Enter` adds it to Compare when the category supports Compare.
+- Results are grouped by category, with up to 8 per group, showing icon, name, category and game badge. `Enter` opens the item; `Ctrl+Enter` (⌘+Enter on a Mac) adds it to Compare when the category supports Compare, keeps the palette open and answers in a status strip inside it (D-094).
 - With no query, it shows **Recent** (the last 8 opened, in localStorage) and **Jump to** (the 8 categories of the current game).
 - Index files: `public/search/d1.json` and `public/search/d2.json` are fetched lazily the first time the palette opens and kept in memory.
 
@@ -33,15 +33,16 @@
 - Every function is pure and unit-tested against at least 3 real `powerTable` points per test item: interpolation must reproduce the documented endpoints exactly.
 
 ## 3. Compare
-- Works for every category except DLCs and Quests (D2 Quests *are* comparable; D1 DLCs are not).
-- Holds 2–4 items of **one** category. Selection lives in `localStorage['dc:compare:{game}']` and in the URL on the compare page.
-- Add from cards ("⇄" checkbox), detail pages, or the search palette. A 5th add shows a toast: "Compare holds up to 4. Remove one first."
-- The table shows sticky item headers (icon, name, rarity, remove ✕). Rows come from the category config's `compareRows`. For numeric rows the best value is highlighted in emerald (higher is better unless the row is `lowerIsBetter`, like cooldown). A "Differences only" toggle hides identical rows. Mobile shows 2 columns with a horizontal scroll and snap.
+- Works for every category except the D1 DLCs (D2 Quests *are* comparable, D-091).
+- Holds 2–4 items of **one** category. Selection lives in `localStorage['dc:compare:{game}']` (`{ category, slugs }`) and in the URL on the compare page (`?c=weapons&items=a,b&diff=true`); the URL wins when it has items, otherwise the stored selection is shown (D-093).
+- Add from cards (⇄ toggle button), detail pages, or the search palette. A 5th add shows a toast: "Compare holds up to 4. Remove one first." Adding an item of another category asks first through a toast action, "Start a new comparison".
+- A sticky **tray** at the bottom of a category page shows the selection (thumbnails you can click to remove, `n/4 selected`, Compare, Clear).
+- The table shows sticky item headers (icon, name, remove ✕) and a sticky label column. Rows come from the category config's `compareRows` (numbers, booleans, text, and lists such as properties and effects) plus an automatic Rarity row. For numeric rows the best value is highlighted (higher is better unless the row says `better: 'low'`, like cooldown) with a ◆ and "(best)" text. A "Differences only" switch hides identical rows. "+ Add item" is a combobox scoped to the category. Mobile shows 2 columns with a horizontal scroll and snap. The category's data is one static file, `public/compare/{game}/{category}.json`, fetched when the category is chosen (D-090).
 
 ## 4. Favorites
 - A ★ toggle on every card and detail page. It's stored in `localStorage['dc:favorites:v1']` as `string[]` of entity ids, through the safe storage wrapper (try/catch; works as a no-op when storage is blocked).
-- The header shows the count; `/favorites` lists them. Backup menu: Export JSON / Import JSON (validated with Zod, merge or replace).
-- Cross-tab sync uses the `storage` event.
+- The header shows the count (live, from the same store); `/favorites` lists them under Dungeons / Dungeons II tabs, grouped by category, as the usual cards (names and icons from `public/search/{game}.json`). Backup menu: Export JSON (`dungeons-codex-favorites.json`) / Import JSON (every id validated with Zod, ids the data no longer has are skipped, then Merge or Replace).
+- Cross-tab sync uses the `storage` event. Storage that is blocked still works for the page view (D-092).
 
 ## 5. Build Planner
 **D1 build slots:** Melee, Ranged, Armor, Artifact ×3. Each gear item has 3 enchantment slots with tiers; there's a power level and an optional build name and notes (≤ 280 chars).

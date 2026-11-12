@@ -4,7 +4,7 @@
  * the filters live in `filters/`. Everything here is plain data, safe to import from the client.
  */
 import { SECTIONS } from './sections';
-import type { CategorySlug, GameId } from './games';
+import { GAMES, type CategorySlug, type GameId } from './games';
 import type { EntityOf } from '@/lib/schemas';
 import { D1_DISPLAY } from './display/d1';
 import { D2_DISPLAY } from './display/d2';
@@ -109,4 +109,12 @@ export function getCategoryConfig(game: GameId, category: string): CategoryConfi
     intro: section.description,
     iconEntityId: section.tileEntityId,
   };
+}
+
+/** The comparable categories of a game, in display order, with their labels. */
+export function comparableCategories(game: GameId): { slug: string; label: string }[] {
+  return (GAMES[game].categories as readonly string[]).flatMap((slug) => {
+    const config = getCategoryConfig(game, slug);
+    return config && config.compareRows.length > 0 ? [{ slug, label: config.label }] : [];
+  });
 }

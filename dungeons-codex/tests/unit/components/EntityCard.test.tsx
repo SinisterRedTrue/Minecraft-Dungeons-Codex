@@ -1,13 +1,18 @@
-import { render, screen, within } from '@testing-library/react';
+import { render as rtlRender, screen, within } from '@testing-library/react';
+import type { ReactElement } from 'react';
 import userEvent from '@testing-library/user-event';
 import { describe, expect, it, vi } from 'vitest';
 import { EntityCard } from '@/components/entity/EntityCard';
 import { EntityTable, firstDirection, nextSort } from '@/components/entity/EntityTable';
 import { QualityBadge } from '@/components/entity/QualityBadge';
 import { SourceCredit } from '@/components/entity/SourceCredit';
+import { ToastProvider } from '@/components/ui/Toast';
 import { cardModel, formatField } from '@/components/entity/format';
 import type { EntityListItem } from '@/lib/schemas';
 import { SORT } from '../lib/filters/fixtures';
+
+/** Cards hold the ★ and ⇄ buttons, and ⇄ reports through a toast, so they need the provider. */
+const render = (ui: ReactElement) => rtlRender(ui, { wrapper: ToastProvider });
 
 const item = {
   id: 'd1:weapons:claymore',
@@ -100,20 +105,33 @@ describe('EntityCard', () => {
     expect(within(card).getByText('Partial')).toBeInTheDocument();
   });
 
-  it('always lays out the corner actions slot, and renders what it is given', () => {
+  it('puts ★ Favorite and ⇄ Compare in the corner slot, and lets a caller replace them', () => {
     const { rerender } = render(<EntityCard item={item} model={model} />);
+    const slot = screen.getByRole('article').querySelector('[data-slot="actions"]');
     expect(
-      screen.getByRole('article').querySelector('[data-slot="actions"]'),
-    ).toBeEmptyDOMElement();
+      within(slot as HTMLElement).getByRole('button', { name: 'Favorite Claymore' }),
+    ).toHaveAttribute('aria-pressed', 'false');
+    expect(
+      within(slot as HTMLElement).getByRole('button', { name: 'Compare Claymore' }),
+    ).toHaveAttribute('aria-pressed', 'false');
     rerender(
       <EntityCard
         item={item}
         model={model}
-        actions={<button type="button" aria-label="Favorite Claymore" />}
+        actions={<button type="button" aria-label="Custom action" />}
       />,
     );
-    expect(screen.getByRole('button', { name: 'Favorite Claymore' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Custom action' })).toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: 'Favorite Claymore' })).not.toBeInTheDocument();
     expect(screen.getAllByRole('link')).toHaveLength(1);
+  });
+
+  it('has no ⇄ button for a category that cannot be compared', () => {
+    render(
+      <EntityCard item={{ ...item, category: 'dlcs', id: 'd1:dlcs:claymore' }} model={model} />,
+    );
+    expect(screen.getByRole('button', { name: 'Favorite Claymore' })).toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: 'Compare Claymore' })).not.toBeInTheDocument();
   });
 
   it('omits empty meta and stats', () => {
@@ -125,7 +143,7 @@ describe('EntityCard', () => {
 
 describe('QualityBadge and SourceCredit', () => {
   it('QualityBadge renders only for partial entities', () => {
-    const { container, rerender } = render(<QualityBadge quality="verified" />);
+    const { container, rerender } = rtlRender(<QualityBadge quality="verified" />);
     expect(container).toBeEmptyDOMElement();
     rerender(<QualityBadge quality="partial" />);
     expect(screen.getByText('Partial')).toBeInTheDocument();

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import type { ReactNode } from 'react';
 import { QualityBadge } from '@/components/entity/QualityBadge';
 import { Badge } from '@/components/ui/Badge';
 import { RarityFrame, type Rarity } from '@/components/ui/RarityFrame';
@@ -10,7 +11,7 @@ const RARITIES: readonly Rarity[] = ['common', 'rare', 'special', 'unique'];
 
 /**
  * Header of a detail page: the 128 px framed icon, the name, rarity / status badges, type chips
- * and a reserved slot for the Favorite / Compare / Planner buttons that Prompt 11 turns on.
+ * and the action buttons (★ Favorite, ⇄ Compare; ⚒ Planner arrives with Prompt 12).
  */
 export function DetailHeader({
   name,
@@ -20,6 +21,7 @@ export function DetailHeader({
   badges,
   quality,
   source,
+  actions,
 }: {
   name: string;
   rarity?: string | undefined;
@@ -28,6 +30,7 @@ export function DetailHeader({
   badges: readonly HeaderBadge[];
   quality: unknown;
   source: { title: string; url: string };
+  actions?: ReactNode;
 }) {
   const frameRarity = RARITIES.find((r) => r === rarity);
   return (
@@ -74,8 +77,9 @@ export function DetailHeader({
           )}
         </ul>
       </div>
-      {/* Prompt 11 mounts ★ Favorite, ⇄ Compare and ⚒ Planner here; the slot is laid out already. */}
-      <div data-slot="detail-actions" className="flex flex-wrap gap-2 sm:self-start" />
+      <div data-slot="detail-actions" className="flex flex-wrap gap-2 sm:self-start">
+        {actions}
+      </div>
     </header>
   );
 }

@@ -3,6 +3,7 @@ import userEvent from '@testing-library/user-event';
 import { NuqsTestingAdapter } from 'nuqs/adapters/testing';
 import { describe, expect, it, vi } from 'vitest';
 import { CategoryBrowser, type CategoryBrowserProps } from '@/components/filters/CategoryBrowser';
+import { ToastProvider } from '@/components/ui/Toast';
 import { TEXT_DEF } from '@/config/filters';
 import type { EntityListItem } from '@/lib/schemas';
 import { DAMAGE, ITEMS, KIND, PROPS, SORT, UNIQUE, WEAPON_TYPE } from '../lib/filters/fixtures';
@@ -33,9 +34,11 @@ const base: CategoryBrowserProps = {
 function setup(searchParams = '', props: Partial<CategoryBrowserProps> = {}) {
   const onUrlUpdate = vi.fn();
   render(
-    <NuqsTestingAdapter searchParams={searchParams} onUrlUpdate={onUrlUpdate} hasMemory>
-      <CategoryBrowser {...base} {...props} />
-    </NuqsTestingAdapter>,
+    <ToastProvider>
+      <NuqsTestingAdapter searchParams={searchParams} onUrlUpdate={onUrlUpdate} hasMemory>
+        <CategoryBrowser {...base} {...props} />
+      </NuqsTestingAdapter>
+    </ToastProvider>,
   );
   const lastQuery = () => onUrlUpdate.mock.lastCall?.[0].queryString as string | undefined;
   const lastHistory = () => onUrlUpdate.mock.lastCall?.[0].options.history as string | undefined;

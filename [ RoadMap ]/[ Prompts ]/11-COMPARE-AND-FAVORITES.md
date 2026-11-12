@@ -16,16 +16,16 @@ Users can compare 2–4 items of one category side by side, and star favorites t
 7. **Tests:** store units (max 4, category switch, cross-tab event, storage blocked); component tests (best-value highlight, differences-only); e2e `compare.spec.ts` (from 08), the favorite part of `detail.spec.ts` (toggle + reload persists), favorites page export/import round trip, and axe on `/d1/compare?…` and `/favorites`.
 
 ## Mini-checklist
-- [ ] SSR-safe compare + favorites stores with cross-tab sync and storage-blocked fallback
-- [ ] ★ / ⇄ actions on cards, detail headers and the palette
-- [ ] Compare tray
-- [ ] Compare page: URL state, best-value, differences only, add picker, mobile snap, empty state
-- [ ] Compare data delivery approach measured + logged
-- [ ] Favorites page with tabs, groups, empty state, export/import
-- [ ] Header count live
-- [ ] No hydration warnings in the console (Playwright console listener asserts none)
-- [ ] Unit, component and e2e tests + axe pass
-- [ ] Visual check of compare and favorites in both themes at 1440/390
+- [x] SSR-safe compare + favorites stores with cross-tab sync and storage-blocked fallback
+- [x] ★ / ⇄ actions on cards, detail headers and the palette
+- [x] Compare tray
+- [x] Compare page: URL state, best-value, differences only, add picker, mobile snap, empty state
+- [x] Compare data delivery approach measured + logged
+- [x] Favorites page with tabs, groups, empty state, export/import
+- [x] Header count live
+- [x] No hydration warnings in the console (Playwright console listener asserts none)
+- [x] Unit, component and e2e tests + axe pass
+- [x] Visual check of compare and favorites in both themes at 1440/390
 
 ## Acceptance
 ```bash

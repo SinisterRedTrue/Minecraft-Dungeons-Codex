@@ -20,3 +20,4 @@ tests/fixtures/
 # Gitignored wiki API cache (repo-root .gitignore), raw responses.
 data/raw-cache/
 public/forge
+public/compare

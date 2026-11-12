@@ -13,15 +13,19 @@ import {
   type ReactNode,
   type RefObject,
 } from 'react';
+import { addToCompareWithFeedback } from '@/components/features/compare/actions';
 import { Badge } from '@/components/ui/Badge';
 import { Button3D } from '@/components/ui/Button3D';
 import { Chip } from '@/components/ui/Chip';
 import { OVERLAY_CLASS } from '@/components/ui/Dialog';
 import { RarityFrame, type Rarity } from '@/components/ui/RarityFrame';
 import { Skeleton } from '@/components/ui/Skeleton';
+import type { ToastOptions } from '@/components/ui/Toast';
+import { isComparable } from '@/config/comparable';
 import { GAME_IDS, GAMES, type GameId } from '@/config/games';
 import { getSection, SECTIONS } from '@/config/sections';
 import { query, type FlexIndex } from '@/lib/search/engine';
+import { MAX_COMPARE, compareStore } from '@/lib/compare/store';
 import { loadFlex, peekFlex } from '@/lib/search/loadIndex';
 import { addRecent, getRecent, type RecentEntry } from '@/lib/search/recent';
 import { entryHref } from '@/lib/search/types';
@@ -106,6 +110,9 @@ function PaletteBody({
   const [loaded, setLoaded] = useState<Loaded | null>(null);
   const [attempt, setAttempt] = useState(0);
   const [recent] = useState(getRecent);
+  // Feedback for Ctrl/⌘+Enter. It lives inside the dialog: the page's toasts sit outside a modal
+  // dialog, where they cannot be read by a screen reader or clicked.
+  const [notice, setNotice] = useState<ToastOptions | null>(null);
 
   const games: readonly GameId[] = scope === 'game' && currentGame ? [currentGame] : GAME_IDS;
   const gamesKey = games.join(',');
@@ -163,9 +170,44 @@ function PaletteBody({
     router.push(href);
   }
 
+  /** Ctrl/⌘+Enter: add the highlighted item to Compare and keep the palette open. */
+  function addHighlightedToCompare() {
+    const entry: RecentEntry | undefined = typed
+      ? groups.flatMap((g) => g.hits).find((hit) => hit.entry.id === highlighted)?.entry
+      : recent.find((r) => `recent:${r.id}` === highlighted);
+    if (!entry) {
+      setNotice({ title: 'Highlight an item first', description: 'Sections cannot be compared.' });
+      return;
+    }
+    if (!isComparable(entry.g, entry.c)) {
+      setNotice({
+        title: `${entry.n} cannot be compared`,
+        description: 'DLCs are not comparable.',
+      });
+      return;
+    }
+    const result = addToCompareWithFeedback(setNotice, {
+      game: entry.g,
+      category: entry.c,
+      slug: entry.s,
+      name: entry.n,
+    });
+    if (result === 'added') {
+      const count = compareStore(entry.g).getSnapshot().slugs.length;
+      setNotice({
+        title: `${entry.n} added to Compare`,
+        description: `${count} of ${MAX_COMPARE} selected`,
+      });
+    } else if (result === 'duplicate') {
+      setNotice({ title: `${entry.n} is already in Compare` });
+    }
+  }
+
   function onKeyDown(e: KeyboardEvent<HTMLDivElement>) {
-    // Ctrl/⌘+Enter is "add to compare" (Prompt 11). Until then it must not open the result.
-    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) e.preventDefault();
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+      e.preventDefault();
+      addHighlightedToCompare();
+    }
   }
 
   return (
@@ -182,7 +224,10 @@ function PaletteBody({
         <Search size={22} aria-hidden="true" className="shrink-0 text-muted" />
         <Command.Input
           value={text}
-          onValueChange={setText}
+          onValueChange={(value) => {
+            setText(value);
+            setNotice(null);
+          }}
           placeholder="Search the Codex…"
           aria-label="Search the Codex"
           autoComplete="off"
@@ -332,12 +377,37 @@ function PaletteBody({
           : ''}
       </div>
 
+      {notice && (
+        <div
+          role="status"
+          className="flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-line bg-surface-2 px-4 py-2.5 text-sm sm:px-5"
+        >
+          <p className="min-w-0 flex-1 text-text">
+            <strong>{notice.title}</strong>
+            {notice.description && <span className="text-muted"> {notice.description}</span>}
+          </p>
+          {notice.action && (
+            <Button3D
+              size="sm"
+              variant="stone"
+              onClick={() => {
+                notice.action?.onClick();
+                setNotice({ title: 'Started a new comparison' });
+              }}
+            >
+              {notice.action.label}
+            </Button3D>
+          )}
+        </div>
+      )}
+
       <div
         aria-hidden="true"
         className="flex items-center gap-4 border-t border-line px-5 py-2.5 font-pixel text-micro tracking-pixel text-muted uppercase pointer-coarse:hidden"
       >
         <span>↑↓ navigate</span>
         <span>↵ open</span>
+        <span>Ctrl ↵ add to compare</span>
         <span>Esc close</span>
       </div>
     </Command>

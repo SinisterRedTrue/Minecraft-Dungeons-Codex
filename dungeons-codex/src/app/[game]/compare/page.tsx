@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { ComingSoon } from '@/components/layout/ComingSoon';
+import { Suspense } from 'react';
+import { CompareSkeleton, CompareView } from '@/components/features/compare/CompareView';
+import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
+import { comparableCategories, getCategoryConfig } from '@/config/categories';
 import { GAMES, isValidGame } from '@/config/games';
 import { pageMetadata } from '@/lib/seo';
 
@@ -25,20 +28,39 @@ export async function generateMetadata({
   });
 }
 
-/** Placeholder until Prompt 11 builds Compare. */
+/**
+ * `/[game]/compare`: a static shell. The selection (`?c=&items=`, or the one stored in the
+ * browser) is read on the client, which fetches the category's compare data.
+ */
 export default async function ComparePage({ params }: { params: Promise<{ game: string }> }) {
   const { game } = await params;
   if (!isValidGame(game)) notFound();
+  const categories = comparableCategories(game).map(({ slug, label }) => ({
+    slug,
+    label,
+    rows: getCategoryConfig(game, slug)?.compareRows ?? [],
+  }));
   return (
-    <ComingSoon
-      crumbs={[
-        { label: 'Home', href: '/' },
-        { label: GAMES[game].name, href: `/${game}` },
-        { label: 'Compare' },
-      ]}
-      title="Compare"
-      heading="Coming in Prompt 11"
-      text="Side-by-side comparison of up to four items is being built."
-    />
+    <div className="mx-auto max-w-site px-[var(--gutter)] py-8 sm:py-12">
+      <Breadcrumbs
+        items={[
+          { label: 'Home', href: '/' },
+          { label: GAMES[game].name, href: `/${game}` },
+          { label: 'Compare' },
+        ]}
+      />
+      <div className="mt-4 mb-8">
+        <h1 className="font-display text-h1 leading-tight font-black tracking-display text-text uppercase">
+          Compare
+        </h1>
+        <p className="mt-2 max-w-prose text-lg text-muted">
+          Put two to four items of one category side by side. The best value of each number is
+          marked.
+        </p>
+      </div>
+      <Suspense fallback={<CompareSkeleton />}>
+        <CompareView game={game} categories={categories} />
+      </Suspense>
+    </div>
   );
 }

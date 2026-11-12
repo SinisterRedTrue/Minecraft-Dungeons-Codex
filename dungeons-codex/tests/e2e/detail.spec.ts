@@ -44,8 +44,10 @@ test.describe('detail page anatomy', () => {
 
     const nav = page.getByRole('navigation', { name: 'Previous and next weapons' });
     await expect(nav.getByRole('link', { name: /Next:/ })).toBeVisible();
-    // The favourite / compare / planner slot is laid out for Prompt 11, but empty.
-    await expect(page.locator('[data-slot="detail-actions"]')).toBeEmpty();
+    // ★ Favorite and ⇄ Compare sit in the header (the planner button arrives with Prompt 12).
+    const actions = page.locator('[data-slot="detail-actions"]');
+    await expect(actions.getByRole('button', { name: 'Favorite Claymore' })).toBeVisible();
+    await expect(actions.getByRole('button', { name: 'Compare Claymore' })).toBeVisible();
   });
 
   test('metadata: canonical, description, Open Graph image and breadcrumb JSON-LD', async ({

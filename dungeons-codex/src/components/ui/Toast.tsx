@@ -13,6 +13,8 @@ export type ToastOptions = {
   variant?: ToastVariant;
   /** Milliseconds; defaults to 4000. */
   duration?: number;
+  /** One button (e.g. "Start a new comparison"); the toast closes after it runs. */
+  action?: { label: string; onClick: () => void };
 };
 
 type ToastItem = ToastOptions & { id: number };
@@ -73,6 +75,15 @@ export function ToastProvider({ children }: { children: ReactNode }) {
                 <ToastPrimitive.Description className="mt-0.5 text-sm text-muted">
                   {t.description}
                 </ToastPrimitive.Description>
+              )}
+              {t.action && (
+                <ToastPrimitive.Action
+                  altText={t.action.label}
+                  onClick={t.action.onClick}
+                  className="mt-3 inline-flex h-11 shrink-0 cursor-pointer items-center rounded-btn border-[1.5px] border-line-strong px-3 text-sm font-bold text-text hover:border-accent hover:text-accent-text"
+                >
+                  {t.action.label}
+                </ToastPrimitive.Action>
               )}
             </div>
             <ToastPrimitive.Close

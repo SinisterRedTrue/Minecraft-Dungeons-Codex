@@ -47,3 +47,23 @@ export async function hasHorizontalScroll(page: Page): Promise<boolean> {
     () => document.documentElement.scrollWidth > document.documentElement.clientWidth,
   );
 }
+
+/**
+ * Collects console errors, hydration warnings and uncaught page errors from now on. Assert the
+ * returned array is empty at the end of a test (Prompt 11: "no hydration warnings").
+ */
+export function collectConsoleProblems(page: Page): string[] {
+  const problems: string[] = [];
+  page.on('console', (m) => {
+    if (m.type() === 'error' || /hydrat/i.test(m.text())) problems.push(m.text());
+  });
+  page.on('pageerror', (e) => problems.push(e.message));
+  return problems;
+}
+
+/** Waits for running CSS transitions and animations to finish, so axe reads final colours, not mid-fade ones. */
+export async function settleAnimations(page: Page): Promise<void> {
+  await page.evaluate(() =>
+    Promise.all(document.getAnimations().map((a) => a.finished.catch(() => undefined))),
+  );
+}

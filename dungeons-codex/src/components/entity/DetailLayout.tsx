@@ -4,6 +4,8 @@ import { Infobox } from '@/components/entity/Infobox';
 import { PrevNext } from '@/components/entity/PrevNext';
 import { RelatedGrid } from '@/components/entity/RelatedGrid';
 import { SourceCredit } from '@/components/entity/SourceCredit';
+import { CompareButton } from '@/components/features/compare/CompareButton';
+import { FavoriteButton } from '@/components/features/favorites/FavoriteButton';
 import { DetailSection } from '@/components/entity/sections/DetailSection';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { ASIDE_SECTIONS } from '@/config/detail';
@@ -55,6 +57,15 @@ export function DetailLayout({
           badges={data.badges}
           quality={entity.quality}
           source={entity.source}
+          actions={
+            <>
+              <FavoriteButton variant="detail" id={entity.id} name={entity.name} />
+              <CompareButton
+                variant="detail"
+                item={{ game, category, slug: entity.slug, name: entity.name }}
+              />
+            </>
+          }
         />
       </div>
 

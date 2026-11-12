@@ -2,6 +2,7 @@ import { render, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { SearchPalette } from '@/components/features/search/SearchPalette';
+import { addToCompare, clearCompare, compareStore } from '@/lib/compare/store';
 import { resetSearchCache } from '@/lib/search/loadIndex';
 import { addRecent, getRecent } from '@/lib/search/recent';
 import { realEntries } from '../helpers/search';
@@ -39,6 +40,7 @@ function setup(props: { currentGame?: 'd1' | 'd2' } = {}) {
 beforeEach(() => {
   resetSearchCache();
   push.mockReset();
+  clearCompare(compareStore('d1'));
 });
 afterEach(() => vi.unstubAllGlobals());
 
@@ -132,7 +134,7 @@ describe('SearchPalette', () => {
     expect(push).toHaveBeenCalledTimes(1);
   });
 
-  it('Ctrl+Enter does not open the result (compare arrives in Prompt 11)', async () => {
+  it('Ctrl+Enter adds the highlighted item to Compare and keeps the palette open', async () => {
     stubFetch();
     const { input, onOpenChange } = setup({ currentGame: 'd1' });
     await screen.findByText('Jump to');
@@ -141,6 +143,62 @@ describe('SearchPalette', () => {
     await userEvent.keyboard('{Control>}{Enter}{/Control}');
     expect(push).not.toHaveBeenCalled();
     expect(onOpenChange).not.toHaveBeenCalled();
+    expect(compareStore('d1').getSnapshot()).toEqual({ category: 'weapons', slugs: ['claymore'] });
+    expect(screen.getByText('Claymore added to Compare')).toBeInTheDocument();
+    expect(screen.getByText('1 of 4 selected')).toBeInTheDocument();
+    // Again: nothing changes, and it says so.
+    await userEvent.keyboard('{Control>}{Enter}{/Control}');
+    expect(screen.getByText('Claymore is already in Compare')).toBeInTheDocument();
+    expect(compareStore('d1').getSnapshot().slugs).toEqual(['claymore']);
+  });
+
+  it('Ctrl+Enter also works on a Recent row, and ⌘+Enter counts too', async () => {
+    stubFetch();
+    addRecent(d1.find((e) => e.s === 'claymore')!);
+    setup({ currentGame: 'd1' });
+    await screen.findByRole('group', { name: 'Recent' });
+    await userEvent.keyboard('{Meta>}{Enter}{/Meta}');
+    expect(compareStore('d1').getSnapshot().slugs).toEqual(['claymore']);
+  });
+
+  it('refuses a fifth item and offers a new comparison for another category', async () => {
+    stubFetch();
+    for (const slug of ['a', 'b', 'c', 'd']) addToCompare(compareStore('d1'), 'weapons', slug);
+    const { input } = setup({ currentGame: 'd1' });
+    await screen.findByText('Jump to');
+    await userEvent.type(input(), 'clay');
+    await screen.findByRole('group', { name: 'Weapons' });
+    await userEvent.keyboard('{Control>}{Enter}{/Control}');
+    expect(screen.getByText('Compare holds up to 4.')).toBeInTheDocument();
+    expect(compareStore('d1').getSnapshot().slugs).toEqual(['a', 'b', 'c', 'd']);
+
+    clearCompare(compareStore('d1'));
+    addToCompare(compareStore('d1'), 'armor', 'x');
+    await userEvent.keyboard('{Control>}{Enter}{/Control}');
+    expect(screen.getByText('You are comparing Armor.')).toBeInTheDocument();
+    expect(compareStore('d1').getSnapshot().category).toBe('armor');
+    await userEvent.click(screen.getByRole('button', { name: 'Start a new comparison' }));
+    expect(compareStore('d1').getSnapshot()).toEqual({ category: 'weapons', slugs: ['claymore'] });
+  });
+
+  it('says so when the highlighted row cannot be compared (a section) or is a DLC', async () => {
+    stubFetch();
+    const { input } = setup({ currentGame: 'd1' });
+    await screen.findByText('Jump to');
+    await userEvent.keyboard('{Control>}{Enter}{/Control}'); // "Jump to" row: a section
+    expect(screen.getByText('Highlight an item first')).toBeInTheDocument();
+    await userEvent.type(input(), 'flames of the nether');
+    await screen.findByRole('group', { name: 'DLCs' });
+    await userEvent.keyboard('{Control>}{Enter}{/Control}');
+    expect(screen.getByText(/cannot be compared/)).toBeInTheDocument();
+    expect(compareStore('d1').getSnapshot().slugs).toEqual([]);
+  });
+
+  it('shows the Ctrl+Enter hint in the footer', async () => {
+    stubFetch();
+    setup({ currentGame: 'd1' });
+    await screen.findByText('Jump to');
+    expect(screen.getByText('Ctrl ↵ add to compare')).toBeInTheDocument();
   });
 
   it('switches scope: This game only searches that game, Both games adds the other', async () => {
