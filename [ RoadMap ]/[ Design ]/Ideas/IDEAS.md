@@ -8,6 +8,8 @@
 - [ ] "Random item" button (dice icon) on each hub.
 - [ ] Rarity-colored particle burst when a Unique is favorited.
 - [ ] Sound toggle with subtle UI clicks (off by default).
+- [ ] Sheet: full swipe-to-dismiss following the finger (v1.0 closes after an 80 px downward drag on the handle).
+- [ ] Tooltip on touch: long-press support beyond focus/hover.
 
 ## Features
 - [ ] D1 ↔ D2 "spiritual successor" links (e.g. a D1 weapon type to its D2 equivalent).

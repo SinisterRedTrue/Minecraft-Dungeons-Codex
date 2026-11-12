@@ -1,1 +1,122 @@
+/* tokens.css is a verbatim copy of [ Design ]/Tokens/tokens.css and stays UNLAYERED. */
+@import './tokens.css';
 @import 'tailwindcss';
+@import './ui.css';
+
+/* Drop Tailwind's default palette so only design tokens can colour anything. */
+@theme {
+  --color-*: initial;
+}
+
+/*
+ * Map the CSS-variable tokens into Tailwind utilities. `inline` keeps utilities pointing at
+ * the live token (`var(--surface-1)`), so theme and per-game accent changes apply without a
+ * rebuild. Where a utility name equals a token name (radius, font, shadow, tracking) the
+ * theme-layer declaration `--radius-card: var(--radius-card)` is shadowed by the unlayered
+ * tokens.css value, so it never becomes a cycle.
+ */
+@theme inline {
+  --color-transparent: transparent;
+  --color-current: currentcolor;
+
+  --color-bg: var(--bg);
+  --color-bg-2: var(--bg-2);
+  --color-surface-1: var(--surface-1);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-surface-edge: var(--surface-edge);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-text: var(--text);
+  --color-muted: var(--text-muted);
+  --color-faint: var(--text-faint);
+  /* Form-control outlines need 3:1 against the page; text-faint is the token that clears it. */
+  --color-control: var(--text-faint);
+  --color-overlay: var(--overlay);
+  --color-nav: var(--nav-bg);
+  --color-torch: var(--torch);
+
+  --color-accent: var(--accent);
+  --color-accent-hi: var(--accent-hi);
+  --color-accent-deep: var(--accent-deep);
+  --color-accent-edge: var(--accent-edge);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-text: var(--accent-text);
+  --color-accent-glow: var(--accent-glow);
+
+  --color-emerald: var(--emerald);
+  --color-frost: var(--frost);
+  --color-gold: var(--gold);
+  --color-gold-hi: var(--gold-hi);
+  --color-gold-deep: var(--gold-deep);
+  --color-gold-edge: var(--gold-edge);
+  --color-gold-ink: var(--gold-ink);
+  --color-redstone: var(--redstone);
+  --color-redstone-edge: var(--redstone-edge);
+  --color-redstone-ink: var(--redstone-ink);
+  --color-redstone-text: var(--redstone-text);
+  --color-soul: var(--soul);
+  --color-soul-edge: var(--soul-edge);
+  --color-soul-text: var(--soul-text);
+
+  --color-rarity-common: var(--rarity-common);
+  --color-rarity-rare: var(--rarity-rare);
+  --color-rarity-special: var(--rarity-special);
+  --color-rarity-unique: var(--rarity-unique);
+
+  --radius-xs: var(--radius-xs);
+  --radius-sm: var(--radius-sm);
+  --radius-btn: var(--radius-btn);
+  --radius-chip: var(--radius-chip);
+  --radius-card: var(--radius-card);
+  --radius-panel: var(--radius-panel);
+  --radius-nav: var(--radius-nav);
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-pixel: var(--font-pixel);
+
+  --text-hero: var(--fs-hero);
+  --text-h1: var(--fs-h1);
+  --text-h2: var(--fs-h2);
+  --text-h3: var(--fs-h3);
+  --text-micro: var(--fs-micro);
+
+  --tracking-display: var(--tracking-display);
+  --tracking-btn: var(--tracking-btn);
+  --tracking-pixel: 0.06em;
+
+  --shadow-soft: var(--shadow-soft);
+  --shadow-card: 0 var(--depth-card) 0 var(--surface-edge), var(--shadow-soft);
+
+  --container-site: var(--maxw);
+  --ease-out: var(--ease-out);
+}
+
+@layer base {
+  html {
+    background: var(--bg);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* One visible ring everywhere; --focus-ring is the token, outline covers elements that own a box-shadow. */
+  :focus-visible {
+    outline: 3px solid var(--focus-color);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}

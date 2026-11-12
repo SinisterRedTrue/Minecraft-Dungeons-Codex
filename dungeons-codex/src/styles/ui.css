@@ -1,0 +1,313 @@
+/*
+ * Component-level CSS that Tailwind utilities can't express cleanly (3D press physics, conic
+ * shimmer, keyframes). Colours come from tokens only. Every animation here is switched off in
+ * the reduced-motion block at the bottom.
+ */
+
+@property --rf-angle {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@layer components {
+  /* ---------- Button3D: civ "b3d" press physics (Design System §2) ---------- */
+  .b3d {
+    --b-from: var(--accent-hi);
+    --b-to: var(--accent);
+    --b-edge: var(--accent-edge);
+    --b-ink: var(--accent-ink);
+    --b-glow: var(--accent-glow);
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: var(--radius-btn);
+    background: linear-gradient(var(--b-from), var(--b-to));
+    color: var(--b-ink);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: var(--tracking-btn);
+    text-decoration: none;
+    white-space: nowrap;
+    user-select: none;
+    cursor: pointer;
+    box-shadow:
+      0 var(--depth-btn) 0 var(--b-edge),
+      0 14px 26px -10px var(--b-glow);
+    transition:
+      transform var(--dur-press),
+      box-shadow var(--dur-press),
+      filter var(--dur-press);
+  }
+  .b3d:hover {
+    transform: translateY(-2px);
+    box-shadow:
+      0 var(--depth-btn-hover) 0 var(--b-edge),
+      0 18px 30px -10px var(--b-glow);
+  }
+  .b3d:active {
+    transform: translateY(3px);
+    box-shadow:
+      0 var(--depth-btn-active) 0 var(--b-edge),
+      0 8px 14px -8px var(--b-glow);
+  }
+  .b3d:disabled,
+  .b3d[aria-disabled='true'] {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+    transform: none;
+    box-shadow: 0 var(--depth-btn) 0 var(--b-edge);
+  }
+
+  .b3d-gold {
+    --b-from: var(--gold-hi);
+    --b-to: var(--gold);
+    --b-edge: var(--gold-edge);
+    --b-ink: var(--gold-ink);
+    --b-glow: color-mix(in srgb, var(--gold-deep) calc(var(--glow-strength) * 100%), transparent);
+  }
+  .b3d-stone {
+    --b-from: var(--surface-3);
+    --b-to: var(--surface-2);
+    --b-edge: var(--surface-edge);
+    --b-ink: var(--text);
+    --b-glow: transparent;
+    border: 1.5px solid var(--line-strong);
+  }
+  .b3d-redstone {
+    --b-from: var(--redstone-hi);
+    --b-to: var(--redstone);
+    --b-edge: var(--redstone-edge);
+    --b-ink: var(--redstone-ink);
+    --b-glow: color-mix(in srgb, var(--redstone) calc(var(--glow-strength) * 100%), transparent);
+  }
+  .b3d-ghost {
+    background: transparent;
+    color: var(--accent-text);
+    border: 2px solid var(--line-strong);
+    box-shadow: none;
+  }
+  .b3d-ghost:hover {
+    transform: none;
+    background: var(--surface-2);
+    border-color: var(--accent-text);
+    box-shadow: none;
+  }
+  .b3d-ghost:active {
+    transform: translateY(1px);
+    box-shadow: none;
+  }
+  .b3d-ghost:disabled,
+  .b3d-ghost[aria-disabled='true'] {
+    box-shadow: none;
+  }
+
+  /* ---------- RarityFrame: framed item slot with an optional unique shimmer ---------- */
+  .rarity-frame {
+    --rf-color: var(--rarity-common);
+    position: relative;
+    display: grid;
+    place-items: center;
+    flex: none;
+    aspect-ratio: 1;
+    border: 2px solid var(--rf-color);
+    border-radius: var(--radius-sm);
+    background: linear-gradient(180deg, var(--surface-2), var(--surface-1));
+    box-shadow:
+      inset 0 4px 10px color-mix(in srgb, var(--surface-edge) 85%, transparent),
+      inset 0 -2px 0 color-mix(in srgb, var(--rf-color) 28%, transparent);
+    transition: box-shadow var(--dur-ui);
+  }
+  .rarity-frame[data-rarity='rare'] {
+    --rf-color: var(--rarity-rare);
+  }
+  .rarity-frame[data-rarity='special'] {
+    --rf-color: var(--rarity-special);
+  }
+  .rarity-frame[data-rarity='unique'] {
+    --rf-color: var(--rarity-unique);
+  }
+  .rarity-frame[data-rarity='unique']::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    padding: 2px;
+    border-radius: inherit;
+    background: conic-gradient(
+      from var(--rf-angle),
+      var(--gold-hi),
+      transparent 25%,
+      var(--gold-deep) 50%,
+      transparent 75%,
+      var(--gold-hi)
+    );
+    mask:
+      linear-gradient(black 0 0) content-box,
+      linear-gradient(black 0 0);
+    mask-composite: exclude;
+    -webkit-mask-composite: xor;
+    animation: rf-spin 6s linear infinite;
+    pointer-events: none;
+  }
+  .rarity-frame img,
+  .rarity-frame svg {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    image-rendering: pixelated;
+  }
+  /* Interactive parents (cards) make the frame glow on hover/focus. */
+  .group:hover .rarity-frame,
+  .group:focus-visible .rarity-frame {
+    box-shadow:
+      inset 0 4px 10px color-mix(in srgb, var(--surface-edge) 85%, transparent),
+      inset 0 -2px 0 color-mix(in srgb, var(--rf-color) 28%, transparent),
+      0 0 18px -2px color-mix(in srgb, var(--rf-color) 60%, transparent);
+  }
+
+  /* ---------- Skeleton ---------- */
+  .skeleton {
+    background: linear-gradient(
+      90deg,
+      var(--surface-2) 0%,
+      var(--surface-3) 50%,
+      var(--surface-2) 100%
+    );
+    background-size: 200% 100%;
+    animation: sk-shimmer 1.4s ease-in-out infinite;
+  }
+
+  /* ---------- Reveal on scroll (hidden only when JS can reveal it again) ---------- */
+  .reveal {
+    transition:
+      opacity var(--dur-reveal) var(--ease-out),
+      transform var(--dur-reveal) var(--ease-out);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+  @media (scripting: enabled) {
+    .reveal:not(.in) {
+      opacity: 0;
+      transform: translateY(var(--reveal-shift));
+    }
+  }
+
+  /* ---------- Overlay widgets (Radix data-state drives the animation) ---------- */
+  .dc-fade[data-state='open'] {
+    animation: dc-fade-in var(--dur-ui) var(--ease-out);
+  }
+  .dc-fade[data-state='closed'] {
+    animation: dc-fade-out var(--dur-ui) var(--ease-out);
+  }
+  .dc-pop[data-state='open'],
+  .dc-pop[data-state='delayed-open'],
+  .dc-pop[data-state='instant-open'] {
+    animation: dc-pop-in var(--dur-ui) var(--ease-out);
+  }
+  .dc-pop[data-state='closed'] {
+    animation: dc-fade-out var(--dur-ui) var(--ease-out);
+  }
+  .dc-sheet[data-state='open'] {
+    animation: dc-sheet-in 280ms var(--ease-out);
+  }
+  .dc-sheet[data-state='closed'] {
+    animation: dc-sheet-out 200ms var(--ease-out);
+  }
+  .dc-toast[data-state='open'] {
+    animation: dc-toast-in var(--dur-ui) var(--ease-out);
+  }
+  .dc-toast[data-state='closed'] {
+    animation: dc-fade-out var(--dur-ui) var(--ease-out);
+  }
+}
+
+/* Optional stone texture: a ~600 byte noise tile at 4% over the surface it decorates. */
+@utility bg-stone {
+  position: relative;
+  isolation: isolate;
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .94 0 0 0 0 .82 0 0 0 .9 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  :root[data-theme='light'] &::before {
+    filter: invert(1);
+  }
+}
+
+@keyframes rf-spin {
+  to {
+    --rf-angle: 360deg;
+  }
+}
+@keyframes sk-shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+@keyframes dc-fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes dc-fade-out {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes dc-pop-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translateY(4px);
+  }
+}
+@keyframes dc-sheet-in {
+  from {
+    transform: translateY(100%);
+  }
+}
+@keyframes dc-sheet-out {
+  to {
+    transform: translateY(100%);
+  }
+}
+@keyframes dc-toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+@keyframes dc-float {
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal:not(.in) {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .skeleton,
+  .rarity-frame[data-rarity='unique']::before,
+  .dc-fade,
+  .dc-pop,
+  .dc-sheet,
+  .dc-toast {
+    animation: none !important;
+  }
+  .b3d,
+  .b3d:hover,
+  .b3d:active,
+  .b3d-ghost:hover {
+    transition: none;
+  }
+}

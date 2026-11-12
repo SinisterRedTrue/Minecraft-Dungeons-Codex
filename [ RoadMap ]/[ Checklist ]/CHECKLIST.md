@@ -43,7 +43,7 @@ Legend: ⬜ Not started · 🟡 In progress · ✅ Done
 | # | Stage | Prompt file | Status | Date | Commit |
 |---|---|---|---|---|---|
 | 01 | Foundation: repo, scaffold, tooling, path test | `01-FOUNDATION.md` | ✅ | 2026-11-12 | see git log |
-| 02 | Design system & UI kit | `02-DESIGN-SYSTEM.md` | ⬜ | | |
+| 02 | Design system & UI kit | `02-DESIGN-SYSTEM.md` | ✅ | 2026-11-12 | see git log |
 | 03 | Data core: schemas, wiki client, parsers | `03-DATA-CORE.md` | ⬜ | | |
 | 04 | Dungeons 1 data (8 categories + images) | `04-DATA-DUNGEONS-1.md` | ⬜ | | |
 | 05 | Dungeons II data (8 categories + images) | `05-DATA-DUNGEONS-2.md` | ⬜ | | |
@@ -58,7 +58,7 @@ Legend: ⬜ Not started · 🟡 In progress · ✅ Done
 | 14 | Deploy readiness & handoff | `14-DEPLOY-AND-HANDOFF.md` | ⬜ | | |
 | H | **Human:** GitHub + Vercel deploy | (below) | ⬜ | | |
 
-**Progress:** 1 / 14 prompts · v1.0 not released
+**Progress:** 2 / 14 prompts · v1.0 not released
 
 ---
 
@@ -79,17 +79,17 @@ Legend: ⬜ Not started · 🟡 In progress · ✅ Done
 - [x] README stub
 
 ### 02: Design system & UI kit
-- [ ] Tokens copied + mapped into Tailwind
-- [ ] Fonts
-- [ ] No-flash theme + toggle + safeStorage
-- [ ] 21 primitives + WaveDivider + Reveal
-- [ ] Utilities tested
-- [ ] Brand assets (original)
-- [ ] `/dev/ui` showcase (404 in prod)
-- [ ] Contrast script passes
-- [ ] Component tests + theme e2e
-- [ ] Visual check (themes × accents × widths)
-- [ ] Reduced motion verified
+- [x] Tokens copied + mapped into Tailwind
+- [x] Fonts
+- [x] No-flash theme + toggle + safeStorage
+- [x] 21 primitives + WaveDivider + Reveal
+- [x] Utilities tested
+- [x] Brand assets (original)
+- [x] `/dev/ui` showcase (404 in prod)
+- [x] Contrast script passes
+- [x] Component tests + theme e2e
+- [x] Visual check (themes × accents × widths)
+- [x] Reduced motion verified
 
 ### 03: Data core
 - [ ] 17 schema modules + registry
@@ -268,5 +268,6 @@ Newest first. Each entry: date · stage · summary · acceptance results (summar
 
 | Date | Stage | Entry |
 |---|---|---|
+| 2026-11-12 | 02 Design system & UI kit | Tokens copied verbatim into `src/styles/tokens.css` and mapped into Tailwind v4 `@theme inline` (palette reset, `rounded-card` etc.); Rubik + Silkscreen via `next/font`; no-flash theme script + `ThemeProvider`/`ThemeToggle` + `safeStorage`; all 21 primitives (Button3D, Card, Panel, Chip, Badge, RarityFrame, StatBar, Slider, RangeSlider, Dialog, Sheet, Tabs, Tooltip, Popover, Select, Checkbox, Switch, Toast+`useToast`, Skeleton, EmptyState, SectionHeading) + WaveDivider, Reveal, Wordmark; `slugify`/`format`/`cn` (+twMerge groups); original logo, favicon, 1200×630 OG PNG (`scripts/og-default.tsx`), `.bg-stone`; `/dev/ui` showcase (404 in production). Contrast script found real failures (light-theme muted/faint/rarity/soul, redstone ink, focus ring, accent-text on `--bg-2`); fixed in both token files. Acceptance: `npm run verify` exit 0 (vitest **68 passed**, 12 files; `src/lib` 100 % lines/branches); `npm run e2e` **18 passed**, 22 skipped (dev-only); `E2E_DEV_SERVER=1 npx playwright test ui-kit` **22 passed** (axe 0 serious/critical in dark/light × D1/D2 on both viewports, press physics 5→7→2 px / −2 / +3 px, dialog focus trap, reduced motion verified: reveal opacity 1, skeleton and unique-shimmer `animation: none`); `npx tsx scripts/contrast.ts` **272/272**. Visual check of `/dev/ui` at 1440 and 390 px, dark/light × D1/D2, plus dialog, select, toast, tooltip, popover and sheet. Decisions D-023…D-031 (token changes, Tailwind mapping, portal `data-game` note for Prompt 06, dev-only e2e mode that Prompt 13 must run). Ideas added: sheet swipe-follow, tooltip long-press. |
 | 2026-11-12 | 01 Foundation | Git repo on `main` (root `.gitignore`); Next.js 16.4.6 app scaffolded at `dungeons-codex/` with exact-pinned deps, TS strict flags, ESLint/Prettier/Vitest/Playwright configs, all npm scripts (data stubs), folder skeleton, MIT + CC BY-NC-SA licenses, README stub, minimal page + `cn()` smoke tests. Acceptance: `npm run verify` exit 0 (tsc, eslint, prettier clean; vitest 1 passed; data:validate empty-ok; next build static `/`); `npm run e2e` 2 passed (chromium + mobile 390×844; H1 font-size 36px proves Tailwind). **Path smoke test passed in place, no relocation.** Decisions D-016…D-022 (Next 16 scaffold changes, @types/node 22, versions). Ideas added: none. |
 | 2026-11-12 | Planning | RoadMap created: Plans (00–10), Design (system, tokens, wireframes, references, ideas), Prompts (00 protocol + 01–14), Checklist. Decisions D-001…D-015 confirmed with the user. |

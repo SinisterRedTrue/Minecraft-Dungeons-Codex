@@ -1,0 +1,183 @@
+/* ==========================================================================
+   Dungeons Codex: Design Tokens (source of truth)
+   Copy this file to dungeons-codex/src/styles/tokens.css in Prompt 02.
+   Components must use ONLY these variables, never raw hex values.
+   Derived from civilization.gg's token structure (cream/ink/gold + 3D edges),
+   re-skinned for Minecraft Dungeons (night stone, emerald, gold, souls).
+   ========================================================================== */
+
+:root {
+  /* ---------- Brand accents (theme-independent) ---------- */
+  --emerald: #3bd16f;
+  --emerald-hi: #6ee79a;
+  --emerald-deep: #22a653;
+  --emerald-edge: #157a3a;
+  --emerald-ink: #06321a;        /* text on emerald buttons */
+  --emerald-text: #116c33;       /* emerald as text on the light theme (edge fails AA on --bg-2) */
+
+  --gold: #ffb627;
+  --gold-hi: #ffd056;
+  --gold-deep: #e8890c;
+  --gold-edge: #c77206;
+  --gold-ink: #5c3a00;           /* text on gold buttons (civ value) */
+
+  --frost: #4fd8eb;              /* Dungeons II accent */
+  --frost-hi: #8cebf7;
+  --frost-deep: #1fa9c2;
+  --frost-edge: #127a8e;
+  --frost-ink: #04303a;
+  --frost-text: #0e6677;         /* frost as text on the light theme */
+
+  --redstone: #e23d28;
+  --redstone-hi: #f27a66;
+  --redstone-edge: #a82818;
+  --redstone-ink: #1a0300;       /* text on redstone buttons (white fails AA on #e23d28) */
+  --soul: #7fa8ff;               /* souls / soul enchantments */
+  --soul-edge: #4a6fd1;
+
+  /* ---------- Rarity ---------- */
+  --rarity-common: #b8b8b8;
+  --rarity-rare: #45b5ff;
+  --rarity-special: #c07bff;     /* D2 only */
+  --rarity-unique: #ff9f1c;
+
+  /* ---------- Shape ---------- */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-btn: 12px;            /* civ buttons */
+  --radius-chip: 999px;
+  --radius-card: 20px;           /* civ cards */
+  --radius-panel: 24px;          /* civ boards / large panels */
+  --radius-nav: 0 0 24px 24px;   /* civ sticky nav */
+
+  /* ---------- 3D depth (the civ "b3d" signature) ---------- */
+  --depth-btn: 5px;
+  --depth-btn-hover: 7px;
+  --depth-btn-active: 2px;
+  --depth-card: 6px;
+
+  /* ---------- Spacing / layout ---------- */
+  --maxw: 1240px;
+  --gutter: 20px;
+  --section-y: 92px;             /* civ section padding */
+  --section-y-tight: 64px;
+  --header-h: 68px;
+
+  /* ---------- Type ---------- */
+  --font-display: var(--font-rubik), system-ui, sans-serif;   /* 800/900, uppercase headings */
+  --font-body: var(--font-rubik), system-ui, sans-serif;      /* 400/500/600 */
+  --font-pixel: var(--font-silkscreen), ui-monospace, monospace; /* badges, stat numbers, tiny labels */
+  --fs-hero: clamp(2.75rem, 6vw + 1rem, 5.5rem);
+  --fs-h1: clamp(2rem, 3vw + 1rem, 3rem);
+  --fs-h2: clamp(1.5rem, 1.5vw + 1rem, 2rem);   /* civ h2 = 32px / 900 */
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-micro: 0.75rem;
+  --tracking-display: 0.02em;
+  --tracking-btn: 0.04em;        /* civ: 0.56px at 14px */
+
+  /* ---------- Motion ---------- */
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);   /* civ reveal easing */
+  --dur-press: 120ms;                             /* civ button transition */
+  --dur-ui: 200ms;
+  --dur-reveal: 600ms;
+  --reveal-shift: 26px;
+}
+
+/* ---------- Dark: "Dungeon Night" (DEFAULT) ---------- */
+:root,
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0f0d0b;
+  --bg-2: #17130f;               /* alternating band */
+  --surface-1: #1f1a15;          /* cards */
+  --surface-2: #29221b;          /* raised / hover / inputs */
+  --surface-3: #342b22;
+  --surface-edge: #0a0806;       /* 3D bottom edge for cards */
+  --line: rgba(255, 240, 210, 0.10);
+  --line-strong: rgba(255, 240, 210, 0.20);
+  --text: #f4ebdd;
+  --text-muted: #b7a890;
+  --text-faint: #8a7c66;
+  --nav-bg: rgba(23, 19, 15, 0.82);
+  --overlay: rgba(5, 4, 3, 0.66);
+  --shadow-soft: 0 20px 40px -24px rgba(0, 0, 0, 0.7);
+  --glow-strength: 0.55;
+  --hero-from: #1a1206;          /* civ hero night */
+  --hero-to: #0f0d0b;
+  --torch: rgba(255, 170, 60, 0.18);
+  --redstone-text: #ff7a66;      /* errors / destructive text, AA on dark surfaces */
+  --soul-text: var(--soul);
+}
+
+/* ---------- Light: "Parchment" (civ cream palette) ---------- */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #fbf4e2;                 /* civ --cream */
+  --bg-2: #f4e7cb;               /* civ --cream-2 */
+  --surface-1: #ffffff;          /* civ --card */
+  --surface-2: #fffcf3;
+  --surface-3: #f4e7cb;
+  --surface-edge: #e8daba;       /* civ --card-edge */
+  --line: #efe3c6;               /* civ --card-line */
+  --line-strong: #dccaa0;
+  --text: #33230f;               /* civ --ink */
+  --text-muted: #74613c;         /* civ --brown, darkened for AA on --bg-2 */
+  --text-faint: #968159;         /* civ --brown-2, darkened to 3:1 for control outlines */
+  --nav-bg: rgba(255, 252, 243, 0.92);
+  --overlay: rgba(51, 35, 15, 0.45);
+  --shadow-soft: 0 20px 40px -24px rgba(51, 35, 15, 0.25);   /* civ */
+  --glow-strength: 0.35;
+  --hero-from: #1a1206;          /* hero stays night in both themes (like civ) */
+  --hero-to: #2a1d0c;
+  --torch: rgba(255, 170, 60, 0.22);
+  --redstone-text: var(--redstone-edge);
+  --soul-text: #3857ab;
+
+  /* rarity text needs darker values on cream for WCAG AA */
+  --rarity-common: #5a5a5a;
+  --rarity-rare: #095c99;
+  --rarity-special: #7438bd;
+  --rarity-unique: #8c4600;
+}
+
+/* ---------- Per-game accent (set on <body data-game>) ---------- */
+:root,
+[data-game="d1"] {
+  --accent: var(--emerald);
+  --accent-hi: var(--emerald-hi);
+  --accent-deep: var(--emerald-deep);
+  --accent-edge: var(--emerald-edge);
+  --accent-ink: var(--emerald-ink);
+  --accent-strong: var(--emerald-text);
+}
+[data-game="d2"] {
+  --accent: var(--frost);
+  --accent-hi: var(--frost-hi);
+  --accent-deep: var(--frost-deep);
+  --accent-edge: var(--frost-edge);
+  --accent-ink: var(--frost-ink);
+  --accent-strong: var(--frost-text);
+}
+
+/* ---------- Derived accent tokens ----------
+   IMPORTANT: custom properties resolve var() where they are DECLARED.
+   They are re-declared on every [data-game] wrapper (the game layout renders
+   <div data-game="d1|d2"> around header + main + footer), so they must not
+   be declared on :root only, or D2 pages would inherit D1's emerald. */
+body,
+[data-game] {
+  --accent-text: var(--accent-hi);                       /* accent used as text, dark theme */
+  --accent-glow: color-mix(in srgb, var(--accent) calc(var(--glow-strength) * 100%), transparent);
+  --focus-color: var(--accent-text);                     /* ring colour; accent itself fails 3:1 on cream */
+  --focus-ring: 0 0 0 3px var(--bg), 0 0 0 6px var(--focus-color);
+}
+:root[data-theme="light"] body,
+:root[data-theme="light"] [data-game] {
+  --accent-text: var(--accent-strong);                   /* contrast-safe on cream */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --dur-reveal: 0ms; --reveal-shift: 0px; --dur-ui: 0ms; }
+}

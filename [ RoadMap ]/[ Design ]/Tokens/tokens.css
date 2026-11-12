@@ -13,6 +13,7 @@
   --emerald-deep: #22a653;
   --emerald-edge: #157a3a;
   --emerald-ink: #06321a;        /* text on emerald buttons */
+  --emerald-text: #116c33;       /* emerald as text on the light theme (edge fails AA on --bg-2) */
 
   --gold: #ffb627;
   --gold-hi: #ffd056;
@@ -25,9 +26,12 @@
   --frost-deep: #1fa9c2;
   --frost-edge: #127a8e;
   --frost-ink: #04303a;
+  --frost-text: #0e6677;         /* frost as text on the light theme */
 
   --redstone: #e23d28;
+  --redstone-hi: #f27a66;
   --redstone-edge: #a82818;
+  --redstone-ink: #1a0300;       /* text on redstone buttons (white fails AA on #e23d28) */
   --soul: #7fa8ff;               /* souls / soul enchantments */
   --soul-edge: #4a6fd1;
 
@@ -103,6 +107,8 @@
   --hero-from: #1a1206;          /* civ hero night */
   --hero-to: #0f0d0b;
   --torch: rgba(255, 170, 60, 0.18);
+  --redstone-text: #ff7a66;      /* errors / destructive text, AA on dark surfaces */
+  --soul-text: var(--soul);
 }
 
 /* ---------- Light: "Parchment" (civ cream palette) ---------- */
@@ -117,8 +123,8 @@
   --line: #efe3c6;               /* civ --card-line */
   --line-strong: #dccaa0;
   --text: #33230f;               /* civ --ink */
-  --text-muted: #7a6748;         /* civ --brown */
-  --text-faint: #a9946f;         /* civ --brown-2 */
+  --text-muted: #74613c;         /* civ --brown, darkened for AA on --bg-2 */
+  --text-faint: #968159;         /* civ --brown-2, darkened to 3:1 for control outlines */
   --nav-bg: rgba(255, 252, 243, 0.92);
   --overlay: rgba(51, 35, 15, 0.45);
   --shadow-soft: 0 20px 40px -24px rgba(51, 35, 15, 0.25);   /* civ */
@@ -126,12 +132,14 @@
   --hero-from: #1a1206;          /* hero stays night in both themes (like civ) */
   --hero-to: #2a1d0c;
   --torch: rgba(255, 170, 60, 0.22);
+  --redstone-text: var(--redstone-edge);
+  --soul-text: #3857ab;
 
   /* rarity text needs darker values on cream for WCAG AA */
-  --rarity-common: #6b6b6b;
-  --rarity-rare: #0b6fb8;
-  --rarity-special: #7a3fc4;
-  --rarity-unique: #b35c00;
+  --rarity-common: #5a5a5a;
+  --rarity-rare: #095c99;
+  --rarity-special: #7438bd;
+  --rarity-unique: #8c4600;
 }
 
 /* ---------- Per-game accent (set on <body data-game>) ---------- */
@@ -142,6 +150,7 @@
   --accent-deep: var(--emerald-deep);
   --accent-edge: var(--emerald-edge);
   --accent-ink: var(--emerald-ink);
+  --accent-strong: var(--emerald-text);
 }
 [data-game="d2"] {
   --accent: var(--frost);
@@ -149,6 +158,7 @@
   --accent-deep: var(--frost-deep);
   --accent-edge: var(--frost-edge);
   --accent-ink: var(--frost-ink);
+  --accent-strong: var(--frost-text);
 }
 
 /* ---------- Derived accent tokens ----------
@@ -160,11 +170,12 @@ body,
 [data-game] {
   --accent-text: var(--accent-hi);                       /* accent used as text, dark theme */
   --accent-glow: color-mix(in srgb, var(--accent) calc(var(--glow-strength) * 100%), transparent);
-  --focus-ring: 0 0 0 3px var(--bg), 0 0 0 6px var(--accent);
+  --focus-color: var(--accent-text);                     /* ring colour; accent itself fails 3:1 on cream */
+  --focus-ring: 0 0 0 3px var(--bg), 0 0 0 6px var(--focus-color);
 }
 :root[data-theme="light"] body,
 :root[data-theme="light"] [data-game] {
-  --accent-text: var(--accent-edge);                     /* contrast-safe on cream */
+  --accent-text: var(--accent-strong);                   /* contrast-safe on cream */
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -23,17 +23,17 @@ Every primitive in Design System §6 is built, themed (dark/light, D1/D2 accent)
 11. **E2E:** `tests/e2e/theme.spec.ts` (from 08) and `tests/e2e/ui-kit.spec.ts` (skipped in production builds; instead check that `/dev/ui` returns 404 in production).
 
 ## Mini-checklist
-- [ ] tokens.css copied verbatim and mapped into Tailwind `@theme`
-- [ ] Rubik + Silkscreen loaded through next/font
-- [ ] No-flash theme script + ThemeToggle + safeStorage (tested)
-- [ ] All 21 UI primitives + WaveDivider + Reveal built to spec
-- [ ] cn / slugify / format utilities, tested
-- [ ] Logo, wordmark, favicon, OG default image (all original art)
-- [ ] `/dev/ui` shows every variant, with theme + accent switches; 404 in production
-- [ ] Contrast script passes for both themes (results logged)
-- [ ] Component tests + theme e2e pass
-- [ ] Visual check of `/dev/ui` in dark/light × D1/D2 × 1440/390 matches Design System §2/§6
-- [ ] Reduced motion turns off reveal, shimmer and skeleton animation (checked with Playwright `reducedMotion: 'reduce'`)
+- [x] tokens.css copied verbatim and mapped into Tailwind `@theme`
+- [x] Rubik + Silkscreen loaded through next/font
+- [x] No-flash theme script + ThemeToggle + safeStorage (tested)
+- [x] All 21 UI primitives + WaveDivider + Reveal built to spec
+- [x] cn / slugify / format utilities, tested
+- [x] Logo, wordmark, favicon, OG default image (all original art)
+- [x] `/dev/ui` shows every variant, with theme + accent switches; 404 in production
+- [x] Contrast script passes for both themes (results logged)
+- [x] Component tests + theme e2e pass
+- [x] Visual check of `/dev/ui` in dark/light × D1/D2 × 1440/390 matches Design System §2/§6
+- [x] Reduced motion turns off reveal, shimmer and skeleton animation (checked with Playwright `reducedMotion: 'reduce'`)
 
 ## Acceptance
 ```bash

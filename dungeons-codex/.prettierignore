@@ -7,3 +7,5 @@ coverage
 playwright-report
 test-results
 AGENTS.md
+# Verbatim copy of [ Design ]/Tokens/tokens.css; scripts/contrast.ts checks they stay identical.
+src/styles/tokens.css
