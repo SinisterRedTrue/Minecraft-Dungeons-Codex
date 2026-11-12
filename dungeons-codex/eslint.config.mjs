@@ -26,6 +26,12 @@ const eslintConfig = defineConfig([
     files: ['scripts/**'],
     rules: { 'no-console': 'off' },
   },
+  {
+    // Tests index into known fixtures (`rows[0]!`) under noUncheckedIndexedAccess; a wrong
+    // assumption there already fails the test with a TypeError. App and script code keep the rule.
+    files: ['tests/**'],
+    rules: { '@typescript-eslint/no-non-null-assertion': 'off' },
+  },
 ]);
 
 export default eslintConfig;

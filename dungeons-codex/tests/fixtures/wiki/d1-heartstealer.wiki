@@ -1,0 +1,319 @@
+{{Infobox Dungeons item
+| title = Heartstealer
+| image = Heartstealer (MCD).png
+| image2 = Heartstealer gear.png
+| imagesize = 150px
+| type = Melee Weapon
+| rarity = Unique
+| stat = melee 
+| stat1 = 11.5
+| stat2 = 1
+| stat3 = 6.5
+| property = {{DuMiscSprite|Regular Bullet}} Powerful pushback<br/>{{DuMiscSprite|Unique Bullet}} Leeches health from mobs
+| enchantment = Leeching
+| damagetype = Melee
+| soulenchantments = ''Does not'' accept soul enchantments<br/>''Does not'' grant soul collection
+| variant = Claymore
+| variant2 = Broadsword
+| variant3 = Great Axeblade
+| variant4 = Frost Slayer
+| runes = {{DuRunes|I|T}}
+| levelid = Claymore_Unique1
+| description = Gifted to one of the Arch-Illager's most distinguished generals upon their conquest of the [[MCD:Squid Coast|Squid Coast]] - this runeblade is infused with dark witchcraft.}}
+
+The '''heartstealer''' is a unique {{MCD|claymore}} variant that can be found within various {{MCD|mission}}s.
+
+==Obtaining==
+===Missions===
+*{{DuLevelLink|Obsidian Pinnacle}}
+*{{DuLevelLink|???}}
+*{{DuLevelLink|Gauntlet of Gales}}
+*{{DuLevelLink|Gale Sanctum}} (DLC)
+*{{DuLevelLink|Tower}}
+
+===Merchants===
+*{{DuEntityLink|Gift Wrapper}}
+*{{DuEntityLink|Mystery Merchant}}
+*{{DuEntityLink|Luxury Merchant}}
+*{{DuEntityLink|Piglin Merchant}}
+
+===Ancients===
+*{{DuEntityLink|First Enchanter}}
+* {{DuEntityLink|Unbreakable One}}
+
+== Usage==
+The heartstealer possesses high power, low speed, and moderate range, and has a combo consisting of a slash, thrust, and a slam. The slash deals the weapon's minimum melee damage, the thrust does about 20% more damage, and the slam does the weapon's maximum melee damage.
+
+===Properties===
+*X melee damage
+*Powerful pushback
+*Leeches health from mobs ({{MCD|Leeching}} tier I)
+
+===Stats===
+{| class="wikitable sortable"
+!Hit number 
+! class="unsortable" |Base damage
+! class="unsortable" |Attack duration
+! class="unsortable" |Area
+! class="unsortable" |Splash damage drop off
+! class="unsortable" |Knockback
+! class="unsortable" |Hitstun
+|- 
+|Hit 1
+|90
+|0.7s
+|70°
+|50%
+|0.8
+|1
+|-
+|Hit 2
+|110
+|0.5s
+|12°
+|40%
+|2
+|1
+|-
+|Hit 3
+|160
+|0.8s
+|180° infront
+|40%
+| 3
+|1
+|-
+|}
+
+''<small>In-game, damage numbers can vary even in the same power level, and may not be exactly as seen below.</small>''
+{| class="wikitable sortable"
+!Power
+! class="unsortable" |Min damage
+! class="unsortable" |Max damage
+|-
+|1
+|18-19
+|32-34
+|-
+|5
+|23-24
+| 40-43
+|-
+|10
+|30-32
+|53-56
+|-
+|15
+|39-41
+|69-72 
+|-
+|20
+|49-52
+|88-92
+|-
+|25
+|62-65
+|111-116
+|-
+|30
+|79-82
+|140-146
+|-
+| 35
+|98-103
+
+|175-183
+|-
+|40
+|122-128
+|218-227
+|-
+|45
+|152-159
+|270-282
+|-
+|50
+|188-196
+|334-349
+|-
+|55
+|232-242
+|413-431
+|-
+|60
+|287-299
+|510-532 
+|-
+|65
+|353-368
+|628-655
+|-
+|70
+|435-453
+|773-806
+|-
+|75
+|535-557
+|950-990
+|-
+|80
+|657-684
+|1168-1217
+|-
+|85
+|807-840
+|1434-1494
+|-
+|90
+| 990-1031
+|1760-1833
+|-
+|95
+|1215-1265
+|2159-2249
+|-
+|100
+|1490-1552
+|2649-2759
+|-
+|105
+|1827-1903
+|3248-3383
+|-
+|108
+|2065-2150
+|3670-3823
+|}
+
+== Sounds ==
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=sfx_item_claymoreBrutalPlace-001_soundWave.ogg
+|sound2=sfx_item_claymoreBrutalPlace-002_soundWave.ogg
+|sound3=sfx_item_claymoreBrutalPlace-003_soundWave.ogg
+|description=Equip
+|id=sfx_item_claymoreBrutalPlace_soundWave
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_item_claymorePlace-001_soundWave.ogg
+|description=Equip
+|id=sfx_item_claymorePlace_soundWave
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_item_claymoreHitSlashMeat-001_soundWave.ogg
+|sound2=sfx_item_claymoreHitSlashMeat-002_soundWave.ogg
+|description=Hit
+|id=sfx_item_claymoreHitSlashMeat_soundWave
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_item_claymoreHitStabMeat-001_soundWave.ogg
+|sound2=sfx_item_claymoreHitStabMeat-002_soundWave.ogg
+|description=Hit
+|id=sfx_item_claymoreHitStabMeat_soundWave
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_item_claymoreSwing-001_soundWave.ogg
+|description=Swing
+|id=sfx_item_claymoreSwing_soundWave
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_item_claymoreSwingPoundMetal-001_soundWave.ogg
+|description=Swing
+|id=sfx_item_claymoreSwingPoundMetal_soundWave
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_item_claymoreSwingPoundMetalResonate-001_soundWave.ogg
+|description=Swing
+|id=sfx_item_claymoreSwingPoundMetalResonate_soundWave
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_item_claymoreSwingStab-001_soundWave.ogg
+|description=Swing
+|id=sfx_item_claymoreSwingStab_soundWave
+}}
+}}
+
+==Data values==
+*In the game files, the heartstealer is referred to internally by the names <code>CrimsonCore</code> and <code>ClayMore_Unique1</code>
+
+== ''Minecraft Dungeons Arcade'' ==
+{{ArcadeNumNavbar
+| PrevNum = 03
+| Previous = Stormlander
+| Current = Heartstealer
+| NextNum = 05
+| Next = Nameless Blade
+}}
+The player equips the heartstealer when the following {{MCD|card}}s are used in ''[[Minecraft Dungeons Arcade]]''.
+
+{{Dungeons Arcade card information
+| name = Heartstealer
+| front = MCDA Card 4 Heartstealer front.jpg
+| back = MCDA Card 4 Heartstealer back.jpg
+| equips = {{DuItemLink|Heartstealer}}
+| series = 1
+| type = Melee
+| rarity = {{DungeonsRarity|unique}}
+| number = 4
+| code 128 = a0030000
+}}
+{{Dungeons Arcade card information
+| name = Qamar
+| front = MCDA Card 115 Qamar front.png
+| back = MCDA Card 115 Qamar back.jpg
+| equips = {{DuItemLink|Heartstealer}}<br>{{DuItemLink|Sugar Rush}}<br>{{DuItemLink|The Troubadour}}<br>{{DuEntityLink|Qamar}}<br>{{DuEntityLink|Guardian Vex}}
+| series = 3
+| type = Hero
+| rarity = N/A
+| number = 115
+| code 128 = c01Q1000
+}}
+
+== Quotes ==
+{{q|This runeblade, once wielded by the {{MCD|Arch-Illager}}'s most distinguished general, is infused with dark magic.|''Minecraft Dungeons Arcade'' card}}
+
+==History==
+{{HistoryTable
+|{{HistoryLine|dungeons}}
+|{{HistoryLine||Dungeons Beta|[[File:Heartstealer (MCD).png|32px]]Added heartstealers.}}
+|{{HistoryLine||1.4.3.0|Now obtainable from the new [[MCD:Camp Merchant|camp merchants]].}}
+|{{HistoryLine||1.12.0.0|Now obtainable from the {{MCD|Tower}}.}}
+|{{HistoryLine|dungeons arcade}}
+|{{HistoryLine||Series 1|Added the Heartstealer card.}}
+}}
+
+== Issues ==
+{{Issue list}}
+
+== Gallery ==
+
+=== Textures ===
+<gallery class="pixel-image">
+File:T CrimsonCore.png|Heartstealer texture file
+File:T CrimsonCore S.png|Heartstealer shadow texture file
+</gallery>
+
+=== Screenshots ===
+<gallery>
+Heartstealer inv MCD.png|Heartstealer within the {{MCD|inventory}}
+</gallery>
+===Other===
+<gallery>
+Nerf Heartstealer.png|[[Nerf]] heartstealer
+</gallery>
+
+== Navigation ==
+{{Navbox Dungeons items|melee}}
+{{Navbox Dungeons Arcade cards|series 1}}
+
+[[Category:Minecraft Dungeons melee weapons]]
+
+[[de:Dungeons:Herzdieb]]
+[[es:Dungeons:Heartstealer]]
+[[fr:Dungeons:Voleur de cœurs]]
+[[ja:Dungeons:心を奪うもの]]
+[[lzh:地下城:竊心劍]]
+[[pl:Minecraft Dungeons:Pożeracz serc]]
+[[pt:Dungeons:Arrebatadora]]
+[[zh:Dungeons:窃心者]]

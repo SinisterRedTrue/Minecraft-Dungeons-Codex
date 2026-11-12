@@ -1,0 +1,96 @@
+{{#invoke:infobox|infobox
+| defaultimagesize = 150px 
+| invimage = none
+| imagecaption = {{#if: {{{image2|}}} | Icon }}
+| image2caption = {{#if: {{{image2|}}} | Sprite }}
+| rows =
+{{infobox row|Type|{{#if: {{{type|}}} |
+{{#switch: {{lc:{{{type}}}}}
+  |melee weapon = [[File:Filter melee default.png|16px|link=|alt=]]
+  |ranged weapon = [[File:Filter ranged default.png|16px|link=|alt=]]
+  |armor = [[File:Filter armour default.png|16px|link=|alt=]]
+  |artifact = [[File:Filter consume default.png|16px|link=|alt=]]
+  |cosmetic = [[File:Filter cosmetic default.png|16px|link=|alt=]]
+  |[[File:Filter item default.png|16px|link=|alt=]]}} [[MCD:{{{type}}}|{{{type}}}]] | ? }} }}
+{{#if: {{{rarity|}}}
+| {{Infobox row|[[MCD:Rarity|Rarity]]|{{DungeonsRarity|{{{rarity}}}}}}}
+}}
+{{#if: {{{stat|}}} | {{
+  #switch: {{lc:{{{stat|}}}}}
+  |melee = 
+  {{#if: {{{stat1|}}} 
+    | {{infobox row|class=nowrap|Power|{{DungeonsStat|{{#expr:{{formatnum:{{{stat1|}}}|R}}/14*100}} }} {{{stat1|}}} }} }}
+  {{#if: {{{stat2|}}} 
+    | {{infobox row|class=nowrap|Speed|{{DungeonsStat|{{#expr:{{formatnum:{{{stat2|}}}|R}}/14*100}} }} {{{stat2|}}} }} }}
+  {{#if: {{{stat3|}}} 
+    | {{infobox row|class=nowrap|Area|{{DungeonsStat|{{#expr:{{formatnum:{{{stat3|}}}|R}}/14*100}} }} {{{stat3|}}} }} }}
+  |ranged = 
+  {{#if: {{{stat1|}}} 
+    | {{infobox row|class=nowrap|Power|{{DungeonsStat|{{#expr:{{formatnum:{{{stat1|}}}|R}}/14*100}} }} {{{stat1|}}} }} }}
+  {{#if: {{{stat2|}}} 
+    | {{infobox row|class=nowrap|Speed|{{DungeonsStat|{{#expr:{{formatnum:{{{stat2|}}}|R}}/14*100}} }} {{{stat2|}}} }} }}
+  {{#if: {{{stat3|}}} 
+    | {{infobox row|class=nowrap|Ammo|{{DungeonsStat|{{#expr:{{formatnum:{{{stat3|}}}|R}}/14*100}} }} {{{stat3|}}} }} }}
+  {{#if: {{{stat4|}}} 
+    | {{infobox row|Charge|{{
+      #switch: {{{stat4|}}}
+      |fast = Fast
+      |slow = Slow
+    }} }} }}
+  }}
+}}
+{{#if: {{{property|}}} 
+| {{infobox row|class=list-style-none|label=Properties|field={{{property|}}} }}
+}}
+{{#if: {{{enchantment|}}} 
+| {{infobox row|class=list-style-none|label=Enchantment|field=
+{{DuEnchantmentLink|{{{enchantment|}}} }}
+{{#if: {{{enchantment2|}}}
+| <br/>{{DuEnchantmentLink|{{{enchantment2|}}} }}
+}} }}
+}}
+{{#if: {{{damagetype|}}} 
+| {{infobox row|class=list-style-none|label=Damage type|field={{{damagetype|}}}}}
+}}
+{{#if: {{{combo|}}}
+| {{infobox row|class=list-style-none|label=Combo|field={{{combo|}}} }}
+}}
+{{#if: {{{soulenchantments|}}}
+| {{infobox row|class=list-style-none|label=Souls|field={{{soulenchantments|?}}} }}
+}}
+{{#if: {{{runes|}}}
+        | {{infobox row
+		| class = list-style-none
+		| label = [[MCD:Ancient Offering|Runes]]
+		| field = {{{runes|}}}
+	}}
+}}
+{{#if: {{{variant|}}} 
+| {{infobox row|class=list-style-none|label=Variants|field=
+* {{DuItemLink|{{{variant|}}}}}
+{{#if: {{{variant2|}}} | 
+* {{DuItemLink|{{{variant2|}}}}}
+}}
+{{#if: {{{variant3|}}} | 
+* {{DuItemLink|{{{variant3|}}}}}
+}}
+{{#if: {{{variant4|}}} | 
+* {{DuItemLink|{{{variant4|}}}}}
+}} }}
+}}
+{{#if: {{{missions|}}} 
+| {{infobox row|class=list-style-none|label=[[MCD:Mission|Missions]] found in|field={{{missions|}}}}}
+}}
+{{#if: {{{flavor|}}} | 
+{{infobox row
+  | class = list-style-none
+  | field = <div style="text-align:center;">{{#if: {{{flavorlabel|}}} | '''{{{flavorlabel}}}''' | '''In-game flavor text'''}}<br>{{{flavor}}}</div>
+}} }}
+{{#if: {{{codename|}}} |{{Infobox row|Codename|{{{codename|}}}}}}}
+| footer =
+{{#if: {{{description|}}} | {{#if: {{{desclabel|}}} | '''{{{desclabel}}}''' | '''In-game description'''}}<br>{{{description}}} }}
+}}<noinclude>
+{{Documentation}}
+[[Category:Templates with inline CSS colors]]
+<!-- Please put the category/language link on the documentation page -->
+</noinclude>

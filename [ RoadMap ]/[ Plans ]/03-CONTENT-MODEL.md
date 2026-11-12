@@ -2,7 +2,7 @@
 
 These definitions are **normative**. `src/lib/schemas/` must implement them exactly in Zod. If the real wiki data needs a change (a missing field, or a different enum value), update this file first, then log it in `10-DECISIONS-LOG.md`.
 
-Legend: **R** = required (validation fails without it). **O** = optional (may be absent; the UI must handle that). Enums marked *(open)* are built from the data during sync and stored in `data/vocab/`, and the schema checks values against the vocab file.
+Legend: **R** = required (validation fails without it). **O** = optional (may be absent; the UI must handle that). Enums marked *(open)* are built from the data during sync and stored in `data/vocab/{game}/enums.json` (`{ "weaponType": ["sword", …], … }`), and the schema checks values against that file; a field with no entry accepts any non-empty string (D-032).
 
 ## 1. Shared base: `BaseEntity`
 | Field | Type | R/O | Notes |
@@ -38,7 +38,7 @@ D2: weapons | armor | enchantments | artifacts | talismans | quests | mobs | loc
 | `isUnique` | `boolean` | R | From the "Unique" column |
 | `baseItemId` | `string` | O | For unique variants: id of the base item |
 | `variantIds` | `string[]` | R | For base items: unique variants (may be empty) |
-| `stats` | `{ damage?: number; speed?: number; area?: number; [k: string]: number \| undefined }` | O | From `{{Infobox Dungeons item}}` `stat1..3`. **Prompt 03 must read `Template:Infobox Dungeons item` to map `stat1/2/3` to labels for melee vs ranged, and record that mapping here.** |
+| `stats` | `{ damage?: number; speed?: number; area?: number; [k: string]: number \| undefined }` | O | From `{{Infobox Dungeons item}}` `stat1..3` (`scripts/wiki/statMap.ts`, D-034). The `stat` param picks the labels: **`stat = melee`** → `stat1` "Power" → `damage`, `stat2` "Speed" → `speed`, `stat3` "Area" → `area`; **`stat = ranged`** → `stat1` "Power" → `damage`, `stat2` "Speed" → `speed`, `stat3` "Ammo" → `ammo`. Values are bar ratings on a **0–14** scale (the template draws `value / 14 × 100 %`). Ranged `stat4` is "Charge" (`fast` \| `slow`), not numeric, so it is not stored in `stats`. Armor has no stat bars. Checked against the rendered infoboxes of Claymore, Katana and Hunting Bow |
 | `properties` | `string[]` | R | Raw property bullets (e.g. "Dual wield", "Spin attack") |
 | `comboLength` | `number` | O | Melee only |
 | `ammo` | `string` | O | Ranged only, e.g. `arrows` |
@@ -47,7 +47,7 @@ D2: weapons | armor | enchantments | artifacts | talismans | quests | mobs | loc
 | `acceptsSoulEnchantments` | `boolean` | R | |
 | `locations` | `string[]` (location ids, or raw text if unresolved) | R | Where it drops |
 | `isSeasonal` | `boolean` | R | Seasonal Trial reward |
-| `powerTable` | `{ power: number; min: number; max: number }[]` | O | From the item page's power/damage table, if it has one; feeds the Power Forge |
+| `powerTable` | `{ power: number; min: number; max: number }[]` | O | From the item page's `Power \| Min damage \| Max damage` table, if it has one; feeds the Power Forge. Each wiki damage cell is a range (`18-19`), so `min` = low end of "Min damage" and `max` = high end of "Max damage" (Claymore power 1: `18-19` / `32-34` → `{1, 18, 34}`; D-035) |
 
 ### 3.2 `D1Armor` (category `armor`)
 | Field | Type | R/O | Notes |
@@ -174,10 +174,10 @@ Same shape as `D1Artifact`, with `artifactType` *(open)*. Prompt 05 checks it ag
 Same shapes as `D1Mob` / `D1Location`, with `*Type` fields *(open)*. Prompt 05 checks them against `Dungeons_II:Mob` and `Dungeons_II:Location` and records the normalized enums here.
 
 ## 5. Cross-reference rules (`npm run data:validate` enforces them)
-- Every id in `related`, `baseItemId`, `variantIds`, `builtInEnchantments[].enchantmentId`, `builtInto`, `locationIds`, `mobIds`, `itemIds` and `dlc` must resolve to an existing entity in the **same game**. Values in `locations`/`drops` may be raw text **only if** they're listed in the coverage report under "Unresolved references".
+- Every id in `related`, `baseItemId`, `variantIds`, `builtInEnchantments[].enchantmentId`, `builtInto`, `locationIds`, `mobIds`, `itemIds`, `secretOf` and `dlc` (D1 only; D2 `dlc` is free text) must resolve to an existing entity in the **same game**. Values in `locations`/`drops` (and D2 quest `rewards[].items`/`randomFrom`, which are also "ids or text") may be raw text **only if** they're listed in the coverage report under an "Unresolved references" heading, one bullet each, value in backticks: ``- `Gift Wrapper` — used by d1:weapons:claymore`` (D-037).
 - Every `image.src` must exist on disk.
 - `id` values are unique across the game; slugs are unique within a category.
-- Generated JSON is sorted by `name` (case-insensitive) for stable diffs.
+- Generated JSON is sorted by `name` (case-insensitive) for stable diffs, using `compareByName` from `scripts/lib/data-files.ts` (ties: exact name, then id).
 
 ## 6. `EntityListItem` projection
 For each category, `src/config/categories.ts` declares `listFields` (the fields needed by its cards, table columns and filters). The loader `getListItems(game, category)` returns `Pick<Entity, 'id'|'slug'|'name'|'image'|'rarity'|'dlc'|'tags'|'quality'> & listFields`.

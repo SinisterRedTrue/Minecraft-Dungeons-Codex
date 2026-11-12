@@ -1,0 +1,108 @@
+{{documentation header}}
+<!-- documentation here -->
+This template provides a uniform infobox for all [[MCD:Item|''Minecraft Dungeons'' item]] pages.
+
+== Usage ==
+The parameter list below may need updating.
+<pre style="display:table">
+{{Infobox Dungeons item
+|title=
+|image=
+|imagesize=
+|image2=
+|image2size=
+|image3=
+|image3size=
+|type=
+|rarity=
+|stat=
+|stat1=
+|stat2=
+|stat3=
+|property=
+|enchantment=
+|soulenchantments=
+|runes=
+|flavorlabel=
+|flavor=
+|desclabel=
+|description=
+}}</pre>
+
+{| class="wikitable"
+! Parameter
+! Function
+! Default/Example value
+|-
+| <code>title</code> || Optional value to use a different title instead of the page name || <code><nowiki>{{BASEPAGENAME}}</nowiki></code>
+|-
+| <code>image</code> || Image of the item (should be approx. 160x160px) || <code><nowiki>{{{title}}}.png</nowiki></code> if it exists, otherwise [[:File:No image.svg|No image.svg]] (linking to the page where to upload the missing image)
+|-
+| <code>imagesize</code> || Adjusts the size of the image || 160px
+|-
+| <code>image2</code> || Image of the item (should be approx. 160x160px) || ''None''
+|-
+| <code>image2size</code> || Adjusts the size of the second image || 160px
+|-
+| <code>image3</code> || Image of the item (should be approx. 160x160px) || ''None''
+|-
+| <code>image3size</code> || Adjusts the size of the third image || 160px
+|-
+| <code>type</code> || The type of the item || ?
+|-
+| <code>rarity</code> || The item's rarity || Common
+|-
+| <code>stat</code> || Which type of stats the item has, this changes what the labels for the stats are named || Melee/Ranged
+|-
+| <code>stat1</code> || The item's first stat bar || 1-14
+|-
+| <code>stat2</code> || The item's second stat bar || 1-14
+|-
+| <code>stat3</code> || The item's third stat bar || 1-14
+|-
+| <code>property</code> || The item's natural property || None
+|-
+| <code>enchantment</code> || The item's natural enchantment || None
+|-
+| <code>soulenchantments</code> || Whether or not the item can have soul enchantments || ?
+|-
+| <code>runes</code> || The item's runes || ?
+|-
+| <code>flavorlabel</code> || The flavor text's label. || '''In-game flavor text'''
+|-
+| <code>flavor</code> || The item's in-game flavor text. || ?
+|-
+| <code>desclabel</code> || The description's label. || '''In-game description'''
+|-
+| <code>description</code> || The item's in-game description. || ?
+|}
+
+== See also ==
+{{infobox see also}}
+
+<includeonly>
+<!-- template categories/interwikis here -->
+[[Category:Infobox templates|D]]
+
+[[de:Vorlage:Infobox-Gegenstand/Dungeons]]
+[[es:Plantilla:Infobox Dungeons objeto]]
+[[fr:Modèle:Infobox Dungeons objet]]
+[[ja:テンプレート:Infobox Dungeons item]]
+[[lzh:模板:Infobox Dungeons item]]
+[[pl:Szablon:Przedmiot Dungeons]]
+[[pt:Predefinição:Infobox de item do Dungeons]]
+[[ru:Шаблон:Предмет Dungeons]]
+[[zh:Template:Infobox Dungeons item]]
+</includeonly>
+<noinclude>
+<!-- documentation categories/interwikis here -->
+[[de:Vorlage:Infobox-Gegenstand/Dungeons/Dokumentation]]
+[[es:Plantilla:Infobox Dungeons objeto/doc]]
+[[fr:Modèle:Infobox Dungeons objet/doc]]
+[[ja:テンプレート:Infobox Dungeons item/doc]]
+[[lzh:模板:Infobox Dungeons item/doc]]
+[[pl:Szablon:Przedmiot Dungeons/opis]]
+[[pt:Predefinição:Infobox de item do Dungeons/doc]]
+[[ru:Шаблон:Предмет Dungeons/док]]
+[[zh:Template:Infobox Dungeons item/doc]]
+</noinclude>

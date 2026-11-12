@@ -1,0 +1,137 @@
+[
+  {
+    "file": "d1-weapon-list.html",
+    "title": "Dungeons:Weapon",
+    "url": "https://minecraft.wiki/w/Dungeons:Weapon",
+    "revisionId": 3873343,
+    "fetchedAt": "2026-11-12T03:05:10.006Z",
+    "kind": "html",
+    "bytes": 173394
+  },
+  {
+    "file": "d1-armor-list.html",
+    "title": "Dungeons:Armor",
+    "url": "https://minecraft.wiki/w/Dungeons:Armor",
+    "revisionId": 3873342,
+    "fetchedAt": "2026-11-12T03:05:10.972Z",
+    "kind": "html",
+    "bytes": 173594
+  },
+  {
+    "file": "d2-weapon-list.html",
+    "title": "Dungeons II:Weapon",
+    "url": "https://minecraft.wiki/w/Dungeons_II:Weapon",
+    "revisionId": 3890175,
+    "fetchedAt": "2026-11-12T03:05:11.951Z",
+    "kind": "html",
+    "bytes": 66684
+  },
+  {
+    "file": "d2-talisman-list.html",
+    "title": "Dungeons II:Talisman",
+    "url": "https://minecraft.wiki/w/Dungeons_II:Talisman",
+    "revisionId": 3892219,
+    "fetchedAt": "2026-11-12T03:05:12.953Z",
+    "kind": "html",
+    "bytes": 22865
+  },
+  {
+    "file": "d1-claymore.html",
+    "title": "Dungeons:Claymore",
+    "url": "https://minecraft.wiki/w/Dungeons:Claymore",
+    "revisionId": 3882923,
+    "fetchedAt": "2026-11-12T03:05:07.005Z",
+    "kind": "html",
+    "bytes": 30367
+  },
+  {
+    "file": "d1-katana.html",
+    "title": "Dungeons:Katana",
+    "url": "https://minecraft.wiki/w/Dungeons:Katana",
+    "revisionId": 3883027,
+    "fetchedAt": "2026-11-12T03:05:08.244Z",
+    "kind": "html",
+    "bytes": 35853
+  },
+  {
+    "file": "d1-hunting-bow.html",
+    "title": "Dungeons:Hunting Bow",
+    "url": "https://minecraft.wiki/w/Dungeons:Hunting_Bow",
+    "revisionId": 3834697,
+    "fetchedAt": "2026-11-12T03:05:09.206Z",
+    "kind": "html",
+    "bytes": 23381
+  },
+  {
+    "file": "d1-champions-armor.html",
+    "title": "Dungeons:Champion's Armor",
+    "url": "https://minecraft.wiki/w/Dungeons:Champion's_Armor",
+    "revisionId": 3883120,
+    "fetchedAt": "2026-11-12T03:05:14.257Z",
+    "kind": "html",
+    "bytes": 20238
+  },
+  {
+    "file": "template-infobox-dungeons-item.wiki",
+    "title": "Template:Infobox Dungeons item",
+    "url": "https://minecraft.wiki/w/Template:Infobox_Dungeons_item",
+    "revisionId": 3751922,
+    "fetchedAt": "2026-11-12T03:07:18.759Z",
+    "kind": "wikitext",
+    "bytes": 3682
+  },
+  {
+    "file": "template-infobox-dungeons-item-doc.wiki",
+    "title": "Template:Infobox Dungeons item/doc",
+    "url": "https://minecraft.wiki/w/Template:Infobox_Dungeons_item/doc",
+    "revisionId": 3843761,
+    "fetchedAt": "2026-11-12T03:07:18.759Z",
+    "kind": "wikitext",
+    "bytes": 3368
+  },
+  {
+    "file": "d1-claymore.wiki",
+    "title": "Dungeons:Claymore",
+    "url": "https://minecraft.wiki/w/Dungeons:Claymore",
+    "revisionId": 3882923,
+    "fetchedAt": "2026-11-12T03:07:18.759Z",
+    "kind": "wikitext",
+    "bytes": 5659
+  },
+  {
+    "file": "d1-katana.wiki",
+    "title": "Dungeons:Katana",
+    "url": "https://minecraft.wiki/w/Dungeons:Katana",
+    "revisionId": 3883027,
+    "fetchedAt": "2026-11-12T03:07:18.759Z",
+    "kind": "wikitext",
+    "bytes": 6771
+  },
+  {
+    "file": "d1-hunting-bow.wiki",
+    "title": "Dungeons:Hunting Bow",
+    "url": "https://minecraft.wiki/w/Dungeons:Hunting_Bow",
+    "revisionId": 3834697,
+    "fetchedAt": "2026-11-12T03:07:18.759Z",
+    "kind": "wikitext",
+    "bytes": 4390
+  },
+  {
+    "file": "d1-champions-armor.wiki",
+    "title": "Dungeons:Champion's Armor",
+    "url": "https://minecraft.wiki/w/Dungeons:Champion's_Armor",
+    "revisionId": 3883120,
+    "fetchedAt": "2026-11-12T03:07:18.759Z",
+    "kind": "wikitext",
+    "bytes": 4059
+  },
+  {
+    "file": "d1-heartstealer.wiki",
+    "title": "Dungeons:Heartstealer",
+    "url": "https://minecraft.wiki/w/Dungeons:Heartstealer",
+    "revisionId": 3882929,
+    "fetchedAt": "2026-11-12T03:07:18.759Z",
+    "kind": "wikitext",
+    "bytes": 6824
+  }
+]

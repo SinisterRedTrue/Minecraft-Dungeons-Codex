@@ -9,3 +9,9 @@ test-results
 AGENTS.md
 # Verbatim copy of [ Design ]/Tokens/tokens.css; scripts/contrast.ts checks they stay identical.
 src/styles/tokens.css
+
+# Saved wiki responses; tests compare them byte-for-byte with what the wiki sent.
+tests/fixtures/
+
+# Gitignored wiki API cache (repo-root .gitignore), raw responses.
+data/raw-cache/

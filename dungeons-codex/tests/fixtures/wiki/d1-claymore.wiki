@@ -1,0 +1,274 @@
+{{MCD switch|weapon}}{{Infobox Dungeons item
+| title = Claymore
+| image = Claymore (MCD).png
+| image2 = Claymore Sprite MCD.png
+| imagesize = 150px
+| type = Melee weapon
+| rarity = 
+* Common
+* Rare
+| stat = melee
+| stat1 = 11.5
+| stat2 = 1
+| stat3 = 6.5
+| property = {{DuMiscSprite|Regular Bullet}} Powerful pushback
+| damagetype = Melee
+| soulenchantments = ''Does not'' accept soul enchantments<br/>''Does not'' grant soul collection
+| variant = Broadsword
+| variant2 = Heartstealer
+| variant3 = Great Axeblade
+| variant4 = Frost Slayer
+| runes = {{DuRunes|T}}
+| levelid = Claymore
+| description = A massive sword that seems impossibly heavy to lift yet rests easily in a just warrior's hands.}}
+
+A '''claymore''' is a melee weapon that can be found within various {{MCD|mission}}s. Its unique variants are the {{MCD|broadsword}}, the {{MCD|heartstealer}}, the {{MCD|great axeblade}}, and the {{MCD|frost slayer}}. It is the only item in the game to have 4 unique variations.
+
+==Obtaining==
+===Missions===
+*{{DuLevelLink|Obsidian Pinnacle}}
+*{{DuLevelLink|???}}
+*{{DuLevelLink|Gauntlet of Gales}}
+*{{DuLevelLink|Gale Sanctum}} (DLC)
+*{{DuLevelLink|Tower}}
+
+===Merchants===
+*{{DuEntityLink|Village Merchant}}
+*{{DuEntityLink|Gift Wrapper}}
+*{{DuEntityLink|Mystery Merchant}}
+*{{DuEntityLink|Luxury Merchant}}
+*{{DuEntityLink|Piglin Merchant}}
+
+===Ancients===
+*{{DuEntityLink|First Enchanter}}
+*{{DuEntityLink|Unbreakable One}}
+
+==Usage==
+Claymores possess high power, low speed, and moderate range, and has a combo consisting of a slash, thrust, and a slam. The slash deals the weapon's minimum melee damage, the thrust does about 20% more damage, and the slam does the weapon's maximum melee damage.
+
+===Properties===
+*X melee damage
+*Powerful pushback
+
+===Stats===
+{| class="wikitable sortable"
+!Hit number
+! class="unsortable" |Base damage
+! class="unsortable" |Attack duration
+! class="unsortable" |Area
+! class="unsortable" | Splash damage drop off
+! class="unsortable" |Knockback
+! class="unsortable" |Hitstun
+|- 
+|Hit 1
+|90
+|0.7s
+|70°
+|50%
+|0.8
+|1
+|-
+|Hit 2
+|110
+|0.5s
+|12°
+|40%
+|2
+|1
+|-
+|Hit 3
+|160
+|0.8s
+|180° infront
+|40%
+| 3
+|1
+|-
+|}
+
+''<small>In-game, damage numbers can vary even in the same power level, and may not be exactly as seen below.</small>''
+{| class="wikitable sortable"
+!Power
+! class="unsortable" |Min damage
+! class="unsortable" |Max damage
+|-
+|1
+|18-19
+|32-34
+|-
+|5
+|23-24
+|40-43
+|-
+|10
+|30-32
+|53-56
+|-
+|15
+|39-41
+|69-72
+|-
+|20
+|49-52
+|88-92
+|-
+|25
+|62-65
+|111-116
+|-
+|30
+|79-82
+|140-146
+|-
+|35
+|98-103
+|175-183
+|-
+|40
+|122-128
+|218-227
+|-
+|45
+|152-159
+|270-282
+|-
+|50
+|188-196
+|334-349
+|-
+|55
+|232-242
+|413-431
+|-
+|60
+|287-299
+|510-532
+|-
+|65
+|353-368
+|628-655
+|-
+|70
+|435-453
+|773-806
+|-
+|75
+|535-557
+|950-990
+|-
+|80
+|657-684
+|1168-1217
+|-
+|85
+|807-840
+|1434-1494
+|-
+|90
+|990-1031
+|1760-1833
+|-
+|95
+|1215-1265
+|2159-2249
+|-
+|100
+|1490-1552
+|2649-2759
+|-
+|105
+|1827-1903
+|3248-3383
+|-
+|108
+|2065-2150
+|3670-3823
+|}
+
+== Sounds ==
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=sfx_item_claymoreBrutalPlace-001_soundWave.ogg
+|sound2=sfx_item_claymoreBrutalPlace-002_soundWave.ogg
+|sound3=sfx_item_claymoreBrutalPlace-003_soundWave.ogg
+|description=Equip
+|id=sfx_item_claymoreBrutalPlace_soundWave
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_item_claymorePlace-001_soundWave.ogg
+|description=Equip
+|id=sfx_item_claymorePlace_soundWave
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_item_claymoreHitSlashMeat-001_soundWave.ogg
+|sound2=sfx_item_claymoreHitSlashMeat-002_soundWave.ogg
+|description=Hit
+|id=sfx_item_claymoreHitSlashMeat_soundWave
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_item_claymoreHitStabMeat-001_soundWave.ogg
+|sound2=sfx_item_claymoreHitStabMeat-002_soundWave.ogg
+|description=Hit
+|id=sfx_item_claymoreHitStabMeat_soundWave
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_item_claymoreSwing-001_soundWave.ogg
+|description=Swing
+|id=sfx_item_claymoreSwing_soundWave
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_item_claymoreSwingPoundMetal-001_soundWave.ogg
+|description=Swing
+|id=sfx_item_claymoreSwingPoundMetal_soundWave
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_item_claymoreSwingPoundMetalResonate-001_soundWave.ogg
+|description=Swing
+|id=sfx_item_claymoreSwingPoundMetalResonate_soundWave
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_item_claymoreSwingStab-001_soundWave.ogg
+|description=Swing
+|id=sfx_item_claymoreSwingStab_soundWave
+}}
+}}
+
+==History ==
+{{HistoryTable
+|{{HistoryLine|dungeons}}
+|{{HistoryLine||Dungeons Beta|[[File:Claymore (MCD).png|32px]] [[File:Claymore Sprite MCD.png|32px]] Added claymores.}}
+|{{HistoryLine||?|Description changed from "The greatblade of the [[MCD:Highblock Halls|Highblock]] [[MCD:Royal Guard|royal guard]]. Forged to dispense the {{MCD|Arch-Illager}}'s cruel justice." to "A massive sword that seems impossibly heavy yet rests easily in a just warrior's hands."}}
+|{{HistoryLine||1.4.3.0|Now obtainable from the new [[MCD:Camp Merchant|camp merchants]].}}
+|{{HistoryLine||1.12.0.0|Now obtainable from the {{MCD|Tower}}.}}
+}}
+
+== Issues ==
+{{Issue list}}
+
+== Gallery ==
+
+=== Textures ===
+<gallery class="pixel-image">
+File:T Claymore.png|Texture file of the claymore
+File:T Claymore S.png|Shadow texture file of the claymore
+</gallery>
+
+=== Screenshots ===
+<gallery>
+Claymore inv MCD.png|A claymore within the {{MCD|inventory}}
+Claymore old inventory.png|The old description of claymores
+</gallery>
+
+== Navigation ==
+{{Navbox Dungeons items|melee}}
+
+[[Category:Minecraft Dungeons melee weapons]]
+
+[[de:Dungeons:Claymore]]
+[[es:Dungeons:Claymore]]
+[[fr:Dungeons:Claymore]]
+[[ja:Dungeons:クレイモア]]
+[[lzh:地下城:闊劍]]
+[[pt:Dungeons:Claymore]]
+[[zh:Dungeons:阔剑]]

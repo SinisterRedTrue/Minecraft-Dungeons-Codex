@@ -84,10 +84,10 @@ Overrides are applied after parsing and before validation, and they're recorded 
 - Every page that shows an image credits its source page (see `09-LEGAL-AND-ATTRIBUTION.md`).
 
 ## Coverage report (`data/reports/coverage-{game}.md`)
-For each category it lists: expected count vs. parsed count vs. valid count; dropped records with reasons; `partial` entities and their missing fields; unresolved references; slug collisions; missing images; and overrides applied. **Gate:** valid/expected ≥ 98 % per category. A category below the gate is not done. Fix the parser, or add overrides with sources, until it passes.
+For each category it lists: expected count vs. parsed count vs. valid count; dropped records with reasons; `partial` entities and their missing fields; unresolved references; slug collisions; missing images; and overrides applied (including overrides whose slug matched nothing, from `applyOverrides().unmatched`). Unresolved references go under a heading containing "Unresolved references", one bullet per raw value with the value in backticks (``- `Gift Wrapper` — used by …``); `data:validate` reads exactly that list (D-037). **Gate:** valid/expected ≥ 98 % per category. A category below the gate is not done. Fix the parser, or add overrides with sources, until it passes.
 
 ## Power Forge data (`data/forge/{game}/curves.json`)
-- D1: for every weapon whose item page has a power/damage table (Power, Min, Max), store the points in `powerTable`.
+- D1: for every weapon whose item page has a power/damage table (Power, Min, Max), store the points in `powerTable` (`parsePowerTable` + `toPowerTable` in `scripts/wiki/powerTable.ts`; mapping in D-035). Armor pages use the same layout for **health** (`Power | Min health | Max health`), read with `parsePowerTable(wikitext, { measure: 'health' })`.
 - Build a **category curve** for each `weaponType` by normalizing each item's table to its power-1 value, then taking the median multiplier at each documented power level. Items with no table use their weaponType curve; if that type has no curve, they use the global melee or ranged curve. Every value that doesn't come from the item's own table is flagged `approximate`.
 - D2: the wiki has no numeric power data (as of 2026-11-12). `curves.json` for d2 is `{}`, and the Forge shows tier effects only (see `07-FEATURES-SPEC.md`).
 

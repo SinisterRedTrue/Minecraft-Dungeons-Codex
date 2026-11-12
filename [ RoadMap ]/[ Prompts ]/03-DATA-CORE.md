@@ -26,17 +26,17 @@ All Zod schemas exist. A polite, cached, retrying wiki API client exists. Table/
 10. **Overrides loader** `scripts/overrides.ts`: load, validate the shape (a `sourceUrl` is required), apply, and annotate the entity's `overrides`.
 
 ## Mini-checklist
-- [ ] 17 schema modules (base + 8 + 8) + registry; types exported
-- [ ] Wiki client: cache, 1 req/s queue, retries, maxlag, offline/refresh flags, tested
-- [ ] tables / templates / text helpers, tested on real fixtures
-- [ ] Parser library decision logged
-- [ ] Fixtures saved (≤ 200 kB each)
-- [ ] **Infobox stat mapping documented** in Plans §3.1 + `statMap.ts` + log
-- [ ] Power table parser exact on fixture; interpretation logged
-- [ ] Loaders (server-only), tested
-- [ ] Validator with cross-ref + image checks, tested
-- [ ] Overrides loader, tested
-- [ ] No request sent without the bot User-Agent (unit test asserts the header)
+- [x] 17 schema modules (base + 8 + 8) + registry; types exported
+- [x] Wiki client: cache, 1 req/s queue, retries, maxlag, offline/refresh flags, tested
+- [x] tables / templates / text helpers, tested on real fixtures
+- [x] Parser library decision logged
+- [x] Fixtures saved (≤ 200 kB each)
+- [x] **Infobox stat mapping documented** in Plans §3.1 + `statMap.ts` + log
+- [x] Power table parser exact on fixture; interpretation logged
+- [x] Loaders (server-only), tested
+- [x] Validator with cross-ref + image checks, tested
+- [x] Overrides loader, tested
+- [x] No request sent without the bot User-Agent (unit test asserts the header)
 
 ## Acceptance
 ```bash

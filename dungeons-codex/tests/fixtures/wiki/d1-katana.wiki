@@ -1,0 +1,238 @@
+{{For|the weapon in {{MCSM}}|Story Mode:Katana}}
+{{Infobox Dungeons item
+| image = MCD Katana.png
+| image2 = MCD Katana gear.png
+| imagesize = 150px
+| type = Melee Weapon
+| rarity = Common<br>Rare
+| stat = melee
+| stat1 = 7.9
+| stat2 = 1.9
+| stat3 = 7.2
+| damagetype = Melee
+| combo = 3 hits
+| soulenchantments = ''Does not'' accept soul enchantments<br/>''Does not'' grant soul collection
+| runes = {{DuRunes|I}}
+| variant = Master's Katana
+| variant2 = Dark Katana
+| levelid = Katana
+| description = A blade fit for expert warriors and fighters, its blade is crafted to inflict precision damage.}}
+
+A '''katana''' is a melee weapon that can be found within various {{MCD|mission}}s. Its unique variants are the {{MCD|dark katana}} and the {{MCD|master's katana}}.
+
+== Obtaining ==
+===Missions===
+''<small>Listed difficulties are considered to be the minimum difficulty the item is obtainable on unless stated otherwise.</small>''
+
+''<small>A {{DuMiscSprite|Daily Trial}} before a mission name indicates that the item is only obtainable in [[MCD:Daily Trial|Daily Trials]] of that mission.</small>''
+* {{DuLevelLink|Lower Temple}} (Apocalypse)
+* {{DuLevelLink|Obsidian Pinnacle}} (Apocalypse)
+* {{DuLevelLink|Panda Plateau}} (Apocalypse, DLC)
+* {{DuMiscSprite|Daily Trial}} {{DuLevelLink|Basalt Deltas}} (DLC)
+* {{DuLevelLink|Coral Rise}} (Adventure, DLC)
+* {{DuLevelLink|The Stronghold}} (Adventure, DLC)
+* {{DuLevelLink|Tower}}
+
+===Merchants===
+* {{DuEntityLink|Village Merchant}}
+* {{DuEntityLink|Gift Wrapper}}
+* {{DuEntityLink|Mystery Merchant}}
+* {{DuEntityLink|Luxury Merchant}}
+* {{DuEntityLink|Piglin Merchant}}
+
+===Ancients===
+* {{DuEntityLink|?????}}
+
+== Usage ==
+Katanas possess high power, low speed, and moderate range, and have combo attacks consisting of two side slashes, and an upwards slash. The side slashes deal the weapon's minimum melee damage, and the upward slash deals the weapon's maximum melee damage.
+
+=== Properties ===
+* X melee damage
+
+=== Stats ===
+{| class="wikitable sortable"
+!Hit number
+! class="unsortable" |Base damage
+! class="unsortable" |Attack duration
+! class="unsortable" |Area
+! class="unsortable" |Splash damage drop off
+! class="unsortable" |Knockback
+! class="unsortable" |Hit stun
+|- 
+|Hit 1
+|85
+|0.48s
+|50°
+|20%
+|0
+|1
+|-
+|Hit 2
+|85
+|0.48s
+|50°
+|20%
+|0
+|1
+|-
+|Hit 3
+|125
+|0.6s
+|14°
+|0%
+|4
+|1
+|-
+|}
+
+''<small>In-game, damage numbers can vary even in the same power level, and may not be exactly as seen below.</small>''
+== Sounds ==
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=sfx_item_katanaHit8bit-001_soundWave.ogg
+|description=Hit (8-bit)
+|id=sfx_item_katanaHit8bit_soundWave
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_item_katanaHitImpactStronk-001_soundWave.ogg
+|description=Hit
+|id=sfx_item_katanaHitImpactStronk_soundWave
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_item_katanaHitMeat-001_soundWave.ogg
+|description=Hit
+|id=sfx_item_katanaHitMeat_soundWave
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_item_katanaHitMeatResidue-001_soundWave.ogg
+|description=Hit
+|id=sfx_item_katanaHitMeatResidue_soundWave
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_item_katanaHitMetalShimmerLight-001_soundWave.ogg
+|description=Hit
+|id=sfx_item_katanaHitMetalShimmerLight_soundWave
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_item_katanaHitMetalShimmerStronk-001_soundWave.ogg
+|description=Hit
+|id=sfx_item_katanaHitMetalShimmerStronk_soundWave
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_item_katanaPlaceMetal-001_soundWave.ogg
+|description=Equip
+|id=sfx_item_katanaPlaceMetal_soundWave
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_item_katanaPreHit-001_soundWave.ogg
+|description=Pre-hit
+|id=sfx_item_katanaPreHit_soundWave
+|type=dungeons
+}}
+| {{SoundLine
+|sound=Sfx_item_katanaPreHit-001_soundWave.ogg
+|description=Pre-hit (8-bit)
+|id=sfx_item_katanaPreHit8bit_soundWave
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_item_katanaSwingAirStronkNoAirMetalDragFastPower-001_soundWave.ogg
+|description=Swing
+|id=sfx_item_katanaSwingAirStronkNoAirMetalDragFastPower_soundWave
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_item_katanaSwingAirStronkNoAirNinjaCling-001_soundWave.ogg
+|description=Swing
+|id=sfx_item_katanaSwingAirStronkNoAirNinjaCling_soundWave
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_item_katanaSwingAirStronkNoAirSwooshMetal-001_soundWave.ogg
+|description=Swing
+|id=sfx_item_katanaSwingAirStronkNoAirSwooshMetal_soundWave
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_item_katanaSwingAirStronkSwooshArmAir-001_soundWave.ogg
+|description=Swing
+|id=sfx_item_katanaSwingAirStronkSwooshArmAir_soundWave
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_item_katanaSwingAirSwooshArmAir-001_soundWave.ogg
+|description=Swing
+|id=sfx_item_katanaSwingAirSwooshArmAir_soundWave
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_item_katanaSwingNoAirSwooshBright-001_soundWave.ogg
+|description=Swing
+|id=sfx_item_katanaSwingNoAirSwooshBright_soundWave
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_item_katanaSwingNoAirSwooshMetalBend-001_soundWave.ogg
+|sound2=sfx_item_katanaSwingNoAirSwooshMetalBend-002_soundWave.ogg
+|description=Swing
+|id=sfx_item_katanaSwingNoAirSwooshMetalBend_soundWave
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_item_katanaSwingNoAirSwooshMetalShinyNinja-001_soundWave.ogg
+|sound2=sfx_item_katanaSwingNoAirSwooshMetalShinyNinja-002_soundWave.ogg
+|description=Swing
+|id=sfx_item_katanaSwingNoAirSwooshMetalShinyNinja_soundWave
+}}
+}}
+
+== History ==
+{{HistoryTable
+|{{HistoryLine|dungeons}}
+|{{HistoryLine||Dungeons Beta|[[File:Katana gear.png|32px]]Added katanas.}}
+|{{HistoryLine||1.3.2.0|Now obtainable from the {{MCD|Panda Plateau}}.
+|Now obtainable from the {{MCD|Lower Temple}}.}}
+|{{HistoryLine||1.4.3.0|Now obtainable from the new [[MCD:Camp Merchant|camp merchants]].}}
+|{{HistoryLine||1.8.0.0|Increased attack speed by 30%.|Now obtainable from the [[MCD:Piglin Merchant|piglin merchant]] and the {{MCD|?????}}.}}
+|{{HistoryLine||1.9.1.0|Now obtainable from the {{MCD|Coral Rise}}.}}
+|{{HistoryLine||1.10.2.0|Now obtainable from {{MCD|The Stronghold}}.}}
+|{{HistoryLine||1.12.0.0|Now obtainable from the {{MCD|Tower}}.}}
+|{{HistoryLine||1.16.2.0|Attack speed increased by 20%: Standard - 0.6 to 0.48, Heavy - 0.75 to 0.6.}}
+}}
+
+== Issues ==
+{{Issue list}}
+
+== Gallery ==
+
+=== Textures ===
+<gallery class="pixel-image">
+File:Katana Texture (MCD).png|Texture file of the katana
+File:Katana ShadowTexture (MCD).png|Shadow texture file of the katana
+</gallery>
+
+=== Katana ===
+<gallery>
+Katana inv MCD.png|A katana within the {{MCD|inventory}}
+</gallery>
+
+== Navigation ==
+{{Navbox Dungeons items|melee}}
+
+[[Category:Minecraft Dungeons melee weapons]]
+
+[[de:Dungeons:Katana]]
+[[es:Dungeons:Katana]]
+[[fr:Dungeons:Katana]]
+[[ja:Dungeons:刀]]
+[[lzh:地下城:武士刀]]
+[[pt:Dungeons:Katana]]
+[[zh:Dungeons:武士刀]]

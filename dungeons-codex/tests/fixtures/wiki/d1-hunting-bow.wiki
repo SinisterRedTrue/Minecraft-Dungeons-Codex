@@ -1,0 +1,207 @@
+{{for|other uses|Bow (disambiguation)}}
+{{Infobox Dungeons item
+| image = Hunting Bow (MCD).png
+| imagecaption = Icon
+| image2 = Hunting Bow Sprite MCD.png
+| image2caption = Sprite
+| type = Ranged Weapon
+| rarity = Common<br>Rare
+| stat = ranged
+| stat1 = 4.2
+| stat2 = 3.7
+| stat3 = 4.1
+| property = {{DuMiscSprite|Regular Bullet}} Pets attack<br/>targeted mobs
+| damagetype = Ranged
+| soulenchantments = ''Does not'' accept soul enchantments<br/>''Does not'' grant soul collection
+| runes = {{DuRunes|U}}
+| variant = Hunter's Promise
+| variant2 = Master's Bow
+| variant3 = Ancient Bow
+| levelid = HuntingBow
+| description = This enchanted bow strengthens the bond between the hunter and their animal companion.
+}}
+
+A '''hunting bow''' is a ranged weapon that can be found within various {{MCD|mission}}s. Its unique variants are the {{MCD|Master's Bow|master's bow}}, the {{MCD|Hunter's Promise|hunter's promise}}, and the {{MCD|Ancient Bow|ancient bow}}.
+
+==Obtaining==
+===Missions===
+''<small>Listed difficulties are considered to be the minimum difficulty the item is obtainable on unless stated otherwise.</small>''
+*{{DuLevelLink|Soggy Swamp}}
+*{{DuLevelLink|Soggy Cave}}
+*{{DuLevelLink|Panda Plateau}} (DLC)
+*{{DuLevelLink|Nether Fortress}} (DLC)
+*{{DuLevelLink|End Wilds}} (DLC)
+*{{DuLevelLink|Tower}}
+
+===Merchants===
+*{{DuEntityLink|Village Merchant}}
+*{{DuEntityLink|Gift Wrapper}}
+*{{DuEntityLink|Mystery Merchant}}
+*{{DuEntityLink|Luxury Merchant}}
+*{{DuEntityLink|Piglin Merchant}}
+
+===Ancients===
+*{{DuEntityLink|The Tower (mob)}}
+
+==Usage==
+When the hero hits a [[MCD:Mob|mob]] with a hunting bow, any pets they [[MCD:Artifact#Summoning Artifacts|summoned with an artifact]] attack the targeted mob.
+
+===Properties===
+*X ranged damage
+*Pets attack targeted mobs
+
+===Stats===
+*Multiplier: 1-2
+*Quiver: 53
+
+''<small>In-game, damage numbers can vary even in the same power level, and may not be exactly as seen below.</small>''
+
+{| class="wikitable sortable"
+!Power
+!Min damage
+!Max damage
+|-
+|1
+|12-29
+|13-31
+|-
+|5
+|16-39
+|16-39
+|-
+|10
+|20-48
+|20-48
+|-
+|15
+|25-61
+|28-68
+|-
+|20
+|32-77
+|35-85
+|-
+|25
+|42-102
+|43-104
+|-
+|30
+|53-128
+|55-133
+|-
+|35
+|66-160
+|68-165
+|-
+|40
+|82-198
+|85-206
+|-
+|45
+|101-244
+|106-257
+|-
+|50
+|126-305
+|131-317
+|-
+|55
+|155-375
+|162-392
+|-
+|60
+|191-382
+|199-398
+|-
+|65
+|235-569
+|246-595
+|-
+|70
+|290-702
+|302-731
+|-
+|75
+|356-862
+|371-898
+|-
+|80
+|438-1060
+|456-1104
+|-
+|85
+|538-1302
+|560-1355
+|-
+|90
+|660-1597
+|688-1665
+|-
+|95
+|810-1960
+|844-2042
+|-
+|100
+|994-2405
+|1034-2502
+|- 
+|105
+|1218-2947
+|1268-3069
+|-
+|108
+|1376-3330
+|1432-3465
+|}
+
+== Sounds ==
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=sfx_item_huntingBowArrowImpactNormal-001.ogg
+|sound2=sfx_item_huntingBowArrowImpactNormal-002.ogg
+|sound3=sfx_item_huntingBowArrowImpactNormal-003.ogg
+|sound4=sfx_item_huntingBowArrowImpactNormal-004.ogg
+|description=Hit
+|id=sfx_item_huntingBowArrowImpactNormal
+}}
+}}
+
+==Data values==
+*Hunting bows use two internal, hidden enchantments.  
+**The first one, <code>HuntingBowEnchantment</code>, is used by the game to make companions attack targeted mobs.
+**The second one, <code>HuntingBowTaggedEnchantment</code>, is used by the game to apply a target over the head of any mob struck with an arrow.
+
+==History==
+{{HistoryTable
+|{{HistoryLine|dungeons}}
+|{{HistoryLine||Dungeons Beta|[[File:Hunting Bow (MCD).png|32px]]Added hunting bows.}}
+|{{HistoryLine||1.3.2.0|Now obtainable from the {{MCD|Panda Plateau}}.}}
+|{{HistoryLine||1.4.3.0|Now obtainable from the new [[MCD:Camp Merchant|camp merchants]].}}
+|{{HistoryLine||1.8.0.0|Increased quiver by 50%.|Decreased charged arrow damage multiplier from 2.5 to 2.|Now obtainable from the {{MCD|Nether Fortress}}.}}
+|{{HistoryLine||1.10.2.0|Now obtainable from the {{MCD|End Wilds}}.}}
+|{{HistoryLine||1.12.0.0|Now obtainable from the {{MCD|Tower}}.}}
+|{{HistoryLine||1.16.2.0|Damage increased by 20% from 1 to 1.2.|Charge multiplier increased 10% from 2.2 to 2.42.}}
+}}
+
+== Gallery ==
+
+=== Textures ===
+<gallery class="pixel-image">
+File:HuntingBow Texture (MCD).png|Hunting bow texture file
+</gallery>
+
+=== Screenshots ===
+<gallery>
+Hunting Bow inv MCD.png|A hunting bow within the {{MCD|inventory}}
+</gallery>
+
+== Navigation ==
+{{Navbox Dungeons items|ranged}}
+
+[[Category:Minecraft Dungeons ranged weapons]]
+
+[[de:MCD:Jagdbogen]]
+[[ja:MCD:狩人の弓]]
+[[pt:MCD:Arco de Caça]]
+[[zh:MCD:猎手弓]]

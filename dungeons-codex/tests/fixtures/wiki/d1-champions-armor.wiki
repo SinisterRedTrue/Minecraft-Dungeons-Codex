@@ -1,0 +1,204 @@
+{{About|the armor in {{MCD}}|the armor in {{MCSM}}|MCSM:Champion Armor|other uses|Armor (disambiguation)}}
+{{Infobox Dungeons item
+| image = Champion's Armor (MCD).png
+| image2 = Champion's Armor Sprite MCD.png
+| imagecaption = Icon
+| image2caption = Sprite
+| type = Armor
+| rarity = Common Rare
+| property = {{DuMiscSprite|Regular Bullet}} 35% damage<br/>reduction<br/>{{DuMiscSprite|Regular Bullet}} Mobs target you more<br/>{{DuMiscSprite|Regular Bullet}} -40% [[MCD:Health Potion|potion]] cooldown
+| soulenchantments = ''Does not'' accept soul enchantments<br/>''Does not'' grant soul collection
+| runes = {{DuRunes|T}}
+| variant = Hero's Armor
+| levelid = ChampionsArmor
+| description = Granted to the champions of the Overworld by the free villagers as a token of their thanks for many years of protection and assistance. The mark of a true hero.}}
+
+'''Champion's armor''' is an armor set that can be found within various {{MCD|mission}}s. Its unique variant is the {{MCD|hero's armor}}.
+
+== Obtaining ==
+=== Missions ===
+
+''<small>Listed difficulties are considered to be the minimum difficulty, the item is obtainable on unless stated otherwise.</small>''
+
+''<small>A {{DuMiscSprite|Daily Trial}} before a mission name indicates that the item is only obtainable in [[MCD:Daily Trial|Daily Trials]] of that mission.</small>''
+
+* {{DuLevelLink|Arch Haven}} (Apocalypse)
+* {{DuLevelLink|Cacti Canyon}} (Apocalypse)
+* {{DuLevelLink|Lone Fortress}} (Apocalypse, DLC)
+* {{DuMiscSprite|Daily Trial}} {{DuLevelLink|Abyssal Monument}}  (DLC)
+* {{DuLevelLink|Tower}}
+
+=== Merchants ===
+
+* {{DuEntityLink|Village Merchant}}
+* {{DuEntityLink|Gift Wrapper}}
+* {{DuEntityLink|Mystery Merchant}}
+* {{DuEntityLink|Luxury Merchant}}
+* {{DuEntityLink|Piglin Merchant}}
+
+=== Ancients ===
+
+* {{DuEntityLink|Ancient Terror}}
+
+== Usage ==
+=== Properties ===
+* +X health
+* 35% damage reduction
+* Mobs target you more
+* -40% [[MCD:Health Potion|potion]] cooldown
+
+=== Stats ===
+{| class="wikitable sortable"
+! Power
+! Min health
+! Max health
+|-
+| 1
+| 0
+| 3
+|-
+| 5
+| 13
+| 17
+|-
+| 10
+| 33
+| 37
+|-
+| 15
+| 57
+| 63
+|-
+| 20
+| 87
+| 94
+|-
+| 25
+| 124
+| 132
+|-
+| 30
+| 168
+| 178
+|-
+| 35
+| 223
+| 235
+|-
+| 40
+| 290
+| 305
+|-
+| 45
+| 372
+| 390
+|-
+| 50
+| 473
+| 495
+|-
+| 55
+| 596
+| 623
+|-
+| 60
+| 747
+| 780
+|-
+| 65
+| 931
+| 973
+|-
+| 70
+| 1158
+| 1208
+|-
+| 75
+| 1435
+| 1497
+|-
+| 80
+| 1774
+| 1850
+|-
+| 85
+| 2190
+| 2283
+|-
+| 90
+| 2700
+| 2814
+|-
+| 95
+| 3324
+| 3463
+|-
+| 100
+| 4088
+| 4259
+|-
+| 105
+| 5025
+| 5236
+|-
+| 108
+| 5685
+| 5921
+|}
+
+== Sounds ==
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=sfx_item_championsArmorLand-001.ogg
+|description=Drop
+|id=sfx_item_championsArmorLand
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_item_championsArmorPickUp-001.ogg
+|description=Pick up
+|id=sfx_item_championsArmorPickUp
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_item_championsArmorPlace-001.ogg
+|description=Equip
+|id=sfx_item_championsArmorPlace
+}}
+}}
+
+== History ==
+{{HistoryTable
+|{{HistoryLine|dungeons}}
+|{{HistoryLine||Dungeons Beta|[[File:Champion's Armor (MCD).png|32px]] [[File:Champion's Armor Sprite MCD.png|32px]] Added champion's armor.}}
+|{{HistoryLine||1.4.3.0|Now obtainable from the {{MCD|Lone Fortress}}.
+|Now obtainable from the new [[MCD:Camp Merchant|camp merchants]].}}
+|{{HistoryLine||1.8.0.0|Now obtainable from the {{MCD|Ancient Terror}}.|Now obtainable from the {{MCD|Piglin Merchant}}.}}
+|{{HistoryLine||1.12.0.0|Now obtainable from the {{MCD|Tower}}.}}
+}}
+
+== Issues ==
+{{Issue list}}
+
+== Gallery ==
+=== Textures ===
+<gallery class="pixel-image">
+Champion'sArmor Texture (MCD).png|Champion's armor texture file
+Champion'sArmor ShadowTexture (MCD).png|Champion's armor shadow texture file
+</gallery>
+
+=== Screenshots ===
+<gallery>
+Champion's Armor inv MCD.png|Champion's armor within the {{MCD|inventory}}
+</gallery>
+
+== Navigation ==
+{{Navbox Dungeons items|armor}}
+
+[[Category:Minecraft Dungeons armor]]
+
+[[de:Minecraft Dungeons:Champion-Rüstung]]
+[[es:Dungeons:Armadura de campeón]]
+[[fr:Minecraft Dungeons:Armure du champion]]
+[[zh:Minecraft Dungeons:冠军之甲]]
