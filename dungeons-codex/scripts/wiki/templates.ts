@@ -164,6 +164,11 @@ const ENTITIES: Record<string, string> = {
 };
 
 function renderTemplate(call: TemplateCall): string {
+  // `{{MCD}}` / `{{MCD2}}` with no argument are the game names.
+  if (Object.keys(call.params).length === 0) {
+    if (/^MCD$/i.test(call.name)) return 'Minecraft Dungeons';
+    if (/^(?:MCD2|MCDII)$/i.test(call.name)) return 'Minecraft Dungeons II';
+  }
   if (!LINK_TEMPLATE.test(call.name)) return '';
   const positional = Object.keys(call.params)
     .filter((k) => /^\d+$/.test(k))

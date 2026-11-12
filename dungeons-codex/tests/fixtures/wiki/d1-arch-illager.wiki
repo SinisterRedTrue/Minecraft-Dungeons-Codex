@@ -1,0 +1,538 @@
+{{About|the character in {{MCD}}|his mentions in the {{MCD2}} prequel novel|Dungeons II:Arch-Illager}}
+{{Infobox character
+| group1 = Arch-Illager
+| group2 = Archie
+| 1-1 = MCD Arch-Illager.png
+| 2-1 = MCD Archie.png
+| imagesize = x186px
+| more_headers = true
+| health = 3500
+| damage = Projectile: 55<br/>Melee attack: 95
+| age = 
+| gender =
+| species = {{DuEntityLink|Illager}}
+| status = Alive
+| aliases = Archie (birth name)
+| pronouns = He/him/his
+| character_titles = 
+| occupation = Leader of the {{MCD|Illager Empire}}
+| affiliations = {{MCD|Nameless Kingdom}} (alliance)
+| residence = * {{EnvSprite|Overworld}} {{MCD|Overworld}}
+** {{DuLevelLink|Mainland}} 
+*** {{DuLevelLink|Highblock Keep}}
+| familial = 
+| allies = * {{DuEntityLink|Illager|Illagers}}
+** {{DuEntityLink|Walda}}
+* {{DuEntityLink|Orb of Dominance}}{{status|for}}
+* {{DuEntityLink|Redstone Monstrosity|Redstone Monstrosities}}
+* {{DuEntityLink|Redstone Golem|Redstone Golems}}
+* {{MCD|Undead}}
+** {{DuEntityLink|Nameless One}}{{status|for}}
+* {{MCD|Yumi}}{{status|for}}
+| enemies = * {{DuEntityLink|Thord}}
+* {{DuEntityLink|Villager|Villagers}}
+* {{DuEntityLink|Hero|Heroes}}
+** {{DuEntityLink|Adriene}}
+** {{DuEntityLink|Hal}}
+** {{DuEntityLink|Hex}}
+** {{DuEntityLink|Karl}}
+** {{DuEntityLink|Valorie}}
+| first_appearance = {{MCD}}
+| latest_appearance = ''{{MCD|The Rise of the Arch-Illager}}''
+| codename =
+| actor = 
+| physical_actor = 
+| voice_actor = 
+| langN = 
+| vaN = 
+}}
+
+The '''Arch-Illager''', also known by his birth name '''Archie''',<ref>{{cite book|lastname=Forbeck|initials=M.|year=2020|title={{MCD|The Rise of the Arch-Illager|Minecraft Dungeons: The Rise of the Arch-Illager}}|publisher={{w|Del Rey Books|newtab=w=1}}}}</ref> is an {{MCD|illager}} {{MCD|boss}} and one of the two main antagonists (alongside the {{MCD|Orb of Dominance}}) of the game. He is the founder and leader of the {{MCD|Illager Empire}} in the game, and is a proxy for the Orb of Dominance to carry out its goals.
+
+== Appearance ==
+In the opening cinematic, Archie has ragged and torn clothes and is holding a torch. When he is crowned as the Arch-Illager, he has blue robes that are similar to the [[MCD:Evocation Robe|evocation robe]] with a large chain with a ruby on it and a crown with a sapphire and a ruby on it. He also carries a staff to hold the Orb of Dominance. The Arch-Illager is also the only illager to have a horizontal head and a smaller height.
+
+In the arena, the Arch-Illager will appear in the sky above the arena in his "ghost" form and then summon enemies. In "ghost" form, his clothes will glow, and his body will have a purple enchantment glow and special effects.
+
+In [[MCD:Arcade|the arcade edition]], the top of the Arch-Illager's crown lacks a texture, only appearing black.
+
+== Personality ==
+As being an illager. Archie seems to have been quite cowardly before he was corrupted by the Orb of Dominance. He often would not run into the face of danger. However, in certain situations, he has the potential to be a strong warrior. He also is shown to have violent tendencies in certain situations, such as when Thord causes him to get exiled, and when Salah causes Smacker to get him thrown out of the village. At one point, he briefly considers executing Walda for her part in Thord’s betrayal.
+
+== Lore ==
+{{Expand section|Explain more of Rise, including his partnership with the Nameless One}}
+
+=== Early life ===
+[[File:MCD Woodland Mansion Outside 2.png|thumb|128px|A {{MCD|Woodland Mansion}}]]
+Archie was born within a {{MCD|woodland mansion}} under the leadership of {{MCD|Walda}}, an {{MCD|evoker}}. His parents died in a patrol when he was young, leaving him orphaned at a young age. Forced to grow up alone, Archie had a rough childhood, hardly having any help from his illager tribe and being the target of harassment from {{MCD|Thord}}, another evoker his age. Sometime early in his life, he developed ideas that if the illager tribes of the Overworld banded together, they could defeat the {{MCD|hero}}es that constantly hunted them. Due to being an outsider, the other illagers disregarded his radical beliefs as they went against the common ideology that illagers are power hungry and combative by nature, and that they only follow the strongest illager as their leader. The other illagers believed that if they ever tried to unite, it would just be coup after coup.
+
+=== Life in exile ===
+[[File:Karl the Smacker.jpg|thumb|128px|Karl ("Smacker") is one of the five heroes in the story]]
+Archie’s life took a turn when he was forcibly brought into the patrol led by Thord, responsible for clearing the nearby monsters. Unexpectedly, a hero named {{MCD|Karl}} arrived and turned the tide, slaughtering both the undead and illagers. Only Archie and Thord survived and Thord blamed the incident on Archie for not helping, even though he was told to stay out of the fight. After they returned to the woodland mansion, Thord reported to Walda of his view of the incident. Thord’s lies pushed Archie to react by pushing Thord in front of Walda, who fell on purpose and pretended to be in pain. In response, Archie became exiled from the tribe.
+
+[[File:Archie new home.jpg|thumb|128px|Archie searches for a new home]]
+
+After struggling to survive in the wilderness, Archie discovered a village on the {{MCD|squid coast}}. There the [[Dungeons:Villager|inhabitants]] proved distrustful of him, save for a villager named {{MCD|Yumi}} who came to respect and vouch for him. Thanks to her, he lived in the village for anywhere from a month to a year, until Karl happened upon the town. The village spokesperson, {{MCD|Salah}}, got the hero’s attention drawn to Archie and quickly threatened to kill him, since he could never feel safe in a village if an illager was there. Yumi fought to let him stay, but she had no choice but to tell Archie to run.
+
+Back on the run, by sheer chance Archie happened upon a mountain, inside discovering the tomb of the Orb of Dominance. Freeing it from the depths, it promised to give Archie anything he could ever want. Repeatedly telling him it was Archie's destiny to rule the world, Archie would unite many illager tribes under his rule, taking the title in the process.
+
+[[File:IllagerDrawnToOrb.png|thumb|128px|Archie finds the Orb of Dominance]]
+
+=== Illager empire ===
+[[File:MCD Walda crowning the Arch-Illager.jpg|thumb|128px|Walda crowns Archie as the Arch-Illager]]
+The Orb constructed Highblock Keep as Archie’s home, and gave him six {{MCD|redstone golems}} to protect him. However, these golems could not last forever, so he'd need a [[Dungeons:Fiery Forge|forge]] to make more, and a [[Dungeons:Redstone Mines|mine]] to gather redstone. The illagers were willing to work for him; at least once the Orb proved that it would not allow anyone to take it from Archie. The Orb insisted they would need to attack the villages of the [[Dungeons:Mainland|continent]] so the militant illagers would "not get bored."
+[[File:IllagerSquidCoastRaid.png|thumb|128px|The Arch-Illager takes his revenge]]
+[[File:Karl afraid Redstone Monstrosity.gif|thumb|128px|"Smacker" was scared away by Archie's custom-made {{MCD|Redstone Monstrosity}}]]
+It was a downward spiral, as one thing required another, each more evil than the last. He eventually killed Thord, who attempted to betray him once again. By Archie’s coronation, the illagers had no qualms at his leadership, bowing at him out of respect. Now mad with power, he captured Salah as a prisoner, and tried to convince Yumi to join, who refused. Pleading, Yumi almost broke through the veil, but the Orb, now partially controlling Archie's thoughts, would not let her. With the new title of the Arch-Illager, Archie vowed to make all of the Overworld suffer for taking away the peaceful life he could have had, thus starting an ongoing war.
+
+=== ''Minecraft Dungeons'' ===
+During his reign, he would collaborate with the {{MCD|witch}}es of the {{MCD|soggy swamp}} to obtain large potion supplies, as well as order the development of the {{MCD|redstone mines}} to use his villager slaves to mine redstone, and construct the {{MCD|fiery forge}} to refine the gathered redstone into the {{MCD|Redstone Monstrosity}} to enforce his rule. Eventually, the Arch-Illager would attempt to betray the {{MCD|Nameless One}}, launching a raid on the {{MCD|desert temple}} to try and take his staff to gain the ability to summon the undead army for himself. Each of these plans, however, would be foiled by the heroes.
+
+Eventually, once the heroes reached the Arch-Illager's throne room in {{MCD|Highblock Halls}}, he summoned one last attack as the heroes reached him, before retreating to the {{MCD|Obsidian Pinnacle}}. After the heroes finally reached him on the highest point of the castle, the Arch-Illager fought the heroes himself. After having been heavily wounded, Archie was sucked toward the Orb of Dominance, which proceeded to manifest itself as the {{MCD|Heart of Ender}}. Once enough damage had been done to the embodiment, the heart of ender dissipated, rendering the Orb of Dominance extremely unstable.
+
+The heroes found the Arch-Illager struggling to contain the Orb of Dominance a few moments before it shattered, knocking Archie down and relieving him of its control. Without the Orb of Dominance to give him power, Archie became afraid of the approaching heroes. However, they unexpectedly offered kindness and helped him up. Archie then celebrated the destruction of the Orb of Dominance, and by extension the persona of the Arch-Illager, with the heroes. 
+
+After the {{MCD|Vengeful Heart of Ender}} and the {{MCD|Orb of Dominance}} were destroyed,  Archie lived in peace.
+
+== Spawning ==
+* {{DuLevelLink|Obsidian Pinnacle}} ({{MCD|boss}})
+
+== Behavior ==
+The Arch-Illager has seven behaviors. If a hero or summon comes too close to him, he begins repeatedly teleporting around the arena and firing blasts after each teleport. His health pool is the second lowest of any boss in the game, although this is mitigated by the deadly [[MCD:Heart of Ender|Heart of Ender]] battle that takes place after his health is depleted. Additionally, the Arch-Illager, when not during the boss fight, flies around summoning bosses and battles to try and thwart the hero's efforts to stop him.
+
+=== Basic attack ===
+The Arch-Illager fires three purple energy blasts in a horizontal swath within 2500 units (approximately 25 blocks) of a hero or summon. Deals a small amount of damage if it hits (45 per energy blast in code). Used extremely often.
+
+Each energy blast has an angle span of 20 degrees, a 0.5-second delay, and will automatically disappear after 20 seconds.
+
+=== Melee attack ===
+The Arch-Illager uses a melee attack to pushback heroes within 220 units (approximately 2.2 blocks), dealing a small amount of damage (75 in code) and knockback heroes.
+
+As the Arch-Illager teleports away when the hero gets close, and this behavior also uses the "Basic attack" animation, this behavior is very rare and difficult to trigger.
+
+=== Teleportation ===
+When a hero comes within 300 units (approximately 3 blocks) of the Arch-Illager, the Arch-Illager teleports 1350 units (approximately 13.5 blocks) in a random area around the hero to avoid taking much damage. Similarly to the [[MCD:Enderman|enderman]], the Arch-Illager can also hide in teleportation and not reappear instantly. Teleport In and Out both have a duration of 0.9 seconds.
+
+=== Enhance ===
+The Arch-Illager can enchant up to 5 hostile mobs within 1100 units (approximately 11 blocks) of himself, similar to the [[MCD:Enchanter|enchanter]]. The enchantment has 0.9 seconds delay and 2 seconds attack rate. Enchanted mobs will only take 0.333x damage and can deal 1.75x damage, and their speed will also be increased to 2x.
+
+However, if the Arch-Illager teleports, the enchanting is broken off the mob.
+
+=== Summon circle ===
+Since the Arch-Illager is not much of a warrior, he is capable of summoning a group of Illagers to assist him, usually a circle of ten to twenty [[MCD:Vindicator|vindicators]] around the hero.
+
+This skill has a 28-second cooldown.
+
+=== Summon line ===
+The Arch-Illager can also summon a line of twenty [[MCD:Pillager|pillagers]] through the center of the arena.
+
+This skill has a 28-second cooldown.
+
+=== Summon single ===
+The Arch-Illager rarely summons a single {{MCD|redstone golem}}. This mob is not {{MCD|powerful}} unlike other {{MCD|redstone golem}}s, and unlike the Arch-Illager's other summoned mobs, it does not die once he is defeated. While this attack is used sparingly, it is his most powerful attack.
+
+This skill has a 28-second cooldown.
+
+=== Defeated in a whirlwind ===
+Once the Arch-Illager has taken enough damage, his staff slips out of his hands, sucks him in, and absorbs him while transforming into the {{MCD|Heart of Ender}}.
+
+== Sounds ==
+=== Music ===
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=Bgm_mob_obpiBossStage1Start-001.ogg
+|description=Boss stage 1 theme start
+|id=bgm_mob_obpiBossStage1Start-001}}
+| {{SoundLine
+|sound=Bgm_mob_obpiBossStage1Loop-001.ogg
+|description=Boss stage 1 & 2 theme loop
+|id=bgm_mob_obpiBossStage1Loop-001}}
+| {{SoundLine
+|sound=Bgm_mob_obpiBossStage2End-001.ogg
+|description=Boss stage 2 theme end
+| id = bgm_mob_obpiBossStage2End-001
+}}
+}}
+
+=== Appear in other maps ===
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=sfx_mob_archIllager_loadSpell-001_soundWave.ogg
+|description=Load spell
+|id=sfx_mob_archIllager_loadSpell}}
+| {{SoundLine
+|sound=sfx_mob_archIllager_mirrorIn-001_soundWave.ogg
+|description=Mirror in
+|id=sfx_mob_archIllager_mirrorIn}}
+| {{SoundLine
+|sound=sfx_mob_archIllager_mirrorOut-001_soundWave.ogg
+|description=Mirror out
+|id=sfx_mob_archIllager_mirrorOut}}
+| {{SoundLine
+|sound=sfx_mob_archIllager_spell-001_soundWave.ogg
+|description=Spell
+|id=sfx_mob_archIllager_spell}}
+| {{SoundLine
+|sound=sfx_mob_archIllager_spellDissapear-001_soundWave.ogg
+|description=Disappear spell
+|id=sfx_mob_archIllager_spellDissapear}}
+| {{SoundLine
+|sound=sfx_mob_archIllagerAppear-001_soundWave.ogg
+|description=Appear
+|id=sfx_mob_archIllagerAppear}}
+| {{SoundLine
+|sound=sfx_mob_archIllagerHaha-001_soundWave.ogg
+|sound2=sfx_mob_archIllagerHaha-002_soundWave.ogg
+|description=Haha laugh
+|id=sfx_mob_archIllagerHaha}}
+| {{SoundLine
+|sound=sfx_mob_archillagerHargh-001_soundWave.ogg
+|sound2=sfx_mob_archillagerHargh-002_soundWave.ogg
+|sound3=sfx_mob_archillagerHargh-003_soundWave.ogg
+|sound4=sfx_mob_archillagerHargh-004_soundWave.ogg
+|description=Hargh
+|id=sfx_mob_archillagerHargh}}
+| {{SoundLine
+|sound=sfx_mob_archIllagerLaugh-001_soundWave.ogg
+|description=Laugh
+|id=sfx_mob_archIllagerLaugh}}
+| {{SoundLine
+|sound=sfx_sfx_mob_archIllaggerGuitar-001_soundWave.ogg
+|description=Event
+|id=sfx_sfx_mob_archIllaggerGuitar
+}}
+}}
+
+=== Boss ===
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=sfx_boss_ArchillagerHurt-001.ogg
+|sound2=sfx_boss_ArchillagerHurt-002.ogg
+|sound3=sfx_boss_ArchillagerHurt-003.ogg
+|sound4=sfx_boss_ArchillagerHurt-004.ogg
+|sound5=sfx_boss_ArchillagerHurt-005.ogg
+|sound6=sfx_boss_ArchillagerHurt-006.ogg
+|description=Hurt
+|id=sfx_boss_ArchillagerHurt}}
+| {{SoundLine
+|sound=sfx_boss_ArchillagerIdle-001.ogg
+|sound2=sfx_boss_ArchillagerIdle-002.ogg
+|sound3=sfx_boss_ArchillagerIdle-003.ogg
+|sound4=sfx_boss_ArchillagerIdle-004.ogg
+|sound5=sfx_boss_ArchillagerIdle-005.ogg
+|sound6=sfx_boss_ArchillagerIdle-006.ogg
+|sound7=sfx_boss_ArchillagerIdle-007.ogg
+|sound8=sfx_boss_ArchillagerIdle-008.ogg
+|sound9=sfx_boss_ArchillagerIdle-009.ogg
+|sound10=sfx_boss_ArchillagerIdle-010.ogg
+|sound11=sfx_boss_ArchillagerIdle-011.ogg
+|sound12=sfx_boss_ArchillagerIdle-012.ogg
+|sound13=sfx_boss_ArchillagerIdle-013.ogg
+|description=Idle
+|id=sfx_boss_ArchillagerIdle}}
+| {{SoundLine
+|sound=sfx_boss_archillagerIntroChimes.ogg
+|description=Intro chimes
+|id=sfx_boss_archillagerIntroChimes}}
+| {{SoundLine
+|sound=sfx_boss_archillagerIntroFinalBlow.ogg
+|description=Intro final blow
+|id=sfx_boss_archillagerIntroFinalBlow}}
+| {{SoundLine
+|sound=sfx_boss_archIllagerIntroGreetings-001.ogg
+|description=Intro greetings
+|id=sfx_boss_archIllagerIntroGreetings}}
+| {{SoundLine
+|sound=sfx_boss_archillagerIntroLaugh-002.ogg
+|description=Intro laugh
+|id=sfx_boss_archillagerIntroLaugh}}
+| {{SoundLine
+|sound=sfx_boss_archillagerIntroFirstFly.ogg
+|description=Intro first fly
+|id=sfx_boss_archillagerIntroFirstFly}}
+| {{SoundLine
+|sound=sfx_boss_archillagerIntroSecondFly.ogg
+|description=Intro second fly
+|id=sfx_boss_archillagerIntroSecondFly}}
+| {{SoundLine
+|sound=sfx_boss_archillagerIntroThirdFly.ogg
+|description=Intro third fly
+|id=sfx_boss_archillagerIntroThirdFly}}
+| {{SoundLine
+|sound=sfx_boss_archIllagerIntroWieee-001.ogg
+|sound2=sfx_boss_archIllagerIntroWieee-002.ogg
+|sound3=sfx_boss_archIllagerIntroWieee-003.ogg
+|sound4=sfx_boss_archIllagerIntroWieee-004.ogg
+|sound5=sfx_boss_archIllagerIntroWieee-005.ogg
+|sound6=sfx_boss_archIllagerIntroWieee-006.ogg
+|description=Intro wieee
+|id=sfx_boss_archIllagerIntroWieee}}
+| {{SoundLine
+|sound=sfx_boss_ArchillagerMagicImpact-001.ogg
+|description=Magic impact
+|id=sfx_boss_ArchillagerMagicImpact}}
+| {{SoundLine
+|sound=sfx_boss_ArchIllagerOrbWobbleStruggle.ogg
+|description=Orb wobble struggle
+|id=sfx_boss_ArchIllagerOrbWobbleStruggle}}
+| {{SoundLine
+|sound=sfx_boss_archillagerSummonMobs-001.ogg
+|sound2=sfx_boss_archillagerSummonMobs-002.ogg
+|description=Summon mobs
+|id=sfx_boss_archillagerSummonMobs}}
+| {{SoundLine
+|sound=sfx_boss_ArchillagerWhirlwind.ogg
+|description=Whirlwind
+|id=sfx_boss_ArchillagerWhirlwind}}
+| {{SoundLine
+|sound=sfx_mob_enchanterBeam-001_soundWave.ogg
+|description=Enchanting beam
+|id=sfx_mob_enchanterBeam}}
+| {{SoundLine
+|sound=sfx_mob_enchanterSpell-001_soundWave.ogg
+|sound2=sfx_mob_enchanterSpell-002_soundWave.ogg
+|description=Spell
+|id=sfx_mob_enchanterSpell
+}}
+}}
+
+=== Arch-Vessel ===
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=sfx_boss_ArchvesselArchieVoice-001.ogg
+|sound2=sfx_boss_ArchvesselArchieVoice-002.ogg
+|sound3=sfx_boss_ArchvesselArchieVoice-003.ogg
+|sound4=sfx_boss_ArchvesselArchieVoice-004.ogg
+|sound5=sfx_boss_ArchvesselArchieVoice-005.ogg
+|sound6=sfx_boss_ArchvesselArchieVoice-006.ogg
+|sound7=sfx_boss_ArchvesselArchieVoice-007.ogg
+|sound8=sfx_boss_ArchvesselArchieVoice-008.ogg
+|sound9=sfx_boss_ArchvesselArchieVoice-009.ogg
+|sound10=sfx_boss_ArchvesselArchieVoice-010.ogg
+|description=Idle
+|id=sfx_boss_ArchvesselArchieVoice}}
+| {{SoundLine
+|sound=sfx_boss_ArchvesselDeath.ogg
+|description=Death
+|id=sfx_boss_ArchvesselDeath}}
+| {{SoundLine
+|sound=sfx_boss_ArchvesselFourside-001.ogg
+|sound2=sfx_boss_ArchvesselFourside-002.ogg
+|sound3=sfx_boss_ArchvesselFourside-003.ogg
+|sound4=sfx_boss_ArchvesselFourside-004.ogg
+|description=Four Lasers attack
+|id=sfx_boss_ArchvesselFourside}}
+| {{SoundLine
+|sound=sfx_boss_ArchvesselHurt-001.ogg
+|sound2=sfx_boss_ArchvesselHurt-002.ogg
+|sound3=sfx_boss_ArchvesselHurt-003.ogg
+|sound4=sfx_boss_ArchvesselHurt-004.ogg
+|sound5=sfx_boss_ArchvesselHurt-005.ogg
+|sound6=sfx_boss_ArchvesselHurt-006.ogg
+|sound7=sfx_boss_ArchvesselHurt-007.ogg
+|sound8=sfx_boss_ArchvesselHurt-008.ogg
+|description=Hurt
+|id=sfx_boss_ArchvesselHurt}}
+| {{SoundLine
+|sound=sfx_boss_ArchvesselMortarBarrage-001.ogg
+|sound2=sfx_boss_ArchvesselMortarBarrage-002.ogg
+|sound3=sfx_boss_ArchvesselMortarBarrage-003.ogg
+|sound4=sfx_boss_ArchvesselMortarBarrage-004.ogg
+|description=Mortar barrage
+|id=sfx_boss_ArchvesselMortarBarrage}}
+| {{SoundLine
+|sound=sfx_boss_ArchvesselMortarLand-001.ogg
+|sound2=sfx_boss_ArchvesselMortarLand-002.ogg
+|sound3=sfx_boss_ArchvesselMortarLand-003.ogg
+|description=Mortar land
+|id=sfx_boss_ArchvesselMortarLand}}
+| {{SoundLine
+|sound=sfx_boss_archVesselOrbDeath-003.ogg
+|description=Orb death
+|id=sfx_boss_archVesselOrbDeath}}
+| {{SoundLine
+|sound=sfx_boss_ArchvesselStep-001.ogg
+|sound2=sfx_boss_ArchvesselStep-002.ogg
+|sound3=sfx_boss_ArchvesselStep-003.ogg
+|sound4=sfx_boss_ArchvesselStep-004.ogg
+|description=Step
+|id=sfx_boss_ArchvesselStep}}
+| {{SoundLine
+|sound=sfx_boss_ArchvesselTeleIn.ogg
+|description=Teleport in
+|id=sfx_boss_ArchvesselTeleIn}}
+| {{SoundLine
+|sound=sfx_boss_ArchvesselTeleOut.ogg
+|description=Teleport out
+|id=sfx_boss_ArchvesselTeleOut}}
+| {{SoundLine
+|sound=sfx_boss_ArchvesselVesselVoice-001.ogg
+|sound2=sfx_boss_ArchvesselVesselVoice-002.ogg
+|sound3=sfx_boss_ArchvesselVesselVoice-003.ogg
+|sound4=sfx_boss_ArchvesselVesselVoice-004.ogg
+|sound5=sfx_boss_ArchvesselVesselVoice-005.ogg
+|sound6=sfx_boss_ArchvesselVesselVoice-006.ogg
+|description=Vessel voice
+|id=sfx_boss_ArchvesselVesselVoice}}
+| {{SoundLine
+|sound=sfx_env_archVessel2dAmbientLoop.ogg
+|description=Ambient Loop
+|id=sfx_env_archVessel2dAmbientLoop
+}}
+}}
+
+=== Opening Cinematic ===
+{{more sounds|sounds without background noise; more sounds|section=1}}
+{{SoundTable
+|type=dungeons
+| {{SoundLine
+|sound=sfx_mob_archIllager_trailer-002_soundWave.mp3
+|sound2=sfx_mob_archIllager_trailer-003_soundWave.mp3
+|sound3=sfx_mob_archIllager_trailer-004_soundWave.mp3
+|sound4=sfx_mob_archIllager_trailer-005_soundWave.mp3
+|sound5=sfx_mob_archIllager_trailer-006_soundWave.mp3
+|sound6=Sfx_mob_archIllager_trailer-007_soundWave.mp3
+|description= Archie wreaking havoc with the platforms
+|id=N/A
+}}
+}}
+{{SoundTable
+|type=dungeons
+| {{SoundLine
+|sound=sfx_mob_archIllager_Opening_Cinematic-001_soundWave.mp3	
+|sound2=sfx_mob_archIllager_Opening_Cinematic-002_soundWave.mp3
+|sound3=sfx_mob_archIllager_Opening_Cinematic-003_soundWave.mp3
+|sound4=sfx_mob_archIllager_Opening_Cinematic-004_soundWave.mp3
+|sound5=sfx_mob_archIllager_Opening_Cinematic-005_soundWave.mp3
+|sound6=sfx_mob_archIllager_Opening_Cinematic-006_soundWave.mp3
+|sound7=sfx_mob_archIllager_Opening_Cinematic-007_soundWave.mp3
+|sound8=sfx_mob_archIllager_Opening_Cinematic-008_soundWave.mp3
+|sound9=sfx_mob_archIllager_Opening_Cinematic-009_soundWave.mp3
+|sound10=sfx_mob_archIllager_Opening_Cinematic-010_soundWave.mp3
+|sound11=sfx_mob_archIllager_Opening_Cinematic-011_soundWave.mp3
+|sound12=sfx_mob_archIllager_Opening_Cinematic-012_soundWave.mp3
+|sound13=sfx_mob_archIllager_Opening_Cinematic-013_soundWave.mp3
+|description=Opening Cinematic
+|id=N/A
+}}
+}}
+{{SoundTable
+|type=dungeons
+| {{SoundLine
+|sound=sfx_mob_archIllager_Ending_Cinematic-001_soundWave.mp3
+|sound2=sfx_mob_archIllager_Ending_Cinematic-002_soundWave.mp3
+|sound3=sfx_mob_archIllager_Ending_Cinematic-003_soundWave.mp3
+|sound4=sfx_mob_archIllager_Ending_Cinematic-004_soundWave.mp3
+|sound5=sfx_mob_archIllager_Ending_Cinematic-005_soundWave.mp3
+|sound6=sfx_mob_archIllager_Ending_Cinematic-006_soundWave.mp3
+|sound7=sfx_mob_archIllager_Ending_Cinematic-007_soundWave.mp3
+|sound8=sfx_mob_archIllager_Ending_Cinematic-008_soundWave.mp3
+|sound9=sfx_mob_archIllager_Ending_Cinematic-009_soundWave.mp3
+|sound10=sfx_mob_archIllager_Ending_Cinematic-010_soundWave.mp3
+|sound11=sfx_mob_archIllager_Ending_Cinematic-011_soundWave.mp3
+|description=Ending Cinematic
+|id=N/A
+}}
+}}
+
+=== Arch-Visage ===
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=sfx_boss_ArchvisageBeamAttack-001.ogg
+|sound2=sfx_boss_ArchvisageBeamAttack-002.ogg
+|sound3=sfx_boss_ArchvisageBeamAttack-003.ogg
+|description=Visage beam attack
+|id=sfx_boss_ArchvisageBeamAttack}}
+| {{SoundLine
+|sound=sfx_boss_ArchvisageBeamLoop-001.ogg
+|description=Visage beam loop
+|id=sfx_boss_ArchvisageBeamLoop}}
+| {{SoundLine
+|sound=sfx_boss_ArchvisageMortarShoot-001.ogg
+|sound2=sfx_boss_ArchvisageMortarShoot-002.ogg
+|sound3=sfx_boss_ArchvisageMortarShoot-003.ogg
+|description=Visage mortar shoot
+|id=sfx_boss_ArchvisageMortarShoot}}
+| {{SoundLine
+|sound=sfx_boss_ArchvisageTeleIn.ogg
+|description=Visage teleport in
+|id=sfx_boss_ArchvisageTeleIn}}
+| {{SoundLine
+|sound=sfx_boss_ArchvisageTeleOut.ogg
+|description=Visage teleport out
+|id=sfx_boss_ArchvisageTeleOut
+}}
+}}
+
+== Data values ==
+=== ID ===
+{{LevelActorTable|type=entity
+| {{LevelActorLine
+| displayname = Arch-Illager
+| blueprint = BP_ArchIllagerCharacter_C
+| levelmobtype = archillager
+| translationkey = mob_ArchIllager
+}}
+}}
+
+== Achievements ==
+{{Load DungeonsAchievements|Saved The Overworld; High Treason; Post Post-Apocalypse}}
+
+== History ==
+{{HistoryTable
+|{{HistoryLine|dungeons}}
+|{{HistoryLine||September 28, 2019|link=https://twitter.com/dungeonsgame/status/1177995520922533890|A Twitter video was released featuring the first appearance of the Arch-Illager in the opening cinematic.<ref>{{tweet|dungeonsgame|1177995520922533890|What happens when a lonely, outcast Illager stumbles upon a mysterious object with terrifying powers? Find out in the all-new Minecraft Dungeons opening cinematic, then sign up for a chance to play first!|September 28, 2019}}</ref>}}
+|{{HistoryLine||October 25, 2019|link=https://twitter.com/dungeonsgame/status/1187748297907290112|A Twitter video was released featuring the developers talking about the origin of the Arch-Illager.<ref>{{tweet|dungeonsgame|1187748297907290112|What happens when you lock the best and brightest developers in a room with nothing but a camera? First, they start banging on the door. Second, weeping. Finally, they record Minecraft Dungeons origin stories!|October 25, 2019}}</ref>}}
+|{{HistoryLine||March 23, 2020|link=https://www.minecraft.net/en-us/article/search-arch-illager--part-1|A Minecraft article was posted on twitter telling a fictional story of a Mojang employee investigating the Arch-Illager.<ref>{{tweet|dungeonsgame|1242119224195244034|The Arch-Illager may like his mischief, but does that truly make him a villain? A thorough – some might say obsessive – investigation into the man behind the majestic eyebrows.|March 23, 2020}}</ref>}}
+|{{HistoryLine||March 24, 2020|link=https://www.minecraft.net/en-us/article/search-arch-illager--part-2|The second part of the fictional story of a Mojang employee investigating the Arch-Illager was released on Twitter.<ref>{{tweet|dungeonsgame|1242481368329846784|The illustrious Arch-Illager remains shrouded in mystery! Follow along as our investigator continues her noble quest and/or descent into madness.|March 24, 2020}}</ref>}}
+|{{HistoryLine||1.1.1.0|[[File:MCD Arch-Illager.png|32px]]Added the Arch-Illager.}}
+}}
+
+== Issues ==
+{{Issue list}}
+
+== Quotes ==
+{{Quote|'''THE ARCH-ILLAGER''' – Once you have fought your way through the hordes of Illagers, you will reach the top of the Obsidian Pinnacle and come face-to-face with the Arch-Illager. What he lacks in height, he makes up for in evil. Since he is not much of a warrior, he will call forth his darkest creation to do his bidding.|''Guide to Minecraft Dungeons:<br>A Handbook for Heroes''}}
+
+{{Quote|He became the Arch-Illager when he obtained the power of the Orb of Dominance. But before that, he was a misfit Illager who couldn't fit in a normal Illager society, and found this power within a mountain.|Chris Nordgren}}
+
+{{Quote|A recent crime spree has begun in several villages across the nation. The crimes, which include pillaging, arson, and monstrosity unleashing, have been attributed to a local illager who mysteriously vanished some time ago. Fellow illagers describe the suspect as universally unliked but when questioned could not give a reason to why. Not that it matters, this maniacal leader has already assembled a posse of corrupted illagers. Villagers should stay vigilant at all times until the proper authorities or rogue heroes can take this kingdom down.|Local Troublemaker Makes Trouble<ref name="Newspaper">{{Mcnet|search-arch-illager--part-1|Search for the Arch-Illager, Part 1|March 23, 2020|Sofia Dankis}}</ref>}}
+
+{{Quote| It's a play on words, based on my name and who I am. Arch means leader or chief. And well, Illager, that's who I am. Who we all are.<ref>{{cite book|chapter=24|lastname=Forbeck|initials=M.|year=2020|title=Minecraft Dungeons: The Rise of the Arch-Illager|publisher=Del Rey Books}}</ref>|Archie to Walda, in ''{{MCD|The Rise of the Arch-Illager}}''}}
+
+== Gallery ==
+{{for|this subject's image gallery|Dungeons:Arch-Illager/Gallery}}
+
+== References ==
+{{Reflist}}
+
+== Navigation ==
+{{Navbox Dungeons entities}}
+{{Navbox Matt Forbeck novels|the rise of the arch illager}}
+{{featured}}
+[[Category:Minecraft Dungeons characters]]
+[[Category:individual illagers]]
+[[Category:Minecraft Dungeons Illagers]]
+[[Category:Minecraft Dungeons boss mobs]]
+[[Category:Book characters]]
+[[Category:Male]]
+[[Category:Villains]]
+[[Category:Magicians]]
+
+[[de:MCD:Erz-Illager]]
+[[es:MCD:Archimaldeano]]
+[[fr:MCD:Arch-Illageois]]
+[[it:MCD:Arci-abitore]]
+[[ja:MCD:邪悪な村人の王]]
+[[lzh:地下城:奇厄教主]]
+[[pl:MCD:Arcyzłosadnik]]
+[[pt:MCD:Arce-Illager]]
+[[zh:MCD:奇厄教主]]
+[[uk:MCD:Архірозбійник]]
+[[ru:MCD:Архизлодеянин]]
+[[Category:Rulers]]

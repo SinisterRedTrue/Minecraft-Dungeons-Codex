@@ -6,6 +6,7 @@ import { afterEach, beforeEach, describe, expect, it } from 'vitest';
 import {
   OverrideFileError,
   applyOverrides,
+  loadExpectedOverrides,
   loadOverrides,
   type Override,
 } from '../../../scripts/overrides';
@@ -127,5 +128,29 @@ describe('applyOverrides', () => {
     expect(() =>
       applyOverrides([claymore as { slug: string }], [override({ set: { 'overrides.0': 'x' } })]),
     ).toThrow(/may not set/);
+  });
+});
+
+describe('loadExpectedOverrides', () => {
+  it('returns [] when there is no file', () => {
+    expect(loadExpectedOverrides(dir, 'd1')).toEqual([]);
+  });
+
+  it('reads corrections to the expected counts, each with a source', () => {
+    write(
+      'd1',
+      'expected',
+      JSON.stringify([
+        { category: 'artifacts', count: 45, reason: 'Icon Map is unused', sourceUrl: SOURCE },
+      ]),
+    );
+    expect(loadExpectedOverrides(dir, 'd1')).toEqual([
+      { category: 'artifacts', count: 45, reason: 'Icon Map is unused', sourceUrl: SOURCE },
+    ]);
+  });
+
+  it('rejects a correction without a source or with a bad count', () => {
+    write('d1', 'expected', JSON.stringify([{ category: 'artifacts', count: 0, reason: 'x' }]));
+    expect(() => loadExpectedOverrides(dir, 'd1')).toThrow(OverrideFileError);
   });
 });

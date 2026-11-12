@@ -26,3 +26,12 @@
 - [ ] D2 DLC section once D2 DLC is released.
 - [ ] Arcade (D1) section.
 - [ ] Soundtrack and cinematics pages.
+
+## Data (from Prompt 04)
+- [ ] Sub dungeons (about 300 floors, rooms and arena variants) as locations, or as a list on each mission page; the sync skips them today (D-044).
+- [ ] Keep the "Common and Rare" rarity pair of base items (`rarities: []`) and filter on both (D-040).
+- [ ] Mob pages: structured per-tier health and damage, full Spawning and Drops lists, equipment (the infobox has them as text).
+- [ ] Minimum difficulty (I to V) on locations, from the mission infobox; `recommendedPower` has no source.
+- [ ] Gilded enchantment costs (`[2,3,4]` / `[3,4,5]`) and the four built-in exclusives whose cost the wiki lists as Unknown (D-041).
+- [ ] Cosmetics: a flair-kind filter (healing / level up / mob) and hero skins grouped by where they come from.
+- [ ] A short "upstream mistakes" note the sync prints (wrong intro counts, mis-categorised pages) that could be reported to wiki editors.

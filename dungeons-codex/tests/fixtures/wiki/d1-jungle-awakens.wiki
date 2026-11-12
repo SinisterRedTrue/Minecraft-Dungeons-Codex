@@ -1,0 +1,160 @@
+{{Italic title}}
+{{For|the free content released alongside this [[Dungeons:Downloadable content|DLC]]|MCD:1.3.2.0}}[[File:MinecraftDungeonsJungleAwakens.png|thumb|The cover of ''Jungle Awakens'']]
+'''''Jungle Awakens''''' is the first paid {{MCD|DLC}} for {{MCD}}. It was released on July 1, 2020. It is the first DLC of the {{MCD|Hero Pass}}, the first DLC not set in the {{MCD|mainland}}, and the first DLC set in the {{MCD|island realms}}. It includes two {{MCD|mission}}s, {{MCD|Dingy Jungle}} and {{MCD|Overgrown Temple}}, a {{MCD|secret mission}}, {{MCD|Panda Plateau}}, and a {{MCD|boss}}, the {{MCD|Jungle Abomination}}, found in Overgrown Temple.
+
+== Appearance ==
+[[File:JungleAwakensIsland.png|thumb|The island  where ''Jungle Awakens'' takes place.]]
+Jungle Awakens is set on an unnamed tropical island. The island contains jungle trees and vibrant flora in high abundance. On the west side of the island, there is the {{MCD|Dingy Jungle}}; a small lake, a cave entrance, and an offering platform. To the east is the {{MCD|Panda Plateau}}, a bamboo forest where a large panda head seems to be built into the terrain.  At the top of the island is the {{MCD|Overgrown Temple}}, an ancient, run-down temple upon a hill with decorative waterfalls flowing out the sides. A small beach and several smaller islands appear on the island map, though most of the details listed do not appear in-game.
+
+== Additions ==
+The following are included in Jungle Awakens:
+
+=== Armor ===
+==== Added ====
+* {{DuItemLink|Ocelot Armor}}
+** {{DuItemLink|Shadow Walker}}
+
+=== Artifacts ===
+==== Added ====
+* {{DuItemLink|Corrupted Seeds}}
+
+=== Consumables ===
+==== Added ====
+* {{DuItemLink|Melon}}
+* {{DuItemLink|Oakwood Brew}}
+
+=== Effects ===
+==== Added ====
+* {{DuEffectLink|Oakwood Brew}}
+* {{DuEffectLink|poisoned|Poison}}
+
+=== Heroes ===
+==== Added ====
+* {{DuEntityLink|Archeologist}}
+* {{DuEntityLink|Explorer (hero)}}
+
+=== Missions ===
+* {{DuLevelLink|Dingy Jungle}}
+* {{DuLevelLink|Overgrown Temple}}
+* {{DuLevelLink|Panda Plateau}} ({{MCD|Secret Mission}})
+
+=== Mobs ===
+==== Added ====
+Mobs that are first introduced by Jungle Awakens:
+* {{DuEntityLink|Abomination Vine}} ({{MCD|Non-attackable}})
+* {{DuEntityLink|Baby Panda}} ({{MCD|Non-attackable}} {{MCD|animal}})
+* {{DuEntityLink|Black Ocelot}} ({{MCD|Unseen}} {{MCD|animal}})
+* {{DuEntityLink|Jungle Zombie}} (2 variants in {{MCD|Arcade}})
+* {{DuEntityLink|Mossy Skeleton}} (2 variants in {{MCD|Arcade}})
+** {{DuEntityLink|Melee Mossy Skeleton}} ({{MCD|Arcade}}) {{Conjecture|tag=1}}
+* {{DuEntityLink|Entangle Vine}} ({{MCD|Non-attackable}})
+* {{DuEntityLink|Jungle Abomination}} ({{MCD|Boss}})
+* {{DuEntityLink|Jungle Zombie}}
+* {{DuEntityLink|Leapleaf}}
+** {{DuEntityLink|Thundering Growth}} ({{MCD|ancient}} leapleaf)
+* {{DuEntityLink|Mossy Skeleton}}
+* {{DuEntityLink|Ocelot}} ({{MCD|Animal}})
+* {{DuEntityLink|Panda}} ({{MCD|Non-attackable}} {{MCD|animal}})
+* {{DuEntityLink|Parrot}} ({{MCD|Pet}} {{MCD|animal}})
+* {{DuEntityLink|Poison-Quill Vine}}
+* {{DuEntityLink|Quick Growing Vine}}
+* {{DuEntityLink|Whisperer}}
+
+==== Includes ====
+Mobs that appear in Jungle Awakens but introduced in the {{MCD|Mainland}}:
+* {{DuEntityLink|Cave Spider}} ({{MCD|Animal}})
+* {{DuEntityLink|Creeper}}
+** {{DuEntityLink|Melee Skeleton}} ({{MCD|Arcade}}) {{Conjecture|tag=1}}
+* {{DuEntityLink|Zombie}}
+* {{DuEntityLink|Enderman}}
+* {{DuEntityLink|Key Golem}}
+* {{DuEntityLink|Piggy Bank}}
+* {{DuEntityLink|Skeleton}}
+* {{DuEntityLink|Skeleton Horse}} ({{MCD|Mob-like}})
+* {{DuEntityLink|Skeleton Horseman}}
+* {{DuEntityLink|Slime}}
+* {{DuEntityLink|Spider}} ({{MCD|Animal}})
+* {{DuEntityLink|Vanguard}}
+* {{DuEntityLink|Witch}}
+* {{DuEntityLink|Zombie}}
+
+=== Weapons ===
+==== Added ====
+* {{DuItemLink|Whip}}
+** {{DuItemLink|Vine Whip}}
+
+==== Unused ====
+* {{DuItemLink|The Monkey Motivator}} ({{MCD|Unused}})
+
+== Achievements ==
+{{Load DungeonsAchievements|Abomination Domination; Jungle Fungus; Leader of the Pack; Pandamonium; Survival Skills
+}}
+
+== History ==
+{{HistoryTable
+|{{HistoryLine|dungeons}}
+|{{HistoryLine||Dungeons Beta|Exists internally: [[File:DLC jungleawakens inspector.png|16px]] teaser poster, island map, {{MCD|jungle poison}}, {{MCD|panda}}, {{MCD|parrot}}, {{MCD|jungle zombie}}, {{MCD|mossy skeleton}}, {{MCD|whisperer}}, {{MCD|leapleaf}}, {{MCD|poison-quill vine}}, {{MCD|quick growing vine}}, {{MCD|whip}}, and {{MCD|vine whip}}.}}
+|{{HistoryLine||1.1.1.0|Exists internally: DLC title logo, soundtrack, loading screen images for {{MCD|Dingy Jungle}}, {{MCD|Panda Plateau}}, and {{MCD|Overgrown Temple}} (except for {{MCD|Treetop Tangle}}). Added {{MCD|ocelot}}s, {{MCD|melon}}s, {{MCD|oakwood brew}}s, {{MCD|ocelot armor}}, {{MCD|shadow walker}}, and the {{MCD|jungle abomination}} (except for the {{MCD|Treetop Whisperer}}).
+|Changed internally: teaser poster design.}}
+|{{HistoryLine||May 29, 2020|link=https://www.minecraft.net/en-us/article/minecraft-dungeons--on-horizon|Jungle Awakens officially revealed, with a release date slated for July 2020.}}
+|{{HistoryLine||June 26, 2020|link=https://www.minecraft.net/fr-fr/article/minecraft-dungeons--jungle-awakens|Jungle Awakens release date confirmed to be July 1.}}
+|{{HistoryLine||1.3.2.0|Jungle Awakens releases.}}
+|{{HistoryLine||1.4.3.0|Added exclusive [[MCD:Achievement|Achievements/Trophies]] for Jungle Awakens and {{MCD|Creeping Winter}}.
+|Fixed flickering of lowered gates in {{MCD|Overgrown Temple}}.
+|Fixed missing audio from the last button of the {{MCD|Dingy Jungle}} puzzle.
+|Fixed end door prompt of {{MCD|Dingy Jungle}} stating "Travel" instead of "Exit".
+|Fixed {{MCD|Panda Plateau}} using the generic loading screen image for {{MCD|secret mission}}s rather than its unique one.}}
+|{{HistoryLine||1.6.0.0|Reduced volume of {{MCD|mossy skeleton}} shooting sounds.}}
+|{{HistoryLine||1.7.2.0|Fixed over-sized {{MCD|Burning}} and Hunting effects on {{MCD|Leapleaf|leapleaves}} and {{MCD|whisperer}}s.
+|Fixed missing sound effects on {{MCD|Panda Plateau}} cage opening, {{MCD|Dingy Jungle}} stone heads puzzle.}}
+|{{HistoryLine||1.8.0.0|Added {{MCD|Thundering Growth}}.}}
+}}
+
+== Quotes ==
+{{Q|Only you can fight back against the snarling overgrowth to free this distant jungle from a mysterious power. The path is perilous – new [[#Entities|foes]] and dangerous puzzles wait in the shade. Find new [[#Armor|armour]], [[#Weapons|weapons]], and [[#Artifacts|artifacts]] as you seek to uproot the source of the wicked corruption: the {{MCD|Jungle Abomination}}.|In-game pre-purchase description}}
+== Trivia ==
+* This DLC was accidentally released early on June 30 for players on {{Wikipedia|Xbox One}} and {{Wikipedia|Windows 10}} through the {{Wikipedia|Microsoft Store}}.
+* This is the only DLC that doesn't have a {{MCD||Minecraft Dungeons Diaries}} episode on it.
+* It was originally believed that the shard of the orb of dominance created the leapleaf and the whisperer. It was found out after rereading the original "Jungle DLC Out Today Page," that the shard corrupted the two species rather than creating them.<ref>[https://www.minecraft.net/en-us/article/jungle-awakens-dlc-out-today]|”One of its shards has found its way to a lush jungle, corrupting both the land and its inhabitants.”</ref>
+
+== Gallery ==
+=== Official artwork ===
+<gallery>
+Jungle Awakens logo.png|The logo for Jungle Awakens
+Jungle Awakens cover art.png|Cover art for Jungle Awakens
+Dungeons-dlc-jungleawakens-keyart.jpg|Cover art for Jungle Awakens without the logo
+DLC jungleawakens inspector2.png|A teaser poster for Jungle Awakens. Pictured are four heroes, a {{MCD|jungle zombie}}, a {{MCD|mossy skeleton}}, a {{MCD|whisperer}}, three {{MCD|poison-quill vine}}s, three {{MCD|parrot}}s, a {{MCD|leapleaf}}, and the {{MCD|jungle abomination}}.<ref>{{tweet|dungeonsgame|1276530915888463873|Sweat drips down your brow. A wall of vines blocks your path. A distant rumble of something stirring deep in the undergrowth. Your adventure is far from over! The first DLC, Jungle Awakens, arrives July 1st – already included with the Hero Pass!|June 26, 2020}}</ref>
+</gallery>
+=== Screenshots ===
+<gallery>
+Minecraft-Dungeons Jungle-Awakens Screenshot.png|An environment from Jungle Awakens
+DLC jungleawakens inspector.png|A preview of the Jungle Awakens pack
+Loadingscreen DLC DingyJungle.png|The loading screen for the {{MCD|Dingy Jungle}}. Pictured are two {{MCD|mossy skeleton}}s, a {{MCD|whisperer}} and two {{MCD|ocelot}}s.
+Loadingscreen DLC overgrownTemple.png|The loading screen for the {{MCD|Overgrown Temple}}. Pictured are two {{MCD|jungle zombie}}s, two {{MCD|spider}}s and an {{MCD|ocelot}}.
+JungleShard.png|The Orb shard that corrupted the entire Jungle, outside of the {{MCD|Overgrown Temple}}
+Jungle Awakens Steam Screenshot 1.jpg|Screenshot from the steam page
+Jungle Awakens Steam Screenshot 2.jpg|Screenshot from the steam page
+Jungle Awakens Steam Screenshot 3.jpg|Screenshot from the steam page
+Jungle Awakens Steam Screenshot 4.jpg|Screenshot from the steam page
+Jungle Awakens Steam Screenshot 5.jpg|Screenshot from the steam page
+Ape statue MCD Arcade.png|A large statue of an ape found in ''Minecraft Dungeons Arcade''
+</gallery>
+
+== References ==
+{{Reflist}}
+
+== External links ==
+* [https://minecraft.net/store/minecraft-dungeons-jungle-awakens-dlc Minecraft Dungeons: Jungle Awakens]
+
+== Navigation ==
+{{Navbox Dungeons}}
+{{Featured}}
+[[Category:Jungle Awakens content| ]]
+[[Category:Minecraft Dungeons DLC]]
+
+[[de:Dungeons:Der Dschungel erwacht]]
+[[es:Dungeons:La jungla despierta]]
+[[fr:Dungeons:L'éveil de la jungle]]
+[[ja:Dungeons:ジャングルの目覚め]]
+[[pt:Dungeons:Despertar da Selva]]
+[[zh:Dungeons:觉醒丛林]]

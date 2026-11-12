@@ -57,16 +57,17 @@ D2: weapons | armor | enchantments | artifacts | talismans | quests | mobs | loc
 | `damageReduction` | `number` (percent) | O | Parsed from a property like "35% Damage Reduction" |
 | `effects` | `{ label: string; value?: number; unit?: '%' \| 's' \| 'flat' }[]` | R | Every parsed property with a number, e.g. `+30% Movement Speed` → `{label:'Movement Speed', value:30, unit:'%'}` |
 | `baseHealth` | `number` | O | The wiki states 200 for all armor; store it if present |
+| `powerTable` | `{ power: number; min: number; max: number }[]` | O | From the armor page's `Power \| Min health \| Max health` table (the same layout as weapons, but health added at that power; `parsePowerTable(…, { measure: 'health' })`); feeds the Power Forge (D-042) |
 
 ### 3.3 `D1Enchantment` (category `enchantments`)
 | Field | Type | R/O | Notes |
 |---|---|---|---|
 | `appliesTo` | `('melee' \| 'ranged' \| 'armor')[]` | R | |
-| `tier` | `'common' \| 'powerful'` | R | |
+| `tier` | `'common' \| 'powerful'` | O | From the "Cost" column. Absent when the wiki lists the cost as Unknown (three built-in exclusives, e.g. Shadow Shot); those entities are `partial` (D-041) |
 | `isGilded` | `boolean` | R | Gilded variants are separate entities only if the wiki lists them separately; otherwise use `gildedDescription` |
 | `gildedDescription` | `string` | O | |
 | `levels` | `{ level: 1 \| 2 \| 3; text: string; value?: number; unit?: string }[]` | R | Tier I–III effect text, plus a parsed number where it exists |
-| `pointCost` | `[number, number, number]` | R | Per-level costs. Common `[1,2,3]`, Powerful `[2,3,4]`, Gilded Common `[2,3,4]`, Gilded Powerful `[3,4,5]` |
+| `pointCost` | `[number, number, number]` | O | Per-level costs, read from the page's Overview table: Common `[1,2,3]`, Powerful `[2,3,4]`. Absent together with `tier`. The wiki lists gilded variants in a description column, not separately, so `isGilded` is `false` and Gilded costs (`[2,3,4]` / `[3,4,5]`) are not stored (D-041) |
 | `stackable` | `boolean` | R | "Multiple per equipment" |
 | `mobObtainable` | `boolean` | R | |
 | `builtInto` | `string[]` (item ids) | R | |

@@ -150,6 +150,50 @@ export class WikiClient {
     return { ...entry, body: body as T, fromCache: false };
   }
 
+  /**
+   * Downloads a file (an image) through the same one-request-per-second queue, with the same
+   * bot User-Agent and back-off. Never cached here: callers store the result under `public/`.
+   */
+  async getBinary(url: string): Promise<Buffer> {
+    if (this.offline) throw new OfflineCacheMissError(url);
+    return this.enqueue(async () => {
+      for (let attempt = 0; ; attempt++) {
+        await this.waitForSlot();
+        this.requestCount++;
+        let retryReason: string;
+        let retryAfterMs = 0;
+        try {
+          const res = await this.fetchImpl(url, {
+            headers: { 'User-Agent': USER_AGENT },
+            signal: AbortSignal.timeout(this.timeoutMs),
+          });
+          retryAfterMs = parseRetryAfter(res.headers.get('retry-after'));
+          if (res.status === 429 || res.status >= 500) {
+            retryReason = `HTTP ${res.status}`;
+          } else if (!res.ok) {
+            throw new WikiApiError(`http-${res.status}`, res.statusText || 'download failed', url);
+          } else {
+            return Buffer.from(await res.arrayBuffer());
+          }
+        } catch (error) {
+          if (error instanceof WikiApiError) throw error;
+          retryReason = error instanceof Error ? error.message : String(error);
+        }
+        const delay = this.retryDelaysMs[attempt];
+        if (delay === undefined) {
+          throw new WikiApiError(
+            'retries-exhausted',
+            `${retryReason} after ${attempt + 1} attempts`,
+            url,
+          );
+        }
+        const wait = Math.max(delay, retryAfterMs);
+        this.log(`wiki: ${retryReason}, retrying in ${wait / 1000}s (${url})`);
+        await this.sleep(wait);
+      }
+    });
+  }
+
   /** Runs `task` after every earlier task, so requests never overlap. */
   private enqueue<T>(task: () => Promise<T>): Promise<T> {
     const run = this.queue.then(task, task);

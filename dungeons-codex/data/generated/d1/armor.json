@@ -1,0 +1,5919 @@
+[
+  {
+    "id": "d1:armor:archers-armor",
+    "slug": "archers-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Archer's Armor",
+    "description": "Archer's Armor, favored by humble warriors, is cheap to make and still stops a blade.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Archer's Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/archers-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "hunters-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:hunters-armor",
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "Movespeed Aura",
+        "unit": "%",
+        "value": 15
+      },
+      {
+        "label": "Arrows per bundle",
+        "unit": "flat",
+        "value": 10
+      },
+      {
+        "label": "Ranged Damage",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:creeper-woods",
+      "d1:locations:creepy-crypt",
+      "d1:locations:pumpkin-pastures",
+      "d1:locations:dingy-jungle",
+      "d1:locations:gauntlet-of-gales",
+      "d1:locations:treetop-tangle"
+    ],
+    "properties": [
+      "15% Movespeed Aura",
+      "+10 Arrows per bundle",
+      "+30% Ranged Damage"
+    ],
+    "variantIds": [],
+    "tags": [
+      "arrow-supply",
+      "movement-speed",
+      "ranged-damage"
+    ],
+    "related": [
+      "d1:armor:hunters-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883179,
+      "title": "Dungeons:Archer's Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Archer's_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:arctic-fox-armor",
+    "slug": "arctic-fox-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Arctic Fox Armor",
+    "description": "If you want to survive the icy tundra in style, the Arctic Fox Armor is the best choice this season.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Arctic Fox Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/arctic-fox-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "wolf-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:wolf-armor",
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "chance to negate hits",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "label": "weapon Damage Boost Aura",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "isSeasonal": true,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:the-tower"
+    ],
+    "properties": [
+      "30% chance to negate hits",
+      "+20% weapon Damage Boost Aura",
+      "Health potions heal nearby allies",
+      "Special Event Item"
+    ],
+    "variantIds": [],
+    "tags": [
+      "damage-boost",
+      "defense",
+      "potion",
+      "seasonal-event"
+    ],
+    "related": [
+      "d1:armor:wolf-armor",
+      "d1:armor:black-wolf-armor",
+      "d1:armor:fox-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3880106,
+      "title": "Dungeons:Arctic Fox Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Arctic_Fox_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:battle-robe",
+    "slug": "battle-robe",
+    "game": "d1",
+    "category": "armor",
+    "name": "Battle Robe",
+    "description": "The Battle Robe is worn by the distinguished Illager Evokers of the Arch-Illager's court.",
+    "rarity": "common",
+    "image": {
+      "alt": "Battle Robe icon",
+      "height": 512,
+      "src": "/images/d1/armor/battle-robe.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "battle-robe",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "Artifact Cooldown",
+        "unit": "%",
+        "value": -40
+      },
+      {
+        "label": "Melee Damage",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:creepy-crypt",
+      "d1:locations:redstone-mines",
+      "d1:locations:frosted-fjord",
+      "d1:locations:colossal-rampart",
+      "d1:locations:abyssal-monument"
+    ],
+    "powerTable": [
+      {
+        "max": 3,
+        "min": 0,
+        "power": 1
+      },
+      {
+        "max": 17,
+        "min": 13,
+        "power": 5
+      },
+      {
+        "max": 37,
+        "min": 33,
+        "power": 10
+      },
+      {
+        "max": 63,
+        "min": 57,
+        "power": 15
+      },
+      {
+        "max": 94,
+        "min": 87,
+        "power": 20
+      },
+      {
+        "max": 132,
+        "min": 124,
+        "power": 25
+      },
+      {
+        "max": 178,
+        "min": 168,
+        "power": 30
+      },
+      {
+        "max": 235,
+        "min": 223,
+        "power": 35
+      },
+      {
+        "max": 305,
+        "min": 290,
+        "power": 40
+      },
+      {
+        "max": 390,
+        "min": 372,
+        "power": 45
+      },
+      {
+        "max": 495,
+        "min": 473,
+        "power": 50
+      },
+      {
+        "max": 623,
+        "min": 596,
+        "power": 55
+      },
+      {
+        "max": 780,
+        "min": 747,
+        "power": 60
+      },
+      {
+        "max": 973,
+        "min": 931,
+        "power": 65
+      },
+      {
+        "max": 1208,
+        "min": 1158,
+        "power": 70
+      },
+      {
+        "max": 1497,
+        "min": 1435,
+        "power": 75
+      },
+      {
+        "max": 1850,
+        "min": 1774,
+        "power": 80
+      },
+      {
+        "max": 2283,
+        "min": 2190,
+        "power": 85
+      },
+      {
+        "max": 2814,
+        "min": 2700,
+        "power": 90
+      },
+      {
+        "max": 3463,
+        "min": 3324,
+        "power": 95
+      },
+      {
+        "max": 4259,
+        "min": 4088,
+        "power": 100
+      },
+      {
+        "max": 5236,
+        "min": 5025,
+        "power": 105
+      },
+      {
+        "max": 5921,
+        "min": 5685,
+        "power": 108
+      }
+    ],
+    "properties": [
+      "-40% Artifact Cooldown",
+      "+30% Melee Damage"
+    ],
+    "variantIds": [
+      "d1:armor:splendid-robe"
+    ],
+    "tags": [
+      "artifact-cooldown",
+      "melee-damage"
+    ],
+    "related": [
+      "d1:armor:splendid-robe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883111,
+      "title": "Dungeons:Battle Robe",
+      "url": "https://minecraft.wiki/w/Dungeons:Battle_Robe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:beehive-armor",
+    "slug": "beehive-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Beehive Armor",
+    "description": "The Beehive Armor hums with the focused power of countless bees.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Beehive Armor icon",
+      "height": 640,
+      "src": "/images/d1/armor/beehive-armor.webp",
+      "width": 640
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "beenest-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:beenest-armor",
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "chance to summon a bee when hit (max",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:pumpkin-pastures",
+      "d1:locations:soggy-cave",
+      "d1:locations:lost-settlement",
+      "d1:locations:warped-forest"
+    ],
+    "properties": [
+      "35% Damage Reduction",
+      "30% chance to summon a bee when hit (max 3)",
+      "Health potions heal nearby allies"
+    ],
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "potion",
+      "summoning"
+    ],
+    "related": [
+      "d1:armor:beenest-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3883115,
+      "title": "Dungeons:Beehive Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Beehive_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:beenest-armor",
+    "slug": "beenest-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Beenest Armor",
+    "description": "There always seems to be a slight buzz around the Beenest Armor. Or maybe the buzz is coming from within?",
+    "rarity": "common",
+    "image": {
+      "alt": "Beenest Armor icon",
+      "height": 640,
+      "src": "/images/d1/armor/beenest-armor.webp",
+      "width": 640
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "beenest-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "chance to summon a bee when hit (max",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:pumpkin-pastures",
+      "d1:locations:soggy-cave",
+      "d1:locations:lost-settlement",
+      "d1:locations:warped-forest"
+    ],
+    "properties": [
+      "Health potions heal nearby allies",
+      "30% chance to summon a bee when hit (max 3)"
+    ],
+    "variantIds": [
+      "d1:armor:beehive-armor"
+    ],
+    "tags": [
+      "potion",
+      "summoning"
+    ],
+    "related": [
+      "d1:armor:beehive-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3883112,
+      "title": "Dungeons:Beenest Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Beenest_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:black-spot-armor",
+    "slug": "black-spot-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Black Spot Armor",
+    "description": "This decaying armor has an unsettling presence, as if observing you.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Black Spot Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/black-spot-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "root-rot-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:root-rot-armor",
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:food-reserves"
+      }
+    ],
+    "effects": [],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:treetop-tangle"
+    ],
+    "properties": [
+      "Create food on potion use",
+      "Reset Artifact Cooldown on potion use",
+      "Health potions heal nearby allies"
+    ],
+    "variantIds": [],
+    "tags": [
+      "artifact-cooldown",
+      "potion"
+    ],
+    "related": [
+      "d1:armor:root-rot-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883210,
+      "title": "Dungeons:Black Spot Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Black_Spot_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:black-wolf-armor",
+    "slug": "black-wolf-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Black Wolf Armor",
+    "description": "The wolf who strikes from the shadows lives to tell the tale.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Black Wolf Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/black-wolf-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "wolf-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:wolf-armor",
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:acrobat"
+      }
+    ],
+    "effects": [
+      {
+        "label": "weapon Damage Boost Aura",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:creeper-woods",
+      "d1:locations:redstone-mines",
+      "d1:locations:lost-settlement",
+      "d1:locations:end-wilds"
+    ],
+    "properties": [
+      "Roll cooldown reduced",
+      "+20% weapon Damage Boost Aura",
+      "Health potions heal nearby allies"
+    ],
+    "variantIds": [],
+    "tags": [
+      "damage-boost",
+      "potion",
+      "rolling"
+    ],
+    "related": [
+      "d1:armor:wolf-armor",
+      "d1:armor:fox-armor",
+      "d1:armor:arctic-fox-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883271,
+      "title": "Dungeons:Black Wolf Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Black_Wolf_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:cauldron-armor",
+    "slug": "cauldron-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Cauldron Armor",
+    "description": "The Cauldron Armor was created with camouflage in mind, but what it lacks in stealth it makes up for in bubbly charm.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Cauldron Armor icon",
+      "height": 640,
+      "src": "/images/d1/armor/cauldron-armor.webp",
+      "width": 640
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "plate-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:plate-armor",
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "Melee Damage",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "label": "chance to negate Damage",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "longer roll cooldown",
+        "unit": "%",
+        "value": 100
+      }
+    ],
+    "isSeasonal": true,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:the-tower"
+    ],
+    "properties": [
+      "+30% Melee Damage",
+      "30% chance to negate Damage",
+      "35% Damage Reduction",
+      "100% longer roll cooldown",
+      "Special Event Item"
+    ],
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "melee-damage",
+      "rolling",
+      "seasonal-event"
+    ],
+    "related": [
+      "d1:armor:plate-armor",
+      "d1:armor:full-metal-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3883205,
+      "title": "Dungeons:Cauldron Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Cauldron_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:cave-crawler",
+    "slug": "cave-crawler",
+    "game": "d1",
+    "category": "armor",
+    "name": "Cave Crawler",
+    "description": "The Cave Crawler armor has been passed down through generations of brave spelunkers and miners.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Cave Crawler icon",
+      "height": 512,
+      "src": "/images/d1/armor/cave-crawler.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "spelunker-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:spelunker-armor",
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "Artifact Damage",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "label": "weapon Damage Boost Aura",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:redstone-mines",
+      "d1:locations:cacti-canyon",
+      "d1:locations:lost-settlement",
+      "d1:locations:windswept-peaks",
+      "d1:locations:the-stronghold"
+    ],
+    "properties": [
+      "+50% Artifact Damage",
+      "+20% weapon Damage Boost Aura",
+      "Gives you a pet bat"
+    ],
+    "variantIds": [],
+    "tags": [
+      "artifact-damage",
+      "damage-boost",
+      "summoning"
+    ],
+    "related": [
+      "d1:armor:spelunker-armor",
+      "d1:armor:sweet-tooth"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883227,
+      "title": "Dungeons:Cave Crawler",
+      "url": "https://minecraft.wiki/w/Dungeons:Cave_Crawler"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:champions-armor",
+    "slug": "champions-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Champion's Armor",
+    "description": "Granted to the champions of the Overworld by the free villagers as a token of their thanks for many years of protection and assistance. The mark of a true hero.",
+    "rarity": "common",
+    "image": {
+      "alt": "Champion's Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/champions-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "champions-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "Potion Cooldown",
+        "unit": "%",
+        "value": -40
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:arch-haven",
+      "d1:locations:cacti-canyon",
+      "d1:locations:lone-fortress",
+      "d1:locations:abyssal-monument"
+    ],
+    "powerTable": [
+      {
+        "max": 3,
+        "min": 0,
+        "power": 1
+      },
+      {
+        "max": 17,
+        "min": 13,
+        "power": 5
+      },
+      {
+        "max": 37,
+        "min": 33,
+        "power": 10
+      },
+      {
+        "max": 63,
+        "min": 57,
+        "power": 15
+      },
+      {
+        "max": 94,
+        "min": 87,
+        "power": 20
+      },
+      {
+        "max": 132,
+        "min": 124,
+        "power": 25
+      },
+      {
+        "max": 178,
+        "min": 168,
+        "power": 30
+      },
+      {
+        "max": 235,
+        "min": 223,
+        "power": 35
+      },
+      {
+        "max": 305,
+        "min": 290,
+        "power": 40
+      },
+      {
+        "max": 390,
+        "min": 372,
+        "power": 45
+      },
+      {
+        "max": 495,
+        "min": 473,
+        "power": 50
+      },
+      {
+        "max": 623,
+        "min": 596,
+        "power": 55
+      },
+      {
+        "max": 780,
+        "min": 747,
+        "power": 60
+      },
+      {
+        "max": 973,
+        "min": 931,
+        "power": 65
+      },
+      {
+        "max": 1208,
+        "min": 1158,
+        "power": 70
+      },
+      {
+        "max": 1497,
+        "min": 1435,
+        "power": 75
+      },
+      {
+        "max": 1850,
+        "min": 1774,
+        "power": 80
+      },
+      {
+        "max": 2283,
+        "min": 2190,
+        "power": 85
+      },
+      {
+        "max": 2814,
+        "min": 2700,
+        "power": 90
+      },
+      {
+        "max": 3463,
+        "min": 3324,
+        "power": 95
+      },
+      {
+        "max": 4259,
+        "min": 4088,
+        "power": 100
+      },
+      {
+        "max": 5236,
+        "min": 5025,
+        "power": 105
+      },
+      {
+        "max": 5921,
+        "min": 5685,
+        "power": 108
+      }
+    ],
+    "properties": [
+      "35% Damage Reduction",
+      "-40% Potion Cooldown",
+      "Mobs target you more"
+    ],
+    "variantIds": [
+      "d1:armor:heros-armor"
+    ],
+    "tags": [
+      "defense",
+      "potion"
+    ],
+    "related": [
+      "d1:armor:heros-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3883120,
+      "title": "Dungeons:Champion's Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Champion's_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:climbing-gear",
+    "slug": "climbing-gear",
+    "game": "d1",
+    "category": "armor",
+    "name": "Climbing Gear",
+    "description": "This sturdy Climbing Gear is perfect for braving the blistering cold of the icy mountain face.",
+    "rarity": "common",
+    "dlc": "howling-peaks",
+    "image": {
+      "alt": "Climbing Gear icon",
+      "height": 512,
+      "src": "/images/d1/armor/climbing-gear.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "climbing-gear",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "Artifact Cooldown",
+        "unit": "%",
+        "value": -40
+      },
+      {
+        "label": "Pushback Resistance",
+        "unit": "%",
+        "value": 75
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:windswept-peaks",
+      "d1:locations:colossal-rampart"
+    ],
+    "properties": [
+      "-40% Artifact Cooldown",
+      "75% Pushback Resistance"
+    ],
+    "variantIds": [
+      "d1:armor:goat-gear",
+      "d1:armor:rugged-climbing-gear"
+    ],
+    "tags": [
+      "artifact-cooldown",
+      "defense"
+    ],
+    "related": [
+      "d1:armor:goat-gear",
+      "d1:armor:rugged-climbing-gear"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3844934,
+      "title": "Dungeons:Climbing Gear",
+      "url": "https://minecraft.wiki/w/Dungeons:Climbing_Gear"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:cloaked-skull",
+    "slug": "cloaked-skull",
+    "game": "d1",
+    "category": "armor",
+    "name": "Cloaked Skull",
+    "description": "Shroud your scary skeletal form with a creepy cloak, still spooky!",
+    "rarity": "unique",
+    "image": {
+      "alt": "Cloaked Skull icon",
+      "height": 512,
+      "src": "/images/d1/armor/cloaked-skull.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "ghostly-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:ghostly-armor",
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:fire-trail"
+      }
+    ],
+    "effects": [
+      {
+        "label": "chance to negate hits",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isSeasonal": true,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:the-tower"
+    ],
+    "properties": [
+      "Briefly gain Ghost Form when rolling",
+      "30% chance to negate hits",
+      "Spawns fire on roll",
+      "Special Event Item"
+    ],
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "fire",
+      "seasonal-event",
+      "stealth"
+    ],
+    "related": [
+      "d1:armor:ghostly-armor",
+      "d1:armor:ghost-kindler"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3883169,
+      "title": "Dungeons:Cloaked Skull",
+      "url": "https://minecraft.wiki/w/Dungeons:Cloaked_Skull"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:dark-armor",
+    "slug": "dark-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Dark Armor",
+    "description": "Dark Armor, made in the blackest depths of the Fiery Forge, is worn by the Illager royal guard.",
+    "rarity": "common",
+    "image": {
+      "alt": "Dark Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/dark-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": true,
+    "armorGroup": "dark-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "souls gathered",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:fiery-forge",
+      "d1:locations:underhalls",
+      "d1:locations:lost-settlement",
+      "d1:locations:coral-rise"
+    ],
+    "powerTable": [
+      {
+        "max": 3,
+        "min": 0,
+        "power": 1
+      },
+      {
+        "max": 17,
+        "min": 13,
+        "power": 5
+      },
+      {
+        "max": 37,
+        "min": 33,
+        "power": 10
+      },
+      {
+        "max": 63,
+        "min": 57,
+        "power": 15
+      },
+      {
+        "max": 94,
+        "min": 87,
+        "power": 20
+      },
+      {
+        "max": 132,
+        "min": 124,
+        "power": 25
+      },
+      {
+        "max": 178,
+        "min": 168,
+        "power": 30
+      },
+      {
+        "max": 235,
+        "min": 223,
+        "power": 35
+      },
+      {
+        "max": 305,
+        "min": 290,
+        "power": 40
+      },
+      {
+        "max": 390,
+        "min": 372,
+        "power": 45
+      },
+      {
+        "max": 495,
+        "min": 473,
+        "power": 50
+      },
+      {
+        "max": 623,
+        "min": 596,
+        "power": 55
+      },
+      {
+        "max": 780,
+        "min": 747,
+        "power": 60
+      },
+      {
+        "max": 973,
+        "min": 931,
+        "power": 65
+      },
+      {
+        "max": 1208,
+        "min": 1158,
+        "power": 70
+      },
+      {
+        "max": 1497,
+        "min": 1435,
+        "power": 75
+      },
+      {
+        "max": 1850,
+        "min": 1774,
+        "power": 80
+      },
+      {
+        "max": 2283,
+        "min": 2190,
+        "power": 85
+      },
+      {
+        "max": 2814,
+        "min": 2700,
+        "power": 90
+      },
+      {
+        "max": 3463,
+        "min": 3324,
+        "power": 95
+      },
+      {
+        "max": 4259,
+        "min": 4088,
+        "power": 100
+      },
+      {
+        "max": 5236,
+        "min": 5025,
+        "power": 105
+      },
+      {
+        "max": 5921,
+        "min": 5685,
+        "power": 108
+      }
+    ],
+    "properties": [
+      "35% Damage Reduction",
+      "+50% souls gathered"
+    ],
+    "variantIds": [
+      "d1:armor:titans-shroud"
+    ],
+    "tags": [
+      "defense",
+      "soul-gathering"
+    ],
+    "related": [
+      "d1:armor:titans-shroud"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3883140,
+      "title": "Dungeons:Dark Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Dark_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:ember-robe",
+    "slug": "ember-robe",
+    "game": "d1",
+    "category": "armor",
+    "name": "Ember Robe",
+    "description": "The Ember Robe was created by Illager Evokers to distinguish themselves from the common guard.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Ember Robe icon",
+      "height": 512,
+      "src": "/images/d1/armor/ember-robe.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "evocation-robe",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:evocation-robe",
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:burning"
+      }
+    ],
+    "effects": [
+      {
+        "label": "Artifact Cooldown",
+        "unit": "%",
+        "value": -40
+      },
+      {
+        "label": "Movespeed Aura",
+        "unit": "%",
+        "value": 15
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:soggy-swamp",
+      "d1:locations:soggy-cave",
+      "d1:locations:obsidian-pinnacle",
+      "d1:locations:panda-plateau",
+      "d1:locations:crimson-forest",
+      "d1:locations:the-stronghold"
+    ],
+    "powerTable": [
+      {
+        "max": 3,
+        "min": 0,
+        "power": 1
+      },
+      {
+        "max": 17,
+        "min": 13,
+        "power": 5
+      },
+      {
+        "max": 37,
+        "min": 33,
+        "power": 10
+      },
+      {
+        "max": 63,
+        "min": 57,
+        "power": 15
+      },
+      {
+        "max": 94,
+        "min": 87,
+        "power": 20
+      },
+      {
+        "max": 132,
+        "min": 124,
+        "power": 25
+      },
+      {
+        "max": 178,
+        "min": 168,
+        "power": 30
+      },
+      {
+        "max": 235,
+        "min": 223,
+        "power": 35
+      },
+      {
+        "max": 305,
+        "min": 290,
+        "power": 40
+      },
+      {
+        "max": 390,
+        "min": 372,
+        "power": 45
+      },
+      {
+        "max": 495,
+        "min": 473,
+        "power": 50
+      },
+      {
+        "max": 623,
+        "min": 596,
+        "power": 55
+      },
+      {
+        "max": 780,
+        "min": 747,
+        "power": 60
+      },
+      {
+        "max": 973,
+        "min": 931,
+        "power": 65
+      },
+      {
+        "max": 1208,
+        "min": 1158,
+        "power": 70
+      },
+      {
+        "max": 1497,
+        "min": 1435,
+        "power": 75
+      },
+      {
+        "max": 1850,
+        "min": 1774,
+        "power": 80
+      },
+      {
+        "max": 2283,
+        "min": 2190,
+        "power": 85
+      },
+      {
+        "max": 2814,
+        "min": 2700,
+        "power": 90
+      },
+      {
+        "max": 3463,
+        "min": 3324,
+        "power": 95
+      },
+      {
+        "max": 4259,
+        "min": 4088,
+        "power": 100
+      },
+      {
+        "max": 5236,
+        "min": 5025,
+        "power": 105
+      },
+      {
+        "max": 5921,
+        "min": 5685,
+        "power": 108
+      }
+    ],
+    "properties": [
+      "Burns nearby enemies",
+      "-40% Artifact Cooldown",
+      "+15% Movespeed Aura"
+    ],
+    "variantIds": [],
+    "tags": [
+      "artifact-cooldown",
+      "fire",
+      "movement-speed"
+    ],
+    "related": [
+      "d1:armor:evocation-robe",
+      "d1:armor:verdant-robe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883163,
+      "title": "Dungeons:Ember Robe",
+      "url": "https://minecraft.wiki/w/Dungeons:Ember_Robe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:emerald-gear",
+    "slug": "emerald-gear",
+    "game": "d1",
+    "category": "armor",
+    "name": "Emerald Gear",
+    "description": "As you wear the Emerald Gear during your adventures, it calls other emeralds to you as if by chance.",
+    "rarity": "common",
+    "dlc": "howling-peaks",
+    "image": {
+      "alt": "Emerald Gear icon",
+      "height": 512,
+      "src": "/images/d1/armor/emerald-gear.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "emerald-gear",
+    "baseHealth": 200,
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:lucky-explorer"
+      }
+    ],
+    "effects": [
+      {
+        "label": "melee attack speed",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:gale-sanctum",
+      "d1:locations:colossal-rampart"
+    ],
+    "properties": [
+      "Chance to spawn emeralds when exploring.",
+      "+25% melee attack speed"
+    ],
+    "variantIds": [
+      "d1:armor:gilded-glory",
+      "d1:armor:opulent-armor"
+    ],
+    "tags": [
+      "attack-speed",
+      "emeralds"
+    ],
+    "related": [
+      "d1:armor:gilded-glory",
+      "d1:armor:opulent-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883145,
+      "title": "Dungeons:Emerald Gear",
+      "url": "https://minecraft.wiki/w/Dungeons:Emerald_Gear"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:entertainers-garb",
+    "slug": "entertainers-garb",
+    "game": "d1",
+    "category": "armor",
+    "name": "Entertainer's Garb",
+    "description": "Defensive? Sure. Fabulous? ABSOLUTELY.",
+    "rarity": "common",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "Entertainer's Garb icon",
+      "height": 256,
+      "src": "/images/d1/armor/entertainers-garb.webp",
+      "width": 256
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "entertainers-garb",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "positive status effect duration",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:the-stronghold"
+    ],
+    "properties": [
+      "Health potions heal nearby allies",
+      "+30% positive status effect duration"
+    ],
+    "variantIds": [
+      "d1:armor:the-troubadour"
+    ],
+    "tags": [
+      "potion",
+      "status-effects"
+    ],
+    "related": [
+      "d1:armor:the-troubadour"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883151,
+      "title": "Dungeons:Entertainer's Garb",
+      "url": "https://minecraft.wiki/w/Dungeons:Entertainer's_Garb"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:evocation-robe",
+    "slug": "evocation-robe",
+    "game": "d1",
+    "category": "armor",
+    "name": "Evocation Robe",
+    "description": "Potent magical runes are weaved into the fabric of these robes, their origins and true powers are shrouded in mystery.",
+    "rarity": "common",
+    "image": {
+      "alt": "Evocation Robe icon",
+      "height": 512,
+      "src": "/images/d1/armor/evocation-robe.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "evocation-robe",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "Artifact Cooldown",
+        "unit": "%",
+        "value": -40
+      },
+      {
+        "label": "Movespeed Aura",
+        "unit": "%",
+        "value": 15
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:soggy-swamp",
+      "d1:locations:soggy-cave",
+      "d1:locations:obsidian-pinnacle",
+      "d1:locations:panda-plateau",
+      "d1:locations:crimson-forest",
+      "d1:locations:the-stronghold"
+    ],
+    "powerTable": [
+      {
+        "max": 3,
+        "min": 0,
+        "power": 1
+      },
+      {
+        "max": 17,
+        "min": 13,
+        "power": 5
+      },
+      {
+        "max": 37,
+        "min": 33,
+        "power": 10
+      },
+      {
+        "max": 63,
+        "min": 57,
+        "power": 15
+      },
+      {
+        "max": 94,
+        "min": 87,
+        "power": 20
+      },
+      {
+        "max": 132,
+        "min": 124,
+        "power": 25
+      },
+      {
+        "max": 178,
+        "min": 168,
+        "power": 30
+      },
+      {
+        "max": 235,
+        "min": 223,
+        "power": 35
+      },
+      {
+        "max": 305,
+        "min": 290,
+        "power": 40
+      },
+      {
+        "max": 390,
+        "min": 372,
+        "power": 45
+      },
+      {
+        "max": 495,
+        "min": 473,
+        "power": 50
+      },
+      {
+        "max": 623,
+        "min": 596,
+        "power": 55
+      },
+      {
+        "max": 780,
+        "min": 747,
+        "power": 60
+      },
+      {
+        "max": 973,
+        "min": 931,
+        "power": 65
+      },
+      {
+        "max": 1208,
+        "min": 1158,
+        "power": 70
+      },
+      {
+        "max": 1497,
+        "min": 1435,
+        "power": 75
+      },
+      {
+        "max": 1850,
+        "min": 1774,
+        "power": 80
+      },
+      {
+        "max": 2283,
+        "min": 2190,
+        "power": 85
+      },
+      {
+        "max": 2814,
+        "min": 2700,
+        "power": 90
+      },
+      {
+        "max": 3463,
+        "min": 3324,
+        "power": 95
+      },
+      {
+        "max": 4259,
+        "min": 4088,
+        "power": 100
+      },
+      {
+        "max": 5236,
+        "min": 5025,
+        "power": 105
+      },
+      {
+        "max": 5921,
+        "min": 5685,
+        "power": 108
+      }
+    ],
+    "properties": [
+      "-40% Artifact Cooldown",
+      "+15% Movespeed Aura"
+    ],
+    "variantIds": [
+      "d1:armor:ember-robe",
+      "d1:armor:verdant-robe"
+    ],
+    "tags": [
+      "artifact-cooldown",
+      "movement-speed"
+    ],
+    "related": [
+      "d1:armor:ember-robe",
+      "d1:armor:verdant-robe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3887743,
+      "title": "Dungeons:Evocation Robe",
+      "url": "https://minecraft.wiki/w/Dungeons:Evocation_Robe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:fox-armor",
+    "slug": "fox-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Fox Armor",
+    "description": "Ancient Villager tribes created this armor to honor the fox, who is a great and agile warrior.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Fox Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/fox-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "wolf-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:wolf-armor",
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "chance to negate hits",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "label": "weapon Damage Boost Aura",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:creeper-woods",
+      "d1:locations:redstone-mines",
+      "d1:locations:lost-settlement",
+      "d1:locations:end-wilds"
+    ],
+    "properties": [
+      "30% chance to negate hits",
+      "+20% weapon Damage Boost Aura",
+      "Health potions heal nearby allies"
+    ],
+    "variantIds": [],
+    "tags": [
+      "damage-boost",
+      "defense",
+      "potion"
+    ],
+    "related": [
+      "d1:armor:wolf-armor",
+      "d1:armor:arctic-fox-armor",
+      "d1:armor:black-wolf-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883267,
+      "title": "Dungeons:Fox Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Fox_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:frost-armor",
+    "slug": "frost-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Frost Armor",
+    "description": "This legendary armor, forged from ice that never melts, makes the wearer feel as if they are one with winter.",
+    "rarity": "unique",
+    "dlc": "creeping-winter",
+    "image": {
+      "alt": "Frost Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/frost-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "snow-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:snow-armor",
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:chilling"
+      }
+    ],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "Freezing Resistance",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:lost-settlement",
+      "d1:locations:lone-fortress"
+    ],
+    "properties": [
+      "Emits a Chilling Aura",
+      "35% Damage Reduction",
+      "50% Freezing Resistance"
+    ],
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "ice"
+    ],
+    "related": [
+      "d1:armor:snow-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883221,
+      "title": "Dungeons:Frost Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Frost_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:frost-bite",
+    "slug": "frost-bite",
+    "game": "d1",
+    "category": "armor",
+    "name": "Frost Bite",
+    "description": "Frost Bite remembers the icy winds which once flowed beneath the wings of mighty Phantoms.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Frost Bite icon",
+      "height": 512,
+      "src": "/images/d1/armor/frost-bite.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": true,
+    "armorGroup": "phantom-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:phantom-armor",
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:snowball"
+      }
+    ],
+    "effects": [
+      {
+        "label": "souls gathered",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "label": "Ranged Damage",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:creepy-crypt",
+      "d1:locations:redstone-mines",
+      "d1:locations:soggy-cave",
+      "d1:locations:frosted-fjord",
+      "d1:locations:gale-sanctum"
+    ],
+    "properties": [
+      "Spawns a snowy Companion",
+      "+50% souls gathered",
+      "+30% Ranged Damage"
+    ],
+    "variantIds": [],
+    "tags": [
+      "ranged-damage",
+      "soul-gathering",
+      "summoning"
+    ],
+    "related": [
+      "d1:armor:phantom-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3883197,
+      "title": "Dungeons:Frost Bite",
+      "url": "https://minecraft.wiki/w/Dungeons:Frost_Bite"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:full-metal-armor",
+    "slug": "full-metal-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Full Metal Armor",
+    "description": "Full Metal Armor is destined for the great defenders of the Overworld.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Full Metal Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/full-metal-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "plate-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:plate-armor",
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "Melee Damage",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "label": "chance to negate hits",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "increased rolling cooldown",
+        "unit": "%",
+        "value": 100
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:fiery-forge",
+      "d1:locations:lone-fortress",
+      "d1:locations:gale-sanctum",
+      "d1:locations:gauntlet-of-gales"
+    ],
+    "properties": [
+      "+30% Melee Damage",
+      "30% chance to negate hits",
+      "35% Damage Reduction",
+      "100% increased rolling cooldown"
+    ],
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "melee-damage",
+      "rolling"
+    ],
+    "related": [
+      "d1:armor:plate-armor",
+      "d1:armor:cauldron-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3883204,
+      "title": "Dungeons:Full Metal Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Full_Metal_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:ghost-kindler",
+    "slug": "ghost-kindler",
+    "game": "d1",
+    "category": "armor",
+    "name": "Ghost Kindler",
+    "description": "Strange flames follow the shifting form of those who wear the Ghost Kindler armor.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Ghost Kindler icon",
+      "height": 640,
+      "src": "/images/d1/armor/ghost-kindler.webp",
+      "width": 640
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "ghostly-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:ghostly-armor",
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:fire-trail"
+      }
+    ],
+    "effects": [
+      {
+        "label": "chance to negate hits",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:creepy-crypt",
+      "d1:locations:redstone-mines",
+      "d1:locations:overgrown-temple",
+      "d1:locations:gale-sanctum"
+    ],
+    "properties": [
+      "Spawns fire on roll",
+      "Briefly gain Ghost Form when rolling",
+      "30% chance to negate hits"
+    ],
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "fire",
+      "stealth"
+    ],
+    "related": [
+      "d1:armor:ghostly-armor",
+      "d1:armor:cloaked-skull"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3883167,
+      "title": "Dungeons:Ghost Kindler",
+      "url": "https://minecraft.wiki/w/Dungeons:Ghost_Kindler"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:ghostly-armor",
+    "slug": "ghostly-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Ghostly Armor",
+    "description": "Those who wear Ghostly Armor may feel their bodies briefly disconnect from the physical world, but are quickly snapped back to reality.",
+    "rarity": "common",
+    "image": {
+      "alt": "Ghostly Armor icon",
+      "height": 640,
+      "src": "/images/d1/armor/ghostly-armor.webp",
+      "width": 640
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "ghostly-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "chance to negate hits",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:creepy-crypt",
+      "d1:locations:redstone-mines",
+      "d1:locations:overgrown-temple",
+      "d1:locations:gale-sanctum"
+    ],
+    "properties": [
+      "Briefly gain Ghost Form when rolling",
+      "30% chance to negate hits"
+    ],
+    "variantIds": [
+      "d1:armor:cloaked-skull",
+      "d1:armor:ghost-kindler"
+    ],
+    "tags": [
+      "defense",
+      "stealth"
+    ],
+    "related": [
+      "d1:armor:cloaked-skull",
+      "d1:armor:ghost-kindler"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3883166,
+      "title": "Dungeons:Ghostly Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Ghostly_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:gilded-glory",
+    "slug": "gilded-glory",
+    "game": "d1",
+    "category": "armor",
+    "name": "Gilded Glory",
+    "description": "Even death itself has to pause and admire the charms of the legendary Gilded Glory armor.",
+    "rarity": "unique",
+    "dlc": "howling-peaks",
+    "image": {
+      "alt": "Gilded Glory icon",
+      "height": 512,
+      "src": "/images/d1/armor/gilded-glory.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "emerald-gear",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:emerald-gear",
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:death-barter"
+      },
+      {
+        "enchantmentId": "d1:enchantments:lucky-explorer"
+      }
+    ],
+    "effects": [
+      {
+        "label": "melee attack speed",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:gale-sanctum",
+      "d1:locations:colossal-rampart"
+    ],
+    "properties": [
+      "Chance to spawn emeralds when exploring",
+      "Can spend emeralds to cheat death",
+      "+25% melee attack speed"
+    ],
+    "variantIds": [],
+    "tags": [
+      "attack-speed",
+      "defense",
+      "emeralds"
+    ],
+    "related": [
+      "d1:armor:emerald-gear",
+      "d1:armor:opulent-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3844943,
+      "title": "Dungeons:Gilded Glory",
+      "url": "https://minecraft.wiki/w/Dungeons:Gilded_Glory"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:glow-squid-armor",
+    "slug": "glow-squid-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Glow Squid Armor",
+    "description": "Those who hunt elusive glow squids wear this armor to blend in with their beautiful prey.",
+    "rarity": "unique",
+    "dlc": "hidden-depths",
+    "image": {
+      "alt": "Glow Squid Armor icon",
+      "height": 256,
+      "src": "/images/d1/armor/glow-squid-armor.webp",
+      "width": 256
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "squid-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:squid-armor",
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "Movespeed Aura",
+        "unit": "%",
+        "value": 15
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:radiant-ravine",
+      "d1:locations:abyssal-monument"
+    ],
+    "properties": [
+      "Brief invulnerability when rolling",
+      "15% Movespeed Aura",
+      "Release an ink cloud when rolling"
+    ],
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "movement-speed",
+      "stealth"
+    ],
+    "related": [
+      "d1:armor:squid-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3833835,
+      "title": "Dungeons:Glow Squid Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Glow_Squid_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:goat-gear",
+    "slug": "goat-gear",
+    "game": "d1",
+    "category": "armor",
+    "name": "Goat Gear",
+    "description": "Made from the pelts of Mountain Goats, you'll feel like skipping from peak to peak in this Goat Gear.",
+    "rarity": "unique",
+    "dlc": "howling-peaks",
+    "image": {
+      "alt": "Goat Gear icon",
+      "height": 512,
+      "src": "/images/d1/armor/goat-gear.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "climbing-gear",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:climbing-gear",
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:multi-roll"
+      }
+    ],
+    "effects": [
+      {
+        "label": "Artifact Cooldown",
+        "unit": "%",
+        "value": -40
+      },
+      {
+        "label": "Pushback Resistance",
+        "unit": "%",
+        "value": 75
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:windswept-peaks",
+      "d1:locations:colossal-rampart"
+    ],
+    "properties": [
+      "Grants an extra roll",
+      "-40% Artifact Cooldown",
+      "75% Pushback Resistance"
+    ],
+    "variantIds": [],
+    "tags": [
+      "artifact-cooldown",
+      "defense",
+      "rolling"
+    ],
+    "related": [
+      "d1:armor:climbing-gear",
+      "d1:armor:rugged-climbing-gear"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883135,
+      "title": "Dungeons:Goat Gear",
+      "url": "https://minecraft.wiki/w/Dungeons:Goat_Gear"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:golden-piglin-armor",
+    "slug": "golden-piglin-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Golden Piglin Armor",
+    "description": "The Golden Piglin Armor combines a piglin's two favorite things: not dying and gold.",
+    "rarity": "unique",
+    "dlc": "flames-of-the-nether",
+    "image": {
+      "alt": "Golden Piglin Armor icon",
+      "height": 256,
+      "src": "/images/d1/armor/golden-piglin-armor.webp",
+      "width": 256
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "piglin-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:piglin-armor",
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:surprise-gift"
+      }
+    ],
+    "effects": [
+      {
+        "label": "Artifact Damage",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:nether-wastes",
+      "d1:locations:basalt-deltas"
+    ],
+    "properties": [
+      "Can get consumable on potion use",
+      "Reset Artifact Cooldown on potion use",
+      "+50% Artifact Damage"
+    ],
+    "variantIds": [],
+    "tags": [
+      "artifact-cooldown",
+      "artifact-damage",
+      "potion"
+    ],
+    "related": [
+      "d1:armor:piglin-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883203,
+      "title": "Dungeons:Golden Piglin Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Golden_Piglin_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:grim-armor",
+    "slug": "grim-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Grim Armor",
+    "description": "Grim Armor invokes a sense of dread for the one who wears it and to those who face it in battle.",
+    "rarity": "common",
+    "image": {
+      "alt": "Grim Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/grim-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": true,
+    "armorGroup": "grim-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "souls gathered",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "label": "life steal Aura",
+        "unit": "%",
+        "value": 6
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:cacti-canyon",
+      "d1:locations:desert-temple",
+      "d1:locations:lower-temple",
+      "d1:locations:obsidian-pinnacle",
+      "d1:locations:soul-sand-valley",
+      "d1:locations:broken-citadel"
+    ],
+    "powerTable": [
+      {
+        "max": 3,
+        "min": 0,
+        "power": 1
+      },
+      {
+        "max": 17,
+        "min": 13,
+        "power": 5
+      },
+      {
+        "max": 37,
+        "min": 33,
+        "power": 10
+      },
+      {
+        "max": 63,
+        "min": 57,
+        "power": 15
+      },
+      {
+        "max": 94,
+        "min": 87,
+        "power": 20
+      },
+      {
+        "max": 132,
+        "min": 124,
+        "power": 25
+      },
+      {
+        "max": 178,
+        "min": 168,
+        "power": 30
+      },
+      {
+        "max": 235,
+        "min": 223,
+        "power": 35
+      },
+      {
+        "max": 305,
+        "min": 290,
+        "power": 40
+      },
+      {
+        "max": 390,
+        "min": 372,
+        "power": 45
+      },
+      {
+        "max": 495,
+        "min": 473,
+        "power": 50
+      },
+      {
+        "max": 623,
+        "min": 596,
+        "power": 55
+      },
+      {
+        "max": 780,
+        "min": 747,
+        "power": 60
+      },
+      {
+        "max": 973,
+        "min": 931,
+        "power": 65
+      },
+      {
+        "max": 1208,
+        "min": 1158,
+        "power": 70
+      },
+      {
+        "max": 1497,
+        "min": 1435,
+        "power": 75
+      },
+      {
+        "max": 1850,
+        "min": 1774,
+        "power": 80
+      },
+      {
+        "max": 2283,
+        "min": 2190,
+        "power": 85
+      },
+      {
+        "max": 2814,
+        "min": 2700,
+        "power": 90
+      },
+      {
+        "max": 3463,
+        "min": 3324,
+        "power": 95
+      },
+      {
+        "max": 4259,
+        "min": 4088,
+        "power": 100
+      },
+      {
+        "max": 5236,
+        "min": 5025,
+        "power": 105
+      },
+      {
+        "max": 5921,
+        "min": 5685,
+        "power": 108
+      }
+    ],
+    "properties": [
+      "+50% souls gathered",
+      "6% life steal Aura"
+    ],
+    "variantIds": [
+      "d1:armor:the-spooky-gourdian",
+      "d1:armor:wither-armor"
+    ],
+    "tags": [
+      "healing",
+      "soul-gathering"
+    ],
+    "related": [
+      "d1:armor:the-spooky-gourdian",
+      "d1:armor:wither-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3880529,
+      "title": "Dungeons:Grim Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Grim_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:guards-armor",
+    "slug": "guards-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Guard's Armor",
+    "description": "Cheap armor made in bulk, the Guard's Armor is a common sight in the villages of the Overworld.",
+    "rarity": "common",
+    "image": {
+      "alt": "Guard's Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/guards-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "guards-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "Artifact Cooldown",
+        "unit": "%",
+        "value": -40
+      },
+      {
+        "label": "Arrows per bundle",
+        "unit": "flat",
+        "value": 10
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:arch-haven",
+      "d1:locations:cacti-canyon",
+      "d1:locations:highblock-halls",
+      "d1:locations:colossal-rampart",
+      "d1:locations:coral-rise"
+    ],
+    "properties": [
+      "-40% Artifact Cooldown",
+      "+10 Arrows per bundle"
+    ],
+    "variantIds": [],
+    "tags": [
+      "arrow-supply",
+      "artifact-cooldown"
+    ],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883174,
+      "title": "Dungeons:Guard's Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Guard's_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:heros-armor",
+    "slug": "heros-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Hero's Armor",
+    "description": "Only given to the highest caliber of heroes, the Hero's Armor is a precious gift from the Villagers.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Hero's Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/heros-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "champions-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:champions-armor",
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "faster Potion Cooldown",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:arch-haven",
+      "d1:locations:cacti-canyon",
+      "d1:locations:lone-fortress",
+      "d1:locations:abyssal-monument"
+    ],
+    "powerTable": [
+      {
+        "max": 3,
+        "min": 0,
+        "power": 1
+      },
+      {
+        "max": 17,
+        "min": 13,
+        "power": 5
+      },
+      {
+        "max": 37,
+        "min": 33,
+        "power": 10
+      },
+      {
+        "max": 63,
+        "min": 57,
+        "power": 15
+      },
+      {
+        "max": 94,
+        "min": 87,
+        "power": 20
+      },
+      {
+        "max": 132,
+        "min": 124,
+        "power": 25
+      },
+      {
+        "max": 178,
+        "min": 168,
+        "power": 30
+      },
+      {
+        "max": 235,
+        "min": 223,
+        "power": 35
+      },
+      {
+        "max": 305,
+        "min": 290,
+        "power": 40
+      },
+      {
+        "max": 390,
+        "min": 372,
+        "power": 45
+      },
+      {
+        "max": 495,
+        "min": 473,
+        "power": 50
+      },
+      {
+        "max": 623,
+        "min": 596,
+        "power": 55
+      },
+      {
+        "max": 780,
+        "min": 747,
+        "power": 60
+      },
+      {
+        "max": 973,
+        "min": 931,
+        "power": 65
+      },
+      {
+        "max": 1208,
+        "min": 1158,
+        "power": 70
+      },
+      {
+        "max": 1497,
+        "min": 1435,
+        "power": 75
+      },
+      {
+        "max": 1850,
+        "min": 1774,
+        "power": 80
+      },
+      {
+        "max": 2283,
+        "min": 2190,
+        "power": 85
+      },
+      {
+        "max": 2814,
+        "min": 2700,
+        "power": 90
+      },
+      {
+        "max": 3463,
+        "min": 3324,
+        "power": 95
+      },
+      {
+        "max": 4259,
+        "min": 4088,
+        "power": 100
+      },
+      {
+        "max": 5236,
+        "min": 5025,
+        "power": 105
+      },
+      {
+        "max": 5921,
+        "min": 5685,
+        "power": 108
+      },
+      {
+        "max": 7153,
+        "min": 7107,
+        "power": 113
+      }
+    ],
+    "properties": [
+      "35% Damage Reduction",
+      "40% faster Potion Cooldown",
+      "Health potions heal nearby allies",
+      "Mobs target you more"
+    ],
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "potion"
+    ],
+    "related": [
+      "d1:armor:champions-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3883123,
+      "title": "Dungeons:Hero's Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Hero's_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:highland-armor",
+    "slug": "highland-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Highland Armor",
+    "description": "A wise armorer made this armor with care.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Highland Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/highland-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "scale-mail",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:scale-mail",
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:swiftfooted"
+      }
+    ],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "Melee Damage",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:pumpkin-pastures",
+      "d1:locations:fiery-forge",
+      "d1:locations:frosted-fjord",
+      "d1:locations:gauntlet-of-gales",
+      "d1:locations:basalt-deltas"
+    ],
+    "powerTable": [
+      {
+        "max": 4953,
+        "min": 4873,
+        "power": 104
+      },
+      {
+        "max": 7153,
+        "min": 7048,
+        "power": 113
+      }
+    ],
+    "properties": [
+      "Gains Speed after Dodge",
+      "35% Damage Reduction",
+      "+30% Melee Damage"
+    ],
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "melee-damage",
+      "rolling"
+    ],
+    "related": [
+      "d1:armor:scale-mail"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3847955,
+      "title": "Dungeons:Highland Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Highland_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:hungriest-horror",
+    "slug": "hungriest-horror",
+    "game": "d1",
+    "category": "armor",
+    "name": "Hungriest Horror",
+    "description": "Donning this armor brings great power, but along with that power comes a hunger that can never be satisfied...",
+    "rarity": "unique",
+    "image": {
+      "alt": "Hungriest Horror icon",
+      "height": 512,
+      "src": "/images/d1/armor/hungriest-horror.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "mercenary-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:mercenary-armor",
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "melee attack speed",
+        "unit": "%",
+        "value": 25
+      },
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "weapon Damage Boost Aura",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "isSeasonal": true,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:the-tower"
+    ],
+    "properties": [
+      "+25% melee attack speed",
+      "35% Damage Reduction",
+      "+20% weapon Damage Boost Aura",
+      "Special Event Item"
+    ],
+    "variantIds": [],
+    "tags": [
+      "attack-speed",
+      "damage-boost",
+      "defense",
+      "seasonal-event"
+    ],
+    "related": [
+      "d1:armor:mercenary-armor",
+      "d1:armor:hungry-horror",
+      "d1:armor:renegade-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3883186,
+      "title": "Dungeons:Hungriest Horror",
+      "url": "https://minecraft.wiki/w/Dungeons:Hungriest_Horror"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:hungry-horror",
+    "slug": "hungry-horror",
+    "game": "d1",
+    "category": "armor",
+    "name": "Hungry Horror",
+    "description": "When you wear this cloak, the sounds of screams fill the air. But are the screams yours, or your enemies'?",
+    "rarity": "unique",
+    "image": {
+      "alt": "Hungry Horror icon",
+      "height": 512,
+      "src": "/images/d1/armor/hungry-horror.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "mercenary-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:mercenary-armor",
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "melee attack speed",
+        "unit": "%",
+        "value": 25
+      },
+      {
+        "label": "weapon Damage Boost Aura",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      }
+    ],
+    "isSeasonal": true,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:the-tower"
+    ],
+    "properties": [
+      "+25% melee attack speed",
+      "+20% weapon Damage Boost Aura",
+      "35% Damage Reduction",
+      "Special Event Item"
+    ],
+    "variantIds": [],
+    "tags": [
+      "attack-speed",
+      "damage-boost",
+      "defense",
+      "seasonal-event"
+    ],
+    "related": [
+      "d1:armor:mercenary-armor",
+      "d1:armor:renegade-armor",
+      "d1:armor:hungriest-horror"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3883187,
+      "title": "Dungeons:Hungry Horror",
+      "url": "https://minecraft.wiki/w/Dungeons:Hungry_Horror"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:hunters-armor",
+    "slug": "hunters-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Hunter's Armor",
+    "description": "Hunter's Armor may not be the fanciest gear around, but it will stop a blade.",
+    "rarity": "common",
+    "image": {
+      "alt": "Hunter's Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/hunters-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "hunters-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "Arrows per bundle",
+        "unit": "flat",
+        "value": 10
+      },
+      {
+        "label": "Ranged Damage",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:creeper-woods",
+      "d1:locations:creepy-crypt",
+      "d1:locations:pumpkin-pastures",
+      "d1:locations:dingy-jungle",
+      "d1:locations:gauntlet-of-gales",
+      "d1:locations:treetop-tangle"
+    ],
+    "properties": [
+      "+10 Arrows per bundle",
+      "+30% Ranged Damage"
+    ],
+    "variantIds": [
+      "d1:armor:archers-armor"
+    ],
+    "tags": [
+      "arrow-supply",
+      "ranged-damage"
+    ],
+    "related": [
+      "d1:armor:archers-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3844958,
+      "title": "Dungeons:Hunter's Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Hunter's_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:living-vines-armor",
+    "slug": "living-vines-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Living Vines Armor",
+    "description": "This armor is made from the living vines of a plant which grows only on battlefields.",
+    "rarity": "unique",
+    "dlc": "flames-of-the-nether",
+    "image": {
+      "alt": "Living Vines Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/living-vines-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "sprout-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:sprout-armor",
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:acrobat"
+      }
+    ],
+    "effects": [],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:crimson-forest",
+      "d1:locations:soul-sand-valley"
+    ],
+    "properties": [
+      "Reduced roll cooldown",
+      "Health potions heal nearby allies",
+      "Traps and poisons nearby mobs when rolling"
+    ],
+    "variantIds": [],
+    "tags": [
+      "poison",
+      "potion",
+      "rolling"
+    ],
+    "related": [
+      "d1:armor:sprout-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883251,
+      "title": "Dungeons:Living Vines Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Living_Vines_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:mercenary-armor",
+    "slug": "mercenary-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Mercenary Armor",
+    "description": "Mercenary Armor, favored by those looking to save some coin, lacks flair but gets the job done.",
+    "rarity": "common",
+    "image": {
+      "alt": "Mercenary Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/mercenary-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "mercenary-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "weapon Damage Boost Aura",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:arch-haven",
+      "d1:locations:soggy-swamp",
+      "d1:locations:cacti-canyon",
+      "d1:locations:fiery-forge",
+      "d1:locations:overgrown-temple"
+    ],
+    "properties": [
+      "35% Damage Reduction",
+      "+20% weapon Damage Boost Aura"
+    ],
+    "variantIds": [
+      "d1:armor:hungriest-horror",
+      "d1:armor:hungry-horror",
+      "d1:armor:renegade-armor"
+    ],
+    "tags": [
+      "damage-boost",
+      "defense"
+    ],
+    "related": [
+      "d1:armor:hungriest-horror",
+      "d1:armor:hungry-horror",
+      "d1:armor:renegade-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883184,
+      "title": "Dungeons:Mercenary Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Mercenary_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:mystery-armor",
+    "slug": "mystery-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Mystery Armor",
+    "description": "Some blacksmiths see the design influence of Iron Golems in this property-shifting armor.",
+    "rarity": "common",
+    "image": {
+      "alt": "Mystery Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/mystery-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "mystery-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:creeper-woods",
+      "d1:locations:soggy-swamp",
+      "d1:locations:desert-temple",
+      "d1:locations:dingy-jungle",
+      "d1:locations:gale-sanctum",
+      "d1:locations:the-stronghold"
+    ],
+    "properties": [
+      "Varies"
+    ],
+    "variantIds": [],
+    "tags": [],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3844987,
+      "title": "Dungeons:Mystery Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Mystery_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:nimble-turtle-armor",
+    "slug": "nimble-turtle-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Nimble Turtle Armor",
+    "description": "This armor is made from the dense (but surprisingly light) shells of turtles who lived at crushing depths.",
+    "rarity": "unique",
+    "dlc": "hidden-depths",
+    "image": {
+      "alt": "Nimble Turtle Armor icon",
+      "height": 256,
+      "src": "/images/d1/armor/nimble-turtle-armor.webp",
+      "width": 256
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "turtle-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:turtle-armor",
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:rush"
+      }
+    ],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "healing Boost",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:coral-rise",
+      "d1:locations:radiant-ravine"
+    ],
+    "properties": [
+      "Boost speed after hit",
+      "35% Damage Reduction",
+      "25% healing Boost"
+    ],
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "healing",
+      "movement-speed"
+    ],
+    "related": [
+      "d1:armor:turtle-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883261,
+      "title": "Dungeons:Nimble Turtle Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Nimble_Turtle_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:ocelot-armor",
+    "slug": "ocelot-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Ocelot Armor",
+    "description": "You feel a rush of pure adrenaline surge through your body when you wear this Ocelot's pelt.",
+    "rarity": "common",
+    "dlc": "jungle-awakens",
+    "image": {
+      "alt": "Ocelot Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/ocelot-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "ocelot-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "faster roll",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:dingy-jungle",
+      "d1:locations:overgrown-temple",
+      "d1:locations:treetop-tangle"
+    ],
+    "properties": [
+      "50% faster roll",
+      "35% Damage Reduction"
+    ],
+    "variantIds": [
+      "d1:armor:shadow-walker"
+    ],
+    "tags": [
+      "defense",
+      "rolling"
+    ],
+    "related": [
+      "d1:armor:shadow-walker"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883190,
+      "title": "Dungeons:Ocelot Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Ocelot_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:opulent-armor",
+    "slug": "opulent-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Opulent Armor",
+    "description": "Opulent Armor, originally designed more for show than for combat, thrives in the presence of Emeralds.",
+    "rarity": "unique",
+    "dlc": "howling-peaks",
+    "image": {
+      "alt": "Opulent Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/opulent-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "emerald-gear",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:emerald-gear",
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:emerald-shield"
+      },
+      {
+        "enchantmentId": "d1:enchantments:lucky-explorer"
+      }
+    ],
+    "effects": [
+      {
+        "label": "melee attack speed",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:gale-sanctum",
+      "d1:locations:colossal-rampart"
+    ],
+    "properties": [
+      "Invulnerability on emerald collection",
+      "+25% melee attack speed",
+      "Chance to spawn emeralds when exploring"
+    ],
+    "variantIds": [],
+    "tags": [
+      "attack-speed",
+      "defense",
+      "emeralds"
+    ],
+    "related": [
+      "d1:armor:emerald-gear",
+      "d1:armor:gilded-glory"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883149,
+      "title": "Dungeons:Opulent Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Opulent_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:phantom-armor",
+    "slug": "phantom-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Phantom Armor",
+    "description": "This armor, crafted from the bones of Phantoms, is a terrifying sight on the battlefield.",
+    "rarity": "common",
+    "image": {
+      "alt": "Phantom Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/phantom-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": true,
+    "armorGroup": "phantom-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "Souls Gathered",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "label": "Ranged Damage",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:creepy-crypt",
+      "d1:locations:redstone-mines",
+      "d1:locations:soggy-cave",
+      "d1:locations:frosted-fjord",
+      "d1:locations:gale-sanctum"
+    ],
+    "properties": [
+      "+50% Souls Gathered",
+      "+30% Ranged Damage"
+    ],
+    "variantIds": [
+      "d1:armor:frost-bite"
+    ],
+    "tags": [
+      "ranged-damage",
+      "soul-gathering"
+    ],
+    "related": [
+      "d1:armor:frost-bite"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3879608,
+      "title": "Dungeons:Phantom Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Phantom_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:piglin-armor",
+    "slug": "piglin-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Piglin Armor",
+    "description": "Wearing this Piglin Armor is almost enough to make one feel at home in the Nether. Almost.",
+    "rarity": "common",
+    "dlc": "flames-of-the-nether",
+    "image": {
+      "alt": "Piglin Armor icon",
+      "height": 256,
+      "src": "/images/d1/armor/piglin-armor.webp",
+      "width": 256
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "piglin-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "Artifact Damage",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:nether-wastes",
+      "d1:locations:basalt-deltas"
+    ],
+    "properties": [
+      "Reset Artifact Cooldown on potion use",
+      "+50% Artifact Damage"
+    ],
+    "variantIds": [
+      "d1:armor:golden-piglin-armor"
+    ],
+    "tags": [
+      "artifact-cooldown",
+      "artifact-damage"
+    ],
+    "related": [
+      "d1:armor:golden-piglin-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883201,
+      "title": "Dungeons:Piglin Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Piglin_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:plate-armor",
+    "slug": "plate-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Plate Armor",
+    "description": "Plate armor turns the average soldier into a fortress but comes with reduced mobility.",
+    "rarity": "common",
+    "image": {
+      "alt": "Plate Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/plate-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "plate-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "chance to negate hits",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "increased roll cooldown",
+        "unit": "%",
+        "value": 100
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:fiery-forge",
+      "d1:locations:lone-fortress",
+      "d1:locations:gale-sanctum",
+      "d1:locations:gauntlet-of-gales"
+    ],
+    "properties": [
+      "30% chance to negate hits",
+      "35% Damage Reduction",
+      "100% increased roll cooldown"
+    ],
+    "variantIds": [
+      "d1:armor:cauldron-armor",
+      "d1:armor:full-metal-armor"
+    ],
+    "tags": [
+      "defense",
+      "rolling"
+    ],
+    "related": [
+      "d1:armor:cauldron-armor",
+      "d1:armor:full-metal-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3880548,
+      "title": "Dungeons:Plate Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Plate_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:reinforced-mail",
+    "slug": "reinforced-mail",
+    "game": "d1",
+    "category": "armor",
+    "name": "Reinforced Mail",
+    "description": "Mostly worn by casual adventurers, Reinforced Mail is a common sight throughout the land.",
+    "rarity": "common",
+    "image": {
+      "alt": "Reinforced Mail icon",
+      "height": 512,
+      "src": "/images/d1/armor/reinforced-mail.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "reinforced-mail",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "Chance to negate hits",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "label": "longer roll cooldown",
+        "unit": "%",
+        "value": 100
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:fiery-forge",
+      "d1:locations:lower-temple",
+      "d1:locations:panda-plateau",
+      "d1:locations:nether-fortress",
+      "d1:locations:broken-citadel"
+    ],
+    "properties": [
+      "35% Damage Reduction",
+      "30% Chance to negate hits",
+      "100% longer roll cooldown"
+    ],
+    "variantIds": [
+      "d1:armor:stalwart-armor"
+    ],
+    "tags": [
+      "defense",
+      "rolling"
+    ],
+    "related": [
+      "d1:armor:stalwart-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3844998,
+      "title": "Dungeons:Reinforced Mail",
+      "url": "https://minecraft.wiki/w/Dungeons:Reinforced_Mail"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:renegade-armor",
+    "slug": "renegade-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Renegade Armor",
+    "description": "Renegade Armor made a fine payment for mercenaries hired to protect the villages against Illagers.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Renegade Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/renegade-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "mercenary-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:mercenary-armor",
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "melee attack speed",
+        "unit": "%",
+        "value": 25
+      },
+      {
+        "label": "weapon Damage Boost Aura",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:arch-haven",
+      "d1:locations:soggy-swamp",
+      "d1:locations:cacti-canyon",
+      "d1:locations:fiery-forge",
+      "d1:locations:overgrown-temple"
+    ],
+    "properties": [
+      "+25% melee attack speed",
+      "+20% weapon Damage Boost Aura",
+      "35% Damage Reduction"
+    ],
+    "variantIds": [],
+    "tags": [
+      "attack-speed",
+      "damage-boost",
+      "defense"
+    ],
+    "related": [
+      "d1:armor:mercenary-armor",
+      "d1:armor:hungriest-horror",
+      "d1:armor:hungry-horror"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883185,
+      "title": "Dungeons:Renegade Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Renegade_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:root-rot-armor",
+    "slug": "root-rot-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Root Rot Armor",
+    "description": "Twisted roots form this aberrant armor, its malevolent nature evident.",
+    "rarity": "common",
+    "image": {
+      "alt": "Root Rot Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/root-rot-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "root-rot-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:treetop-tangle"
+    ],
+    "properties": [
+      "Reset Artifact Cooldown on potion use",
+      "Health potions heal nearby allies"
+    ],
+    "variantIds": [
+      "d1:armor:black-spot-armor"
+    ],
+    "tags": [
+      "artifact-cooldown",
+      "potion"
+    ],
+    "related": [
+      "d1:armor:black-spot-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883208,
+      "title": "Dungeons:Root Rot Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Root_Rot_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:rugged-climbing-gear",
+    "slug": "rugged-climbing-gear",
+    "game": "d1",
+    "category": "armor",
+    "name": "Rugged Climbing Gear",
+    "description": "Take on the worst that nature can throw at you in this rugged armor.",
+    "rarity": "unique",
+    "dlc": "howling-peaks",
+    "image": {
+      "alt": "Rugged Climbing Gear icon",
+      "height": 512,
+      "src": "/images/d1/armor/rugged-climbing-gear.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "climbing-gear",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:climbing-gear",
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:environmental-protection"
+      }
+    ],
+    "effects": [
+      {
+        "label": "Freezing Resistance",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "label": "Artifact Cooldown",
+        "unit": "%",
+        "value": -40
+      },
+      {
+        "label": "Pushback Resistance",
+        "unit": "%",
+        "value": 75
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:windswept-peaks",
+      "d1:locations:colossal-rampart"
+    ],
+    "properties": [
+      "Environmental Damage Resistance",
+      "50% Freezing Resistance",
+      "-40% Artifact Cooldown",
+      "75% Pushback Resistance"
+    ],
+    "variantIds": [],
+    "tags": [
+      "artifact-cooldown",
+      "defense"
+    ],
+    "related": [
+      "d1:armor:climbing-gear",
+      "d1:armor:goat-gear"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883132,
+      "title": "Dungeons:Rugged Climbing Gear",
+      "url": "https://minecraft.wiki/w/Dungeons:Rugged_Climbing_Gear"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:scale-mail",
+    "slug": "scale-mail",
+    "game": "d1",
+    "category": "armor",
+    "name": "Scale Mail",
+    "description": "This armor, crafted near the shores of a great sea, was inspired by the scales of fish.",
+    "rarity": "common",
+    "image": {
+      "alt": "Scale Mail icon",
+      "height": 512,
+      "src": "/images/d1/armor/scale-mail.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "scale-mail",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "Melee Damage",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:pumpkin-pastures",
+      "d1:locations:fiery-forge",
+      "d1:locations:frosted-fjord",
+      "d1:locations:gauntlet-of-gales",
+      "d1:locations:basalt-deltas"
+    ],
+    "powerTable": [
+      {
+        "max": 3,
+        "min": 0,
+        "power": 1
+      },
+      {
+        "max": 17,
+        "min": 13,
+        "power": 5
+      },
+      {
+        "max": 37,
+        "min": 33,
+        "power": 10
+      },
+      {
+        "max": 63,
+        "min": 57,
+        "power": 15
+      },
+      {
+        "max": 94,
+        "min": 87,
+        "power": 20
+      },
+      {
+        "max": 132,
+        "min": 124,
+        "power": 25
+      },
+      {
+        "max": 178,
+        "min": 168,
+        "power": 30
+      },
+      {
+        "max": 235,
+        "min": 223,
+        "power": 35
+      },
+      {
+        "max": 305,
+        "min": 290,
+        "power": 40
+      },
+      {
+        "max": 390,
+        "min": 372,
+        "power": 45
+      },
+      {
+        "max": 495,
+        "min": 473,
+        "power": 50
+      },
+      {
+        "max": 623,
+        "min": 596,
+        "power": 55
+      },
+      {
+        "max": 780,
+        "min": 747,
+        "power": 60
+      },
+      {
+        "max": 973,
+        "min": 931,
+        "power": 65
+      },
+      {
+        "max": 1208,
+        "min": 1158,
+        "power": 70
+      },
+      {
+        "max": 1497,
+        "min": 1435,
+        "power": 75
+      },
+      {
+        "max": 1850,
+        "min": 1774,
+        "power": 80
+      },
+      {
+        "max": 2283,
+        "min": 2190,
+        "power": 85
+      },
+      {
+        "max": 2814,
+        "min": 2700,
+        "power": 90
+      },
+      {
+        "max": 3463,
+        "min": 3324,
+        "power": 95
+      },
+      {
+        "max": 4259,
+        "min": 4088,
+        "power": 100
+      },
+      {
+        "max": 5236,
+        "min": 5025,
+        "power": 105
+      },
+      {
+        "max": 5921,
+        "min": 5685,
+        "power": 108
+      },
+      {
+        "max": 7153,
+        "min": 7090,
+        "power": 113
+      }
+    ],
+    "properties": [
+      "35% Damage Reduction",
+      "+30% Melee Damage"
+    ],
+    "variantIds": [
+      "d1:armor:highland-armor"
+    ],
+    "tags": [
+      "defense",
+      "melee-damage"
+    ],
+    "related": [
+      "d1:armor:highland-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883211,
+      "title": "Dungeons:Scale Mail",
+      "url": "https://minecraft.wiki/w/Dungeons:Scale_Mail"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:shadow-walker",
+    "slug": "shadow-walker",
+    "game": "d1",
+    "category": "armor",
+    "name": "Shadow Walker",
+    "description": "The legendary black Ocelot was as graceful as it was deadly. When you wear its pelt, you feel like your enemies are left chasing your shadow.",
+    "rarity": "unique",
+    "dlc": "jungle-awakens",
+    "image": {
+      "alt": "Shadow Walker icon",
+      "height": 512,
+      "src": "/images/d1/armor/shadow-walker.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "ocelot-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:ocelot-armor",
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "faster roll",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:dingy-jungle",
+      "d1:locations:overgrown-temple",
+      "d1:locations:treetop-tangle"
+    ],
+    "properties": [
+      "Brief invulnerability when rolling",
+      "50% faster roll",
+      "35% Damage Reduction"
+    ],
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "rolling"
+    ],
+    "related": [
+      "d1:armor:ocelot-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883193,
+      "title": "Dungeons:Shadow Walker",
+      "url": "https://minecraft.wiki/w/Dungeons:Shadow_Walker"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:shulker-armor",
+    "slug": "shulker-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Shulker Armor",
+    "description": "Shulker Armor rivals even the toughest steel plate.",
+    "rarity": "common",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "Shulker Armor icon",
+      "height": 256,
+      "src": "/images/d1/armor/shulker-armor.webp",
+      "width": 256
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "shulker-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:deflect"
+      },
+      {
+        "enchantmentId": "d1:enchantments:thrive-under-pressure"
+      }
+    ],
+    "effects": [],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:end-wilds"
+    ],
+    "properties": [
+      "Mobs target you more",
+      "Deflect enemy projectiles",
+      "Take less Damage when swarmed"
+    ],
+    "variantIds": [
+      "d1:armor:sturdy-shulker-armor"
+    ],
+    "tags": [
+      "defense"
+    ],
+    "related": [
+      "d1:armor:sturdy-shulker-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883213,
+      "title": "Dungeons:Shulker Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Shulker_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:snow-armor",
+    "slug": "snow-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Snow Armor",
+    "description": "A suit of armor that was tempered in snowmelt, protecting the wearer from the harsh cold of the tundra.",
+    "rarity": "common",
+    "dlc": "creeping-winter",
+    "image": {
+      "alt": "Snow Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/snow-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "snow-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "Freezing Resistance",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:lost-settlement",
+      "d1:locations:lone-fortress"
+    ],
+    "properties": [
+      "35% Damage Reduction",
+      "50% Freezing Resistance"
+    ],
+    "variantIds": [
+      "d1:armor:frost-armor"
+    ],
+    "tags": [
+      "defense"
+    ],
+    "related": [
+      "d1:armor:frost-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883218,
+      "title": "Dungeons:Snow Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Snow_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:soul-robe",
+    "slug": "soul-robe",
+    "game": "d1",
+    "category": "armor",
+    "name": "Soul Robe",
+    "description": "In a particular light, the souls woven into the cloth of the Soul Robe shimmer with power.",
+    "rarity": "common",
+    "image": {
+      "alt": "Soul Robe icon",
+      "height": 512,
+      "src": "/images/d1/armor/soul-robe.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": true,
+    "armorGroup": "soul-robe",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "soul gathering",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "label": "Artifact Damage",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:creeper-woods",
+      "d1:locations:highblock-halls",
+      "d1:locations:underhalls",
+      "d1:locations:lone-fortress",
+      "d1:locations:warped-forest",
+      "d1:locations:the-stronghold"
+    ],
+    "properties": [
+      "+50% soul gathering",
+      "+50% Artifact Damage."
+    ],
+    "variantIds": [
+      "d1:armor:souldancer-robe"
+    ],
+    "tags": [
+      "artifact-damage",
+      "soul-gathering"
+    ],
+    "related": [
+      "d1:armor:souldancer-robe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883224,
+      "title": "Dungeons:Soul Robe",
+      "url": "https://minecraft.wiki/w/Dungeons:Soul_Robe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:souldancer-robe",
+    "slug": "souldancer-robe",
+    "game": "d1",
+    "category": "armor",
+    "name": "Souldancer Robe",
+    "description": "The Souldancer Robe comes alive in the light, as if the souls within are dancing for all eternity.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Souldancer Robe icon",
+      "height": 512,
+      "src": "/images/d1/armor/souldancer-robe.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": true,
+    "armorGroup": "soul-robe",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:soul-robe",
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "chance to negate hits",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "label": "soul gathering",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "label": "Artifact Damage",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:creeper-woods",
+      "d1:locations:highblock-halls",
+      "d1:locations:underhalls",
+      "d1:locations:lone-fortress",
+      "d1:locations:warped-forest",
+      "d1:locations:the-stronghold"
+    ],
+    "properties": [
+      "30% chance to negate hits",
+      "+50% soul gathering",
+      "+50% Artifact Damage"
+    ],
+    "variantIds": [],
+    "tags": [
+      "artifact-damage",
+      "defense",
+      "soul-gathering"
+    ],
+    "related": [
+      "d1:armor:soul-robe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3845008,
+      "title": "Dungeons:Souldancer Robe",
+      "url": "https://minecraft.wiki/w/Dungeons:Souldancer_Robe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:spelunker-armor",
+    "slug": "spelunker-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Spelunker Armor",
+    "description": "The Spelunker Armor is worn by those who brave the darkest depths of the Overworld.",
+    "rarity": "common",
+    "image": {
+      "alt": "Spelunker Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/spelunker-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "spelunker-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "weapon Damage Boost Aura",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:redstone-mines",
+      "d1:locations:cacti-canyon",
+      "d1:locations:lost-settlement",
+      "d1:locations:windswept-peaks",
+      "d1:locations:the-stronghold"
+    ],
+    "properties": [
+      "+20% weapon Damage Boost Aura",
+      "Gives you a pet bat"
+    ],
+    "variantIds": [
+      "d1:armor:cave-crawler",
+      "d1:armor:sweet-tooth"
+    ],
+    "tags": [
+      "damage-boost",
+      "summoning"
+    ],
+    "related": [
+      "d1:armor:cave-crawler",
+      "d1:armor:sweet-tooth"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883226,
+      "title": "Dungeons:Spelunker Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Spelunker_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:spider-armor",
+    "slug": "spider-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Spider Armor",
+    "description": "Spider Armor, created by master thieves, is inspired by the agile talents of the Spider.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Spider Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/spider-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "thief-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:thief-armor",
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "melee attack speed",
+        "unit": "%",
+        "value": 25
+      },
+      {
+        "label": "life steal Aura",
+        "unit": "%",
+        "value": 6
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:redstone-mines",
+      "d1:locations:desert-temple",
+      "d1:locations:overgrown-temple",
+      "d1:locations:soul-sand-valley",
+      "d1:locations:radiant-ravine",
+      "d1:locations:the-stronghold"
+    ],
+    "powerTable": [
+      {
+        "max": 3,
+        "min": 0,
+        "power": 1
+      },
+      {
+        "max": 17,
+        "min": 13,
+        "power": 5
+      },
+      {
+        "max": 37,
+        "min": 33,
+        "power": 10
+      },
+      {
+        "max": 63,
+        "min": 57,
+        "power": 15
+      },
+      {
+        "max": 94,
+        "min": 87,
+        "power": 20
+      },
+      {
+        "max": 132,
+        "min": 124,
+        "power": 25
+      },
+      {
+        "max": 178,
+        "min": 168,
+        "power": 30
+      },
+      {
+        "max": 235,
+        "min": 223,
+        "power": 35
+      },
+      {
+        "max": 305,
+        "min": 290,
+        "power": 40
+      },
+      {
+        "max": 390,
+        "min": 372,
+        "power": 45
+      },
+      {
+        "max": 495,
+        "min": 473,
+        "power": 50
+      },
+      {
+        "max": 623,
+        "min": 596,
+        "power": 55
+      },
+      {
+        "max": 780,
+        "min": 747,
+        "power": 60
+      },
+      {
+        "max": 973,
+        "min": 931,
+        "power": 65
+      },
+      {
+        "max": 1208,
+        "min": 1158,
+        "power": 70
+      },
+      {
+        "max": 1497,
+        "min": 1435,
+        "power": 75
+      },
+      {
+        "max": 1850,
+        "min": 1774,
+        "power": 80
+      },
+      {
+        "max": 2283,
+        "min": 2190,
+        "power": 85
+      },
+      {
+        "max": 2814,
+        "min": 2700,
+        "power": 90
+      },
+      {
+        "max": 3463,
+        "min": 3324,
+        "power": 95
+      },
+      {
+        "max": 4259,
+        "min": 4088,
+        "power": 100
+      },
+      {
+        "max": 5236,
+        "min": 5025,
+        "power": 105
+      },
+      {
+        "max": 5921,
+        "min": 5685,
+        "power": 108
+      }
+    ],
+    "properties": [
+      "25% melee attack speed",
+      "6% life steal Aura"
+    ],
+    "variantIds": [],
+    "tags": [
+      "attack-speed",
+      "healing"
+    ],
+    "related": [
+      "d1:armor:thief-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883258,
+      "title": "Dungeons:Spider Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Spider_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:splendid-robe",
+    "slug": "splendid-robe",
+    "game": "d1",
+    "category": "armor",
+    "name": "Splendid Robe",
+    "description": "The distinguished Splendid Robe is worn by the hardened Illager warriors who protect the Arch-Illager.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Splendid Robe icon",
+      "height": 512,
+      "src": "/images/d1/armor/splendid-robe.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "battle-robe",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:battle-robe",
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "Artifact Damage",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "label": "Artifact Cooldown",
+        "unit": "%",
+        "value": -40
+      },
+      {
+        "label": "Melee Damage",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:creepy-crypt",
+      "d1:locations:redstone-mines",
+      "d1:locations:frosted-fjord",
+      "d1:locations:colossal-rampart",
+      "d1:locations:abyssal-monument"
+    ],
+    "powerTable": [
+      {
+        "max": 3,
+        "min": 0,
+        "power": 1
+      },
+      {
+        "max": 17,
+        "min": 13,
+        "power": 5
+      },
+      {
+        "max": 37,
+        "min": 33,
+        "power": 10
+      },
+      {
+        "max": 63,
+        "min": 57,
+        "power": 15
+      },
+      {
+        "max": 94,
+        "min": 87,
+        "power": 20
+      },
+      {
+        "max": 132,
+        "min": 124,
+        "power": 25
+      },
+      {
+        "max": 178,
+        "min": 168,
+        "power": 30
+      },
+      {
+        "max": 235,
+        "min": 223,
+        "power": 35
+      },
+      {
+        "max": 305,
+        "min": 290,
+        "power": 40
+      },
+      {
+        "max": 390,
+        "min": 372,
+        "power": 45
+      },
+      {
+        "max": 495,
+        "min": 473,
+        "power": 50
+      },
+      {
+        "max": 623,
+        "min": 596,
+        "power": 55
+      },
+      {
+        "max": 780,
+        "min": 747,
+        "power": 60
+      },
+      {
+        "max": 973,
+        "min": 931,
+        "power": 65
+      },
+      {
+        "max": 1208,
+        "min": 1158,
+        "power": 70
+      },
+      {
+        "max": 1497,
+        "min": 1435,
+        "power": 75
+      },
+      {
+        "max": 1850,
+        "min": 1774,
+        "power": 80
+      },
+      {
+        "max": 2283,
+        "min": 2190,
+        "power": 85
+      },
+      {
+        "max": 2814,
+        "min": 2700,
+        "power": 90
+      },
+      {
+        "max": 3463,
+        "min": 3324,
+        "power": 95
+      },
+      {
+        "max": 4259,
+        "min": 4088,
+        "power": 100
+      },
+      {
+        "max": 5236,
+        "min": 5025,
+        "power": 105
+      },
+      {
+        "max": 5921,
+        "min": 5685,
+        "power": 108
+      }
+    ],
+    "properties": [
+      "+50% Artifact Damage",
+      "-40% Artifact Cooldown",
+      "+30% Melee Damage"
+    ],
+    "variantIds": [],
+    "tags": [
+      "artifact-cooldown",
+      "artifact-damage",
+      "melee-damage"
+    ],
+    "related": [
+      "d1:armor:battle-robe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883109,
+      "title": "Dungeons:Splendid Robe",
+      "url": "https://minecraft.wiki/w/Dungeons:Splendid_Robe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:sprout-armor",
+    "slug": "sprout-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Sprout Armor",
+    "description": "The dark vines of the Sprout Armor continue to grow even in complete darkness.",
+    "rarity": "common",
+    "dlc": "flames-of-the-nether",
+    "image": {
+      "alt": "Sprout Armor icon",
+      "height": 256,
+      "src": "/images/d1/armor/sprout-armor.webp",
+      "width": 256
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "sprout-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:crimson-forest",
+      "d1:locations:soul-sand-valley"
+    ],
+    "properties": [
+      "Health potions heal nearby allies",
+      "Traps and poisons nearby mobs when rolling"
+    ],
+    "variantIds": [
+      "d1:armor:living-vines-armor"
+    ],
+    "tags": [
+      "poison",
+      "potion"
+    ],
+    "related": [
+      "d1:armor:living-vines-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883243,
+      "title": "Dungeons:Sprout Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Sprout_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:squid-armor",
+    "slug": "squid-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Squid Armor",
+    "description": "It was easy to make this jet-black armor look cool. The hard part was securing the ink sacs.",
+    "rarity": "common",
+    "dlc": "hidden-depths",
+    "image": {
+      "alt": "Squid Armor icon",
+      "height": 256,
+      "src": "/images/d1/armor/squid-armor.webp",
+      "width": 256
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "squid-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "Movespeed Aura",
+        "unit": "%",
+        "value": 15
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:radiant-ravine",
+      "d1:locations:abyssal-monument"
+    ],
+    "properties": [
+      "15% Movespeed Aura",
+      "Release an ink cloud when rolling"
+    ],
+    "variantIds": [
+      "d1:armor:glow-squid-armor"
+    ],
+    "tags": [
+      "movement-speed",
+      "stealth"
+    ],
+    "related": [
+      "d1:armor:glow-squid-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3883253,
+      "title": "Dungeons:Squid Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Squid_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:stalwart-armor",
+    "slug": "stalwart-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Stalwart Armor",
+    "description": "This reliable armor is sturdy enough to be passed down for generations.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Stalwart Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/stalwart-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "reinforced-mail",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:reinforced-mail",
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:potion-barrier"
+      }
+    ],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "Chance to negate hits",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "label": "longer roll cooldown",
+        "unit": "%",
+        "value": 100
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:fiery-forge",
+      "d1:locations:lower-temple",
+      "d1:locations:panda-plateau",
+      "d1:locations:nether-fortress",
+      "d1:locations:broken-citadel"
+    ],
+    "properties": [
+      "Potion use Boosts Defense",
+      "35% Damage Reduction",
+      "30% Chance to negate hits",
+      "100% longer roll cooldown"
+    ],
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "potion",
+      "rolling"
+    ],
+    "related": [
+      "d1:armor:reinforced-mail"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3844999,
+      "title": "Dungeons:Stalwart Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Stalwart_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:sturdy-shulker-armor",
+    "slug": "sturdy-shulker-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Sturdy Shulker Armor",
+    "description": "They say the best defense is a good offense, but good luck breaking through this bulwark.",
+    "rarity": "unique",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "Sturdy Shulker Armor icon",
+      "height": 256,
+      "src": "/images/d1/armor/sturdy-shulker-armor.webp",
+      "width": 256
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "shulker-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:shulker-armor",
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:deflect"
+      },
+      {
+        "enchantmentId": "d1:enchantments:thrive-under-pressure"
+      }
+    ],
+    "effects": [],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:end-wilds"
+    ],
+    "properties": [
+      "Mobs target you more",
+      "Deflect enemy projectiles",
+      "Take less Damage when swarmed",
+      "Fire shulker projectiles at nearby enemies"
+    ],
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "fire"
+    ],
+    "related": [
+      "d1:armor:shulker-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3845005,
+      "title": "Dungeons:Sturdy Shulker Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Sturdy_Shulker_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:sweet-tooth",
+    "slug": "sweet-tooth",
+    "game": "d1",
+    "category": "armor",
+    "name": "Sweet Tooth",
+    "description": "This armor may look like a piece of cake to your enemies, but it is surprisingly durable in battle. Must be the fondant.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Sweet Tooth icon",
+      "height": 256,
+      "src": "/images/d1/armor/sweet-tooth.webp",
+      "width": 256
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "spelunker-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:spelunker-armor",
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "Artifact Damage",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "label": "weapon Damage Boost Aura",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "isSeasonal": true,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:the-tower"
+    ],
+    "properties": [
+      "+50% Artifact Damage",
+      "+20% weapon Damage Boost Aura",
+      "Gives you a pet bat",
+      "Special Event Item"
+    ],
+    "variantIds": [],
+    "tags": [
+      "artifact-damage",
+      "damage-boost",
+      "seasonal-event",
+      "summoning"
+    ],
+    "related": [
+      "d1:armor:spelunker-armor",
+      "d1:armor:cave-crawler"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3883232,
+      "title": "Dungeons:Sweet Tooth",
+      "url": "https://minecraft.wiki/w/Dungeons:Sweet_Tooth"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:teleportation-robes",
+    "slug": "teleportation-robes",
+    "game": "d1",
+    "category": "armor",
+    "name": "Teleportation Robes",
+    "description": "The Teleportation Robes were made by those who devoted their lives to studying the enigmas of the End.",
+    "rarity": "common",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "Teleportation Robes icon",
+      "height": 256,
+      "src": "/images/d1/armor/teleportation-robes.webp",
+      "width": 256
+    },
+    "acceptsSoulEnchantments": true,
+    "armorGroup": "teleportation-robes",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "souls gathered",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:broken-citadel"
+    ],
+    "properties": [
+      "Roll to Teleport",
+      "+50% souls gathered"
+    ],
+    "variantIds": [
+      "d1:armor:unstable-robes"
+    ],
+    "tags": [
+      "soul-gathering",
+      "stealth"
+    ],
+    "related": [
+      "d1:armor:unstable-robes"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883255,
+      "title": "Dungeons:Teleportation Robes",
+      "url": "https://minecraft.wiki/w/Dungeons:Teleportation_Robes"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:the-spooky-gourdian",
+    "slug": "the-spooky-gourdian",
+    "game": "d1",
+    "category": "armor",
+    "name": "The Spooky Gourdian",
+    "description": "Those who wear the mantle of The Spooky Gourdian become the legendary terror of Pumpkin Pastures!",
+    "rarity": "unique",
+    "image": {
+      "alt": "The Spooky Gourdian icon",
+      "height": 640,
+      "src": "/images/d1/armor/the-spooky-gourdian.webp",
+      "width": 640
+    },
+    "acceptsSoulEnchantments": true,
+    "armorGroup": "grim-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:grim-armor",
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "souls gathered",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "label": "life steal Aura",
+        "unit": "%",
+        "value": 6
+      }
+    ],
+    "isSeasonal": true,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:the-tower"
+    ],
+    "properties": [
+      "35% Damage Reduction",
+      "+50% souls gathered",
+      "6% life steal Aura",
+      "Special Event Item"
+    ],
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "healing",
+      "seasonal-event",
+      "soul-gathering"
+    ],
+    "related": [
+      "d1:armor:grim-armor",
+      "d1:armor:wither-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3883172,
+      "title": "Dungeons:The Spooky Gourdian",
+      "url": "https://minecraft.wiki/w/Dungeons:The_Spooky_Gourdian"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:the-troubadour",
+    "slug": "the-troubadour",
+    "game": "d1",
+    "category": "armor",
+    "name": "The Troubadour",
+    "description": "Why leave your adoring fans wanting more when you can wow them with this inspirational outfit?",
+    "rarity": "unique",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "The Troubadour icon",
+      "height": 256,
+      "src": "/images/d1/armor/the-troubadour.webp",
+      "width": 256
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "entertainers-garb",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:entertainers-garb",
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "negative status effect duration",
+        "unit": "%",
+        "value": -30
+      },
+      {
+        "label": "positive status effect duration",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:the-stronghold"
+    ],
+    "properties": [
+      "-30% negative status effect duration",
+      "Health potions heal nearby allies",
+      "+30% positive status effect duration"
+    ],
+    "variantIds": [],
+    "tags": [
+      "potion",
+      "status-effects"
+    ],
+    "related": [
+      "d1:armor:entertainers-garb"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883154,
+      "title": "Dungeons:The Troubadour",
+      "url": "https://minecraft.wiki/w/Dungeons:The_Troubadour"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:thief-armor",
+    "slug": "thief-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Thief Armor",
+    "description": "This armor is light, nimble, and smells faintly of sulfur.",
+    "rarity": "common",
+    "image": {
+      "alt": "Thief Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/thief-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "thief-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "melee attack speed",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:redstone-mines",
+      "d1:locations:desert-temple",
+      "d1:locations:overgrown-temple",
+      "d1:locations:soul-sand-valley",
+      "d1:locations:radiant-ravine",
+      "d1:locations:the-stronghold"
+    ],
+    "powerTable": [
+      {
+        "max": 3,
+        "min": 0,
+        "power": 1
+      },
+      {
+        "max": 17,
+        "min": 13,
+        "power": 5
+      },
+      {
+        "max": 37,
+        "min": 33,
+        "power": 10
+      },
+      {
+        "max": 63,
+        "min": 57,
+        "power": 15
+      },
+      {
+        "max": 94,
+        "min": 87,
+        "power": 20
+      },
+      {
+        "max": 132,
+        "min": 124,
+        "power": 25
+      },
+      {
+        "max": 178,
+        "min": 168,
+        "power": 30
+      },
+      {
+        "max": 235,
+        "min": 223,
+        "power": 35
+      },
+      {
+        "max": 305,
+        "min": 290,
+        "power": 40
+      },
+      {
+        "max": 390,
+        "min": 372,
+        "power": 45
+      },
+      {
+        "max": 495,
+        "min": 473,
+        "power": 50
+      },
+      {
+        "max": 623,
+        "min": 596,
+        "power": 55
+      },
+      {
+        "max": 780,
+        "min": 747,
+        "power": 60
+      },
+      {
+        "max": 973,
+        "min": 931,
+        "power": 65
+      },
+      {
+        "max": 1208,
+        "min": 1158,
+        "power": 70
+      },
+      {
+        "max": 1497,
+        "min": 1435,
+        "power": 75
+      },
+      {
+        "max": 1850,
+        "min": 1774,
+        "power": 80
+      },
+      {
+        "max": 2283,
+        "min": 2190,
+        "power": 85
+      },
+      {
+        "max": 2814,
+        "min": 2700,
+        "power": 90
+      },
+      {
+        "max": 3463,
+        "min": 3324,
+        "power": 95
+      },
+      {
+        "max": 4259,
+        "min": 4088,
+        "power": 100
+      },
+      {
+        "max": 5236,
+        "min": 5025,
+        "power": 105
+      },
+      {
+        "max": 5921,
+        "min": 5685,
+        "power": 108
+      }
+    ],
+    "properties": [
+      "+25% melee attack speed"
+    ],
+    "variantIds": [
+      "d1:armor:spider-armor"
+    ],
+    "tags": [
+      "attack-speed"
+    ],
+    "related": [
+      "d1:armor:spider-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3845017,
+      "title": "Dungeons:Thief Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Thief_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:titans-shroud",
+    "slug": "titans-shroud",
+    "game": "d1",
+    "category": "armor",
+    "name": "Titan's Shroud",
+    "description": "The inspiring tales of the Titan's Shroud armor have passed through Pumpkin Pastures for generations.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Titan's Shroud icon",
+      "height": 512,
+      "src": "/images/d1/armor/titans-shroud.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": true,
+    "armorGroup": "dark-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:dark-armor",
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "weapon Damage Boost Aura",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "label": "souls gathered",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:fiery-forge",
+      "d1:locations:underhalls",
+      "d1:locations:lost-settlement",
+      "d1:locations:coral-rise"
+    ],
+    "powerTable": [
+      {
+        "max": 3,
+        "min": 0,
+        "power": 1
+      },
+      {
+        "max": 17,
+        "min": 13,
+        "power": 5
+      },
+      {
+        "max": 37,
+        "min": 33,
+        "power": 10
+      },
+      {
+        "max": 63,
+        "min": 57,
+        "power": 15
+      },
+      {
+        "max": 94,
+        "min": 87,
+        "power": 20
+      },
+      {
+        "max": 132,
+        "min": 124,
+        "power": 25
+      },
+      {
+        "max": 178,
+        "min": 168,
+        "power": 30
+      },
+      {
+        "max": 235,
+        "min": 223,
+        "power": 35
+      },
+      {
+        "max": 305,
+        "min": 290,
+        "power": 40
+      },
+      {
+        "max": 390,
+        "min": 372,
+        "power": 45
+      },
+      {
+        "max": 495,
+        "min": 473,
+        "power": 50
+      },
+      {
+        "max": 623,
+        "min": 596,
+        "power": 55
+      },
+      {
+        "max": 780,
+        "min": 747,
+        "power": 60
+      },
+      {
+        "max": 973,
+        "min": 931,
+        "power": 65
+      },
+      {
+        "max": 1208,
+        "min": 1158,
+        "power": 70
+      },
+      {
+        "max": 1497,
+        "min": 1435,
+        "power": 75
+      },
+      {
+        "max": 1850,
+        "min": 1774,
+        "power": 80
+      },
+      {
+        "max": 2283,
+        "min": 2190,
+        "power": 85
+      },
+      {
+        "max": 2814,
+        "min": 2700,
+        "power": 90
+      },
+      {
+        "max": 3463,
+        "min": 3324,
+        "power": 95
+      },
+      {
+        "max": 4259,
+        "min": 4088,
+        "power": 100
+      },
+      {
+        "max": 5236,
+        "min": 5025,
+        "power": 105
+      },
+      {
+        "max": 5921,
+        "min": 5685,
+        "power": 108
+      },
+      {
+        "max": 7153,
+        "min": 7107,
+        "power": 113
+      }
+    ],
+    "properties": [
+      "35% Damage Reduction",
+      "+20% weapon Damage Boost Aura",
+      "+50% souls gathered"
+    ],
+    "variantIds": [],
+    "tags": [
+      "damage-boost",
+      "defense",
+      "soul-gathering"
+    ],
+    "related": [
+      "d1:armor:dark-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:08.952Z",
+      "revisionId": 3883141,
+      "title": "Dungeons:Titan's Shroud",
+      "url": "https://minecraft.wiki/w/Dungeons:Titan's_Shroud"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:turtle-armor",
+    "slug": "turtle-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Turtle Armor",
+    "description": "The Turtle Armor is inspired by the hardy and protective shell of the humble turtle.",
+    "rarity": "common",
+    "dlc": "hidden-depths",
+    "image": {
+      "alt": "Turtle Armor icon",
+      "height": 256,
+      "src": "/images/d1/armor/turtle-armor.webp",
+      "width": 256
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "turtle-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "healing Boost",
+        "unit": "%",
+        "value": 25
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:coral-rise",
+      "d1:locations:radiant-ravine"
+    ],
+    "properties": [
+      "35% Damage Reduction",
+      "25% healing Boost"
+    ],
+    "variantIds": [
+      "d1:armor:nimble-turtle-armor"
+    ],
+    "tags": [
+      "defense",
+      "healing"
+    ],
+    "related": [
+      "d1:armor:nimble-turtle-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883259,
+      "title": "Dungeons:Turtle Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Turtle_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:unstable-robes",
+    "slug": "unstable-robes",
+    "game": "d1",
+    "category": "armor",
+    "name": "Unstable Robes",
+    "description": "This Enderobe sparks with static as you sashay across the battlefield.",
+    "rarity": "unique",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "Unstable Robes icon",
+      "height": 256,
+      "src": "/images/d1/armor/unstable-robes.webp",
+      "width": 256
+    },
+    "acceptsSoulEnchantments": true,
+    "armorGroup": "teleportation-robes",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:teleportation-robes",
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "souls gathered",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:broken-citadel"
+    ],
+    "properties": [
+      "Roll to Teleport",
+      "+50% souls gathered",
+      "Trigger explosion on rolling impact"
+    ],
+    "variantIds": [],
+    "tags": [
+      "explosive",
+      "soul-gathering",
+      "stealth"
+    ],
+    "related": [
+      "d1:armor:teleportation-robes"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883257,
+      "title": "Dungeons:Unstable Robes",
+      "url": "https://minecraft.wiki/w/Dungeons:Unstable_Robes"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:verdant-robe",
+    "slug": "verdant-robe",
+    "game": "d1",
+    "category": "armor",
+    "name": "Verdant Robe",
+    "description": "Those who don the Verdant Robe soon find that they can commune with more souls than ever before.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Verdant Robe icon",
+      "height": 512,
+      "src": "/images/d1/armor/verdant-robe.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": true,
+    "armorGroup": "evocation-robe",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:evocation-robe",
+    "builtInEnchantments": [
+      {
+        "enchantmentId": "d1:enchantments:bag-of-souls"
+      }
+    ],
+    "effects": [
+      {
+        "label": "Artifact Cooldown",
+        "unit": "%",
+        "value": -40
+      },
+      {
+        "label": "Movespeed Aura",
+        "unit": "%",
+        "value": 15
+      },
+      {
+        "label": "Soul Gathering",
+        "unit": "flat",
+        "value": 2
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:soggy-swamp",
+      "d1:locations:soggy-cave",
+      "d1:locations:obsidian-pinnacle",
+      "d1:locations:panda-plateau",
+      "d1:locations:crimson-forest",
+      "d1:locations:the-stronghold"
+    ],
+    "properties": [
+      "Increase maximum souls",
+      "-40% Artifact Cooldown",
+      "+15% Movespeed Aura",
+      "+2 Soul Gathering"
+    ],
+    "variantIds": [],
+    "tags": [
+      "artifact-cooldown",
+      "movement-speed",
+      "soul-gathering"
+    ],
+    "related": [
+      "d1:armor:evocation-robe",
+      "d1:armor:ember-robe"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883164,
+      "title": "Dungeons:Verdant Robe",
+      "url": "https://minecraft.wiki/w/Dungeons:Verdant_Robe"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:wither-armor",
+    "slug": "wither-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Wither Armor",
+    "description": "Wither Armor, crafted with the parts of slain enemies, was made to terrify the wearer's enemies.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Wither Armor icon",
+      "height": 640,
+      "src": "/images/d1/armor/wither-armor.webp",
+      "width": 640
+    },
+    "acceptsSoulEnchantments": true,
+    "armorGroup": "grim-armor",
+    "baseHealth": 200,
+    "baseItemId": "d1:armor:grim-armor",
+    "builtInEnchantments": [],
+    "damageReduction": 35,
+    "effects": [
+      {
+        "label": "Damage Reduction",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "label": "souls gathered",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "label": "life steal Aura",
+        "unit": "%",
+        "value": 6
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": true,
+    "locations": [
+      "d1:locations:cacti-canyon",
+      "d1:locations:desert-temple",
+      "d1:locations:lower-temple",
+      "d1:locations:obsidian-pinnacle",
+      "d1:locations:soul-sand-valley",
+      "d1:locations:broken-citadel"
+    ],
+    "powerTable": [
+      {
+        "max": 3,
+        "min": 0,
+        "power": 1
+      },
+      {
+        "max": 17,
+        "min": 13,
+        "power": 5
+      },
+      {
+        "max": 37,
+        "min": 33,
+        "power": 10
+      },
+      {
+        "max": 63,
+        "min": 57,
+        "power": 15
+      },
+      {
+        "max": 94,
+        "min": 87,
+        "power": 20
+      },
+      {
+        "max": 132,
+        "min": 124,
+        "power": 25
+      },
+      {
+        "max": 178,
+        "min": 168,
+        "power": 30
+      },
+      {
+        "max": 235,
+        "min": 223,
+        "power": 35
+      },
+      {
+        "max": 305,
+        "min": 290,
+        "power": 40
+      },
+      {
+        "max": 390,
+        "min": 372,
+        "power": 45
+      },
+      {
+        "max": 495,
+        "min": 473,
+        "power": 50
+      },
+      {
+        "max": 623,
+        "min": 596,
+        "power": 55
+      },
+      {
+        "max": 780,
+        "min": 747,
+        "power": 60
+      },
+      {
+        "max": 973,
+        "min": 931,
+        "power": 65
+      },
+      {
+        "max": 1208,
+        "min": 1158,
+        "power": 70
+      },
+      {
+        "max": 1497,
+        "min": 1435,
+        "power": 75
+      },
+      {
+        "max": 1850,
+        "min": 1774,
+        "power": 80
+      },
+      {
+        "max": 2283,
+        "min": 2190,
+        "power": 85
+      },
+      {
+        "max": 2814,
+        "min": 2700,
+        "power": 90
+      },
+      {
+        "max": 3463,
+        "min": 3324,
+        "power": 95
+      },
+      {
+        "max": 4259,
+        "min": 4088,
+        "power": 100
+      },
+      {
+        "max": 5236,
+        "min": 5025,
+        "power": 105
+      },
+      {
+        "max": 9987,
+        "min": 5685,
+        "power": 108
+      }
+    ],
+    "properties": [
+      "35% Damage Reduction",
+      "+50% souls gathered",
+      "6% life steal Aura"
+    ],
+    "variantIds": [],
+    "tags": [
+      "defense",
+      "healing",
+      "soul-gathering"
+    ],
+    "related": [
+      "d1:armor:grim-armor",
+      "d1:armor:the-spooky-gourdian"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883170,
+      "title": "Dungeons:Wither Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Wither_Armor"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:armor:wolf-armor",
+    "slug": "wolf-armor",
+    "game": "d1",
+    "category": "armor",
+    "name": "Wolf Armor",
+    "description": "Many warriors wear the heads of wolves into battle to strike fear into the hearts of their enemies.",
+    "rarity": "common",
+    "image": {
+      "alt": "Wolf Armor icon",
+      "height": 512,
+      "src": "/images/d1/armor/wolf-armor.webp",
+      "width": 512
+    },
+    "acceptsSoulEnchantments": false,
+    "armorGroup": "wolf-armor",
+    "baseHealth": 200,
+    "builtInEnchantments": [],
+    "effects": [
+      {
+        "label": "weapon Damage Boost Aura",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "isSeasonal": false,
+    "isUnique": false,
+    "locations": [
+      "d1:locations:creeper-woods",
+      "d1:locations:redstone-mines",
+      "d1:locations:lost-settlement",
+      "d1:locations:end-wilds"
+    ],
+    "properties": [
+      "+20% weapon Damage Boost Aura",
+      "Health potions heal nearby allies"
+    ],
+    "variantIds": [
+      "d1:armor:arctic-fox-armor",
+      "d1:armor:black-wolf-armor",
+      "d1:armor:fox-armor"
+    ],
+    "tags": [
+      "damage-boost",
+      "potion"
+    ],
+    "related": [
+      "d1:armor:arctic-fox-armor",
+      "d1:armor:black-wolf-armor",
+      "d1:armor:fox-armor"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:07.976Z",
+      "revisionId": 3883263,
+      "title": "Dungeons:Wolf Armor",
+      "url": "https://minecraft.wiki/w/Dungeons:Wolf_Armor"
+    },
+    "quality": "verified"
+  }
+]

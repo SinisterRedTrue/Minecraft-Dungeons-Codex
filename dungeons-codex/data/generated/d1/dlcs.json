@@ -1,0 +1,329 @@
+[
+  {
+    "id": "d1:dlcs:cloudy-climb",
+    "slug": "cloudy-climb",
+    "game": "d1",
+    "category": "dlcs",
+    "name": "Cloudy Climb",
+    "image": {
+      "alt": "Cloudy Climb icon",
+      "height": 360,
+      "src": "/images/d1/dlcs/cloudy-climb.webp",
+      "width": 640
+    },
+    "contentCounts": {
+      "armor": 0,
+      "artifacts": 0,
+      "enchantments": 0,
+      "mobs": 0,
+      "weapons": 0
+    },
+    "locationIds": [],
+    "order": 7,
+    "releaseDate": "2021-12-14",
+    "summary": "Cloudy Climb is a seasonal adventure that was announced at Minecraft Live 2021 and was released on December 14th 2021. Showcased at Minecraft Live 2021, it is the first seasonal adventure in the game.",
+    "tags": [],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T03:51:46.308Z",
+      "revisionId": 3805134,
+      "title": "Dungeons:Cloudy Climb",
+      "url": "https://minecraft.wiki/w/Dungeons:Cloudy_Climb"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:dlcs:creeping-winter",
+    "slug": "creeping-winter",
+    "game": "d1",
+    "category": "dlcs",
+    "name": "Creeping Winter",
+    "image": {
+      "alt": "Creeping Winter icon",
+      "height": 293,
+      "src": "/images/d1/dlcs/creeping-winter.webp",
+      "width": 640
+    },
+    "contentCounts": {
+      "armor": 2,
+      "artifacts": 1,
+      "enchantments": 0,
+      "mobs": 13,
+      "weapons": 2
+    },
+    "locationIds": [
+      "d1:locations:frosted-fjord",
+      "d1:locations:lone-fortress",
+      "d1:locations:lost-settlement"
+    ],
+    "order": 2,
+    "releaseDate": "2020-09-08",
+    "summary": "Creeping Winter is the second paid DLC. It was released on September 8, 2020. It is the second and final DLC of the Hero Pass and the second DLC set in the island realms. It includes two regular missions, Frosted Fjord and Lone Fortress, a secret mission, Lost Settlement, and a boss, the Wretched Wraith, found in Lone Fortress.",
+    "tags": [],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T03:51:46.308Z",
+      "revisionId": 3865974,
+      "title": "Dungeons:Creeping Winter",
+      "url": "https://minecraft.wiki/w/Dungeons:Creeping_Winter"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:dlcs:echoing-void",
+    "slug": "echoing-void",
+    "game": "d1",
+    "category": "dlcs",
+    "name": "Echoing Void",
+    "image": {
+      "alt": "Echoing Void icon",
+      "height": 293,
+      "src": "/images/d1/dlcs/echoing-void.webp",
+      "width": 640
+    },
+    "contentCounts": {
+      "armor": 6,
+      "artifacts": 4,
+      "enchantments": 10,
+      "mobs": 19,
+      "weapons": 10
+    },
+    "locationIds": [
+      "d1:locations:broken-citadel",
+      "d1:locations:end-wilds",
+      "d1:locations:gauntlet-of-gales",
+      "d1:locations:the-stronghold"
+    ],
+    "order": 6,
+    "releaseDate": "2021-07-28",
+    "summary": "Echoing Void is the sixth and final paid DLC for Minecraft Dungeons, ignoring the Adventure Pass. It was released on July 28, 2021. It is the fourth and final DLC of the Season Pass, the first part set in the mainland, and the second part set in the other dimensions. It concludes the narrative of the Orb of Dominance. It includes three\nmissions, The Stronghold, the End Wilds, and the Broken Citadel; and a boss, the Vengeful Heart of Ender, found in the Broken Citadel. It is the first and only DLC to not include at least one secret mission.",
+    "tags": [],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T03:51:46.308Z",
+      "revisionId": 3858809,
+      "title": "Dungeons:Echoing Void",
+      "url": "https://minecraft.wiki/w/Dungeons:Echoing_Void"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:dlcs:fauna-faire",
+    "slug": "fauna-faire",
+    "game": "d1",
+    "category": "dlcs",
+    "name": "Fauna Faire",
+    "image": {
+      "alt": "Fauna Faire icon",
+      "height": 360,
+      "src": "/images/d1/dlcs/fauna-faire.webp",
+      "width": 640
+    },
+    "contentCounts": {
+      "armor": 0,
+      "artifacts": 0,
+      "enchantments": 0,
+      "mobs": 0,
+      "weapons": 0
+    },
+    "locationIds": [
+      "d1:locations:treetop-tangle"
+    ],
+    "order": 9,
+    "releaseDate": "2022-10-19",
+    "summary": "Fauna Faire was the third and final seasonal adventure for Minecraft Dungeons which was released on October 19, 2022. It also was the last main update for Minecraft Dungeons. It added a multiplayer mode for the Tower, the Enchantsmith, and a new mission, the Treetop Tangle.",
+    "tags": [],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T03:51:46.308Z",
+      "revisionId": 3805136,
+      "title": "Dungeons:Fauna Faire",
+      "url": "https://minecraft.wiki/w/Dungeons:Fauna_Faire"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:dlcs:flames-of-the-nether",
+    "slug": "flames-of-the-nether",
+    "game": "d1",
+    "category": "dlcs",
+    "name": "Flames of the Nether",
+    "image": {
+      "alt": "Flames of the Nether icon",
+      "height": 293,
+      "src": "/images/d1/dlcs/flames-of-the-nether.webp",
+      "width": 640
+    },
+    "contentCounts": {
+      "armor": 4,
+      "artifacts": 4,
+      "enchantments": 0,
+      "mobs": 18,
+      "weapons": 8
+    },
+    "locationIds": [
+      "d1:locations:basalt-deltas",
+      "d1:locations:crimson-forest",
+      "d1:locations:nether-fortress",
+      "d1:locations:nether-wastes",
+      "d1:locations:soul-sand-valley",
+      "d1:locations:warped-forest"
+    ],
+    "order": 4,
+    "releaseDate": "2021-02-24",
+    "summary": "Flames of the Nether is the fourth paid DLC for Minecraft Dungeons. It was released on February 24, 2021. It is the second DLC of the Season Pass, the first DLC set in the other dimensions, and the only DLC that is not part of the narrative of the Orb of Dominance. It includes three missions, Nether Wastes, Warped Forest, and Basalt Deltas, and three secret missions, Crimson Forest, Soul Sand Valley, and Nether Fortress. It is the only DLC to not include a boss.",
+    "tags": [],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T03:51:46.308Z",
+      "revisionId": 3847688,
+      "title": "Dungeons:Flames of the Nether",
+      "url": "https://minecraft.wiki/w/Dungeons:Flames_of_the_Nether"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:dlcs:hidden-depths",
+    "slug": "hidden-depths",
+    "game": "d1",
+    "category": "dlcs",
+    "name": "Hidden Depths",
+    "image": {
+      "alt": "Hidden Depths icon",
+      "height": 293,
+      "src": "/images/d1/dlcs/hidden-depths.webp",
+      "width": 640
+    },
+    "contentCounts": {
+      "armor": 4,
+      "artifacts": 4,
+      "enchantments": 0,
+      "mobs": 24,
+      "weapons": 8
+    },
+    "locationIds": [
+      "d1:locations:abyssal-monument",
+      "d1:locations:coral-rise",
+      "d1:locations:radiant-ravine"
+    ],
+    "order": 5,
+    "releaseDate": "2021-05-26",
+    "summary": "Hidden Depths is the fifth paid DLC for Minecraft Dungeons. It was released on May 26, 2021, the first anniversary of Minecraft Dungeons. It is the third DLC of the Season Pass and the fourth and final DLC set in the island realms. It includes two missions, Coral Rise and Abyssal Monument, a secret mission, Radiant Ravine, and a boss, the Ancient Guardian, found in Abyssal Monument.",
+    "tags": [],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T03:51:46.308Z",
+      "revisionId": 3848357,
+      "title": "Dungeons:Hidden Depths",
+      "url": "https://minecraft.wiki/w/Dungeons:Hidden_Depths"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:dlcs:howling-peaks",
+    "slug": "howling-peaks",
+    "game": "d1",
+    "category": "dlcs",
+    "name": "Howling Peaks",
+    "image": {
+      "alt": "Howling Peaks icon",
+      "height": 293,
+      "src": "/images/d1/dlcs/howling-peaks.webp",
+      "width": 640
+    },
+    "contentCounts": {
+      "armor": 6,
+      "artifacts": 1,
+      "enchantments": 3,
+      "mobs": 11,
+      "weapons": 6
+    },
+    "locationIds": [
+      "d1:locations:colossal-rampart",
+      "d1:locations:gale-sanctum",
+      "d1:locations:windswept-peaks"
+    ],
+    "order": 3,
+    "releaseDate": "2020-12-09",
+    "summary": "Howling Peaks is the third paid DLC for Minecraft Dungeons. It was released on December 9, 2020. It is the first DLC of the Season Pass and the third DLC set in the island realms. It includes two missions, Windswept Peaks and Gale Sanctum, a secret mission, Colossal Rampart, and a boss, the Tempest Golem, found in Gale Sanctum. It is the first DLC to feature unique music for its ambushes, boss fight, and cutscenes.",
+    "tags": [],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T03:51:46.308Z",
+      "revisionId": 3848359,
+      "title": "Dungeons:Howling Peaks",
+      "url": "https://minecraft.wiki/w/Dungeons:Howling_Peaks"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:dlcs:jungle-awakens",
+    "slug": "jungle-awakens",
+    "game": "d1",
+    "category": "dlcs",
+    "name": "Jungle Awakens",
+    "image": {
+      "alt": "Jungle Awakens icon",
+      "height": 293,
+      "src": "/images/d1/dlcs/jungle-awakens.webp",
+      "width": 640
+    },
+    "contentCounts": {
+      "armor": 2,
+      "artifacts": 0,
+      "enchantments": 0,
+      "mobs": 12,
+      "weapons": 2
+    },
+    "locationIds": [
+      "d1:locations:dingy-jungle",
+      "d1:locations:overgrown-temple",
+      "d1:locations:panda-plateau"
+    ],
+    "order": 1,
+    "releaseDate": "2020-07-01",
+    "summary": "Jungle Awakens is the first paid DLC for Minecraft Dungeons. It was released on July 1, 2020. It is the first DLC of the Hero Pass, the first DLC not set in the mainland, and the first DLC set in the island realms. It includes two missions, Dingy Jungle and Overgrown Temple, a secret mission, Panda Plateau, and a boss, the Jungle Abomination, found in Overgrown Temple.",
+    "tags": [],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T03:51:46.308Z",
+      "revisionId": 3847910,
+      "title": "Dungeons:Jungle Awakens",
+      "url": "https://minecraft.wiki/w/Dungeons:Jungle_Awakens"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:dlcs:luminous-night",
+    "slug": "luminous-night",
+    "game": "d1",
+    "category": "dlcs",
+    "name": "Luminous Night",
+    "image": {
+      "alt": "Luminous Night icon",
+      "height": 360,
+      "src": "/images/d1/dlcs/luminous-night.webp",
+      "width": 640
+    },
+    "contentCounts": {
+      "armor": 0,
+      "artifacts": 0,
+      "enchantments": 0,
+      "mobs": 0,
+      "weapons": 0
+    },
+    "locationIds": [],
+    "order": 8,
+    "releaseDate": "2022-04-20",
+    "summary": "Luminous Night was the second seasonal adventure, announced on April 4, 2022 then released on April 20, 2022.",
+    "tags": [],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T03:51:46.308Z",
+      "revisionId": 3849696,
+      "title": "Dungeons:Luminous Night",
+      "url": "https://minecraft.wiki/w/Dungeons:Luminous_Night"
+    },
+    "quality": "verified"
+  }
+]

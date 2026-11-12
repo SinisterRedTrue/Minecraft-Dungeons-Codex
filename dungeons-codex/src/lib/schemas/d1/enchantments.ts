@@ -7,7 +7,7 @@ export function enchantmentShape<G extends GameId>(game: G) {
   return {
     ...baseShape(game, 'enchantments'),
     appliesTo: z.array(z.enum(['melee', 'ranged', 'armor'])).min(1),
-    tier: z.enum(['common', 'powerful']),
+    tier: z.enum(['common', 'powerful']).optional(),
     isGilded: z.boolean(),
     gildedDescription: text.optional(),
     levels: z.array(
@@ -18,7 +18,7 @@ export function enchantmentShape<G extends GameId>(game: G) {
         unit: text.optional(),
       }),
     ),
-    pointCost: z.tuple([z.number().int(), z.number().int(), z.number().int()]),
+    pointCost: z.tuple([z.number().int(), z.number().int(), z.number().int()]).optional(),
     stackable: z.boolean(),
     mobObtainable: z.boolean(),
     builtInto: z.array(entityIdSchema(game)),

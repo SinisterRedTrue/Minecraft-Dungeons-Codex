@@ -1,0 +1,116 @@
+{{DungeonsDLC|Howling Peaks}}
+{{Infobox Dungeons item
+| image = Updraft Tome (MCD).png
+| image2 = T UpdraftTome GearIcon.png
+| imagecaption = Icon
+| image2caption = Sprite
+| imagesize = 150px
+| type = Artifact
+| rarity = Common<br>Rare
+| property = {{DuMiscSprite|Regular Bullet}} X artifact damage<br/>{{DuMiscSprite|Regular Bullet}} X second stun duration<br/>{{DuMiscSprite|Regular Bullet}} 7 targets maximum<br/>{{DuMiscSprite|Cooldown Bullet}} 12 second cooldown
+| runes = {{DuRunes|A}}
+| levelid = UpdraftTome
+| description = An ancient book filled with illegible glyphs, you feel a strange breeze as you flip through the pages.
+| flavor = Launch enemies into the air, stunning and damaging them.
+}}
+
+The '''updraft tome''' is an {{MCD|artifact}} that can be found within the {{MCD|Howling Peaks}} {{MCD|DLC}}.
+
+== Obtaining ==
+=== Missions ===
+* {{DuLevelLink|Windswept Peaks}}
+* {{DuLevelLink|Gauntlet of Gales}}
+
+=== Merchants ===
+* {{DuEntityLink|Village Merchant}}
+* {{DuEntityLink|Gift Wrapper}}
+* {{DuEntityLink|Mystery Merchant}}
+* {{DuEntityLink|Luxury Merchant}}
+
+== Usage ==
+The updraft tome can be used to lift up to seven mobs into the air, stunning and damaging mobs that don't have immunity. Similar to other status inflicting artifacts, (the [[MCD:Corrupted Seeds|corrupted seeds]], the [[MCD:Love Medallion|love medallion]], the [[MCD:Satchel of Elements|satchel of elements]], the [[MCD:Gong of Weakening|gong of weakening]], the [[MCD:Shock Powder|shock powder]]) the updraft tome only targets hostile and neutral mobs and does not effect entities around the targeted mobs.
+
+Unlike other damaging artifacts, having fast artifact cooldown (using [[MCD:Cool Down|cool down]]s and [[MCD:Cooldown Shot|cooldown shot]]) can harm the effectiveness of updraft tomes, as it is the only damaging artifact that cancels its own activation if activated more than once on a single target. This is because the damaging swirl of wind created by the updraft tome is canceled if another swirl of wind is created on the same target.
+
+== Properties ==
+* X artifact damage
+* X second stun duration
+* 7 targets maximum
+* 12 second cooldown
+
+== Sounds ==
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=DLC_sfx_item_artifact_UpdraftTome_Activate-001.ogg
+|sound2=DLC_sfx_item_artifact_UpdraftTome_Activate-002.ogg
+|description=Activate
+|type=dungeons
+}}
+| {{SoundLine
+|sound=DLC_sfx_item_artifact_UpdraftTome_Effect-001.ogg
+|sound2=DLC_sfx_item_artifact_UpdraftTome_Effect-002.ogg
+|sound3=DLC_sfx_item_artifact_UpdraftTome_Effect-003.ogg
+|sound4=DLC_sfx_item_artifact_UpdraftTome_Effect-004.ogg
+|description=Effect
+|type=dungeons
+}}
+| {{SoundLine
+|sound=DLC_sfx_item_artifact_UpdraftTome_Land-001.ogg
+|sound2=DLC_sfx_item_artifact_UpdraftTome_Land-002.ogg
+|description=Land
+|type=dungeons
+}}
+| {{SoundLine
+|sound=DLC_sfx_item_artifact_UpdraftTome_PickUp-001.ogg
+|sound2=DLC_sfx_item_artifact_UpdraftTome_PickUp-002.ogg
+|description=Pick up
+|type=dungeons
+}}
+| {{SoundLine
+|sound=DLC_sfx_item_artifact_UpdraftTome_Place-001.ogg
+|sound2=DLC_sfx_item_artifact_UpdraftTome_Place-002.ogg
+|description=Equip
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_ui_stun-001_soundWave.ogg
+|sound2=sfx_ui_stun-002_soundWave.ogg
+|description=Mob Stunned by Updraft
+}}
+}}
+
+== Achievements ==
+{{Load DungeonsAchievements|A Taste of Their Own Medicine}}
+
+== History ==
+{{HistoryTable
+|{{HistoryLine|dungeons}}
+|{{HistoryLine||October 3, 2020|link=https://www.minecraft.net/en-us/article/minecraft-live-the-recap|Howling Peaks announced during [[Minecraft Live 2020]], with the release date set to be somewhere in December 2020.}}
+|{{HistoryLine||1.5.0.0|Added sound files for the updraft tome. Currently unavailable.}}
+|{{HistoryLine||1.7.2.0|[[File:Updraft Tome (MCD).png|32px]]Added the updraft tome.}}
+}}
+
+== Issues ==
+{{Issue list}}
+
+== Gallery ==
+=== Textures ===
+<gallery class="pixel-image">
+File:UpdraftTome Texture (MCD).png|Texture file of the updraft tome
+</gallery>
+
+=== Screenshots ===
+<gallery>
+Updraft Tome inv MCD.png|An updraft tome within the {{MCD|inventory}}
+Updraft Tome Usage.png|The updraft tome being used to lift up a group of [[MCD:Mountaineer|mountaineers]]
+</gallery>
+
+== Navigation ==
+{{Navbox Dungeons items|artifacts}}
+
+[[Category:Minecraft Dungeons artifacts]]
+
+[[de:Minecraft Dungeons:Aufwindfoliant]]
+[[es:Dungeons:Tomo ascendente]]
+[[zh:Minecraft Dungeons:鼓风之典]]

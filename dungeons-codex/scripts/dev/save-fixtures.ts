@@ -25,6 +25,10 @@ interface HtmlFixture {
   file: string;
   title: string;
   keep?: string[];
+  /** Keep the navbox whose title matches (everything else navbox-like is removed). */
+  navbox?: RegExp;
+  /** Rows to keep from `.mob-icon-list`s: only icons whose link title is listed survive. */
+  mobs?: string[];
 }
 
 const HTML_FIXTURES: HtmlFixture[] = [
@@ -38,6 +42,37 @@ const HTML_FIXTURES: HtmlFixture[] = [
     title: 'Dungeons:Armor',
     keep: ["Champion's Armor", "Hero's Armor"],
   },
+  {
+    file: 'd1-enchantment-list.html',
+    title: 'Dungeons:Enchantment',
+    keep: ['Sharpness', 'Fire Aspect', 'Rushdown', 'Shadow Shot', 'Prospector'],
+  },
+  {
+    file: 'd1-artifact-list.html',
+    title: 'Dungeons:Artifact',
+    keep: ['Corrupted Beacon', 'Fireworks Arrow', 'Updraft Tome', 'Blightbearer'],
+  },
+  { file: 'd1-dlc-list.html', title: 'Dungeons:DLC' },
+  { file: 'd1-cosmetic-overview.html', title: 'Dungeons:Cosmetic' },
+  { file: 'd1-cape-list.html', title: 'Dungeons:Cape', keep: ['Hero Cape', 'Hammer Cape'] },
+  { file: 'd1-emote-list.html', title: 'Dungeons:Emote', keep: ['Dance Fever'] },
+  { file: 'd1-flair-list.html', title: 'Dungeons:Flair', keep: ['Food Parcel', 'Confetti'] },
+  { file: 'd1-hero-list.html', title: 'Dungeons:Hero', keep: ['Alex', 'Adriene'] },
+  { file: 'd1-pet-list.html', title: 'Dungeons:Pet (cosmetic)', keep: ['Parrot', 'Small Spider'] },
+  {
+    file: 'd1-mob-list.html',
+    title: 'Dungeons:Mob',
+    mobs: [
+      'Dungeons:Cow',
+      'Dungeons:Creeper',
+      'Dungeons:Zombie',
+      'Dungeons:Husk',
+      'Dungeons:Arch-Illager',
+      'Dungeons:Abominable Weaver',
+      'Dungeons:Redstone Golem',
+    ],
+  },
+  { file: 'd1-location-list.html', title: 'Dungeons:Location', navbox: /locations/i },
   { file: 'd2-weapon-list.html', title: 'Dungeons II:Weapon' },
   { file: 'd2-talisman-list.html', title: 'Dungeons II:Talisman' },
   { file: 'd1-claymore.html', title: 'Dungeons:Claymore' },
@@ -47,6 +82,16 @@ const HTML_FIXTURES: HtmlFixture[] = [
 ];
 
 const WIKITEXT_FIXTURES: { file: string; title: string }[] = [
+  { file: 'd1-corrupted-beacon.wiki', title: 'Dungeons:Corrupted Beacon' },
+  { file: 'd1-updraft-tome.wiki', title: 'Dungeons:Updraft Tome' },
+  { file: 'd1-arch-illager.wiki', title: 'Dungeons:Arch-Illager' },
+  { file: 'd1-zombie.wiki', title: 'Dungeons:Zombie' },
+  { file: 'd1-abominable-weaver.wiki', title: 'Dungeons:Abominable Weaver' },
+  { file: 'd1-redstone-golem.wiki', title: 'Dungeons:Redstone Golem' },
+  { file: 'd1-jungle-awakens.wiki', title: 'Dungeons:Jungle Awakens' },
+  { file: 'd1-creeper.wiki', title: 'Dungeons:Creeper' },
+  { file: 'd1-creeper-woods.wiki', title: 'Dungeons:Creeper Woods' },
+  { file: 'd1-arch-haven.wiki', title: 'Dungeons:Arch Haven' },
   { file: 'template-infobox-dungeons-item.wiki', title: 'Template:Infobox Dungeons item' },
   { file: 'template-infobox-dungeons-item-doc.wiki', title: 'Template:Infobox Dungeons item/doc' },
   { file: 'd1-claymore.wiki', title: 'Dungeons:Claymore' },
@@ -71,8 +116,31 @@ const REMOVE_SELECTORS = [
   '.mw-empty-elt',
 ];
 
-function stripPage($: cheerio.CheerioAPI): void {
-  $(REMOVE_SELECTORS.join(',')).remove();
+function stripPage($: cheerio.CheerioAPI, fx: HtmlFixture): void {
+  if (fx.navbox) {
+    const wanted = fx.navbox;
+    $('table.navbox, div.navbox').each((_, el) => {
+      if ($(el).parents('table.navbox').length) return;
+      const title = $(el).find('.navbox-title').first().text();
+      if (!wanted.test(title)) $(el).remove();
+    });
+    // Sub dungeons are hundreds of floors and rooms the locations parser skips anyway.
+    $('table.navbox table.navbox').each((_, el) => {
+      const title = $(el).find('.navbox-title').first().text().trim();
+      if (/^sub dungeons$/i.test(title)) $(el).remove();
+    });
+  }
+  const remove = fx.navbox
+    ? REMOVE_SELECTORS.filter((selector) => !/navbox/.test(selector))
+    : REMOVE_SELECTORS;
+  $(remove.join(',')).remove();
+  if (fx.mobs) {
+    const keep = new Set(fx.mobs);
+    $('.mob-icon').each((_, el) => {
+      const title = $(el).find('.mob-name a').first().attr('title') ?? '';
+      if (!keep.has(title)) $(el).remove();
+    });
+  }
   $('img').each((_, img) => {
     for (const attr of ['srcset', 'decoding', 'loading', 'class', 'alt']) $(img).removeAttr(attr);
   });
@@ -118,7 +186,7 @@ async function main() {
     let html = '';
     for (let lead = 1000; lead >= 0; lead = lead > 20 ? 20 : lead - 2) {
       const $ = cheerio.load(page.html);
-      stripPage($);
+      stripPage($, fx);
       trimTables($, fx.keep ?? [], lead);
       html = bodyHtml($);
       if (Buffer.byteLength(html) <= MAX_BYTES) break;

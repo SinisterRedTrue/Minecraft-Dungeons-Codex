@@ -45,7 +45,7 @@ Legend: ⬜ Not started · 🟡 In progress · ✅ Done
 | 01 | Foundation: repo, scaffold, tooling, path test | `01-FOUNDATION.md` | ✅ | 2026-11-12 | see git log |
 | 02 | Design system & UI kit | `02-DESIGN-SYSTEM.md` | ✅ | 2026-11-12 | see git log |
 | 03 | Data core: schemas, wiki client, parsers | `03-DATA-CORE.md` | ✅ | 2026-11-12 | see git log |
-| 04 | Dungeons 1 data (8 categories + images) | `04-DATA-DUNGEONS-1.md` | ⬜ | | |
+| 04 | Dungeons 1 data (8 categories + images) | `04-DATA-DUNGEONS-1.md` | ✅ | 2026-11-12 | see git log |
 | 05 | Dungeons II data (8 categories + images) | `05-DATA-DUNGEONS-2.md` | ⬜ | | |
 | 06 | App shell, Game Picker, Hubs | `06-APP-SHELL-AND-NAVIGATION.md` | ⬜ | | |
 | 07 | Category Browser & filters (16 pages) | `07-CATEGORY-BROWSER-AND-FILTERS.md` | ⬜ | | |
@@ -58,7 +58,7 @@ Legend: ⬜ Not started · 🟡 In progress · ✅ Done
 | 14 | Deploy readiness & handoff | `14-DEPLOY-AND-HANDOFF.md` | ⬜ | | |
 | H | **Human:** GitHub + Vercel deploy | (below) | ⬜ | | |
 
-**Progress:** 3 / 14 prompts · v1.0 not released
+**Progress:** 4 / 14 prompts · v1.0 not released
 
 ---
 
@@ -105,17 +105,17 @@ Legend: ⬜ Not started · 🟡 In progress · ✅ Done
 - [x] User-Agent asserted
 
 ### 04: Dungeons 1 data
-- [ ] Sync CLI
-- [ ] 8 parsers
-- [ ] Linking + derived fields
-- [ ] Vocab reviewed
-- [ ] Images + manifest
-- [ ] Forge curves
-- [ ] Full sync done
-- [ ] Coverage ≥ 98 % × 8
-- [ ] 10-entity spot check
-- [ ] Parser tests × 8
-- [ ] `data:validate` clean
+- [x] Sync CLI
+- [x] 8 parsers
+- [x] Linking + derived fields
+- [x] Vocab reviewed
+- [x] Images + manifest
+- [x] Forge curves
+- [x] Full sync done
+- [x] Coverage ≥ 98 % × 8
+- [x] 10-entity spot check
+- [x] Parser tests × 8
+- [x] `data:validate` clean
 
 ### 05: Dungeons II data
 - [ ] D2 schemas finalized (logged)
@@ -268,6 +268,7 @@ Newest first. Each entry: date · stage · summary · acceptance results (summar
 
 | Date | Stage | Entry |
 |---|---|---|
+| 2026-11-12 | 04 Dungeons 1 data | Sync CLI (`--game/--category/--images/--refresh/--offline`, pipeline parse → slugs → link → derive → overrides → property tags → images → quality → enum vocab → Zod → write, summary table), 8 D1 parsers (+ shared `items`/`common`), linking (names → ids via exact, case-insensitive, redirects; `itemIds`, `contentCounts`, `builtInto` symmetry, `related`), reviewed property vocab (239 strings → 38 tags), images (967 WebP files + sha1 manifest, alt "{name} icon"), Forge curves (`data/forge/d1/curves.json`), coverage reports. 968 entities. Acceptance: `data:sync --game d1 --category all --offline` OK, **0 requests**, re-run gives byte-identical `data/` + manifest (sha1 of all files equal before/after → deterministic); `data:validate` OK (968 entities, 8 files); `npm run verify` exit 0 (vitest **338 passed**, 36 files). Coverage: weapons 153/153, armor 71/71, enchantments 108/108, artifacts 45/45, dlcs 9/9, cosmetics 288/288, mobs 241/241, locations 53/53 (all 100.0 %; 8 dropped unimplemented/removed cosmetics listed; partials: 4 enchantments, 11 cosmetics, 123 mobs (health), 13 locations). Spot check (seeded, `scripts/dev/spotcheck.ts`, vs live pages at the synced revisions): Vine Whip, Freezing Foil, Souldancer Robe, Roll Charge, Enchanter's Tome, Creeping Winter, Tower Avatar (purple), Toucan, Powersmith, End Wilds: all fields match; Enchanter's Tome has no `dlc` because the wiki's list column "DLC exclusive" says ✖ (D-050), so no fix needed. Decisions D-039…D-050. Ideas added: sub dungeons, rarity pair, mob detail, minimum difficulty, gilded costs, cosmetic filters, upstream-mistakes note. |
 | 2026-11-12 | 03 Data core | 17 Zod schema modules (`base` + 8 D1 + 8 D2, strict objects, id/image-path invariants, vocab-checked open enums) + `schemaFor` registry and types; `src/config/games.ts` (typed `CategorySlug<G>`, `isValidCategory`) and `categories.ts` (`LIST_FIELDS`, `GROUP_FIELD`); wiki client (1 req/s sequential queue, bot UA, `maxlag=5`, 2/4/8/16/32 s back-off on 429/5xx/maxlag/network, sha1 cache, `--refresh`/`--offline`) + `parsePageHtml`, `getWikitextBatch` (50/call, redirects, continue), `getImageInfo`, `searchTitle`, `resolveRedirects`; `tables.ts` (HTML wikitables with heading paths, rowspan/colspan, lines, links, images, sort values, divider-row sections; wikitext tables), `templates.ts` (custom scanner + `stripWikiMarkup`), `text.ts`, `statMap.ts`, `powerTable.ts`; server-only loaders (`getAll`, `getBySlug`, `getListItems`, `getCounts`, `getRelated`, `getByIds`, `getSyncDate`); real `data:validate` (schema, cross-refs, unresolved-reference list, images, order); overrides loader. 15 real fixtures (10 live requests total, all ≤ 174 kB). Acceptance: `npm run verify` exit 0 (vitest **232 passed**, 22 files; data:validate empty-ok; build OK); `npx vitest run tests/unit/scripts --coverage` **125 passed**, `scripts/wiki` **99.21 % stmts / 92.51 % branches / 99.81 % lines** (≥ 90 %). Stat mapping: melee Power/Speed/Area, ranged Power/Speed/Ammo (+ Charge), 0–14 scale, armor none — checked on 3 rendered infoboxes + 1 armor. Claymore power table parses exactly (power 1 → 18–19 / 32–34 → `{min 18, max 34}`). Decisions D-032…D-038 (schemas, **custom parser kept / wikiparser-node uninstalled** (same output, ~50× faster, GPL-3.0), stat map, power-table interpretation, client details, validator report format, overrides + test setup). Plans §3.1/§5 and pipeline doc updated. Ideas added: none. |
 | 2026-11-12 | 02 Design system & UI kit | Tokens copied verbatim into `src/styles/tokens.css` and mapped into Tailwind v4 `@theme inline` (palette reset, `rounded-card` etc.); Rubik + Silkscreen via `next/font`; no-flash theme script + `ThemeProvider`/`ThemeToggle` + `safeStorage`; all 21 primitives (Button3D, Card, Panel, Chip, Badge, RarityFrame, StatBar, Slider, RangeSlider, Dialog, Sheet, Tabs, Tooltip, Popover, Select, Checkbox, Switch, Toast+`useToast`, Skeleton, EmptyState, SectionHeading) + WaveDivider, Reveal, Wordmark; `slugify`/`format`/`cn` (+twMerge groups); original logo, favicon, 1200×630 OG PNG (`scripts/og-default.tsx`), `.bg-stone`; `/dev/ui` showcase (404 in production). Contrast script found real failures (light-theme muted/faint/rarity/soul, redstone ink, focus ring, accent-text on `--bg-2`); fixed in both token files. Acceptance: `npm run verify` exit 0 (vitest **68 passed**, 12 files; `src/lib` 100 % lines/branches); `npm run e2e` **18 passed**, 22 skipped (dev-only); `E2E_DEV_SERVER=1 npx playwright test ui-kit` **22 passed** (axe 0 serious/critical in dark/light × D1/D2 on both viewports, press physics 5→7→2 px / −2 / +3 px, dialog focus trap, reduced motion verified: reveal opacity 1, skeleton and unique-shimmer `animation: none`); `npx tsx scripts/contrast.ts` **272/272**. Visual check of `/dev/ui` at 1440 and 390 px, dark/light × D1/D2, plus dialog, select, toast, tooltip, popover and sheet. Decisions D-023…D-031 (token changes, Tailwind mapping, portal `data-game` note for Prompt 06, dev-only e2e mode that Prompt 13 must run). Ideas added: sheet swipe-follow, tooltip long-press. |
 | 2026-11-12 | 01 Foundation | Git repo on `main` (root `.gitignore`); Next.js 16.4.6 app scaffolded at `dungeons-codex/` with exact-pinned deps, TS strict flags, ESLint/Prettier/Vitest/Playwright configs, all npm scripts (data stubs), folder skeleton, MIT + CC BY-NC-SA licenses, README stub, minimal page + `cn()` smoke tests. Acceptance: `npm run verify` exit 0 (tsc, eslint, prettier clean; vitest 1 passed; data:validate empty-ok; next build static `/`); `npm run e2e` 2 passed (chromium + mobile 390×844; H1 font-size 36px proves Tailwind). **Path smoke test passed in place, no relocation.** Decisions D-016…D-022 (Next 16 scaffold changes, @types/node 22, versions). Ideas added: none. |

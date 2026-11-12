@@ -1,0 +1,573 @@
+{{about|the mission|the sub-mission found within Ancient Hunt|MCD:Creeper Woods Sub-mission}}
+{{Infobox Dungeons mission
+| title = {{DuMiscLink|id=Mission}} Creeper Woods
+| image = Creeper Woods.png
+| part = Mainland
+| arcadeboss = Enderman
+| difficulty = I
+| unlock = {{DuLevelLink|Squid Coast}}
+| captains = Always has six captains
+| trials = Can have daily trials
+| header = A Journey Begins...
+| story = The [[MCD:Arch-Illager|Arch-Illager]] has come to power using the [[MCD:Orb of Dominance|Orb of Dominance]], turning the [[MCD:Mainland|Overworld]] upside down. Power is collecting in strange places, the [[MCD:Undead|undead]] are stronger and refuse to burn in the sunlight, and Illagers are raiding the countryside! The [[MCD:Illager|Illagers]] capture the defenseless [[MCD:Villager|Villagers]] and move them east, toward their mysterious base in the [[MCD:Redstone Mines|Redstone Mines]]. The first step in their ruthless journey starts by going through Creeper Woods, a mob infested maze of tangled roots and branches. Move quickly if you wish to save the Villagers from a terrible fate!
+}}
+
+'''Creeper Woods''' is the second [[MCD:Mainland|mainland]] [[MCD:Mission|mission]]. It is unlocked after the completion of {{MCD|Squid Coast}}, and completing Creeper Woods unlocks {{MCD|Pumpkin Pastures}}, {{MCD|Soggy Swamp}}, {{MCD|Redstone Mines}}, {{MCD|Cacti Canyon}}, {{MCD|Treetop Tangle}}, and {{MCD|Gauntlet of Gales}}. It contains the captured [[MCD:Village Merchant|village merchant]].
+
+It always generates the [[MCD:Creeper Woods Crypt|Creeper Woods Crypt]] optional [[MCD:Sub Dungeon|sub dungeon]] that contains a [[MCD:Scroll|scroll]] which, if collected, unlocks the {{MCD|Creepy Crypt}} [[MCD:Secret Mission|secret mission]].
+
+== Appearance and description ==
+{{Quote|'''CREEPER WOODS''' – Somewhere in the woods, a caravan is transporting Villager prisoners to labor in far-off lands. Your first quest is to find the caravan in this mob-infested maze and stop the Illagers, or there's no telling what dreadful fate will befall our Villager friends.|''Guide to Minecraft Dungeons:<br>A Handbook for Heroes''}}
+Creeper Woods is a wooded area set at night, and contains monoliths, hills, narrow bridges, rope-bridge walkways, and rivers. It is foggy, dim, and eerily illuminated by yellow fungi and pop flowers, with creepers walking about the forest.<ref name="guide">Mojang, ''[[Guide to Minecraft Dungeons: A Handbook for Heroes]]'', Creeper Woods, pg. 47</ref> It contains two [[MCD:Chest#Supplies%20Chests|supply chests]], one in [[MCD:The Inn|The Inn]] before the spider cave, and one at the Illager caravan. Piles of emerald urns can be found in {{MCD|Creeper Room}}, an optional sub dungeon found early on in the mission. A fancy chest can also be found inside Creeper Room upon surviving the [[MCD:Arena Battle|ambush]] of creepers. Giant stone mob heads can be found in the lake at the start of the mission,<ref name="statue">Mojang, ''[[Guide to Minecraft Dungeons: A Handbook for Heroes]]'', Creeper Woods, pg. 48</ref> with the enderman one that can spawn only in the {{MCD|Echoing Void}} DLC indicating that {{MCD|Deepwood Brook}} can be found to the north-east of the lake. Near the end of the mission, an [[MCD:Illager|illager]] caravan can be found that contains five captured [[MCD:Villager|villagers]], as well as rudimentary jails made by the Illagers.<ref name="book">Mojang, ''[[Guide to Minecraft Dungeons: A Handbook for Heroes]]'', Creeper Woods, pg. 46</ref> The area is patrolled by [[MCD:Vindicator|vindicators]] to deter villagers from escaping,<ref name="book" /> and these illagers attack the hero on sight. To the south-west in the caravan area, a tomb can be found with a button that, if activated, reveals the entrance door of {{MCD|Creeper Woods Rune Room}}.<ref group=note name=note1>The entrance can only be revealed after defeating the Arch-Illager and pressing the button at the back of Great Hall.</ref> When a villager is freed it bows in thanks and vanishes, and once all five villagers are released a graveyard can be accessed beyond the gate to the north-west. Further north, a wooden bridge suspended over lava must be crossed to reach a stone brick temple which, if entered, ends the mission.
+
+== Locations ==
+{{main|MCD:Location}}
+{| class="wikitable sortable list-style-none"
+!Name<br><code>ID</code>
+!Resource pack ID
+!Is required
+!Is DLC exclusive
+!Contains scroll
+!Contains rune room
+!Contains eye of ender
+!Screenshot
+|-
+! style="text-align:left;font-weight:normal" | '''{{DuMiscLink|id=Mission}} Creeper Woods'''
+* <code>CreeperWoods</code>
+* <code>genericwoods</code>
+* <code>OpenWoods</code>
+| <code>creeperwoods</code>
+| {{tc|yes|✔|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|yes|✔|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| [[File:Creeper Woods.png|200px]]
+|-
+! style="text-align:left;font-weight:normal" | {{DuMiscLink|id=Endersent Sighting|Deepwood Brook}}
+* <code>creeperwoods_es</code>
+* <code>creeperwoods_es_cave</code>
+| <code>creeperwoods</code>
+| {{tc|no|✖|style=text-align: center}}
+| {{DuTC|Echoing Void}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|yes|✔|style=text-align: center}}
+| [[File:MCD Plunging Pothole 2.png|200px]]
+|-
+! style="text-align:left;font-weight:normal" | {{DuMiscLink|id=Scroll Sub Dungeon|Creeper Woods Crypt}}
+* <code>Crypts</code>
+| <code>creeperwoods</code>
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|yes|✔|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| [[File:MCD Creeper Woods Crypt 1.png|200px]]
+|-
+! style="text-align:left;font-weight:normal" | {{DuMiscLink|id=Sub Dungeon|Creeper Room}}
+* <code>CreeperWoods</code>
+| <code>creeperwoods</code>
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| [[File:MCD Creeper Room.png|200px]]
+|-
+! style="text-align:left;font-weight:normal" | {{DuMiscLink|id=Sub Dungeon|The Inn}}
+* <code>Houses</code>
+| <code>creeperwoods</code>
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| [[File:MCD The Inn.png|200px]]
+|-
+! style="text-align:left;font-weight:normal" | {{DuMiscLink|id=Rune Room O|Creeper Woods Rune Room}}
+* <code>RuneRoom</code>
+| <code>creeperwoods</code>
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|n/a|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| [[File:MCD Creeper Woods Rune Room.png|200px]]
+|-
+! style="text-align:left;font-weight:normal" | {{DuMiscLink|id=Sub Dungeon|Open Woods Crypt}}
+* <code>Crypts</code>
+| <code>creeperwoods</code>
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| [[File:MCD Creepy Crypt Re-entry.png|200px]]
+|}
+
+== Objectives ==
+{{main|MCD:Objective}}
+'''The Caravan'''
+# Free the Villager
+# Find the Caravan
+# Free the Villagers X/5
+
+'''The Escape'''
+# Find the Exit
+# Escape Creeper Woods
+
+== Voiceovers ==
+{{Q|By the Arch-Illager's decree, all free folk are now enemies of the {{MCD|Illager Empire}}. Somewhere in these woods, a caravan is transporting Villager prisoners to labour in far off lands. Find the caravan and stop the Illagers, for there's no telling what dreadful doom will befall our Villager friends.|Opening voiceover}}
+[[File:Vo cin crwoIntro-001.ogg]]
+
+{{Q|These villagers are free from the clasp of the Illagers, all thanks to you.|Ending voiceover}}
+[[File:Vo cin crwoOutro-001.ogg]]
+
+== Mobs and entities ==
+{{main|MCD:Mob}}
+=== ''[[Minecraft Dungeons]]'' ===
+{| class="wikitable" data-description="Dungeons Mob" style="break-inside: avoid"
+! Rowspan="2" |Mob
+! Colspan="3" |Difficulty
+|-
+! Default
+! Adventure
+! Apocalypse
+|-
+! colspan="4" |Passive
+|-
+|{{DuEntityLink|Cow}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuEntityLink|Piggy Bank}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuEntityLink|Sheep}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+! colspan="4" |Non-attackable
+|-
+|{{DuEntityLink|Bat}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuEntityLink|Village Merchant}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuEntityLink|Villager}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+! colspan="6" |Hostile
+|-
+|{{DuEntityLink|Chicken Jockey}}
+|{{Tc|No}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuEntityLink|Chicken Jockey Tower}}
+|{{Tc|No}}
+|{{Tc|No}}
+|{{Tc|Rarely}}
+|-
+|{{DuEntityLink|Creeper}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuEntityLink|Enchanter}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuEntityLink|Necromancer}}
+|{{Tc|No}}
+|{{Tc|No}}
+|{{Tc|Yes}}
+|-
+|{{DuEntityLink|Skeleton}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|- 
+|{{DuEntityLink|Spider}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuEntityLink|Vex}}
+|{{Tc|No}}
+|{{Tc|Planned|Evoker}}<ref group="note" name="evoker">Summoned by [[MCD:Evoker|evokers]]</ref>
+|{{Tc|Planned|Evoker}}<ref group="note" name="evoker"/>
+|-
+|{{DuEntityLink|Vindicator}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuEntityLink|Watchling}}
+|{{Tc|Planned|Endersent}}<ref group="note" name="watchling">Summoned by [[MCD:Endersent|endersent]] and the [[MCD:Spiked Eye|Spiked Eye]]</ref>
+|{{Tc|Planned|Endersent}}<ref group="note" name="watchling"/>
+|{{Tc|Planned|Endersent}}<ref group="note" name="watchling"/>
+|-
+|{{DuEntityLink|Wraith}}
+|{{Tc|No}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuEntityLink|Zombie}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+! colspan="6" |Powerful
+|-
+|{{DuEntityLink|Enderman}}
+| {{DuTC|Echoing Void}}<ref group="note" name="enderman">Spawns in the area near the entrance door to the Deepwood Brook sub dungeon.</ref>
+|{{Tc|Partial|Sometimes}}<ref group="note" name="enderman higher dificulty">Always spawn if the echoing void dlc is installed. Spawns in the area near the entrance door to the Deepwood Brook sub dungeon.</ref>
+|{{Tc|Partial|Sometimes}}<ref group="note" name="enderman higher dificulty">Always spawn if the echoing void dlc is installed. Spawns in the area near the entrance door to the Deepwood Brook sub dungeon.</ref>
+|-
+|{{DuEntityLink|Endersent}}
+| {{DuTC|Echoing Void}}<ref group="note" name="endersent">Spawns during play throughs after the Spiked Eye is defeated.</ref>
+| {{DuTC|Echoing Void}}<ref group="note" name="endersent"/>
+| {{DuTC|Echoing Void}}<ref group="note" name="endersent"/>
+|-
+|{{DuEntityLink|Evoker}}
+|{{Tc|No}}
+|{{Tc|Partial|Sometimes}}
+|{{Tc|Partial|Sometimes}}
+|-
+|{{DuEntityLink|Redstone Golem}}
+|{{Tc|No}}
+|{{Tc|No}}
+|{{Tc|Partial|Sometimes}}
+|-
+|{{DuEntityLink|Skeleton Horseman}}
+|{{Tc|No}}
+|{{Tc|Partial|Sometimes}}
+|{{Tc|Partial|Sometimes}}
+|-
+|{{DuEntityLink|Spiked Eye}}
+| {{DuTC|Echoing Void}}
+| {{DuTC|Echoing Void}}
+| {{DuTC|Echoing Void}}
+|-
+|{{DuEntityLink|Raid Captain}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|}
+<references group="note"/>
+
+=== ''[[Minecraft Dungeons Arcade]]'' ===
+{| class="wikitable" data-description="Dungeons Mob" style="break-inside: avoid"
+! Rowspan="1" |Mob
+|-
+! colspan="1" |Non-attackable
+|-
+|{{DuEntityLink|Villager}}
+|-
+|{{DuEntityLink|Wandering Trader}}
+|-
+! colspan="1" |Hostile
+|-
+|{{DuEntityLink|Baby Zombie}}
+|-
+|{{DuEntityLink|Creeper}}
+|-
+|{{DuEntityLink|Melee Skeleton}}
+|-
+|{{DuEntityLink|Pillager}}
+|-
+|{{DuEntityLink|Skeleton}}
+|-
+|{{DuEntityLink|Slime}}
+|-
+|{{DuEntityLink|Vindicator}}
+|-
+|{{DuEntityLink|Witch}}
+|-
+|{{DuEntityLink|Wraith}}
+|-
+|{{DuEntityLink|Zombie}}
+|-
+! colspan="1" |Bosses
+|-
+|{{DuEntityLink|Enderman}}
+|-
+|}
+
+== Items ==
+{{main|MCD:Item}}
+{| class="wikitable" data-description="Dungeons Items" style="break-inside: avoid“"
+! Rowspan="2" |Item
+! Colspan="3" |Difficulty
+|-
+! Default
+! Adventure
+! Apocalypse
+|-
+! colspan="4" | Armor
+|-
+| {{DuItemLink|Hunter's Armor}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+|-
+| {{DuItemLink|Mystery Armor}}
+| {{Tc|Planned|Daily Trials Only}}
+| {{Tc|Planned|Daily Trials Only}}
+| {{Tc|Planned|Daily Trials Only}}
+|-
+| {{DuItemLink|Soul Robe}}
+| {{Tc|No}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+|-
+| {{DuItemLink|Wolf Armor}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+|-
+! colspan="4" | Artifacts
+|-
+| {{DuItemLink|Boots of Swiftness}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+|-
+| {{DuItemLink|Death Cap Mushroom}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+|-
+| {{DuItemLink|Tasty Bone}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+|-
+| {{DuItemLink|Torment Quiver}}
+| {{Tc|No}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+|-
+! colspan="4" | Melee Gear
+|-
+| {{DuItemLink|Axe}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+|-
+| {{DuItemLink|Spear}}
+| {{Tc|No}}
+| {{Tc|No}}
+| {{Tc|Yes}}
+|-
+| {{DuItemLink|Sword}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+|-
+! colspan="4" | Ranged Gear
+
+|-
+| {{DuItemLink|Bow}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+|-
+| {{DuItemLink|Soul Bow}}
+| {{Tc|No}}
+| {{Tc|Yes}}
+| {{Tc|Yes}}
+|-
+|}
+
+== Achievements ==
+{{Load DungeonsAchievements|Out of the Woods;Creeper In The Woods}}
+
+== History ==
+{{HistoryTable
+|{{HistoryLine|dungeons}}
+|{{HistoryLine||Dungeons Beta|Added Creeper Woods.}}
+|{{HistoryLine||1.10.2.0|Added [[MCD:Deepwood Brook|Deepwood Brook]], which can spawn if the host has the [[MCD:Echoing Void|Echoing Void]] [[MCD:Downloadable Content|DLC]].}}
+}}
+
+== Quotes ==
+{{Quote|Rumors say that evil stirs in the woods. What horrors could take up residence in such a vile place?|Unused uncharted text}}
+
+== Trivia ==
+* Dark oak trees characteristic of the [[Dark Forest|dark forest]] [[biome]] from ''[[Minecraft]]'' do not exist in Creeper Woods.
+* The song [[Minecraft Dungeons (Original Game Soundtrack)|Spider Den]] used in this mission is a slowed down version of the song [[Minecraft Dungeons (Original Game Soundtrack)|Crypt]].
+* The ambient music that plays in this mission stops when entering the sidepath that leads to {{MCD|Deepwood Brook}}.
+* {{MCD|Evoker}} death sounds occasionally play within the level.
+
+== Music ==
+=== OST ===
+{{Main|Minecraft Dungeons (Original Game Soundtrack)}}
+
+==== [[MCD:Music#List|Ambient]] ====
+{{CV|ZNJ_QkKSLpo|Johan Johnson - "Creeper Woods"}}
+{{CV|zEFtJHwy3ik|Peter Hont - "Skogsstuga"}}
+{{CV|u8PKHxikCtA|Peter Hont - "Spider Den"}}
+{{CV|KCYJzPto05M|Johan Johnson - "Graveyard"}}
+
+==== {{MCD|Cinematic}} ====
+{{CV|QTAxbbnaVL0|Peter Hont - "Caravan"}}
+{{CV|KlrKdbqBnbw|Peter Hont - "Finally"}}
+
+==== [[MCD:Arena Battle|Ambush]] ====
+{{CV|Wbe77iqgA6U|Johan Johnson - "arena1"}}
+
+=== In-game ===
+{{SoundTable
+| type = dungeons
+|title=[[MCD:Music#List|Ambient]]
+| {{SoundLine
+|sound=bgm_env_crwoMain_creepyFreaky-001_soundWave.ogg
+|description=Creeper Woods
+|id=bgm_env_crwoMain_creepyFreaky-001_soundWave.ogg
+|type=dungeons}}
+| {{SoundLine
+|sound=bgm_env_crwoInn-001.ogg
+|description=Skogsstuga
+|id=bgm_env_crwoInn-001.ogg
+|type=dungeons}}
+| {{SoundLine
+|sound=bgm_env_crypt-001.ogg
+|sound2=bgm_env_crypt-002.ogg
+|sound3=bgm_env_crypt-003.ogg
+|sound4=bgm_env_crypt-004.ogg
+|sound5=bgm_env_crypt-005.ogg
+|description=Crypt
+|id=bgm_env_crypt-001.ogg|idnote=<br/><code>bgm_env_crypt-002.ogg</code><br/><code>bgm_env_crypt-003.ogg</code><br/><code>bgm_env_crypt-004.ogg</code><br/><code>bgm_env_crypt-005.ogg</code>
+|type=dungeons}}
+| {{SoundLine
+|sound=bgm_env_crwoGraveyard-001.ogg
+|description=Graveyard
+|id=bgm_env_crwoGraveyard-001.ogg
+|type=dungeons}}
+}}
+
+{{SoundTable
+| type = dungeons
+|title={{MCD|Cinematic}}
+| {{SoundLine
+|sound=bgm_cin_crwoIntro-001.ogg
+|description=Caravan
+|id=bgm_cin_crwoIntro-001.ogg
+|type=dungeons}}
+| {{SoundLine
+|sound=bgm_env_missionFinished-003.ogg
+|description=Finally
+|id=bgm_env_missionFinished-003.ogg
+|type=dungeons}}
+}}
+
+{{SoundTable
+| type = dungeons
+|title=[[MCD:Arena Battle|Ambush]]
+| {{SoundLine
+|sound=bgm_env_pupa2DArena-001_soundWave.ogg
+|sound2=bgm_env_generic2DArenaEnd-001_soundWave.ogg
+|description=arena1
+|id=bgm_env_pupa2DArena-001_soundWave.ogg|idnote=<br/><code>bgm_env_generic2DArenaEnd-001_soundWave.ogg</code>
+|type=dungeons}}
+}}
+
+== Gallery ==
+=== Progression ===
+<gallery>
+File:MCD Creeper Woods 1.png|Creeper Woods 1
+File:MCD Creeper Woods 2.png|Creeper Woods 2
+File:MCD Creeper Woods 3.png|Creeper Woods 3
+File:MCD Creeper Woods 4.png|Creeper Woods 4
+File:MCD Creeper Woods 5.png|Creeper Woods 5
+File:MCD Creeper Woods 6.png|Creeper Woods 6
+File:MCD Creeper Woods 7.png|Creeper Woods 7
+File:MCD Creeper Woods 8.png|Creeper Woods 8
+File:MCD Creeper Woods 9.png|Creeper Woods 9
+File:MCD Creeper Woods 10.png|Creeper Woods 10
+File:MCD Creeper Woods 11.png|Creeper Woods 11
+File:MCD Creeper Woods 12.png|Creeper Woods 12
+File:MCD Creeper Woods 13.png|Creeper Woods 13
+File:MCD Creeper Woods 14.png|Creeper Woods 14
+File:MCD Creeper Woods 15.png|Creeper Woods 15
+File:MCD Creeper Woods 16.png|Creeper Woods 16
+File:MCD Creeper Woods 17.png|Creeper Woods 17
+File:MCD Creeper Woods 18.png|Creeper Woods 18
+File:MCD Creeper Woods 19.png|Creeper Woods 19
+File:MCD Creeper Woods 20.png|Creeper Woods 20
+File:MCD Creeper Woods 21.png|Creeper Woods 21
+File:MCD Creeper Woods 22.png|Creeper Woods 22
+File:MCD Creeper Woods 23.png|Creeper Woods 23
+File:MCD Creeper Woods 24.png|Creeper Woods 24
+File:MCD Creeper Woods 25.png|Creeper Woods 25
+File:MCD Creeper Woods 26.png|Creeper Woods 26
+File:MCD Creeper Woods 27.png|Creeper Woods 27
+File:MCD Creeper Woods 28.png|Creeper Woods 28
+File:MCD Creeper Woods 29.png|Creeper Woods 29
+File:MCD Creeper Woods 30.png|Creeper Woods 30
+File:MCD Creeper Woods 31.png|Creeper Woods 31
+File:MCD Creeper Woods 32.png|Creeper Woods 32
+File:MCD Creeper Woods 33.png|Creeper Woods 33
+File:MCD Creeper Woods 34.png|Creeper Woods 34
+File:MCD Creeper Woods 35.png|Creeper Woods 35
+File:MCD Creeper Woods 36.png|Creeper Woods 36
+File:MCD Creeper Woods 37.png|Creeper Woods 37
+File:MCD Creeper Woods 38.png|Creeper Woods 38
+File:MCD Creeper Woods 39.png|Creeper Woods 39
+File:MCD Creeper Woods 40.png|Creeper Woods 40
+File:MCD Creeper Woods 41.png|Creeper Woods 41
+File:MCD Creeper Woods 42.png|Creeper Woods 42
+File:MCD Creeper Woods 43.png|Creeper Woods 43
+File:MCD Creeper Woods 44.png|Creeper Woods 44
+File:MCD Creeper Woods 45.png|Creeper Woods 45
+</gallery>
+
+=== Mojang screenshots ===
+<gallery>
+Jakob-gavelli-dungeons-woodslighting.jpg
+</gallery>
+
+=== Screenshots ===
+<gallery>
+Creeper Woods Map.png|A zoomed out image of one of the randomly generated maps
+CrepWoods.png|[[MCD:Valorie|Valorie]] in Creeper Woods
+Freeing a villager.gif|A villager getting freed by the hero
+</gallery>
+
+=== Renders ===
+<gallery>
+Creeper rock.png|Render of the creeper head rock seen in Creeper Woods
+Enderman rock.png|Render of the {{MCD|enderman}} head structure seen in Creeper Woods that indicates that [[MCD:Deepwood Brook|Deepwood Brook]] has generated in the mission layout
+</gallery>
+
+== References ==
+{{reflist}}
+
+== Navigation ==
+{{Navbox Dungeons locations|missions}}
+{{Featured}}
+
+[[de:Minecraft Dungeons:Creeper-Wald]]
+[[es:Dungeons:El bosque de los Creeper]]
+[[fr:Minecraft Dungeons:Bois des Creepers]]
+[[it:Minecraft Dungeons:Foresta dei Creeper]]
+[[ja:Minecraft Dungeons:クリーパーの森]]
+[[pl:Minecraft Dungeons:Creeperowe lasy]]
+[[pt:Minecraft Dungeons:Bosque dos Creepers]]
+[[ru:Minecraft Dungeons:Леса криперов]]
+[[zh:Minecraft Dungeons:苦力怕森林]]

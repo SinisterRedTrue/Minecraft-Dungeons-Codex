@@ -1,0 +1,355 @@
+{{Infobox Dungeons mission
+| title = {{DuMiscLink|id=Secret Mission}} Arch Haven
+| image = MCD Arch Haven Loading.png
+| part = Mainland
+| difficulty = II
+| unlock = {{MCD|Mystery Ship}} {{MCD|scroll}}<br/>{{DuLevelLink|Pumpkin Pastures}}
+| captains = Never has captains
+| trials = Can have daily trials
+| header = A Hidden Stash
+| story = What's this? You've stumbled upon an outpost used by the {{MCD|Arch-Illager}} and his wretched band of ill willing bootlickers! Surely stealing his secret plans and grabbing his ill-gotten loot will set him back considerably!
+}}
+'''Arch Haven''' or '''Arch-Haven'''<ref>''[[Guide to Minecraft Dungeons: A Handbook for Heroes]]''</ref> is the second [[MCD:Mainland|mainland]] [[MCD:Secret Mission|secret mission]]. It is unlocked after collecting the [[MCD:Scroll|scroll]] found in [[MCD:Mystery Ship|Mystery Ship]] and completing {{MCD|Pumpkin Pastures}}. Completing Arch Haven does not unlock any missions.
+
+== Appearance and description ==
+{{Quote|'''ARCH-HAVEN''' – Once you've passed through Pumpkin Pastures, you can visit Arch-Haven - a coastal settlement at the edge of the pastures. You will begin on a ship and will need to battle your way across the beach, where the Illagers have made themselves quite at home. You must find a series of spell books situation on stole pinths throughout. There is also a cave to explore before you head back to the ship and sail away to safety.|''Guide to Minecraft Dungeons:<br>A Handbook for Heroes''}}
+Arch Haven is a coastal archipelago located in the ocean south-east of Pumpkin Pastures. It contains a harbor with a beach house, a small village with three spellbooks, and a cave with a long wooden boardwalk. It features ships, acacia huts, campfires, banners, barrels, market stalls, small islands with stone ruins, and equipment stolen from farmers of Pumpkin Pastures by the [[MCD:Illager|Illagers]].<ref name="article">Mojang, ''[[Featured Mission: Arch Haven]]'', [[MCD:Nintendo Switch News|Nintendo Switch News]] (Posted under ''Minecraft Dungeons''), March 8, 2024</ref> The spawn area of the mission takes place on a small ship, the [[MCD:Small Ship|same ship found in Pumpkin Pastures]] after having been used to travel to Arch Haven by the heroes. After crossing the beach and reaching the harbor, a certain amount of mobs must be defeated for the gate blocking the harbor to be opened. North-east of the harbor, a village can be reached that was once a thriving trading hub before the Illagers invaded<ref name="article"/>. In this village, three spellbooks must be collected from atop three stone plinths in order to proceed further north towards the entrance of [[MCD:Arch Haven Cave|Arch Haven Cave]]. Upon exiting Arch Haven Cave, an [[MCD:Arena Battle|ambush]] of mobs must be defeated to lower the gate that prevented access to a large ship. The ship can be used to sail away to safety, ending the mission.
+
+== Unlocking ==
+The entrance [[MCD:Door|door]] of [[MCD:Mystery Ship|Mystery Ship]], the [[MCD:Sub Dungeon|sub dungeon]] where Arch Haven's scroll is found, always spawns in Pumpkin Pastures during the following objective: "'''The Last Hearth:''' Find the Village"
+
+== Locations ==
+{{main|MCD:Location}}
+{| class="wikitable sortable list-style-none"
+!Name<br><code>ID</code>
+!Resource pack ID
+!Is required
+!Is DLC exclusive
+!Contains scroll
+!Contains rune room
+!Contains eye of ender
+!Screenshot
+|-
+! style="text-align:left;font-weight:normal" | '''{{DuMiscLink|id=Secret Mission}} Arch Haven'''
+* <code>ArchHaven</code>
+| <code>jungle</code>
+| {{tc|yes|✔|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| [[File:MCD Arch Haven Loading.png|200px]]
+|-
+! style="text-align:left;font-weight:normal" | '''{{DuMiscLink|id=Sub Dungeon|Arch Haven Cave}}'''
+* <code>ArchHaven</code>
+| <code>jungle</code>
+| {{tc|yes|✔|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| {{tc|no|✖|style=text-align: center}}
+| [[File:MCD Arch Haven Cave 1.png|200px]]
+|}
+
+== Objectives ==
+{{main|MCD:Objective}}
+'''Under the cover of darkness'''
+# Crash the gates
+# Reach the village
+# Find all spells X/3
+# Reach the cave
+# Explore the cave
+# Find another exit
+# Defeat the guards
+# Sail away!
+
+== Mobs and entities ==
+{{main|MCD:Mob}}
+=== Native ===
+{| class="wikitable" data-description="Dungeons Mob" style="break-inside: avoid"
+|-
+! Rowspan="2" |Mob
+! Colspan="4" |Difficulty
+|-
+! Ancient Hunt
+! Default
+! Adventure
+! Apocalypse
+|-
+! Colspan="5" | Hostile category
+|-
+|{{DuEntityLink|Baby Zombie}}
+|{{Tc|No}}
+|{{Tc|Planned|Stacked}}<ref group="note" name="stacked-jockey"> Spawns from defeating {{MCD|Chicken Jockey Tower|chicken jockey towers}}</ref>
+|{{Tc|Planned|Stacked}}<ref group="note" name="stacked-jockey" />
+|{{Tc|Planned|Stacked}}<ref group="note" name="stacked-jockey" />
+|-
+|{{DuEntityLink|Chicken Jockey}}
+|{{Tc|No}}
+|{{Tc|Rarely}}
+|{{Tc|Rarely}}
+|{{Tc|Rarely}}
+|-
+|{{DuEntityLink|Chicken Jockey Tower}}
+|{{Tc|No}}
+|{{Tc|Rarely}}
+|{{Tc|Rarely}}
+|{{Tc|Rarely}}
+|-
+|{{DuEntityLink|Creeper}}
+|{{Tc|No}}
+|{{Tc|Partial|Sometimes}}
+|{{Tc|Partial|Sometimes}}
+|{{Tc|Partial|Sometimes}}
+|-
+|{{DuEntityLink|Enchanter}}
+|{{Tc|No}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuEntityLink|Geomancer}}
+|{{Tc|No}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuEntityLink|Husk}}
+|{{Tc|Yes}}
+|{{Tc|No}}
+|{{Tc|No}}
+|{{Tc|No}}
+|-
+|{{DuEntityLink|Skeleton}}
+|{{Tc|No}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuEntityLink|Spider}}
+|{{Tc|No}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuEntityLink|Vindicator}}
+|{{Tc|No}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuEntityLink|Zombie}}
+|{{Tc|No}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+! Colspan="5" | Powerful
+|-
+|{{DuEntityLink|Raid Captain}}
+|{{Tc|No}}
+|{{Tc|No}}
+|{{Tc|No}}
+|{{Tc|No}}
+|-
+! Colspan="5" | Special category
+|-
+|{{DuEntityLink|First Enchanter}}
+|{{Tc|Yes}}
+|{{Tc|No}}
+|{{Tc|No}}
+|{{Tc|No}}
+|-
+|}
+<references group="note" />
+
+== Items ==
+{{main|MCD:Item}}
+{| class="wikitable" data-description="Dungeons Items" style="break-inside: avoid“"
+|-
+! Rowspan="2" |Item
+! Colspan="3" |Difficulty
+|-
+! Default
+! Adventure
+! Apocalypse
+|-
+! colspan="4" | Armor
+|-
+|{{DuItemLink|Champion's Armor}}
+|{{Tc|No}}
+|{{Tc|No}}
+|{{Tc|Yes}}
+|-
+|{{DuItemLink|Guard's Armor}}
+|{{Tc|No}}
+|{{Tc|No}}
+|{{Tc|Yes}}
+|-
+|{{DuItemLink|Mercenary Armor}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+! colspan="4" | Artifacts
+|-
+|{{DuItemLink|Light Feather}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuItemLink|Love Medallion}}
+|{{Tc|No}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuItemLink|Wind Horn}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuItemLink|Wonderful Wheat}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+! colspan="4" | Melee Gear
+|-
+|{{DuItemLink|Rapier}}
+|{{Tc|Planned|Daily Trials Only}}
+|{{Tc|Planned|Daily Trials Only}}
+|{{Tc|Planned|Daily Trials Only}}
+|-
+|{{DuItemLink|Sickles}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuItemLink|Soul Scythe}}
+|{{Tc|No}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+! colspan="4" | Ranged Gear
+|-
+|{{DuItemLink|Longbow}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|{{DuItemLink|Soul Crossbow}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|{{Tc|Yes}}
+|-
+|}
+
+== History ==
+{{HistoryTable
+|{{HistoryLine|dungeons}}
+|{{HistoryLine||1.1.1.0|Added Arch Haven.}}
+}}
+
+== Quotes ==
+{{Quote|A map carelessly left behind by the Arch-Illager shows a suspicious marking in the middle of the ocean. What's hidden behind that horizon?|Unused uncharted text}}
+
+== Trivia ==
+* The beach house in this mission plays a unique music track when the hero is near it. Its music track is played a 70% speed in-game.
+* The song [[Minecraft Dungeons (Original Game Soundtrack)|Haven]] used in this mission is a slowed down version of the song [[Minecraft Dungeons (Original Game Soundtrack)|Squid Coast]].
+
+== Music ==
+=== OST ===
+{{Main|Minecraft Dungeons (Original Game Soundtrack)}}
+{{Main|Minecraft Dungeons: Ultimate Additions (Original Game Soundtrack)}}
+
+==== [[MCD:Music#List|Ambient]] ====
+{{CV|5UBoIDZMO2c|Johan Johnson - "Haven"}}
+{{CV|ygUf7dsNXBY|Peter Hont - "Beach House"}}
+{{CV|QoK6tCZrr9c|Peter Hont - "Wet Feet"}}
+
+==== {{MCD|Cinematic}} ====
+{{CV|KlrKdbqBnbw|Peter Hont - "Finally"}}
+
+==== [[MCD:Arena Battle|Ambush]] ====
+{{CV|Wbe77iqgA6U|Johan Johnson - "arena1"}}
+
+=== In-game ===
+{{SoundTable
+| type = dungeons
+|title=[[MCD:Music#List|Ambient]]
+| {{SoundLine
+|sound=bgm_env_sqcoMAINMASTER-001.ogg
+|description=Squid Coast
+|id=bgm_env_sqcoMAINMASTER-001.ogg
+|type=dungeons}}
+| {{SoundLine
+|sound=bgm_env_arhaMain-001.ogg
+|description=Beach House
+|id=bgm_env_arhaMain-001.ogg
+|type=dungeons}}
+}}
+
+{{SoundTable
+| type = dungeons
+|title={{MCD|Cinematic}}
+| {{SoundLine
+|sound=bgm_env_missionFinished-003.ogg
+|description=Finally
+|id=bgm_env_missionFinished-003.ogg
+|type=dungeons}}
+}}
+
+{{SoundTable
+| type = dungeons
+|title=[[MCD:Arena Battle|Ambush]]
+| {{SoundLine
+|sound=bgm_env_pupa2DArena-001_soundWave.ogg
+|sound2=bgm_env_generic2DArenaEnd-001_soundWave.ogg
+|description=arena1
+|id=bgm_env_pupa2DArena-001_soundWave.ogg|idnote=<br/><code>bgm_env_generic2DArenaEnd-001_soundWave.ogg</code>
+|type=dungeons}}
+}}
+
+== Gallery ==
+=== Progression ===
+<gallery>
+File:MCD Arch Haven 1.png|Arch Haven 1
+File:MCD Arch Haven 2.png|Arch Haven 2
+File:MCD Arch Haven 3.png|Arch Haven 3
+File:MCD Arch Haven 4.png|Arch Haven 4
+File:MCD Arch Haven 5.png|Arch Haven 5
+File:MCD Arch Haven 6.png|Arch Haven 6
+File:MCD Arch Haven 7.png|Arch Haven 7
+File:MCD Arch Haven 8.png|Arch Haven 8
+File:MCD Arch Haven 9.png|Arch Haven 9
+File:MCD Arch Haven 10.png|Arch Haven 10
+File:MCD Arch Haven 11.png|Arch Haven 11
+File:MCD Arch Haven 12.png|Arch Haven 12
+File:MCD Arch Haven 13.png|Arch Haven 13
+File:MCD Arch Haven 14.png|Arch Haven 14
+File:MCD Arch Haven 15.png|Arch Haven 15
+File:MCD Arch Haven 16.png|Arch Haven 16
+File:MCD Arch Haven 17.png|Arch Haven 17
+File:MCD Arch Haven 18.png|Arch Haven 18
+File:MCD Arch Haven 19.png|Arch Haven 19
+File:MCD Arch Haven 20.png|Arch Haven 20
+File:MCD Arch Haven 21.png|Arch Haven 21
+File:MCD Arch Haven 22.png|Arch Haven 22
+File:MCD Arch Haven 23.png|Arch Haven 23
+File:MCD Arch Haven 24.png|Arch Haven 24
+File:MCD Arch Haven 25.png|Arch Haven 25
+</gallery>
+
+== References ==
+{{reflist}}
+
+== Navigation ==
+{{Navbox Dungeons locations|secret missions}}
+
+[[de:MCD:Erzhafen]]
+[[fr:MCD:Paradis de l'Arch]]
+[[pl:MCD:Arcykryjówka]]
+[[pt:MCD:Refúgio do Arce]]
+[[ru:MCD:Архиприют]]
+[[zh:MCD:灾厄港口]]
+[[Category:Settlements]]

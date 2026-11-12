@@ -1,0 +1,406 @@
+{{distinguish|MCD:Redstone Monstrosity}}
+{{Infobox Dungeons entity
+|image=MCD Redstone Golem.png
+|imagesize=x200px
+|behavior=Hostile
+|health=5000
+|classification={{MCD|Golem}}, {{MCD|Powerful}}
+|damage=200
+}}
+A '''redstone golem''' is a {{MCD|powerful}} {{MCD|golem}} that can be found within the various {{MCD|mission}}s of {{MCD}}. A non-powerful redstone golem can rarely be summoned by the {{MCD|Arch-Illager}} atop the {{MCD|Obsidian Pinnacle}}.
+
+== Lore ==
+{{SpoilerWarning|section|{{MCD}}}}
+Redstone golems were the first known mobs created by the {{MCD|Orb of Dominance}}, even before {{MCD|Archie}} took hold of the Orb. There were six unactivated redstone golems already within the cave where the Orb resided. A redstone golem is also seen attacking {{MCD|iron golem}}s within the [https://www.youtube.com/watch?v=mJczpIdONjs intro cinematic]. In the [[Minecraft Dungeons:The Rise of the Arch-Illager|prequel]] novel, the golems were made by filling a mold made of [[diamonds]] with [[redstone]], that would melt from the lava surrounding the mold, before being animated by the Orb.
+
+== Spawning ==
+=== Missions ===
+{{columns-list|
+* {{DuLevelLink|Squid Coast}} ([[MCD:Cinematic|Cinematic]])
+* {{DuLevelLink|Creeper Woods}} ([[MCD:Apocalypse|Apocalypse]])
+* {{DuLevelLink|Soggy Swamp}} ([[MCD:Apocalypse|Apocalypse]])
+* {{DuLevelLink|Pumpkin Pastures}} ([[MCD:Apocalypse|Apocalypse]])
+* {{DuLevelLink|Cacti Canyon}} ([[MCD:Apocalypse|Apocalypse]])
+* {{DuLevelLink|Redstone Mines}} ([[MCD:Arena Battle|Ambush]] or [[MCD:Adventure|Adventure]])
+* {{DuLevelLink|Fiery Forge}}
+* {{DuLevelLink|Desert Temple}} ([[MCD:Apocalypse|Apocalypse]])
+* {{DuLevelLink|Lower Temple}} ([[MCD:Apocalypse|Apocalypse]])
+* {{DuLevelLink|Highblock Halls}} ([[MCD:Adventure|Adventure]])
+* {{DuLevelLink|Obsidian Pinnacle}}
+* {{DuLevelLink|The Stronghold}} ([[MCD:Arena Battle|Ambush]] in [[MCD:Secret|secret area]])
+* {{DuLevelLink|Broken Citadel}} ([[MCD:Cinematic|Cinematic]])
+* {{DuLevelLink|Daily Trial}}
+* {{DuLevelLink|Tower}}
+}}
+
+=== Ancient ===
+*{{DuEntityLink|The Tiny Scourge}}
+
+== Behavior ==
+Redstone golems have five behaviors.
+
+=== Run ===
+Redstone golems run toward their target, stomping their feet loudly. Their speed almost matches that of the hero if they are not using any speed buffs.
+
+=== Swipe attack ===
+Redstone golems swing one of their arms across to attack, dealing heavy damage and high knockback to any hero or summon within range every 1.3 seconds.
+
+=== Karate Chop ===
+Exclusive to the Arcade Edition of the game, Redstone Golems can karate chop heroes standing in front of them.
+
+=== Charge up electric transfer attack ===
+Periodically, the redstone golem hunches over and digs its arms into the ground while overloading the redstone in its body. This causes fourteen mines to appear in random areas of the ground around it over a small period. Touching the mines causes them to explode, dealing high damage in a small area. Pets are still capable of triggering the mines despite the fact that they are never targets of the golem. While performing this attack, the golem is immobile.
+
+=== Novelty ===
+Redstone golems rarely beat their chests repeatedly before roaring when being idle. This is usually unseen due to the golem's high targeting range.
+
+== Health ==
+Redstone golems have 5,000 HP in the code, the most HP of any miniboss. The unbreakable one has 10,000 HP in the code. On Default I, all mobs have 9.6% health and 12% damage of what is set in the code.
+{| class="wikitable sortable"
+! Power
+! Min health
+|-
+| 1
+| 480
+|-
+| 4
+| 816
+|-
+| 10
+| 1296
+|-
+| 16
+| 1968
+|-
+| 22
+| 2640
+|-
+| 27
+| 3552
+|-
+| 33
+| 4752
+|-
+| 39
+| 6144
+|-
+| 45
+| 7872
+|-
+| 51
+| 10128
+|-
+| 56
+| 13728
+|-
+| 62
+| 18624
+|-
+| 68
+| 25152
+|-
+| 74
+| 32304
+|-
+| 80
+| 41472
+|-
+| 86
+| 53232
+|-
+| 91
+| 72480
+|-
+| 97
+| 98352
+|-
+| 103
+| 133248
+|}
+
+== Sounds ==
+=== Music ===
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=Bgm_mob_fifoBossLoop-001_soundWave.ogg
+|description=Redstone Golem Theme
+|id=Bgm_mob_fifoBossLoop-001_soundWave}}
+| {{SoundLine
+|sound=Bgm_env_generic2DArenaEnd-001_soundWave.ogg
+|description=Redstone Golem Theme End
+| id = Bgm_env_generic2DArenaEnd_soundWave
+}}
+}}
+
+=== Redstone Golem ===
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=sfx_prop_wallEarthErupt-001_soundWave.ogg
+|sound2=sfx_prop_wallEarthErupt-002_soundWave.ogg
+|sound3=sfx_prop_wallEarthErupt-003_soundWave.ogg
+|description=Attack
+|id=sfx_prop_wallEarthErupt_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstoneGolemChest-001_soundWave.ogg
+|sound2=sfx_mob_redstoneGolemChest-002_soundWave.ogg
+|sound3=sfx_mob_redstoneGolemChest-003_soundWave.ogg
+|description=Chest
+|id=sfx_mob_redstoneGolemChest_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstoneGolemDeathHeavy-001_soundWave.ogg
+|sound2=sfx_mob_redstoneGolemDeathHeavy-002_soundWave.ogg
+|sound3=sfx_mob_redstoneGolemDeathHeavy-003_soundWave.ogg
+|description=Death Heavy
+|id=sfx_mob_redstoneGolemDeathHeavy_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstonegolemElectricPulses-001.ogg
+|sound2=sfx_mob_redstonegolemElectricPulses-002.ogg
+|sound3=sfx_mob_redstonegolemElectricPulses-003.ogg
+|description=Electric Pulses
+|id=sfx_mob_redstonegolemElectricPulses}}
+| {{SoundLine
+|sound=sfx_mob_redstonegolemElectricSparks-001.ogg
+|sound2=sfx_mob_redstonegolemElectricSparks-002.ogg
+|sound3=sfx_mob_redstonegolemElectricSparks-003.ogg
+|sound4=sfx_mob_redstonegolemElectricSparks-004.ogg
+|sound5=sfx_mob_redstonegolemElectricSparks-005.ogg
+|description=Electric Sparks
+|id=sfx_mob_redstonegolemElectricSparks}}
+| {{SoundLine
+|sound=sfx_mob_redstoneGolemEyeSparkle-001_soundWave.ogg
+|description=Eye Sparkle
+|id=sfx_mob_redstoneGolemEyeSparkle_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstoneGolemFire-001_soundWave.ogg
+|description=Fire
+|id=sfx_mob_redstoneGolemFire_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstoneGolemFireProjectile-001_soundWave.ogg
+|description=Fire Projectile
+|id=sfx_mob_redstoneGolemFireProjectile_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstoneGolemGrowl-001_soundWave.ogg
+|sound2=sfx_mob_redstoneGolemGrowl-002_soundWave.ogg
+|sound3=Sfx mob redstoneGolemGrowl-003 soundWave.ogg
+|description=Growl
+|id=sfx_mob_redstoneGolemGrowl_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstoneGolemGrowlLong-001_soundWave.ogg
+|sound2=sfx_mob_redstoneGolemGrowlLong-002_soundWave.ogg
+|description=Growl Long
+|id=sfx_mob_redstoneGolemGrowlLong_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstonegolemHardSpark-001.ogg
+|sound2=sfx_mob_redstonegolemHardSpark-002.ogg
+|sound3=sfx_mob_redstonegolemHardSpark-003.ogg
+|sound4=sfx_mob_redstonegolemHardSpark-004.ogg
+|sound5=sfx_mob_redstonegolemHardSpark-005.ogg
+|sound6=sfx_mob_redstonegolemHardSpark-006.ogg
+|sound7=sfx_mob_redstonegolemHardSpark-007.ogg
+|description=Hard Spark
+|id=sfx_mob_redstonegolemHardSpark}}
+| {{SoundLine
+|sound=sfx_mob_redstoneGolemHurt-001_soundWave.ogg
+|sound2=sfx_mob_redstoneGolemHurt-002_soundWave.ogg
+|sound3=sfx_mob_redstoneGolemHurt-003_soundWave.ogg
+|sound4=sfx_mob_redstoneGolemHurt-004_soundWave.ogg
+|sound5=sfx_mob_redstoneGolemHurt-005_soundWave.ogg
+|sound6=sfx_mob_redstoneGolemHurt-006_soundWave.ogg
+|sound7=sfx_mob_redstoneGolemHurt-007_soundWave.ogg
+|sound8=Sfx mob redstoneGolemHurt-008 soundWave.ogg
+|description=Hurt
+|id=sfx_mob_redstoneGolemHurt_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstoneGolemIdleHeavy-001_soundWave.ogg
+|sound2=sfx mob redstoneGolemIdleHeavy-002 soundWave.ogg
+|sound3=Sfx mob redstoneGolemIdleHeavy-003 soundWave.ogg
+|sound4=sfx_mob_redstoneGolemIdleHeavy-004_soundWave.ogg
+|sound5=sfx_mob_redstoneGolemIdleHeavy-005_soundWave.ogg
+|description=Idle Heavy
+|id=sfx_mob_redstoneGolemIdleHeavy_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstoneGolemJumpScare-001_soundWave.ogg
+|description=Jumpscare
+|id=sfx_mob_redstoneGolemJumpScare_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstoneGolemLoadAttack-001_soundWave.ogg
+|description=Load Attack
+|id=sfx_mob_redstoneGolemLoadAttack_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstoneGolemMagicAttack-001_soundWave.ogg
+|description=Magic Attack
+|id=sfx_mob_redstoneGolemMagicAttack_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstonegolemMalfunction-001.ogg
+|description=Malfunction
+|id=sfx_mob_redstonegolemMalfunction}}
+| {{SoundLine
+|sound=sfx_mob_redstonegolemMalfunctionSeparated-001.ogg
+|sound2=sfx_mob_redstonegolemMalfunctionSeparated-002.ogg
+|description=Malfunction Separated
+|id=sfx_mob_redstonegolemMalfunctionSeparated}}
+| {{SoundLine
+|sound=sfx_mob_redstoneGolemPreAttack-001_soundWave.ogg
+|sound2=sfx_mob_redstoneGolemPreAttack-002_soundWave.ogg
+|description=Pre-Attack
+|id=sfx_mob_redstoneGolemPreAttack_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstoneGolemSparkle-001_soundWave.ogg
+|description=Sparkle
+|id=sfx_mob_redstoneGolemSparkle_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstoneGolemStepHeavy-001_soundWave.ogg
+|sound2=sfx_mob_redstoneGolemStepHeavy-002_soundWave.ogg
+|sound3=sfx_mob_redstoneGolemStepHeavy-003_soundWave.ogg
+|sound4=sfx_mob_redstoneGolemStepHeavy-004_soundWave.ogg
+|sound5=sfx_mob_redstoneGolemStepHeavy-005_soundWave.ogg
+|description=Step Heavy
+|id=sfx_mob_redstoneGolemStepHeavy_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstoneGolemStepShort-001_soundWave.ogg
+|sound2=sfx_mob_redstoneGolemStepShort-002_soundWave.ogg
+|sound3=sfx_mob_redstoneGolemStepShort-003_soundWave.ogg
+|sound4=sfx_mob_redstoneGolemStepShort-004_soundWave.ogg
+|sound5=sfx_mob_redstoneGolemStepShort-005_soundWave.ogg
+|description=Step Short
+|id=sfx_mob_redstoneGolemStepShort_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstoneGolemSwing-001_soundWave.ogg
+|sound2=sfx_mob_redstoneGolemSwing-002_soundWave.ogg
+|description=Swing
+|id=sfx_mob_redstoneGolemSwing_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstonegolemSwipe-001.ogg
+|sound2=sfx_mob_redstonegolemSwipe-002.ogg
+|description=Swipe
+|id=sfx_mob_redstonegolemSwipe_soundWave}}
+| {{SoundLine
+|sound=sfx_prop_redstoneGolemDeadPulsating-001_soundWave.ogg
+|description=Dead Pulsating
+|id=sfx_prop_redstoneGolemDeadPulsating_soundWave}}
+| {{SoundLine
+|sound=sfx_redstoneGolemBlock-001_soundWave.ogg
+|sound2=sfx_redstoneGolemBlock-002_soundWave.ogg
+|description=Block
+|id=sfx_redstoneGolemBlock_soundWave}}
+| {{SoundLine
+|sound=sfx_redstoneGolemDeath-001_soundWave.ogg
+|sound2=Sfx redstoneGolemDeath-002 soundWave.ogg
+|sound3=sfx_redstoneGolemDeath-003_soundWave.ogg
+|description=Death
+| id = sfx_redstoneGolemDeath_soundWave
+}}
+}}
+
+=== Misc ===
+According to <code>sfx_mob_RsGolemMineLoad</code> file, Redstone Mine Load sound in game are mix from:
+{{SoundTable
+|type=dungeons
+| {{SoundLine
+|sound=sfx_bombLoad-001_soundWave.ogg
+|description=Bomb Load
+|id=sfx_bombLoad_soundWave}}
+| {{SoundLine
+|sound=sfx_mob_redstonegolemElectricSparks-001.ogg
+|sound2=sfx_mob_redstonegolemElectricSparks-002.ogg
+|sound3=sfx_mob_redstonegolemElectricSparks-003.ogg
+|sound4=sfx_mob_redstonegolemElectricSparks-004.ogg
+|sound5=sfx_mob_redstonegolemElectricSparks-005.ogg
+|description=Electric Sparks
+|id=sfx_mob_redstonegolemElectricSparks}}
+| {{SoundLine
+|sound=sfx_spawnBomb-001_soundWave.ogg
+|sound2=sfx_spawnBomb-002_soundWave.ogg
+|description=Spawn Bomb
+| id = sfx_spawnBomb_soundWave
+}}
+}}
+The following SFX file is recorded from in-game where the pitches and volumes were modified.
+{{SoundTable
+|type=simple
+| {{SoundLine
+|sound=Redstone golem spawn mine.ogg
+|description=Redstone Mine Load
+| id = N/A
+}}
+}}
+<!--Bulk Generated Text-->
+
+== History ==
+{{HistoryTable
+|{{HistoryLine|dungeons}}
+|{{HistoryLine||Dungeons Beta|[[File:MCD Redstone Golem.png|32px]]Added redstone golems.}}
+|{{HistoryLine||1.3.2.0|Fixed redstone golems not fighting heroes attacking from a distance.}}
+|{{HistoryLine||1.4.3.0|Fixed the mines producing sound when the master volume is set to 0%.}}
+}}
+
+== Trivia ==
+* On the loading screen for [[Dungeons:Obsidian Pinnacle|Obsidian Pinnacle]], a redstone golem can be seen in the final part of its "novelty animation".
+* Attacking a redstone golem's legs after electric transfer attack causes it to stop moving. This glitch disappears when the hero moves far enough away to avoid being hit by a stationary golem.
+
+== Issues ==
+{{Issue list}}
+
+== Quotes ==
+{{Quote|'''REDSTONE GOLEM''' – You'll encounter this unnatural beast – another product of the {{MCD|Arch-Illager}} – at the end of the [[MCD:Redstone Mines|mine]]. It smashes its arms into the ground, creating deadly shockwaves that can damage and disorient you in equal measure.|''Guide to Minecraft Dungeons:<br>A Handbook for Heroes''}}
+
+== Gallery ==
+=== Renders ===
+<gallery>
+MCD Redstone Golem.png|An idle redstone golem
+</gallery>
+
+=== Animations ===
+<gallery>
+MCD Redstone Golem Idle.gif|Redstone golem idle
+MCD Redstone Golem Walk.gif|Redstone golem walk
+MCD Redstone Golem Swipe Attack.gif|Redstone golem swipe attack
+MCD Redstone Golem Electric Charge Attack.gif|Redstone golem charge up electric transfer attack
+MCD Redstone Golem Novelty.gif|Redstone golem novelty
+</gallery>
+<gallery>
+MCD Redstone Golem Basic Attack.gif|Redstone golem basic attack (also known as karate chop) (unused). It can be seen when playing the Arcade version of the game.
+MCD Redstone Golem Strong Attack.gif|Redstone golem strong attack (unused). It is used in the Arcade version of the game.
+MCD Redstone Golem SuperAttack.gif|Redstone golem super attack (unused)
+MCD Redstone Golem Stun.gif|Redstone golem stun (unused)
+</gallery>
+
+=== Textures ===
+<gallery class="pixel-image">
+File:MCD Redstone Golem (texture).png|Redstone golem texture file
+File:T RedStoneGolem S.png|Redstone golem shadow texture file
+File:RedstoneGolemFace.png|Redstone golem face
+</gallery>
+
+=== Screenshots ===
+<gallery>
+File:Redstone golem 1.png|A redstone golem as seen in the intro cinematic
+File:Redstone golem attaking.png|A redstone golem smashing [[MCD:Iron Golem|iron golems]]
+File:Redstone Golem cave.png|Six redstone golems appearing within the cave where Archie finds the Orb of Dominance, brightened for clarity
+File:Minecraft Dungeons 6 12 2020 11 43 30 AM.png|The remains of a redstone golem at the entrance to the [[MCD:Fiery Forge|fiery forge]]
+File:Redstone Golem Boss.png|A redstone golem appearing as a boss within the Redstone Mines (before [[Minecraft Dungeons:1.10.2.0|1.10.2.0]])
+File:Redstone Golem Chest Beating.gif|A redstone golem beating its chest while idling, an animation rarely seen due to their great targeting range
+File:Ezgif-3-0db9b2ddf76b.gif|A redstone golem charges at the hero.
+File:Arch illager and redstone golem action figure.jpg|Arch illager and redstone golem action figure
+File:MCD Obsidian Pinnacle 28.png|A redstone golem within the Obsidian Pinnacle
+</gallery>
+=== In other media ===
+<gallery>
+File:Shape Your World poster.jpg|Redstone golem on the 15th anniversary poster
+File:LEGO Redstone Golem.png|[[Lego Minecraft|''LEGO Minecraft'']] redstone golem
+File:Redstone golem plush (Made by J!NX).webp|Redstone golem Plush (By J!NX)
+</gallery>
+
+== Navigation ==
+{{Navbox Dungeons entities}}
+{{Featured}}
+[[Category:Minecraft Dungeons golems]]
+[[Category:Minecraft Dungeons powerful mobs]]
+
+[[es:Dungeons:Gólem de redstone]]
+[[fr:Minecraft Dungeons:Golem de redstone]]
+[[pt:Minecraft Dungeons:Golem de Redstone]]
+[[ru:Minecraft Dungeons:Голем красного камня]]
+[[zh:Minecraft Dungeons:红石傀儡]]

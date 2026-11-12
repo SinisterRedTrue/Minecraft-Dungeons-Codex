@@ -1,0 +1,160 @@
+{{MCD switch|mob|d=1}}
+{{Infobox Dungeons entity
+|image=MCD Creeper.png
+|behavior=Hostile
+|health=100
+|damage=300
+|classification=Enemies
+|spawn=See {{slink||Spawning}}
+}}
+A '''creeper''' is a hostile mob that quickly runs toward the hero before exploding within melee range.
+
+== Spawning ==
+Creepers can spawn throughout the following missions:
+{{columns-list|
+* {{DuLevelLink|Creeper Woods}}
+* {{DuLevelLink|Creepy Crypt}}
+* {{DuLevelLink|Woodland Mansion}}
+* {{DuLevelLink|Woodland Prison}}
+* {{DuLevelLink|Soggy Swamp}}
+* {{DuLevelLink|Soggy Cave}}
+* {{DuLevelLink|Pumpkin Pastures}}
+* {{DuLevelLink|Arch Haven}}
+* {{DuLevelLink|Cacti Canyon}}
+* {{DuLevelLink|Spider Cave}}
+* {{DuLevelLink|Redstone Mines}}
+* {{DuLevelLink|Fiery Forge}}
+* {{DuLevelLink|Desert Temple}} ([[MCD:Arcade|Arcade]])
+* {{DuLevelLink|Highblock Halls}} (outside)
+* {{DuLevelLink|Underhalls}} (cellar)
+* {{DuLevelLink|Dingy Jungle}}
+* {{DuLevelLink|Panda Plateau}}
+* {{DuLevelLink|Overgrown Temple}}
+* {{DuLevelLink|Frozen Fjord}} (Arcade)
+* {{DuLevelLink|Gale Sanctum}}
+* {{DuLevelLink|Gauntlet of Gales}}
+* {{DuLevelLink|Colossal Rampart}}
+* {{DuLevelLink|Radiant Ravine}} ([[MCD:Secret|secret area]])
+* {{DuLevelLink|The Stronghold}}
+* {{DuLevelLink|Daily Trial}}
+* {{DuLevelLink|Ancient Hunt}}
+* {{DuLevelLink|Tower}}
+* {{DuLevelLink|Treetop Tangle}}
+}}
+
+Creepers can also spawn during [[MCD:Night Mode|night mode]], regardless of the [[MCD:Mission Select|mission]], when at least one hero dies in multiplayer.
+
+== Behavior ==
+Creepers become passive if an {{MCD|ocelot}} is nearby. They also run away if they are currently being attacked by an ocelot.
+
+=== Ignition ===
+When within range of a target, creepers ignite themselves, which also increases their movement speed (unlike the base game in which ignited creepers cannot move). After 1.5 seconds, it explodes, dealing heavy damage to heroes within the explosion's radius.
+
+== Sounds ==
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=sfx_mob_creeperHurt-001_soundWave.ogg
+|sound2=sfx_mob_creeperHurt-002_soundWave.ogg
+|sound3=sfx_mob_creeperHurt-003_soundWave.ogg
+|sound4=sfx_mob_creeperHurt-004_soundWave.ogg
+|description=Hurt
+|id=sfx_mob_creeperHurt
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_multi_creeperFuse-001_soundWave.ogg
+|description=Fuse
+|id=sfx_multi_creeperFuse
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_multi_creeperDeath-001_soundWave.ogg
+|description=Death
+|id=sfx_multi_creeperDeath
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_multi_explode-001_soundWave.ogg
+|sound2=sfx_multi_explode-002_soundWave.ogg
+|sound3=sfx_multi_explode-003_soundWave.ogg
+|sound4=sfx_multi_explode-004_soundWave.ogg
+|description=Explosion
+|id=sfx_multi_explode
+}}
+}}
+
+== Data values ==
+=== ID ===
+{{LevelActorTable|type=entity
+| {{LevelActorLine
+| displayname = Creeper
+| blueprint = BP_CreeperBtCharacter_C
+| levelmobtype = creeper
+| translationkey = mob_Creeper
+}}
+}}
+
+== History ==
+{{HistoryTable
+|{{HistoryLine|dungeons}}
+|{{HistoryLine||September 8, 2019|link=https://twitter.com/dungeonsgame/status/1170637963199483905|The developers experimented with throw-able creepers that would explode a few seconds after landing, but scrapped this idea in favor of TNT and regular creepers.}}
+|{{HistoryLine||Dungeons Beta|[[File:Creeper (Dungeons).png|32px]] Added creepers.}}
+}}
+
+== Issues ==
+{{issue list}}
+
+== Quotes ==
+{{Quote|'''CREEPER''' – To stop creepers from blowing you up, take them out with a [[MCD:Bow|bow]] from a distance or hit them quickly before they go boom!|''Guide to Minecraft Dungeons:<br>A Handbook for Heroes''}}
+
+== Gallery ==
+=== Renders ===
+<gallery>
+AnatomyOfACreeper.png|A model called "Anatomy of a Creeper" within the {{MCD|Camp}} {{MCD|Home}}
+</gallery>
+
+=== Animations ===
+<gallery>
+Creeper Idle (Dungeons).gif|Creeper idle
+Creeper Walk (Dungeons).gif|Creeper walk
+Creeper Ignition (Dungeons).webp|Creeper ignition
+Creeper Stun (Dungeons).gif|Creeper stun
+Creeper BasicAttack (Dungeons).gif|Creeper basic attack (unused)
+Creeper Novelty (Dungeons).gif|Creeper novelty (unused)
+Creeper GetHitFront (Dungeons).gif|Creeper gets hit front (unused)
+Creeper GetHitLeft (Dungeons).gif|Creeper gets hit left (unused)
+Creeper GetHitRight (Dungeons).gif|Creeper gets hit right (unused)
+</gallery>
+
+=== Textures ===
+<gallery class="pixel-image">
+T Creeper.png|Creeper texture file
+T Creeper S.png|Creeper shadow texture file
+CreeperFace (Dungeons).png|Creeper face
+Creeper Murals MCD.png|Creeper murals in the luminous night Tower
+Creeper Face Murals MCD.png|Creeper face murals in the luminous night Tower
+</gallery>
+
+=== Screenshots ===
+<gallery>
+Creeper Woods.png|[[MCD:Creeper Woods|Creeper Woods]] loading screen, with two creepers within the background
+UnderwaterCreeperExplosion.gif|Underwater creeper explosion
+Bridge Battle.png|Four heroes on a bridge near a creeper explosion
+Ocelot Versus Creeper.jpg|A creeper and an {{MCD|ocelot}} face each other in a stand-off like moment. Behind them a {{MCD|Dingy Jungle|jungle}} setting can be seen
+</gallery>
+
+=== In other media ===
+<gallery>
+Three Creepers.jpeg|Creepers representing ''[[Minecraft Dungeons]]'', ''[[Minecraft Legends]]'', and ''Minecraft'' looking at each other<ref>{{tweet|Minecraft|1804939561136447991|👉   👈<br>...     👆|June 23, 2024}} </ref>
+</gallery>
+
+== References ==
+{{reflist}}
+
+== Navigation ==
+{{Navbox Dungeons entities}}
+
+[[de:Dungeons:Creeper]]
+[[es:Dungeons:Creeper]]
+[[fr:Dungeons:Creeper]]
+[[ja:Dungeons:クリーパー]]
+[[pl:Minecraft Dungeons:Creeper]]
+[[zh:Dungeons:苦力怕]]

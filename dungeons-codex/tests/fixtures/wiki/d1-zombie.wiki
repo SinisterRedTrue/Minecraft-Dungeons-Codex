@@ -1,0 +1,553 @@
+{{MCD switch|mob|d=Zombie (disambiguation)}}
+{{Infobox Dungeons entity
+|title = Zombie
+|group=Tier 1
+|1-1=MCD Zombie.png
+|group2=Tier 2
+|2-1=Zombie Variant 1.png
+|group3=Tier 3
+|3-1=Zombie Variant 2.png
+|behavior = Hostile
+|classification = Enemies
+|mob category = {{MCD|Undead}}
+|spawn = See {{slink||Spawning}}
+|health = Tier 1: 55 <br>Tier 2: 210 <br>Tier 3: 500
+|damage = Tier 1: 70 <br>Tier 2: 85 <br>Tier 3: 100
+|equipment='''Tier 2:'''
+* {{DuItemLink|Daggers}}
+* {{DuItemLink|Scale Mail}}
+* {{DuItemLink|Reinforced Mail}} (helmet)
+'''Tier 3:'''
+* {{DuItemLink|Reinforced Mail}}
+* {{DuItemLink|Sword}}
+}}
+A '''zombie''' is a common {{MCD|undead}} [[MCD:Mob#Hostile mobs|hostile mob]] that can be found within the various {{MCD|mission}}s of {{MCD}}. Zombies have three variants, identifiable by their gear. The first tier has no armor and no weapon. The second tier has a dagger, a reinforced mail helmet, and a scale mail chestplate. The third tier has a {{MCD|sword}} and a reinforced mail helmet and chestplate.
+
+== Spawning ==
+Zombies will spawn when [[MCD:Night Mode|night]] falls, regardless of the {{MCD|mission}}, when at least one hero dies in multiplayer.
+
+{{columns-list|
+* {{DuLevelLink|Squid Coast}}
+* {{DuLevelLink|Creeper Woods}}
+* {{DuLevelLink|Creepy Crypt}}
+* {{DuLevelLink|Soggy Swamp}}
+* {{DuLevelLink|Soggy Cave}}
+* {{DuLevelLink|Pumpkin Pastures}}
+* {{DuLevelLink|Arch Haven}}
+* {{DuLevelLink|Cacti Canyon}}
+* {{DuLevelLink|Redstone Mines}}
+* {{DuLevelLink|Fiery Forge}}
+* {{DuLevelLink|Highblock Halls}}
+* {{DuLevelLink|Underhalls}}
+* {{DuLevelLink|Obsidian Pinnacle}} ([[MCD:Arcade|Arcade]])
+* {{DuLevelLink|Dingy Jungle}}
+* {{DuLevelLink|Panda Plateau}}
+* {{DuLevelLink|Overgrown Temple}}
+* {{DuLevelLink|Lone Fortress}}
+* {{DuLevelLink|Gale Sanctum}}
+* {{DuLevelLink|Gauntlet of Gales}}
+* {{DuLevelLink|Colossal Rampart}}
+* {{DuLevelLink|The Stronghold}}
+* {{DuLevelLink|Daily Trial}}
+* {{DuLevelLink|Ancient Hunt}}
+* {{DuLevelLink|Tower}}
+* {{DuLevelLink|Treetop Tangle}}
+}}
+
+=== Summoned by necromancers ===
+* {{DuLevelLink|Woodland Mansion}}
+* {{DuLevelLink|Woodland Prison}}
+* {{DuLevelLink|Desert Temple}}
+* {{DuLevelLink|Lower Temple}}
+
+=== Summoned by mob spawners ===
+* {{DuLevelLink|Frosted Fjord}}
+
+=== Secret areas ===
+* {{DuLevelLink|Lost Settlement}}
+* {{DuLevelLink|Abyssal Monument}}
+* {{DuLevelLink|Radiant Ravine}}
+
+== Behavior ==
+Zombies have three variants. The first variant is unarmored and unarmed. The second wears {{MCD|scale mail}} with a {{MCD|reinforced mail}} helmet as well as a single {{MCD|dagger}}, and the third wears full reinforced mail and a {{MCD|sword}}.
+Zombies have nine times more health when {{MCD|enchanted}}.
+
+=== Walk ===
+Zombies wander around when they are idle.
+
+=== Basic attack ===
+When an available target is in range, they will perform a downward swipe with both arms, dealing damage to heroes in its range.
+
+=== Novelty sleep ===
+Zombies sometimes sleep when idle. The third zombie variant does not perform its novelty animation, however, as it is broken.
+
+Unlike in the base game, zombies do not turn into {{MCD|drowned}} when submerged in water for 30 seconds or more.
+
+== Sounds ==
+=== Idle ===
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=sfx_mob_zombieIdle-001_soundWave.ogg
+|sound2=sfx_mob_zombieIdle-002_soundWave.ogg
+|sound3=sfx_mob_zombieIdle-003_soundWave.ogg
+|id=sfx_mob_zombieIdle<br>sfx_mob_zombieVariantIdle
+|description=Idle (generic)
+}}
+}}
+
+=== Attack ===
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=sfx_mob_zombieAttack-001_soundWave.ogg
+|sound2=sfx_mob_zombieAttack-002_soundWave.ogg
+|sound3=sfx_mob_zombieAttack-003_soundWave.ogg
+|sound4=sfx_mob_zombieAttack-004_soundWave.ogg
+|id=sfx_mob_zombieAttack
+|description=Attack (generic impact sounds)
+|type=dungeons
+}}
+
+| {{SoundLine
+|sound=sfx_mob_zombiePreAttack-001_soundWave.ogg
+|sound2=sfx_mob_zombiePreAttack-002_soundWave.ogg
+|sound3=sfx_mob_zombiePreAttack-003_soundWave.ogg
+|sound4=sfx_mob_zombiePreAttack-004_soundWave.ogg
+|sound5=sfx_mob_zombiePreAttack-005_soundWave.ogg
+|sound6=sfx_mob_zombiePreAttack-006_soundWave.ogg
+|sound7=sfx_mob_zombiePreAttack-007_soundWave.ogg
+|sound8=sfx_mob_zombiePreAttack-008_soundWave.ogg
+|sound9=sfx_mob_zombiePreAttack-009_soundWave.ogg
+|id=sfx_mob_zombiePreAttackVoice
+|description=Pre-attack (generic)
+|type=dungeons
+}}
+
+| {{SoundLine
+|sound=sfx_mob_zombieWhoosh-001_soundWave.ogg
+|sound2=sfx_mob_zombieWhoosh-002_soundWave.ogg
+|sound3=sfx_mob_zombieWhoosh-003_soundWave.ogg
+|sound4=sfx_mob_zombieWhoosh-004_soundWave.ogg
+|id=sfx_mob_zombieWhoosh
+|description=Whoosh (variant 0 only)
+|type=dungeons}}
+
+| {{SoundLine
+|sound=sfx_item_stepPlateArmorLight-001_soundWave.ogg
+|sound2=sfx_item_stepPlateArmorLight-002_soundWave.ogg
+|sound3=sfx_item_stepPlateArmorLight-003_soundWave.ogg
+|sound4=sfx_item_stepPlateArmorLight-004_soundWave.ogg
+|sound5=sfx_item_stepPlateArmorLight-005_soundWave.ogg
+|sound6=sfx_item_stepPlateArmorLight-006_soundWave.ogg
+|sound7=sfx_item_stepPlateArmorLight-007_soundWave.ogg
+|sound8=sfx_item_stepPlateArmorLight-008_soundWave.ogg
+|sound9=sfx_item_stepPlateArmorLight-009_soundWave.ogg
+|sound10=sfx_item_stepPlateArmorLight-010_soundWave.ogg
+|sound11=sfx_item_stepPlateArmorLight-011_soundWave.ogg
+|id=sfx_mob_plateArmorFoleyAttack
+|description=Step plate armor light (variant 1 & 2 only)
+|type=dungeons}}
+
+| {{SoundLine
+|sound=sfx_item_knifeWhoosh-001_soundWave.ogg
+|sound2=sfx_item_knifeWhoosh-002_soundWave.ogg
+|sound3=sfx_item_knifeWhoosh-003_soundWave.ogg
+|sound4=sfx_item_knifeWhoosh-004_soundWave.ogg
+|id=sfx_mob_knifeSwing
+|description=Knife whoosh (variant 1 only)
+|type=dungeons}}
+
+| {{SoundLine
+|sound=sfx_item_swordSwingSteel-001_soundWave.ogg
+|id=sfx_mob_swordSwingSteel
+| description = Sword swing steel (variant 2 only)
+}}
+}}
+
+=== Step ===
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=sfx_mob_zombieStepGeneric-001_soundWave.ogg
+|sound2=sfx_mob_zombieStepGeneric-002_soundWave.ogg
+|sound3=sfx_mob_zombieStepGeneric-003_soundWave.ogg
+|sound4=sfx_mob_zombieStepGeneric-004_soundWave.ogg
+|sound5=sfx_mob_zombieStepGeneric-005_soundWave.ogg
+|id=sfx_mob_zombieStepGeneric
+|description=Step (generic)
+|type=dungeons}}
+
+| {{SoundLine
+|sound=sfx_item_stepScaleArmor-001_soundWave.ogg
+|sound2=sfx_item_stepScaleArmor-002_soundWave.ogg
+|sound3=sfx_item_stepScaleArmor-003_soundWave.ogg
+|sound4=sfx_item_stepScaleArmor-004_soundWave.ogg
+|sound5=sfx_item_stepScaleArmor-005_soundWave.ogg
+|sound6=sfx_item_stepScaleArmor-006_soundWave.ogg
+|sound7=sfx_item_stepScaleArmor-007_soundWave.ogg
+|sound8=sfx_item_stepScaleArmor-008_soundWave.ogg
+|sound9=sfx_item_stepScaleArmor-009_soundWave.ogg
+|sound10=sfx_item_stepScaleArmor-010_soundWave.ogg
+|sound11=sfx_item_stepScaleArmor-011_soundWave.ogg
+|sound12=sfx_item_stepScaleArmor-012_soundWave.ogg
+|id=sfx_mob_stepScaleArmor
+|description=Mob step scale armor (variant 1 only)
+|type=dungeons}}
+
+<!--Data from sfx_mob_stepPlateArmorHeavy-->
+
+| {{SoundLine
+|sound=sfx_item_stepScaleArmor-012_soundWave.ogg
+|sound2=sfx_item_stepPlateArmorHeavy-010_soundWave.ogg
+|sound3=sfx_item_stepPlateArmorHeavy-008_soundWave.ogg
+|sound4=sfx_item_stepScaleArmor-002_soundWave.ogg
+|sound5=sfx_item_stepScaleArmor-003_soundWave.ogg
+|sound6=sfx_item_stepScaleArmor-004_soundWave.ogg
+|sound7=sfx_item_stepScaleArmor-005_soundWave.ogg
+|sound8=sfx_item_stepScaleArmor-006_soundWave.ogg
+|sound9=sfx_item_stepScaleArmor-007_soundWave.ogg
+|sound10=sfx_item_stepScaleArmor-008_soundWave.ogg
+|sound11=sfx_item_stepScaleArmor-009_soundWave.ogg
+|sound12=sfx_item_stepScaleArmor-010_soundWave.ogg
+|sound13=sfx_item_stepScaleArmor-001_soundWave.ogg
+|sound14=sfx_item_stepScaleArmor-011_soundWave.ogg
+|sound15=sfx_item_stepPlateArmorHeavy-001_soundWave.ogg
+|sound16=sfx_item_stepPlateArmorHeavy-002_soundWave.ogg
+|sound17=sfx_item_stepPlateArmorHeavy-003_soundWave.ogg
+|sound18=sfx_item_stepPlateArmorHeavy-004_soundWave.ogg
+|sound19=sfx_item_stepPlateArmorHeavy-005_soundWave.ogg
+|sound20=sfx_item_stepPlateArmorHeavy-006_soundWave.ogg
+|sound21=sfx_item_stepPlateArmorHeavy-007_soundWave.ogg
+|id=sfx_mob_stepPlateArmorHeavy
+|description=Mob step plate armor heavy (variant 2 only)
+}}
+}}
+
+=== Death ===
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=sfx_mob_zombieDeath-001_soundWave.ogg
+|sound2=sfx_mob_zombieDeath-002_soundWave.ogg
+|sound3=sfx_mob_zombieDeath-003_soundWave.ogg
+|id=sfx_mob_zombieDeath
+sfx_mob_zombieVariant1Death
+sfx_mob_zombieVariant2Death
+|description=Death (generic)
+|type=dungeons}}
+
+| {{SoundLine
+|sound=sfx_item_plateArmorDropLight-001_soundWave.ogg
+|sound2=sfx_item_plateArmorDropLight-002_soundWave.ogg
+|sound3=sfx_item_plateArmorDropLight-003_soundWave.ogg
+|sound4=sfx_item_plateArmorDropLight-004_soundWave.ogg
+|sound5=sfx_item_plateArmorDropLight-005_soundWave.ogg
+|sound6=sfx_item_plateArmorDropLight-006_soundWave.ogg
+|description=Plate armor drop light (variant 1 & 2 only)
+|id=sfx_mob_zombieVariant1Death
+sfx_mob_zombieVariant2Death
+}}
+
+| {{SoundLine
+|sound=sfx_item_sicklesImpact-001_soundWave.ogg
+|sound2=sfx_item_sicklesImpact-002_soundWave.ogg
+|sound3=sfx_item_sicklesImpact-003_soundWave.ogg
+|sound4=sfx_item_sicklesImpact-004_soundWave.ogg
+|sound5=sfx_item_sicklesImpact-005_soundWave.ogg
+|description=Sickles impact (variant 1 only)
+|id=sfx_mob_zombieVariant1Death
+}}
+
+| {{SoundLine
+|sound=sfx_item_impactMetal-001_soundWave.ogg
+|sound2=sfx_item_impactMetal-002_soundWave.ogg
+|sound3=sfx_item_impactMetal-003_soundWave.ogg
+|sound4=sfx_item_impactMetal-004_soundWave.ogg
+|sound5=sfx_item_impactMetal-005_soundWave.ogg
+|description=Impact metal (variant 1 only)
+|id=sfx_mob_zombieVariant1Death
+}}
+
+| {{SoundLine
+|sound=sfx_item_stepScaleArmor-001_soundWave.ogg
+|sound2=sfx_item_stepScaleArmor-002_soundWave.ogg
+|sound3=sfx_item_stepScaleArmor-003_soundWave.ogg
+|sound4=sfx_item_stepScaleArmor-004_soundWave.ogg
+|sound5=sfx_item_stepScaleArmor-005_soundWave.ogg
+|description=Step scale armor (variant 2 only)
+|id=sfx_mob_zombieVariant2Death
+|type=dungeons}}
+
+| {{SoundLine
+|sound=sfx_item_plateArmorImpact-001_soundWave.ogg
+|sound2=sfx_item_plateArmorImpact-002_soundWave.ogg
+|sound3=sfx_item_plateArmorImpact-003_soundWave.ogg
+|sound4=sfx_item_plateArmorImpact-004_soundWave.ogg
+|sound5=sfx_item_plateArmorImpact-005_soundWave.ogg
+|description=Plate armor impact (variant 2 only)
+|id=sfx_mob_zombieVariant2Death
+}}
+}}
+
+=== Hurt ===
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=sfx_mob_zombieHurt-001_soundWave.ogg
+|sound2=sfx_mob_zombieHurt-002_soundWave.ogg
+|description=Hurt (generic)
+|id=sfx_mob_zombieHurt
+sfx_mob_zombieVariant1Hurt
+sfx_mob_zombieVariant2Hurt
+}}
+
+| {{SoundLine
+|sound=sfx_item_plateArmorImpact-001_soundWave.ogg
+|sound2=sfx_item_plateArmorImpact-002_soundWave.ogg
+|sound3=sfx_item_plateArmorImpact-003_soundWave.ogg
+|sound4=sfx_item_plateArmorImpact-004_soundWave.ogg
+|sound5=sfx_item_plateArmorImpact-005_soundWave.ogg
+|description=Plate armor impact (variant 1 & 2 only)
+|type=dungeons
+|id=sfx_mob_zombieVariant1Hurt
+sfx_mob_zombieVariant2Hurt
+}}
+
+| {{SoundLine
+|sound=sfx_item_stepScaleArmor-001_soundWave.ogg
+|sound2=sfx_item_stepScaleArmor-002_soundWave.ogg
+|sound3=sfx_item_stepScaleArmor-003_soundWave.ogg
+|sound4=sfx_item_stepScaleArmor-004_soundWave.ogg
+|sound5=sfx_item_stepScaleArmor-005_soundWave.ogg
+|sound6=sfx_item_stepScaleArmor-006_soundWave.ogg
+|sound7=sfx_item_stepScaleArmor-007_soundWave.ogg
+|sound8=sfx_item_stepScaleArmor-008_soundWave.ogg
+|sound9=sfx_item_stepScaleArmor-009_soundWave.ogg
+|sound10=sfx_item_stepScaleArmor-010_soundWave.ogg
+|sound11=sfx_item_stepScaleArmor-011_soundWave.ogg
+|sound12=sfx_item_stepScaleArmor-012_soundWave.ogg
+|description=Step scale armor (variant 1 only)
+|id=sfx_mob_zombieVariant1Hurt
+|type=dungeons}}
+
+| {{SoundLine
+|sound=sfx_item_armorChainLayer1-001_soundWave.ogg
+|sound2=sfx_item_armorChainLayer1-002_soundWave.ogg
+|sound3=sfx_item_armorChainLayer1-003_soundWave.ogg
+|sound4=sfx_item_armorChainLayer1-004_soundWave.ogg
+|description=Armor chain layer 1 (variant 1 only)
+|id=sfx_mob_zombieVariant1Hurt
+}}
+
+| {{SoundLine
+|sound=sfx_item_stepPlateArmorLight-001_soundWave.ogg
+|sound2=sfx_item_stepPlateArmorLight-002_soundWave.ogg
+|sound3=sfx_item_stepPlateArmorLight-003_soundWave.ogg
+|sound4=sfx_item_stepPlateArmorLight-004_soundWave.ogg
+|sound5=sfx_item_stepPlateArmorLight-005_soundWave.ogg
+|sound6=sfx_item_stepPlateArmorLight-006_soundWave.ogg
+|sound7=sfx_item_stepPlateArmorLight-007_soundWave.ogg
+|sound8=sfx_item_stepPlateArmorLight-008_soundWave.ogg
+|sound9=sfx_item_stepPlateArmorLight-009_soundWave.ogg
+|sound10=sfx_item_stepPlateArmorLight-010_soundWave.ogg
+|sound11=sfx_item_stepPlateArmorLight-011_soundWave.ogg
+|description=Step plate armor light (variant 2 only)
+|id=sfx_mob_zombieVariant2Hurt
+}}
+
+| {{SoundLine
+|sound=sfx_item_stepScaleArmor-001_soundWave.ogg
+|sound2=sfx_item_stepScaleArmor-002_soundWave.ogg
+|sound3=sfx_item_stepScaleArmor-003_soundWave.ogg
+|sound4=sfx_item_stepScaleArmor-004_soundWave.ogg
+|sound5=sfx_item_stepScaleArmor-005_soundWave.ogg
+|description=Step scale armor (variant 2 only)
+|id=sfx_mob_zombieVariant2Hurt
+}}
+}}
+
+=== Miscellaneous sounds ===
+The following SFX files may be unused features or may appear in other parts of the game. Most of these sound files do not have an SFX ID in the game files.
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=sfx_mob_zombieMetal-001_soundWave.ogg
+|sound2=sfx_mob_zombieMetal-002_soundWave.ogg
+|sound3=sfx_mob_zombieMetal-003_soundWave.ogg
+|id=sfx_mob_zombieMetal_soundWave
+|description=Metal
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_mob_zombiePre-001_soundWave.ogg
+|sound2=sfx_mob_zombiePre-002_soundWave.ogg
+|sound3=sfx_mob_zombiePre-003_soundWave.ogg
+|id=sfx_mob_zombiePre_soundWave
+|description=Pre
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_mob_zombieRemedy-001_soundWave.ogg
+|id=sfx_mob_zombieRemedy_soundWave
+|description=Remedy
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_mob_zombieStepWood-001_soundWave.ogg
+|sound2=sfx_mob_zombieStepWood-002_soundWave.ogg
+|sound3=sfx_mob_zombieStepWood-003_soundWave.ogg
+|sound4=sfx_mob_zombieStepWood-004_soundWave.ogg
+|id=sfx_mob_zombieStepWood_soundWave
+|description=Step (wood)
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_mob_zombieWoodBreak-001_soundWave.ogg
+|id=sfx_mob_zombieWoodBreak_soundWave
+|description=Wood break
+|type=dungeons
+}}
+| {{SoundLine
+|sound=sfx_mob_zombieInfect-001_soundWave.ogg
+|sound2=sfx_mob_zombieInfect-002_soundWave.ogg
+|id=sfx_mob_zombieInfect
+|description=Infect
+}}
+}}
+<!--Bulk Generated Text-->
+
+== Data values ==
+=== ID ===
+{{LevelActorTable
+| type = entity
+| hasunifiedlevelmobtype = 1
+| {{LevelActorLine
+| displayname = Zombie
+| variant = Tier 1 | variant2 = Tier 2
+| variant3 = Tier 3 
+| blueprint = BP_ZombieBtCharacter_C 
+| blueprint2 = BP_ZombieVariant1Character_C
+| blueprint3 = BP_ZombieVariant2Character_C
+| levelmobtype = zombievariant0
+| levelmobtype2 = -
+| levelmobtype3 = -
+| unifiedlevelmobtype = zombie
+| translationkey = mob_Zombie
+}}
+}}
+
+== History ==
+{{HistoryTable
+|{{HistoryLine|dungeons}}
+|{{HistoryLine||Dungeons Beta|[[File:Zombie (Dungeons).png|32px]][[File:Zombie Variant 1.png|32px]][[File:Zombie Variant 2.png|32px]]Added zombies.}}
+}}
+
+== Issues ==
+{{Issue list|Zombie}}
+
+== Quotes ==
+{{Quote|'''ZOMBIE''' – Slow and shambling, zombies are easily beaten with melee attacks. Be warned: the armored zombie requires many more hits to take it down.|''Guide to Minecraft Dungeons:<br>A Handbook for Heroes''}}
+
+== Trivia ==
+* Zombies have many unused sounds in game file.
+* Both shoulder pads use the shoulder pad model on the right. One of the right shoulder pads was reversed and disguised as the left shoulder pad. The difference between the reversed right shoulder pad and the left shoulder pad is that there is an extra white pixel on the top of the left shoulder pad.
+
+== Gallery ==
+=== Renders ===
+<gallery>
+Zombie (Dungeons).png|Tier 1 Zombie idle isometric render
+Zombie Walking (Dungeons).png|Tier 1 Zombie walk isometric render
+Zombie Attacking (Dungeons).png|Tier 1 Zombie basic attack isometric render
+Zombie Variant 1.png|Tier 2 Zombie idle isometric render
+Zombie Variant 1 Walking.png|Tier 2 Zombie walk isometric render
+Zombie Variant 1 Attacking.png|Tier 2 Zombie basic attack isometric render
+Zombie Variant 2.png|Tier 3 Zombie idle isometric render
+Zombie Variant 2 Walking.png|Tier 3 Zombie walk isometric render
+Zombie Variant 2 Attacking.png|Tier 3 Zombie basic attack isometric render
+</gallery>
+
+=== Animations ===
+====Tier 1====
+<gallery>
+Zombie Idle (Dungeons).gif|Idle
+Zombie Walk (Dungeons).gif|Walk 
+Zombie UsedBasicAttack (Dungeons).gif|Basic Attack 
+Zombie Novelty (Dungeons).gif|Novelty
+Zombie Stun (Dungeons).gif|Stun
+</gallery>
+<gallery>
+Zombie BasicAttack (Dungeons).gif|Basic attack (unused leg animation)
+Zombie GetHitFromTheFront (Dungeons).gif|Get hit from the front (unused)
+Zombie GetHitFromTheLeft (Dungeons).gif|Get hit from the left (unused)
+Zombie GetHitFromTheRight (Dungeons).gif|Get hit from the right (unused)
+</gallery>
+
+====Tier 2====
+<gallery>
+File:ZombieVariant1 Idle (Dungeons).gif|Idle
+File:ZombieVariant1 Walk (Dungeons).gif|Walk 
+File:ZombieVariant1 UsedBasicAttack (Dungeons).gif|Basic Attack
+File:ZombieVariant1 Novelty (Dungeons).gif|Novelty
+File:ZombieVariant1 Stun (Dungeons).gif|Stun
+</gallery>
+<gallery>
+ZombieVariant1 BasicAttack (Dungeons).gif|Basic attack (unused leg animation)
+ZombieVariant1 GetHitFromTheFront (Dungeons).gif|Get hit from the front (unused)
+ZombieVariant1 GetHitFromTheLeft (Dungeons).gif|Get hit from the left (unused)
+ZombieVariant1 GetHitFromTheRight (Dungeons).gif|Get hit from the right (unused)
+</gallery>
+====Tier 3====
+<gallery>
+File:ZombieVariant2 Idle (Dungeons).gif|Idle
+File:ZombieVariant2 Walk (Dungeons).gif|Walk 
+File:ZombieVariant2 UsedBasicAttack (Dungeons).gif|Basic attack 
+File:ZombieVariant2 Stun (Dungeons).gif|Stun
+</gallery>
+<gallery>
+ZombieVariant2 Novelty (Dungeons).gif|Novelty (unused)
+ZombieVariant2 BasicAttack (Dungeons).gif|Basic attack (unused leg animation)
+ZombieVariant2 GetHitFromTheFront (Dungeons).gif|Get hit from the front (unused)
+ZombieVariant2 GetHitFromTheLeft (Dungeons).gif|Get hit from the left (unused)
+ZombieVariant2 GetHitFromTheRight (Dungeons).gif|Get hit from the right (unused)
+</gallery>
+
+=== Textures ===
+<gallery class="pixel-image">
+T Zombie.png|Zombie texture file
+File:T Zombie S.png|Zombie shadow texture file
+Zombie Murals MCD.png|Murals in the luminous night Tower that depict a zombie
+Sword Zombie Murals MCD.png|Murals in the luminous night Tower that depict a zombie wielding a sword
+Zombie Face Murals MCD.png|Murals in the luminous night Tower that depict a zombie's face
+</gallery>
+
+=== Screenshots ===
+<gallery>
+MCD arc-screen3.jpg|A horde of zombies and [[MCD:Jungle Zombie|jungle zombies]] seen in the {{MCD|Dingy Jungle}}
+Squid Coast Zombie Battle.png|Four heroes alongside a [[MCD:Polar Bear|polar bear]], [[MCD:Fox|fox]], [[MCD:Wolf|wolf]], and a [[MCD:Chicken|chicken]] heading to fight off a large horde of zombies
+Armored zombie variant2.png|A tier 2 Zombie with a [[MCD:Reinforced Mail|reinforced mail]] helmet and [[MCD:Scale Mail|scale mail]] in the [[MCD:Creeper Woods|Creeper Woods]]
+Armored zombie variant1.png|A tier 3 Zombie with [[MCD:Reinforced Mail|reinforced mail]] in the [[MCD:Creeper Woods|Creeper Woods]]
+Dungeons zombie novelty attacking.png|A zombie's legs behaving "novelty sleep" while the upper body attacking the hero
+Dungeons Reinforced Mail shoulder pad.png|A reinforced mail right shoulder pad, reversed right shoulder pad uses by tier 3 Zombies and left shoulder pad
+</gallery>
+
+=== Development images ===
+<gallery>
+Zombieviaview.png|A screenshot of the developer video showing an early concept of zombie and [[MCD:Skeleton|skeleton]] variants
+</gallery>
+
+== See also ==
+*{{DuEntityLink|Baby Zombie}}
+*{{DuEntityLink|Drowned}}
+*{{DuEntityLink|Frozen Zombie}}
+*{{DuEntityLink|Husk}}
+*{{DuEntityLink|Jungle Zombie}}
+
+== Navigation ==
+{{Navbox Dungeons entities}}
+
+[[Category:Minecraft Dungeons Undead mobs]]
+
+[[de:Dungeons:Zombie]]
+[[es:Dungeons:Zombi]]
+[[fr:Dungeons:Zombie]]
+[[it:Dungeons:Zombi]]
+[[ja:Dungeons:ゾンビ]]
+[[ru:Dungeons:Зомби]]
+[[zh:Dungeons:僵尸]]

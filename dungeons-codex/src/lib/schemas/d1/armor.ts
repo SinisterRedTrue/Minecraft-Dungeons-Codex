@@ -5,6 +5,7 @@ import {
   effectSchema,
   entitySchema,
   openEnum,
+  powerPointSchema,
   type SchemaOptions,
 } from '../base';
 
@@ -17,6 +18,7 @@ export const d1ArmorSchema = (opts: SchemaOptions = {}) =>
     damageReduction: z.number().min(0).max(100).optional(),
     effects: z.array(effectSchema),
     baseHealth: z.number().positive().optional(),
+    powerTable: z.array(powerPointSchema).optional(),
   });
 
 export const D1ArmorSchema = d1ArmorSchema();

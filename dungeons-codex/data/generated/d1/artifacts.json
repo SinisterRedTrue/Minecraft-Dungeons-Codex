@@ -1,0 +1,2027 @@
+[
+  {
+    "id": "d1:artifacts:blast-fungus",
+    "slug": "blast-fungus",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Blast Fungus",
+    "description": "Only the bravest of warriors carry the Blast Fungus. Not just because of its toxic spores, but because it smells awful.",
+    "rarity": "common",
+    "dlc": "flames-of-the-nether",
+    "image": {
+      "alt": "Blast Fungus icon",
+      "height": 256,
+      "src": "/images/d1/artifacts/blast-fungus.webp",
+      "width": 256
+    },
+    "artifactType": "damaging",
+    "cooldownSeconds": 6,
+    "locations": [
+      "d1:locations:warped-forest",
+      "d1:locations:crimson-forest"
+    ],
+    "properties": [
+      "Shoots three blast fungus, which automatically detonate."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "artifact-attack"
+    ],
+    "related": [
+      "d1:artifacts:corrupted-beacon",
+      "d1:artifacts:corrupted-pumpkin",
+      "d1:artifacts:eye-of-the-guardian",
+      "d1:artifacts:harvester",
+      "d1:artifacts:lightning-rod",
+      "d1:artifacts:scatter-mines"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3891413,
+      "title": "Dungeons:Blast Fungus",
+      "url": "https://minecraft.wiki/w/Dungeons:Blast_Fungus"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:boots-of-swiftness",
+    "slug": "boots-of-swiftness",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Boots of Swiftness",
+    "description": "Boots blessed with enchantments to allow for swift movements. Useful in uncertain times such as these.",
+    "rarity": "common",
+    "image": {
+      "alt": "Boots of Swiftness icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/boots-of-swiftness.webp",
+      "width": 640
+    },
+    "artifactType": "agility",
+    "cooldownSeconds": 5,
+    "locations": [
+      "d1:locations:creeper-woods",
+      "d1:locations:creepy-crypt",
+      "d1:locations:desert-temple",
+      "d1:locations:soul-sand-valley"
+    ],
+    "properties": [
+      "Applies Swiftness."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "movement-speed"
+    ],
+    "related": [
+      "d1:artifacts:death-cap-mushroom",
+      "d1:artifacts:ghost-cloak",
+      "d1:artifacts:light-feather"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3863842,
+      "title": "Dungeons:Boots of Swiftness",
+      "url": "https://minecraft.wiki/w/Dungeons:Boots_of_Swiftness"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:buzzy-nest",
+    "slug": "buzzy-nest",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Buzzy Nest",
+    "description": "Bee lovers and the bee-loved alike are fans of the Buzzy Nest, but don't be fooled by the cute bees within - they pack a powerful sting!",
+    "rarity": "common",
+    "image": {
+      "alt": "Buzzy Nest icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/buzzy-nest.webp",
+      "width": 640
+    },
+    "artifactType": "summoning",
+    "cooldownSeconds": 23,
+    "locations": [
+      "d1:locations:soggy-cave",
+      "d1:locations:lower-temple",
+      "d1:locations:treetop-tangle",
+      "d1:locations:dingy-jungle",
+      "d1:locations:colossal-rampart",
+      "d1:locations:nether-wastes"
+    ],
+    "properties": [
+      "Summons Bees"
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "summoning"
+    ],
+    "related": [
+      "d1:artifacts:enchanted-grass",
+      "d1:artifacts:golem-kit",
+      "d1:artifacts:soul-lantern",
+      "d1:artifacts:tasty-bone",
+      "d1:artifacts:vexing-chant",
+      "d1:artifacts:wonderful-wheat"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3893040,
+      "title": "Dungeons:Buzzy Nest",
+      "url": "https://minecraft.wiki/w/Dungeons:Buzzy_Nest"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:corrupted-beacon",
+    "slug": "corrupted-beacon",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Corrupted Beacon",
+    "description": "The Corrupted Beacon holds immense power within. It waits for the moment to unleash its wrath.",
+    "rarity": "common",
+    "image": {
+      "alt": "Corrupted Beacon icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/corrupted-beacon.webp",
+      "width": 640
+    },
+    "artifactType": "damaging",
+    "cooldownSeconds": 2.5,
+    "locations": [
+      "d1:locations:pumpkin-pastures",
+      "d1:locations:cacti-canyon",
+      "d1:locations:redstone-mines",
+      "d1:locations:treetop-tangle",
+      "d1:locations:gale-sanctum"
+    ],
+    "properties": [
+      "Summons a beam that does incredibly heavy damage to enemies.",
+      "+1 soul gathering"
+    ],
+    "requiresSouls": true,
+    "tags": [
+      "artifact-attack",
+      "soul-gathering"
+    ],
+    "related": [
+      "d1:artifacts:corrupted-pumpkin",
+      "d1:artifacts:eye-of-the-guardian",
+      "d1:artifacts:harvester",
+      "d1:artifacts:lightning-rod",
+      "d1:artifacts:scatter-mines",
+      "d1:artifacts:spinblade"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3891414,
+      "title": "Dungeons:Corrupted Beacon",
+      "url": "https://minecraft.wiki/w/Dungeons:Corrupted_Beacon"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:corrupted-pumpkin",
+    "slug": "corrupted-pumpkin",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Corrupted Pumpkin",
+    "description": "The Corrupted Pumpkin glows with supernatural power, illuminating even the darkest nights with its powerful beacon.",
+    "rarity": "unique",
+    "image": {
+      "alt": "Corrupted Pumpkin icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/corrupted-pumpkin.webp",
+      "width": 640
+    },
+    "artifactType": "damaging",
+    "cooldownSeconds": 2.5,
+    "locations": [],
+    "properties": [
+      "+1 Soul Gathering",
+      "Special Event Item"
+    ],
+    "requiresSouls": true,
+    "tags": [
+      "seasonal-event",
+      "soul-gathering"
+    ],
+    "related": [
+      "d1:artifacts:eye-of-the-guardian",
+      "d1:artifacts:harvester",
+      "d1:artifacts:lightning-rod",
+      "d1:artifacts:scatter-mines",
+      "d1:artifacts:spinblade",
+      "d1:artifacts:updraft-tome"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3891417,
+      "title": "Dungeons:Corrupted Pumpkin",
+      "url": "https://minecraft.wiki/w/Dungeons:Corrupted_Pumpkin"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:corrupted-seeds",
+    "slug": "corrupted-seeds",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Corrupted Seeds",
+    "description": "A pouch of poisonous corrupted seeds which grow into spiky grapple vines, entangling and slowly draining the life from its victims.",
+    "rarity": "common",
+    "image": {
+      "alt": "Corrupted Seeds icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/corrupted-seeds.webp",
+      "width": 640
+    },
+    "artifactType": "status",
+    "cooldownSeconds": 10,
+    "locations": [
+      "d1:locations:treetop-tangle",
+      "d1:locations:overgrown-temple",
+      "d1:locations:panda-plateau"
+    ],
+    "properties": [
+      "8 Targets Maximum",
+      "Briefly Entangles Mobs",
+      "Poisons Entangled Mobs",
+      "Applies Poisoned"
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "crowd-control",
+      "poison"
+    ],
+    "related": [
+      "d1:artifacts:fishing-rod",
+      "d1:artifacts:gong-of-weakening",
+      "d1:artifacts:ice-wand",
+      "d1:artifacts:love-medallion",
+      "d1:artifacts:satchel-of-elements",
+      "d1:artifacts:shock-powder"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3891422,
+      "title": "Dungeons:Corrupted Seeds",
+      "url": "https://minecraft.wiki/w/Dungeons:Corrupted_Seeds"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:death-cap-mushroom",
+    "slug": "death-cap-mushroom",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Death Cap Mushroom",
+    "description": "Eaten by daring warriors before battle, the Death Cap Mushroom drives fighters into a frenzy.",
+    "rarity": "common",
+    "image": {
+      "alt": "Death Cap Mushroom icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/death-cap-mushroom.webp",
+      "width": 640
+    },
+    "artifactType": "agility",
+    "cooldownSeconds": 30,
+    "locations": [
+      "d1:locations:creeper-woods",
+      "d1:locations:highblock-halls",
+      "d1:locations:windswept-peaks",
+      "d1:locations:warped-forest"
+    ],
+    "properties": [
+      "Greatly increase attack and movement speed."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "attack-speed"
+    ],
+    "related": [
+      "d1:artifacts:ghost-cloak",
+      "d1:artifacts:light-feather",
+      "d1:artifacts:boots-of-swiftness"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3893055,
+      "title": "Dungeons:Death Cap Mushroom",
+      "url": "https://minecraft.wiki/w/Dungeons:Death_Cap_Mushroom"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:enchanted-grass",
+    "slug": "enchanted-grass",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Enchanted Grass",
+    "description": "Just as there are powerful heroes who answer the call to fight, there are powerful enchanted sheep who will join the fight when summoned.",
+    "rarity": "common",
+    "image": {
+      "alt": "Enchanted Grass icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/enchanted-grass.webp",
+      "width": 640
+    },
+    "artifactType": "summoning",
+    "cooldownSeconds": 30,
+    "locations": [
+      "d1:locations:radiant-ravine"
+    ],
+    "properties": [
+      "Summons an Enchanted Sheep"
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "summoning"
+    ],
+    "related": [
+      "d1:artifacts:golem-kit",
+      "d1:artifacts:soul-lantern",
+      "d1:artifacts:tasty-bone",
+      "d1:artifacts:vexing-chant",
+      "d1:artifacts:wonderful-wheat",
+      "d1:artifacts:buzzy-nest"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3893042,
+      "title": "Dungeons:Enchanted Grass",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchanted_Grass"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:enchanters-tome",
+    "slug": "enchanters-tome",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Enchanter's Tome",
+    "description": "Meant only to be wielded by Enchanters, the magic of this artifact can summon powerful enchantments.",
+    "rarity": "common",
+    "image": {
+      "alt": "Enchanter's Tome icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/enchanters-tome.webp",
+      "width": 640
+    },
+    "artifactType": "defensive",
+    "cooldownSeconds": 15,
+    "locations": [
+      "d1:locations:gauntlet-of-gales",
+      "d1:locations:windswept-peaks"
+    ],
+    "properties": [
+      "Applies Double Damage, Fast Attack, or Quick to nearby allies."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "ally-buff"
+    ],
+    "related": [
+      "d1:artifacts:iron-hide-amulet",
+      "d1:artifacts:powershaker",
+      "d1:artifacts:satchel-of-elixirs",
+      "d1:artifacts:satchel-of-snacks",
+      "d1:artifacts:shadow-shifter",
+      "d1:artifacts:soul-healer"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3893060,
+      "title": "Dungeons:Enchanter's Tome",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchanter's_Tome"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:eye-of-the-guardian",
+    "slug": "eye-of-the-guardian",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Eye of the Guardian",
+    "description": "The Eye of the Guardian holds a power that awakens in the hands of a worthy hero.",
+    "rarity": "common",
+    "dlc": "hidden-depths",
+    "image": {
+      "alt": "Eye of the Guardian icon",
+      "height": 256,
+      "src": "/images/d1/artifacts/eye-of-the-guardian.webp",
+      "width": 256
+    },
+    "artifactType": "damaging",
+    "cooldownSeconds": 22,
+    "locations": [
+      "d1:locations:coral-rise",
+      "d1:locations:abyssal-monument"
+    ],
+    "properties": [
+      "Fires a continuous laser beam at mobs, similar to the Corrupted Beacon and Corrupted Pumpkin, but doesn't use souls and remains active for a limited time."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "soul-gathering"
+    ],
+    "related": [
+      "d1:artifacts:harvester",
+      "d1:artifacts:lightning-rod",
+      "d1:artifacts:scatter-mines",
+      "d1:artifacts:spinblade",
+      "d1:artifacts:updraft-tome",
+      "d1:artifacts:blast-fungus"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3833852,
+      "title": "Dungeons:Eye of the Guardian",
+      "url": "https://minecraft.wiki/w/Dungeons:Eye_of_the_Guardian"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:fireworks-arrow",
+    "slug": "fireworks-arrow",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Fireworks Arrow",
+    "description": "The explosive power of the TNT combined with the high velocity movement of an arrow - what could possibly go wrong?",
+    "rarity": "common",
+    "image": {
+      "alt": "Fireworks Arrow icon",
+      "height": 512,
+      "src": "/images/d1/artifacts/fireworks-arrow.webp",
+      "width": 512
+    },
+    "artifactType": "quiver",
+    "cooldownSeconds": 30,
+    "locations": [
+      "d1:locations:squid-coast",
+      "d1:locations:redstone-mines",
+      "d1:locations:highblock-halls",
+      "d1:locations:underhalls",
+      "d1:locations:colossal-rampart"
+    ],
+    "properties": [
+      "Gives 1 fireworks arrow",
+      "Explodes on impact."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "arrow-supply",
+      "explosive"
+    ],
+    "related": [
+      "d1:artifacts:flaming-quiver",
+      "d1:artifacts:harpoon-quiver",
+      "d1:artifacts:thundering-quiver",
+      "d1:artifacts:torment-quiver",
+      "d1:artifacts:void-quiver"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3893005,
+      "title": "Dungeons:Fireworks Arrow",
+      "url": "https://minecraft.wiki/w/Dungeons:Fireworks_Arrow"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:fishing-rod",
+    "slug": "fishing-rod",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Fishing Rod",
+    "description": "The trusted companion of any true adventurer, the Fishing Rod is useful for more than just fishing.",
+    "rarity": "common",
+    "image": {
+      "alt": "Fishing Rod icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/fishing-rod.webp",
+      "width": 640
+    },
+    "artifactType": "status",
+    "cooldownSeconds": 1.5,
+    "locations": [
+      "d1:locations:squid-coast",
+      "d1:locations:creepy-crypt",
+      "d1:locations:soggy-swamp",
+      "d1:locations:soggy-cave",
+      "d1:locations:frosted-fjord"
+    ],
+    "properties": [
+      "Applies Stunned"
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "crowd-control"
+    ],
+    "related": [
+      "d1:artifacts:gong-of-weakening",
+      "d1:artifacts:ice-wand",
+      "d1:artifacts:love-medallion",
+      "d1:artifacts:satchel-of-elements",
+      "d1:artifacts:shock-powder",
+      "d1:artifacts:corrupted-seeds"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3854850,
+      "title": "Dungeons:Fishing Rod",
+      "url": "https://minecraft.wiki/w/Dungeons:Fishing_Rod"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:flaming-quiver",
+    "slug": "flaming-quiver",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Flaming Quiver",
+    "description": "This quiver is filled with the deadliest of arrows.",
+    "rarity": "common",
+    "image": {
+      "alt": "Flaming Quiver icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/flaming-quiver.webp",
+      "width": 640
+    },
+    "artifactType": "quiver",
+    "cooldownSeconds": 30,
+    "locations": [
+      "d1:locations:pumpkin-pastures",
+      "d1:locations:fiery-forge",
+      "d1:locations:nether-fortress"
+    ],
+    "properties": [
+      "Gives 7 burning arrows",
+      "Applies Burning"
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "arrow-supply",
+      "fire"
+    ],
+    "related": [
+      "d1:artifacts:harpoon-quiver",
+      "d1:artifacts:thundering-quiver",
+      "d1:artifacts:torment-quiver",
+      "d1:artifacts:void-quiver",
+      "d1:artifacts:fireworks-arrow"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3893008,
+      "title": "Dungeons:Flaming Quiver",
+      "url": "https://minecraft.wiki/w/Dungeons:Flaming_Quiver"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:ghost-cloak",
+    "slug": "ghost-cloak",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Ghost Cloak",
+    "description": "The souls trapped within the Ghost Cloak are protective, but they radiate a sense of melancholy.",
+    "rarity": "common",
+    "image": {
+      "alt": "Ghost Cloak icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/ghost-cloak.webp",
+      "width": 640
+    },
+    "artifactType": "agility",
+    "cooldownSeconds": 6,
+    "locations": [
+      "d1:locations:creepy-crypt",
+      "d1:locations:lower-temple",
+      "d1:locations:obsidian-pinnacle",
+      "d1:locations:windswept-peaks",
+      "d1:locations:nether-fortress"
+    ],
+    "properties": [
+      "Gives player Ghost Form, increasing speed and defense for a short time."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "stealth"
+    ],
+    "related": [
+      "d1:artifacts:light-feather",
+      "d1:artifacts:boots-of-swiftness",
+      "d1:artifacts:death-cap-mushroom"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3893056,
+      "title": "Dungeons:Ghost Cloak",
+      "url": "https://minecraft.wiki/w/Dungeons:Ghost_Cloak"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:golem-kit",
+    "slug": "golem-kit",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Golem Kit",
+    "description": "Iron Golems have always protected the Villagers of the Overworld. Their numbers are dwindling as a result of the Arch-Illager's war.",
+    "rarity": "common",
+    "image": {
+      "alt": "Golem Kit icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/golem-kit.webp",
+      "width": 640
+    },
+    "artifactType": "summoning",
+    "cooldownSeconds": 30,
+    "locations": [
+      "d1:locations:pumpkin-pastures",
+      "d1:locations:lost-settlement"
+    ],
+    "properties": [
+      "Summons an Iron Golem"
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "summoning"
+    ],
+    "related": [
+      "d1:artifacts:soul-lantern",
+      "d1:artifacts:tasty-bone",
+      "d1:artifacts:vexing-chant",
+      "d1:artifacts:wonderful-wheat",
+      "d1:artifacts:buzzy-nest",
+      "d1:artifacts:enchanted-grass"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3834441,
+      "title": "Dungeons:Golem Kit",
+      "url": "https://minecraft.wiki/w/Dungeons:Golem_Kit"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:gong-of-weakening",
+    "slug": "gong-of-weakening",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Gong of Weakening",
+    "description": "This ancient gong, marked with the symbols of a nameless kingdom, feels safe in your hands but emits a menacing hum to those nearby.",
+    "rarity": "common",
+    "image": {
+      "alt": "Gong of Weakening icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/gong-of-weakening.webp",
+      "width": 640
+    },
+    "artifactType": "status",
+    "cooldownSeconds": 20,
+    "locations": [
+      "d1:locations:desert-temple",
+      "d1:locations:abyssal-monument"
+    ],
+    "properties": [
+      "This gong reduces the amount of damage and health of the mobs around it."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "crowd-control"
+    ],
+    "related": [
+      "d1:artifacts:ice-wand",
+      "d1:artifacts:love-medallion",
+      "d1:artifacts:satchel-of-elements",
+      "d1:artifacts:shock-powder",
+      "d1:artifacts:corrupted-seeds",
+      "d1:artifacts:fishing-rod"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3834514,
+      "title": "Dungeons:Gong of Weakening",
+      "url": "https://minecraft.wiki/w/Dungeons:Gong_of_Weakening"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:harpoon-quiver",
+    "slug": "harpoon-quiver",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Harpoon Quiver",
+    "description": "This quiver holds a number of harpoons that swiftly pierce through enemies on land or underwater.",
+    "rarity": "common",
+    "dlc": "hidden-depths",
+    "image": {
+      "alt": "Harpoon Quiver icon",
+      "height": 256,
+      "src": "/images/d1/artifacts/harpoon-quiver.webp",
+      "width": 256
+    },
+    "artifactType": "quiver",
+    "cooldownSeconds": 30,
+    "locations": [
+      "d1:locations:coral-rise",
+      "d1:locations:abyssal-monument"
+    ],
+    "properties": [
+      "Gives 5 harpoon arrows",
+      "Arrows pierce through mobs",
+      "Arrows work underwater"
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "arrow-supply",
+      "piercing"
+    ],
+    "related": [
+      "d1:artifacts:thundering-quiver",
+      "d1:artifacts:torment-quiver",
+      "d1:artifacts:void-quiver",
+      "d1:artifacts:fireworks-arrow",
+      "d1:artifacts:flaming-quiver"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3833872,
+      "title": "Dungeons:Harpoon Quiver",
+      "url": "https://minecraft.wiki/w/Dungeons:Harpoon_Quiver"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:harvester",
+    "slug": "harvester",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Harvester",
+    "description": "The Harvester siphons the souls of the dead, before releasing them into a cluster hex of power.",
+    "rarity": "common",
+    "image": {
+      "alt": "Harvester icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/harvester.webp",
+      "width": 640
+    },
+    "artifactType": "damaging",
+    "cooldownSeconds": 8,
+    "locations": [
+      "d1:locations:soggy-swamp",
+      "d1:locations:redstone-mines",
+      "d1:locations:gale-sanctum",
+      "d1:locations:soul-sand-valley"
+    ],
+    "properties": [
+      "Creates a giant explosion near the player, consuming souls and dealing medium damage.",
+      "+1 Soul Gathering."
+    ],
+    "requiresSouls": true,
+    "tags": [
+      "explosive",
+      "soul-gathering"
+    ],
+    "related": [
+      "d1:artifacts:lightning-rod",
+      "d1:artifacts:scatter-mines",
+      "d1:artifacts:spinblade",
+      "d1:artifacts:updraft-tome",
+      "d1:artifacts:blast-fungus",
+      "d1:artifacts:corrupted-beacon"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3891425,
+      "title": "Dungeons:Harvester",
+      "url": "https://minecraft.wiki/w/Dungeons:Harvester"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:ice-wand",
+    "slug": "ice-wand",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Ice Wand",
+    "description": "The Ice Wand was trapped in a tomb of ice for ages, sealed away by those who feared its power.",
+    "rarity": "common",
+    "dlc": "creeping-winter",
+    "image": {
+      "alt": "Ice Wand icon",
+      "height": 512,
+      "src": "/images/d1/artifacts/ice-wand.webp",
+      "width": 512
+    },
+    "artifactType": "status",
+    "cooldownSeconds": 15,
+    "locations": [
+      "d1:locations:frosted-fjord",
+      "d1:locations:lone-fortress"
+    ],
+    "properties": [
+      "Creates an ice block on top of the nearest mob",
+      "Applies Stunned"
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "crowd-control",
+      "ice"
+    ],
+    "related": [
+      "d1:artifacts:love-medallion",
+      "d1:artifacts:satchel-of-elements",
+      "d1:artifacts:shock-powder",
+      "d1:artifacts:corrupted-seeds",
+      "d1:artifacts:fishing-rod",
+      "d1:artifacts:gong-of-weakening"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3891431,
+      "title": "Dungeons:Ice Wand",
+      "url": "https://minecraft.wiki/w/Dungeons:Ice_Wand"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:iron-hide-amulet",
+    "slug": "iron-hide-amulet",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Iron Hide Amulet",
+    "description": "The Iron Hide Amulet is both ancient and timeless. Sand mysteriously and endlessly slips through the cracks in the iron.",
+    "rarity": "common",
+    "image": {
+      "alt": "Iron Hide Amulet icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/iron-hide-amulet.webp",
+      "width": 640
+    },
+    "artifactType": "defensive",
+    "cooldownSeconds": 25,
+    "locations": [
+      "d1:locations:fiery-forge",
+      "d1:locations:lower-temple",
+      "d1:locations:underhalls",
+      "d1:locations:treetop-tangle",
+      "d1:locations:dingy-jungle"
+    ],
+    "properties": [
+      "Applies Defense."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "defense"
+    ],
+    "related": [
+      "d1:artifacts:powershaker",
+      "d1:artifacts:satchel-of-elixirs",
+      "d1:artifacts:satchel-of-snacks",
+      "d1:artifacts:shadow-shifter",
+      "d1:artifacts:soul-healer",
+      "d1:artifacts:tome-of-duplication"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3893062,
+      "title": "Dungeons:Iron Hide Amulet",
+      "url": "https://minecraft.wiki/w/Dungeons:Iron_Hide_Amulet"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:light-feather",
+    "slug": "light-feather",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Light Feather",
+    "description": "No one knows what mysterious creature this feather came from, but it is as beautiful and powerful.",
+    "rarity": "common",
+    "image": {
+      "alt": "Light Feather icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/light-feather.webp",
+      "width": 640
+    },
+    "artifactType": "agility",
+    "cooldownSeconds": 3,
+    "locations": [
+      "d1:locations:pumpkin-pastures",
+      "d1:locations:arch-haven",
+      "d1:locations:highblock-halls",
+      "d1:locations:lost-settlement"
+    ],
+    "properties": [
+      "Activates Rolling and triggers mobs to be pushed back and applies stunned."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "crowd-control"
+    ],
+    "related": [
+      "d1:artifacts:boots-of-swiftness",
+      "d1:artifacts:death-cap-mushroom",
+      "d1:artifacts:ghost-cloak"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3893057,
+      "title": "Dungeons:Light Feather",
+      "url": "https://minecraft.wiki/w/Dungeons:Light_Feather"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:lightning-rod",
+    "slug": "lightning-rod",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Lightning Rod",
+    "description": "Crafted by Illager Geomancers, this item is enchanted with the power of a storming sky.",
+    "rarity": "common",
+    "image": {
+      "alt": "Lightning Rod icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/lightning-rod.webp",
+      "width": 640
+    },
+    "artifactType": "damaging",
+    "cooldownSeconds": 4,
+    "locations": [
+      "d1:locations:soggy-swamp",
+      "d1:locations:soggy-cave",
+      "d1:locations:obsidian-pinnacle",
+      "d1:locations:frosted-fjord",
+      "d1:locations:nether-fortress"
+    ],
+    "properties": [
+      "Summons a lightning bolt to attack the enemy at the cost of souls. Heavy damage.",
+      "+1 Soul Gathering."
+    ],
+    "requiresSouls": true,
+    "tags": [
+      "artifact-attack",
+      "soul-gathering"
+    ],
+    "related": [
+      "d1:artifacts:scatter-mines",
+      "d1:artifacts:spinblade",
+      "d1:artifacts:updraft-tome",
+      "d1:artifacts:blast-fungus",
+      "d1:artifacts:corrupted-beacon",
+      "d1:artifacts:corrupted-pumpkin"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3891435,
+      "title": "Dungeons:Lightning Rod",
+      "url": "https://minecraft.wiki/w/Dungeons:Lightning_Rod"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:love-medallion",
+    "slug": "love-medallion",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Love Medallion",
+    "description": "A spell radiates from this trinket, enchanting those nearby into a trance where they must protect the holder of the medallion at all costs.",
+    "rarity": "common",
+    "image": {
+      "alt": "Love Medallion icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/love-medallion.webp",
+      "width": 640
+    },
+    "artifactType": "status",
+    "cooldownSeconds": 30,
+    "locations": [
+      "d1:locations:arch-haven",
+      "d1:locations:highblock-halls",
+      "d1:locations:underhalls",
+      "d1:locations:panda-plateau"
+    ],
+    "properties": [
+      "Turns up to three mobs near you into allies for ten seconds, then kills them. Mobs that have been charmed by this artifact also gain a damage boost when turning on other mobs. The damage of the mobs increased is directly proportional to the item's power level."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "damage-boost"
+    ],
+    "related": [
+      "d1:artifacts:satchel-of-elements",
+      "d1:artifacts:shock-powder",
+      "d1:artifacts:corrupted-seeds",
+      "d1:artifacts:fishing-rod",
+      "d1:artifacts:gong-of-weakening",
+      "d1:artifacts:ice-wand"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3834515,
+      "title": "Dungeons:Love Medallion",
+      "url": "https://minecraft.wiki/w/Dungeons:Love_Medallion"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:powershaker",
+    "slug": "powershaker",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Powershaker",
+    "description": "The Powershaker is a smashing good time, though it may not be as fun for your enemies.",
+    "rarity": "common",
+    "dlc": "flames-of-the-nether",
+    "image": {
+      "alt": "Powershaker icon",
+      "height": 256,
+      "src": "/images/d1/artifacts/powershaker.webp",
+      "width": 256
+    },
+    "artifactType": "defensive",
+    "cooldownSeconds": 10,
+    "locations": [
+      "d1:locations:nether-fortress",
+      "d1:locations:warped-forest"
+    ],
+    "properties": [
+      "Applies an effect similar to Exploding."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "explosive"
+    ],
+    "related": [
+      "d1:artifacts:satchel-of-elixirs",
+      "d1:artifacts:satchel-of-snacks",
+      "d1:artifacts:shadow-shifter",
+      "d1:artifacts:soul-healer",
+      "d1:artifacts:tome-of-duplication",
+      "d1:artifacts:totem-of-casting"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3843506,
+      "title": "Dungeons:Powershaker",
+      "url": "https://minecraft.wiki/w/Dungeons:Powershaker"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:satchel-of-elements",
+    "slug": "satchel-of-elements",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Satchel of Elements",
+    "description": "Mysteries surround this primordial satchel. Will it unleash fire, ice, or something a lot less nice?",
+    "rarity": "common",
+    "image": {
+      "alt": "Satchel of Elements icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/satchel-of-elements.webp",
+      "width": 640
+    },
+    "artifactType": "status",
+    "cooldownSeconds": 10,
+    "locations": [
+      "d1:locations:gale-sanctum",
+      "d1:locations:gauntlet-of-gales"
+    ],
+    "properties": [
+      "7 Targets Maximum",
+      "Applies Burning, Frozen, or strikes Lightning."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "crowd-control",
+      "status-effects"
+    ],
+    "related": [
+      "d1:artifacts:shock-powder",
+      "d1:artifacts:corrupted-seeds",
+      "d1:artifacts:fishing-rod",
+      "d1:artifacts:gong-of-weakening",
+      "d1:artifacts:ice-wand",
+      "d1:artifacts:love-medallion"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3858366,
+      "title": "Dungeons:Satchel of Elements",
+      "url": "https://minecraft.wiki/w/Dungeons:Satchel_of_Elements"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:satchel-of-elixirs",
+    "slug": "satchel-of-elixirs",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Satchel of Elixirs",
+    "description": "The Satchel of Elixirs always contains the exact potions you need! (Well, at least the potions it thinks you need, which is still pretty helpful.)",
+    "rarity": "common",
+    "dlc": "hidden-depths",
+    "image": {
+      "alt": "Satchel of Elixirs icon",
+      "height": 256,
+      "src": "/images/d1/artifacts/satchel-of-elixirs.webp",
+      "width": 256
+    },
+    "artifactType": "defensive",
+    "cooldownSeconds": 25,
+    "locations": [
+      "d1:locations:coral-rise",
+      "d1:locations:radiant-ravine"
+    ],
+    "properties": [
+      "Crafts two random potions that can benefit the player."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "consumables"
+    ],
+    "related": [
+      "d1:artifacts:satchel-of-snacks",
+      "d1:artifacts:shadow-shifter",
+      "d1:artifacts:soul-healer",
+      "d1:artifacts:tome-of-duplication",
+      "d1:artifacts:totem-of-casting",
+      "d1:artifacts:totem-of-regeneration"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3834516,
+      "title": "Dungeons:Satchel of Elixirs",
+      "url": "https://minecraft.wiki/w/Dungeons:Satchel_of_Elixirs"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:satchel-of-snacks",
+    "slug": "satchel-of-snacks",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Satchel of Snacks",
+    "description": "The Satchel of Snacks provides a treat when you need it most!",
+    "rarity": "common",
+    "dlc": "hidden-depths",
+    "image": {
+      "alt": "Satchel of Snacks icon",
+      "height": 256,
+      "src": "/images/d1/artifacts/satchel-of-snacks.webp",
+      "width": 256
+    },
+    "artifactType": "defensive",
+    "cooldownSeconds": 16,
+    "locations": [
+      "d1:locations:abyssal-monument",
+      "d1:locations:radiant-ravine"
+    ],
+    "properties": [
+      "Crafts a random food item that can benefit the player."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "consumables"
+    ],
+    "related": [
+      "d1:artifacts:shadow-shifter",
+      "d1:artifacts:soul-healer",
+      "d1:artifacts:tome-of-duplication",
+      "d1:artifacts:totem-of-casting",
+      "d1:artifacts:totem-of-regeneration",
+      "d1:artifacts:totem-of-shielding"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3834517,
+      "title": "Dungeons:Satchel of Snacks",
+      "url": "https://minecraft.wiki/w/Dungeons:Satchel_of_Snacks"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:scatter-mines",
+    "slug": "scatter-mines",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Scatter Mines",
+    "description": "Set your enemies up for the surprise of a lifetime with the explosive power of Scatter Mines.",
+    "rarity": "common",
+    "image": {
+      "alt": "Scatter Mines icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/scatter-mines.webp",
+      "width": 640
+    },
+    "artifactType": "damaging",
+    "cooldownSeconds": 12,
+    "locations": [
+      "d1:locations:redstone-mines",
+      "d1:locations:fiery-forge",
+      "d1:locations:gauntlet-of-gales",
+      "d1:locations:colossal-rampart"
+    ],
+    "properties": [
+      "Summons three mines, which denotate upon contact. Similar to Redstone Golem's Mines. Allies no longer take damage from this artifact."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "summoning"
+    ],
+    "related": [
+      "d1:artifacts:spinblade",
+      "d1:artifacts:updraft-tome",
+      "d1:artifacts:blast-fungus",
+      "d1:artifacts:corrupted-beacon",
+      "d1:artifacts:corrupted-pumpkin",
+      "d1:artifacts:eye-of-the-guardian"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3891441,
+      "title": "Dungeons:Scatter Mines",
+      "url": "https://minecraft.wiki/w/Dungeons:Scatter_Mines"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:shadow-shifter",
+    "slug": "shadow-shifter",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Shadow Shifter",
+    "description": "The Shadow Shifter grants you Shadow Form, which allows you to stay out of sight.",
+    "rarity": "common",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "Shadow Shifter icon",
+      "height": 256,
+      "src": "/images/d1/artifacts/shadow-shifter.webp",
+      "width": 256
+    },
+    "artifactType": "defensive",
+    "cooldownSeconds": 10,
+    "locations": [
+      "d1:locations:end-wilds"
+    ],
+    "properties": [
+      "Grants the user Shadow Form",
+      "+1 Soul Gathering."
+    ],
+    "requiresSouls": true,
+    "tags": [
+      "soul-gathering",
+      "stealth"
+    ],
+    "related": [
+      "d1:artifacts:soul-healer",
+      "d1:artifacts:tome-of-duplication",
+      "d1:artifacts:totem-of-casting",
+      "d1:artifacts:totem-of-regeneration",
+      "d1:artifacts:totem-of-shielding",
+      "d1:artifacts:wind-horn"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3834518,
+      "title": "Dungeons:Shadow Shifter",
+      "url": "https://minecraft.wiki/w/Dungeons:Shadow_Shifter"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:shock-powder",
+    "slug": "shock-powder",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Shock Powder",
+    "description": "Shock Powder is a reliable tool for those who wish to make a swift exit.",
+    "rarity": "common",
+    "image": {
+      "alt": "Shock Powder icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/shock-powder.webp",
+      "width": 640
+    },
+    "artifactType": "status",
+    "cooldownSeconds": 15,
+    "locations": [
+      "d1:locations:desert-temple",
+      "d1:locations:lower-temple",
+      "d1:locations:obsidian-pinnacle",
+      "d1:locations:lost-settlement",
+      "d1:locations:warped-forest"
+    ],
+    "properties": [
+      "Applies Stunned"
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "crowd-control"
+    ],
+    "related": [
+      "d1:artifacts:corrupted-seeds",
+      "d1:artifacts:fishing-rod",
+      "d1:artifacts:gong-of-weakening",
+      "d1:artifacts:ice-wand",
+      "d1:artifacts:love-medallion",
+      "d1:artifacts:satchel-of-elements"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3834519,
+      "title": "Dungeons:Shock Powder",
+      "url": "https://minecraft.wiki/w/Dungeons:Shock_Powder"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:soul-healer",
+    "slug": "soul-healer",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Soul Healer",
+    "description": "The Soul Healer amulet is cold to the touch and trembles with the power of souls.",
+    "rarity": "common",
+    "image": {
+      "alt": "Soul Healer icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/soul-healer.webp",
+      "width": 640
+    },
+    "artifactType": "defensive",
+    "cooldownSeconds": 5,
+    "locations": [
+      "d1:locations:soggy-swamp",
+      "d1:locations:soggy-cave",
+      "d1:locations:fiery-forge",
+      "d1:locations:overgrown-temple",
+      "d1:locations:crimson-forest"
+    ],
+    "properties": [
+      "Heals the most",
+      "injured nearby, including the user, at the cost of souls.",
+      "+1 Soul Gathering."
+    ],
+    "requiresSouls": true,
+    "tags": [
+      "healing",
+      "soul-gathering"
+    ],
+    "related": [
+      "d1:artifacts:tome-of-duplication",
+      "d1:artifacts:totem-of-casting",
+      "d1:artifacts:totem-of-regeneration",
+      "d1:artifacts:totem-of-shielding",
+      "d1:artifacts:wind-horn",
+      "d1:artifacts:enchanters-tome"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3834520,
+      "title": "Dungeons:Soul Healer",
+      "url": "https://minecraft.wiki/w/Dungeons:Soul_Healer"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:soul-lantern",
+    "slug": "soul-lantern",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Soul Lantern",
+    "description": "This lantern, still covered in the sands of some far-flung place, allows those who hold it to summon a creature formed from bound souls.",
+    "rarity": "common",
+    "image": {
+      "alt": "Soul Lantern icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/soul-lantern.webp",
+      "width": 640
+    },
+    "artifactType": "summoning",
+    "cooldownSeconds": 5,
+    "locations": [
+      "d1:locations:creepy-crypt",
+      "d1:locations:cacti-canyon",
+      "d1:locations:underhalls",
+      "d1:locations:soul-sand-valley"
+    ],
+    "properties": [
+      "Summons a Soul Wizard",
+      "+1 Soul Gathering."
+    ],
+    "requiresSouls": true,
+    "tags": [
+      "soul-gathering",
+      "summoning"
+    ],
+    "related": [
+      "d1:artifacts:tasty-bone",
+      "d1:artifacts:vexing-chant",
+      "d1:artifacts:wonderful-wheat",
+      "d1:artifacts:buzzy-nest",
+      "d1:artifacts:enchanted-grass",
+      "d1:artifacts:golem-kit"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3893044,
+      "title": "Dungeons:Soul Lantern",
+      "url": "https://minecraft.wiki/w/Dungeons:Soul_Lantern"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:spinblade",
+    "slug": "spinblade",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Spinblade",
+    "description": "This whirling weapon spins across the battlefield, slicing through enemies in its path.",
+    "rarity": "common",
+    "dlc": "flames-of-the-nether",
+    "image": {
+      "alt": "Spinblade icon",
+      "height": 256,
+      "src": "/images/d1/artifacts/spinblade.webp",
+      "width": 256
+    },
+    "artifactType": "damaging",
+    "cooldownSeconds": 5,
+    "locations": [
+      "d1:locations:nether-wastes",
+      "d1:locations:basalt-deltas"
+    ],
+    "properties": [
+      "Slices through mobs, damaging them and eventually returning to the player."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "artifact-attack"
+    ],
+    "related": [
+      "d1:artifacts:updraft-tome",
+      "d1:artifacts:blast-fungus",
+      "d1:artifacts:corrupted-beacon",
+      "d1:artifacts:corrupted-pumpkin",
+      "d1:artifacts:eye-of-the-guardian",
+      "d1:artifacts:harvester"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3891443,
+      "title": "Dungeons:Spinblade",
+      "url": "https://minecraft.wiki/w/Dungeons:Spinblade"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:tasty-bone",
+    "slug": "tasty-bone",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Tasty Bone",
+    "description": "You hear distant howling as you hold the Tasty Bone in your hand.",
+    "rarity": "common",
+    "image": {
+      "alt": "Tasty Bone icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/tasty-bone.webp",
+      "width": 640
+    },
+    "artifactType": "summoning",
+    "cooldownSeconds": 30,
+    "locations": [
+      "d1:locations:creeper-woods",
+      "d1:locations:creepy-crypt",
+      "d1:locations:redstone-mines",
+      "d1:locations:dingy-jungle"
+    ],
+    "properties": [
+      "Summons a Wolf"
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "summoning"
+    ],
+    "related": [
+      "d1:artifacts:vexing-chant",
+      "d1:artifacts:wonderful-wheat",
+      "d1:artifacts:buzzy-nest",
+      "d1:artifacts:enchanted-grass",
+      "d1:artifacts:golem-kit",
+      "d1:artifacts:soul-lantern"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3893046,
+      "title": "Dungeons:Tasty Bone",
+      "url": "https://minecraft.wiki/w/Dungeons:Tasty_Bone"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:thundering-quiver",
+    "slug": "thundering-quiver",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Thundering Quiver",
+    "description": "This copper quiver channels the power of lightning.",
+    "rarity": "common",
+    "dlc": "flames-of-the-nether",
+    "image": {
+      "alt": "Thundering Quiver icon",
+      "height": 512,
+      "src": "/images/d1/artifacts/thundering-quiver.webp",
+      "width": 512
+    },
+    "artifactType": "quiver",
+    "cooldownSeconds": 30,
+    "locations": [
+      "d1:locations:nether-wastes",
+      "d1:locations:soul-sand-valley"
+    ],
+    "properties": [
+      "Gives 5 thundering arrows",
+      "Electrified Arrows"
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "arrow-supply",
+      "lightning"
+    ],
+    "related": [
+      "d1:artifacts:torment-quiver",
+      "d1:artifacts:void-quiver",
+      "d1:artifacts:fireworks-arrow",
+      "d1:artifacts:flaming-quiver",
+      "d1:artifacts:harpoon-quiver"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3893010,
+      "title": "Dungeons:Thundering Quiver",
+      "url": "https://minecraft.wiki/w/Dungeons:Thundering_Quiver"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:tome-of-duplication",
+    "slug": "tome-of-duplication",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Tome of Duplication",
+    "description": "A magical tome which when read is capable of duplicating items such as food, potions and explosives!",
+    "rarity": "common",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "Tome of Duplication icon",
+      "height": 256,
+      "src": "/images/d1/artifacts/tome-of-duplication.webp",
+      "width": 256
+    },
+    "artifactType": "defensive",
+    "cooldownSeconds": 10,
+    "locations": [
+      "d1:locations:end-wilds"
+    ],
+    "properties": [
+      "Creates a copy of the last consumable used by the player."
+    ],
+    "requiresSouls": true,
+    "tags": [
+      "consumables"
+    ],
+    "related": [
+      "d1:artifacts:totem-of-casting",
+      "d1:artifacts:totem-of-regeneration",
+      "d1:artifacts:totem-of-shielding",
+      "d1:artifacts:wind-horn",
+      "d1:artifacts:enchanters-tome",
+      "d1:artifacts:iron-hide-amulet"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3834521,
+      "title": "Dungeons:Tome of Duplication",
+      "url": "https://minecraft.wiki/w/Dungeons:Tome_of_Duplication"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:torment-quiver",
+    "slug": "torment-quiver",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Torment Quiver",
+    "description": "The Torment Quiver radiates powerful energy drawn from the eternal source of the Undead.",
+    "rarity": "common",
+    "image": {
+      "alt": "Torment Quiver icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/torment-quiver.webp",
+      "width": 640
+    },
+    "artifactType": "quiver",
+    "cooldownSeconds": 6,
+    "locations": [
+      "d1:locations:creeper-woods",
+      "d1:locations:desert-temple",
+      "d1:locations:lower-temple",
+      "d1:locations:lone-fortress"
+    ],
+    "properties": [
+      "Gives 3 slow arrows",
+      "+1 Soul Gathering",
+      "Increased Knockback",
+      "Arrows pass through walls"
+    ],
+    "requiresSouls": true,
+    "tags": [
+      "arrow-supply",
+      "knockback",
+      "piercing",
+      "soul-gathering"
+    ],
+    "related": [
+      "d1:artifacts:void-quiver",
+      "d1:artifacts:fireworks-arrow",
+      "d1:artifacts:flaming-quiver",
+      "d1:artifacts:harpoon-quiver",
+      "d1:artifacts:thundering-quiver"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3833606,
+      "title": "Dungeons:Torment Quiver",
+      "url": "https://minecraft.wiki/w/Dungeons:Torment_Quiver"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:totem-of-casting",
+    "slug": "totem-of-casting",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Totem of Casting",
+    "description": "All who are near this totem feel an invigorating aura around their artifacts.",
+    "rarity": "common",
+    "image": {
+      "alt": "Totem of Casting icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/totem-of-casting.webp",
+      "width": 640
+    },
+    "artifactType": "defensive",
+    "cooldownSeconds": 10,
+    "locations": [
+      "d1:locations:redstone-mines",
+      "d1:locations:fiery-forge",
+      "d1:locations:lower-temple",
+      "d1:locations:treetop-tangle"
+    ],
+    "properties": [
+      "Creates a boosting aura using souls to speed up other players' artifact cooldowns."
+    ],
+    "requiresSouls": true,
+    "tags": [
+      "artifact-cooldown"
+    ],
+    "related": [
+      "d1:artifacts:totem-of-regeneration",
+      "d1:artifacts:totem-of-shielding",
+      "d1:artifacts:wind-horn",
+      "d1:artifacts:enchanters-tome",
+      "d1:artifacts:iron-hide-amulet",
+      "d1:artifacts:powershaker"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3834524,
+      "title": "Dungeons:Totem of Casting",
+      "url": "https://minecraft.wiki/w/Dungeons:Totem_of_Casting"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:totem-of-regeneration",
+    "slug": "totem-of-regeneration",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Totem of Regeneration",
+    "description": "This hand-crafted wooden figurine radiates a warmth like that of a crackling campfire, healing those who gather around it.",
+    "rarity": "common",
+    "image": {
+      "alt": "Totem of Regeneration icon",
+      "height": 512,
+      "src": "/images/d1/artifacts/totem-of-regeneration.webp",
+      "width": 512
+    },
+    "artifactType": "defensive",
+    "cooldownSeconds": 25,
+    "locations": [
+      "d1:locations:soggy-swamp",
+      "d1:locations:soggy-cave",
+      "d1:locations:fiery-forge",
+      "d1:locations:dingy-jungle",
+      "d1:locations:basalt-deltas"
+    ],
+    "properties": [
+      "Creates a healing aura, which gradually heals players inside the aura."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "healing"
+    ],
+    "related": [
+      "d1:artifacts:totem-of-shielding",
+      "d1:artifacts:wind-horn",
+      "d1:artifacts:enchanters-tome",
+      "d1:artifacts:iron-hide-amulet",
+      "d1:artifacts:powershaker",
+      "d1:artifacts:satchel-of-elixirs"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3834526,
+      "title": "Dungeons:Totem of Regeneration",
+      "url": "https://minecraft.wiki/w/Dungeons:Totem_of_Regeneration"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:totem-of-shielding",
+    "slug": "totem-of-shielding",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Totem of Shielding",
+    "description": "This totem radiates powerful energy that bursts forth as a protective shield around those near it.",
+    "rarity": "common",
+    "image": {
+      "alt": "Totem of Shielding icon",
+      "height": 512,
+      "src": "/images/d1/artifacts/totem-of-shielding.webp",
+      "width": 512
+    },
+    "artifactType": "defensive",
+    "cooldownSeconds": 20,
+    "locations": [
+      "d1:locations:cacti-canyon",
+      "d1:locations:desert-temple",
+      "d1:locations:underhalls",
+      "d1:locations:lone-fortress",
+      "d1:locations:crimson-forest"
+    ],
+    "properties": [
+      "Protects player and allies in range from projectiles."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "defense"
+    ],
+    "related": [
+      "d1:artifacts:wind-horn",
+      "d1:artifacts:enchanters-tome",
+      "d1:artifacts:iron-hide-amulet",
+      "d1:artifacts:powershaker",
+      "d1:artifacts:satchel-of-elixirs",
+      "d1:artifacts:satchel-of-snacks"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3880692,
+      "title": "Dungeons:Totem of Shielding",
+      "url": "https://minecraft.wiki/w/Dungeons:Totem_of_Shielding"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:updraft-tome",
+    "slug": "updraft-tome",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Updraft Tome",
+    "description": "An ancient book filled with illegible glyphs, you feel a strange breeze as you flip through the pages.",
+    "rarity": "common",
+    "dlc": "howling-peaks",
+    "image": {
+      "alt": "Updraft Tome icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/updraft-tome.webp",
+      "width": 640
+    },
+    "artifactType": "damaging",
+    "cooldownSeconds": 12,
+    "locations": [
+      "d1:locations:gauntlet-of-gales",
+      "d1:locations:windswept-peaks"
+    ],
+    "properties": [
+      "Sends seven mobs into the air, and then releases them, dealing fall damage."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "crowd-control"
+    ],
+    "related": [
+      "d1:artifacts:blast-fungus",
+      "d1:artifacts:corrupted-beacon",
+      "d1:artifacts:corrupted-pumpkin",
+      "d1:artifacts:eye-of-the-guardian",
+      "d1:artifacts:harvester",
+      "d1:artifacts:lightning-rod"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3891449,
+      "title": "Dungeons:Updraft Tome",
+      "url": "https://minecraft.wiki/w/Dungeons:Updraft_Tome"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:vexing-chant",
+    "slug": "vexing-chant",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Vexing Chant",
+    "description": "Summons Guardian Vexes who will fight by your side for a short time.",
+    "rarity": "common",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "Vexing Chant icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/vexing-chant.webp",
+      "width": 640
+    },
+    "artifactType": "summoning",
+    "cooldownSeconds": 30,
+    "locations": [
+      "d1:locations:broken-citadel"
+    ],
+    "properties": [
+      "Summons 3 Guardian Vexes"
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "summoning"
+    ],
+    "related": [
+      "d1:artifacts:wonderful-wheat",
+      "d1:artifacts:buzzy-nest",
+      "d1:artifacts:enchanted-grass",
+      "d1:artifacts:golem-kit",
+      "d1:artifacts:soul-lantern",
+      "d1:artifacts:tasty-bone"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3879555,
+      "title": "Dungeons:Vexing Chant",
+      "url": "https://minecraft.wiki/w/Dungeons:Vexing_Chant"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:void-quiver",
+    "slug": "void-quiver",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Void Quiver",
+    "description": "The Void Quiver is filled with arrows that splash Void Liquid when they hit their target.",
+    "rarity": "common",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "Void Quiver icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/void-quiver.webp",
+      "width": 640
+    },
+    "artifactType": "quiver",
+    "cooldownSeconds": 25,
+    "locations": [
+      "d1:locations:broken-citadel"
+    ],
+    "properties": [
+      "Gives 5 void touched arrows",
+      "Void Arrows"
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "arrow-supply"
+    ],
+    "related": [
+      "d1:artifacts:fireworks-arrow",
+      "d1:artifacts:flaming-quiver",
+      "d1:artifacts:harpoon-quiver",
+      "d1:artifacts:thundering-quiver",
+      "d1:artifacts:torment-quiver"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3893011,
+      "title": "Dungeons:Void Quiver",
+      "url": "https://minecraft.wiki/w/Dungeons:Void_Quiver"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:wind-horn",
+    "slug": "wind-horn",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Wind Horn",
+    "description": "When the Wind Horn echoes throughout the forests of the Overworld the creatures of the night tremble with fear.",
+    "rarity": "common",
+    "image": {
+      "alt": "Wind Horn icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/wind-horn.webp",
+      "width": 640
+    },
+    "artifactType": "defensive",
+    "cooldownSeconds": 10,
+    "locations": [
+      "d1:locations:pumpkin-pastures",
+      "d1:locations:arch-haven",
+      "d1:locations:cacti-canyon",
+      "d1:locations:overgrown-temple",
+      "d1:locations:windswept-peaks",
+      "d1:locations:nether-wastes"
+    ],
+    "properties": [
+      "Pushes enemies away and slows them briefly."
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "crowd-control"
+    ],
+    "related": [
+      "d1:artifacts:enchanters-tome",
+      "d1:artifacts:iron-hide-amulet",
+      "d1:artifacts:powershaker",
+      "d1:artifacts:satchel-of-elixirs",
+      "d1:artifacts:satchel-of-snacks",
+      "d1:artifacts:shadow-shifter"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3834530,
+      "title": "Dungeons:Wind Horn",
+      "url": "https://minecraft.wiki/w/Dungeons:Wind_Horn"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:artifacts:wonderful-wheat",
+    "slug": "wonderful-wheat",
+    "game": "d1",
+    "category": "artifacts",
+    "name": "Wonderful Wheat",
+    "description": "This item has the faint smell of an open field, baked bread, and freshly cut crops.",
+    "rarity": "common",
+    "image": {
+      "alt": "Wonderful Wheat icon",
+      "height": 640,
+      "src": "/images/d1/artifacts/wonderful-wheat.webp",
+      "width": 640
+    },
+    "artifactType": "summoning",
+    "cooldownSeconds": 30,
+    "locations": [
+      "d1:locations:arch-haven",
+      "d1:locations:cacti-canyon",
+      "d1:locations:obsidian-pinnacle",
+      "d1:locations:panda-plateau",
+      "d1:locations:basalt-deltas"
+    ],
+    "properties": [
+      "Summons a Llama"
+    ],
+    "requiresSouls": false,
+    "tags": [
+      "summoning"
+    ],
+    "related": [
+      "d1:artifacts:buzzy-nest",
+      "d1:artifacts:enchanted-grass",
+      "d1:artifacts:golem-kit",
+      "d1:artifacts:soul-lantern",
+      "d1:artifacts:tasty-bone",
+      "d1:artifacts:vexing-chant"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:52:09.990Z",
+      "revisionId": 3843576,
+      "title": "Dungeons:Wonderful Wheat",
+      "url": "https://minecraft.wiki/w/Dungeons:Wonderful_Wheat"
+    },
+    "quality": "verified"
+  }
+]

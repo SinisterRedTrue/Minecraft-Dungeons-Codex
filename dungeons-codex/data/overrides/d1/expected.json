@@ -1,0 +1,14 @@
+[
+  {
+    "category": "weapons",
+    "count": 153,
+    "reason": "The page intro says 83 melee and 72 ranged weapons, but those are totals: the Melee and Ranged navboxes list 83 and 72 pages including the unused Monkey Motivator and Spider Crossbow, which the page lists apart from the obtainable weapons; 82 melee + 71 ranged are obtainable.",
+    "sourceUrl": "https://minecraft.wiki/w/Dungeons:Weapon"
+  },
+  {
+    "category": "artifacts",
+    "count": 45,
+    "reason": "The page intro says 46 artifacts, but Category:Minecraft Dungeons artifacts has 54 item pages: 45 in the list tables, 8 in the Unused table and the unused consumable Icon Map, which is categorised by mistake.",
+    "sourceUrl": "https://minecraft.wiki/w/Dungeons:Artifact"
+  }
+]

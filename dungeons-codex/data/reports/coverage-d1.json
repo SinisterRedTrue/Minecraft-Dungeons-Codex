@@ -1,0 +1,1205 @@
+{
+  "game": "d1",
+  "categories": {
+    "weapons": {
+      "category": "weapons",
+      "expected": 153,
+      "expectedNote": "page intro: 83 melee + 72 ranged; 2 unused weapon(s) skipped; corrected to 153: The page intro says 83 melee and 72 ranged weapons, but those are totals: the Melee and Ranged navboxes list 83 and 72 pages including the unused Monkey Motivator and Spider Crossbow, which the page lists apart from the obtainable weapons; 82 melee + 71 ranged are obtainable. (https://minecraft.wiki/w/Dungeons:Weapon)",
+      "parsed": 153,
+      "valid": 153,
+      "dropped": [],
+      "partial": [],
+      "missingImages": [],
+      "slugCollisions": [],
+      "overridesApplied": [],
+      "overridesUnmatched": [],
+      "unresolved": [
+        {
+          "value": "Inventory if no Melee weapons are present",
+          "usedBy": [
+            "d1:weapons:sword"
+          ]
+        }
+      ],
+      "droppedRefs": [],
+      "notes": [
+        "list page revision 3873343"
+      ]
+    },
+    "armor": {
+      "category": "armor",
+      "expected": 71,
+      "expectedNote": "page intro: 71 armors; 1 unused armor(s) skipped",
+      "parsed": 71,
+      "valid": 71,
+      "dropped": [],
+      "partial": [],
+      "missingImages": [],
+      "slugCollisions": [],
+      "overridesApplied": [],
+      "overridesUnmatched": [],
+      "unresolved": [],
+      "droppedRefs": [],
+      "notes": [
+        "list page revision 3873342"
+      ]
+    },
+    "enchantments": {
+      "category": "enchantments",
+      "expected": 108,
+      "expectedNote": "108 distinct names in the Melee/Ranged/Armor/Exclusive tables; 8 unused skipped; page states no total",
+      "parsed": 108,
+      "valid": 108,
+      "dropped": [],
+      "partial": [
+        {
+          "id": "d1:enchantments:shadow-shot",
+          "missing": [
+            "tier"
+          ]
+        },
+        {
+          "id": "d1:enchantments:shadow-barb",
+          "missing": [
+            "image",
+            "tier"
+          ]
+        },
+        {
+          "id": "d1:enchantments:shared-pain",
+          "missing": [
+            "tier"
+          ]
+        },
+        {
+          "id": "d1:enchantments:thrive-under-pressure",
+          "missing": [
+            "tier"
+          ]
+        }
+      ],
+      "missingImages": [],
+      "slugCollisions": [],
+      "overridesApplied": [],
+      "overridesUnmatched": [],
+      "unresolved": [],
+      "droppedRefs": [],
+      "notes": [
+        "list page revision 3873258",
+        "point costs from the Overview table: common 1/2/3, powerful 2/3/4"
+      ]
+    },
+    "artifacts": {
+      "category": "artifacts",
+      "expected": 45,
+      "expectedNote": "page intro: 46 artifacts; 8 unused skipped; corrected to 45: The page intro says 46 artifacts, but Category:Minecraft Dungeons artifacts has 54 item pages: 45 in the list tables, 8 in the Unused table and the unused consumable Icon Map, which is categorised by mistake. (https://minecraft.wiki/w/Dungeons:Artifact)",
+      "parsed": 45,
+      "valid": 45,
+      "dropped": [],
+      "partial": [],
+      "missingImages": [],
+      "slugCollisions": [],
+      "overridesApplied": [],
+      "overridesUnmatched": [],
+      "unresolved": [],
+      "droppedRefs": [],
+      "notes": [
+        "list page revision 3873242"
+      ]
+    },
+    "dlcs": {
+      "category": "dlcs",
+      "expected": 9,
+      "expectedNote": "9 rows in the DLC table of Downloadable content",
+      "parsed": 9,
+      "valid": 9,
+      "dropped": [],
+      "partial": [],
+      "missingImages": [],
+      "slugCollisions": [],
+      "overridesApplied": [],
+      "overridesUnmatched": [],
+      "unresolved": [],
+      "droppedRefs": [],
+      "notes": [
+        "list page revision 3802346 (Dungeons:Downloadable content)"
+      ]
+    },
+    "cosmetics": {
+      "category": "cosmetics",
+      "expected": 288,
+      "expectedNote": "288 obtainable rows across 5 sub-lists (cape, emote, flare, skin, pet)",
+      "parsed": 288,
+      "valid": 288,
+      "dropped": [
+        {
+          "name": "Hammer Cape",
+          "reason": "listed under \"Unimplemented capes\""
+        },
+        {
+          "name": "Iron Golem Cape",
+          "reason": "listed under \"Unimplemented capes\""
+        },
+        {
+          "name": "Mystery Cape",
+          "reason": "listed under \"Unimplemented capes\""
+        },
+        {
+          "name": "Red Royal Cape",
+          "reason": "listed under \"Removed capes\""
+        },
+        {
+          "name": "Small Spider",
+          "reason": "listed under \"Unimplemented\""
+        },
+        {
+          "name": "Otter",
+          "reason": "listed under \"Unimplemented\""
+        },
+        {
+          "name": "Blaze Ferret",
+          "reason": "listed under \"Unimplemented\""
+        },
+        {
+          "name": "Soul Jack o' Lantern",
+          "reason": "listed under \"Unimplemented\""
+        }
+      ],
+      "partial": [
+        {
+          "id": "d1:cosmetics:chicken",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:cosmetics:annika",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:cosmetics:bediako",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:cosmetics:esperanza",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:cosmetics:sergey",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:cosmetics:eshe",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:cosmetics:mayeso",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:cosmetics:neo",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:cosmetics:shikoba",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:cosmetics:zola",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:cosmetics:igor",
+          "missing": [
+            "description"
+          ]
+        }
+      ],
+      "missingImages": [],
+      "slugCollisions": [
+        {
+          "category": "cosmetics",
+          "name": "Confetti",
+          "slug": "confetti-2"
+        },
+        {
+          "category": "cosmetics",
+          "name": "Paw Prints",
+          "slug": "paw-prints-2"
+        }
+      ],
+      "overridesApplied": [],
+      "overridesUnmatched": [],
+      "unresolved": [],
+      "droppedRefs": [],
+      "notes": [
+        "overview page revision 3835966",
+        "cape: Dungeons:Cape revision 3792028",
+        "emote: Dungeons:Emote revision 3733033",
+        "flare: Dungeons:Flair revision 3879610",
+        "skin: Dungeons:Hero revision 3787289",
+        "pet: Dungeons:Pet (cosmetic) revision 3752260"
+      ]
+    },
+    "mobs": {
+      "category": "mobs",
+      "expected": 241,
+      "expectedNote": "241 distinct mobs in the Minecraft Dungeons icon lists; 7 icons under Arcade/Unused/Cinematic/concept/internal skipped",
+      "parsed": 241,
+      "valid": 241,
+      "dropped": [],
+      "partial": [
+        {
+          "id": "d1:mobs:cow",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:ocelot",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:panda",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:pig",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:rabbit",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:sheep",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:target-dummy",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:turtle",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:wooly-cow",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:arctic-fox",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:axolotl-leucistic",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:baby-chicken",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:baby-dairy-cow",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:baby-ghast",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:baby-goat",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:baby-moobloom",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:baby-pig",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:baby-piebald-pig",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:baby-sooty-pig",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:baby-squid",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:baby-turtle",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:baby-wooly-cow",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:brown-tabby",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:calico-cat",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:cinnamon-ferret",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:cluckshroom",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:dark-baby-goat",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:desert-rabbit",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:duck",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:emperor-penguin",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:endermite-cosmetic",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:fancy-chicken",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:fox",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:glowing-mini-abomination",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:glowing-ministrosity",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:golden-axolotl",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:golden-parrot",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:grey-tabby",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:hedgehog",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:mini-abomination",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:mole",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:parrot",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:phantom-familiar",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:racoon",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:raven",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:royal-penguin",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:red-cat",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:red-panda",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:redstone-ministrosity",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:ruby-baby-turtle",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:sable-ferret",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:skunk",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:spotted-baby-pig",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:stone-ministrosity",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:toucan",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:vested-rabbit",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:wild-axolotl",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:zombified-baby-pig",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:blacksmith",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:enchantsmith",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:gift-wrapper",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:gildsmith",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:luxury-merchant",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:mystery-merchant",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:piglin-merchant",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:powersmith",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:uniquesmith",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:village-merchant",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:dolphin",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:glow-squid",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:polar-bear",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:pufferfish",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:squid",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:bat",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:clam-cat",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:clam-easter-egg",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:clam-launcher",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:clam-prop",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:eponymous-squid",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:firefly",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:horse",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:tower-keeper",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:tropical-fish",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:villager",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:vulture",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:wisp",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:enchanted-sheep",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:chicken",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:false-king",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:guardian",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:magma-cube",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:mooshroom",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:slime",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:tropical-slime",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:abomination-vine",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:quick-growing-kelp",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:shulker",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:chicken-jockey",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:chicken-jockey-tower",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:baby-drowned",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:nameless-one",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:unknown-ancient",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:abominable-weaver",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:abyssal-eye",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:ancient-terror",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:barrage",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:cursed-presence",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:oozing-menace",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:solemn-giant",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:the-swarm",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:the-tiny-scourge",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:the-tower-ancient",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:the-unending",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:thundering-growth",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:unstoppable-tusk",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:vengeful-mariner",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:windbeard",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:blue-nethershroom",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:minecart",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:redstone-sentry",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:tnt-launcher",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:woodland-sentry",
+          "missing": [
+            "health"
+          ]
+        },
+        {
+          "id": "d1:mobs:biomine",
+          "missing": [
+            "health"
+          ]
+        }
+      ],
+      "missingImages": [],
+      "slugCollisions": [],
+      "overridesApplied": [],
+      "overridesUnmatched": [],
+      "unresolved": [
+        {
+          "value": "100% drop 2 consumable item: foods, potions, arrow bundles or TNT.",
+          "usedBy": [
+            "d1:mobs:piggy-bank"
+          ]
+        },
+        {
+          "value": "100% drop an armor, melee weapon or ranged weapon.",
+          "usedBy": [
+            "d1:mobs:piggy-bank"
+          ]
+        },
+        {
+          "value": "20% drop an artifact.",
+          "usedBy": [
+            "d1:mobs:piggy-bank"
+          ]
+        },
+        {
+          "value": "Default total value: 8~16 emerald (excluding Apocalypse difficulty)",
+          "usedBy": [
+            "d1:mobs:piggy-bank"
+          ]
+        },
+        {
+          "value": "Drops several emeralds each time hit by hero.",
+          "usedBy": [
+            "d1:mobs:piggy-bank"
+          ]
+        }
+      ],
+      "droppedRefs": [],
+      "notes": [
+        "list page revision 3888776"
+      ]
+    },
+    "locations": {
+      "category": "locations",
+      "expected": 53,
+      "expectedNote": "53 distinct Missions / Secret missions / Sub-missions in the navbox (Sub dungeons and Unused groups not included)",
+      "parsed": 53,
+      "valid": 53,
+      "dropped": [],
+      "partial": [
+        {
+          "id": "d1:locations:camp",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:locations:ancient-hunt",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:locations:basalt-deltas-sub-mission",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:locations:creeper-woods-sub-mission",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:locations:crimson-forest-sub-mission",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:locations:desert-temple-sub-mission",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:locations:nether-fortress-sub-mission",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:locations:nether-wastes-sub-mission",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:locations:soul-sand-valley-sub-mission",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:locations:spider-cave",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:locations:warped-forest-sub-mission",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:locations:woodland-mansion",
+          "missing": [
+            "description"
+          ]
+        },
+        {
+          "id": "d1:locations:woodland-prison",
+          "missing": [
+            "description"
+          ]
+        }
+      ],
+      "missingImages": [],
+      "slugCollisions": [],
+      "overridesApplied": [],
+      "overridesUnmatched": [],
+      "unresolved": [],
+      "droppedRefs": [
+        {
+          "entity": "Creeper Woods",
+          "message": "mob \"Raid Captain\" not found"
+        },
+        {
+          "entity": "Desert Temple",
+          "message": "mob \"Raid Captain\" not found"
+        },
+        {
+          "entity": "Fiery Forge",
+          "message": "mob \"Redstone Core\" not found"
+        },
+        {
+          "entity": "Fiery Forge",
+          "message": "mob \"Raid Captain\" not found"
+        },
+        {
+          "entity": "Obsidian Pinnacle",
+          "message": "mob \"Hedwig\" not found"
+        },
+        {
+          "entity": "Obsidian Pinnacle",
+          "message": "mob \"Hal\" not found"
+        },
+        {
+          "entity": "Obsidian Pinnacle",
+          "message": "mob \"Hex\" not found"
+        },
+        {
+          "entity": "Obsidian Pinnacle",
+          "message": "mob \"Orb of Dominance\" not found"
+        },
+        {
+          "entity": "Obsidian Pinnacle",
+          "message": "mob \"Valorie\" not found"
+        },
+        {
+          "entity": "Obsidian Pinnacle",
+          "message": "mob \"Raid Captain\" not found"
+        },
+        {
+          "entity": "Soggy Swamp",
+          "message": "mob \"Raid Captain\" not found"
+        },
+        {
+          "entity": "Squid Coast",
+          "message": "mob \"Raid Captain\" not found"
+        },
+        {
+          "entity": "Dingy Jungle",
+          "message": "mob \"Raid Captain\" not found"
+        },
+        {
+          "entity": "Frosted Fjord",
+          "message": "mob \"Raid Captain\" not found"
+        }
+      ],
+      "notes": [
+        "list page revision 3880128"
+      ]
+    }
+  }
+}

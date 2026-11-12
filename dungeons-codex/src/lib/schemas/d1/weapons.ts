@@ -1,5 +1,13 @@
 import { z } from 'zod';
-import { baseShape, d1ItemShape, entitySchema, openEnum, text, type SchemaOptions } from '../base';
+import {
+  baseShape,
+  d1ItemShape,
+  entitySchema,
+  openEnum,
+  powerPointSchema,
+  text,
+  type SchemaOptions,
+} from '../base';
 
 /** §3.1 `D1Weapon`. `stats` keys come from `scripts/wiki/statMap.ts`. */
 export const d1WeaponSchema = (opts: SchemaOptions = {}) =>
@@ -19,15 +27,7 @@ export const d1WeaponSchema = (opts: SchemaOptions = {}) =>
     comboLength: z.number().int().positive().optional(),
     ammo: text.optional(),
     damageType: text.optional(),
-    powerTable: z
-      .array(
-        z.strictObject({
-          power: z.number().nonnegative(),
-          min: z.number().nonnegative(),
-          max: z.number().nonnegative(),
-        }),
-      )
-      .optional(),
+    powerTable: z.array(powerPointSchema).optional(),
   });
 
 export const D1WeaponSchema = d1WeaponSchema();

@@ -27,17 +27,17 @@
 10. **Tests:** one parser test per category using fixtures (save a trimmed fixture for each list page you didn't already have), asserting ≥ 3 known entities field by field (e.g. Claymore, Katana, Daggers, Hunting Bow, Hero's Armor, Sharpness, Fireworks Arrow, Corrupted Beacon, a DLC, a cape, Arch-Illager, Creeper Woods).
 
 ## Mini-checklist
-- [ ] Sync CLI with all flags + summary output
-- [ ] 8 D1 parsers
-- [ ] Linking + derived fields (itemIds, contentCounts, related, builtInto symmetry)
-- [ ] Property vocab generated + reviewed (merges logged)
-- [ ] Images downloaded, WebP, manifest, alt text
-- [ ] Forge curves generated
-- [ ] Full sync completed
-- [ ] Coverage ≥ 98 % in all 8 categories (report committed)
-- [ ] 10-entity spot check logged, mismatches fixed
-- [ ] Parser tests for all 8 categories
-- [ ] `data:validate` passes with 0 issues
+- [x] Sync CLI with all flags + summary output
+- [x] 8 D1 parsers
+- [x] Linking + derived fields (itemIds, contentCounts, related, builtInto symmetry)
+- [x] Property vocab generated + reviewed (merges logged)
+- [x] Images downloaded, WebP, manifest, alt text
+- [x] Forge curves generated
+- [x] Full sync completed
+- [x] Coverage ≥ 98 % in all 8 categories (report committed)
+- [x] 10-entity spot check logged, mismatches fixed
+- [x] Parser tests for all 8 categories
+- [x] `data:validate` passes with 0 issues
 
 ## Acceptance
 ```bash

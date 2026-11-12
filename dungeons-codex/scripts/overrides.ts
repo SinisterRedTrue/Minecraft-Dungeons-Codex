@@ -103,3 +103,29 @@ export function applyOverrides<T extends { slug: string }>(
   }
   return { entities: out, unmatched };
 }
+
+/**
+ * `data/overrides/{game}/expected.json`: corrections to the expected counts the list pages state,
+ * for when a page's own number is wrong. Like every override it must cite a source.
+ */
+export const expectedOverrideSchema = z.strictObject({
+  category: z.string().min(1),
+  count: z.number().int().positive(),
+  reason: z.string().trim().min(1),
+  sourceUrl: z.url(),
+});
+
+export type ExpectedOverride = z.infer<typeof expectedOverrideSchema>;
+
+export function loadExpectedOverrides(overridesDir: string, game: GameId): ExpectedOverride[] {
+  const file = path.join(overridesDir, game, 'expected.json');
+  if (!existsSync(file)) return [];
+  const result = z.array(expectedOverrideSchema).safeParse(JSON.parse(readFileSync(file, 'utf8')));
+  if (!result.success) {
+    throw new OverrideFileError(
+      file,
+      result.error.issues.map((i) => `${i.path.join('.') || '(root)'}: ${i.message}`),
+    );
+  }
+  return result.data;
+}

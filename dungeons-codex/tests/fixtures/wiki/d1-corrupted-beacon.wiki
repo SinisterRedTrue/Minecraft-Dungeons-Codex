@@ -1,0 +1,262 @@
+{{about|the {{MCD}} artifact|the corrupted beacon in {{MCD2}}|Dungeons II:Corrupted Beacon|the corrupted beacon in {{MCL}} that caused eternal night|Legends:Night Beacon}}
+{{Infobox Dungeons item
+| image = MCD Corrupted Beacon.png
+| image2 = MCD Corrupted Beacon Sprite.png
+| imagecaption = Icon
+| image2caption = Sprite
+| imagesize = 150px
+| type = Artifact
+| rarity = Common<br>Rare
+| property = {{DuMiscSprite|Regular Bullet}} X artifact damage per second<br/>{{DuMiscSprite|Cooldown Bullet}} 2.5 Seconds cooldown<br/>{{DuMiscSprite|Soul Bullet}} +1 Soul Gathering<br/>{{DuMiscSprite|Soul Bullet}} Requires [[MCD:Souls|souls]] (20 per second)
+| runes = {{DuRunes|O}}
+| levelid = CorruptedBeacon
+| description = The Corrupted Beacon holds immense power within. It waits for the moment to unleash its wrath.
+| flavor = Fires a high-powered beam that continuously damages mobs.
+}}
+
+A '''corrupted beacon''' is an {{MCD|artifact}} that can be found in various {{MCD|mission}}s. Its unique variant is the {{MCD|corrupted pumpkin}}, making it the only artifact to have a unique variant. It functions similarly to the {{MCD|eye of the guardian}} from the {{MCD|Hidden Depths}} {{MCD|DLC}}.
+
+== Lore ==
+While it isn't "clear how this beacon got corrupted", it may have "something to do with the {{MCD|Arch-Illager}} and the {{MCD|Orb of Dominance}}". In ''[[Minecraft Legends]]'', the corrupted beacon makes an appearance in the {{MCL|Night Beacon}} base.<ref>{{mcnet|-corrupted-beacon|Taking Inventory: Corrupted Beacon|February 20, 2026|[[Duncan Geere]]|archive-url|archive-time|url-prefix}}</ref>
+
+== Obtaining == 
+=== Missions ===
+
+<small>Listed difficulties are considered to be the minimum difficulty the item is obtainable on unless stated otherwise.</small>
+* {{DuLevelLink|Cacti Canyon}}
+* {{DuLevelLink|Redstone Mines}}
+* {{DuLevelLink|Pumpkin Pastures}} (Adventure)
+* {{DuLevelLink|Treetop Tangle}} (Adventure)
+* {{DuLevelLink|Gale Sanctum}} (DLC)
+* {{DuLevelLink|End Wilds}} (Apocalypse, DLC)
+
+=== Merchants ===
+* {{DuEntityLink|Village Merchant}}
+* {{DuEntityLink|Gift Wrapper}}
+* {{DuEntityLink|Mystery Merchant}}
+* {{DuEntityLink|Luxury Merchant}}
+
+== Usage ==
+The corrupted beacon fires a beam, called a shadow beam that can pierce mobs, dealing 10% of the base value as damage and consumes 2 souls every 0.1 seconds. With the base maximum soul capacity of 300, the beacon can be fired for up to 15 seconds. The beam is toggleable, meaning it can be sustained without the need to continuously hold down its slot button. However, it will enter cooldown after the beam is cancelled.
+
+The beam fired has a massive range (about 40 blocks away) that exceeds the boundaries of the screen, and cannot pass through walls.
+
+=== Properties ===  
+* X artifact damage per second
+* 2.5 Seconds cooldown
+* +1 Soul Gathering
+* Requires [[MCD:Souls|souls]]
+
+===Stats===
+{| class="wikitable sortable"
+!Power
+! Min damage 
+!Max damage
+|-
+|1
+|50
+|53 
+|-
+|5
+|63 
+|67
+|-
+|10
+|83
+|87 
+|-
+|15
+|107
+|113
+|-
+|20
+|137
+|144
+|-
+|25
+|174
+|182 
+|-
+|30
+|218
+|228
+|-
+|35 
+|273
+|285
+|-
+|40
+|340
+|355
+|-
+|45
+|422
+|440
+|-
+|50 
+|523 
+|543
+|-
+|55
+|646
+|673
+|-
+|60
+|797
+|830
+|-
+|65
+|981
+|1023
+|-
+|70
+|1208
+|1258
+|-
+|75
+|1485
+|1547
+|-
+|80
+|1824 
+|1900
+|-
+|85
+|2240
+|2333 
+|-
+|90
+|2750
+| 2864
+|-
+|95
+|3374
+|3513
+|-
+|100
+|4138
+|4309
+|-
+|105
+|5075
+|5284 
+|-
+| 108
+|5735
+|5971
+|}
+
+== Sounds ==
+{{SoundTable
+| type = dungeons
+| {{SoundLine
+|sound=Sfx_prop_corruptedBeaconActivate-001_soundWave.ogg
+|sound2=Sfx_prop_corruptedBeaconActivate-002_soundWave.ogg
+|description=Activate
+|type=dungeons}}
+| {{SoundLine
+|sound=Sfx_prop_corruptedBeaconImpact-001_soundWave.ogg
+|description=Impact
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_prop_corruptedBeaconLoop-001_soundWave.ogg
+|sound2=sfx_prop_corruptedBeaconLoop-002_soundWave.ogg
+|description=Loop
+|type=dungeons}}
+| {{SoundLine
+|sound=sfx_prop_corruptedBeaconSouly-001_soundWave.ogg
+|description=Soul
+}}
+}}
+
+== ''Minecraft Dungeons Arcade'' ==
+{{ArcadeNumNavbar
+| Previous = The Pink Scoundrel
+| PrevNum = 19
+| Next = Auto Crossbow
+| NextNum = 21
+}}
+The player equips a corrupted beacon when the following {{MCD|card}}s are used in ''[[Minecraft Dungeons Arcade]]''.
+
+{{Dungeons Arcade card information
+| name = Corrupted Beacon
+| front = MCDA Card 20 Corrupted Beacon front.jpg
+| back = MCDA Card 20 Corrupted Beacon back.jpg
+| equips = {{DuItemLink|Corrupted Beacon}}
+| series = 1
+| type = Range
+| rarity = {{DungeonsRarity|unique}}
+| number = 20
+| code 128 = a10j0000
+}}
+
+== History ==
+
+=== ''Minecraft Dungeons'' ===
+{{HistoryTable
+|{{HistoryLine|dungeons}}
+|{{HistoryLine||June 9, 2019|link=https://www.youtube.com/watch?v=076mjMOL6R8|The corrupted beacon was first revealed in the Minecraft Dungeons gameplay trailer.}}
+|{{HistoryLine||June 17, 2019|link=https://twitter.com/dungeonsgame/status/1140748860140265472|The old description was revealed in a twitter video: "The cube trembles in your hands. Great power is stored within, just waiting to be unleashed" before it changed to "The Corrupted Beacon holds immense power within. It waits for the moment to unleash its wrath."<ref>{{tweet|dungeonsgame|1140748860140265472|A corrupted beacon fires a powerful beam at the enemy and runs on…souls? Wait, who designed this thing?! #Mojang|June 17, 2019}}</ref>}}
+|{{HistoryLine||Dungeons Beta|[[File:Corrupted Beacon (MCD).png|32px]] [[File:Corrupted Beacon Sprite MCD.png|32px]] Added the corrupted beacon.}}
+|{{HistoryLine||1.3.2.0|Increased Cost from 1 to 2.
+|Added cooldown for 2.5 seconds.
+|Increased beam radius from 150 to 200 unreal units.
+|Increased damage by 100%.}}
+}}
+=== ''Minecraft Dungeons Arcade'' ===
+{{HistoryTable
+|{{HistoryLine|dungeons arcade}}
+|{{HistoryLine||Series 1|Added the corrupted beacon card.}}
+}}
+
+== Quotes ==
+{{Quote|'''CORRUPTED BEACON''' – The Corrupted Beacon fires an intense magical beam that damages mobs unlikely enough to be in the way. It is capable of causing massive amounts of damage.|''Guide to Minecraft Dungeons:<br>A Handbook for Heroes''}}
+
+{{Quote|What’s better than firing a deadly laser beam at a bunch of hostile {{MCD|mob}}s? Firing a bright purple deadly laser beam, of course! This light is so pretty that I’m often tempted to shine it into my own eyes, but I know that’s a stupid idea, which is why I’ve only done it sixteen times since starting this sentence. And fifty-eight times during this one, even though this sentence is shorter. Weird huh? 
+
+'''PROS''': Covers a large area. Aforementioned prettiness.
+
+'''CONS''': Name sounds distractingly like "bacon" and I’m writing this before lunchtime.|[[Tom Stone]]<ref>{{mcnet|minecraft-dungeons--9-essential-artifacts|Minecraft Dungeons: 9 essential artifacts|August 24, 2020|[[Tom Stone]]|archive-url=|archive-time=|prefix=|quote=Terrific talismans to help you triumph!}}</ref>|image=Mojavatar Tom-Stone.png}}
+
+== Trivia == 
+* In ''[[Minecraft Dungeons Arcade]]'', the corrupted beacon is classified as a ranged weapon despite being an artifact.
+
+== Gallery ==
+=== Textures ===
+<gallery class="pixel-image">
+CorruptedBeacon Texture (MCD).png|Corrupted beacon texture file
+</gallery>
+
+=== Screenshots ===
+<gallery>
+Corrupted Beacon inv MCD.png|A corrupted beacon within the [[MCD:Inventory|inventory]]
+MCD Heart Of Ender laser.jpg|The Shadow beams fired from the [[MCD:Heart of Ender|Heart of Ender]], which heavily resemble the ones fired from a corrupted beacon
+MCD Corrupted Beacon ingame.png|A corrupted beacon used in-game
+</gallery>
+
+=== Mojang screenshots ===
+<gallery>
+Dungeons Teaser 8.jpg|A corrupted beacon being equipped as seen in the gameplay reveal trailer
+</gallery>
+
+=== In other media ===
+<gallery>
+MCD Corrupted Beacon Equipped.png|A corrupted beacon shirt graphic
+MCD Corrupted Beacon artwork.jpeg|Corrupted beacon artwork
+You light up my life.jpeg|Corrupted beacon artwork
+</gallery>
+
+== References ==
+{{reflist}}
+
+== Navigation ==
+{{Navbox Dungeons items|artifacts}}
+{{Navbox Dungeons Arcade cards|series 1}}
+{{featured}}
+
+[[Category:Minecraft Dungeons artifacts]]
+
+[[de:Minecraft Dungeons:Verseuchtes Leuchtfeuer]]
+[[es:Dungeons:Faro corrupto]]
+[[fr:Minecraft Dungeons:Balise corrompue]]
+[[zh:Minecraft Dungeons:腐化信标]]

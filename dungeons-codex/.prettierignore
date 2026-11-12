@@ -1,4 +1,7 @@
 data/generated
+data/forge
+data/reports
+data/vocab
 public/images
 .next
 node_modules

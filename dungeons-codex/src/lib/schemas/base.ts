@@ -71,6 +71,13 @@ export const overrideNoteSchema = z.strictObject({
   sourceUrl: z.url(),
 });
 
+/** One row of a documented power table: damage (weapons) or health (armor) at a power level. */
+export const powerPointSchema = z.strictObject({
+  power: z.number().nonnegative(),
+  min: z.number().nonnegative(),
+  max: z.number().nonnegative(),
+});
+
 export const effectUnitSchema = z.enum(['%', 's', 'flat']);
 
 /** A labelled number parsed from text, e.g. `+30% Movement Speed`. */

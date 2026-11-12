@@ -1,0 +1,83 @@
+{{Needs render}}
+{{Infobox Dungeons entity
+|classification={{MCD|Ancient}}, {{MCD|Animal}}
+|behavior=Hostile
+}}
+The '''Abominable Weaver''' is an {{MCD|ancient}} {{MCD|Spider|spider}} that can be encountered during an {{MCD|ancient hunt}}. The Abominable Weaver offers, at a minimum, the following runes:
+
+* {{DuMiscSprite|Rune A}}
+* {{DuMiscSprite|Rune S}}
+* {{DuMiscSprite|Rune T}}
+
+The Abominable Weaver possesses, at minimum, the following {{MCD|Enchanted|enchantments}}:
+
+* {{DuEnchantmentLink|Frenzied}}
+* {{DuEnchantmentLink|Mob Resurrection Aura}}
+* {{DuEnchantmentLink|Multishot}}
+* {{DuEnchantmentLink|Regeneration}}
+
+== Spawning ==
+* {{DuLevelLink|Ancient Hunt}}
+** {{DuMiscLink|id=Abominable Weaver Ancient Dungeon|Abominable Weaver Ancient Dungeon}}
+
+== Behavior ==
+The Abominable Weaver is hostile toward heroes and their companions.
+
+=== Walk ===
+The Abominable Weaver flees when an enemy approaches.
+
+=== Strong attack ===
+Upon reaching a safe distance from an enemy, the Abominable Weaver fires webs from their abdomens, which freeze their targets.
+
+=== Basic attack ===
+Once their target is caught in a web, the Abominable Weaver runs up to them and bites them rapidly.
+
+=== Minion enchantments ===
+Eight enchanted {{MCD|creeper}}s act as the Abominable Weaver's minions, possessing the following {{MCD|Enchanted|enchantments}}:
+
+* {{DuEnchantmentLink|Deflect}}
+* {{DuEnchantmentLink|Quick}}
+
+== Drops ==
+{{Main|MCD:Drops#Ancient Hunt}}
+
+{| class="wikitable" 
+! {{MCD|Armor}} !! {{MCD|Melee weapon}}s !! {{MCD|Ranged weapon}}s
+|-
+|
+* {{DuItemLink|Battle Robe}}
+** {{DuItemLink|Splendid Robe}}
+* {{DuItemLink|Wolf Armor}}
+** {{DuItemLink|Black Wolf Armor}}
+** {{DuItemLink|Fox Armor}}
+|
+* {{DuItemLink|Double Axe}}
+** {{DuItemLink|Cursed Axe}}
+** {{DuItemLink|Whirlwind}}
+|
+* {{DuItemLink|Trickbow}}
+** {{DuItemLink|The Green Menace}}
+** {{DuItemLink|The Pink Scoundrel}}
+|}
+
+== Achievements ==
+{{Load DungeonsAchievements|Ancient Hunter}}
+
+== History ==
+{{HistoryTable
+|{{HistoryLine|dungeons}}
+|{{HistoryLine||1.8.0.0|Added the Abominable Weaver.}}
+}}
+
+== Gallery ==
+<gallery>
+Abominable Weaver's Arena.png|The arena where the Abominable Weaver is summoned and fought
+</gallery>
+
+== Navigation ==
+{{Navbox Dungeons entities}}
+
+[[Category:Minecraft Dungeons animal mobs]]
+[[Category:Minecraft Dungeons ancient mobs]]
+[[Category:Minecraft Dungeons characters]]
+[[Category:Animal characters]]

@@ -1,0 +1,6834 @@
+[
+  {
+    "id": "d1:enchantments:accelerate",
+    "slug": "accelerate",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Accelerate",
+    "description": "Increases attack speed for each consecutive shot. Resets one second after the attack.",
+    "image": {
+      "alt": "Accelerate icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/accelerate.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:auto-crossbow",
+      "d1:weapons:mechanical-shortbow"
+    ],
+    "gildedDescription": "Firerate increases upon firing",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "8% increase per shot",
+        "unit": "%",
+        "value": 8
+      },
+      {
+        "level": 2,
+        "text": "10% increase per shot",
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "level": 3,
+        "text": "12% increase per shot",
+        "unit": "%",
+        "value": 12
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:acrobat",
+      "d1:enchantments:ambush",
+      "d1:enchantments:anima-conduit",
+      "d1:enchantments:artifact-charge",
+      "d1:enchantments:artifact-synergy",
+      "d1:enchantments:bag-of-souls"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:acrobat",
+    "slug": "acrobat",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Acrobat",
+    "description": "Reduces the cooldown time between rolls.",
+    "image": {
+      "alt": "Acrobat icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/acrobat.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [
+      "d1:armor:black-wolf-armor",
+      "d1:armor:living-vines-armor"
+    ],
+    "gildedDescription": "Reduced roll cooldown",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "15% reduced cooldown",
+        "unit": "%",
+        "value": 15
+      },
+      {
+        "level": 2,
+        "text": "30% reduced cooldown",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "level": 3,
+        "text": "45% reduced cooldown",
+        "unit": "%",
+        "value": 45
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:ambush",
+      "d1:enchantments:anima-conduit",
+      "d1:enchantments:artifact-charge",
+      "d1:enchantments:artifact-synergy",
+      "d1:enchantments:bag-of-souls",
+      "d1:enchantments:beast-boss"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:ambush",
+    "slug": "ambush",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Ambush",
+    "description": "Attacks on mobs that are not actively targeting you deal more damage.",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "Ambush icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/ambush.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:backstabber",
+      "d1:weapons:swift-striker"
+    ],
+    "gildedDescription": "Extra damage on unsuspecting enemies",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "20% damage done",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 2,
+        "text": "40% damage done",
+        "unit": "%",
+        "value": 40
+      },
+      {
+        "level": 3,
+        "text": "60% damage done",
+        "unit": "%",
+        "value": 60
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:anima-conduit",
+      "d1:enchantments:artifact-charge",
+      "d1:enchantments:artifact-synergy",
+      "d1:enchantments:bag-of-souls",
+      "d1:enchantments:beast-boss",
+      "d1:enchantments:beast-burst"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:anima-conduit",
+    "slug": "anima-conduit",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Anima Conduit",
+    "description": "Each soul absorbed grants a small amount of health.",
+    "image": {
+      "alt": "Anima Conduit icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/anima-conduit.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Gain health from souls",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "2% health gained",
+        "unit": "%",
+        "value": 2
+      },
+      {
+        "level": 2,
+        "text": "4% health gained",
+        "unit": "%",
+        "value": 4
+      },
+      {
+        "level": 3,
+        "text": "6% health gained",
+        "unit": "%",
+        "value": 6
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:artifact-charge",
+      "d1:enchantments:artifact-synergy",
+      "d1:enchantments:bag-of-souls",
+      "d1:enchantments:beast-boss",
+      "d1:enchantments:beast-burst",
+      "d1:enchantments:beast-surge"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:artifact-charge",
+    "slug": "artifact-charge",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Artifact Charge",
+    "description": "When using an artifact, the player's next few attacks become charged.",
+    "image": {
+      "alt": "Artifact Charge icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/artifact-charge.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Charged Attacks After Artifact Use",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "Next Attacks charged"
+      },
+      {
+        "level": 2,
+        "text": "Next 2 Attacks charged"
+      },
+      {
+        "level": 3,
+        "text": "Next 3 Attacks charged"
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:artifact-synergy",
+      "d1:enchantments:bag-of-souls",
+      "d1:enchantments:beast-boss",
+      "d1:enchantments:beast-burst",
+      "d1:enchantments:beast-surge",
+      "d1:enchantments:bonus-shot"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:artifact-synergy",
+    "slug": "artifact-synergy",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Artifact Synergy",
+    "description": "Using an artifact causes the next attack to deal bonus damage.",
+    "image": {
+      "alt": "Artifact Synergy icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/artifact-synergy.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Artifact use boosts damage",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "40% Deals X extra damage",
+        "unit": "%",
+        "value": 40
+      },
+      {
+        "level": 2,
+        "text": "60% Deals X extra damage",
+        "unit": "%",
+        "value": 60
+      },
+      {
+        "level": 3,
+        "text": "80% Deals X extra damage",
+        "unit": "%",
+        "value": 80
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:bag-of-souls",
+      "d1:enchantments:beast-boss",
+      "d1:enchantments:beast-burst",
+      "d1:enchantments:beast-surge",
+      "d1:enchantments:bonus-shot",
+      "d1:enchantments:burning"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:bag-of-souls",
+    "slug": "bag-of-souls",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Bag of Souls",
+    "description": "Increases the maximum number of souls that can be carried.",
+    "image": {
+      "alt": "Bag of Souls icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/bag-of-souls.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [
+      "d1:armor:verdant-robe"
+    ],
+    "gildedDescription": "Increase Maximum Souls",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "50% extra souls",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "level": 2,
+        "text": "100% extra souls",
+        "unit": "%",
+        "value": 100
+      },
+      {
+        "level": 3,
+        "text": "150% extra souls",
+        "unit": "%",
+        "value": 150
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:beast-boss",
+      "d1:enchantments:beast-burst",
+      "d1:enchantments:beast-surge",
+      "d1:enchantments:bonus-shot",
+      "d1:enchantments:burning",
+      "d1:enchantments:burst-bowstring"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:beast-boss",
+    "slug": "beast-boss",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Beast Boss",
+    "description": "Increases the amount of damage dealt by pets.",
+    "image": {
+      "alt": "Beast Boss icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/beast-boss.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Pets deal more damage",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "20% increase Pet damage"
+      },
+      {
+        "level": 2,
+        "text": "40% increase Pet damage"
+      },
+      {
+        "level": 3,
+        "text": "60% increase Pet damage"
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:beast-burst",
+      "d1:enchantments:beast-surge",
+      "d1:enchantments:bonus-shot",
+      "d1:enchantments:burning",
+      "d1:enchantments:burst-bowstring",
+      "d1:enchantments:busy-bee"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:beast-burst",
+    "slug": "beast-burst",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Beast Burst",
+    "description": "Using a healing potion causes an explosion at pets' locations, dealing damage to mobs around them.",
+    "image": {
+      "alt": "Beast Burst icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/beast-burst.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Explosion at Pets' Location",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "X explosion damage"
+      },
+      {
+        "level": 2,
+        "text": "2X explosion damage"
+      },
+      {
+        "level": 3,
+        "text": "3X explosion damage"
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:beast-surge",
+      "d1:enchantments:bonus-shot",
+      "d1:enchantments:burning",
+      "d1:enchantments:burst-bowstring",
+      "d1:enchantments:busy-bee",
+      "d1:enchantments:chains"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:beast-surge",
+    "slug": "beast-surge",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Beast Surge",
+    "description": "Using health potion boosts pets' attack and movement speed for 10 seconds.",
+    "image": {
+      "alt": "Beast Surge icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/beast-surge.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Pet Attack and Move Boost",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+50% Pets' attack and speed X",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "level": 2,
+        "text": "+100% Pets' attack and speed X",
+        "unit": "%",
+        "value": 100
+      },
+      {
+        "level": 3,
+        "text": "+150% Pets' attack and speed X",
+        "unit": "%",
+        "value": 150
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:bonus-shot",
+      "d1:enchantments:burning",
+      "d1:enchantments:burst-bowstring",
+      "d1:enchantments:busy-bee",
+      "d1:enchantments:chains",
+      "d1:enchantments:committed"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:bonus-shot",
+    "slug": "bonus-shot",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Bonus Shot",
+    "description": "Firing a shot also fires a second shot at a nearby enemy. The second shot has reduced damage.",
+    "image": {
+      "alt": "Bonus Shot icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/bonus-shot.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:butterfly-crossbow",
+      "d1:weapons:haunted-bow",
+      "d1:weapons:twin-bow"
+    ],
+    "gildedDescription": "Shoots two enemies at once",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "10% damage per shot",
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "level": 2,
+        "text": "17% damage per shot",
+        "unit": "%",
+        "value": 17
+      },
+      {
+        "level": 3,
+        "text": "24% damage per shot",
+        "unit": "%",
+        "value": 24
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:burning",
+      "d1:enchantments:burst-bowstring",
+      "d1:enchantments:busy-bee",
+      "d1:enchantments:chains",
+      "d1:enchantments:committed",
+      "d1:enchantments:cool-down"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:burning",
+    "slug": "burning",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Burning",
+    "description": "Every 0.5 seconds damages all nearby enemies.",
+    "image": {
+      "alt": "Burning icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/burning.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [
+      "d1:armor:ember-robe"
+    ],
+    "gildedDescription": "Burns nearby enemies",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "X damage"
+      },
+      {
+        "level": 2,
+        "text": "2X damage"
+      },
+      {
+        "level": 3,
+        "text": "3X damage"
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:burst-bowstring",
+      "d1:enchantments:busy-bee",
+      "d1:enchantments:chains",
+      "d1:enchantments:committed",
+      "d1:enchantments:cool-down",
+      "d1:enchantments:cooldown-shot"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:burst-bowstring",
+    "slug": "burst-bowstring",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Burst Bowstring",
+    "description": "Shoots nearby mobs when the player rolls, costing one arrow per roll. Projectiles deal 40% of a charged shot's damage.",
+    "image": {
+      "alt": "Burst Bowstring icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/burst-bowstring.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Shoots arrows when rolling",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "1 target",
+        "value": 1
+      },
+      {
+        "level": 2,
+        "text": "2 target",
+        "value": 2
+      },
+      {
+        "level": 3,
+        "text": "3 target",
+        "value": 3
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:busy-bee",
+      "d1:enchantments:chains",
+      "d1:enchantments:committed",
+      "d1:enchantments:cool-down",
+      "d1:enchantments:cooldown-shot",
+      "d1:enchantments:cowardice"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:busy-bee",
+    "slug": "busy-bee",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Busy Bee",
+    "description": "Grants a chance for a bee to spawn after defeating a mob, with up to 3 bees joining the hero's side.",
+    "image": {
+      "alt": "Busy Bee icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/busy-bee.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:bee-stinger"
+    ],
+    "gildedDescription": "Chance to summon a bee",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "20% chance to summon.",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 2,
+        "text": "30% chance to summon.",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "level": 3,
+        "text": "40% chance to summon.",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:chains",
+      "d1:enchantments:committed",
+      "d1:enchantments:cool-down",
+      "d1:enchantments:cooldown-shot",
+      "d1:enchantments:cowardice",
+      "d1:enchantments:deflect"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:chain-reaction",
+    "slug": "chain-reaction",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Chain Reaction",
+    "description": "Has a chance to fire five arrows in all directions on impact.",
+    "image": {
+      "alt": "Chain Reaction icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/chain-reaction.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:firebolt-thrower"
+    ],
+    "gildedDescription": "Chance of chain reaction",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "10% chance to trigger",
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "level": 2,
+        "text": "20% chance to trigger",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 3,
+        "text": "30% chance to trigger",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:chilling",
+      "d1:enchantments:critical-hit",
+      "d1:enchantments:death-barter",
+      "d1:enchantments:exploding",
+      "d1:enchantments:final-shout",
+      "d1:enchantments:fire-focus"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:chains",
+    "slug": "chains",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Chains",
+    "description": "Has a 30% chance to chain a cluster of mobs together and keep them bound for a short time.",
+    "image": {
+      "alt": "Chains icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/chains.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:flail",
+      "d1:weapons:jailors-scythe"
+    ],
+    "gildedDescription": "Binds and chains enemies",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "1 seconds duration",
+        "value": 1
+      },
+      {
+        "level": 2,
+        "text": "2 seconds duration",
+        "value": 2
+      },
+      {
+        "level": 3,
+        "text": "3 seconds duration",
+        "value": 3
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": true,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:committed",
+      "d1:enchantments:cool-down",
+      "d1:enchantments:cooldown-shot",
+      "d1:enchantments:cowardice",
+      "d1:enchantments:deflect",
+      "d1:enchantments:dipping-poison"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:chilling",
+    "slug": "chilling",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Chilling",
+    "description": "Emits a blast every two seconds that reduces the movement and attack speed of nearby enemies for one second.",
+    "image": {
+      "alt": "Chilling icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/chilling.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [
+      "d1:armor:frost-armor"
+    ],
+    "gildedDescription": "Emits a chilling aura",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "-20% reduced speed",
+        "unit": "%",
+        "value": -20
+      },
+      {
+        "level": 2,
+        "text": "-40% reduced speed",
+        "unit": "%",
+        "value": -40
+      },
+      {
+        "level": 3,
+        "text": "-60% reduced speed",
+        "unit": "%",
+        "value": -60
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:critical-hit",
+      "d1:enchantments:death-barter",
+      "d1:enchantments:exploding",
+      "d1:enchantments:final-shout",
+      "d1:enchantments:fire-focus",
+      "d1:enchantments:gravity"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:committed",
+    "slug": "committed",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Committed",
+    "description": "Deal increased damage against already wounded mobs.",
+    "image": {
+      "alt": "Committed icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/committed.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:growing-staff",
+      "d1:weapons:resolute-tempest-knife",
+      "d1:weapons:truthseeker"
+    ],
+    "gildedDescription": "Increased damage to wounded mobs",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "0-50% bonus damage"
+      },
+      {
+        "level": 2,
+        "text": "0-75% bonus damage"
+      },
+      {
+        "level": 3,
+        "text": "0-100% bonus damage"
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:cool-down",
+      "d1:enchantments:cooldown-shot",
+      "d1:enchantments:cowardice",
+      "d1:enchantments:deflect",
+      "d1:enchantments:dipping-poison",
+      "d1:enchantments:dynamo"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:cool-down",
+    "slug": "cool-down",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Cool Down",
+    "description": "Reduces the cool-down time between uses of artifacts.",
+    "image": {
+      "alt": "Cool Down icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/cool-down.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Reduced Artifact Cooldown",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "-18% reduced cool-down",
+        "unit": "%",
+        "value": -18
+      },
+      {
+        "level": 2,
+        "text": "-29% reduced cool-down",
+        "unit": "%",
+        "value": -29
+      },
+      {
+        "level": 3,
+        "text": "-38% reduced cool-down",
+        "unit": "%",
+        "value": -38
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": true,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:cooldown-shot",
+      "d1:enchantments:cowardice",
+      "d1:enchantments:deflect",
+      "d1:enchantments:dipping-poison",
+      "d1:enchantments:dynamo",
+      "d1:enchantments:echo"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:cooldown-shot",
+    "slug": "cooldown-shot",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Cooldown Shot",
+    "description": "Artifact cooldowns are decreased when attacking with a charged shot.",
+    "image": {
+      "alt": "Cooldown Shot icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/cooldown-shot.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Charged Shot Reduces Cooldown",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "0.5 second cooldown reduction",
+        "value": 0.5
+      },
+      {
+        "level": 2,
+        "text": "1.0 second cooldown reduction",
+        "value": 1
+      },
+      {
+        "level": 3,
+        "text": "1.5 second cooldown reduction",
+        "value": 1.5
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:cowardice",
+      "d1:enchantments:deflect",
+      "d1:enchantments:dipping-poison",
+      "d1:enchantments:dynamo",
+      "d1:enchantments:echo",
+      "d1:enchantments:electrified"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:cowardice",
+    "slug": "cowardice",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Cowardice",
+    "description": "Deal increased ranged and melee damage while at full health.",
+    "image": {
+      "alt": "Cowardice icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/cowardice.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Increase damage at full HP",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+20% increased ranged and melee damage",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 2,
+        "text": "+30% increased ranged and melee damage",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "level": 3,
+        "text": "+40% increased ranged and melee damage",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:deflect",
+      "d1:enchantments:dipping-poison",
+      "d1:enchantments:dynamo",
+      "d1:enchantments:echo",
+      "d1:enchantments:electrified",
+      "d1:enchantments:emerald-shield"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:critical-hit",
+    "slug": "critical-hit",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Critical Hit",
+    "description": "Gives a chance to inflict critical hits dealing triple damage.",
+    "image": {
+      "alt": "Critical Hit icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/critical-hit.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:hawkbrand",
+      "d1:weapons:masters-katana",
+      "d1:weapons:sinister-sword"
+    ],
+    "gildedDescription": "Increases critical hit chance",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "10% chance to trigger",
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "level": 2,
+        "text": "15% chance to trigger",
+        "unit": "%",
+        "value": 15
+      },
+      {
+        "level": 3,
+        "text": "20% chance to trigger",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:death-barter",
+      "d1:enchantments:exploding",
+      "d1:enchantments:final-shout",
+      "d1:enchantments:fire-focus",
+      "d1:enchantments:gravity",
+      "d1:enchantments:gravity-pulse"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:death-barter",
+    "slug": "death-barter",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Death Barter",
+    "description": "The first set of Emeralds collected are stored and then spent to save the player from death.",
+    "image": {
+      "alt": "Death Barter icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/death-barter.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [
+      "d1:armor:gilded-glory"
+    ],
+    "gildedDescription": "Can spend emeralds to cheat death",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "150 Costs X Emeralds",
+        "value": 150
+      },
+      {
+        "level": 2,
+        "text": "100 Costs X Emeralds",
+        "value": 100
+      },
+      {
+        "level": 3,
+        "text": "50 Costs X Emeralds",
+        "value": 50
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:exploding",
+      "d1:enchantments:final-shout",
+      "d1:enchantments:fire-focus",
+      "d1:enchantments:gravity",
+      "d1:enchantments:gravity-pulse",
+      "d1:enchantments:levitation-shot"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:deflect",
+    "slug": "deflect",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Deflect",
+    "description": "Grants a small chance to deflect incoming projectiles.",
+    "image": {
+      "alt": "Deflect icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/deflect.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [
+      "d1:armor:shulker-armor",
+      "d1:armor:sturdy-shulker-armor"
+    ],
+    "gildedDescription": "Deflects enemy projectiles",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "25% chance to trigger",
+        "unit": "%",
+        "value": 25
+      },
+      {
+        "level": 2,
+        "text": "35% chance to trigger",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "level": 3,
+        "text": "45% chance to trigger",
+        "unit": "%",
+        "value": 45
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:dipping-poison",
+      "d1:enchantments:dynamo",
+      "d1:enchantments:echo",
+      "d1:enchantments:electrified",
+      "d1:enchantments:emerald-shield",
+      "d1:enchantments:enigma-resonator"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:dipping-poison",
+    "slug": "dipping-poison",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Dipping Poison",
+    "description": "When you use a health potion, you are given a quiver of Poison Arrows.",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "Dipping Poison icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/dipping-poison.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Health Potion gives Poison Arrows",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "6 poison arrows",
+        "value": 6
+      },
+      {
+        "level": 2,
+        "text": "8 poison arrows",
+        "value": 8
+      },
+      {
+        "level": 3,
+        "text": "12 poison arrows",
+        "value": 12
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:dynamo",
+      "d1:enchantments:echo",
+      "d1:enchantments:electrified",
+      "d1:enchantments:emerald-shield",
+      "d1:enchantments:enigma-resonator",
+      "d1:enchantments:environmental-protection"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:dynamo",
+    "slug": "dynamo",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Dynamo",
+    "description": "Adds damage to the next attack after rolling.",
+    "image": {
+      "alt": "Dynamo icon",
+      "height": 255,
+      "src": "/images/d1/enchantments/dynamo.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:ancient-bow",
+      "d1:weapons:corrupted-crossbow",
+      "d1:weapons:great-axeblade"
+    ],
+    "gildedDescription": "Rolling makes next attack stronger",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+X damage."
+      },
+      {
+        "level": 2,
+        "text": "+1.25X damage."
+      },
+      {
+        "level": 3,
+        "text": "+1.5X damage."
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:echo",
+      "d1:enchantments:electrified",
+      "d1:enchantments:emerald-shield",
+      "d1:enchantments:enigma-resonator",
+      "d1:enchantments:environmental-protection",
+      "d1:enchantments:explorer"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:echo",
+    "slug": "echo",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Echo",
+    "description": "Some attacks can be followed up by another attack in quick succession.",
+    "image": {
+      "alt": "Echo icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/echo.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:spine-chill-spear",
+      "d1:weapons:swift-striker",
+      "d1:weapons:whispering-spear"
+    ],
+    "gildedDescription": "Sometimes strikes twice",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "5 seconds cooldown",
+        "value": 5
+      },
+      {
+        "level": 2,
+        "text": "4 seconds cooldown",
+        "value": 4
+      },
+      {
+        "level": 3,
+        "text": "3 seconds cooldown",
+        "value": 3
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:electrified",
+      "d1:enchantments:emerald-shield",
+      "d1:enchantments:enigma-resonator",
+      "d1:enchantments:environmental-protection",
+      "d1:enchantments:explorer",
+      "d1:enchantments:fire-aspect"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:electrified",
+    "slug": "electrified",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Electrified",
+    "description": "Rolling zaps two nearby enemies with lightning bolts, dealing damage.",
+    "image": {
+      "alt": "Electrified icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/electrified.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Rolling zaps mobs",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "X Deals X damage"
+      },
+      {
+        "level": 2,
+        "text": "2X Deals X damage"
+      },
+      {
+        "level": 3,
+        "text": "3X Deals X damage"
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:emerald-shield",
+      "d1:enchantments:enigma-resonator",
+      "d1:enchantments:environmental-protection",
+      "d1:enchantments:explorer",
+      "d1:enchantments:fire-aspect",
+      "d1:enchantments:fire-trail"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:emerald-shield",
+    "slug": "emerald-shield",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Emerald Shield",
+    "description": "Invulnerability on emerald collection",
+    "dlc": "howling-peaks",
+    "image": {
+      "alt": "Emerald Shield icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/emerald-shield.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [
+      "d1:armor:opulent-armor"
+    ],
+    "isGilded": false,
+    "levels": [],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "exclusive",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:enigma-resonator",
+      "d1:enchantments:environmental-protection",
+      "d1:enchantments:explorer",
+      "d1:enchantments:fire-aspect",
+      "d1:enchantments:fire-trail",
+      "d1:enchantments:food-reserves"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:enigma-resonator",
+    "slug": "enigma-resonator",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Enigma Resonator",
+    "description": "Chance to deal triple damage based on the number of souls the hero has.",
+    "image": {
+      "alt": "Enigma Resonator icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/enigma-resonator.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:feral-soul-crossbow",
+      "d1:weapons:moon-daggers",
+      "d1:weapons:soul-fists",
+      "d1:weapons:soul-hunter-crossbow"
+    ],
+    "gildedDescription": "Souls critical boost",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "0-15% chance"
+      },
+      {
+        "level": 2,
+        "text": "0-20% chance"
+      },
+      {
+        "level": 3,
+        "text": "0-25% chance"
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:environmental-protection",
+      "d1:enchantments:explorer",
+      "d1:enchantments:fire-aspect",
+      "d1:enchantments:fire-trail",
+      "d1:enchantments:food-reserves",
+      "d1:enchantments:freezing"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:environmental-protection",
+    "slug": "environmental-protection",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Environmental Protection",
+    "description": "Environmental damage resistance",
+    "dlc": "howling-peaks",
+    "image": {
+      "alt": "Environmental Protection icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/environmental-protection.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [
+      "d1:armor:rugged-climbing-gear"
+    ],
+    "isGilded": false,
+    "levels": [],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "exclusive",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:explorer",
+      "d1:enchantments:fire-aspect",
+      "d1:enchantments:fire-trail",
+      "d1:enchantments:food-reserves",
+      "d1:enchantments:freezing",
+      "d1:enchantments:frenzied"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:exploding",
+    "slug": "exploding",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Exploding",
+    "description": "Mobs explode after they are defeated.",
+    "image": {
+      "alt": "Exploding icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/exploding.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:battlestaff-of-terror",
+      "d1:weapons:cursed-axe"
+    ],
+    "gildedDescription": "Mobs explode after defeated",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "20% Deals X% of enemy health as damage",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 2,
+        "text": "40% Deals X% of enemy health as damage",
+        "unit": "%",
+        "value": 40
+      },
+      {
+        "level": 3,
+        "text": "60% Deals X% of enemy health as damage",
+        "unit": "%",
+        "value": 60
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:final-shout",
+      "d1:enchantments:fire-focus",
+      "d1:enchantments:gravity",
+      "d1:enchantments:gravity-pulse",
+      "d1:enchantments:levitation-shot",
+      "d1:enchantments:lightning-focus"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:explorer",
+    "slug": "explorer",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Explorer",
+    "description": "Regain a small amount of health for every 100 blocks explored on the map.",
+    "image": {
+      "alt": "Explorer icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/explorer.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Gain health when exploring",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "0.3% health regained",
+        "unit": "%",
+        "value": 0.3
+      },
+      {
+        "level": 2,
+        "text": "0.7% health regained",
+        "unit": "%",
+        "value": 0.7
+      },
+      {
+        "level": 3,
+        "text": "1.0% health regained",
+        "unit": "%",
+        "value": 1
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:fire-aspect",
+      "d1:enchantments:fire-trail",
+      "d1:enchantments:food-reserves",
+      "d1:enchantments:freezing",
+      "d1:enchantments:frenzied",
+      "d1:enchantments:fuse-shot"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:final-shout",
+    "slug": "final-shout",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Final Shout",
+    "description": "When the player's health drops below 25%, all artifacts are used (ignoring cool-down periods).",
+    "image": {
+      "alt": "Final Shout icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/final-shout.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Artifacts activate on low HP",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "12th Up to every X second"
+      },
+      {
+        "level": 2,
+        "text": "10th Up to every X second"
+      },
+      {
+        "level": 3,
+        "text": "8th Up to every X second"
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:fire-focus",
+      "d1:enchantments:gravity",
+      "d1:enchantments:gravity-pulse",
+      "d1:enchantments:levitation-shot",
+      "d1:enchantments:lightning-focus",
+      "d1:enchantments:multi-roll"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:fire-aspect",
+    "slug": "fire-aspect",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Fire Aspect",
+    "description": "Sets mobs on fire for three seconds, dealing damage over time.",
+    "image": {
+      "alt": "Fire Aspect icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/fire-aspect.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:firebrand"
+    ],
+    "gildedDescription": "Burns mobs",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "X damage per second"
+      },
+      {
+        "level": 2,
+        "text": "1.25X damage per second"
+      },
+      {
+        "level": 3,
+        "text": "1.5X damage per second"
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": true,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:fire-trail",
+      "d1:enchantments:food-reserves",
+      "d1:enchantments:freezing",
+      "d1:enchantments:frenzied",
+      "d1:enchantments:fuse-shot",
+      "d1:enchantments:growing"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:fire-focus",
+    "slug": "fire-focus",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Fire Focus",
+    "description": "Increase fire damage dealt by the player.",
+    "image": {
+      "alt": "Fire Focus icon",
+      "height": 255,
+      "src": "/images/d1/enchantments/fire-focus.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Increases fire damage",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+25% increases fire damage",
+        "unit": "%",
+        "value": 25
+      },
+      {
+        "level": 2,
+        "text": "+50% increases fire damage",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "level": 3,
+        "text": "+75% increases fire damage",
+        "unit": "%",
+        "value": 75
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:gravity",
+      "d1:enchantments:gravity-pulse",
+      "d1:enchantments:levitation-shot",
+      "d1:enchantments:lightning-focus",
+      "d1:enchantments:multi-roll",
+      "d1:enchantments:overcharge"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:fire-trail",
+    "slug": "fire-trail",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Fire Trail",
+    "description": "Rolling creates a trail of fire that deals damage to mobs for four seconds.",
+    "image": {
+      "alt": "Fire Trail icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/fire-trail.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [
+      "d1:armor:cloaked-skull",
+      "d1:armor:ghost-kindler"
+    ],
+    "gildedDescription": "Spawns fire on roll",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "X fire damage per second"
+      },
+      {
+        "level": 2,
+        "text": "2X fire damage per second"
+      },
+      {
+        "level": 3,
+        "text": "3X fire damage per second"
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:food-reserves",
+      "d1:enchantments:freezing",
+      "d1:enchantments:frenzied",
+      "d1:enchantments:fuse-shot",
+      "d1:enchantments:growing",
+      "d1:enchantments:guarding-strike"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:food-reserves",
+    "slug": "food-reserves",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Food Reserves",
+    "description": "Using a healing potion also creates a random food item.",
+    "image": {
+      "alt": "Food Reserves icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/food-reserves.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [
+      "d1:armor:black-spot-armor"
+    ],
+    "gildedDescription": "Consumables crafted on potion use",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "1 items crafted",
+        "value": 1
+      },
+      {
+        "level": 2,
+        "text": "2 items crafted",
+        "value": 2
+      },
+      {
+        "level": 3,
+        "text": "3 items crafted",
+        "value": 3
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:freezing",
+      "d1:enchantments:frenzied",
+      "d1:enchantments:fuse-shot",
+      "d1:enchantments:growing",
+      "d1:enchantments:guarding-strike",
+      "d1:enchantments:health-synergy"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:freezing",
+    "slug": "freezing",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Freezing",
+    "description": "Slows mobs after hit for three seconds.",
+    "image": {
+      "alt": "Freezing icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/freezing.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:chill-gale-knife",
+      "d1:weapons:fangs-of-frost",
+      "d1:weapons:freezing-foil",
+      "d1:weapons:frost-scythe",
+      "d1:weapons:skull-scythe"
+    ],
+    "gildedDescription": "Slows mobs",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "-30% reduced speed",
+        "unit": "%",
+        "value": -30
+      },
+      {
+        "level": 2,
+        "text": "-40% reduced speed",
+        "unit": "%",
+        "value": -40
+      },
+      {
+        "level": 3,
+        "text": "-50% reduced speed",
+        "unit": "%",
+        "value": -50
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:frenzied",
+      "d1:enchantments:fuse-shot",
+      "d1:enchantments:growing",
+      "d1:enchantments:guarding-strike",
+      "d1:enchantments:health-synergy",
+      "d1:enchantments:illagers-bane"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:frenzied",
+    "slug": "frenzied",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Frenzied",
+    "description": "Player's attack speed is increased while at less than half health.",
+    "image": {
+      "alt": "Frenzied icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/frenzied.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Attack speed boost at low HP",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+10% melee and ranged attack speed",
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "level": 2,
+        "text": "+20% melee and ranged attack speed",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 3,
+        "text": "+30% melee and ranged attack speed",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:fuse-shot",
+      "d1:enchantments:growing",
+      "d1:enchantments:guarding-strike",
+      "d1:enchantments:health-synergy",
+      "d1:enchantments:illagers-bane",
+      "d1:enchantments:infinity"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:fuse-shot",
+    "slug": "fuse-shot",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Fuse Shot",
+    "description": "Every few shots has a timed charge that explodes one second after impact, dealing 100% damage to nearby mobs.",
+    "image": {
+      "alt": "Fuse Shot icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/fuse-shot.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:call-of-the-void",
+      "d1:weapons:red-snake"
+    ],
+    "gildedDescription": "Chance for arrows to explode",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "fifth Every X shot"
+      },
+      {
+        "level": 2,
+        "text": "fourth Every X shot"
+      },
+      {
+        "level": 3,
+        "text": "third Every X shot"
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:growing",
+      "d1:enchantments:guarding-strike",
+      "d1:enchantments:health-synergy",
+      "d1:enchantments:illagers-bane",
+      "d1:enchantments:infinity",
+      "d1:enchantments:jungle-poison"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:gravity",
+    "slug": "gravity",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Gravity",
+    "description": "This effect pulls mobs in range toward the weapon's impact point.",
+    "image": {
+      "alt": "Gravity icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/gravity.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:anchor",
+      "d1:weapons:bonehead-hammer",
+      "d1:weapons:encrusted-anchor",
+      "d1:weapons:hammer-of-gravity",
+      "d1:weapons:imploding-crossbow",
+      "d1:weapons:voidcaller"
+    ],
+    "gildedDescription": "Pulls in enemies",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "1.0 seconds duration",
+        "value": 1
+      },
+      {
+        "level": 2,
+        "text": "1.5 seconds duration",
+        "value": 1.5
+      },
+      {
+        "level": 3,
+        "text": "2.0 seconds duration",
+        "value": 2
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:gravity-pulse",
+      "d1:enchantments:levitation-shot",
+      "d1:enchantments:lightning-focus",
+      "d1:enchantments:multi-roll",
+      "d1:enchantments:overcharge",
+      "d1:enchantments:poison-focus"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:gravity-pulse",
+    "slug": "gravity-pulse",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Gravity Pulse",
+    "description": "A blast occurs every three seconds that pulls nearby enemies nearer.",
+    "image": {
+      "alt": "Gravity Pulse icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/gravity-pulse.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Pulls enemies in",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "100% range",
+        "unit": "%",
+        "value": 100
+      },
+      {
+        "level": 2,
+        "text": "150% range",
+        "unit": "%",
+        "value": 150
+      },
+      {
+        "level": 3,
+        "text": "200% range",
+        "unit": "%",
+        "value": 200
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:levitation-shot",
+      "d1:enchantments:lightning-focus",
+      "d1:enchantments:multi-roll",
+      "d1:enchantments:overcharge",
+      "d1:enchantments:poison-focus",
+      "d1:enchantments:protection"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:growing",
+    "slug": "growing",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Growing",
+    "description": "The fired shot grows in the air, dealing extra damage to distant targets.",
+    "image": {
+      "alt": "Growing icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/growing.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:baby-crossbows",
+      "d1:weapons:bonebow"
+    ],
+    "gildedDescription": "Arrows grow size",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "25% maximum damage",
+        "unit": "%",
+        "value": 25
+      },
+      {
+        "level": 2,
+        "text": "50% maximum damage",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "level": 3,
+        "text": "75% maximum damage",
+        "unit": "%",
+        "value": 75
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:guarding-strike",
+      "d1:enchantments:health-synergy",
+      "d1:enchantments:illagers-bane",
+      "d1:enchantments:infinity",
+      "d1:enchantments:jungle-poison",
+      "d1:enchantments:leeching"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:guarding-strike",
+    "slug": "guarding-strike",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Guarding Strike",
+    "description": "After defeating a mob, gain a temporary shield that reduces damage by 50%.",
+    "image": {
+      "alt": "Guarding Strike icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/guarding-strike.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Grants temporary shield",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "2 seconds duration.",
+        "value": 2
+      },
+      {
+        "level": 2,
+        "text": "3 seconds duration.",
+        "value": 3
+      },
+      {
+        "level": 3,
+        "text": "4 seconds duration.",
+        "value": 4
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:health-synergy",
+      "d1:enchantments:illagers-bane",
+      "d1:enchantments:infinity",
+      "d1:enchantments:jungle-poison",
+      "d1:enchantments:leeching",
+      "d1:enchantments:life-boost"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:health-synergy",
+    "slug": "health-synergy",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Health Synergy",
+    "description": "Regain a small amount of health when activating any artifact.",
+    "image": {
+      "alt": "Health Synergy icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/health-synergy.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Health restored on artifact use",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "3% health regained",
+        "unit": "%",
+        "value": 3
+      },
+      {
+        "level": 2,
+        "text": "4% health regained",
+        "unit": "%",
+        "value": 4
+      },
+      {
+        "level": 3,
+        "text": "5% health regained",
+        "unit": "%",
+        "value": 5
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:illagers-bane",
+      "d1:enchantments:infinity",
+      "d1:enchantments:jungle-poison",
+      "d1:enchantments:leeching",
+      "d1:enchantments:life-boost",
+      "d1:enchantments:looting"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:illagers-bane",
+    "slug": "illagers-bane",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Illager's Bane",
+    "description": "Attacks deal extra damage to Illagers.",
+    "image": {
+      "alt": "Illager's Bane icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/illagers-bane.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:bone-cudgel"
+    ],
+    "gildedDescription": "Extra damage to Illagers",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+25% increased damage",
+        "unit": "%",
+        "value": 25
+      },
+      {
+        "level": 2,
+        "text": "+35% increased damage",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "level": 3,
+        "text": "+45% increased damage",
+        "unit": "%",
+        "value": 45
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:infinity",
+      "d1:enchantments:jungle-poison",
+      "d1:enchantments:leeching",
+      "d1:enchantments:life-boost",
+      "d1:enchantments:looting",
+      "d1:enchantments:luck-of-the-sea"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:infinity",
+    "slug": "infinity",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Infinity",
+    "description": "Chance to immediately replenish an arrow after shooting.",
+    "image": {
+      "alt": "Infinity icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/infinity.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:hunters-promise"
+    ],
+    "gildedDescription": "Chance to regain arrows",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "16% chance of arrow not being used",
+        "unit": "%",
+        "value": 16
+      },
+      {
+        "level": 2,
+        "text": "32% chance of arrow not being used",
+        "unit": "%",
+        "value": 32
+      },
+      {
+        "level": 3,
+        "text": "48% chance of arrow not being used",
+        "unit": "%",
+        "value": 48
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:jungle-poison",
+      "d1:enchantments:leeching",
+      "d1:enchantments:life-boost",
+      "d1:enchantments:looting",
+      "d1:enchantments:luck-of-the-sea",
+      "d1:enchantments:lucky-explorer"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:jungle-poison",
+    "slug": "jungle-poison",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Jungle Poison",
+    "description": "Inflicts poison",
+    "image": {
+      "alt": "Jungle Poison icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/jungle-poison.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:encrusted-anchor",
+      "d1:weapons:vine-whip"
+    ],
+    "isGilded": false,
+    "levels": [],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "exclusive",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:leeching",
+      "d1:enchantments:life-boost",
+      "d1:enchantments:looting",
+      "d1:enchantments:luck-of-the-sea",
+      "d1:enchantments:lucky-explorer",
+      "d1:enchantments:multishot"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:leeching",
+    "slug": "leeching",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Leeching",
+    "description": "Defeating a mob heals the hero by a small portion of the mob's max health.",
+    "image": {
+      "alt": "Leeching icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/leeching.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:heartstealer",
+      "d1:weapons:the-beginning-and-the-end"
+    ],
+    "gildedDescription": "Leeches health from mobs",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "5% of mob's max health",
+        "unit": "%",
+        "value": 5
+      },
+      {
+        "level": 2,
+        "text": "7% of mob's max health",
+        "unit": "%",
+        "value": 7
+      },
+      {
+        "level": 3,
+        "text": "9% of mob's max health",
+        "unit": "%",
+        "value": 9
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": true,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:life-boost",
+      "d1:enchantments:looting",
+      "d1:enchantments:luck-of-the-sea",
+      "d1:enchantments:lucky-explorer",
+      "d1:enchantments:multishot",
+      "d1:enchantments:pain-cycle"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:levitation-shot",
+    "slug": "levitation-shot",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Levitation Shot",
+    "description": "After rolling, the next attack will cause the target to levitate briefly.",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "Levitation Shot icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/levitation-shot.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Levitation Shot",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "100% fall damage",
+        "unit": "%",
+        "value": 100
+      },
+      {
+        "level": 2,
+        "text": "200% fall damage",
+        "unit": "%",
+        "value": 200
+      },
+      {
+        "level": 3,
+        "text": "300% fall damage",
+        "unit": "%",
+        "value": 300
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:lightning-focus",
+      "d1:enchantments:multi-roll",
+      "d1:enchantments:overcharge",
+      "d1:enchantments:poison-focus",
+      "d1:enchantments:protection",
+      "d1:enchantments:radiance"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:life-boost",
+    "slug": "life-boost",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Life Boost",
+    "description": "Maximum health increases each time the player loses a life.",
+    "image": {
+      "alt": "Life Boost icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/life-boost.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Health boost after respawn",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "11% extra health",
+        "unit": "%",
+        "value": 11
+      },
+      {
+        "level": 2,
+        "text": "22% extra health",
+        "unit": "%",
+        "value": 22
+      },
+      {
+        "level": 3,
+        "text": "33% extra health",
+        "unit": "%",
+        "value": 33
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:looting",
+      "d1:enchantments:luck-of-the-sea",
+      "d1:enchantments:lucky-explorer",
+      "d1:enchantments:multishot",
+      "d1:enchantments:pain-cycle",
+      "d1:enchantments:piercing"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:lightning-focus",
+    "slug": "lightning-focus",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Lightning Focus",
+    "description": "Increases lightning damage dealt by the player.",
+    "image": {
+      "alt": "Lightning Focus icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/lightning-focus.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Increases lightning damage",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+25% increased lightning damage",
+        "unit": "%",
+        "value": 25
+      },
+      {
+        "level": 2,
+        "text": "+50% increased lightning damage",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "level": 3,
+        "text": "+75% increased lightning damage",
+        "unit": "%",
+        "value": 75
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:multi-roll",
+      "d1:enchantments:overcharge",
+      "d1:enchantments:poison-focus",
+      "d1:enchantments:protection",
+      "d1:enchantments:radiance",
+      "d1:enchantments:reckless"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:looting",
+    "slug": "looting",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Looting",
+    "description": "Increases the chance for mobs to drop consumables.",
+    "image": {
+      "alt": "Looting icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/looting.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:fortune-spear"
+    ],
+    "gildedDescription": "Drop More Consumables",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+100% increased chance",
+        "unit": "%",
+        "value": 100
+      },
+      {
+        "level": 2,
+        "text": "+200% increased chance",
+        "unit": "%",
+        "value": 200
+      },
+      {
+        "level": 3,
+        "text": "+300% increased chance",
+        "unit": "%",
+        "value": 300
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": true,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:luck-of-the-sea",
+      "d1:enchantments:lucky-explorer",
+      "d1:enchantments:multishot",
+      "d1:enchantments:pain-cycle",
+      "d1:enchantments:piercing",
+      "d1:enchantments:poison-cloud"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:luck-of-the-sea",
+    "slug": "luck-of-the-sea",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Luck of the Sea",
+    "description": "Increases luck, boosting the chance of unique rare drops.",
+    "image": {
+      "alt": "Luck of the Sea icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/luck-of-the-sea.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Increases luck",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "10% luck increase",
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "level": 2,
+        "text": "20% luck increase",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 3,
+        "text": "30% luck increase",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:lucky-explorer",
+      "d1:enchantments:multishot",
+      "d1:enchantments:pain-cycle",
+      "d1:enchantments:piercing",
+      "d1:enchantments:poison-cloud",
+      "d1:enchantments:potion-barrier"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:lucky-explorer",
+    "slug": "lucky-explorer",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Lucky Explorer",
+    "description": "Chance to spawn emeralds with every block explored.",
+    "image": {
+      "alt": "Lucky Explorer icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/lucky-explorer.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [
+      "d1:armor:emerald-gear",
+      "d1:armor:gilded-glory",
+      "d1:armor:opulent-armor"
+    ],
+    "gildedDescription": "Chance to spawn emeralds when exploring",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "1 emerald spawned",
+        "value": 1
+      },
+      {
+        "level": 2,
+        "text": "3 emerald spawned",
+        "value": 3
+      },
+      {
+        "level": 3,
+        "text": "5 emerald spawned",
+        "value": 5
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:multishot",
+      "d1:enchantments:pain-cycle",
+      "d1:enchantments:piercing",
+      "d1:enchantments:poison-cloud",
+      "d1:enchantments:potion-barrier",
+      "d1:enchantments:power"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:multi-roll",
+    "slug": "multi-roll",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Multi-Roll",
+    "description": "Grants extra rolls.",
+    "image": {
+      "alt": "Multi-Roll icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/multi-roll.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [
+      "d1:armor:goat-gear"
+    ],
+    "gildedDescription": "Gives an extra roll",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "2 Grants X rolls",
+        "value": 2
+      },
+      {
+        "level": 2,
+        "text": "3 Grants X rolls",
+        "value": 3
+      },
+      {
+        "level": 3,
+        "text": "4 Grants X rolls",
+        "value": 4
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:overcharge",
+      "d1:enchantments:poison-focus",
+      "d1:enchantments:protection",
+      "d1:enchantments:radiance",
+      "d1:enchantments:reckless",
+      "d1:enchantments:refreshment"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:multishot",
+    "slug": "multishot",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Multishot",
+    "description": "Grants the chance to fire five arrows at once.",
+    "image": {
+      "alt": "Multishot icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/multishot.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:bow-of-lost-souls"
+    ],
+    "gildedDescription": "Chance for multishot",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "20% chance to trigger",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 2,
+        "text": "30% chance to trigger",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "level": 3,
+        "text": "40% chance to trigger",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:pain-cycle",
+      "d1:enchantments:piercing",
+      "d1:enchantments:poison-cloud",
+      "d1:enchantments:potion-barrier",
+      "d1:enchantments:power",
+      "d1:enchantments:prospector"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:overcharge",
+    "slug": "overcharge",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Overcharge",
+    "description": "Continue to hold the ranged attack button to double, triple, or quadruple charge a bow, increasing its damage each time.",
+    "image": {
+      "alt": "Overcharge icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/overcharge.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Boost charge shot",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "2 Can charge x times.",
+        "value": 2
+      },
+      {
+        "level": 2,
+        "text": "3 Can charge x times.",
+        "value": 3
+      },
+      {
+        "level": 3,
+        "text": "4 Can charge x times.",
+        "value": 4
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:poison-focus",
+      "d1:enchantments:protection",
+      "d1:enchantments:radiance",
+      "d1:enchantments:reckless",
+      "d1:enchantments:refreshment",
+      "d1:enchantments:rushdown"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:pain-cycle",
+    "slug": "pain-cycle",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Pain Cycle",
+    "description": "Attacking drains player's life to grant one stack of Pain Cycle. At 5 stacks, pain is channeled into the next attack.",
+    "image": {
+      "alt": "Pain Cycle icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/pain-cycle.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Deal extra damage",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "Triple (3x) Max stacks does X damage"
+      },
+      {
+        "level": 2,
+        "text": "Quadruple (4x) Max stacks does X damage"
+      },
+      {
+        "level": 3,
+        "text": "Quintuple (5x) Max stacks does X damage"
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:piercing",
+      "d1:enchantments:poison-cloud",
+      "d1:enchantments:potion-barrier",
+      "d1:enchantments:power",
+      "d1:enchantments:prospector",
+      "d1:enchantments:punch"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:piercing",
+    "slug": "piercing",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Piercing",
+    "description": "Fired arrows sometimes gain the piercing effect, which allows them to fly through multiple mobs.",
+    "image": {
+      "alt": "Piercing icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/piercing.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:nautical-crossbow",
+      "d1:weapons:pride-of-the-piglins",
+      "d1:weapons:the-slicer"
+    ],
+    "gildedDescription": "Chance to fire piercing bolts",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "3rd Every X arrow"
+      },
+      {
+        "level": 2,
+        "text": "2nd Every X arrow"
+      },
+      {
+        "level": 3,
+        "text": "Every arrow Every X arrow"
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:poison-cloud",
+      "d1:enchantments:potion-barrier",
+      "d1:enchantments:power",
+      "d1:enchantments:prospector",
+      "d1:enchantments:punch",
+      "d1:enchantments:radiance-shot"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:poison-cloud",
+    "slug": "poison-cloud",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Poison Cloud",
+    "description": "Has a 30% chance to summon a poison cloud that deals damage to enemies in an area for three seconds.",
+    "image": {
+      "alt": "Poison Cloud icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/poison-cloud.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:nightmares-bite",
+      "d1:weapons:the-green-menace",
+      "d1:weapons:venom-glaive"
+    ],
+    "gildedDescription": "Spawns Poison Clouds",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "X damage per second"
+      },
+      {
+        "level": 2,
+        "text": "2X damage per second"
+      },
+      {
+        "level": 3,
+        "text": "3X damage per second"
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:potion-barrier",
+      "d1:enchantments:power",
+      "d1:enchantments:prospector",
+      "d1:enchantments:punch",
+      "d1:enchantments:radiance-shot",
+      "d1:enchantments:rampaging"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:poison-focus",
+    "slug": "poison-focus",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Poison Focus",
+    "description": "Increased poison damage dealt by the player.",
+    "image": {
+      "alt": "Poison Focus icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/poison-focus.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Increases poison damage",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+25% Increases poison damage",
+        "unit": "%",
+        "value": 25
+      },
+      {
+        "level": 2,
+        "text": "+50% Increases poison damage",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "level": 3,
+        "text": "+75% Increases poison damage",
+        "unit": "%",
+        "value": 75
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:protection",
+      "d1:enchantments:radiance",
+      "d1:enchantments:reckless",
+      "d1:enchantments:refreshment",
+      "d1:enchantments:rushdown",
+      "d1:enchantments:shock-web"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:potion-barrier",
+    "slug": "potion-barrier",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Potion Barrier",
+    "description": "Take -90% damage for a short duration when using a healing potion.",
+    "image": {
+      "alt": "Potion Barrier icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/potion-barrier.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [
+      "d1:armor:stalwart-armor"
+    ],
+    "gildedDescription": "Increased defense on potion use",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "5 seconds duration",
+        "value": 5
+      },
+      {
+        "level": 2,
+        "text": "7 seconds duration",
+        "value": 7
+      },
+      {
+        "level": 3,
+        "text": "9 seconds duration",
+        "value": 9
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:power",
+      "d1:enchantments:prospector",
+      "d1:enchantments:punch",
+      "d1:enchantments:radiance-shot",
+      "d1:enchantments:rampaging",
+      "d1:enchantments:rapid-fire"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:power",
+    "slug": "power",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Power",
+    "description": "Power boosts arrow damage.",
+    "image": {
+      "alt": "Power icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/power.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:elite-power-bow",
+      "d1:weapons:masters-bow",
+      "d1:weapons:phantom-bow"
+    ],
+    "gildedDescription": "Greater damage",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+10% damage",
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "level": 2,
+        "text": "+21% damage",
+        "unit": "%",
+        "value": 21
+      },
+      {
+        "level": 3,
+        "text": "+33% damage",
+        "unit": "%",
+        "value": 33
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:prospector",
+      "d1:enchantments:punch",
+      "d1:enchantments:radiance-shot",
+      "d1:enchantments:rampaging",
+      "d1:enchantments:rapid-fire",
+      "d1:enchantments:recycler"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:prospector",
+    "slug": "prospector",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Prospector",
+    "description": "Find more emeralds on fallen enemies.",
+    "image": {
+      "alt": "Prospector icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/prospector.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged",
+      "armor"
+    ],
+    "builtInto": [
+      "d1:weapons:diamond-pickaxe",
+      "d1:weapons:the-last-laugh"
+    ],
+    "gildedDescription": "Mobs drop more emeralds",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+100% increased chance",
+        "unit": "%",
+        "value": 100
+      },
+      {
+        "level": 2,
+        "text": "+200% increased chance",
+        "unit": "%",
+        "value": 200
+      },
+      {
+        "level": 3,
+        "text": "+300% increased chance",
+        "unit": "%",
+        "value": 300
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": true,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:punch",
+      "d1:enchantments:radiance-shot",
+      "d1:enchantments:rampaging",
+      "d1:enchantments:rapid-fire",
+      "d1:enchantments:recycler",
+      "d1:enchantments:reliable-ricochet"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:protection",
+    "slug": "protection",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Protection",
+    "description": "Reduces damage taken.",
+    "image": {
+      "alt": "Protection icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/protection.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Damage reduction",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "-6% damage taken",
+        "unit": "%",
+        "value": -6
+      },
+      {
+        "level": 2,
+        "text": "-11% damage taken",
+        "unit": "%",
+        "value": -11
+      },
+      {
+        "level": 3,
+        "text": "-15% damage taken",
+        "unit": "%",
+        "value": -15
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:radiance",
+      "d1:enchantments:reckless",
+      "d1:enchantments:refreshment",
+      "d1:enchantments:rushdown",
+      "d1:enchantments:shock-web",
+      "d1:enchantments:shockwave"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:punch",
+    "slug": "punch",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Punch",
+    "description": "Boosts arrow pushback.",
+    "image": {
+      "alt": "Punch icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/punch.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:doom-crossbow"
+    ],
+    "gildedDescription": "Additional knockback",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "200% knockback",
+        "unit": "%",
+        "value": 200
+      },
+      {
+        "level": 2,
+        "text": "300% knockback",
+        "unit": "%",
+        "value": 300
+      },
+      {
+        "level": 3,
+        "text": "400% knockback",
+        "unit": "%",
+        "value": 400
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:radiance-shot",
+      "d1:enchantments:rampaging",
+      "d1:enchantments:rapid-fire",
+      "d1:enchantments:recycler",
+      "d1:enchantments:reliable-ricochet",
+      "d1:enchantments:ricochet"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:radiance",
+    "slug": "radiance",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Radiance",
+    "description": "Has a 20% chance to spawn a circular area that heals all allies within it.",
+    "image": {
+      "alt": "Radiance icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/radiance.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:suns-grace"
+    ],
+    "gildedDescription": "Heals allies in the area",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "X health healed"
+      },
+      {
+        "level": 2,
+        "text": "1.5X health healed"
+      },
+      {
+        "level": 3,
+        "text": "2X health healed"
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": true,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:reckless",
+      "d1:enchantments:refreshment",
+      "d1:enchantments:rushdown",
+      "d1:enchantments:shock-web",
+      "d1:enchantments:shockwave",
+      "d1:enchantments:soul-focus"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:radiance-shot",
+    "slug": "radiance-shot",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Radiance Shot",
+    "description": "Has a 50% chance to spawn a circular area that heals all allies within it.",
+    "image": {
+      "alt": "Radiance Shot icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/radiance-shot.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:sabrewing"
+    ],
+    "gildedDescription": "Heals allies in the area",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "X health healed"
+      },
+      {
+        "level": 2,
+        "text": "1.5X health healed"
+      },
+      {
+        "level": 3,
+        "text": "2X health healed"
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:rampaging",
+      "d1:enchantments:rapid-fire",
+      "d1:enchantments:recycler",
+      "d1:enchantments:reliable-ricochet",
+      "d1:enchantments:ricochet",
+      "d1:enchantments:roll-charge"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:rampaging",
+    "slug": "rampaging",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Rampaging",
+    "description": "After defeating a mob, there is a 10% chance to increase attack speed by +50% for a short time.",
+    "image": {
+      "alt": "Rampaging icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/rampaging.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:dancers-sword",
+      "d1:weapons:maulers",
+      "d1:weapons:sparkler"
+    ],
+    "gildedDescription": "Increases attack speed",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "5 seconds",
+        "value": 5
+      },
+      {
+        "level": 2,
+        "text": "10 seconds",
+        "value": 10
+      },
+      {
+        "level": 3,
+        "text": "15 seconds",
+        "value": 15
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": true,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:rapid-fire",
+      "d1:enchantments:recycler",
+      "d1:enchantments:reliable-ricochet",
+      "d1:enchantments:ricochet",
+      "d1:enchantments:roll-charge",
+      "d1:enchantments:rush"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:rapid-fire",
+    "slug": "rapid-fire",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Rapid Fire",
+    "description": "Increases attack speed.",
+    "image": {
+      "alt": "Rapid Fire icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/rapid-fire.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:azure-seeker",
+      "d1:weapons:purple-storm"
+    ],
+    "gildedDescription": "Increased fire rate",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+10% attack speed",
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "level": 2,
+        "text": "+15% attack speed",
+        "unit": "%",
+        "value": 15
+      },
+      {
+        "level": 3,
+        "text": "+20% attack speed",
+        "unit": "%",
+        "value": 20
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:recycler",
+      "d1:enchantments:reliable-ricochet",
+      "d1:enchantments:ricochet",
+      "d1:enchantments:roll-charge",
+      "d1:enchantments:rush",
+      "d1:enchantments:shadow-blast"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:reckless",
+    "slug": "reckless",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Reckless",
+    "description": "Decreases player health by 40% while increasing melee damage.",
+    "image": {
+      "alt": "Reckless icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/reckless.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Melee Damage Increased",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+50% damage increase",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "level": 2,
+        "text": "+70% damage increase",
+        "unit": "%",
+        "value": 70
+      },
+      {
+        "level": 3,
+        "text": "+90% damage increase",
+        "unit": "%",
+        "value": 90
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:refreshment",
+      "d1:enchantments:rushdown",
+      "d1:enchantments:shock-web",
+      "d1:enchantments:shockwave",
+      "d1:enchantments:soul-focus",
+      "d1:enchantments:swirling"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:recycler",
+    "slug": "recycler",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Recycler",
+    "description": "Being hit by damage-inflicting projectiles occasionally crafts a small quiver of arrows.",
+    "image": {
+      "alt": "Recycler icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/recycler.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Crafts arrows on hit",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "30th Every X projectile"
+      },
+      {
+        "level": 2,
+        "text": "20th Every X projectile"
+      },
+      {
+        "level": 3,
+        "text": "10th Every X projectile"
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:reliable-ricochet",
+      "d1:enchantments:ricochet",
+      "d1:enchantments:roll-charge",
+      "d1:enchantments:rush",
+      "d1:enchantments:shadow-blast",
+      "d1:enchantments:shadow-surge"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:refreshment",
+    "slug": "refreshment",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Refreshment",
+    "description": "Defeating a mob reduces health potion's cooldown time, allowing player to heal more quickly.",
+    "image": {
+      "alt": "Refreshment icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/refreshment.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Reduce health potion cooldown",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "1.0 seconds cooldown speed up",
+        "value": 1
+      },
+      {
+        "level": 2,
+        "text": "2.0 seconds cooldown speed up",
+        "value": 2
+      },
+      {
+        "level": 3,
+        "text": "3.0 seconds cooldown speed up",
+        "value": 3
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:rushdown",
+      "d1:enchantments:shock-web",
+      "d1:enchantments:shockwave",
+      "d1:enchantments:soul-focus",
+      "d1:enchantments:swirling",
+      "d1:enchantments:tempo-theft"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:reliable-ricochet",
+    "slug": "reliable-ricochet",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Reliable Ricochet",
+    "description": "Charged arrows ricochet off of mobs up to three times.",
+    "image": {
+      "alt": "Reliable Ricochet icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/reliable-ricochet.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:bubble-burster",
+      "d1:weapons:gloopy-bow"
+    ],
+    "isGilded": false,
+    "levels": [],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "exclusive",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:ricochet",
+      "d1:enchantments:roll-charge",
+      "d1:enchantments:rush",
+      "d1:enchantments:shadow-blast",
+      "d1:enchantments:shadow-surge",
+      "d1:enchantments:sharpness"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:ricochet",
+    "slug": "ricochet",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Ricochet",
+    "description": "Small chance for arrows to ricochet off mobs.",
+    "image": {
+      "alt": "Ricochet icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/ricochet.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:echo-of-the-valley",
+      "d1:weapons:lightning-harp-crossbow",
+      "d1:weapons:slayer-crossbow"
+    ],
+    "gildedDescription": "Hits multiple targets",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "20% chance to trigger",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 2,
+        "text": "40% chance to trigger",
+        "unit": "%",
+        "value": 40
+      },
+      {
+        "level": 3,
+        "text": "60% chance to trigger",
+        "unit": "%",
+        "value": 60
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:roll-charge",
+      "d1:enchantments:rush",
+      "d1:enchantments:shadow-blast",
+      "d1:enchantments:shadow-surge",
+      "d1:enchantments:sharpness",
+      "d1:enchantments:smiting"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:roll-charge",
+    "slug": "roll-charge",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Roll Charge",
+    "description": "After rolling the next shot is charged.",
+    "image": {
+      "alt": "Roll Charge icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/roll-charge.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:burst-gale-bow",
+      "d1:weapons:weeping-vine-bow"
+    ],
+    "gildedDescription": "Rolling charges next arrow",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "1 Charged Shot for X Seconds",
+        "value": 1
+      },
+      {
+        "level": 2,
+        "text": "2 Charged Shot for X Seconds",
+        "value": 2
+      },
+      {
+        "level": 3,
+        "text": "3 Charged Shot for X Seconds",
+        "value": 3
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:rush",
+      "d1:enchantments:shadow-blast",
+      "d1:enchantments:shadow-surge",
+      "d1:enchantments:sharpness",
+      "d1:enchantments:smiting",
+      "d1:enchantments:snowball"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:rush",
+    "slug": "rush",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Rush",
+    "description": "Increases movement speed for one second after taking damage.",
+    "image": {
+      "alt": "Rush icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/rush.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [
+      "d1:armor:nimble-turtle-armor"
+    ],
+    "gildedDescription": "Boost speed after hit",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "30% % speed increase.",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "level": 2,
+        "text": "60% % speed increase.",
+        "unit": "%",
+        "value": 60
+      },
+      {
+        "level": 3,
+        "text": "90% % speed increase.",
+        "unit": "%",
+        "value": 90
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:shadow-blast",
+      "d1:enchantments:shadow-surge",
+      "d1:enchantments:sharpness",
+      "d1:enchantments:smiting",
+      "d1:enchantments:snowball",
+      "d1:enchantments:soul-siphon"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:rushdown",
+    "slug": "rushdown",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Rushdown",
+    "description": "100% increased speed temporarily after defeating a mob. Speed burst after mob defeated.",
+    "dlc": "howling-peaks",
+    "image": {
+      "alt": "Rushdown icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/rushdown.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:chill-gale-knife",
+      "d1:weapons:resolute-tempest-knife",
+      "d1:weapons:tempest-knife"
+    ],
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "1 seconds",
+        "value": 1
+      },
+      {
+        "level": 2,
+        "text": "2 seconds",
+        "value": 2
+      },
+      {
+        "level": 3,
+        "text": "3 seconds",
+        "value": 3
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "exclusive",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:shock-web",
+      "d1:enchantments:shockwave",
+      "d1:enchantments:soul-focus",
+      "d1:enchantments:swirling",
+      "d1:enchantments:tempo-theft",
+      "d1:enchantments:void-strike"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:shadow-barb",
+    "slug": "shadow-barb",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Shadow Barb",
+    "description": "First shot does not break Shadow Form",
+    "dlc": "echoing-void",
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:shrieking-crossbow",
+      "d1:weapons:veiled-crossbow"
+    ],
+    "isGilded": false,
+    "levels": [],
+    "mobObtainable": false,
+    "section": "exclusive",
+    "stackable": false,
+    "tags": [],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d1:enchantments:shadow-blast",
+    "slug": "shadow-blast",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Shadow Blast",
+    "description": "Leaving Shadow Form triggers a powerful blast that damages nearby mobs.",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "Shadow Blast icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/shadow-blast.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "You make a blast around you when leaving Shadow Form",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "2 blocks radius Triggers a blast around you."
+      },
+      {
+        "level": 2,
+        "text": "3 block radius Triggers a blast around you."
+      },
+      {
+        "level": 3,
+        "text": "4 block radius Triggers a blast around you."
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:shadow-surge",
+      "d1:enchantments:sharpness",
+      "d1:enchantments:smiting",
+      "d1:enchantments:snowball",
+      "d1:enchantments:soul-siphon",
+      "d1:enchantments:soul-speed"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:shadow-shot",
+    "slug": "shadow-shot",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Shadow Shot",
+    "description": "Chance of Shadow Form on kills",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "Shadow Shot icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/shadow-shot.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:shadow-crossbow",
+      "d1:weapons:shrieking-crossbow",
+      "d1:weapons:veiled-crossbow"
+    ],
+    "isGilded": false,
+    "levels": [],
+    "mobObtainable": false,
+    "section": "exclusive",
+    "stackable": false,
+    "tags": [],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d1:enchantments:shadow-surge",
+    "slug": "shadow-surge",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Shadow Surge",
+    "description": "Mobs defeated while in Shadow Form grant extra souls.",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "Shadow Surge icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/shadow-surge.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Shadow Form grants more souls",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "6 % Souls per mob.",
+        "value": 6
+      },
+      {
+        "level": 2,
+        "text": "12 % Souls per mob.",
+        "value": 12
+      },
+      {
+        "level": 3,
+        "text": "16 % Souls per mob.",
+        "value": 16
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:sharpness",
+      "d1:enchantments:smiting",
+      "d1:enchantments:snowball",
+      "d1:enchantments:soul-siphon",
+      "d1:enchantments:soul-speed",
+      "d1:enchantments:speed-synergy"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:shared-pain",
+    "slug": "shared-pain",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Shared Pain",
+    "description": "Excess damage hits nearby mobs",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "Shared Pain icon",
+      "height": 201,
+      "src": "/images/d1/enchantments/shared-pain.webp",
+      "width": 200
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:the-starless-night"
+    ],
+    "isGilded": false,
+    "levels": [],
+    "mobObtainable": false,
+    "section": "exclusive",
+    "stackable": false,
+    "tags": [],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d1:enchantments:sharpness",
+    "slug": "sharpness",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Sharpness",
+    "description": "Sharpens the player's weapon, causing it to deal more damage.",
+    "image": {
+      "alt": "Sharpness icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/sharpness.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:broadsword",
+      "d1:weapons:diamond-sword",
+      "d1:weapons:frost-slayer"
+    ],
+    "gildedDescription": "Extra Damage",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+10% damage",
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "level": 2,
+        "text": "+21% damage",
+        "unit": "%",
+        "value": 21
+      },
+      {
+        "level": 3,
+        "text": "+33% damage",
+        "unit": "%",
+        "value": 33
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": true,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:smiting",
+      "d1:enchantments:snowball",
+      "d1:enchantments:soul-siphon",
+      "d1:enchantments:soul-speed",
+      "d1:enchantments:speed-synergy",
+      "d1:enchantments:stunning"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:shock-web",
+    "slug": "shock-web",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Shock Web",
+    "description": "Beams of lightning connect the last few charged arrows fired, which deal lightning damage to enemies who touch a beam.",
+    "image": {
+      "alt": "Shock Web icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/shock-web.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Beams cause damage",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "1 Up to X beams",
+        "value": 1
+      },
+      {
+        "level": 2,
+        "text": "2 Up to X beams",
+        "value": 2
+      },
+      {
+        "level": 3,
+        "text": "3 Up to X beams",
+        "value": 3
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:shockwave",
+      "d1:enchantments:soul-focus",
+      "d1:enchantments:swirling",
+      "d1:enchantments:tempo-theft",
+      "d1:enchantments:void-strike",
+      "d1:enchantments:chain-reaction"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:shockwave",
+    "slug": "shockwave",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Shockwave",
+    "description": "The last attack in a combo launches a shockwave, damaging enemies.",
+    "image": {
+      "alt": "Shockwave icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/shockwave.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:whirlwind"
+    ],
+    "gildedDescription": "Casts Shockwaves",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "X damage dealt by shockwave"
+      },
+      {
+        "level": 2,
+        "text": "1.5X damage dealt by shockwave"
+      },
+      {
+        "level": 3,
+        "text": "2X damage dealt by shockwave"
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:soul-focus",
+      "d1:enchantments:swirling",
+      "d1:enchantments:tempo-theft",
+      "d1:enchantments:void-strike",
+      "d1:enchantments:chain-reaction",
+      "d1:enchantments:chilling"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:smiting",
+    "slug": "smiting",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Smiting",
+    "description": "Increases damage against the Undead.",
+    "image": {
+      "alt": "Smiting icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/smiting.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:cackling-broom",
+      "d1:weapons:dark-katana",
+      "d1:weapons:grave-bane"
+    ],
+    "gildedDescription": "Extra damage against undead",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+25% increased damage",
+        "unit": "%",
+        "value": 25
+      },
+      {
+        "level": 2,
+        "text": "+35% increased damage",
+        "unit": "%",
+        "value": 35
+      },
+      {
+        "level": 3,
+        "text": "+45% increased damage",
+        "unit": "%",
+        "value": 45
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": true,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:snowball",
+      "d1:enchantments:soul-siphon",
+      "d1:enchantments:soul-speed",
+      "d1:enchantments:speed-synergy",
+      "d1:enchantments:stunning",
+      "d1:enchantments:supercharge"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:snowball",
+    "slug": "snowball",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Snowball",
+    "description": "Fires a snowball at a nearby enemy every few seconds, briefly stunning it.",
+    "image": {
+      "alt": "Snowball icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/snowball.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [
+      "d1:armor:frost-bite"
+    ],
+    "gildedDescription": "Spawns a snowy companion",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "5 Triggers every X seconds",
+        "value": 5
+      },
+      {
+        "level": 2,
+        "text": "3 Triggers every X seconds",
+        "value": 3
+      },
+      {
+        "level": 3,
+        "text": "Every second Triggers every X seconds"
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:soul-siphon",
+      "d1:enchantments:soul-speed",
+      "d1:enchantments:speed-synergy",
+      "d1:enchantments:stunning",
+      "d1:enchantments:supercharge",
+      "d1:enchantments:surprise-gift"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:soul-focus",
+    "slug": "soul-focus",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Soul Focus",
+    "description": "Increases soul damage dealt by the player.",
+    "image": {
+      "alt": "Soul Focus icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/soul-focus.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Increases soul damage",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+10% increased soul damage",
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "level": 2,
+        "text": "+20% increased soul damage",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 3,
+        "text": "+30% increased soul damage",
+        "unit": "%",
+        "value": 30
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:swirling",
+      "d1:enchantments:tempo-theft",
+      "d1:enchantments:void-strike",
+      "d1:enchantments:chain-reaction",
+      "d1:enchantments:chilling",
+      "d1:enchantments:critical-hit"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:soul-siphon",
+    "slug": "soul-siphon",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Soul Siphon",
+    "description": "When hitting an enemy, gain a 20% chance to grant extra souls.",
+    "image": {
+      "alt": "Soul Siphon icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/soul-siphon.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:eternal-knife"
+    ],
+    "gildedDescription": "Chance to gain souls",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "1 souls",
+        "value": 1
+      },
+      {
+        "level": 2,
+        "text": "3 souls",
+        "value": 3
+      },
+      {
+        "level": 3,
+        "text": "5 souls",
+        "value": 5
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:soul-speed",
+      "d1:enchantments:speed-synergy",
+      "d1:enchantments:stunning",
+      "d1:enchantments:supercharge",
+      "d1:enchantments:surprise-gift",
+      "d1:enchantments:swiftfooted"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:soul-speed",
+    "slug": "soul-speed",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Soul Speed",
+    "description": "Gathering a soul causes a gain of 5% stacking movement speed boost for a short time.",
+    "image": {
+      "alt": "Soul Speed icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/soul-speed.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Speed boost on soul pickup",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "3 seconds duration",
+        "value": 3
+      },
+      {
+        "level": 2,
+        "text": "5 seconds duration",
+        "value": 5
+      },
+      {
+        "level": 3,
+        "text": "7 seconds duration",
+        "value": 7
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:speed-synergy",
+      "d1:enchantments:stunning",
+      "d1:enchantments:supercharge",
+      "d1:enchantments:surprise-gift",
+      "d1:enchantments:swiftfooted",
+      "d1:enchantments:thorns"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:speed-synergy",
+    "slug": "speed-synergy",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Speed Synergy",
+    "description": "When activating any artifact, gain +20% movement speed for a short time.",
+    "image": {
+      "alt": "Speed Synergy icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/speed-synergy.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Speed boost on artifact use",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "1 second duration",
+        "value": 1
+      },
+      {
+        "level": 2,
+        "text": "2 second duration",
+        "value": 2
+      },
+      {
+        "level": 3,
+        "text": "3 second duration",
+        "value": 3
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:stunning",
+      "d1:enchantments:supercharge",
+      "d1:enchantments:surprise-gift",
+      "d1:enchantments:swiftfooted",
+      "d1:enchantments:thorns",
+      "d1:enchantments:thundering"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:stunning",
+    "slug": "stunning",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Stunning",
+    "description": "Chance to temporarily stun enemies.",
+    "image": {
+      "alt": "Stunning icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/stunning.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:highland-axe"
+    ],
+    "gildedDescription": "Chance to stun enemies",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "5% chance",
+        "unit": "%",
+        "value": 5
+      },
+      {
+        "level": 2,
+        "text": "10% chance",
+        "unit": "%",
+        "value": 10
+      },
+      {
+        "level": 3,
+        "text": "15% chance",
+        "unit": "%",
+        "value": 15
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:supercharge",
+      "d1:enchantments:surprise-gift",
+      "d1:enchantments:swiftfooted",
+      "d1:enchantments:thorns",
+      "d1:enchantments:thundering",
+      "d1:enchantments:tumblebee"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:supercharge",
+    "slug": "supercharge",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Supercharge",
+    "description": "Charged shots deal more damage and have more pushback.",
+    "image": {
+      "alt": "Supercharge icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/supercharge.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:guardian-bow"
+    ],
+    "gildedDescription": "Strong charged attacks",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+20% increased damage",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 2,
+        "text": "+30% increased damage",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "level": 3,
+        "text": "+40% increased damage",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:surprise-gift",
+      "d1:enchantments:swiftfooted",
+      "d1:enchantments:thorns",
+      "d1:enchantments:thundering",
+      "d1:enchantments:tumblebee",
+      "d1:enchantments:unchanting"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:surprise-gift",
+    "slug": "surprise-gift",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Surprise Gift",
+    "description": "Using a healing potion sometimes also creates a random consumable.",
+    "image": {
+      "alt": "Surprise Gift icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/surprise-gift.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [
+      "d1:armor:golden-piglin-armor"
+    ],
+    "gildedDescription": "Can get consumable on potion use",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "50% chance to trigger",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "level": 2,
+        "text": "100% chance to trigger",
+        "unit": "%",
+        "value": 100
+      },
+      {
+        "level": 3,
+        "text": "150% chance to trigger",
+        "unit": "%",
+        "value": 150
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:swiftfooted",
+      "d1:enchantments:thorns",
+      "d1:enchantments:thundering",
+      "d1:enchantments:tumblebee",
+      "d1:enchantments:unchanting",
+      "d1:enchantments:weakening"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:swiftfooted",
+    "slug": "swiftfooted",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Swiftfooted",
+    "description": "Rolling increases movement speed for three seconds.",
+    "image": {
+      "alt": "Swiftfooted icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/swiftfooted.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [
+      "d1:armor:highland-armor"
+    ],
+    "gildedDescription": "Gains Speed after Dodge",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+30% movement speed",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "level": 2,
+        "text": "+40% movement speed",
+        "unit": "%",
+        "value": 40
+      },
+      {
+        "level": 3,
+        "text": "+50% movement speed",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:thorns",
+      "d1:enchantments:thundering",
+      "d1:enchantments:tumblebee",
+      "d1:enchantments:unchanting",
+      "d1:enchantments:weakening",
+      "d1:enchantments:wild-rage"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:swirling",
+    "slug": "swirling",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Swirling",
+    "description": "The last attack in a combo performs a swirling attack, damaging nearby enemies.",
+    "image": {
+      "alt": "Swirling icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/swirling.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:sheer-daggers"
+    ],
+    "gildedDescription": "Last attack does area damage",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "X damage dealt by wind"
+      },
+      {
+        "level": 2,
+        "text": "1.5X damage dealt by wind"
+      },
+      {
+        "level": 3,
+        "text": "2X damage dealt by wind"
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:tempo-theft",
+      "d1:enchantments:void-strike",
+      "d1:enchantments:chain-reaction",
+      "d1:enchantments:chilling",
+      "d1:enchantments:critical-hit",
+      "d1:enchantments:death-barter"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:tempo-theft",
+    "slug": "tempo-theft",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Tempo Theft",
+    "description": "Steals a small amount of a mob's movement speed and gives it to the player for four seconds.",
+    "image": {
+      "alt": "Tempo Theft icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/tempo-theft.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:nocturnal-bow",
+      "d1:weapons:shivering-bow"
+    ],
+    "gildedDescription": "Steals speed",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "17% stolen speed",
+        "unit": "%",
+        "value": 17
+      },
+      {
+        "level": 2,
+        "text": "33% stolen speed",
+        "unit": "%",
+        "value": 33
+      },
+      {
+        "level": 3,
+        "text": "50% stolen speed",
+        "unit": "%",
+        "value": 50
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:void-strike",
+      "d1:enchantments:chain-reaction",
+      "d1:enchantments:chilling",
+      "d1:enchantments:critical-hit",
+      "d1:enchantments:death-barter",
+      "d1:enchantments:exploding"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:thorns",
+    "slug": "thorns",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Thorns",
+    "description": "Taking damage deals damage back to the attacker.",
+    "image": {
+      "alt": "Thorns icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/thorns.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Inflicts damage to attacker",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "100% damage returned",
+        "unit": "%",
+        "value": 100
+      },
+      {
+        "level": 2,
+        "text": "150% damage returned",
+        "unit": "%",
+        "value": 150
+      },
+      {
+        "level": 3,
+        "text": "200% damage returned",
+        "unit": "%",
+        "value": 200
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": true,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:thundering",
+      "d1:enchantments:tumblebee",
+      "d1:enchantments:unchanting",
+      "d1:enchantments:weakening",
+      "d1:enchantments:wild-rage",
+      "d1:enchantments:accelerate"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:thrive-under-pressure",
+    "slug": "thrive-under-pressure",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Thrive Under Pressure",
+    "description": "Takes less damage when swarmed",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "Thrive Under Pressure icon",
+      "height": 96,
+      "src": "/images/d1/enchantments/thrive-under-pressure.webp",
+      "width": 96
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [
+      "d1:armor:shulker-armor",
+      "d1:armor:sturdy-shulker-armor"
+    ],
+    "isGilded": false,
+    "levels": [],
+    "mobObtainable": false,
+    "section": "exclusive",
+    "stackable": false,
+    "tags": [],
+    "related": [],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "partial"
+  },
+  {
+    "id": "d1:enchantments:thundering",
+    "slug": "thundering",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Thundering",
+    "description": "Has a 30% chance to summon a lightning strike that damages nearby enemies.",
+    "image": {
+      "alt": "Thundering icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/thundering.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:stormlander"
+    ],
+    "gildedDescription": "Fires lightning bolts",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "X damage dealt by lightning"
+      },
+      {
+        "level": 2,
+        "text": "2X damage dealt by lightning"
+      },
+      {
+        "level": 3,
+        "text": "3X damage dealt by lightning"
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:tumblebee",
+      "d1:enchantments:unchanting",
+      "d1:enchantments:weakening",
+      "d1:enchantments:wild-rage",
+      "d1:enchantments:accelerate",
+      "d1:enchantments:acrobat"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:tumblebee",
+    "slug": "tumblebee",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Tumblebee",
+    "description": "Chance to summon a bee when rolling, with up to 3 bees joining the player's side.",
+    "image": {
+      "alt": "Tumblebee icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/tumblebee.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "armor"
+    ],
+    "builtInto": [],
+    "gildedDescription": "Spawn bees when rolling",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "33% chance to summon",
+        "unit": "%",
+        "value": 33
+      },
+      {
+        "level": 2,
+        "text": "67% chance to summon",
+        "unit": "%",
+        "value": 67
+      },
+      {
+        "level": 3,
+        "text": "101% chance to summon",
+        "unit": "%",
+        "value": 101
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:unchanting",
+      "d1:enchantments:weakening",
+      "d1:enchantments:wild-rage",
+      "d1:enchantments:accelerate",
+      "d1:enchantments:acrobat",
+      "d1:enchantments:ambush"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:unchanting",
+    "slug": "unchanting",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Unchanting",
+    "description": "Deals more damage to enchanted enemies.",
+    "image": {
+      "alt": "Unchanting icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/unchanting.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:spellbound-crossbows"
+    ],
+    "gildedDescription": "Strong vs Enchanted Mobs",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "+50% bonus damage",
+        "unit": "%",
+        "value": 50
+      },
+      {
+        "level": 2,
+        "text": "+75% bonus damage",
+        "unit": "%",
+        "value": 75
+      },
+      {
+        "level": 3,
+        "text": "+100% bonus damage",
+        "unit": "%",
+        "value": 100
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:weakening",
+      "d1:enchantments:wild-rage",
+      "d1:enchantments:accelerate",
+      "d1:enchantments:acrobat",
+      "d1:enchantments:ambush",
+      "d1:enchantments:anima-conduit"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:void-strike",
+    "slug": "void-strike",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Void Strike",
+    "description": "Attacking a target applies a damage multiplier that rises steadily to a max level, then is removed.",
+    "dlc": "echoing-void",
+    "image": {
+      "alt": "Void Strike icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/void-strike.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee",
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:call-of-the-void",
+      "d1:weapons:the-beginning-and-the-end",
+      "d1:weapons:void-bow",
+      "d1:weapons:void-touched-blades"
+    ],
+    "gildedDescription": "Applies Rising Damage Multiplier",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "200% damage multiplier",
+        "unit": "%",
+        "value": 200
+      },
+      {
+        "level": 2,
+        "text": "400% damage multiplier",
+        "unit": "%",
+        "value": 400
+      },
+      {
+        "level": 3,
+        "text": "600% damage multiplier",
+        "unit": "%",
+        "value": 600
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      2,
+      3,
+      4
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "powerful",
+    "tags": [],
+    "related": [
+      "d1:enchantments:chain-reaction",
+      "d1:enchantments:chilling",
+      "d1:enchantments:critical-hit",
+      "d1:enchantments:death-barter",
+      "d1:enchantments:exploding",
+      "d1:enchantments:final-shout"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:weakening",
+    "slug": "weakening",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Weakening",
+    "description": "The player's attacks decrease the attack damage of all nearby enemies for five seconds.",
+    "image": {
+      "alt": "Weakening icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/weakening.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "melee"
+    ],
+    "builtInto": [
+      "d1:weapons:nameless-blade"
+    ],
+    "gildedDescription": "Weakens enemy attacks",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "20% reduction in damage",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 2,
+        "text": "30% reduction in damage",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "level": 3,
+        "text": "40% reduction in damage",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "mobObtainable": true,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": true,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:wild-rage",
+      "d1:enchantments:accelerate",
+      "d1:enchantments:acrobat",
+      "d1:enchantments:ambush",
+      "d1:enchantments:anima-conduit",
+      "d1:enchantments:artifact-charge"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  },
+  {
+    "id": "d1:enchantments:wild-rage",
+    "slug": "wild-rage",
+    "game": "d1",
+    "category": "enchantments",
+    "name": "Wild Rage",
+    "description": "Hitting an enemy has a chance to send it into a rage, making it hostile toward everyone.",
+    "image": {
+      "alt": "Wild Rage icon",
+      "height": 256,
+      "src": "/images/d1/enchantments/wild-rage.webp",
+      "width": 256
+    },
+    "appliesTo": [
+      "ranged"
+    ],
+    "builtInto": [
+      "d1:weapons:love-spell-bow",
+      "d1:weapons:sugar-rush",
+      "d1:weapons:the-pink-scoundrel"
+    ],
+    "gildedDescription": "Chance to enrage mobs",
+    "isGilded": false,
+    "levels": [
+      {
+        "level": 1,
+        "text": "20% chance to trigger",
+        "unit": "%",
+        "value": 20
+      },
+      {
+        "level": 2,
+        "text": "30% chance to trigger",
+        "unit": "%",
+        "value": 30
+      },
+      {
+        "level": 3,
+        "text": "40% chance to trigger",
+        "unit": "%",
+        "value": 40
+      }
+    ],
+    "mobObtainable": false,
+    "pointCost": [
+      1,
+      2,
+      3
+    ],
+    "section": "standard",
+    "stackable": false,
+    "tier": "common",
+    "tags": [],
+    "related": [
+      "d1:enchantments:accelerate",
+      "d1:enchantments:acrobat",
+      "d1:enchantments:ambush",
+      "d1:enchantments:anima-conduit",
+      "d1:enchantments:artifact-charge",
+      "d1:enchantments:artifact-synergy"
+    ],
+    "source": {
+      "fetchedAt": "2026-11-12T03:35:11.674Z",
+      "revisionId": 3873258,
+      "title": "Dungeons:Enchantment",
+      "url": "https://minecraft.wiki/w/Dungeons:Enchantment"
+    },
+    "quality": "verified"
+  }
+]

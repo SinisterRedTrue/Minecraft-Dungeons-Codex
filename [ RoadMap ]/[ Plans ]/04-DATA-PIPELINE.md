@@ -25,10 +25,10 @@ Confirmed in research (2026-11-12): the API returns JSON. D1 item pages use `{{I
 | d1 | armor | `Dungeons:Armor` | Item pages: infobox, description, image |
 | d1 | enchantments | `Dungeons:Enchantment` (Melee/Ranged/Armor/Exclusive/Mob-exclusive; skip Unused) | Item pages for gilded text if missing |
 | d1 | artifacts | `Dungeons:Artifact` (skip Unused) | Item pages for description/image |
-| d1 | dlcs | `Dungeons:DLC` (if that 404s: the DLC tiles on `Dungeons:Wiki`) | Each DLC page: release date, missions |
-| d1 | cosmetics | `Dungeons:Cosmetic` (plus sub-lists: capes, pets, emotes, flares, skins) | none |
+| d1 | dlcs | `Dungeons:DLC` (redirects to "Downloadable content") | Each DLC page: summary paragraph, missions, mobs added |
+| d1 | cosmetics | `Dungeons:Cosmetic` is an overview; its "Main article" hatnotes lead to the lists: `Dungeons:Cape`, `Emote`, `Flair`, `Hero` (skins), `Pet (cosmetic)` (found by following the hatnotes, D-045) | none |
 | d1 | mobs | `Dungeons:Mob` (skip Arcade sections) | Mob pages: health, locations, drops |
-| d1 | locations | `Dungeons:Location` | Location pages: mobs, secrets |
+| d1 | locations | `Dungeons:Location` → the "Minecraft Dungeons locations" navbox (Missions, Secret missions, Sub-missions; D-044) | Location pages: story, mobs table, unlock |
 | d2 | weapons | `Dungeons_II:Weapon` | none (no infobox), image only |
 | d2 | armor | `Dungeons_II:Armor` (Helmets/Chestplates/Leggings/Boots) | image only |
 | d2 | enchantments | `Dungeons_II:Enchantment` | as needed |
@@ -50,7 +50,7 @@ Confirmed in research (2026-11-12): the API returns JSON. D1 item pages use `{{I
 | d2 talismans | 24 |
 | d2 quests | 15 core + 27 side = 42 |
 
-Counts stated on a list page's intro text (re-read at sync time) **override** this table. The coverage report compares them.
+Counts stated on a list page's intro text (re-read at sync time) **override** this table. The coverage report compares them. If a page's own number is wrong, `data/overrides/{game}/expected.json` (`[{ category, count, reason, sourceUrl }]`) corrects it with a source, like any other override (D-039): D1 weapons are **153** (the intro counts the unused Monkey Motivator and Spider Crossbow) and D1 artifacts **45** (the intro counts the unused consumable Icon Map). Categories whose pages state no total use the number of candidate rows found.
 
 ## Parser architecture
 ```
@@ -79,15 +79,17 @@ Overrides are applied after parsing and before validation, and they're recorded 
 ## Images
 - Image names come from the table's icon cell or the infobox `image` param.
 - `?action=query&prop=imageinfo` (batched 50) → download the original → sharp → WebP at quality 90, keeping pixel art crisp: when the source is ≤ 64 px, upscale ×4 with `kernel: 'nearest'`. Store the width and height.
+- Sources of 64 px or less are stored lossless; larger ones are quality 90, at most 640 px wide (D-047). Mob faces and level sprites are the icons of mobs and locations.
 - Path: `public/images/{game}/{category}/{slug}.webp`. Skip the download if the file already exists and the source sha1 (from imageinfo) is unchanged. Store a `public/images/manifest.json` of `{ path: sha1 }`.
 - In the UI, pixel-art icons use `image-rendering: pixelated`.
 - Every page that shows an image credits its source page (see `09-LEGAL-AND-ATTRIBUTION.md`).
 
 ## Coverage report (`data/reports/coverage-{game}.md`)
-For each category it lists: expected count vs. parsed count vs. valid count; dropped records with reasons; `partial` entities and their missing fields; unresolved references; slug collisions; missing images; and overrides applied (including overrides whose slug matched nothing, from `applyOverrides().unmatched`). Unresolved references go under a heading containing "Unresolved references", one bullet per raw value with the value in backticks (``- `Gift Wrapper` — used by …``); `data:validate` reads exactly that list (D-037). **Gate:** valid/expected ≥ 98 % per category. A category below the gate is not done. Fix the parser, or add overrides with sources, until it passes.
+For each category it lists: expected count vs. parsed count vs. valid count; dropped records with reasons; `partial` entities and their missing fields; unresolved references; slug collisions; missing images; and overrides applied (including overrides whose slug matched nothing, from `applyOverrides().unmatched`). Unresolved references go under a heading containing "Unresolved references", one bullet per raw value with the value in backticks (``- `Gift Wrapper` — used by …``); `data:validate` reads exactly that list (D-037). **Gate:** valid/expected ≥ 98 % per category. A category below the gate is not done. Fix the parser, or add overrides with sources, until it passes. The report is rendered from `data/reports/coverage-{game}.json`, which keeps every category between runs; `npm run data:coverage` prints it and exits 1 below the gate.
 
 ## Power Forge data (`data/forge/{game}/curves.json`)
-- D1: for every weapon whose item page has a power/damage table (Power, Min, Max), store the points in `powerTable` (`parsePowerTable` + `toPowerTable` in `scripts/wiki/powerTable.ts`; mapping in D-035). Armor pages use the same layout for **health** (`Power | Min health | Max health`), read with `parsePowerTable(wikitext, { measure: 'health' })`.
+- Output (D-048): `data/forge/d1/curves.json` = `{ version, basis, weapons: { melee, ranged, byWeaponType }, armor: { health }, itemsWithOwnTable: { weapons, armor } }`; a curve is `{ powers, min, max, samples }` (weapon `min`/`max` are median multipliers of the power-1 value, armor values are absolute health).
+- D1: for every weapon whose item page has a power/damage table (Power, Min, Max), store the points in `powerTable` (`parsePowerTable` + `toPowerTable` in `scripts/wiki/powerTable.ts`; mapping in D-035). Armor pages use the same layout for **health** (`Power | Min health | Max health`), read with `parsePowerTable(wikitext, { measure: 'health' })` into `D1Armor.powerTable` (D-042); armor has no power-1 base to divide by, so its curve is the median absolute health per power.
 - Build a **category curve** for each `weaponType` by normalizing each item's table to its power-1 value, then taking the median multiplier at each documented power level. Items with no table use their weaponType curve; if that type has no curve, they use the global melee or ranged curve. Every value that doesn't come from the item's own table is flagged `approximate`.
 - D2: the wiki has no numeric power data (as of 2026-11-12). `curves.json` for d2 is `{}`, and the Forge shows tier effects only (see `07-FEATURES-SPEC.md`).
 
