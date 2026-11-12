@@ -43,7 +43,7 @@ export const D2_DISPLAY: Record<CategorySlug<'d2'>, DisplayConfig> = {
     compareRows: [
       { label: 'Damage reduction', field: 'damageReduction', format: 'percent', better: 'high' },
     ],
-    detailSections: ['effects', 'set', 'locations', 'variants'],
+    detailSections: ['effects', 'forge', 'set', 'locations', 'variants'],
     defaultSort: 'name-asc',
     groupBy: {
       param: 'grp',
@@ -66,7 +66,7 @@ export const D2_DISPLAY: Record<CategorySlug<'d2'>, DisplayConfig> = {
       },
     ],
     compareRows: [],
-    detailSections: ['levels', 'obtaining'],
+    detailSections: ['tiers', 'levels', 'obtaining'],
     defaultSort: 'name-asc',
   },
   artifacts: {

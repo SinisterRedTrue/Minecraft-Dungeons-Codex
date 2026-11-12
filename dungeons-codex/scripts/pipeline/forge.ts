@@ -4,7 +4,8 @@
  * For every weapon that has its own documented power table, normalise the table to its power-1
  * row (multiplier 1.0), then take the median multiplier at each documented power level, per
  * `weaponType` and per kind (melee / ranged). Items without a table use their type's curve, then
- * the kind's; those values are `approximate` in the Forge. Armor tables hold health, which is 0
+ * the kind's; those values are `approximate` in the Forge. Items with no table at all start from
+ * their 0–14 damage rating times a per-kind `baseline` (median power-1 damage per rating point). Armor tables hold health, which is 0
  * at power 1, so armor curves are the median *absolute* min/max health per power.
  */
 import type { Ent } from './types';
@@ -26,6 +27,16 @@ export interface Curve {
   samples: number[];
 }
 
+/** Power-1 damage per point of the wiki's 0–14 damage rating, for weapons that have no table. */
+export interface Baseline {
+  /** Median of (power-1 minimum ÷ damage rating). */
+  min: number;
+  /** Median of (power-1 maximum ÷ damage rating). */
+  max: number;
+  /** How many weapons' tables feed it. */
+  samples: number;
+}
+
 export interface ForgeCurves {
   version: 1;
   basis: string;
@@ -33,6 +44,8 @@ export interface ForgeCurves {
     melee?: Curve;
     ranged?: Curve;
     byWeaponType: Record<string, Curve>;
+    /** Rating → power-1 damage, per kind (D-085). */
+    baseline: { melee?: Baseline; ranged?: Baseline };
   };
   armor: { health?: Curve; basis: string };
   /** Items whose own table is used as-is (exact, not approximate). */
@@ -86,6 +99,21 @@ export function buildCurve(tables: PowerPoint[][], normalise: boolean): Curve | 
   return curve.powers.length ? curve : undefined;
 }
 
+/** Power-1 damage ÷ `stats.damage` over the weapons of one kind that document a power-1 row. */
+export function buildBaseline(weapons: Ent[]): Baseline | undefined {
+  const mins: number[] = [];
+  const maxs: number[] = [];
+  for (const weapon of weapons) {
+    const rating = (weapon.stats as { damage?: number } | undefined)?.damage;
+    const first = [...tableOf(weapon)].sort((a, b) => a.power - b.power)[0];
+    if (!rating || rating <= 0 || first?.power !== 1) continue;
+    mins.push(first.min / rating);
+    maxs.push(first.max / rating);
+  }
+  if (mins.length === 0) return undefined;
+  return { min: round(median(mins)), max: round(median(maxs)), samples: mins.length };
+}
+
 export function buildForgeCurves(weapons: Ent[], armor: Ent[]): ForgeCurves {
   const withTable = weapons.filter((w) => tableOf(w).length >= 2);
   const byType = new Map<string, PowerPoint[][]>();
@@ -104,7 +132,7 @@ export function buildForgeCurves(weapons: Ent[], armor: Ent[]): ForgeCurves {
     version: 1,
     basis:
       'min/max are multipliers of the power-1 damage (1.0 = power 1); medians over the items whose pages document a table',
-    weapons: { byWeaponType },
+    weapons: { byWeaponType, baseline: {} },
     armor: {
       basis: 'min/max are absolute health added at that power (power 1 adds about 0), medians',
     },
@@ -117,6 +145,10 @@ export function buildForgeCurves(weapons: Ent[], armor: Ent[]): ForgeCurves {
   const ranged = kind('ranged');
   if (melee) curves.weapons.melee = melee;
   if (ranged) curves.weapons.ranged = ranged;
+  for (const k of ['melee', 'ranged'] as const) {
+    const baseline = buildBaseline(withTable.filter((w) => w.kind === k));
+    if (baseline) curves.weapons.baseline[k] = baseline;
+  }
   const health = buildCurve(armorWithTable.map(tableOf), false);
   if (health) curves.armor.health = health;
   return curves;

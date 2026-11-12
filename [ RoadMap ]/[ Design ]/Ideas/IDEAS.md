@@ -74,3 +74,11 @@
 - [ ] A "Clear recent" action in the palette and on the About page's privacy note.
 - [ ] Prefix commands in the palette: `>` for tools (Forge, Compare, Planner), `@` to restrict to a category.
 - [ ] Index the D2 `Rift` zones and sub-areas once they become locations (today they are text).
+
+## Power Forge (from Prompt 10)
+- [ ] Compare two enchantment setups side by side (a second result column) and a "best Sharpness-free setup" hint.
+- [ ] Show the documented-table range on the power slider (a faint segment up to 108, where the wiki tables end) so the point where numbers turn Approximate is visible before the badge appears.
+- [ ] Keep `?forge=` live in the address bar while editing (today only Share and Reset write it).
+- [ ] Per-tier tooltips on the enchantment picker (full effect text of tiers I to III) and an Approximate-range display (min and max of the baseline spread) instead of one estimate.
+- [ ] Gilded variants of enchantments (the wiki lists Gilded costs 2/3/4 and 3/4/5, not stored: D-041).
+- [ ] Armor-set view: all four D2 pieces in one Forge with their combined effects.

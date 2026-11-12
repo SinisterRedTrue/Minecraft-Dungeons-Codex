@@ -71,7 +71,7 @@ export const D1_DISPLAY: Record<CategorySlug<'d1'>, DisplayConfig> = {
       { key: 'stack', label: 'Stackable', field: 'stackable', format: 'bool', showFrom: 'md' },
     ],
     compareRows: [{ label: 'Total point cost', field: 'totalCost', format: 'int', better: 'low' }],
-    detailSections: ['levels', 'builtInto'],
+    detailSections: ['tiers', 'levels', 'builtInto'],
     defaultSort: 'name-asc',
   },
   artifacts: {

@@ -1872,6 +1872,18 @@
         ]
       }
     },
+    "baseline": {
+      "melee": {
+        "min": 1.961538,
+        "max": 2.931034,
+        "samples": 32
+      },
+      "ranged": {
+        "min": 2.380952,
+        "max": 6.428571,
+        "samples": 24
+      }
+    },
     "melee": {
       "powers": [
         1,

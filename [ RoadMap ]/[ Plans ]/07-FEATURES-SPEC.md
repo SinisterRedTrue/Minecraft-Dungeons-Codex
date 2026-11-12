@@ -12,7 +12,7 @@
 **Goal:** pick an item, move a power slider and tick enchantments with their tiers, then see the stats update live.
 
 ### UI
-- Shown on the detail pages for D1 weapons and armor, D2 weapons and armor, D1/D2 enchantments (tier viewer only), and D2 talismans (tier viewer only).
+- Shown on the detail pages for D1 weapons and armor, D2 weapons and armor, D1/D2 enchantments (tier viewer only), and D2 talismans (tier viewer only). Delivery: the page carries the item's table and curves; the enchantment catalog is fetched from `/forge/{game}.json` when the lazy Forge mounts (D-087).
 - Layout: on the left, the **controls**; on the right, the **result panel** with animated StatBars and number tickers.
   - **Power slider** (Radix Slider): D1 range 1–263, with tick marks at the wiki's documented caps (250 normal, 256 daily trial/raid captain, 263 Tower/raid chest). The number input next to it stays in sync.
   - **Enchantment slots**: 3 slots. Each is a combobox of enchantments that apply to this item kind, plus a tier selector I/II/III. Built-in enchantments are pre-filled and locked. Each slot is one pick (the in-game "pick one of three per row" is simplified to one per slot and noted in the UI help text).
@@ -28,8 +28,8 @@
 - `damageAt(item, power)`:
   1. If `item.powerTable` has ≥ 2 points and `power` lies within its range: **log-linear interpolation** between the two neighboring points (interpolate `ln(min)` and `ln(max)` linearly in power). Exact.
   2. If `power` is outside the table range, or the table has < 2 points: scale the nearest documented point by the item's `weaponType` curve (from `data/forge/d1/curves.json`), falling back to the global kind curve. **Approximate.**
-  3. If there's no table at all: use `stats.damage` as the power-1 baseline × curve. **Approximate.**
-- Enchantment modifiers: only enchantments whose `levels[n].value` is a parsed numeric damage percentage (e.g. Sharpness, Power, Committed, Cruel/Smiting conditionals) are applied. Conditional ones (vs. undead, low health, …) are shown as a separate "conditional" line, never folded into the main number. Non-numeric effects show their tier text.
+  3. If there's no table at all: weapons start from the 0–14 damage rating × the per-kind **baseline** (median power-1 damage per rating point, stored in `curves.json`; the rating itself is not a damage value, D-085) × the curve. Armor uses the median health curve. **Approximate.**
+- Enchantment modifiers: only an enchantment whose every tier text is a bare "+N% damage" and whose description names no condition is applied, multiplicatively (on the real D1 data: **Sharpness** and **Power**, D-086). Everything else that mentions damage (Smiting vs. the Undead, Committed vs. wounded mobs, Supercharge on charged shots …) is a separate "Situational" line, never folded into the main number. Effects with no damage percentage show their tier text. Built-in enchantments are locked rows; their tier is not documented, so they never change a number (D-088). Points are cumulative: tier III costs I + II + III.
 - Every function is pure and unit-tested against at least 3 real `powerTable` points per test item: interpolation must reproduce the documented endpoints exactly.
 
 ## 3. Compare

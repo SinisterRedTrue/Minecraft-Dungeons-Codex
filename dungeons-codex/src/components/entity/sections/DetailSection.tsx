@@ -79,7 +79,7 @@ export function DetailSection({ name, data }: { name: string; data: DetailData }
         />
       );
     case 'forge':
-      return <ForgeSlot />;
+      return <ForgeSlot data={data} variant="forge" />;
     case 'enchantments':
       return <BuiltInEnchantmentsSection builtIn={e.builtInEnchantments} refs={refs} />;
     case 'locations':
@@ -131,7 +131,14 @@ export function DetailSection({ name, data }: { name: string; data: DetailData }
     case 'quests':
       return <LinkedGridSection id="quests" title="Quests" values={e.questIds} refs={refs} />;
     case 'tiers':
-      return <TalismanTiers tiers={e.tiers} />;
+      // Enchantments get the interactive viewer; talismans also keep the static tier cards below
+      // it (the viewer is client-rendered state, the cards are plain crawlable content).
+      return (
+        <>
+          <ForgeSlot data={data} variant="tiers" />
+          {data.category === 'talismans' && <TalismanTiers tiers={e.tiers} />}
+        </>
+      );
     case 'rewards':
       return <QuestRewardsSection rewards={e.rewards} refs={refs} />;
     case 'story':

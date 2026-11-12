@@ -25,15 +25,15 @@ On weapon and armor detail pages, users adjust power level and enchantments (wit
 5. **Tests:** math units; component tests (slider keyboard, adding an enchantment raises damage, a conditional enchantment doesn't change the main number, a locked built-in can't be removed, the share URL round-trips); e2e `forge.spec.ts` (from 08). Item fixtures: one with a table (exact), one without (Approximate).
 
 ## Mini-checklist
-- [ ] interpolate / curves / damage / enchantments / points / codec, 100 % branches
-- [ ] Documented power points reproduced exactly
-- [ ] PowerForge UI for D1 weapons, D1 armor, D2 weapons/armor (honest D2 note)
-- [ ] TierViewer on enchantment + talisman pages
-- [ ] Approximate badge + reason tooltip everywhere a value is computed
-- [ ] Share link round-trips; Reset works
-- [ ] Lazy-loaded; < 16 ms updates
-- [ ] forge e2e + component tests + axe on a forge page
-- [ ] Visual check in both themes at 1440/390 against the wireframe
+- [x] interpolate / curves / damage / enchantments / points / codec, 100 % branches
+- [x] Documented power points reproduced exactly
+- [x] PowerForge UI for D1 weapons, D1 armor, D2 weapons/armor (honest D2 note)
+- [x] TierViewer on enchantment + talisman pages
+- [x] Approximate badge + reason tooltip everywhere a value is computed
+- [x] Share link round-trips; Reset works
+- [x] Lazy-loaded; < 16 ms updates
+- [x] forge e2e + component tests + axe on a forge page
+- [x] Visual check in both themes at 1440/390 against the wireframe
 
 ## Acceptance
 ```bash

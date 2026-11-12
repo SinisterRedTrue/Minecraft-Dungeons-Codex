@@ -1,6 +1,11 @@
 // @vitest-environment node
 import { describe, expect, it } from 'vitest';
-import { buildCurve, buildForgeCurves, median } from '../../../../scripts/pipeline/forge';
+import {
+  buildBaseline,
+  buildCurve,
+  buildForgeCurves,
+  median,
+} from '../../../../scripts/pipeline/forge';
 import type { Ent } from '../../../../scripts/pipeline/types';
 
 const weapon = (
@@ -114,5 +119,51 @@ describe('buildForgeCurves', () => {
       weapons: ['d1:weapons:claymore', 'd1:weapons:heartstealer', 'd1:weapons:hunting-bow'],
       armor: ['d1:armor:champions-armor'],
     });
+  });
+});
+
+describe('buildBaseline', () => {
+  const rated = (
+    slug: string,
+    damage: number | undefined,
+    table?: { power: number; min: number; max: number }[],
+  ) =>
+    ({
+      ...weapon(slug, 'x', 'melee', table),
+      ...(damage === undefined ? {} : { stats: { damage } }),
+    }) as Ent;
+
+  it('takes the median power-1 damage per rating point', () => {
+    const baseline = buildBaseline([
+      rated('a', 10, [{ power: 1, min: 20, max: 40 }]),
+      rated('b', 10, [{ power: 1, min: 30, max: 50 }]),
+      rated('c', 5, [{ power: 1, min: 15, max: 25 }]),
+    ]);
+    expect(baseline).toEqual({ min: 3, max: 5, samples: 3 });
+  });
+
+  it('skips weapons with no rating, no table or a table that does not start at power 1', () => {
+    expect(
+      buildBaseline([
+        rated('none', undefined, [{ power: 1, min: 1, max: 2 }]),
+        rated('zero', 0, [{ power: 1, min: 1, max: 2 }]),
+        rated('no-table', 5),
+        rated('late', 5, [{ power: 25, min: 50, max: 100 }]),
+      ]),
+    ).toBeUndefined();
+  });
+
+  it('is stored per kind in the curves', () => {
+    const curves = buildForgeCurves(
+      [
+        rated('a', 10, [
+          { power: 1, min: 20, max: 40 },
+          { power: 5, min: 30, max: 60 },
+        ]),
+      ],
+      [],
+    );
+    expect(curves.weapons.baseline.melee).toEqual({ min: 2, max: 4, samples: 1 });
+    expect(curves.weapons.baseline.ranged).toBeUndefined();
   });
 });
