@@ -3,6 +3,7 @@ data/forge
 data/reports
 data/vocab
 public/images
+public/search
 .next
 node_modules
 package-lock.json

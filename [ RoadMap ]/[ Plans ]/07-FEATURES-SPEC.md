@@ -3,7 +3,7 @@
 ## 1. Codex Search (global)
 - Opens with `Ctrl+K` / `⌘K`, `/`, or the header Search button. It's a cmdk dialog.
 - Scope chips: **This game** (default when inside `/d1` or `/d2`) or **Both games**.
-- The index has one entry per entity: `{ id, game, category, slug, name, aliases[], tags[], rarity, image }`. FlexSearch uses a forward tokenizer on `name` (boost 3), `aliases` (2) and `tags` (1). Typos are tolerated with `fuzzy` / `minlength 2`.
+- The index has one entry per entity, with short keys: `{ id, g, c, s, n, a, t, r?, i? }` (id, game, category, slug, name, aliases, tags, rarity, image). FlexSearch uses a forward tokenizer on `n`, `a` and `t`; our scorer applies the field weights (name > aliases > tags, 3 : 2 : 1 in spirit) because FlexSearch 0.8 has no per-field boost. Typos are tolerated by an edit-distance-1 pass over names and aliases (tokens of 4+ letters) that runs when fewer than 3 exact hits exist. See D-082 to D-084.
 - Results are grouped by category, with up to 8 per group, showing icon, name, category and game badge. `Enter` opens the item; `Ctrl+Enter` adds it to Compare when the category supports Compare.
 - With no query, it shows **Recent** (the last 8 opened, in localStorage) and **Jump to** (the 8 categories of the current game).
 - Index files: `public/search/d1.json` and `public/search/d2.json` are fetched lazily the first time the palette opens and kept in memory.

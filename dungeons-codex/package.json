@@ -15,6 +15,7 @@
     "data:sync": "tsx scripts/sync.ts",
     "data:validate": "tsx scripts/validate.ts",
     "data:index": "tsx scripts/index.ts",
+    "prebuild": "npm run data:index",
     "data:coverage": "tsx scripts/coverage.ts",
     "verify": "npm run typecheck && npm run lint && npm run format:check && npm run test && npm run data:validate && npm run build"
   },

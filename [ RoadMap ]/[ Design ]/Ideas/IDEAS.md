@@ -66,3 +66,11 @@
 - [ ] Section anchors in a sticky mini table of contents on long pages (DLCs, D1 locations).
 - [ ] Swipe left / right between entries on phones, mirroring `[` / `]`.
 - [ ] Show the reverse "Used in quests" list on item pages once quest rewards resolve more ids.
+
+## Search (from Prompt 09)
+- [ ] Record the entity a visitor opens by any link (not only through the palette) so Recent, and a hub "Recently viewed" row, are complete.
+- [ ] Highlight the matched letters in each result and show which alias matched ("Totem of Regeneration · aka ToR").
+- [ ] Search by stat or property sentence ("pulls in enemies") by adding the property text to a lower-boost field.
+- [ ] A "Clear recent" action in the palette and on the About page's privacy note.
+- [ ] Prefix commands in the palette: `>` for tools (Forge, Compare, Planner), `@` to restrict to a category.
+- [ ] Index the D2 `Rift` zones and sub-areas once they become locations (today they are text).

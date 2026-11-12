@@ -1,0 +1,14 @@
+{
+  "artifacts:fireworks-arrow": ["fw arrow", "firework arrow"],
+  "artifacts:totem-of-regeneration": ["tor", "regen totem"],
+  "artifacts:totem-of-shielding": ["tos", "shield totem"],
+  "artifacts:totem-of-casting": ["toc", "cast totem"],
+  "artifacts:corrupted-beacon": ["cb"],
+  "artifacts:death-cap-mushroom": ["dcm"],
+  "artifacts:boots-of-swiftness": ["bos", "swift boots"],
+  "artifacts:iron-hide-amulet": ["iha"],
+  "artifacts:gong-of-weakening": ["gow"],
+  "artifacts:lightning-rod": ["lrod"],
+  "artifacts:flaming-quiver": ["fq"],
+  "artifacts:torment-quiver": ["tq"]
+}

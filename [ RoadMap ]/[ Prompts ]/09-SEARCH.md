@@ -15,12 +15,12 @@ Instant fuzzy search across both games from anywhere, keyboard-first, lazy-loade
 6. **Tests:** lib unit tests; component test (keyboard navigation, scope switch); e2e `search.spec.ts` (from 08), plus `/` opening it, plus axe with the palette open.
 
 ## Mini-checklist
-- [ ] Index script + prebuild hook + aliases vocab; ≤ 60 kB gzip per game
-- [ ] Search lib with ranking + typo fallback, tested
-- [ ] Palette: shortcuts, scopes, grouping, recent, jump-to, states, a11y
-- [ ] Header button + hero pill wired
-- [ ] search e2e + axe pass
-- [ ] Visual check of the palette in both themes, desktop + mobile (full-screen sheet style on mobile)
+- [x] Index script + prebuild hook + aliases vocab; ≤ 60 kB gzip per game
+- [x] Search lib with ranking + typo fallback, tested
+- [x] Palette: shortcuts, scopes, grouping, recent, jump-to, states, a11y
+- [x] Header button + hero pill wired
+- [x] search e2e + axe pass
+- [x] Visual check of the palette in both themes, desktop + mobile (full-screen sheet style on mobile)
 
 ## Acceptance
 ```bash
