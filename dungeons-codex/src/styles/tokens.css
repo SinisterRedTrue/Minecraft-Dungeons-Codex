@@ -45,6 +45,11 @@
   --rarity-special: #c07bff;     /* D2 only */
   --rarity-unique: #ff9f1c;
 
+  /* ---------- Talisman tiers (D2): bronze / silver / gold frames ---------- */
+  --tier-bronze: #c8814a;
+  --tier-silver: #c9d1d9;
+  --tier-gold: #ffb627;
+
   /* ---------- Shape ---------- */
   --radius-xs: 6px;
   --radius-sm: 10px;
@@ -144,6 +149,11 @@
   --rarity-rare: #095c99;
   --rarity-special: #7438bd;
   --rarity-unique: #8c4600;
+
+  /* tier frames are borders on cream: darker metals keep the 3:1 non-text contrast */
+  --tier-bronze: #8f5524;
+  --tier-silver: #5f6b78;
+  --tier-gold: #8a5a00;
 }
 
 /* ---------- Per-game accent (set on <body data-game>) ---------- */

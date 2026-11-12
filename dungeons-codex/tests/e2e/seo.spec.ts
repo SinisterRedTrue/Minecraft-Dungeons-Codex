@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
 
 test.describe('SEO basics', () => {
-  test('sitemap.xml lists home, both hubs, About and all 16 category pages', async ({
+  test('sitemap.xml lists home, both hubs, About, all 16 category pages and every detail page', async ({
     request,
   }) => {
     const res = await request.get('/sitemap.xml');
@@ -9,7 +9,10 @@ test.describe('SEO basics', () => {
     const xml = await res.text();
     const locs = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1] as string);
     const paths = locs.map((u) => new URL(u).pathname);
-    expect(paths).toHaveLength(20);
+    // 20 static pages + one URL per entity (detail.spec.ts checks the entity count against the data).
+    const staticPaths = paths.filter((p) => p.split('/').length <= 3);
+    expect(staticPaths).toHaveLength(20);
+    expect(paths.length).toBeGreaterThan(20);
     for (const p of [
       '/',
       '/d1',
@@ -23,7 +26,7 @@ test.describe('SEO basics', () => {
     ]) {
       expect(paths).toContain(p);
     }
-    expect(new Set(paths).size).toBe(20);
+    expect(new Set(paths).size).toBe(paths.length);
   });
 
   test('robots.txt allows everything and points to the sitemap', async ({ request }) => {

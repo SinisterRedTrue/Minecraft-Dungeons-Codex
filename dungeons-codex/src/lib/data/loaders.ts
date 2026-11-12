@@ -29,6 +29,8 @@ export interface Loaders {
     slug: string,
   ): EntityOf<G, C> | undefined;
   getListItems<G extends GameId, C extends CategorySlug<G>>(game: G, category: C): EntityListItem[];
+  /** The list projection of any entities (related grids): the same fields as `getListItems`. */
+  toListItems(entities: readonly Entity[]): EntityListItem[];
   getCounts<G extends GameId>(game: G): Record<CategorySlug<G>, number>;
   getRelated(entity: Entity, limit?: number): Entity[];
   getByIds(ids: readonly string[]): Entity[];
@@ -75,6 +77,22 @@ export function createLoaders(dataDir: string = defaultDataDir()): Loaders {
     return slugIndex(game, category).get(slug);
   }
 
+  function projectAll(game: GameId, category: string, entities: readonly Entity[]) {
+    return entities.map((entity): EntityListItem => {
+      const extra = (LIST_FIELDS[game] as Record<string, readonly string[]>)[category] ?? [];
+      const fields = [...LIST_BASE_FIELDS, 'game', 'category', ...extra];
+      const raw = entity as unknown as Record<string, unknown>;
+      const item: Record<string, unknown> = {};
+      for (const field of fields) {
+        const value = raw[field];
+        if (value !== undefined) item[field] = value;
+      }
+      // Sums, maxima and parsed effects the filters need (06-FILTERS-SPEC "derived").
+      Object.assign(item, deriveListFields(game, category, raw));
+      return item as EntityListItem;
+    });
+  }
+
   return {
     getAll(game, category) {
       return read(game, category) as EntityOf<typeof game, typeof category>[];
@@ -86,19 +104,11 @@ export function createLoaders(dataDir: string = defaultDataDir()): Loaders {
     },
 
     getListItems(game, category) {
-      const extra = (LIST_FIELDS[game] as Record<string, readonly string[]>)[category] ?? [];
-      const fields = [...LIST_BASE_FIELDS, 'game', 'category', ...extra];
-      return read(game, category).map((entity) => {
-        const raw = entity as unknown as Record<string, unknown>;
-        const item: Record<string, unknown> = {};
-        for (const field of fields) {
-          const value = raw[field];
-          if (value !== undefined) item[field] = value;
-        }
-        // Sums, maxima and parsed effects the filters need (06-FILTERS-SPEC "derived").
-        Object.assign(item, deriveListFields(game, category, raw));
-        return item as EntityListItem;
-      });
+      return projectAll(game, category, read(game, category));
+    },
+
+    toListItems(entities) {
+      return entities.flatMap((entity) => projectAll(entity.game, entity.category, [entity]));
     },
 
     getCounts(game) {

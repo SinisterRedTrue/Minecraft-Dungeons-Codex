@@ -59,3 +59,10 @@
 - [ ] Type chips with the item icon of the type (a sword on "Sword") using our own data's images.
 - [ ] Match whole property sentences in the in-results search (today: name and tags only, D-073).
 - [ ] Keyboard shortcut `/` to focus the in-results search box.
+
+## Detail pages (from Prompt 08)
+- [ ] OG cards in the Rubik display font (needs a committed font file; today the default `next/og` font, D-081).
+- [ ] A "compare with a sibling" shortcut on a unique variant page (base vs unique stats side by side) before Prompt 11's Compare exists.
+- [ ] Section anchors in a sticky mini table of contents on long pages (DLCs, D1 locations).
+- [ ] Swipe left / right between entries on phones, mirroring `[` / `]`.
+- [ ] Show the reverse "Used in quests" list on item pages once quest rewards resolve more ids.

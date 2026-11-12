@@ -21,7 +21,7 @@ export const D2_DISPLAY: Record<CategorySlug<'d2'>, DisplayConfig> = {
       { label: 'Ammo', field: 'ammo', format: 'int' },
       { label: 'Primary effect', field: 'primaryEffect', format: 'percent' },
     ],
-    detailSections: ['effect', 'locations', 'variants'],
+    detailSections: ['stats', 'effects', 'forge', 'locations', 'variants'],
     defaultSort: 'name-asc',
   },
   armor: {
@@ -89,7 +89,7 @@ export const D2_DISPLAY: Record<CategorySlug<'d2'>, DisplayConfig> = {
       { label: 'Cooldown', field: 'cooldownSeconds', format: 'seconds', better: 'low' },
       { label: 'Soul cost', field: 'soulCost', format: 'int', better: 'low' },
     ],
-    detailSections: ['effect', 'locations'],
+    detailSections: ['stats', 'locations'],
     defaultSort: 'name-asc',
   },
   talismans: {
@@ -123,7 +123,7 @@ export const D2_DISPLAY: Record<CategorySlug<'d2'>, DisplayConfig> = {
       },
     ],
     compareRows: [],
-    detailSections: ['rewards', 'locations'],
+    detailSections: ['rewards', 'story', 'locations'],
     defaultSort: 'story-asc',
   },
   mobs: {
@@ -134,7 +134,7 @@ export const D2_DISPLAY: Record<CategorySlug<'d2'>, DisplayConfig> = {
       { key: 'health', label: 'Health', field: 'health', format: 'text', showFrom: 'sm' },
     ],
     compareRows: [],
-    detailSections: ['attacks', 'drops', 'locations'],
+    detailSections: ['stats', 'attacks', 'drops', 'locations'],
     defaultSort: 'name-asc',
   },
   locations: {

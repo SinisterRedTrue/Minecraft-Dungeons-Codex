@@ -159,6 +159,39 @@
     object-fit: contain;
     image-rendering: pixelated;
   }
+  /* Detail page grid: phones stack info → main → extra; from lg the main column sits left. */
+  .detail-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: 'info' 'main' 'extra';
+  }
+  @media (min-width: 64rem) {
+    .detail-grid {
+      grid-template-columns: minmax(0, 1fr) 21rem;
+      grid-template-rows: auto 1fr;
+      grid-template-areas:
+        'main info'
+        'main extra';
+    }
+  }
+  .detail-grid > [data-area='info'] {
+    grid-area: info;
+  }
+  .detail-grid > [data-area='main'] {
+    grid-area: main;
+  }
+  .detail-grid > [data-area='extra'] {
+    grid-area: extra;
+  }
+
+  /* Talisman tier chips (T1-T3): a bronze / silver / gold frame; the tier is also spelled out. */
+  .tier-chip {
+    border: 2px solid var(--tier);
+    border-radius: var(--radius-sm);
+    background: color-mix(in srgb, var(--tier) 14%, var(--surface-2));
+    box-shadow: inset 0 -3px 0 color-mix(in srgb, var(--tier) 35%, transparent);
+  }
   /* Interactive parents (cards) make the frame glow on hover/focus. */
   .group:hover .rarity-frame,
   .group:focus-visible .rarity-frame {

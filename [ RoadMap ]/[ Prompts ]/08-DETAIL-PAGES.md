@@ -29,16 +29,16 @@ A complete, beautiful, cross-linked detail page for every entity in both games, 
 9. **Tests:** unit tests for each section component (renders with full data, renders nothing or a fallback with missing data); e2e `detail.spec.ts` (from 08; the favorite part is completed in Prompt 11, so for now assert the infobox, source credit, related and prev/next) plus a sweep that opens **one random entity per category for all 16 pairs** (seeded) and runs axe.
 
 ## Mini-checklist
-- [ ] Detail route statically generated for every entity
-- [ ] DetailLayout (header, main, aside, related, credit, prev/next)
-- [ ] All section components listed above
-- [ ] Infobox per category + SourceCredit with revision
-- [ ] DLC contents grids and location "items found here" grids (cross-links work both ways)
-- [ ] Partial-data handling + QualityBadge
-- [ ] Metadata + JSON-LD + OG images
-- [ ] Sitemap count verified
-- [ ] Section unit tests + detail e2e + 16-category sweep with axe
-- [ ] Visual check of one detail page per distinct template (≈ 12) in both themes at 1440/390 against Wireframe §4
+- [x] Detail route statically generated for every entity
+- [x] DetailLayout (header, main, aside, related, credit, prev/next)
+- [x] All section components listed above
+- [x] Infobox per category + SourceCredit with revision
+- [x] DLC contents grids and location "items found here" grids (cross-links work both ways)
+- [x] Partial-data handling + QualityBadge
+- [x] Metadata + JSON-LD + OG images
+- [x] Sitemap count verified
+- [x] Section unit tests + detail e2e + 16-category sweep with axe
+- [x] Visual check of one detail page per distinct template (≈ 12) in both themes at 1440/390 against Wireframe §4
 
 ## Acceptance
 ```bash

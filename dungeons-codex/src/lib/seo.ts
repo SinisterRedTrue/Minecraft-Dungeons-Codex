@@ -11,8 +11,8 @@ export interface PageMeta {
   description: string;
   /** Path starting with `/`; becomes the canonical URL and `og:url`. */
   path: string;
-  /** Absolute-path image (relative to the site root); defaults to the brand card. */
-  image?: string;
+  /** Absolute-path image (relative to the site root); defaults to the brand card. `null` adds none (the segment has an opengraph-image file). */
+  image?: string | null;
   noindex?: boolean;
 }
 
@@ -28,7 +28,10 @@ export function truncate(text: string, max = 155): string {
 /** Canonical URL, Open Graph and Twitter card for a page (Plans §05 "Metadata"). */
 export function pageMetadata({ title, description, path, image, noindex }: PageMeta): Metadata {
   const desc = truncate(description);
-  const images = [{ url: image ?? DEFAULT_OG_IMAGE, width: 1200, height: 630, alt: SITE_NAME }];
+  const images =
+    image === null
+      ? undefined
+      : [{ url: image ?? DEFAULT_OG_IMAGE, width: 1200, height: 630, alt: SITE_NAME }];
   return {
     title,
     description: desc,
@@ -40,13 +43,13 @@ export function pageMetadata({ title, description, path, image, noindex }: PageM
       siteName: SITE_NAME,
       type: 'website',
       locale: 'en_US',
-      images,
+      ...(images ? { images } : {}),
     },
     twitter: {
       card: 'summary_large_image',
       title: `${title} | ${SITE_NAME}`,
       description: desc,
-      images: images.map((i) => i.url),
+      ...(images ? { images: images.map((i) => i.url) } : {}),
     },
     ...(noindex ? { robots: { index: false, follow: true } } : {}),
   };
@@ -77,10 +80,17 @@ export function jsonLdString(data: unknown): string {
   return JSON.stringify(data).replace(/</g, '\\u003c');
 }
 
-/** All sitemap entries known at this stage; detail URLs join in Prompt 08. */
+export interface DetailEntry {
+  game: GameId;
+  category: string;
+  slug: string;
+}
+
+/** Every sitemap entry: the static pages plus one URL per entity (`details`). */
 export function buildSitemap(
   syncDates: Partial<Record<GameId, string>>,
   base: string = SITE_URL,
+  details: readonly DetailEntry[] = [],
 ): MetadataRoute.Sitemap {
   const lastOf = (...dates: (string | undefined)[]): Date | undefined => {
     const latest = dates
@@ -107,6 +117,9 @@ export function buildSitemap(
     entry('/about', 'monthly', 0.4),
     ...allGameCategories().map(({ game, category }) =>
       entry(`/${game}/${category}`, 'weekly', 0.8, lastOf(syncDates[game])),
+    ),
+    ...details.map(({ game, category, slug }) =>
+      entry(`/${game}/${category}/${slug}`, 'monthly', 0.6, lastOf(syncDates[game])),
     ),
   ];
 }

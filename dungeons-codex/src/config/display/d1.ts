@@ -71,7 +71,7 @@ export const D1_DISPLAY: Record<CategorySlug<'d1'>, DisplayConfig> = {
       { key: 'stack', label: 'Stackable', field: 'stackable', format: 'bool', showFrom: 'md' },
     ],
     compareRows: [{ label: 'Total point cost', field: 'totalCost', format: 'int', better: 'low' }],
-    detailSections: ['levels', 'tiers', 'builtInto'],
+    detailSections: ['levels', 'builtInto'],
     defaultSort: 'name-asc',
   },
   artifacts: {
@@ -92,7 +92,7 @@ export const D1_DISPLAY: Record<CategorySlug<'d1'>, DisplayConfig> = {
     compareRows: [
       { label: 'Cooldown', field: 'cooldownSeconds', format: 'seconds', better: 'low' },
     ],
-    detailSections: ['properties', 'locations'],
+    detailSections: ['stats', 'properties', 'locations'],
     defaultSort: 'name-asc',
   },
   dlcs: {
@@ -133,7 +133,7 @@ export const D1_DISPLAY: Record<CategorySlug<'d1'>, DisplayConfig> = {
       { key: 'dlc', label: 'DLC', field: 'dlc', format: 'label', showFrom: 'md' },
     ],
     compareRows: [],
-    detailSections: ['attacks', 'drops', 'locations'],
+    detailSections: ['stats', 'attacks', 'drops', 'locations'],
     defaultSort: 'name-asc',
   },
   locations: {

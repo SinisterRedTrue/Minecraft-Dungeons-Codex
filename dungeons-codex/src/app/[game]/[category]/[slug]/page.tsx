@@ -1,18 +1,17 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { SourceCredit } from '@/components/entity/SourceCredit';
-import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
-import { Panel } from '@/components/ui/Panel';
-import { RarityFrame, type Rarity } from '@/components/ui/RarityFrame';
-import { getSection } from '@/config/sections';
+import { DetailLayout } from '@/components/entity/DetailLayout';
+import { getCategoryConfig } from '@/config/categories';
 import { GAMES, allGameCategories, isValidCategory, isValidGame } from '@/config/games';
-import { getAll, getBySlug } from '@/lib/data';
+import { defaultLoaders, getAll, getBySlug } from '@/lib/data';
+import { buildDetailData } from '@/lib/detail/context';
+import { detailDescription } from '@/lib/detail/meta';
 import type { Entity } from '@/lib/schemas';
-import { pageMetadata, truncate } from '@/lib/seo';
+import { pageMetadata } from '@/lib/seo';
 
 export const dynamicParams = false;
 
-/** Every entity of every category (Prompt 08 turns this into the full detail page). */
+/** Every entity of every category. */
 export function generateStaticParams() {
   return allGameCategories().flatMap(({ game, category }) =>
     (getAll(game, category as never) as unknown as Entity[]).map((entity) => ({
@@ -29,59 +28,28 @@ async function resolve(params: Params) {
   const { game, category, slug } = await params;
   if (!isValidGame(game) || !isValidCategory(game, category)) return undefined;
   const entity = getBySlug(game, category as never, slug) as unknown as Entity | undefined;
-  const section = getSection(game, category);
-  return entity && section ? { game, category, entity, section } : undefined;
+  const config = getCategoryConfig(game, category);
+  return entity && config ? { game, category, entity, config } : undefined;
 }
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const found = await resolve(params);
   if (!found) return {};
-  const { game, category, entity, section } = found;
+  const { game, category, entity, config } = found;
   return pageMetadata({
-    title: `${entity.name} · ${section.label} · ${GAMES[game].name}`,
-    description: truncate(entity.description ?? section.description),
+    title: `${entity.name} · ${config.label} · ${GAMES[game].name}`,
+    description: detailDescription(entity, config.label, GAMES[game].name),
     path: `/${game}/${category}/${entity.slug}`,
+    // The segment's opengraph-image.tsx supplies the card.
+    image: null,
   });
 }
 
-const RARITIES: readonly Rarity[] = ['common', 'rare', 'special', 'unique'];
-
-/**
- * Minimal detail page so no card link 404s: name, icon, description, a plain infobox and the
- * source credit. Prompt 08 replaces the body with the full layout.
- */
+/** `/[game]/[category]/[slug]`: one entity with its stats, infobox, cross-links and credit. */
 export default async function DetailPage({ params }: { params: Params }) {
   const found = await resolve(params);
   if (!found) notFound();
-  const { game, category, entity, section } = found;
-  const rarity = RARITIES.find((r) => r === entity.rarity);
-
-  return (
-    <div className="mx-auto max-w-site px-[var(--gutter)] py-8 sm:py-12">
-      <Breadcrumbs
-        items={[
-          { label: 'Home', href: '/' },
-          { label: GAMES[game].name, href: `/${game}` },
-          { label: section.label, href: `/${game}/${category}` },
-          { label: entity.name },
-        ]}
-      />
-      <div className="mt-6 flex items-center gap-5">
-        <RarityFrame size={72} rarity={rarity} src={entity.image?.src} alt="" />
-        <h1 className="font-display text-h1 leading-tight font-black tracking-display text-text uppercase">
-          {entity.name}
-        </h1>
-      </div>
-      {entity.description && (
-        <p className="mt-4 max-w-prose text-lg text-muted">{entity.description}</p>
-      )}
-      <Panel className="mt-8 max-w-md p-5">
-        <h2 className="font-display text-h3 font-extrabold text-text uppercase">Infobox</h2>
-        <p className="mt-2 text-muted">The full infobox and stats arrive with the detail pages.</p>
-      </Panel>
-      <div className="mt-8">
-        <SourceCredit source={entity.source} />
-      </div>
-    </div>
-  );
+  const { entity, config } = found;
+  const data = buildDetailData(defaultLoaders, entity);
+  return <DetailLayout data={data} sections={config.detailSections} />;
 }
