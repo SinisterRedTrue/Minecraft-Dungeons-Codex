@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+dungeons-codex/data/raw-cache/
+.env*
+.DS_Store
+Thumbs.db
+*.log
+.vercel

@@ -1,0 +1,9 @@
+data/generated
+public/images
+.next
+node_modules
+package-lock.json
+coverage
+playwright-report
+test-results
+AGENTS.md
