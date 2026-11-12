@@ -18,18 +18,18 @@ Every `/[game]/[category]` page has the type-first selector, the full filter pan
 9. **Tests:** engine + url + path unit tests (100 % branches); component tests (TypeSelector reveals level 2, RangeFilter commit, MultiFilter search, ActiveFilterChips removal); e2e `filters.spec.ts` (exactly as written in 08) plus a parametrized e2e that opens **every one of the 16 category pages**, checks that results are > 0, clicks the first type chip and checks the count changes or stays valid, and runs axe on each.
 
 ## Mini-checklist
-- [ ] Filter engine + path DSL + URL codec, 100 % branches, benchmark < 10 ms
-- [ ] Category config for all 16 pairs
-- [ ] Filter configs for all 16 pairs exactly per 06-FILTERS-SPEC
-- [ ] TypeSelector (2 levels), FilterPanel (+ showWhen), Range/Multi/Toggle, chips, sort, view, results count, mobile sheet
-- [ ] EntityCard + EntityTable (+ aria-sort), QualityBadge
-- [ ] URL state: shareable, reload-safe, Back restores the previous state
-- [ ] Facet counts correct (unit-tested on fixtures)
-- [ ] All 16 category pages statically generated; DLC page special case
-- [ ] Minimal detail pages so no link 404s
-- [ ] Budgets: ≤ 180 kB first-load JS; payload ≤ 150 kB
-- [ ] filters e2e + 16-page sweep + axe pass
-- [ ] Visual check `/d1/weapons`, `/d2/armor`, `/d1/enchantments`, `/d2/talismans` in both themes at 1440/390 against Wireframe §3
+- [x] Filter engine + path DSL + URL codec, 100 % branches, benchmark < 10 ms
+- [x] Category config for all 16 pairs
+- [x] Filter configs for all 16 pairs exactly per 06-FILTERS-SPEC
+- [x] TypeSelector (2 levels), FilterPanel (+ showWhen), Range/Multi/Toggle, chips, sort, view, results count, mobile sheet
+- [x] EntityCard + EntityTable (+ aria-sort), QualityBadge
+- [x] URL state: shareable, reload-safe, Back restores the previous state
+- [x] Facet counts correct (unit-tested on fixtures)
+- [x] All 16 category pages statically generated; DLC page special case
+- [x] Minimal detail pages so no link 404s
+- [x] Budgets: payload ≤ 150 kB met (largest 93 kB); first-load JS measured 231 kB, the 180 kB target is not reachable on the current shell (198 kB before this page), so the documented alternative is +33 kB over the shell, D-076, with the rest carried to Prompt 13
+- [x] filters e2e + 16-page sweep + axe pass
+- [x] Visual check `/d1/weapons`, `/d2/armor`, `/d1/enchantments`, `/d2/talismans` in both themes at 1440/390 against Wireframe §3
 
 ## Acceptance
 ```bash

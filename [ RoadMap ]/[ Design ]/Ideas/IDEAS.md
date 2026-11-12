@@ -50,3 +50,12 @@
 - [ ] Featured-uniques scroller: ◀ ▶ buttons (Wireframes §2); today it scrolls by touch, wheel and Tab through the cards.
 - [ ] Inline section links from `xl` (1280) if the header gets a more compact layout (D-063).
 - [ ] A hub "Recently viewed" row once Prompt 09 stores recent items.
+
+## Category browser (from Prompt 07)
+- [ ] Remember the last view (grid / table) per category in `localStorage`, as a per-viewer convenience; the URL still wins.
+- [ ] Remember the order filters were added so the empty state's "Remove last filter" is truly the last one (it uses filter order today, D-074).
+- [ ] Facet counts for toggles ("Unique only (103)") and a count next to each range ("12 items in 10–40").
+- [ ] A compact one-line card for very long lists (D1 cosmetics: 288, mostly skins) and a virtualised table if a category ever passes 500 items.
+- [ ] Type chips with the item icon of the type (a sword on "Sword") using our own data's images.
+- [ ] Match whole property sentences in the in-results search (today: name and tags only, D-073).
+- [ ] Keyboard shortcut `/` to focus the in-results search box.

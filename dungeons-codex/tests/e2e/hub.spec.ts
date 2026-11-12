@@ -171,7 +171,7 @@ test.describe('D2 accent reaches overlays', () => {
   });
 });
 
-test.describe('category stubs and routing', () => {
+test.describe('category pages and routing', () => {
   for (const [game, categories] of [
     ['d1', D1],
     ['d2', D2],
@@ -183,7 +183,7 @@ test.describe('category stubs and routing', () => {
         await expect(page.getByRole('heading', { level: 1 })).toContainText(
           LABEL[category] ?? category,
         );
-        await expect(page.getByText('Coming in Prompt 07')).toBeVisible();
+        await expect(page.getByRole('region', { name: 'Results' })).toBeVisible();
         await expect(page.getByRole('navigation', { name: 'Breadcrumb' })).toBeVisible();
       }
     });

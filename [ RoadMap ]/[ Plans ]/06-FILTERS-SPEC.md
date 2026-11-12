@@ -5,22 +5,30 @@
 - **Step 2, Filter panel:** the filters for that category. Filters that only apply to one type show only when that type is selected (the `showWhen` rule).
 - All state lives in the URL (via nuqs), so every view can be shared. Param names are short and stable, e.g. `/d1/weapons?t=melee&wt=daggers&dmg=10-40&p=dual-wield,spin-attack&u=1&sort=dmg-desc&view=table`.
 - Unknown or invalid params are ignored quietly; they never crash the page.
-- Facet counts: each option shows how many results it *would* give with the other active filters applied. A disabled option (0 results) stays visible but muted.
+- Facet counts: each option shows how many results it *would* give with the other active filters applied. A disabled option (0 results) stays visible but muted. Level 1 counts ignore the level 2 selection (Daggers must not zero out Ranged); an `all` multi keeps its own selection, an `any` multi and a type ignore theirs.
+- A level 2 type with a `showWhen` (Weapon type under Melee/Ranged) lists only the options that give results, most frequent first. One without (D1 armor group, D2 armor set, D1 enchantment tier) is always shown. Setting a level 1 type clears every level 2 type. More than 30 options become a searchable picker instead of chips.
+- A filter the data cannot support is hidden, not shown dead (a toggle nothing matches, a range with no values, a multi without options).
+- History: chips, checkboxes, toggles and sorting `push` (so Back steps through them); slider drags, typing in the search box and the grid/table switch `replace`.
+- `q` searches the name and the property tags (hyphens read as spaces, apostrophes ignored).
 
 ## FilterDef types (`src/lib/filters/types.ts`)
 ```ts
 type FilterDef =
-  | { kind: 'type';   key: string; param: string; label: string; field: string; options: 'auto' | Option[]; level: 1 | 2; showWhen?: Cond }
-  | { kind: 'range';  key: string; param: string; label: string; field: string; unit?: string; step: number; showWhen?: Cond }   // bounds auto from data
-  | { kind: 'multi';  key: string; param: string; label: string; field: string; match: 'any' | 'all'; options: 'auto' | Option[]; showWhen?: Cond; searchable?: boolean }
-  | { kind: 'toggle'; key: string; param: string; label: string; field: string; value: unknown; showWhen?: Cond }
+  | { kind: 'type';   key; param; label; field; options: 'auto' | Option[]; level: 1 | 2; order?: string[]; showWhen?: Cond }
+  | { kind: 'range';  key; param; label; field; unit?; step; dependsOn?: string; showWhen?: Cond }   // bounds auto from data
+  | { kind: 'multi';  key; param; label; field; match: 'any' | 'all'; options: 'auto' | Option[]; order?: string[]; noneOption?: Option; searchable?: boolean; showWhen?: Cond }
+  | { kind: 'toggle'; key; param; label; field; value: unknown; hiddenUntilOn?: boolean; showWhen?: Cond }
   | { kind: 'text';   key: 'q'; param: 'q'; label: 'Search in results'; fields: string[] }
 type Cond = { param: string; equals: string | string[] }
-type SortDef = { param: 'sort'; options: { value: string; label: string; field: string; dir: 'asc' | 'desc' }[]; default: string }
+type SortDef = { param: 'sort'; options: { value; label; field; dir: 'asc' | 'desc'; rank?: string[] }[]; default: string }
 ```
-`field` is a dot-path into `EntityListItem` (e.g. `stats.damage`, `effects[label=Movement Speed].value` with a tiny path DSL that supports only `a.b` and `arr[key=value].prop`; that DSL is unit-tested).
-Every category also gets **`q` text search** (name + properties) and **sort by Name A–Z / Z–A** automatically.
-**Range bounds** are computed from the data (min/max of the field). Items **missing** the field are kept when the range is at its full bounds and excluded once the user narrows it. The panel says "n items without this stat are hidden".
+`field` is a dot-path into `EntityListItem` with a tiny DSL that supports only `a.b` and `arr[key=value].prop` (arrays are flattened); the DSL is unit-tested.
+
+**How values are compared (D-068).** Every value is compared as a *token*: an entity id becomes its slug (`d1:locations:creeper-woods` → `creeper-woods`), text is slugified (`Movement Speed` → `movement-speed`), numbers and booleans are their text. State, URLs and `[key=value]` filters all use tokens, so URLs read like `?loc=creeper-woods,pumpkin-pastures` and never need escaping. Labels come from the data (`LabelMap` for entity names, the value itself for wiki text, a humanised slug otherwise).
+
+**Derived list fields (D-069).** Values the spec marks "derived" are computed once at build time by `getListItems` (`src/lib/filters/derive.ts`) instead of growing the DSL: `totalCost` (sum of `pointCost`), `hasGilded`, `hasDrops`, D2 `primaryEffect` (first `%` effect value), D2 armor `damageReduction` (first "Take less damage" / "Reduces damage taken" effect), D2 `tierIIIValue`, D2 quest `maxXp` and `rewardItems`.
+
+**Extensions the final config needs** (all optional, all unit-tested): `order` (token order for `auto` options), `noneOption` ("Base game" = no DLC), `dependsOn` + `{value}` (D1 armor "Effect strength" reads the chosen effect), `hiddenUntilOn` (D2 "Show unobtainable").
 
 ## Per-category definitions
 
@@ -98,6 +106,8 @@ Every category also gets **`q` text search** (name + properties) and **sort by N
 | | DLC | multi | `dlc` |
 | | Contains mob | multi (any) | `mobIds`; searchable |
 
+*Cards show no "recommended power": the field is empty for every synced location (D-074).*
+
 ### D2 · Weapons
 | Type 1 | Melee / Ranged | type | `kind` |
 |---|---|---|---|
@@ -120,8 +130,14 @@ Every category also gets **`q` text search** (name + properties) and **sort by N
 | | Location | multi | `locations` |
 | Extra | "Group by set" view toggle | | Shows the 4 pieces of each set together in a row |
 
-### D2 · Enchantments / Artifacts / Mobs / Locations
-Mirror the D1 definitions using the D2 fields. Prompt 05 finalizes the option lists from the data.
+### D2 · Enchantments / Artifacts / Mobs / Locations (final, Prompt 07)
+Mirror the D1 definitions where D2 has the field; D2 has no tiers, costs, gilded text or artifact types.
+| Category | Filters |
+|---|---|
+| Enchantments | Type 1 *Applies to* (Melee / Ranged / Armor) · Effect keyword (`tags`, all) |
+| Artifacts | Cooldown (s) · Soul cost · Effect keyword · Location · Sort: Name, Cooldown ↑↓, Soul cost ↑↓ |
+| Mobs | Type 1 *Mob type* · Location (`locationIds`) · Has drops (hidden: no D2 mob lists drops) |
+| Locations | Type 1 *Overworld / The Sift / The Rift* (`locationType`) · Contains mob (`mobIds`) |
 
 ### D2 · Talismans
 | Type 1 | Boost type (Ranged, Movement, Drops, Artifact, Melee, Health, Pet, Damage, Souls, Experience) | type | `boostType` |

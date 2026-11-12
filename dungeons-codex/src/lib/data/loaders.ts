@@ -13,6 +13,7 @@ import {
   type CategorySlug,
   type GameId,
 } from '@/config/games';
+import { deriveListFields } from '@/lib/filters/derive';
 import { LIST_BASE_FIELDS, type Entity, type EntityListItem, type EntityOf } from '@/lib/schemas';
 
 /** `CODEX_DATA_DIR` (tests) or `<cwd>/data/generated`. */
@@ -88,11 +89,14 @@ export function createLoaders(dataDir: string = defaultDataDir()): Loaders {
       const extra = (LIST_FIELDS[game] as Record<string, readonly string[]>)[category] ?? [];
       const fields = [...LIST_BASE_FIELDS, 'game', 'category', ...extra];
       return read(game, category).map((entity) => {
+        const raw = entity as unknown as Record<string, unknown>;
         const item: Record<string, unknown> = {};
         for (const field of fields) {
-          const value = (entity as unknown as Record<string, unknown>)[field];
+          const value = raw[field];
           if (value !== undefined) item[field] = value;
         }
+        // Sums, maxima and parsed effects the filters need (06-FILTERS-SPEC "derived").
+        Object.assign(item, deriveListFields(game, category, raw));
         return item as EntityListItem;
       });
     },

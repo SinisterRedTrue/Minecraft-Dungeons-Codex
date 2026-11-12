@@ -17,10 +17,21 @@ export type SheetContentProps = {
   description?: string;
   children?: ReactNode;
   className?: string;
+  /**
+   * Focus the sheet itself on open instead of its first control. Use it when that control is a
+   * text field, which would pop the on-screen keyboard on phones.
+   */
+  focusSheet?: boolean;
 };
 
 /** Bottom sheet (mobile filters, pickers): top corners rounded, drag handle, same focus trap as Dialog. */
-export function SheetContent({ title, description, children, className }: SheetContentProps) {
+export function SheetContent({
+  title,
+  description,
+  children,
+  className,
+  focusSheet,
+}: SheetContentProps) {
   const closeRef = useRef<HTMLButtonElement>(null);
   const dragStart = useRef<number | null>(null);
 
@@ -40,6 +51,14 @@ export function SheetContent({ title, description, children, className }: SheetC
       <DialogPrimitive.Overlay className={OVERLAY_CLASS} />
       <DialogPrimitive.Content
         {...(description ? {} : { 'aria-describedby': undefined })}
+        onOpenAutoFocus={
+          focusSheet
+            ? (event) => {
+                event.preventDefault();
+                (event.currentTarget as HTMLElement).focus();
+              }
+            : undefined
+        }
         className={cn(
           'dc-sheet fixed inset-x-0 bottom-0 z-50 mx-auto flex max-h-[90dvh] w-full max-w-2xl flex-col rounded-t-panel border-[1.5px] border-b-0 border-line bg-surface-1',
           className,

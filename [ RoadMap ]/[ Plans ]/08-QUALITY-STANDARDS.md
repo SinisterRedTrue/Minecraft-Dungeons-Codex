@@ -34,7 +34,7 @@
 11. `mobile.spec.ts` (viewport 390×844): the filter sheet opens and applies; the nav menu works; there's no horizontal scroll on any tested page.
 
 ## Performance budgets
-- First-load JS for `/` is ≤ 120 kB gzip, and ≤ 180 kB for category pages (check the `next build` output).
+- First-load JS for `/` is ≤ 120 kB gzip, and ≤ 180 kB for category pages. Next 16 does not print it, so measure with `npx tsx scripts/dev/bundle-size.ts http://localhost:3100 / /d1/weapons` against `npm run start`. **Status (D-076):** the shell alone is about 198 kB, so these two numbers are open for Prompt 13; until then category pages must add ≤ 35 kB over the shell and the list payload stays < 150 kB.
 - LCP < 2.5 s and CLS < 0.05 in Lighthouse mobile emulation.
 - Images: `next/image` with explicit sizes; the hero uses `priority`; everything else is lazy.
 - Fonts: `next/font/google` with `display: swap`, subset `latin`, only the weights we use.

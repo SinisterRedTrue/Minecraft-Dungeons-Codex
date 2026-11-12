@@ -1,0 +1,83 @@
+import {
+  dlcFilter,
+  locationFilter,
+  multiDef,
+  opts,
+  rangeDef,
+  rarityDescSort,
+  rarityFilter,
+  sortOption,
+  toggleDef,
+  typeDef,
+  type CategoryFilters,
+} from '../shared';
+
+/** `[ Plans ]/06-FILTERS-SPEC.md` · D1 · Weapons. `stats.*` are the wiki's 0–14 bar ratings. */
+export const D1_WEAPONS: CategoryFilters = {
+  defs: [
+    typeDef({
+      key: 'kind',
+      param: 't',
+      label: 'Type',
+      field: 'kind',
+      options: opts(['melee', 'Melee'], ['ranged', 'Ranged']),
+    }),
+    typeDef({
+      key: 'weaponType',
+      param: 'wt',
+      label: 'Weapon type',
+      field: 'weaponType',
+      level: 2,
+      showWhen: { param: 't', equals: ['melee', 'ranged'] },
+    }),
+    rangeDef({ key: 'damage', param: 'dmg', label: 'Damage', field: 'stats.damage', step: 0.5 }),
+    rangeDef({
+      key: 'speed',
+      param: 'spd',
+      label: 'Attack speed',
+      field: 'stats.speed',
+      step: 0.05,
+    }),
+    multiDef({
+      key: 'properties',
+      param: 'p',
+      label: 'Properties',
+      field: 'tags',
+      match: 'all',
+      searchable: true,
+    }),
+    rarityFilter(),
+    toggleDef({ key: 'unique', param: 'u', label: 'Unique only', field: 'isUnique' }),
+    multiDef({
+      key: 'builtIn',
+      param: 'be',
+      label: 'Built-in enchantment',
+      field: 'builtInEnchantments.enchantmentId',
+      searchable: true,
+    }),
+    toggleDef({
+      key: 'soul',
+      param: 'se',
+      label: 'Accepts soul enchantments',
+      field: 'acceptsSoulEnchantments',
+    }),
+    dlcFilter(),
+    toggleDef({ key: 'seasonal', param: 'ss', label: 'Seasonal', field: 'isSeasonal' }),
+    rangeDef({
+      key: 'combo',
+      param: 'cl',
+      label: 'Combo length',
+      field: 'comboLength',
+      step: 1,
+      showWhen: { param: 't', equals: 'melee' },
+    }),
+    locationFilter(),
+  ],
+  sorts: [
+    sortOption('dmg-desc', 'Damage (high to low)', 'stats.damage', 'desc'),
+    sortOption('dmg-asc', 'Damage (low to high)', 'stats.damage', 'asc'),
+    sortOption('spd-desc', 'Speed (high to low)', 'stats.speed', 'desc'),
+    sortOption('spd-asc', 'Speed (low to high)', 'stats.speed', 'asc'),
+    rarityDescSort(),
+  ],
+};

@@ -28,14 +28,17 @@ export function Chip({ selected = false, count, icon, className, children, ...re
       {icon}
       <span>{children}</span>
       {count !== undefined && (
-        <span
-          className={cn(
-            'min-w-6 rounded-chip px-1.5 text-center font-pixel text-micro leading-5',
-            selected ? 'bg-accent-ink/20 text-accent-ink' : 'bg-surface-3 text-muted',
-          )}
-        >
-          {count}
-        </span>
+        <>
+          {/* A real space keeps the accessible name "Melee 82" (the flex gap hides it visually). */}{' '}
+          <span
+            className={cn(
+              'min-w-6 rounded-chip px-1.5 text-center font-pixel text-micro leading-5',
+              selected ? 'bg-accent-ink/20 text-accent-ink' : 'bg-surface-3 text-muted',
+            )}
+          >
+            {count}
+          </span>
+        </>
       )}
     </button>
   );

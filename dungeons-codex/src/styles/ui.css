@@ -227,6 +227,36 @@
   .dc-toast[data-state='closed'] {
     animation: dc-fade-out var(--dur-ui) var(--ease-out);
   }
+
+  /* One link covers a whole card (entity cards); corner actions sit above it with z-index. */
+  .stretched-link::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: var(--radius-card);
+  }
+  .stretched-link:focus-visible {
+    outline: none;
+  }
+  .stretched-link:focus-visible::after {
+    outline: 3px solid var(--focus-color);
+    outline-offset: 3px;
+  }
+  .group:has(.stretched-link:focus-visible) .rarity-frame {
+    box-shadow:
+      inset 0 4px 10px color-mix(in srgb, var(--surface-edge) 85%, transparent),
+      inset 0 -2px 0 color-mix(in srgb, var(--rf-color) 28%, transparent),
+      0 0 18px -2px color-mix(in srgb, var(--rf-color) 60%, transparent);
+  }
+
+  /* Horizontal rows (type chips) scroll without a visible bar and snap to chip edges. */
+  .chip-row {
+    scrollbar-width: none;
+    scroll-snap-type: x proximity;
+  }
+  .chip-row::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 /* Optional stone texture: a ~600 byte noise tile at 4% over the surface it decorates. */

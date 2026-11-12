@@ -97,6 +97,9 @@ describe('createLoaders', () => {
       stats: { damage: 11.5 },
       acceptsSoulEnchantments: false,
       isSeasonal: false,
+      // The filters read these two (06-FILTERS-SPEC: built-in enchantment and location).
+      builtInEnchantments: [],
+      locations: [],
     });
     expect(claymore).not.toHaveProperty('powerTable');
     expect(claymore).not.toHaveProperty('source');

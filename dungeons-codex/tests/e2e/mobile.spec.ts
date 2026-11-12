@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test';
-import { hasHorizontalScroll, headerSearch } from './helpers';
+import { countOf, hasHorizontalScroll, headerSearch } from './helpers';
 
 // Navigation on a phone (Prompt 06). The full responsive matrix belongs to Prompt 13.
 test.use({ viewport: { width: 390, height: 844 }, hasTouch: true });
@@ -65,7 +65,17 @@ test.describe('mobile navigation', () => {
     await expect(page.getByRole('link', { name: /^Favorites, \d+ saved$/ })).toBeVisible();
   });
 
-  for (const url of ['/', '/d1', '/d2', '/about', '/d1/weapons', '/does-not-exist']) {
+  for (const url of [
+    '/',
+    '/d1',
+    '/d2',
+    '/about',
+    '/d1/weapons',
+    '/d1/weapons?view=table',
+    '/d2/armor',
+    '/d2/quests?view=table',
+    '/does-not-exist',
+  ]) {
     for (const width of [360, 390]) {
       test(`no horizontal scroll on ${url} at ${width}px`, async ({ page }) => {
         await page.setViewportSize({ width, height: 800 });
@@ -74,4 +84,52 @@ test.describe('mobile navigation', () => {
       });
     }
   }
+});
+
+test.describe('category filters on a phone', () => {
+  test('the Filters button opens a sheet whose footer shows the live count and clears', async ({
+    page,
+  }) => {
+    const total = countOf('d1', 'weapons');
+    await page.goto('/d1/weapons');
+    // The sidebar is not on screen; the type chips are.
+    await expect(page.getByRole('complementary', { name: 'Filters' })).toBeHidden();
+    await expect(page.getByRole('button', { name: /^Melee\b/ })).toBeVisible();
+
+    await page.getByRole('button', { name: 'Filters', exact: true }).click();
+    const sheet = page.getByRole('dialog', { name: 'Filters' });
+    await expect(sheet).toBeVisible();
+    await sheet.getByRole('checkbox', { name: /Unique only/ }).click();
+    const show = sheet.getByRole('button', { name: /^Show [\d,]+ results$/ });
+    await expect(show).toHaveText(/Show 103 results/);
+    await show.click();
+    await expect(sheet).toBeHidden();
+
+    await expect(page.getByRole('status').filter({ hasText: /results/ })).toHaveText(
+      `103 results of ${total}`,
+    );
+    expect(new URL(page.url()).searchParams.get('u')).toBe('1');
+
+    await page.getByRole('button', { name: 'Filters (1)' }).click();
+    await page
+      .getByRole('dialog', { name: 'Filters' })
+      .getByRole('button', { name: 'Clear' })
+      .click();
+    await expect(
+      page
+        .getByRole('dialog', { name: 'Filters' })
+        .getByRole('button', { name: /^Show \d+ results$/ }),
+    ).toHaveText(`Show ${total} results`);
+    await page.keyboard.press('Escape');
+    await expect(page.getByRole('button', { name: 'Filters', exact: true })).toBeVisible();
+  });
+
+  test('the type chips scroll sideways inside their row, not the page', async ({ page }) => {
+    await page.goto('/d1/weapons?t=melee');
+    const row = page.getByRole('group', { name: 'Weapon type' });
+    await expect(row).toBeVisible();
+    const scrolls = await row.evaluate((el) => el.scrollWidth > el.clientWidth);
+    expect(scrolls).toBe(true);
+    expect(await hasHorizontalScroll(page)).toBe(false);
+  });
 });
