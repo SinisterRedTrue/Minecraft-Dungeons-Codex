@@ -109,3 +109,9 @@
 - [ ] Prefer the item page's tier text over the list page's wording for D1 enchantment tiers ("Deals X damage" vs "X damage dealt by wind"; "3 emeralds spawned" vs "3 emerald spawned").
 - [ ] A scheduled "wiki drift" check: re-run `scripts/dev/audit.ts` and list entities whose live revision moved since the sync (Soul Healer had).
 - [ ] Real-device Lighthouse run on a throttled phone, and a field-data (CrUX) check once the site is live.
+
+## Deploy & handoff (from Prompt 14)
+- [ ] A GitHub Actions workflow that runs `npm run verify` (and the e2e suite) on every push and pull request, so a broken data refresh cannot reach Vercel unnoticed.
+- [ ] A stricter CSP without `'unsafe-inline'` for scripts: possible only if the site moves to per-request rendering (nonces) or Next's inline flight scripts become hashable (D-107).
+- [ ] `Strict-Transport-Security` and a `security.txt` once a custom domain is attached (Vercel already sends HSTS on `*.vercel.app`).
+- [ ] A "last refreshed" automated reminder: a scheduled run that compares the wiki revisions with the synced ones and opens an issue when a patch changed pages.

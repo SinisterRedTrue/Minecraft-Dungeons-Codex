@@ -17,14 +17,14 @@ The repo is ready for the user to push to GitHub and deploy on Vercel in about 5
 8. Tag the release: `git tag v1.0.0` (local only; the user pushes the tags).
 
 ## Mini-checklist
-- [ ] Clean-clone build passes offline-safe
-- [ ] Security headers + CSP working (e2e asserts them)
-- [ ] README complete with screenshot
-- [ ] MAINTAINING.md
-- [ ] Root CLAUDE.md updated
-- [ ] Release audit table: all pass
-- [ ] Human-only steps verified and printed to the user
-- [ ] `v1.0.0` tag created
+- [x] Clean-clone build passes offline-safe
+- [x] Security headers + CSP working (e2e asserts them)
+- [x] README complete with screenshot
+- [x] MAINTAINING.md
+- [x] Root CLAUDE.md updated
+- [x] Release audit table: all pass (Lighthouse Perf is a documented exception, D-102)
+- [x] Human-only steps verified and printed to the user
+- [x] `v1.0.0` tag created
 
 ## Acceptance
 ```bash
