@@ -50,13 +50,16 @@ export function Button3D({
       if (disabled) e.preventDefault();
       else onClick?.(e);
     };
+    // Without a handler nothing is attached, so a plain `<Button3D asChild><Link/></Button3D>`
+    // also works in Server Components (functions can't be passed across that boundary).
+    const clickProps = disabled || onClick ? { onClick: handleClick } : {};
     return (
       <Slot
         {...rest}
         className={classes}
         aria-disabled={disabled || undefined}
         tabIndex={disabled ? -1 : rest.tabIndex}
-        onClick={handleClick}
+        {...clickProps}
       >
         {icon}
         <Slottable>{children}</Slottable>

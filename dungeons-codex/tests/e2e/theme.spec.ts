@@ -1,4 +1,5 @@
 import { expect, test, type Page } from '@playwright/test';
+import { themeRadio } from './helpers';
 
 const html = (page: Page) => page.locator('html');
 
@@ -43,24 +44,24 @@ test.describe('theme', () => {
     await page.emulateMedia({ colorScheme: 'dark' });
     await page.goto('/');
 
-    await page.getByRole('radio', { name: 'Light' }).click();
+    await (await themeRadio(page, 'Light')).click();
     await expect(html(page)).toHaveAttribute('data-theme', 'light');
     expect(await page.evaluate(() => localStorage.getItem('dc:theme'))).toBe('light');
 
     await page.reload();
     await expect(html(page)).toHaveAttribute('data-theme', 'light');
-    await expect(page.getByRole('radio', { name: 'Light' })).toBeChecked();
+    await expect(await themeRadio(page, 'Light')).toBeChecked();
 
-    await page.getByRole('radio', { name: 'Dark' }).click();
+    await (await themeRadio(page, 'Dark')).click();
     await page.reload();
     await expect(html(page)).toHaveAttribute('data-theme', 'dark');
-    await expect(page.getByRole('radio', { name: 'Dark' })).toBeChecked();
+    await expect(await themeRadio(page, 'Dark')).toBeChecked();
   });
 
   test('System follows the OS live', async ({ page }) => {
     await page.emulateMedia({ colorScheme: 'dark' });
     await page.goto('/');
-    await page.getByRole('radio', { name: 'System' }).click();
+    await (await themeRadio(page, 'System')).click();
     await expect(html(page)).toHaveAttribute('data-theme', 'dark');
     await page.emulateMedia({ colorScheme: 'light' });
     await expect(html(page)).toHaveAttribute('data-theme', 'light');
@@ -73,7 +74,7 @@ test.describe('theme', () => {
     await page.goto('/');
     const other = await context.newPage();
     await other.goto('/');
-    await page.getByRole('radio', { name: 'Light' }).click();
+    await (await themeRadio(page, 'Light')).click();
     await expect(html(other)).toHaveAttribute('data-theme', 'light');
   });
 
@@ -85,7 +86,7 @@ test.describe('theme', () => {
     page.on('pageerror', (e) => problems.push(e.message));
     await page.context().addInitScript(() => window.localStorage.setItem('dc:theme', 'light'));
     await page.goto('/');
-    await page.getByRole('radio', { name: 'Dark' }).click();
+    await (await themeRadio(page, 'Dark')).click();
     expect(problems).toEqual([]);
   });
 });

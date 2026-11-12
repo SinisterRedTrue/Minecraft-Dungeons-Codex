@@ -194,6 +194,12 @@
     }
   }
 
+  /* ---------- Hero item icons: a slow ±8 px float (Design System §8) ---------- */
+  .hero-float {
+    animation: dc-float 6s ease-in-out infinite;
+    animation-delay: var(--float-delay, 0s);
+  }
+
   /* ---------- Overlay widgets (Radix data-state drives the animation) ---------- */
   .dc-fade[data-state='open'] {
     animation: dc-fade-in var(--dur-ui) var(--ease-out);
@@ -297,6 +303,7 @@
     transition: none;
   }
   .skeleton,
+  .hero-float,
   .rarity-frame[data-rarity='unique']::before,
   .dc-fade,
   .dc-pop,

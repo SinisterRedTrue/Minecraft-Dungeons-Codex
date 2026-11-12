@@ -44,3 +44,9 @@
 - [ ] D2 mob pages: per-tier health and soul values as numbers, attacks and drops (D2 pages have no such lists yet).
 - [ ] D2 artifact types: the wiki gives none (D-054); a derived "damaging / support / summoning" grouping would need a documented source.
 - [ ] D2 tag keyword list: review the 27 tags against the real filter UI in Prompt 07 and merge or split them (D-056).
+
+## App shell (from Prompt 06)
+- [ ] Hero parallax: the floating icons only float (6 s sine); a subtle scroll/pointer parallax from Plans §05 was left out.
+- [ ] Featured-uniques scroller: ◀ ▶ buttons (Wireframes §2); today it scrolls by touch, wheel and Tab through the cards.
+- [ ] Inline section links from `xl` (1280) if the header gets a more compact layout (D-063).
+- [ ] A hub "Recently viewed" row once Prompt 09 stores recent items.

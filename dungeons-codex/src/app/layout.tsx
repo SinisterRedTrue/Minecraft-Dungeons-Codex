@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
 import { Rubik, Silkscreen } from 'next/font/google';
+import { NuqsAdapter } from 'nuqs/adapters/next/app';
 import '@/styles/globals.css';
 import { ThemeProvider } from '@/components/layout/ThemeProvider';
 import { ToastProvider } from '@/components/ui/Toast';
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from '@/lib/site';
 import { THEME_INIT_SCRIPT } from '@/lib/theme/theme';
 
 const rubik = Rubik({
@@ -20,10 +22,20 @@ const silkscreen = Silkscreen({
 });
 
 export const metadata: Metadata = {
-  title: 'Dungeons Codex',
-  description: 'An unofficial fan wiki for Minecraft Dungeons and Minecraft Dungeons II.',
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: `${SITE_NAME}: Minecraft Dungeons & Dungeons II wiki`,
+    template: `%s | ${SITE_NAME}`,
+  },
+  description: SITE_DESCRIPTION,
+  applicationName: SITE_NAME,
 };
 
+/**
+ * Root layout: only <html>/<body>, fonts, the theme script and providers. The header and footer
+ * live in `SiteShell`, rendered by the `(site)` and `[game]` layouts so each carries its own
+ * `data-game` accent in the server HTML.
+ */
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     // suppressHydrationWarning: the inline script sets data-theme before React hydrates.
@@ -33,7 +45,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <ThemeProvider>
-          <ToastProvider>{children}</ToastProvider>
+          <ToastProvider>
+            <NuqsAdapter>{children}</NuqsAdapter>
+          </ToastProvider>
         </ThemeProvider>
       </body>
     </html>

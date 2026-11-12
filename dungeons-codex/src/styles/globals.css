@@ -35,6 +35,10 @@
   --color-overlay: var(--overlay);
   --color-nav: var(--nav-bg);
   --color-torch: var(--torch);
+  --color-hero-from: var(--hero-from);
+  --color-hero-to: var(--hero-to);
+  --color-hero-text: var(--hero-text);
+  --color-hero-muted: var(--hero-muted);
 
   --color-accent: var(--accent);
   --color-accent-hi: var(--accent-hi);

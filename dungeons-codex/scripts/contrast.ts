@@ -163,6 +163,11 @@ add('stone button label', '--text', ['--surface-2', '--surface-3'], 4.5);
 add('focus ring colour', '--focus-color', SURFACES, 3);
 add('control outline (text-faint)', '--text-faint', ['--bg', '--surface-1', '--surface-2'], 3);
 
+// The hero band is night in both themes, so its text uses theme-independent ink tokens.
+add('hero text', '--hero-text', ['--hero-from', '--hero-to'], 4.5);
+add('hero muted text', '--hero-muted', ['--hero-from', '--hero-to'], 4.5);
+add('accent-hi text on the hero', '--accent-hi', ['--hero-from', '--hero-to'], 4.5);
+
 function main(): void {
   let failed = 0;
   let total = 0;

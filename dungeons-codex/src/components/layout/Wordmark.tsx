@@ -8,21 +8,25 @@ const SIZE = {
 
 export type WordmarkProps = {
   size?: keyof typeof SIZE;
+  /** On the always-night hero: theme-independent ink instead of the page text colours. */
+  onNight?: boolean;
   className?: string;
 };
 
 /** "DUNGEONS CODEX" as live text with the 3D shadow (Design System §4); no image asset needed. */
-export function Wordmark({ size = 'md', className }: WordmarkProps) {
+export function Wordmark({ size = 'md', onNight = false, className }: WordmarkProps) {
   return (
     <span
       className={cn(
-        'inline-flex flex-wrap gap-x-[0.35em] font-display leading-none font-black tracking-display text-text uppercase',
+        'inline-flex flex-wrap gap-x-[0.35em] font-display leading-none font-black tracking-display uppercase',
+        onNight ? 'text-hero-text' : 'text-text',
         SIZE[size],
         className,
       )}
     >
       <span>Dungeons</span>
-      <span className="text-accent-text">Codex</span>
+      {/* A real space: the flex items drop it visually, but names and copy-paste keep it. */}{' '}
+      <span className={onNight ? 'text-accent-hi' : 'text-accent-text'}>Codex</span>
     </span>
   );
 }

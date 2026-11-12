@@ -21,11 +21,11 @@ describe('Button3D', () => {
   it('renders as a link with asChild and keeps its icon next to the label', () => {
     render(
       <Button3D asChild icon={<svg data-testid="icon" />}>
-        <a href="/d1">Dungeons</a>
+        <a href="https://example.test/d1">Dungeons</a>
       </Button3D>,
     );
     const link = screen.getByRole('link', { name: 'Dungeons' });
-    expect(link).toHaveAttribute('href', '/d1');
+    expect(link).toHaveAttribute('href', 'https://example.test/d1');
     expect(link).toHaveClass('b3d');
     expect(link).toContainElement(screen.getByTestId('icon'));
     expect(screen.queryByRole('button')).toBeNull();
@@ -48,7 +48,7 @@ describe('Button3D', () => {
     const onClick = vi.fn();
     render(
       <Button3D asChild disabled onClick={onClick}>
-        <a href="/x">Locked</a>
+        <a href="https://example.test/x">Locked</a>
       </Button3D>,
     );
     const link = screen.getByRole('link', { name: 'Locked' });

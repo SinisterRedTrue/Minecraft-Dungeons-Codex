@@ -24,18 +24,18 @@ Real navigation: the Game Picker (`/`), both Game Hubs, header, footer, About/Cr
 11. **Tests:** e2e `picker.spec.ts`, `hub.spec.ts`, plus the nav parts of `mobile.spec.ts` (hamburger opens; no horizontal scroll on `/`, `/d1`, `/d2`, `/about`); unit test GameSwitcher's target-URL logic.
 
 ## Mini-checklist
-- [ ] Root layout (theme, toasts, nuqs, skip link, header, footer)
-- [ ] `[game]` layout with correct accent server-side (no flash) for d1 and d2
-- [ ] Header: sticky + scroll state + GameSwitcher + nav + search button + favorites + theme + mobile sheet
-- [ ] Footer with exact legal text + sync date
-- [ ] Game Picker matches Wireframe §1 (hero, cards with live counts, feature cards, wave)
-- [ ] Both hubs match Wireframe §2 (8 correct tiles each, featured, DLC strip on d1, tools)
-- [ ] 16 category stub pages exist (no 404s from the hubs)
-- [ ] About/Credits, 404, Breadcrumbs + JSON-LD
-- [ ] Metadata, sitemap, robots
-- [ ] picker/hub/mobile e2e + GameSwitcher unit tests pass
-- [ ] Visual check: `/`, `/d1`, `/d2` in both themes at 1440/390 compared with the wireframes and civ references
-- [ ] axe: 0 serious/critical on `/`, `/d1`, `/d2`, `/about`, 404
+- [x] Root layout (theme, toasts, nuqs, skip link, header, footer)
+- [x] `[game]` layout with correct accent server-side (no flash) for d1 and d2
+- [x] Header: sticky + scroll state + GameSwitcher + nav + search button + favorites + theme + mobile sheet
+- [x] Footer with exact legal text + sync date
+- [x] Game Picker matches Wireframe §1 (hero, cards with live counts, feature cards, wave)
+- [x] Both hubs match Wireframe §2 (8 correct tiles each, featured, DLC strip on d1, tools)
+- [x] 16 category stub pages exist (no 404s from the hubs)
+- [x] About/Credits, 404, Breadcrumbs + JSON-LD
+- [x] Metadata, sitemap, robots
+- [x] picker/hub/mobile e2e + GameSwitcher unit tests pass
+- [x] Visual check: `/`, `/d1`, `/d2` in both themes at 1440/390 compared with the wireframes and civ references
+- [x] axe: 0 serious/critical on `/`, `/d1`, `/d2`, `/about`, 404
 
 ## Acceptance
 ```bash

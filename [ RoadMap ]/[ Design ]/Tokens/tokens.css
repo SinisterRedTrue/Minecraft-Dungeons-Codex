@@ -35,6 +35,10 @@
   --soul: #7fa8ff;               /* souls / soul enchantments */
   --soul-edge: #4a6fd1;
 
+  /* ---------- Hero ink (the hero band stays night in BOTH themes, so its text is theme-independent) ---------- */
+  --hero-text: #f4ebdd;
+  --hero-muted: #cdbfa6;
+
   /* ---------- Rarity ---------- */
   --rarity-common: #b8b8b8;
   --rarity-rare: #45b5ff;
