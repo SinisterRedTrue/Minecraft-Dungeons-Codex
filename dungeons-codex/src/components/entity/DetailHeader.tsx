@@ -11,7 +11,7 @@ const RARITIES: readonly Rarity[] = ['common', 'rare', 'special', 'unique'];
 
 /**
  * Header of a detail page: the 128 px framed icon, the name, rarity / status badges, type chips
- * and the action buttons (★ Favorite, ⇄ Compare; ⚒ Planner arrives with Prompt 12).
+ * and the action buttons (★ Favorite, ⇄ Compare, ⚒ Open in Planner).
  */
 export function DetailHeader({
   name,

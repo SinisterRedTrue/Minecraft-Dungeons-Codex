@@ -61,9 +61,18 @@ export function collectConsoleProblems(page: Page): string[] {
   return problems;
 }
 
-/** Waits for running CSS transitions and animations to finish, so axe reads final colours, not mid-fade ones. */
+/**
+ * Waits for running CSS transitions and animations to finish, so axe reads final colours, not
+ * mid-fade ones. Endless animations (the unique-rarity shimmer, skeletons) never finish, so they
+ * are not waited for.
+ */
 export async function settleAnimations(page: Page): Promise<void> {
   await page.evaluate(() =>
-    Promise.all(document.getAnimations().map((a) => a.finished.catch(() => undefined))),
+    Promise.all(
+      document
+        .getAnimations()
+        .filter((a) => a.effect?.getComputedTiming().iterations !== Infinity)
+        .map((a) => a.finished.catch(() => undefined)),
+    ),
   );
 }

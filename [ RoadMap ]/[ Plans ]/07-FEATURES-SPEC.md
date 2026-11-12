@@ -50,7 +50,7 @@
 
 - **Picker:** clicking a slot opens a Sheet/Dialog with that category's EntityCards plus the full filter panel (reusing the Category Browser components).
 - **Summary panel:** total enchantment points; combined effect list (grouped by effect label, summing percentages when they're the same label and unit, with a note: "simple sum, in-game stacking may differ"); damage at the build's power for the chosen melee/ranged (through the Forge math, Approximate rules included).
-- **Encoding:** `b` = base64url( JSON `{ v:1, g:'d1', n?:string, p?:number, s: { slotKey: [entitySlug, [[enchSlug, tier], …]] } }` ), compressed with a small deflate (`fflate`) when that's shorter. Decoding validates with Zod; invalid or unknown slugs are dropped and a toast says so. URL ≤ 2,000 chars.
+- **Encoding:** `b` = `r` + base64url( JSON `{ v:1, g:'d1', n?, p?, t?, s: { slotKey: [entitySlug, [[enchSlug, tier], …], talismanTier?] } }` ) or `z` + base64url( deflate( the same JSON ) ) (`fflate`), whichever is shorter. Decoding validates with Zod; an invalid link is rejected as a whole, while unknown or non-fitting slugs are dropped and a toast says so (D-097). URL ≤ 2,000 chars (tested with the longest real slugs). Data comes from `public/planner/{game}.json` (D-096); state and actions are in D-099, the picker in D-100.
 - **Actions:** Copy link, Save to "My builds" (localStorage, max 50), Duplicate, Clear, Open each item.
 - **Validation:** an item in the wrong slot is impossible (pickers are scoped). Duplicate artifacts get a warning (the game doesn't allow the same artifact twice).
 

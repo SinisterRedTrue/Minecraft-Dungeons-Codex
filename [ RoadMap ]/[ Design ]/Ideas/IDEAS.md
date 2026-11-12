@@ -92,3 +92,13 @@
 - [ ] Move favorites between devices without an account (a short code or a QR of the backup file).
 - [ ] Remember "Differences only" and the last compared category per game.
 - [ ] An undo toast after Clear on the tray and after un-starring on the Favorites page.
+
+## Build Planner (from Prompt 12)
+- [ ] Notes and the build name in the share preview (OG image of a build with its icons).
+- [ ] Compare two saved builds side by side and a "what changed" diff after editing.
+- [ ] Drag an item from a card or the search palette into a slot; "Add to planner" in the palette (Alt+Enter).
+- [ ] Per-piece view of D2 armor sets ("fill all four pieces of this set") and a set-bonus line if the wiki documents one.
+- [ ] Show armor health at the build's power in the D1 summary (the armor power tables exist).
+- [ ] Undo and redo for build edits; an undo toast after Clear.
+- [ ] Export and import of My builds as a file, like the favorites backup.
+- [ ] Remember the last picker sort and keep the search box visible on phones without opening Filters.

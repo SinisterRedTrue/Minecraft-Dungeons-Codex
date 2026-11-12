@@ -4,10 +4,12 @@
  * (fetched lazily by the palette). It reads only generated JSON, so it runs offline, and it is
  * the `prebuild` step so the index can never be stale. It also writes the Power Forge
  * enchantment catalogs to `public/forge/{game}.json` (`lib/forge-catalog.ts`) and the Compare data
- * to `public/compare/{game}/{category}.json` (`lib/compare-data.ts`).
+ * to `public/compare/{game}/{category}.json` (`lib/compare-data.ts`) and the Build Planner data to
+ * `public/planner/{game}.json` (`lib/planner-data.ts`).
  */
 import { buildCompareFiles } from './lib/compare-data';
 import { buildForgeCatalogs } from './lib/forge-catalog';
+import { buildPlannerFiles } from './lib/planner-data';
 import { buildAll } from './lib/search-index';
 
 for (const { game, entries, gzip } of buildAll()) {
@@ -17,6 +19,12 @@ for (const { game, entries, gzip } of buildAll()) {
 for (const { game, entries, gzip } of buildForgeCatalogs()) {
   console.log(
     `data:index: ${game} forge catalog — ${entries} enchantments, ${(gzip / 1024).toFixed(1)} kB gzip`,
+  );
+}
+
+for (const { game, items, raw, gzip } of buildPlannerFiles()) {
+  console.log(
+    `data:index: ${game} planner data — ${items} items, ${(raw / 1024).toFixed(1)} kB raw, ${(gzip / 1024).toFixed(1)} kB gzip`,
   );
 }
 

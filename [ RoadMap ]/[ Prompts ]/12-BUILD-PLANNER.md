@@ -15,14 +15,14 @@ A shareable loadout builder for both games: pick gear per slot with enchantments
 6. **Tests:** model units; component tests (picker scoping, enchant scoping, duplicate warning, invalid-URL toast); e2e `planner.spec.ts` (from 08) for D1 **and** a D2 variant with armor slots; axe on the planner with the picker open.
 
 ## Mini-checklist
-- [ ] Slot definitions for D1 and D2 match 07 §5 exactly
-- [ ] Codec (deflate + base64url, validated, ≤ 2,000 chars), 100 % branches
-- [ ] Summary math (points, grouped effects, damage via Forge, warnings)
-- [ ] Planner UI: slots, ItemPicker reusing filters, EnchantPicker, name, power, summary, actions
-- [ ] Open in Planner from detail pages
-- [ ] My builds (save, rename, delete, open, copy)
-- [ ] D1 + D2 planner e2e + component tests + axe pass
-- [ ] Visual check in both themes at 1440/390 against Wireframe §6
+- [x] Slot definitions for D1 and D2 match 07 §5 exactly
+- [x] Codec (deflate + base64url, validated, ≤ 2,000 chars), 100 % branches
+- [x] Summary math (points, grouped effects, damage via Forge, warnings)
+- [x] Planner UI: slots, ItemPicker reusing filters, EnchantPicker, name, power, summary, actions
+- [x] Open in Planner from detail pages
+- [x] My builds (save, rename, delete, open, copy)
+- [x] D1 + D2 planner e2e + component tests + axe pass
+- [x] Visual check in both themes at 1440/390 against Wireframe §6
 
 ## Acceptance
 ```bash

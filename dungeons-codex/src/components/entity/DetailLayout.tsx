@@ -6,6 +6,7 @@ import { RelatedGrid } from '@/components/entity/RelatedGrid';
 import { SourceCredit } from '@/components/entity/SourceCredit';
 import { CompareButton } from '@/components/features/compare/CompareButton';
 import { FavoriteButton } from '@/components/features/favorites/FavoriteButton';
+import { PlannerButton } from '@/components/features/planner/PlannerButton';
 import { DetailSection } from '@/components/entity/sections/DetailSection';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { ASIDE_SECTIONS } from '@/config/detail';
@@ -63,6 +64,16 @@ export function DetailLayout({
               <CompareButton
                 variant="detail"
                 item={{ game, category, slug: entity.slug, name: entity.name }}
+              />
+              <PlannerButton
+                game={game}
+                category={category}
+                slug={entity.slug}
+                name={entity.name}
+                fields={{
+                  kind: (entity as unknown as { kind?: unknown }).kind,
+                  slot: (entity as unknown as { slot?: unknown }).slot,
+                }}
               />
             </>
           }

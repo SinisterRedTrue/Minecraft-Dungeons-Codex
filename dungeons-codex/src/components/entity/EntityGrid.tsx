@@ -21,12 +21,17 @@ export function EntityGrid({
   items,
   config,
   actions,
+  onSelect,
+  selectedId,
   label,
 }: {
   items: readonly EntityListItem[];
   config: GridConfig;
   /** Corner buttons for one card (Prompt 11). */
   actions?: (item: EntityListItem) => ReactNode;
+  /** Picker mode (the Build Planner): clicking a card selects it instead of opening its page. */
+  onSelect?: (item: EntityListItem) => void;
+  selectedId?: string | undefined;
   label: string;
 }) {
   return (
@@ -37,6 +42,9 @@ export function EntityGrid({
             item={item}
             model={cardModel(item, config.cardStats, config.cardMeta, config.labels)}
             actions={actions?.(item)}
+            {...(onSelect
+              ? { onSelect: () => onSelect(item), selected: item.id === selectedId }
+              : {})}
           />
         </li>
       ))}

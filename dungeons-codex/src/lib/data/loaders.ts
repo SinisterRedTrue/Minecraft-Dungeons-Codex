@@ -5,7 +5,7 @@
 import 'server-only';
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
-import { GROUP_FIELD, LIST_FIELDS } from '@/config/categories';
+import { GROUP_FIELD } from '@/config/categories';
 import {
   GAMES,
   isValidCategory,
@@ -13,8 +13,8 @@ import {
   type CategorySlug,
   type GameId,
 } from '@/config/games';
-import { deriveListFields } from '@/lib/filters/derive';
-import { LIST_BASE_FIELDS, type Entity, type EntityListItem, type EntityOf } from '@/lib/schemas';
+import type { Entity, EntityListItem, EntityOf } from '@/lib/schemas';
+import { projectListItems } from './project';
 
 /** `CODEX_DATA_DIR` (tests) or `<cwd>/data/generated`. */
 export function defaultDataDir(): string {
@@ -77,21 +77,7 @@ export function createLoaders(dataDir: string = defaultDataDir()): Loaders {
     return slugIndex(game, category).get(slug);
   }
 
-  function projectAll(game: GameId, category: string, entities: readonly Entity[]) {
-    return entities.map((entity): EntityListItem => {
-      const extra = (LIST_FIELDS[game] as Record<string, readonly string[]>)[category] ?? [];
-      const fields = [...LIST_BASE_FIELDS, 'game', 'category', ...extra];
-      const raw = entity as unknown as Record<string, unknown>;
-      const item: Record<string, unknown> = {};
-      for (const field of fields) {
-        const value = raw[field];
-        if (value !== undefined) item[field] = value;
-      }
-      // Sums, maxima and parsed effects the filters need (06-FILTERS-SPEC "derived").
-      Object.assign(item, deriveListFields(game, category, raw));
-      return item as EntityListItem;
-    });
-  }
+  const projectAll = projectListItems;
 
   return {
     getAll(game, category) {
