@@ -15,13 +15,14 @@ Legend: `[BTN]` = Button3D, `( chip )` = Chip, `▣` = RarityFrame icon, `★` f
 █                                   ⌄                                             █
 ████████████████████████████████████▁▂▃▄▅ wave ▅▄▃▂▁████████████████████████████████
                          CHOOSE YOUR ADVENTURE   (eyebrow + H2)
-   ┌─────────────────────────────────┐     ┌─────────────────────────────────┐
-   │  (icon collage: sword, bow,     │     │  (icon collage, frost tint)     │
-   │   armor; emerald glow)          │     │                                 │
-   │  MINECRAFT DUNGEONS      2020   │     │  MINECRAFT DUNGEONS II   2026   │
-   │  155 weapons · 71 armor · 6 DLC │     │  80 weapons · 38 sets · 24 tal. │
-   │        [ ENTER DUNGEONS ]       │     │       [ ENTER DUNGEONS II ]     │
-   └─────────────────────────────────┘     └─────────────────────────────────┘
+   ┌─────────────────────────────────────────────────────────────────────────────┐
+   │ ▣ ▣ ▣ ▣ ▣  (emerald scene)  ╲            ╲  (frost scene)  ▣ ▣ ▣ ▣ ▣        │
+   │                              ╲  one diagonal divider 40%→60%╲                │
+   │ MINECRAFT DUNGEONS           ╲            ╲ MINECRAFT DUNGEONS II           │
+   │ 2020 · 155 weapons · 71 armor ╲            ╲ 2026 · 80 weapons · 24 tal.    │
+   │     [ ENTER DUNGEONS ]         ╲            ╲   [ ENTER DUNGEONS II ]       │
+   └─────────────────────────────────────────────────────────────────────────────┘
+   Hover/focus a half: the divider slides 9 points toward the other side (same angle).
                               WHAT'S INSIDE  (bg-2 band)
    ┌ Filters ┐ ┌ Power Forge ┐ ┌ Compare ┐ ┌ Build Planner ┐ ┌ Favorites ┐ ┌ Search ┐
    (6 feature cards, 3×2, reveal-on-scroll, hover lift)
@@ -29,7 +30,7 @@ Legend: `[BTN]` = Button3D, `( chip )` = Chip, `▣` = RarityFrame icon, `★` f
  ◆ DUNGEONS CODEX   D1 · D2 · Favorites · About     Data © Minecraft Wiki · CC BY-NC-SA
  NOT AN OFFICIAL MINECRAFT PRODUCT…                              Last synced 2026-11-12
 ```
-Mobile: the cards stack, the hero wordmark wraps onto 2 lines, and the feature cards are 1 column.
+Mobile (below `lg`): the two halves stack with a slanted seam, the hero wordmark wraps onto 2 lines, and the feature cards are 1 column.
 
 ## 2. `/d1` Game Hub
 ```

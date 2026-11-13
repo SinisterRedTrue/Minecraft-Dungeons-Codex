@@ -79,6 +79,37 @@ test.describe('Game Picker (/)', () => {
     expect(await resolved(/Enter Dungeons II$/)).toBe('rgb(79, 216, 235)');
   });
 
+  test('the divider slides toward the other side on hover and on keyboard focus', async ({
+    page,
+  }, testInfo) => {
+    test.skip(testInfo.project.name === 'mobile', 'touch has no hover, so no shift');
+    await page.setViewportSize({ width: 1280, height: 900 });
+    await page.goto('/');
+    const split = page.locator('.split');
+    const split$ = () => split.evaluate((el) => getComputedStyle(el).getPropertyValue('--split'));
+    await split.scrollIntoViewIfNeeded();
+    expect(await split$()).toBe('0%');
+
+    // Both halves are one joined panel: each link only reacts inside its own diagonal shape.
+    const box = (await split.boundingBox())!;
+    await page.mouse.move(box.x + box.width * 0.2, box.y + box.height * 0.5);
+    await expect.poll(split$).toBe('9%');
+    await page.mouse.move(box.x + box.width * 0.85, box.y + box.height * 0.5);
+    await expect.poll(split$).toBe('-9%');
+    await page.mouse.move(box.x - 40, box.y - 40);
+    await expect.poll(split$).toBe('0%');
+
+    // Keyboard focus does the same (and works without a mouse).
+    await page.getByRole('link', { name: /Enter Dungeons II$/ }).focus();
+    await page.keyboard.press('Shift+Tab');
+    await page.keyboard.press('Tab');
+    await expect.poll(split$).toBe('-9%');
+    await page.getByRole('link', { name: /Enter Dungeons$/ }).focus();
+    await page.keyboard.press('Shift+Tab');
+    await page.keyboard.press('Tab');
+    await expect.poll(split$).toBe('9%');
+  });
+
   test('clicking a game card enters that game with its accent', async ({ page }) => {
     await page.goto('/');
     await page.getByRole('link', { name: /Enter Dungeons II$/ }).click();

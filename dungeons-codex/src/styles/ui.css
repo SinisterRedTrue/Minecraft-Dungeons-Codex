@@ -10,6 +10,12 @@
   initial-value: 0deg;
 }
 
+@property --split {
+  syntax: '<percentage>';
+  inherits: true;
+  initial-value: 0%;
+}
+
 @layer components {
   /* ---------- Button3D: civ "b3d" press physics (Design System §2) ---------- */
   .b3d {
@@ -233,6 +239,246 @@
     animation-delay: var(--float-delay, 0s);
   }
 
+  /* ---------- GameSplit: one panel, two halves, one diagonal divider (D-109) ----------
+     Default is the stacked phone layout: two blocks cut by the same slant. From lg the halves
+     overlap in one box and are clipped to the two sides of a line that runs from 40 % (top) to
+     60 % (bottom) plus --split. Hover or focus on a half sets --split (+9 for the left half,
+     -9 for the right), which slides the line, and --split is a registered property so it
+     transitions. clip-path also limits hit-testing, so each link only reacts inside its shape. */
+  .split {
+    --seam: 28px;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    border: 1.5px solid var(--line-strong);
+    border-radius: var(--radius-panel);
+    background: var(--hero-to);
+    box-shadow: var(--shadow-soft);
+  }
+  .split-panel {
+    position: relative;
+    display: block;
+    color: var(--hero-text);
+  }
+  .split-panel:focus-visible {
+    outline: 3px solid var(--accent-hi);
+    outline-offset: -6px;
+  }
+  /* A clip-path clips a normal outline on the diagonal side, so the ring also goes on the button. */
+  .split-panel:focus-visible .b3d {
+    box-shadow:
+      var(--focus-ring),
+      0 var(--depth-btn) 0 var(--b-edge);
+  }
+  .split-panel[data-game='d1'] {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--seam)), 0 100%);
+  }
+  .split-panel[data-game='d2'] {
+    margin-top: calc(var(--seam) * -1);
+    clip-path: polygon(0 var(--seam), 100% 0, 100% 100%, 0 100%);
+  }
+  .split-scene {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    transition:
+      transform 600ms var(--ease-out),
+      filter 400ms var(--ease-out);
+  }
+  /* The voxel grid: faint pixel rows and columns over the scene colours. */
+  .split-scene::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      repeating-linear-gradient(
+        0deg,
+        color-mix(in srgb, var(--hero-to) 24%, transparent) 0 2px,
+        transparent 2px 18px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        color-mix(in srgb, var(--hero-to) 24%, transparent) 0 2px,
+        transparent 2px 18px
+      );
+  }
+  /* Dungeons: forest dusk lit by torches. */
+  .split-scene[data-scene='d1'] {
+    background:
+      radial-gradient(ellipse 45% 50% at 16% 82%, var(--torch), transparent 72%),
+      radial-gradient(ellipse 45% 50% at 16% 82%, var(--torch), transparent 72%),
+      radial-gradient(ellipse 40% 46% at 72% 86%, var(--torch), transparent 72%),
+      radial-gradient(
+        ellipse 70% 60% at 28% 0%,
+        color-mix(in srgb, var(--emerald) 30%, transparent),
+        transparent 72%
+      ),
+      linear-gradient(
+        180deg,
+        color-mix(in srgb, var(--emerald-edge) 42%, var(--hero-from)),
+        var(--hero-to)
+      );
+  }
+  /* Dungeons II: frozen ruins under a cold glow. */
+  .split-scene[data-scene='d2'] {
+    background:
+      radial-gradient(
+        ellipse 60% 55% at 84% 6%,
+        color-mix(in srgb, var(--frost-hi) 30%, transparent),
+        transparent 72%
+      ),
+      radial-gradient(
+        ellipse 50% 50% at 30% 90%,
+        color-mix(in srgb, var(--frost) 34%, transparent),
+        transparent 72%
+      ),
+      radial-gradient(
+        ellipse 40% 46% at 80% 88%,
+        color-mix(in srgb, var(--frost) 24%, transparent),
+        transparent 72%
+      ),
+      linear-gradient(
+        180deg,
+        color-mix(in srgb, var(--frost-edge) 46%, var(--hero-from)),
+        var(--hero-to)
+      );
+  }
+  .split-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 1.25rem;
+    text-align: center;
+    transition: opacity 400ms var(--ease-out);
+  }
+  .split-panel[data-game='d1'] .split-content {
+    padding-bottom: calc(2rem + var(--seam));
+  }
+  .split-panel[data-game='d2'] .split-content {
+    padding-top: calc(2rem + var(--seam));
+  }
+  .split-divider {
+    display: none;
+  }
+
+  @media (min-width: 1024px) {
+    .split {
+      height: 34rem;
+      transition: --split 500ms var(--ease-out);
+    }
+    .split-panel,
+    .split-panel[data-game='d2'] {
+      position: absolute;
+      inset: 0;
+      margin-top: 0;
+    }
+    .split-panel[data-game='d1'] {
+      clip-path: polygon(0 0, calc(40% + var(--split)) 0, calc(60% + var(--split)) 100%, 0 100%);
+    }
+    .split-panel[data-game='d2'] {
+      clip-path: polygon(
+        calc(40% + var(--split)) 0,
+        100% 0,
+        100% 100%,
+        calc(60% + var(--split)) 100%
+      );
+    }
+    /* Each text block follows the visible part of its half (the line is at 49-59 % through the text rows). */
+    .split-content,
+    .split-panel[data-game] .split-content {
+      position: absolute;
+      inset-block: 0;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 2.25rem 1rem;
+    }
+    .split-panel[data-game='d1'] .split-content {
+      left: 0;
+      width: calc(46% + var(--split));
+    }
+    .split-panel[data-game='d2'] .split-content {
+      right: 0;
+      width: calc(39% - var(--split));
+    }
+    .split-divider {
+      display: block;
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      pointer-events: none;
+      background: color-mix(in srgb, var(--hero-text) 55%, transparent);
+      clip-path: polygon(
+        calc(40% + var(--split) - 1.5px) 0,
+        calc(40% + var(--split) + 1.5px) 0,
+        calc(60% + var(--split) + 1.5px) 100%,
+        calc(60% + var(--split) - 1.5px) 100%
+      );
+      transition: background-color 300ms var(--ease-out);
+    }
+
+    /* Keyboard focus: same slide as hover, the divider takes the focused game's accent. */
+    .split:has(.split-panel[data-game='d1']:focus-visible) {
+      --split: 9%;
+    }
+    .split:has(.split-panel[data-game='d2']:focus-visible) {
+      --split: -9%;
+    }
+    .split:has(.split-panel[data-game='d1']:focus-visible) .split-divider {
+      background: var(--emerald-hi);
+    }
+    .split:has(.split-panel[data-game='d2']:focus-visible) .split-divider {
+      background: var(--frost-hi);
+    }
+    .split:has(.split-panel[data-game='d1']:focus-visible)
+      .split-panel[data-game='d1']
+      .split-scene,
+    .split:has(.split-panel[data-game='d2']:focus-visible)
+      .split-panel[data-game='d2']
+      .split-scene {
+      transform: scale(1.04);
+    }
+    .split:has(.split-panel[data-game='d1']:focus-visible)
+      .split-panel[data-game='d2']
+      .split-scene,
+    .split:has(.split-panel[data-game='d2']:focus-visible)
+      .split-panel[data-game='d1']
+      .split-scene {
+      filter: saturate(0.7) brightness(0.8);
+    }
+    .split:has(.split-panel[data-game='d1']:focus-visible)
+      .split-panel[data-game='d2']
+      .split-content,
+    .split:has(.split-panel[data-game='d2']:focus-visible)
+      .split-panel[data-game='d1']
+      .split-content {
+      opacity: 0.65;
+    }
+  }
+
+  /* Pointer hover is only trusted on devices that really hover: on a phone the first tap must enter. */
+  @media (min-width: 1024px) and (hover: hover) {
+    .split:has(.split-panel[data-game='d1']:hover) {
+      --split: 9%;
+    }
+    .split:has(.split-panel[data-game='d2']:hover) {
+      --split: -9%;
+    }
+    .split:has(.split-panel[data-game='d1']:hover) .split-panel[data-game='d1'] .split-scene,
+    .split:has(.split-panel[data-game='d2']:hover) .split-panel[data-game='d2'] .split-scene {
+      transform: scale(1.04);
+    }
+    .split:has(.split-panel[data-game='d1']:hover) .split-panel[data-game='d2'] .split-scene,
+    .split:has(.split-panel[data-game='d2']:hover) .split-panel[data-game='d1'] .split-scene {
+      filter: saturate(0.7) brightness(0.8);
+    }
+    .split:has(.split-panel[data-game='d1']:hover) .split-panel[data-game='d2'] .split-content,
+    .split:has(.split-panel[data-game='d2']:hover) .split-panel[data-game='d1'] .split-content {
+      opacity: 0.65;
+    }
+  }
+
   /* ---------- Overlay widgets (Radix data-state drives the animation) ---------- */
   .dc-fade[data-state='open'] {
     animation: dc-fade-in var(--dur-ui) var(--ease-out);
@@ -379,5 +625,11 @@
   .b3d:active,
   .b3d-ghost:hover {
     transition: none;
+  }
+  .split,
+  .split-scene,
+  .split-content,
+  .split-divider {
+    transition: none !important;
   }
 }

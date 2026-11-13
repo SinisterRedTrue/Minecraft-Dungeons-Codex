@@ -2,12 +2,11 @@ import { ChevronDown } from 'lucide-react';
 import type { Metadata } from 'next';
 import { SearchPill } from '@/components/features/search/SearchButton';
 import { FeatureCards } from '@/components/home/FeatureCards';
-import { GameCard } from '@/components/home/GameCard';
+import { GameSplit } from '@/components/home/GameSplit';
 import { HeroIcons } from '@/components/home/HeroIcons';
 import { WaveDivider } from '@/components/layout/WaveDivider';
 import { Wordmark } from '@/components/layout/Wordmark';
 import { SectionHeading } from '@/components/ui/SectionHeading';
-import { GAME_IDS } from '@/config/games';
 import { getCounts } from '@/lib/data';
 import { getCollageIcons, getHeroIcons } from '@/lib/data/showcase';
 import { pageMetadata } from '@/lib/seo';
@@ -66,17 +65,23 @@ export default function GamePickerPage() {
           <SectionHeading
             eyebrow="Two games, one codex"
             title={<span id="choose-heading">Choose your adventure</span>}
+            subtitle={
+              <>
+                <span className="hidden [@media(hover:hover)_and_(min-width:1024px)]:inline">
+                  Hover to explore. Select to enter.
+                </span>
+                <span className="[@media(hover:hover)_and_(min-width:1024px)]:hidden">
+                  Select a game to enter.
+                </span>
+              </>
+            }
           />
-          <div className="mt-12 grid gap-8 md:grid-cols-2">
-            {GAME_IDS.map((game) => (
-              <GameCard
-                key={game}
-                game={game}
-                counts={getCounts(game)}
-                icons={getCollageIcons(game)}
-              />
-            ))}
-          </div>
+          <GameSplit
+            games={[
+              { game: 'd1', counts: getCounts('d1'), icons: getCollageIcons('d1') },
+              { game: 'd2', counts: getCounts('d2'), icons: getCollageIcons('d2') },
+            ]}
+          />
         </div>
       </section>
 
