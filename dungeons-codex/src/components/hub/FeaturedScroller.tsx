@@ -1,11 +1,12 @@
 import Link from 'next/link';
 import { Badge } from '@/components/ui/Badge';
+import { Marquee } from '@/components/hub/Marquee';
 import { Card } from '@/components/ui/Card';
 import { RarityFrame } from '@/components/ui/RarityFrame';
 import { getSection } from '@/config/sections';
 import type { ShowcaseItem } from '@/lib/showcase';
 
-/** Horizontal scroll-snap row of featured unique items. Each card is one link to the item's page. */
+/** Auto-drifting row of featured unique items (paused on hover). Each card is one link to the item's page. */
 export function FeaturedScroller({
   items,
   label,
@@ -14,10 +15,7 @@ export function FeaturedScroller({
   label: string;
 }) {
   return (
-    <ul
-      aria-label={label}
-      className="-mx-[var(--gutter)] flex snap-x snap-mandatory scroll-pl-[var(--gutter)] [scrollbar-color:var(--text-faint)_transparent] gap-4 overflow-x-auto px-[var(--gutter)] pt-1 pb-6"
-    >
+    <Marquee label={label} itemCount={items.length} className="snap-mandatory">
       {items.map((item) => {
         const section = getSection(item.game, item.category);
         return (
@@ -39,6 +37,6 @@ export function FeaturedScroller({
           </li>
         );
       })}
-    </ul>
+    </Marquee>
   );
 }

@@ -141,6 +141,53 @@ test.describe('D1 only', () => {
   });
 });
 
+test.describe('rotating rows pause on hover', () => {
+  const ROWS: [string, string][] = [
+    ['d1', 'Featured unique items in Minecraft Dungeons$'],
+    ['d1', 'DLC adventures in release order'],
+    ['d2', 'Featured unique items in Minecraft Dungeons II$'],
+  ];
+  for (const [game, listName] of ROWS) {
+    test(`${game}: "${listName.replace('$', '')}" drifts, stops under the mouse, resumes after`, async ({
+      page,
+    }) => {
+      await page.goto(`/${game}`);
+      const row = page.getByRole('list', { name: new RegExp(listName) });
+      const track = row.locator('xpath=..');
+      // The wrapper holds still while the track moves, so it is the element to scroll to and hover.
+      const wrapper = track.locator('xpath=..');
+      const motion = await page.evaluate(
+        () => matchMedia('(hover: hover) and (prefers-reduced-motion: no-preference)').matches,
+      );
+      const state = () =>
+        track.evaluate((el) => {
+          const style = getComputedStyle(el);
+          return { name: style.animationName, play: style.animationPlayState };
+        });
+
+      if (!motion) {
+        // Touch screens and reduced motion keep the plain scroll-snap row: no animation at all.
+        expect((await state()).name).toBe('none');
+        return;
+      }
+
+      expect(await state()).toEqual({ name: 'dc-marquee', play: 'running' });
+      await wrapper.scrollIntoViewIfNeeded();
+      await wrapper.hover({ position: { x: 20, y: 4 } });
+      expect((await state()).play).toBe('paused');
+      const frozen = await track.evaluate((el) => getComputedStyle(el).transform);
+      await page.waitForTimeout(400);
+      expect(await track.evaluate((el) => getComputedStyle(el).transform)).toBe(frozen);
+      await page.mouse.move(2, 2);
+      expect((await state()).play).toBe('running');
+      // The seamless-loop copies are invisible to assistive tech and the Tab key.
+      await expect(
+        page.locator('.marquee-clone[aria-hidden="true"][inert]').first(),
+      ).toBeAttached();
+    });
+  }
+});
+
 test.describe('accent without JavaScript', () => {
   test.use({ javaScriptEnabled: false });
   test('D2 is frost from the server HTML alone', async ({ page }) => {

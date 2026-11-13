@@ -38,8 +38,8 @@ All routes are statically generated. `[game]` ∈ `d1 | d2`. `[category]` must b
 ### `/[game]` Game Hub
 1. Game hero band (accent color, title, short blurb, "last synced" chip).
 2. **Section grid**: 8 large tiles (icon, label, count, one-line description) in a 4×2 grid (2 columns on mobile). This is the core navigation and mirrors the wiki hub tiles.
-3. **Featured**: a horizontal scroller of 8 random unique items, picked deterministically from the build date.
-4. D1 only: **DLC strip**, with DLC cards in release order.
+3. **Featured**: a row of 8 random unique items, picked deterministically from the build date. It drifts left in a seamless loop and stops while the mouse is over it or focus is inside (D-110).
+4. D1 only: **DLC strip**, with DLC cards in release order, drifting and pausing like Featured (D-110).
 5. **Tools** row: Compare, Planner, Favorites shortcuts.
 
 ### `/[game]/[category]` Category Browser

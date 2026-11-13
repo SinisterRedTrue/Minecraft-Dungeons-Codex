@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Marquee } from '@/components/hub/Marquee';
 import { Card } from '@/components/ui/Card';
 import { RarityFrame } from '@/components/ui/RarityFrame';
 
@@ -32,13 +33,10 @@ export function formatReleaseMonth(date: string | undefined): string | undefined
   return name ? `${name} ${match[1]}` : date;
 }
 
-/** Minecraft Dungeons only: the DLC adventures in release order. */
+/** Minecraft Dungeons only: the DLC adventures in release order, drifting past and paused on hover. */
 export function DlcStrip({ dlcs }: { dlcs: readonly DlcStripItem[] }) {
   return (
-    <ul
-      aria-label="DLC adventures in release order"
-      className="-mx-[var(--gutter)] flex snap-x scroll-pl-[var(--gutter)] [scrollbar-color:var(--text-faint)_transparent] gap-4 overflow-x-auto px-[var(--gutter)] pt-1 pb-6"
-    >
+    <Marquee label="DLC adventures in release order" itemCount={dlcs.length}>
       {dlcs.map((dlc) => (
         <li key={dlc.slug} className="w-48 shrink-0 snap-start">
           <Card interactive asChild padding="sm" className="h-full">
@@ -56,6 +54,6 @@ export function DlcStrip({ dlcs }: { dlcs: readonly DlcStripItem[] }) {
           </Card>
         </li>
       ))}
-    </ul>
+    </Marquee>
   );
 }

@@ -604,6 +604,35 @@
   }
 }
 
+/*
+ * Marquee (hub rows): one visible list plus hidden copies, the track slides left by one list's width
+ * (1 list + 3 clones = 25 %) and starts over, which is invisible because the copies are identical.
+ * Only for a mouse and only without reduced motion; otherwise it stays a plain scroll-snap row.
+ */
+@keyframes dc-marquee {
+  to {
+    transform: translateX(-25%);
+  }
+}
+.marquee-clone {
+  display: none;
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .marquee {
+    overflow-x: hidden;
+  }
+  .marquee-clone {
+    display: flex;
+  }
+  .marquee-track {
+    animation: dc-marquee var(--marquee-duration, 40s) linear infinite;
+  }
+  .marquee:hover .marquee-track,
+  .marquee:focus-within .marquee-track {
+    animation-play-state: paused;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .reveal,
   .reveal:not(.in) {
