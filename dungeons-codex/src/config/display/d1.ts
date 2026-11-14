@@ -38,7 +38,7 @@ export const D1_DISPLAY: Record<CategorySlug<'d1'>, DisplayConfig> = {
       },
     ],
     detailSections: ['stats', 'properties', 'forge', 'enchantments', 'locations', 'variants'],
-    defaultSort: 'name-asc',
+    defaultSort: 'rarity-desc',
   },
   armor: {
     cardStats: [{ label: 'RED', field: 'damageReduction', format: 'percent' }],
@@ -73,7 +73,7 @@ export const D1_DISPLAY: Record<CategorySlug<'d1'>, DisplayConfig> = {
       },
     ],
     detailSections: ['stats', 'properties', 'forge', 'enchantments', 'locations', 'variants'],
-    defaultSort: 'name-asc',
+    defaultSort: 'rarity-desc',
   },
   enchantments: {
     cardStats: [{ label: 'COST', field: 'totalCost', format: 'int' }],
@@ -116,7 +116,7 @@ export const D1_DISPLAY: Record<CategorySlug<'d1'>, DisplayConfig> = {
       { label: 'Properties', field: 'properties', format: 'list' },
     ],
     detailSections: ['stats', 'properties', 'locations'],
-    defaultSort: 'name-asc',
+    defaultSort: 'rarity-desc',
   },
   dlcs: {
     cardStats: [{ label: 'RELEASED', field: 'releaseDate', format: 'date' }],

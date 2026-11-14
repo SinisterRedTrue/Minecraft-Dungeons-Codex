@@ -97,13 +97,7 @@ export default async function CategoryPage({ params }: { params: Params }) {
       </div>
       <Suspense
         fallback={
-          <BrowserFallback
-            items={items}
-            sort={filters.sort}
-            grid={grid}
-            label={config.label}
-            withSidebar={filters.defs.length > 0}
-          />
+          <BrowserFallback items={items} sort={filters.sort} grid={grid} label={config.label} />
         }
       >
         <NuqsAdapter>

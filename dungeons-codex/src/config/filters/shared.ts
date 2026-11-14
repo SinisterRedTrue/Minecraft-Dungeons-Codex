@@ -7,6 +7,7 @@ import type {
   MultiDef,
   Option,
   RangeDef,
+  SortKey,
   SortOption,
   ToggleDef,
   TypeDef,
@@ -51,13 +52,22 @@ export const sortOption = (
   field: string,
   dir: 'asc' | 'desc',
   rank?: readonly string[],
-): SortOption => ({ value, label, field, dir, ...(rank ? { rank } : {}) });
+  then?: readonly SortKey[],
+): SortOption => ({
+  value,
+  label,
+  field,
+  dir,
+  ...(rank ? { rank } : {}),
+  ...(then ? { then } : {}),
+});
 
 export const rarityFilter = (): MultiDef =>
   multiDef({ key: 'rarity', param: 'r', label: 'Rarity', field: 'rarity', order: RARITY_ORDER });
 
-export const rarityDescSort = (): SortOption =>
-  sortOption('rarity-desc', 'Rarity', 'rarity', 'desc', RARITY_ORDER);
+/** Rarest first; items of equal rarity are ranked by the category's key stat(s), best first. */
+export const rarityDescSort = (then: readonly SortKey[] = []): SortOption =>
+  sortOption('rarity-desc', 'Rarity (best first)', 'rarity', 'desc', RARITY_ORDER, then);
 
 export const dlcFilter = (): MultiDef =>
   multiDef({

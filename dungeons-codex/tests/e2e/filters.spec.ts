@@ -33,7 +33,9 @@ test.describe('/d1/weapons filters', () => {
     const melee = await resultCount(page);
     expect(melee).toBeLessThan(total);
 
-    // Level 2 appears under the chosen level 1.
+    // The simple bar has no sub-types; level 2 sits in the Advanced panel under the chosen level 1.
+    await expect(page.getByRole('button', { name: /^Daggers\b/ })).toHaveCount(0);
+    await page.getByRole('button', { name: /^Advanced filters/ }).click();
     await page.getByRole('button', { name: /^Daggers\b/ }).click();
     await expect.poll(() => query(page).get('wt')).toBe('daggers');
     await countIs(page, 4);
@@ -106,6 +108,7 @@ test.describe('/d1/weapons filters', () => {
 
   test('facet counts mute options that would give nothing', async ({ page }) => {
     await page.goto('/d1/weapons?t=ranged');
+    await page.getByRole('button', { name: /^Advanced filters/ }).click();
     // Combo length is a melee-only filter, so it disappears with Ranged.
     await expect(page.getByText('Combo length')).toBeHidden();
     await page.getByRole('button', { name: /^Melee\b/ }).click();
@@ -146,6 +149,7 @@ test.describe('views, sorting and special cases', () => {
     const all = countOf('d2', 'weapons');
     await page.goto('/d2/weapons');
     await countIs(page, all - 4);
+    await page.getByRole('button', { name: /^Advanced filters/ }).click();
     await page.getByRole('checkbox', { name: 'Show unobtainable' }).click();
     await countIs(page, all);
     expect(query(page).get('uo')).toBe('1');
@@ -167,6 +171,7 @@ test.describe('views, sorting and special cases', () => {
 
   test('the long armor-set list is a searchable picker', async ({ page }) => {
     await page.goto('/d2/armor');
+    await page.getByRole('button', { name: /^Advanced filters/ }).click();
     await page.getByRole('button', { name: /Armor set: All/ }).click();
     await page.getByRole('searchbox', { name: 'Search armor set' }).fill('beekeeper');
     await page.getByRole('button', { name: /^Beekeeper Armor/ }).click();
@@ -177,7 +182,7 @@ test.describe('views, sorting and special cases', () => {
   test('DLCs are release-order cards with no filter panel', async ({ page }) => {
     await page.goto('/d1/dlcs');
     await countIs(page, countOf('d1', 'dlcs'));
-    await expect(page.getByRole('complementary', { name: 'Filters' })).toHaveCount(0);
+    await expect(page.getByRole('complementary', { name: 'Advanced filters' })).toHaveCount(0);
     await expect(page.getByRole('searchbox')).toHaveCount(0);
     const names = await page
       .getByRole('list', { name: 'DLCs' })

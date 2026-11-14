@@ -10,8 +10,7 @@ import { RESERVED_PARAMS, getFilterConfig } from '@/config/filters';
 import { createLoaders } from '@/lib/data/loaders';
 import { getValues } from '@/lib/filters/path';
 import { toToken } from '@/lib/filters/tokens';
-import { tokensOf } from '@/lib/filters/engine';
-import { isShown } from '@/lib/filters/engine';
+import { isShown, sortItems, tokensOf } from '@/lib/filters/engine';
 
 const loaders = createLoaders();
 const PAIRS = allGameCategories();
@@ -131,6 +130,37 @@ describe('category configs', () => {
     for (const { game, category } of PAIRS) {
       const size = JSON.stringify(loaders.getListItems(game, category as never)).length;
       expect(size, `${game}/${category} = ${size} bytes`).toBeLessThan(150_000);
+    }
+  });
+  it('lists the rarest items first by default where a category has rarity', () => {
+    const ranked = PAIRS.filter(
+      ({ game, category }) => getCategoryConfig(game, category)?.defaultSort === 'rarity-desc',
+    );
+    // Weapons and armor in both games, plus Dungeons artifacts.
+    expect(ranked.map((p) => `${p.game}/${p.category}`).sort()).toEqual([
+      'd1/armor',
+      'd1/artifacts',
+      'd1/weapons',
+      'd2/armor',
+      'd2/weapons',
+    ]);
+    for (const { game, category } of ranked) {
+      const filters = getFilterConfig(game, category);
+      const items = loaders.getListItems(game, category as never);
+      if (!filters) throw new Error('missing filters');
+      const sorted = sortItems(items, filters.sort, filters.sort.default);
+      const order = ['common', 'rare', 'special', 'unique'];
+      const ranks = sorted.map((i) => order.indexOf(String(i.rarity)));
+      expect(ranks, `${game}/${category}`).toEqual([...ranks].sort((a, b) => b - a));
+    }
+  });
+
+  it('only marks toggles as quick filters', () => {
+    for (const { game, category } of PAIRS) {
+      for (const def of getFilterConfig(game, category)?.defs ?? []) {
+        if (def.kind !== 'text' && def.quick)
+          expect(def.kind, `${game}/${category} ${def.key}`).toBe('toggle');
+      }
     }
   });
 });

@@ -3,8 +3,10 @@ import {
   multiDef,
   opts,
   rangeDef,
+  rarityDescSort,
   rarityFilter,
   sortOption,
+  toggleDef,
   typeDef,
   type CategoryFilters,
 } from '../shared';
@@ -27,6 +29,7 @@ export const D2_ARMOR: CategoryFilters = {
     // 38 sets: a searchable list instead of a chip row, and reachable without picking a slot.
     typeDef({ key: 'armorSet', param: 'as', label: 'Armor set', field: 'armorSet', level: 2 }),
     rarityFilter(),
+    toggleDef({ key: 'unique', param: 'u', label: 'Unique only', field: 'isUnique', quick: true }),
     rangeDef({
       key: 'reduction',
       param: 'dr',
@@ -46,6 +49,7 @@ export const D2_ARMOR: CategoryFilters = {
     locationFilter(),
   ],
   sorts: [
+    rarityDescSort([{ field: 'damageReduction', dir: 'desc' }]),
     sortOption('dr-desc', 'Damage reduction (high to low)', 'damageReduction', 'desc'),
     sortOption('dr-asc', 'Damage reduction (low to high)', 'damageReduction', 'asc'),
   ],

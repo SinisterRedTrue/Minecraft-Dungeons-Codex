@@ -1,6 +1,6 @@
 /** Sorting of filtered results. */
 import { getValues } from './path';
-import type { Item, SortDef } from './types';
+import type { Item, SortDef, SortKey } from './types';
 
 const collator = new Intl.Collator('en', { sensitivity: 'base', numeric: true });
 
@@ -17,24 +17,32 @@ export function sortItems<T extends Item>(
     collator.compare(String(a.name), String(b.name)) ||
     collator.compare(String(a.id), String(b.id));
   if (!option) return [...items].sort(byName);
-  const sign = option.dir === 'asc' ? 1 : -1;
-  const keyOf = (item: T): number | string | undefined => {
-    const v = getValues(item, option.field)[0];
+  const keys: readonly SortKey[] = [option, ...(option.then ?? [])];
+  const keyOf = (item: T, key: SortKey): number | string | undefined => {
+    const v = getValues(item, key.field)[0];
     if (v === undefined) return undefined;
-    if (option.rank) return option.rank.indexOf(String(v));
+    if (key.rank) return key.rank.indexOf(String(v));
     return typeof v === 'number' ? v : String(v);
   };
-  return [...items].sort((a, b) => {
-    const ka = keyOf(a);
-    const kb = keyOf(b);
+  const compareBy = (a: T, b: T, key: SortKey): number => {
+    const ka = keyOf(a, key);
+    const kb = keyOf(b, key);
+    // Items missing the field go last in either direction.
     if (ka === undefined || kb === undefined) {
-      if (ka === kb) return byName(a, b);
+      if (ka === kb) return 0;
       return ka === undefined ? 1 : -1;
     }
     const diff =
       typeof ka === 'number' && typeof kb === 'number'
         ? ka - kb
         : collator.compare(`${ka}`, `${kb}`);
-    return diff === 0 ? byName(a, b) : sign * diff;
+    return (key.dir === 'asc' ? 1 : -1) * diff;
+  };
+  return [...items].sort((a, b) => {
+    for (const key of keys) {
+      const result = compareBy(a, b, key);
+      if (result !== 0) return result;
+    }
+    return byName(a, b);
   });
 }

@@ -75,6 +75,6 @@ export const D1_ARMOR: CategoryFilters = {
   sorts: [
     sortOption('dr-desc', 'Damage reduction (high to low)', 'damageReduction', 'desc'),
     sortOption('dr-asc', 'Damage reduction (low to high)', 'damageReduction', 'asc'),
-    rarityDescSort(),
+    rarityDescSort([{ field: 'damageReduction', dir: 'desc' }]),
   ],
 };

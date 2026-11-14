@@ -3,6 +3,7 @@ import {
   locationFilter,
   opts,
   rangeDef,
+  rarityDescSort,
   sortOption,
   toggleDef,
   typeDef,
@@ -39,6 +40,7 @@ export const D1_ARTIFACTS: CategoryFilters = {
     locationFilter(),
   ],
   sorts: [
+    rarityDescSort([{ field: 'cooldownSeconds', dir: 'asc' }]),
     sortOption('cd-asc', 'Cooldown (short to long)', 'cooldownSeconds', 'asc'),
     sortOption('cd-desc', 'Cooldown (long to short)', 'cooldownSeconds', 'desc'),
   ],

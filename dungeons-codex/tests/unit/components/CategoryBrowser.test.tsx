@@ -19,7 +19,7 @@ const items = ITEMS.map((i) => ({
 const base: CategoryBrowserProps = {
   label: 'Weapons',
   items,
-  defs: [KIND, WEAPON_TYPE, DAMAGE, PROPS, UNIQUE, TEXT_DEF],
+  defs: [KIND, WEAPON_TYPE, DAMAGE, PROPS, { ...UNIQUE, quick: true }, TEXT_DEF],
   sort: SORT,
   grid: {
     cardStats: [{ label: 'DMG', field: 'stats.damage', format: 'decimal' }],
@@ -73,11 +73,49 @@ describe('CategoryBrowser', () => {
     expect(screen.getAllByRole('article')).toHaveLength(5);
   });
 
-  it('choosing a chip pushes it to the URL and reveals level 2', async () => {
+  it('starts with the simple bar and no advanced panel', () => {
+    setup();
+    expect(screen.getByRole('group', { name: 'Quick filters' })).toBeInTheDocument();
+    expect(screen.getByRole('group', { name: 'Type' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Unique only' })).toHaveAttribute(
+      'aria-pressed',
+      'false',
+    );
+    expect(screen.getByRole('searchbox', { name: 'Search in results' })).toBeInTheDocument();
+    expect(screen.queryByRole('complementary', { name: 'Advanced filters' })).toBeNull();
+    expect(screen.queryByRole('spinbutton', { name: 'Minimum Damage' })).toBeNull();
+    expect(screen.getByRole('button', { name: /^Advanced filters/ })).toHaveAttribute(
+      'aria-expanded',
+      'false',
+    );
+  });
+
+  it('the Advanced button reveals and hides the full filter panel', async () => {
+    setup();
+    const toggle = screen.getByRole('button', { name: /^Advanced filters/ });
+    await userEvent.click(toggle);
+    expect(toggle).toHaveAttribute('aria-expanded', 'true');
+    const panel = screen.getByRole('complementary', { name: 'Advanced filters' });
+    expect(within(panel).getByRole('spinbutton', { name: 'Minimum Damage' })).toBeInTheDocument();
+    // The quick filters are not repeated in the panel.
+    expect(within(panel).queryByRole('checkbox', { name: 'Unique only' })).toBeNull();
+    await userEvent.click(toggle);
+    expect(screen.queryByRole('complementary', { name: 'Advanced filters' })).toBeNull();
+  });
+
+  it('opens the advanced panel when the URL already uses an advanced filter', () => {
+    setup('p=dual-wield');
+    expect(screen.getByRole('complementary', { name: 'Advanced filters' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Advanced filters (1)' })).toBeInTheDocument();
+  });
+
+  it('choosing a chip pushes it to the URL and reveals level 2 in the advanced panel', async () => {
     const { lastQuery, lastHistory } = setup();
     await userEvent.click(screen.getByRole('button', { name: /^Melee/ }));
     expect(lastQuery()).toBe('?t=melee');
     expect(lastHistory()).toBe('push');
+    expect(screen.queryByRole('group', { name: 'Weapon type' })).toBeNull();
+    await userEvent.click(screen.getByRole('button', { name: /^Advanced filters/ }));
     expect(screen.getByRole('group', { name: 'Weapon type' })).toBeInTheDocument();
     await userEvent.click(screen.getByRole('button', { name: /^Daggers/ }));
     expect(lastQuery()).toBe('?t=melee&wt=daggers');
@@ -86,10 +124,10 @@ describe('CategoryBrowser', () => {
 
   it('a toggle and a property go to the URL; Clear all empties it', async () => {
     const { lastQuery } = setup();
-    // The panel is in the DOM twice only when the sheet is open; here it is the sidebar copy.
-    await userEvent.click(screen.getByRole('checkbox', { name: 'Unique only' }));
+    await userEvent.click(screen.getByRole('button', { name: 'Unique only' }));
     expect(lastQuery()).toBe('?u=1');
     expect(screen.getAllByRole('article')).toHaveLength(2);
+    await userEvent.click(screen.getByRole('button', { name: /^Advanced filters/ }));
     await userEvent.click(screen.getByRole('checkbox', { name: /Charged Shots/ }));
     expect(lastQuery()).toBe('?u=1&p=charged-shots');
     expect(screen.getAllByRole('article')).toHaveLength(1);
@@ -100,6 +138,7 @@ describe('CategoryBrowser', () => {
 
   it('a range and the search box replace the history entry', async () => {
     const { lastQuery, lastHistory } = setup();
+    await userEvent.click(screen.getByRole('button', { name: /^Advanced filters/ }));
     const min = screen.getByRole('spinbutton', { name: 'Minimum Damage' });
     await userEvent.clear(min);
     await userEvent.type(min, '7{Enter}');
@@ -144,12 +183,12 @@ describe('CategoryBrowser', () => {
   });
 
   it('the mobile sheet shows the live count and clears', async () => {
-    setup('u=1');
-    await userEvent.click(screen.getByRole('button', { name: 'Filters (1)' }));
-    const sheet = screen.getByRole('dialog', { name: 'Filters' });
+    setup('p=dual-wield');
+    await userEvent.click(screen.getByRole('button', { name: 'Advanced (1)' }));
+    const sheet = screen.getByRole('dialog', { name: 'Advanced filters' });
     // The search box must not grab focus (it would open the phone keyboard).
     expect(sheet).toHaveFocus();
-    expect(within(sheet).getByRole('button', { name: 'Show 2 results' })).toBeInTheDocument();
+    expect(within(sheet).getByRole('button', { name: 'Show 3 results' })).toBeInTheDocument();
     await userEvent.click(within(sheet).getByRole('button', { name: 'Clear' }));
     expect(within(sheet).getByRole('button', { name: 'Show 5 results' })).toBeInTheDocument();
     await userEvent.click(within(sheet).getByRole('button', { name: 'Show 5 results' }));
@@ -159,8 +198,10 @@ describe('CategoryBrowser', () => {
   it('has no filter UI when there are no filters (DLC cards)', () => {
     setup('', { defs: [], label: 'DLCs' });
     expect(screen.queryByRole('searchbox')).not.toBeInTheDocument();
-    expect(screen.queryByRole('complementary', { name: 'Filters' })).not.toBeInTheDocument();
-    expect(screen.queryByRole('button', { name: /^Filters/ })).not.toBeInTheDocument();
+    expect(
+      screen.queryByRole('complementary', { name: 'Advanced filters' }),
+    ).not.toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: /^Advanced/ })).not.toBeInTheDocument();
     expect(screen.getAllByRole('article')).toHaveLength(5);
   });
 

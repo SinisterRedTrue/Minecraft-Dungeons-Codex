@@ -26,6 +26,11 @@ interface DefBase {
   param: string;
   label: string;
   showWhen?: Cond;
+  /**
+   * Shown in the simple filter bar above the cards (level 1 type rows always are). Everything
+   * else lives behind "Advanced filters". Only toggles are supported as extra quick filters.
+   */
+  quick?: boolean;
 }
 
 export interface TypeDef extends DefBase {
@@ -86,13 +91,18 @@ export interface TextDef {
 export type FilterDef = TypeDef | RangeDef | MultiDef | ToggleDef | TextDef;
 export type OptionDef = TypeDef | MultiDef;
 
-export interface SortOption {
-  value: string;
-  label: string;
+export interface SortKey {
   field: string;
   dir: 'asc' | 'desc';
   /** Order of the field's values, lowest first (for example rarity). Others sort by value. */
   rank?: readonly string[];
+}
+
+export interface SortOption extends SortKey {
+  value: string;
+  label: string;
+  /** Tiebreakers applied in order before the name (rarity, then the category's key stat). */
+  then?: readonly SortKey[];
 }
 
 export interface SortDef {

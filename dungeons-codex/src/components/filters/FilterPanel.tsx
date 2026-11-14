@@ -4,6 +4,7 @@ import { ChevronDown } from 'lucide-react';
 import { useMemo, type ReactNode } from 'react';
 import { MultiFilter } from '@/components/filters/MultiFilter';
 import { RangeFilter } from '@/components/filters/RangeFilter';
+import { BrowserTypeRows } from '@/components/filters/BrowserTypeRows';
 import { SearchInput } from '@/components/filters/SearchInput';
 import { ToggleFilter } from '@/components/filters/ToggleFilter';
 import {
@@ -36,6 +37,12 @@ export type FilterPanelProps = {
   /** Resolved options for every type/multi def, by key. */
   options: Readonly<Record<string, readonly Option[]>>;
   onChange: PanelChange;
+  /**
+   * The Category Browser's "Advanced filters" panel: the simple bar above the cards already has
+   * the level 1 types, quick toggles and search, so the panel adds level 2 types and leaves those
+   * out. Without it (the Build Planner's picker) the panel carries the search and every toggle.
+   */
+  advanced?: boolean;
 };
 
 function Group({ title, children }: { title: string; children: ReactNode }) {
@@ -55,17 +62,24 @@ function Group({ title, children }: { title: string; children: ReactNode }) {
 }
 
 /**
- * Everything except the type rows: the in-results search and one group per range, multi and
- * toggle filter that is currently shown and has data. Used in the desktop sidebar and the
- * mobile sheet alike.
+ * One group per range, multi and toggle filter that is currently shown and has data, plus the
+ * in-results search. Used in the desktop sidebar and the mobile sheet alike.
  */
-export function FilterPanel({ items, defs, state, counts, options, onChange }: FilterPanelProps) {
+export function FilterPanel({
+  items,
+  defs,
+  state,
+  counts,
+  options,
+  onChange,
+  advanced = false,
+}: FilterPanelProps) {
+  const text = defs.find((d) => d.kind === 'text');
   const available = useMemo(
     () =>
       new Set(defs.filter((d) => d.kind !== 'range' && hasData(items, d, {})).map((d) => d.key)),
     [items, defs],
   );
-  const text = defs.find((d) => d.kind === 'text');
 
   const rangeBlock = (def: RangeDef) => {
     const bounds = rangeBounds(items, def, state);
@@ -98,17 +112,33 @@ export function FilterPanel({ items, defs, state, counts, options, onChange }: F
   );
 
   const toggles = defs.flatMap((def) =>
-    def.kind === 'toggle' && isShown(def, state) && available.has(def.key) ? [def] : [],
+    def.kind === 'toggle' &&
+    !(advanced && def.quick) &&
+    isShown(def, state) &&
+    available.has(def.key)
+      ? [def]
+      : [],
   );
 
   return (
     <div className="flex flex-col gap-3">
-      {text && (
-        <SearchInput
-          value={stateString(state[text.param]) ?? ''}
-          onChange={(q) => onChange({ [text.param]: q === '' ? null : q }, 'replace')}
-          label="Search in results"
+      {advanced ? (
+        <BrowserTypeRows
+          level={2}
+          defs={defs}
+          state={state}
+          counts={counts}
+          options={options}
+          onChange={onChange}
         />
+      ) : (
+        text && (
+          <SearchInput
+            value={stateString(state[text.param]) ?? ''}
+            onChange={(q) => onChange({ [text.param]: q === '' ? null : q }, 'replace')}
+            label="Search in results"
+          />
+        )
       )}
       {defs.map((def) => {
         if (!isShown(def, state)) return null;

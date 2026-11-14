@@ -87,49 +87,49 @@ test.describe('mobile navigation', () => {
 });
 
 test.describe('category filters on a phone', () => {
-  test('the Filters button opens a sheet whose footer shows the live count and clears', async ({
+  test('the Advanced button opens a sheet whose footer shows the live count and clears', async ({
     page,
   }) => {
     const total = countOf('d1', 'weapons');
     await page.goto('/d1/weapons');
-    // The sidebar is not on screen; the type chips are.
-    await expect(page.getByRole('complementary', { name: 'Filters' })).toBeHidden();
+    // The sidebar is not on screen; the simple bar (type chips, Unique only) is.
+    await expect(page.getByRole('complementary', { name: 'Advanced filters' })).toBeHidden();
     await expect(page.getByRole('button', { name: /^Melee\b/ })).toBeVisible();
+    await expect(page.getByRole('button', { name: 'Unique only' })).toBeVisible();
 
-    await page.getByRole('button', { name: 'Filters', exact: true }).click();
-    const sheet = page.getByRole('dialog', { name: 'Filters' });
+    await page.getByRole('button', { name: 'Advanced', exact: true }).click();
+    const sheet = page.getByRole('dialog', { name: 'Advanced filters' });
     await expect(sheet).toBeVisible();
-    await sheet.getByRole('checkbox', { name: /Unique only/ }).click();
+    await sheet.getByRole('checkbox', { name: /Crowd Control/ }).click();
     const show = sheet.getByRole('button', { name: /^Show [\d,]+ results$/ });
-    await expect(show).toHaveText(/Show 103 results/);
+    await expect(show).not.toHaveText(`Show ${total} results`);
     await show.click();
     await expect(sheet).toBeHidden();
+    expect(new URL(page.url()).searchParams.get('p')).toBe('crowd-control');
 
-    await expect(page.getByRole('status').filter({ hasText: /results/ })).toHaveText(
-      `103 results of ${total}`,
-    );
-    expect(new URL(page.url()).searchParams.get('u')).toBe('1');
-
-    await page.getByRole('button', { name: 'Filters (1)' }).click();
+    await page.getByRole('button', { name: 'Advanced (1)' }).click();
     await page
-      .getByRole('dialog', { name: 'Filters' })
+      .getByRole('dialog', { name: 'Advanced filters' })
       .getByRole('button', { name: 'Clear' })
       .click();
     await expect(
       page
-        .getByRole('dialog', { name: 'Filters' })
+        .getByRole('dialog', { name: 'Advanced filters' })
         .getByRole('button', { name: /^Show \d+ results$/ }),
     ).toHaveText(`Show ${total} results`);
     await page.keyboard.press('Escape');
-    await expect(page.getByRole('button', { name: 'Filters', exact: true })).toBeVisible();
+    await expect(page.getByRole('button', { name: 'Advanced', exact: true })).toBeVisible();
   });
 
-  test('the type chips scroll sideways inside their row, not the page', async ({ page }) => {
+  test('the weapon types wrap inside the Advanced sheet, not off the page', async ({ page }) => {
     await page.goto('/d1/weapons?t=melee');
-    const row = page.getByRole('group', { name: 'Weapon type' });
+    await page.getByRole('button', { name: 'Advanced', exact: true }).click();
+    const row = page
+      .getByRole('dialog', { name: 'Advanced filters' })
+      .getByRole('group', { name: 'Weapon type' });
     await expect(row).toBeVisible();
     const scrolls = await row.evaluate((el) => el.scrollWidth > el.clientWidth);
-    expect(scrolls).toBe(true);
+    expect(scrolls).toBe(false);
     expect(await hasHorizontalScroll(page)).toBe(false);
   });
 });

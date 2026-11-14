@@ -293,6 +293,31 @@ describe('sortItems', () => {
     expect(names(sortItems([mixed[0]!, mixed[1]!], SORT, 'health-asc'))).toEqual(['B', 'A']);
   });
 
+  it('ranks equal values by the tiebreaker keys before the name', () => {
+    const sort = {
+      param: 'sort' as const,
+      default: 'rarity-desc',
+      options: [
+        {
+          value: 'rarity-desc',
+          label: 'Rarity',
+          field: 'rarity',
+          dir: 'desc' as const,
+          rank: ['common', 'unique'],
+          then: [{ field: 'stats.damage', dir: 'desc' as const }],
+        },
+      ],
+    };
+    const list = [
+      weapon('Alpha', { rarity: 'common', stats: { damage: 3 } }),
+      weapon('Beta', { rarity: 'common', stats: { damage: 9 } }),
+      weapon('Gamma', { rarity: 'unique', stats: { damage: 1 } }),
+      weapon('Delta', { rarity: 'unique' }),
+    ];
+    // Unique first (strongest, then the one without a stat), then common by damage.
+    expect(names(sortItems(list, sort, undefined))).toEqual(['Gamma', 'Delta', 'Beta', 'Alpha']);
+  });
+
   it('breaks ties by name, then id', () => {
     const tied = [
       weapon('Same', { id: 'b', stats: { damage: 1 } }),

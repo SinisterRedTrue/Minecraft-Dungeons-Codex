@@ -25,11 +25,11 @@ export function FiltersSheet({
     <Sheet>
       <SheetTrigger asChild>
         <Button3D variant="stone" icon={<SlidersHorizontal size={18} aria-hidden="true" />}>
-          Filters{activeCount > 0 ? ` (${activeCount})` : ''}
+          Advanced{activeCount > 0 ? ` (${activeCount})` : ''}
         </Button3D>
       </SheetTrigger>
       <SheetContent
-        title="Filters"
+        title="Advanced filters"
         description="Narrow the results. Changes apply right away."
         focusSheet
       >

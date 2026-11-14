@@ -47,7 +47,13 @@ export const D1_WEAPONS: CategoryFilters = {
       searchable: true,
     }),
     rarityFilter(),
-    toggleDef({ key: 'unique', param: 'u', label: 'Unique only', field: 'isUnique' }),
+    toggleDef({
+      key: 'unique',
+      param: 'u',
+      label: 'Unique only',
+      field: 'isUnique',
+      quick: true,
+    }),
     multiDef({
       key: 'builtIn',
       param: 'be',
@@ -78,6 +84,9 @@ export const D1_WEAPONS: CategoryFilters = {
     sortOption('dmg-asc', 'Damage (low to high)', 'stats.damage', 'asc'),
     sortOption('spd-desc', 'Speed (high to low)', 'stats.speed', 'desc'),
     sortOption('spd-asc', 'Speed (low to high)', 'stats.speed', 'asc'),
-    rarityDescSort(),
+    rarityDescSort([
+      { field: 'stats.damage', dir: 'desc' },
+      { field: 'stats.speed', dir: 'desc' },
+    ]),
   ],
 };

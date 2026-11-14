@@ -1,13 +1,13 @@
 'use client';
 
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import type { GridConfig } from '@/components/entity/EntityGrid';
 import { ActiveFilterChips } from '@/components/filters/ActiveFilterChips';
 import { BrowserResults, type ResultsGroupBy } from '@/components/filters/BrowserResults';
 import { CompareTray } from '@/components/features/compare/CompareTray';
-import { BrowserTypeRows } from '@/components/filters/BrowserTypeRows';
 import { FilterPanel } from '@/components/filters/FilterPanel';
 import { FiltersSheet } from '@/components/filters/FiltersSheet';
+import { ADVANCED_PANEL_ID, QuickFilters } from '@/components/filters/QuickFilters';
 import { ResultsCount } from '@/components/filters/ResultsCount';
 import { SortMenu } from '@/components/filters/SortMenu';
 import { useBrowserState } from '@/components/filters/useBrowserState';
@@ -35,9 +35,20 @@ export interface CategoryBrowserProps {
   compare?: { game: GameId; category: string };
 }
 
+/** Not part of the simple bar: level 2 types, ranges, multis and the non-quick toggles. */
+const isAdvanced = (def: FilterDef): boolean =>
+  def.kind === 'text'
+    ? false
+    : def.kind === 'type'
+      ? def.level !== 1
+      : def.kind === 'toggle'
+        ? def.quick !== true
+        : true;
+
 /**
- * The interactive Category Browser: type rows, filter panel (sidebar on desktop, sheet on
- * phones), toolbar and results, all driven by URL state (`useBrowserState`).
+ * The interactive Category Browser: a simple filter bar over the cards, with the full filter
+ * panel (sidebar on desktop, sheet on phones) behind an "Advanced filters" switch. Cards,
+ * toolbar and filters are all driven by URL state (`useBrowserState`).
  */
 export function CategoryBrowser({
   label,
@@ -78,8 +89,15 @@ export function CategoryBrowser({
   const chips = describeActive(items, defs, state, optionLabel);
   const clearAll = () => update(clearPatch(defs), 'push');
   const filterable = defs.length > 0;
+  const advancedDefs = useMemo(() => defs.filter(isAdvanced), [defs]);
+  const advancedCount = countActive(items, advancedDefs, state);
+  // Until the visitor chooses, the panel is open only if the URL already narrows with it.
+  const [advancedChoice, setAdvancedChoice] = useState<boolean | undefined>(undefined);
+  const advancedOpen = advancedChoice ?? advancedCount > 0;
+  const hasAdvanced = advancedDefs.length > 0;
   const panel = (
     <FilterPanel
+      advanced
       items={items}
       defs={defs}
       state={state}
@@ -93,20 +111,39 @@ export function CategoryBrowser({
   return (
     <div className="flex flex-col gap-6">
       {filterable && (
-        <BrowserTypeRows
+        <QuickFilters
           defs={defs}
           state={state}
           counts={counts}
           options={options}
           onChange={update}
+          advancedOpen={advancedOpen}
+          advancedCount={advancedCount}
+          onToggleAdvanced={() => setAdvancedChoice(!advancedOpen)}
+          sheet={
+            hasAdvanced ? (
+              <FiltersSheet
+                activeCount={advancedCount}
+                resultCount={results.length}
+                onClear={() => update(clearPatch(advancedDefs), 'push')}
+              >
+                {panel}
+              </FiltersSheet>
+            ) : undefined
+          }
         />
       )}
       <div
-        className={filterable ? 'lg:grid lg:grid-cols-[280px_minmax(0,1fr)] lg:gap-8' : undefined}
+        className={
+          hasAdvanced && advancedOpen
+            ? 'lg:grid lg:grid-cols-[280px_minmax(0,1fr)] lg:gap-8'
+            : undefined
+        }
       >
-        {filterable && (
+        {hasAdvanced && advancedOpen && (
           <aside
-            aria-label="Filters"
+            id={ADVANCED_PANEL_ID}
+            aria-label="Advanced filters"
             className="hidden self-start lg:sticky lg:top-24 lg:block lg:max-h-[calc(100dvh-7rem)] lg:overflow-y-auto lg:pr-2"
           >
             {panel}
@@ -116,17 +153,6 @@ export function CategoryBrowser({
           <div className="flex flex-wrap items-center justify-between gap-3">
             <div className="flex items-center gap-3">
               <ResultsCount count={results.length} total={items.length} />
-              {filterable && (
-                <div className="lg:hidden">
-                  <FiltersSheet
-                    activeCount={active}
-                    resultCount={results.length}
-                    onClear={clearAll}
-                  >
-                    {panel}
-                  </FiltersSheet>
-                </div>
-              )}
             </div>
             <div className="flex flex-wrap items-center gap-3">
               <SortMenu sort={sort} value={sortValue} onChange={setSort} />

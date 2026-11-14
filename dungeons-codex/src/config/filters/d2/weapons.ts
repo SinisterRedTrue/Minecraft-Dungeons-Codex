@@ -3,6 +3,7 @@ import {
   multiDef,
   opts,
   rangeDef,
+  rarityDescSort,
   rarityFilter,
   toggleDef,
   typeDef,
@@ -28,6 +29,7 @@ export const D2_WEAPONS: CategoryFilters = {
       showWhen: { param: 't', equals: ['melee', 'ranged'] },
     }),
     rarityFilter(),
+    toggleDef({ key: 'unique', param: 'u', label: 'Unique only', field: 'isUnique', quick: true }),
     multiDef({
       key: 'keywords',
       param: 'p',
@@ -70,5 +72,5 @@ export const D2_WEAPONS: CategoryFilters = {
       hiddenUntilOn: true,
     }),
   ],
-  sorts: [],
+  sorts: [rarityDescSort([{ field: 'primaryEffect', dir: 'desc' }])],
 };

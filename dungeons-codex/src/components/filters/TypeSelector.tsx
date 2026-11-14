@@ -25,6 +25,8 @@ export type TypeSelectorProps = {
   /** Small caption left of the chips, e.g. "Step 1 · Type". */
   eyebrow: string;
   allLabel?: string;
+  /** Caption above the chips instead of left of them (narrow containers such as the sidebar). */
+  stacked?: boolean;
 };
 
 /**
@@ -34,13 +36,22 @@ export type TypeSelectorProps = {
  * with a search box instead.
  */
 export function TypeSelector(props: TypeSelectorProps) {
-  const { options, eyebrow } = props;
+  const { options, eyebrow, stacked } = props;
   return (
-    <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:gap-4">
-      <p className="shrink-0 pt-2 font-pixel text-micro tracking-pixel text-muted uppercase sm:w-28">
+    <div className={cn('flex flex-col gap-2', !stacked && 'sm:flex-row sm:items-start sm:gap-4')}>
+      <p
+        className={cn(
+          'shrink-0 font-pixel text-micro tracking-pixel text-muted uppercase',
+          !stacked && 'pt-2 sm:w-28',
+        )}
+      >
         {eyebrow}
       </p>
-      {options.length > MAX_CHIPS ? <ChipList {...props} combo /> : <ChipList {...props} />}
+      {options.length > MAX_CHIPS ? (
+        <ChipList {...props} combo stacked={stacked} />
+      ) : (
+        <ChipList {...props} stacked={stacked} />
+      )}
     </div>
   );
 }
@@ -53,7 +64,8 @@ function ChipList({
   onChange,
   allLabel = 'All',
   combo,
-}: TypeSelectorProps & { combo?: boolean }) {
+  stacked,
+}: Omit<TypeSelectorProps, 'eyebrow'> & { combo?: boolean }) {
   if (combo) {
     return (
       <OptionPicker
@@ -90,7 +102,12 @@ function ChipList({
       role="group"
       aria-label={def.label}
       onKeyDown={onKeyDown}
-      className="chip-row -mx-[var(--gutter)] flex min-w-0 flex-1 snap-x gap-2 overflow-x-auto px-[var(--gutter)] py-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0"
+      className={cn(
+        'chip-row flex min-w-0 flex-1 gap-2 py-1',
+        stacked
+          ? 'flex-wrap'
+          : '-mx-[var(--gutter)] snap-x overflow-x-auto px-[var(--gutter)] sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0',
+      )}
     >
       <Chip
         selected={value === undefined}

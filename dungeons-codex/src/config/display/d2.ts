@@ -24,7 +24,7 @@ export const D2_DISPLAY: Record<CategorySlug<'d2'>, DisplayConfig> = {
       { label: 'Effect', field: 'effect', format: 'list' },
     ],
     detailSections: ['stats', 'effects', 'forge', 'locations', 'variants'],
-    defaultSort: 'name-asc',
+    defaultSort: 'rarity-desc',
   },
   armor: {
     cardStats: [{ label: 'RED', field: 'damageReduction', format: 'percent' }],
@@ -49,7 +49,7 @@ export const D2_DISPLAY: Record<CategorySlug<'d2'>, DisplayConfig> = {
       { label: 'Effects', field: 'effects', format: 'list' },
     ],
     detailSections: ['effects', 'forge', 'set', 'locations', 'variants'],
-    defaultSort: 'name-asc',
+    defaultSort: 'rarity-desc',
     groupBy: {
       param: 'grp',
       label: 'Group by set',
